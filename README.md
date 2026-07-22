@@ -5,6 +5,28 @@ I build production-ready mobile applications, MVPs, marketplaces, booking system
 
 My main focus is practical mobile development using FlutterFlow, Flutter/Dart, Firebase, Supabase, REST APIs, payment integrations, push notifications, deep links, and App Store / Google Play release.
 
+
+## Visual portfolio
+
+<p align="center">
+  <a href="https://github.com/KostttS/brandi-flo-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/a7533f227565267.Y3JvcCwxNjM2LDEyODAsMCww.jpg" alt="Brandi Flo" width="48%"></a>
+  <a href="https://github.com/KostttS/roadhelp-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/17c911243670127.Y3JvcCwxMzA5LDEwMjQsMTEzLDA.png" alt="RoadHelp" width="48%"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/KostttS/home-help-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/eaee96243668475.Y3JvcCwxODYyLDE0NTcsODcxLDA.png" alt="Home Help" width="48%"></a>
+  <a href="https://github.com/KostttS/olimp-tickets-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/eff494222618009.Y3JvcCwxMzk2LDEwOTEsMCw0MQ.png" alt="Olimp Tickets" width="48%"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/KostttS/elinknest-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/b27ff7236577737.Y3JvcCwyMDQ1LDE2MDAsMCww.png" alt="Elinknest" width="48%"></a>
+  <a href="https://github.com/KostttS/urfa-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/a710a1251553277.Y3JvcCwzNzQwLDI5MjUsMCwyNjQ3.png" alt="URFA" width="48%"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/KostttS/my-way-transfer-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3ba572200880547.Y3JvcCwxNDIzLDExMTMsMCwyNDM.png" alt="My Way" width="48%"></a>
+  <a href="https://github.com/KostttS/west-flora-export-case-study"><img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/fe9c95201005589.Y3JvcCwxNjM2LDEyODAsMzIsMA.png" alt="West Flora Export" width="48%"></a>
+</p>
+
+[View the complete portfolio on Behance](https://www.behance.net/24512dab)
+
 ---
 
 ## What I do
