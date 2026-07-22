@@ -3,7 +3,9 @@
 
 I build production-ready mobile applications, MVPs, marketplaces, booking systems, e-commerce apps, service platforms, and admin panels.
 
-My main focus is practical mobile development using FlutterFlow, Flutter/Dart, Firebase, Supabase, REST APIs, payment integrations, push notifications, deep links, and App Store / Google Play release.
+I work with founders, businesses, and digital agencies — including subcontracting and white-label mobile app development. My focus is practical delivery: FlutterFlow, Flutter/Dart, Firebase, Supabase, REST APIs, payments, push notifications, deep links, and App Store / Google Play releases.
+
+[Behance Portfolio](https://www.behance.net/24512dab) · [LinkedIn](https://www.linkedin.com/in/konstantin-sergeev-a15a66306/)
 
 
 ## Visual portfolio
@@ -45,9 +47,22 @@ My main focus is practical mobile development using FlutterFlow, Flutter/Dart, F
 
 ---
 
+## Technical examples
+
+The profile repository also contains sanitized, reusable examples of implementation patterns used in production work:
+
+- Flutter/Dart distance calculation and sorting
+- deep-link return and payment-status polling
+- Supabase owner-based Row Level Security
+- Firebase Cloud Functions v2 subscription expiry
+
+[Browse the technical examples](./examples/)
+
+---
+
 ## Selected projects
 
-### RoadHelp  
+### [RoadHelp](https://github.com/KostttS/roadhelp-case-study)  
 Roadside assistance mobile app with client and service-provider roles.
 
 **Stack:** FlutterFlow, Supabase, PostgreSQL, SQL, geolocation, JSON data, custom actions, payment flow.
@@ -56,7 +71,7 @@ Built user roles, service search by distance, master availability logic, locatio
 
 ---
 
-### Brandi Flo  
+### [Brandi Flo](https://github.com/KostttS/brandi-flo-case-study)  
 E-commerce mobile app for branded products.
 
 **Stack:** FlutterFlow, Firebase, Firestore, Firebase Storage, REST APIs, push notifications, deep links, payment integration, App Store / Google Play.
@@ -65,7 +80,7 @@ Built product catalog, filters, wishlist, order history, delivery statuses, user
 
 ---
 
-### Olimp Tickets  
+### [Olimp Tickets](https://github.com/KostttS/olimp-tickets-case-study)  
 Bus ticket booking mobile app.
 
 **Stack:** FlutterFlow, Firebase, Firestore, Cloud Functions, Google Maps, push notifications, deep links, payment integration.
@@ -84,11 +99,21 @@ Built route search, stop selection, ticket creation logic, price calculation, pa
 
 ---
 
+## Working with agencies
+
+I can join a project as a subcontractor or white-label mobile development partner and handle:
+
+- mobile application delivery from structure to release
+- Firebase or Supabase backend integration
+- REST APIs, payments, notifications, and deep links
+- App Store and Google Play publishing
+- finishing, debugging, and supporting existing FlutterFlow projects
+
+---
+
 ## Open to
 
-- Mobile App Developer roles
-- FlutterFlow / Flutter projects
-- MVP development
-- Subcontracting for agencies
-- Remote work
-- Relocation opportunities in Europe
+- freelance FlutterFlow and mobile app projects
+- agency subcontracting and white-label delivery
+- MVP development for startups and businesses
+- remote Mobile App Developer roles
