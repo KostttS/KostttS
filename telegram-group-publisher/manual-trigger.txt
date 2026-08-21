@@ -1,0 +1,1 @@
+First publication requested after TELEGRAM_BOT_TOKEN was configured.
