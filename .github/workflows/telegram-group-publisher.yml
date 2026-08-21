@@ -2,6 +2,11 @@ name: Telegram group publisher
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "telegram-group-publisher/manual-trigger.txt"
   schedule:
     # 15:00 Asia/Jerusalem is 12:00 UTC in summer and 13:00 UTC in winter.
     # The Python guard accepts only the trigger matching the current local hour.
@@ -36,10 +41,10 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: "@mobileapplication2026"
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python3 publisher.py --publish-now
-          else
+          if [ "${{ github.event_name }}" = "schedule" ]; then
             python3 publisher.py --scheduled
+          else
+            python3 publisher.py --publish-now
           fi
 
       - name: Save publication state
