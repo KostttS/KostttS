@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "telegram-group-publisher/manage-trigger.txt"
+  schedule:
+    - cron: "30 9 * * 4"
 
 permissions:
   contents: write
@@ -30,11 +32,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Audit and improve group
+      - name: Audit group and apply requested improvements
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: "@mobileapplication2026"
-        run: python3 telegram_admin.py --apply
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python3 telegram_admin.py --apply
+          else
+            python3 telegram_admin.py
+          fi
 
       - name: Save sanitized audit
         run: |
