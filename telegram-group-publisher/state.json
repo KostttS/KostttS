@@ -1,6 +1,16 @@
 {
-  "published_ids": [],
-  "history": [],
-  "last_publish_date": null
+  "published_ids": [
+    "mvp-launch"
+  ],
+  "history": [
+    {
+      "post_id": "mvp-launch",
+      "message_id": 351,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-08-22T01:31:33.732951+03:00",
+      "caption_sha256": "7d11b5935cea9d4573f996fb14d2a02f6b51cf294331c8c91362fe366147165d"
+    }
+  ],
+  "last_publish_date": "2026-08-22"
 }
-
