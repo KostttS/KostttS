@@ -1,0 +1,5 @@
+.env
+.publisher.lock
+state.json.tmp
+__pycache__/
+*.py[cod]

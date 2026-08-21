@@ -1,0 +1,55 @@
+name: Telegram group publisher
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 15:00 Asia/Jerusalem is 12:00 UTC in summer and 13:00 UTC in winter.
+    # The Python guard accepts only the trigger matching the current local hour.
+    - cron: "0 12 * * 0,1,3,5"
+    - cron: "0 13 * * 0,1,3,5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-group-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: telegram-group-publisher
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publish next post
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: "@mobileapplication2026"
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python3 publisher.py --publish-now
+          else
+            python3 publisher.py --scheduled
+          fi
+
+      - name: Save publication state
+        run: |
+          if git diff --quiet -- state.json; then
+            echo "No publication state change."
+            exit 0
+          fi
+          git config user.name "telegram-publisher[bot]"
+          git config user.email "telegram-publisher[bot]@users.noreply.github.com"
+          git add -- state.json
+          git commit -m "Record Telegram publication"
+          git push
