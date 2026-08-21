@@ -1,1 +1,1 @@
-First publication requested after TELEGRAM_BOT_TOKEN was configured.
+Publish the next queued Telegram post after applying the group growth upgrade.
