@@ -14,8 +14,8 @@ always-on server is required.
 4. Open **Actions → Telegram group publisher → Run workflow** to publish the
    first queued post immediately.
 
-After that, GitHub Actions runs automatically on Monday, Wednesday, Friday and
-Sunday at 15:00 in `Asia/Jerusalem`. Two UTC triggers cover both Israeli winter
+After that, GitHub Actions runs automatically from Sunday through Friday at
+15:00 in `Asia/Jerusalem`. Two UTC triggers cover both Israeli winter
 and summer time; `publisher.py` accepts only the correct local-hour run and
 prevents a second post on the same local date.
 

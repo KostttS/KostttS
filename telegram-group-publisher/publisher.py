@@ -16,6 +16,7 @@ import os
 import secrets
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -29,7 +30,7 @@ STATE_PATH = ROOT / "state.json"
 LOCK_PATH = ROOT / ".publisher.lock"
 ENV_PATH = ROOT / ".env"
 TIMEZONE = ZoneInfo("Asia/Jerusalem")
-PUBLISH_WEEKDAYS = {0, 2, 4, 6}  # Monday, Wednesday, Friday, Sunday
+PUBLISH_WEEKDAYS = {0, 1, 2, 3, 4, 6}  # Sunday through Friday; Saturday off
 PUBLISH_HOUR = 15  # Asia/Jerusalem; workflow runs at both possible UTC offsets
 MAX_CAPTION_LENGTH = 1024
 
@@ -160,6 +161,41 @@ def telegram_send_photo(
     return payload["result"]
 
 
+def telegram_call(
+    token: str, method: str, fields: dict[str, Any]
+) -> dict[str, Any] | bool:
+    encoded_fields: dict[str, str] = {}
+    for key, value in fields.items():
+        if isinstance(value, bool):
+            encoded_fields[key] = "true" if value else "false"
+        elif isinstance(value, (dict, list)):
+            encoded_fields[key] = json.dumps(value, ensure_ascii=False)
+        else:
+            encoded_fields[key] = str(value)
+
+    request = urllib.request.Request(
+        f"https://api.telegram.org/bot{token}/{method}",
+        data=urllib.parse.urlencode(encoded_fields).encode("utf-8"),
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded",
+            "User-Agent": "TelegramGroupPublisher/1.0",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=60) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise PublisherError(f"Telegram HTTP {exc.code}: {detail}") from exc
+    except urllib.error.URLError as exc:
+        raise PublisherError(f"Telegram connection failed: {exc.reason}") from exc
+
+    if not payload.get("ok"):
+        raise PublisherError(f"Telegram rejected {method}: {payload}")
+    return payload.get("result", True)
+
+
 def should_publish_scheduled(state: dict[str, Any], now: datetime) -> tuple[bool, str]:
     today = now.date().isoformat()
     if now.weekday() not in PUBLISH_WEEKDAYS:
@@ -215,6 +251,24 @@ def publish(dry_run: bool, scheduled: bool) -> int:
                 f"Telegram returned an unexpected chat @{actual_username}; state not advanced."
             )
 
+    pinned = False
+    pin_error: str | None = None
+    if post.get("pin") and message_id is not None:
+        try:
+            telegram_call(
+                token,
+                "pinChatMessage",
+                {
+                    "chat_id": chat_id,
+                    "message_id": message_id,
+                    "disable_notification": True,
+                },
+            )
+            pinned = True
+        except PublisherError as exc:
+            pin_error = str(exc)
+            print(f"WARNING: post sent, but pinning failed: {exc}", file=sys.stderr)
+
     published_ids = list(state.get("published_ids", []))
     published_ids.append(post["id"])
     history = list(state.get("history", []))
@@ -226,6 +280,8 @@ def publish(dry_run: bool, scheduled: bool) -> int:
             "chat_username": actual_username,
             "published_at": now.isoformat(),
             "caption_sha256": hashlib.sha256(post["caption"].encode("utf-8")).hexdigest(),
+            "pinned": pinned,
+            "pin_error": pin_error,
         }
     )
     state.update(
@@ -248,7 +304,7 @@ def main() -> int:
     mode.add_argument(
         "--scheduled",
         action="store_true",
-        help="Publish at 15:00 Asia/Jerusalem on Mon/Wed/Fri/Sun, once per day.",
+        help="Publish at 15:00 Asia/Jerusalem on Sun-Fri, once per day.",
     )
     args = parser.parse_args()
 

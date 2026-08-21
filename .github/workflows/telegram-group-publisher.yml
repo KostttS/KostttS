@@ -10,8 +10,8 @@ on:
   schedule:
     # 15:00 Asia/Jerusalem is 12:00 UTC in summer and 13:00 UTC in winter.
     # The Python guard accepts only the trigger matching the current local hour.
-    - cron: "0 12 * * 0,1,3,5"
-    - cron: "0 13 * * 0,1,3,5"
+    - cron: "0 12 * * 0-5"
+    - cron: "0 13 * * 0-5"
 
 permissions:
   contents: write
