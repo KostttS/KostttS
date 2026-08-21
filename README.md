@@ -5,7 +5,7 @@ I build production-ready mobile applications, MVPs, marketplaces, booking system
 
 I work with founders, businesses, and digital agencies — including subcontracting and white-label mobile app development. My focus is practical delivery: FlutterFlow, Flutter/Dart, Firebase, Supabase, REST APIs, payments, push notifications, deep links, and App Store / Google Play releases.
 
-[Behance Portfolio](https://www.behance.net/24512dab) · [LinkedIn](https://www.linkedin.com/in/konstantin-sergeev-a15a66306/)
+[Behance Portfolio](https://www.behance.net/24512dab) · [Telegram: mobile application development](https://t.me/mobileapplication2026) · [LinkedIn](https://www.linkedin.com/in/konstantin-sergeev-a15a66306/)
 
 
 ## Visual portfolio
