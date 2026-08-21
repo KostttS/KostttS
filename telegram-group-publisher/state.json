@@ -1,6 +1,7 @@
 {
   "published_ids": [
-    "mvp-launch"
+    "mvp-launch",
+    "group-welcome"
   ],
   "history": [
     {
@@ -10,6 +11,16 @@
       "chat_username": "mobileapplication2026",
       "published_at": "2026-08-22T01:31:33.732951+03:00",
       "caption_sha256": "7d11b5935cea9d4573f996fb14d2a02f6b51cf294331c8c91362fe366147165d"
+    },
+    {
+      "post_id": "group-welcome",
+      "message_id": 354,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-08-22T01:49:23.325375+03:00",
+      "caption_sha256": "bb7d90e75460905ca8c4f38c001d4ce96a03a563c03bc6f81002237a28ac30ab",
+      "pinned": true,
+      "pin_error": null
     }
   ],
   "last_publish_date": "2026-08-22"
