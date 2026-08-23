@@ -1,7 +1,8 @@
 {
   "published_ids": [
     "mvp-launch",
-    "group-welcome"
+    "group-welcome",
+    "roadhelp-case"
   ],
   "history": [
     {
@@ -21,7 +22,17 @@
       "caption_sha256": "bb7d90e75460905ca8c4f38c001d4ce96a03a563c03bc6f81002237a28ac30ab",
       "pinned": true,
       "pin_error": null
+    },
+    {
+      "post_id": "roadhelp-case",
+      "message_id": 356,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-08-23T15:39:36.149438+03:00",
+      "caption_sha256": "18077be5e83d28f9b5f3fbbbce624ff34520c3042a869002a8f7ab7083a87acf",
+      "pinned": false,
+      "pin_error": null
     }
   ],
-  "last_publish_date": "2026-08-22"
+  "last_publish_date": "2026-08-23"
 }
