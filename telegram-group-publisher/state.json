@@ -2,7 +2,8 @@
   "published_ids": [
     "mvp-launch",
     "group-welcome",
-    "roadhelp-case"
+    "roadhelp-case",
+    "rescue-flutterflow"
   ],
   "history": [
     {
@@ -32,7 +33,17 @@
       "caption_sha256": "18077be5e83d28f9b5f3fbbbce624ff34520c3042a869002a8f7ab7083a87acf",
       "pinned": false,
       "pin_error": null
+    },
+    {
+      "post_id": "rescue-flutterflow",
+      "message_id": 357,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-08-24T15:50:37.640710+03:00",
+      "caption_sha256": "84d22ca22972a781342615d101e9d36aacc58271b9a0972e546fcbdec28eb6db",
+      "pinned": false,
+      "pin_error": null
     }
   ],
-  "last_publish_date": "2026-08-23"
+  "last_publish_date": "2026-08-24"
 }
