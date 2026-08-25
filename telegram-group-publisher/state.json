@@ -3,7 +3,8 @@
     "mvp-launch",
     "group-welcome",
     "roadhelp-case",
-    "rescue-flutterflow"
+    "rescue-flutterflow",
+    "business-automation"
   ],
   "history": [
     {
@@ -43,7 +44,17 @@
       "caption_sha256": "84d22ca22972a781342615d101e9d36aacc58271b9a0972e546fcbdec28eb6db",
       "pinned": false,
       "pin_error": null
+    },
+    {
+      "post_id": "business-automation",
+      "message_id": 358,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-08-25T15:47:16.605748+03:00",
+      "caption_sha256": "2ea74343d9bf52c4bc484bd3365fb39cc0fa30eba34cd3dc9010d83588a9c9d4",
+      "pinned": false,
+      "pin_error": null
     }
   ],
-  "last_publish_date": "2026-08-24"
+  "last_publish_date": "2026-08-25"
 }
