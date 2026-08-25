@@ -253,6 +253,8 @@ def publish(dry_run: bool, scheduled: bool) -> int:
 
     pinned = False
     pin_error: str | None = None
+    unpinned_message_id: int | None = None
+    unpin_error: str | None = None
     if post.get("pin") and message_id is not None:
         try:
             telegram_call(
@@ -269,6 +271,23 @@ def publish(dry_run: bool, scheduled: bool) -> int:
             pin_error = str(exc)
             print(f"WARNING: post sent, but pinning failed: {exc}", file=sys.stderr)
 
+        previous_pin = post.get("replace_pin_message_id")
+        if pinned and previous_pin is not None:
+            try:
+                previous_pin_id = int(previous_pin)
+                telegram_call(
+                    token,
+                    "unpinChatMessage",
+                    {"chat_id": chat_id, "message_id": previous_pin_id},
+                )
+                unpinned_message_id = previous_pin_id
+            except (PublisherError, TypeError, ValueError) as exc:
+                unpin_error = str(exc)
+                print(
+                    f"WARNING: new post pinned, but previous pin was not removed: {exc}",
+                    file=sys.stderr,
+                )
+
     published_ids = list(state.get("published_ids", []))
     published_ids.append(post["id"])
     history = list(state.get("history", []))
@@ -282,6 +301,8 @@ def publish(dry_run: bool, scheduled: bool) -> int:
             "caption_sha256": hashlib.sha256(post["caption"].encode("utf-8")).hexdigest(),
             "pinned": pinned,
             "pin_error": pin_error,
+            "unpinned_message_id": unpinned_message_id,
+            "unpin_error": unpin_error,
         }
     )
     state.update(
