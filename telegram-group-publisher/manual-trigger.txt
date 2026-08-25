@@ -1,1 +1,1 @@
-Publish the next queued Telegram post after applying the group growth upgrade.
+Publish and pin the updated services advertisement, replacing the welcome pin.
