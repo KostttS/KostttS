@@ -4,7 +4,8 @@
     "group-welcome",
     "roadhelp-case",
     "rescue-flutterflow",
-    "business-automation"
+    "business-automation",
+    "pinned-services-ad"
   ],
   "history": [
     {
@@ -54,6 +55,18 @@
       "caption_sha256": "2ea74343d9bf52c4bc484bd3365fb39cc0fa30eba34cd3dc9010d83588a9c9d4",
       "pinned": false,
       "pin_error": null
+    },
+    {
+      "post_id": "pinned-services-ad",
+      "message_id": 359,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-08-25T16:08:22.672377+03:00",
+      "caption_sha256": "eb7e01102b4e934630f9db5b3e7f43d0f549ef378ed258b187dd2bb9c00b7e45",
+      "pinned": true,
+      "pin_error": null,
+      "unpinned_message_id": 354,
+      "unpin_error": null
     }
   ],
   "last_publish_date": "2026-08-25"
