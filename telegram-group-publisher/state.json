@@ -5,7 +5,8 @@
     "roadhelp-case",
     "rescue-flutterflow",
     "business-automation",
-    "pinned-services-ad"
+    "pinned-services-ad",
+    "firebase-or-supabase"
   ],
   "history": [
     {
@@ -67,7 +68,19 @@
       "pin_error": null,
       "unpinned_message_id": 354,
       "unpin_error": null
+    },
+    {
+      "post_id": "firebase-or-supabase",
+      "message_id": 361,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-08-26T15:52:16.506114+03:00",
+      "caption_sha256": "635daec6892a90a43668260ff584b3d1aad518c732d32cf44599cec79d62a55f",
+      "pinned": false,
+      "pin_error": null,
+      "unpinned_message_id": null,
+      "unpin_error": null
     }
   ],
-  "last_publish_date": "2026-08-25"
+  "last_publish_date": "2026-08-26"
 }
