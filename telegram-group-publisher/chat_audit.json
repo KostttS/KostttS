@@ -1,74 +1,11 @@
 {
   "before": {
-    "audited_at": "2026-08-22T01:47:47.613413+03:00",
-    "chat": {
-      "username": "mobileapplication2026",
-      "title": "Разработчик мобильных приложений | mobile application developer",
-      "description": "📱 Быстро и бюджетно создам для вас мобильное кроссплатформенное приложение любой сложности, с учетом всех ваших желаний.\n Для любого бизнеса, для любой сферы деятельности.\n📱 I'll create a cross-platform mobile app for you quickly and affordably.",
-      "member_count": 74,
-      "permissions": {
-        "can_send_messages": true,
-        "can_send_media_messages": true,
-        "can_send_audios": true,
-        "can_send_documents": true,
-        "can_send_photos": true,
-        "can_send_videos": true,
-        "can_send_video_notes": true,
-        "can_send_voice_notes": true,
-        "can_send_polls": true,
-        "can_send_other_messages": true,
-        "can_add_web_page_previews": true,
-        "can_react_to_messages": true,
-        "can_edit_tag": false,
-        "can_change_info": false,
-        "can_invite_users": true,
-        "can_pin_messages": false,
-        "can_manage_topics": true
-      }
-    },
-    "bot": {
-      "username": "mobileapplication2026bot",
-      "status": "administrator",
-      "capabilities": {
-        "can_manage_chat": true,
-        "can_change_info": true,
-        "can_delete_messages": true,
-        "can_restrict_members": true,
-        "can_invite_users": true,
-        "can_pin_messages": true,
-        "can_manage_topics": false
-      }
-    },
-    "publishing": {
-      "published_count": 1,
-      "latest_message_id": 351
-    }
-  },
-  "actions": [
-    {
-      "action": "set_title",
-      "ok": true
-    },
-    {
-      "action": "set_description",
-      "ok": true
-    },
-    {
-      "action": "restrict_member_posting",
-      "ok": true
-    },
-    {
-      "action": "set_avatar",
-      "ok": true
-    }
-  ],
-  "after": {
-    "audited_at": "2026-08-22T01:47:50.153102+03:00",
+    "audited_at": "2026-08-27T22:55:33.087255+03:00",
     "chat": {
       "username": "mobileapplication2026",
       "title": "Мобильные приложения для бизнеса | FlutterFlow",
       "description": "Мобильные приложения для бизнеса: FlutterFlow, Firebase/Supabase, API, платежи, карты, push, App Store/Google Play. Кейсы и практические разборы. Проект: oxta.ha@gmail.com | Портфолио: behance.net/24512dab | github.com/KostttS",
-      "member_count": 74,
+      "member_count": 73,
       "permissions": {
         "can_send_messages": false,
         "can_send_media_messages": false,
@@ -103,8 +40,54 @@
       }
     },
     "publishing": {
-      "published_count": 1,
-      "latest_message_id": 351
+      "published_count": 7,
+      "latest_message_id": 361
+    }
+  },
+  "actions": [],
+  "after": {
+    "audited_at": "2026-08-27T22:55:34.430733+03:00",
+    "chat": {
+      "username": "mobileapplication2026",
+      "title": "Мобильные приложения для бизнеса | FlutterFlow",
+      "description": "Мобильные приложения для бизнеса: FlutterFlow, Firebase/Supabase, API, платежи, карты, push, App Store/Google Play. Кейсы и практические разборы. Проект: oxta.ha@gmail.com | Портфолио: behance.net/24512dab | github.com/KostttS",
+      "member_count": 73,
+      "permissions": {
+        "can_send_messages": false,
+        "can_send_media_messages": false,
+        "can_send_audios": false,
+        "can_send_documents": false,
+        "can_send_photos": false,
+        "can_send_videos": false,
+        "can_send_video_notes": false,
+        "can_send_voice_notes": false,
+        "can_send_polls": false,
+        "can_send_other_messages": false,
+        "can_add_web_page_previews": false,
+        "can_react_to_messages": false,
+        "can_edit_tag": false,
+        "can_change_info": false,
+        "can_invite_users": true,
+        "can_pin_messages": false,
+        "can_manage_topics": false
+      }
+    },
+    "bot": {
+      "username": "mobileapplication2026bot",
+      "status": "administrator",
+      "capabilities": {
+        "can_manage_chat": true,
+        "can_change_info": true,
+        "can_delete_messages": true,
+        "can_restrict_members": true,
+        "can_invite_users": true,
+        "can_pin_messages": true,
+        "can_manage_topics": false
+      }
+    },
+    "publishing": {
+      "published_count": 7,
+      "latest_message_id": 361
     }
   }
 }
