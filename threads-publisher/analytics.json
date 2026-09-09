@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-09T16:52:39.859410+00:00",
+  "profile": {
+    "id": "29009211928704957",
+    "username": "konstantin47209",
+    "name": "Konstantin | Mobile App Developer",
+    "threads_profile_picture_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwEqG8eb&_nc_oc=AdpPPp62Oog6G7A3D-mFn37ckGTx05lmOLMM-I-Aj_6GE-4t0bShOa9Jtv4NpHJuinQ&_nc_zt=24&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=tEfId-hdqz33Lwpb0hkWsw&_nc_tpa=Q5bMBQLzGQPesyPfB4-nhrCaliLOIObVUaj3bngFkzo1wPVQMP3cHU8poMqzVNFMZI3yqc-4kEOMKnyfHQ&oh=00_AQIgDd7ZLzeBCTtBn2eZpuQikywz8XbsUGUst83Uh2YZ_g&oe=6AA779E3",
+    "threads_biography": "Разрабатываю мобильные приложения под iOS и Android\nFlutterFlow • Flutter • Supabase • Firebase\nAPI, платежи, авторизация, публикация в сторах"
+  },
+  "account_insights": {
+    "views": [
+      {
+        "value": 0,
+        "end_time": "2026-09-08T07:00:00+0000"
+      },
+      {
+        "value": 0,
+        "end_time": "2026-09-09T07:00:00+0000"
+      }
+    ],
+    "likes": {
+      "value": 0
+    },
+    "replies": {
+      "value": 0
+    },
+    "reposts": {
+      "value": 0
+    },
+    "quotes": {
+      "value": 0
+    },
+    "clicks": {
+      "name": "clicks",
+      "period": "day",
+      "title": "clicks",
+      "description": "The number of times users clicked on a link",
+      "link_total_values": [
+        {
+          "value": 0,
+          "link_url": "https://github.com/KostttS"
+        },
+        {
+          "value": 0,
+          "link_url": "https://www.behance.net/24512dab"
+        }
+      ],
+      "id": "17841442887264954/insights/clicks/day"
+    },
+    "followers_count": {
+      "value": 0
+    }
+  },
+  "publishing_quota": [
+    {
+      "quota_usage": 1,
+      "config": {
+        "quota_total": 250,
+        "quota_duration": 86400
+      },
+      "reply_quota_usage": 0,
+      "reply_config": {
+        "quota_total": 1000,
+        "quota_duration": 86400
+      }
+    }
+  ],
+  "recent_posts": [
+    {
+      "id": "18410752915086764",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdEtS_KFShe",
+      "username": "konstantin47209",
+      "text": "Собрать интерфейс в FlutterFlow — обычно самая простая часть.\n\nНастоящая работа начинается, когда нужны Firebase или Supabase, платежи, роли пользователей, API, deep links и публикация в App Store / Google Play.\n\nИменно этим я и занимаюсь: довожу мобильные приложения от идеи или макетов до рабочего релиза.\n\nЕсли у вас застрял FlutterFlow-проект или нужен MVP — пишите в личку.",
+      "timestamp": "2026-09-09T16:37:56+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}
