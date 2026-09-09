@@ -8,13 +8,14 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
-API_BASE = "https://graph.threads.net/v1.0"
+API_BASE = "https://graph.threads.net"
 ROOT = Path(__file__).resolve().parent
 ANALYTICS_FILE = ROOT / "analytics.json"
 INBOX_FILE = ROOT / "inbox.json"
 
 THREAD_FIELDS = "id,media_type,permalink,username,text,timestamp,is_quote_post,has_replies"
 REPLY_FIELDS = "id,media_type,permalink,username,text,timestamp,has_replies"
+MINIMAL_MENTION_FIELDS = "id,permalink,username,text,timestamp"
 POST_METRICS = "views,likes,replies,reposts,quotes,shares"
 ACCOUNT_METRICS = "views,likes,replies,reposts,quotes,clicks,followers_count"
 
@@ -26,7 +27,7 @@ def api_json(path: str, params: dict | None = None) -> dict:
         raise RuntimeError("THREADS_ACCESS_TOKEN is not set")
     params["access_token"] = token
     url = f"{API_BASE}{path}?{urlencode(params)}"
-    req = Request(url, headers={"User-Agent": "KostttS-Threads-Monitor/1.0"})
+    req = Request(url, headers={"User-Agent": "KostttS-Threads-Monitor/1.1"})
     try:
         with urlopen(req, timeout=60) as response:
             raw = response.read().decode("utf-8")
@@ -62,8 +63,7 @@ def normalize_insights(payload: dict) -> dict:
         if "total_value" in item:
             result[name] = item.get("total_value")
         elif "values" in item:
-            values = item.get("values", [])
-            result[name] = values
+            result[name] = item.get("values", [])
         else:
             result[name] = item
     return result
@@ -77,6 +77,23 @@ def get_post_insights(thread_id: str, errors: list[dict]) -> dict:
         {},
     )
     return normalize_insights(payload) if payload else {}
+
+
+def get_mentions(errors: list[dict]) -> dict:
+    try:
+        return api_json("/me/mentions", {"fields": THREAD_FIELDS, "limit": 50})
+    except Exception as first:
+        try:
+            return api_json("/me/mentions", {"fields": MINIMAL_MENTION_FIELDS, "limit": 25})
+        except Exception as second:
+            errors.append(
+                {
+                    "feature": "mentions",
+                    "error": compact_error(second),
+                    "first_attempt_error": compact_error(first),
+                }
+            )
+            return {"data": []}
 
 
 def main() -> int:
@@ -150,12 +167,15 @@ def main() -> int:
                 item["root_thread_permalink"] = thread.get("permalink")
                 replies.append(item)
 
-    mentions_payload = try_call(
+    own_replies_payload = try_call(
         inbox_errors,
-        "mentions",
-        lambda: api_json("/me/mentions", {"fields": THREAD_FIELDS, "limit": 50}),
+        "own_replies_permission_probe",
+        lambda: api_json("/me/replies", {"fields": REPLY_FIELDS, "limit": 10}),
         {"data": []},
     )
+    own_replies = own_replies_payload.get("data", [])
+
+    mentions_payload = get_mentions(inbox_errors)
     mentions = mentions_payload.get("data", [])
 
     analytics = {
@@ -170,6 +190,7 @@ def main() -> int:
         "generated_at": now,
         "mentions": mentions,
         "replies_to_recent_posts": replies,
+        "own_recent_replies": own_replies,
         "errors": inbox_errors,
     }
 
@@ -178,7 +199,8 @@ def main() -> int:
 
     print(
         f"Threads monitor complete: {len(posts)} recent posts, "
-        f"{len(replies)} replies, {len(mentions)} mentions, "
+        f"{len(replies)} incoming replies, {len(own_replies)} own replies, "
+        f"{len(mentions)} mentions, "
         f"{len(analytics_errors) + len(inbox_errors)} feature errors."
     )
     return 0
