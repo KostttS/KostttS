@@ -3,6 +3,10 @@ name: Threads Publisher
 on:
   schedule:
     - cron: "*/15 * * * *"
+  push:
+    paths:
+      - "threads-publisher/**"
+      - ".github/workflows/threads-publisher.yml"
   workflow_dispatch:
     inputs:
       mode:
@@ -60,7 +64,7 @@ jobs:
         run: python3 threads-publisher/publish_threads.py
 
       - name: Save publisher state
-        if: steps.config.outputs.configured == 'true' && github.event_name == 'schedule'
+        if: steps.config.outputs.configured == 'true' && (github.event_name == 'schedule' || github.event_name == 'push')
         shell: bash
         run: |
           if git diff --quiet -- threads-publisher/state.json; then
