@@ -11,12 +11,13 @@ from urllib.error import HTTPError
 API_BASE = "https://graph.threads.net/v1.0"
 ROOT = Path(__file__).resolve().parent
 POSTS_FILE = ROOT / "posts.json"
+REPLIES_FILE = ROOT / "replies.json"
 STATE_FILE = ROOT / "state.json"
 
 
 def api_json(url: str, method: str = "GET", data: dict | None = None) -> dict:
     body = None
-    headers = {"User-Agent": "KostttS-Threads-Publisher/1.0"}
+    headers = {"User-Agent": "KostttS-Threads-Publisher/1.1"}
     if data is not None:
         body = urlencode(data).encode("utf-8")
         headers["Content-Type"] = "application/x-www-form-urlencoded"
@@ -42,7 +43,13 @@ def get_me(token: str) -> dict:
     return api_json(f"{API_BASE}/me?{query}")
 
 
-def publish_post(token: str, user_id: str, text: str, image_url: str | None = None) -> str:
+def publish_post(
+    token: str,
+    user_id: str,
+    text: str,
+    image_url: str | None = None,
+    reply_to_id: str | None = None,
+) -> str:
     text = text.strip()
     if not text:
         raise RuntimeError("Post text is empty")
@@ -54,6 +61,8 @@ def publish_post(token: str, user_id: str, text: str, image_url: str | None = No
     }
     if image_url:
         container["image_url"] = image_url
+    if reply_to_id:
+        container["reply_to_id"] = reply_to_id
 
     created = api_json(f"{API_BASE}/{user_id}/threads", method="POST", data=container)
     creation_id = created.get("id")
@@ -91,6 +100,12 @@ def save_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def is_due(value: str | None, now: datetime) -> bool:
+    if not value:
+        return True
+    return parse_time(value) <= now
+
+
 def main() -> int:
     token = get_token()
     me = get_me(token)
@@ -115,12 +130,14 @@ def main() -> int:
         return 0
 
     posts = load_json(POSTS_FILE, [])
-    state = load_json(STATE_FILE, {"published_ids": []})
+    replies = load_json(REPLIES_FILE, [])
+    state = load_json(STATE_FILE, {"published_ids": [], "published_reply_ids": []})
     published_ids = set(state.get("published_ids", []))
+    published_reply_ids = set(state.get("published_reply_ids", []))
     now = datetime.now(timezone.utc)
     published_any = False
 
-    due = []
+    due_posts = []
     for post in posts:
         post_key = str(post.get("id", "")).strip()
         publish_at = str(post.get("publish_at", "")).strip()
@@ -128,11 +145,11 @@ def main() -> int:
         if not post_key or not publish_at or not text or post_key in published_ids:
             continue
         if parse_time(publish_at) <= now:
-            due.append(post)
+            due_posts.append(post)
 
-    due.sort(key=lambda p: parse_time(str(p["publish_at"])))
+    due_posts.sort(key=lambda p: parse_time(str(p["publish_at"])))
 
-    for post in due:
+    for post in due_posts:
         post_key = str(post["id"])
         text = str(post["text"])
         image_url = str(post.get("image_url", "")).strip() or None
@@ -141,12 +158,37 @@ def main() -> int:
         published_ids.add(post_key)
         published_any = True
 
+    due_replies = []
+    for reply in replies:
+        reply_key = str(reply.get("id", "")).strip()
+        target_id = str(reply.get("reply_to_id", "")).strip()
+        text = str(reply.get("text", "")).strip()
+        send_at = str(reply.get("send_at", "")).strip() or None
+        if not reply_key or not target_id or not text or reply_key in published_reply_ids:
+            continue
+        if is_due(send_at, now):
+            due_replies.append(reply)
+
+    due_replies.sort(
+        key=lambda r: parse_time(str(r["send_at"])) if r.get("send_at") else now
+    )
+
+    for reply in due_replies:
+        reply_key = str(reply["id"])
+        target_id = str(reply["reply_to_id"])
+        text = str(reply["text"])
+        post_id = publish_post(token, user_id, text, reply_to_id=target_id)
+        print(f"Published queued reply {reply_key}: {post_id}")
+        published_reply_ids.add(reply_key)
+        published_any = True
+
     if published_any:
         state["published_ids"] = sorted(published_ids)
+        state["published_reply_ids"] = sorted(published_reply_ids)
         state["last_run_at"] = datetime.now(timezone.utc).isoformat()
         save_json(STATE_FILE, state)
     else:
-        print("No due unpublished posts.")
+        print("No due unpublished posts or replies.")
 
     return 0
 
