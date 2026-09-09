@@ -1,0 +1,74 @@
+name: Threads Publisher
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Action"
+        required: true
+        default: "check"
+        type: choice
+        options:
+          - check
+          - queue
+          - manual
+      text:
+        description: "Text for a manual post (used only for manual mode)"
+        required: false
+        type: string
+      image_url:
+        description: "Optional public image URL"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threads-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+      THREADS_MODE: ${{ github.event.inputs.mode || 'queue' }}
+      THREADS_MANUAL_TEXT: ${{ github.event.inputs.text || '' }}
+      THREADS_MANUAL_IMAGE_URL: ${{ github.event.inputs.image_url || '' }}
+
+    steps:
+      - name: Check configuration
+        id: config
+        shell: bash
+        run: |
+          if [ -z "$THREADS_ACCESS_TOKEN" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "THREADS_ACCESS_TOKEN is not configured yet. Nothing to publish."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.config.outputs.configured == 'true'
+        uses: actions/checkout@v4
+
+      - name: Publish to Threads
+        if: steps.config.outputs.configured == 'true'
+        run: python3 threads-publisher/publish_threads.py
+
+      - name: Save publisher state
+        if: steps.config.outputs.configured == 'true' && github.event_name == 'schedule'
+        shell: bash
+        run: |
+          if git diff --quiet -- threads-publisher/state.json; then
+            echo "No state change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add threads-publisher/state.json
+          git commit -m "Update Threads publisher state"
+          git push
