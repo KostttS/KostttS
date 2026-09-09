@@ -5,7 +5,10 @@ on:
     - cron: "*/15 * * * *"
   push:
     paths:
-      - "threads-publisher/**"
+      - "threads-publisher/posts.json"
+      - "threads-publisher/replies.json"
+      - "threads-publisher/publish_threads.py"
+      - "threads-publisher/monitor_threads.py"
       - ".github/workflows/threads-publisher.yml"
   workflow_dispatch:
     inputs:
@@ -63,16 +66,20 @@ jobs:
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/publish_threads.py
 
-      - name: Save publisher state
-        if: steps.config.outputs.configured == 'true' && (github.event_name == 'schedule' || github.event_name == 'push')
+      - name: Collect Threads analytics and inbox
+        if: steps.config.outputs.configured == 'true'
+        run: python3 threads-publisher/monitor_threads.py
+
+      - name: Save Threads state and monitoring data
+        if: steps.config.outputs.configured == 'true'
         shell: bash
         run: |
-          if git diff --quiet -- threads-publisher/state.json; then
-            echo "No state change."
+          if [ -z "$(git status --porcelain -- threads-publisher/state.json threads-publisher/analytics.json threads-publisher/inbox.json)" ]; then
+            echo "No Threads state or monitoring changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add threads-publisher/state.json
-          git commit -m "Update Threads publisher state"
+          git add threads-publisher/state.json threads-publisher/analytics.json threads-publisher/inbox.json
+          git commit -m "Update Threads state and monitoring data"
           git push
