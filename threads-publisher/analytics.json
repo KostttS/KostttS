@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T07:38:19.175359+00:00",
+  "generated_at": "2026-09-10T11:07:30.842503+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwGnL3zD&_nc_oc=Adr7ycP7U9gjOIfeoHFaBOJrSJlw4oVLI4WiOApO3GZ2nvadym5C5QMOxCGiw5XaxpI&_nc_zt=24&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=XQNNYHkNjTMFS4OuipgvYg&_nc_tpa=Q5bMBQIvD2_4lrX30fvg3Xd-D1mqm7uUn9fFLD5-wRcWMxNs7X0VkpaOhbHdKUk7plycbNUPIAnwc28--A&oh=00_AQLbXOtELpH0FVz1wzGqbzbr_MaOeThdA5EXMLGT2axpJA&oe=6AA822A3",
+    "threads_profile_picture_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwGNXnk5&_nc_oc=AdquWpfHZ9TQcSvUDtMv1BizCVFAApc9v5kGMhYDpyvRCm1zQ1-yEJdthdoTGuQ1gR0&_nc_zt=24&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=B9_04UtVWw0eeBzT7a7L1w&_nc_tpa=Q5bMBQL4MjkkQJQA8o_-rGEl4OVY3YdAgkE9TkWtDfMRfnTqJj6Ag2SMxMF70i8PNvlIWcNmHqzM3eytcQ&oh=00_AQIGCkn7RfBCb-Iz3svpT6bxxoVeGWE01ok97dlbU4XmRw&oe=6AA85AE3",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-09T07:00:00+0000"
       },
       {
-        "value": 0,
+        "value": 3,
         "end_time": "2026-09-10T07:00:00+0000"
       }
     ],
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18125187241819868",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdGsRAIm04B",
+      "username": "konstantin47209",
+      "text": "Одна из ошибок при разработке MVP — считать, что после готового дизайна остаётся просто «собрать экраны».\n\nНа практике большая часть работы часто спрятана внутри: авторизация, роли, база данных, API, платежи, уведомления, deep links и публикация.\n\nПоэтому перед оценкой приложения я сначала разбираю не количество экранов, а всю логику между ними.",
+      "timestamp": "2026-09-10T11:07:27+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18410752915086764",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdEtS_KFShe",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 79
+            "value": 82
           }
         ],
         "likes": [
