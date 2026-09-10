@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T21:13:07.916070+00:00",
+  "generated_at": "2026-09-10T21:37:15.084073+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
       "id": "18457101331141207",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@gleb_developer/post/DdHpJJbkcER",
       "text": "Худший баг это тот что молчит как рыба, но вредничает как бешенная обезьяна с неограниченным запасом гранат…",
@@ -15,7 +15,7 @@
     },
     {
       "id": "18111766196088769",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@maximmonin_/post/DdHnrzrComa",
       "text": "За решение задачи и технической проблемы никогда не стыдно.",
@@ -25,12 +25,31 @@
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdHmeixD4Ug"
     }
   ],
-  "own_recent_replies": [],
+  "own_recent_replies": [
+    {
+      "id": "18105191630363608",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdH0U9lGdAY",
+      "username": "konstantin47209",
+      "text": "Согласен. Скорее смешно становится, когда два часа ищешь сложную причину, а в конце находишь одну мелочь в условии 🙂",
+      "timestamp": "2026-09-10T21:37:08+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18093990344414048",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdH0TXimR0C",
+      "username": "konstantin47209",
+      "text": "Вот именно 😄 Когда падает с ошибкой — хотя бы понятно, с чего начинать. А когда всё «успешно», начинается настоящее расследование.",
+      "timestamp": "2026-09-10T21:36:55+0000",
+      "has_replies": false
+    }
+  ],
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
