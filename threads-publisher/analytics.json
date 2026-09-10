@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T18:37:10.657329+00:00",
+  "generated_at": "2026-09-10T19:36:09.191210+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwG6Dug-&_nc_oc=Adqu0N1-FvgS5ib9OFe42cvSYgit7yqnK6Z27GwiU_0PkAzdGiJKTd0CGEx8bQSR04c&_nc_zt=24&_nc_ht=scontent-lga3-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=t8zqch8k3g_vtn-ECkCfZA&_nc_tpa=Q5bMBQL8bA-Tdg1mGegeJxUs_r9wyOE58VKSYztcRa9IEKVnyYJDYukiooINRiwHvcrcUx_IkQ58bQc19Q&oh=00_AQJ8JKhEtHvc_kABHLMQ3B8ZN_cVA7MFYjSXomJBNIL6qg&oe=6AA8CB63",
+    "threads_profile_picture_url": "https://scontent-sin11-1.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwHCAaR4&_nc_oc=AdqC03lfJ7KMYJ8artC4Sy6aJ4HW6X81t8TEsoABYG1o5B0Re4jQFakxbULihUn8wRg&_nc_zt=24&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=eMQ-MTfXTbTsEmY8LL4zXw&_nc_tpa=Q5bMBQJkuqFoAsBVfmQbAUFrPYzFmxqWdOVzL-lIdAOAFGKMvpTDHbkDZfys4xpMXTPz3g12G8KlNXKOQg&oh=00_AQL4_sZCCCqc0_lEz9oFDHyRTIFc4h7WEeOjbjMmaIDJ-g&oe=6AA8CB63",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-09T07:00:00+0000"
       },
       {
-        "value": 129,
+        "value": 130,
         "end_time": "2026-09-10T07:00:00+0000"
       }
     ],
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18104406797610810",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdHmeixD4Ug",
+      "username": "konstantin47209",
+      "text": "Худший баг — не когда всё упало.\n\nХуже, когда API отвечает 200, данные в базе есть, ошибок нет… а на экране пусто.\n\nЧерез час ты уже проверяешь redirect, permissions, старый токен и начинаешь подозревать вообще всё 😄\n\nУ кого был баг из серии «нашёл причину и стало стыдно»?",
+      "timestamp": "2026-09-10T19:36:06+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18621902107011829",
       "media_type": "IMAGE",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdHRvGnFSXp",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 8
+            "value": 9
           }
         ],
         "likes": [
