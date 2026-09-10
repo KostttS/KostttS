@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T16:20:01.836980+00:00",
+  "generated_at": "2026-09-10T16:34:55.826625+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwHn4FG8&_nc_oc=AdrpsZDPVk89QPsHxJnfcDAWYBMvXK_L_6iWGQh83aMn79RTjHM-ABy4Jhs2-UwCWlo&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ZmgdG0lOYitg-xr1gwfJ9Q&_nc_tpa=Q5bMBQJF3flb9CgGJ5kGLidcQ6ptWEf8Ng8DTUY4-cixfKBlfYZtBecqxhxdX9CuulLEqPBgepOZm55BIQ&oh=00_AQIeIclXiiGeo77D5B50ZYSIhwCylboywf3xtMjGkBi5XA&oe=6AA89323",
+    "threads_profile_picture_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwEoPgRB&_nc_oc=Adr542k4eC1Ig5cjtJMJfeL2nSMmC2v56SKft3cCfr2aEimme99VW8hphpzY_Q-_PN8&_nc_zt=24&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=hgUomm7HwpRkj18rL6a4EA&_nc_tpa=Q5bMBQL4ijnqzSqRmimGmqEn6TYJWOAqfFLpyGmYMFJYIkEQ9ZY6So9e1M6Rl1Pj0BN2KoPzdgTp2rMtwg&oh=00_AQI542r1_2L4l4NJapLJEFFBwCfWuBJtAWt-YOba-BhwzA&oe=6AA89323",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -66,6 +66,48 @@
     }
   ],
   "recent_posts": [
+    {
+      "id": "18621902107011829",
+      "media_type": "IMAGE",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdHRvGnFSXp",
+      "username": "konstantin47209",
+      "text": "OLIMP TICKETS — хороший пример проекта, где мобильное приложение — это не просто интерфейс.\n\nВнутри: Firebase, авторизация, работа с данными и полноценная логика приложения. Проект доведён до рабочего продукта, а не оставлен на стадии прототипа.\n\nИменно такие задачи мне интереснее всего: когда нужно собрать приложение целиком и довести его до релиза.",
+      "timestamp": "2026-09-10T16:34:52+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
     {
       "id": "18125187241819868",
       "media_type": "TEXT_POST",
