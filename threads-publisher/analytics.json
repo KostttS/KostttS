@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T16:35:09.041190+00:00",
+  "generated_at": "2026-09-10T18:31:33.559912+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwE-kRaT&_nc_oc=AdqJf0gHoN4GVRHjFTCvhJun_H9sj5gt42Ij2AimZ2GtaohNhq6RW22TcdMi1YHi4Bs&_nc_zt=24&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=CxDIt7mJ06F9joxw0l1dAA&_nc_tpa=Q5bMBQKCOqWa9JfFBE_QsDd6OcBzcB55ENTXu6XPmBYzOb800AeDNbe6f5NkaIhKwMLUHlwkRTTDqCo3nA&oh=00_AQLapYaN4Nyb-QJutCpkO4fk8PiEsqu_VE0V27SIXRcFsA&oe=6AA89323",
+    "threads_profile_picture_url": "https://scontent-hkg1-1.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwF0KSRC&_nc_oc=AdqYtLLVds7ikArUIWTNSPEVnCtoCzjmUfNdUtSyJzuDzJ56CWMrv-ooGH0fIcLK-VI&_nc_zt=24&_nc_ht=scontent-hkg1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=U1dnBmZWeyQI0iEdXKptMA&_nc_tpa=Q5bMBQJ0n3yxp0w4z8g47-ABdbsCswPmBccgntLwNrkcR1KCiycmlv92cqeYKzuFcXsPEt0Gll7sdyyzjQ&oh=00_AQIB-XohOKsVoTW8XNSTJD_T3EVn1wcH-WJvtrj62aVcgA&oe=6AA8CB63",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-09T07:00:00+0000"
       },
       {
-        "value": 120,
+        "value": 129,
         "end_time": "2026-09-10T07:00:00+0000"
       }
     ],
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 3,
+      "quota_usage": 2,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -78,7 +78,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 8
           }
         ],
         "likes": [
@@ -162,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 84
+            "value": 85
           }
         ],
         "likes": [
