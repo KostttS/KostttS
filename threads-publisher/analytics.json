@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-09T23:16:39.942708+00:00",
+  "generated_at": "2026-09-10T01:19:29.027061+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwGvD02l&_nc_oc=AdphLS1kWRQW4HBNPN5cG3Bfs6Eryndc3kmBD5wTF6QMbtj5cBZky0qAhD6Gvk-Anls&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=_RjwgQo2xA2Nkq5Qn38n9w&_nc_tpa=Q5bMBQIBdOrzsnNsz72BGZrAqkWwhI3h26KFSGXpBXIhRnNQ9DhXFuumndO76Nk7mxvfP2a4XE0lhnjuxQ&oh=00_AQKs6OkrMBGpDDsNBJbMZCaTPiNwbzZtM4PRlAcI9qMR2Q&oe=6AA7B223",
+    "threads_profile_picture_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwFm4g3-&_nc_oc=AdpmOjsr2sj_27dZ-U08LGBiRfsaq8Zj-e2KZCYOb-8eXa0DjEkuKezKttgYG6-J7ak&_nc_zt=24&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=C-stZd2hRk78WeoravDOGw&_nc_tpa=Q5bMBQKacm1MSkfyCAbzpvlFrVHRyOBWGOZough5gRdRGoqWrYCeTGcxPJFuoqDld14KXvuM0Hz7k7r1RA&oh=00_AQKZjNPEy31iKl0lIIIoDpkkG7SY4DXpVDSDaVrQXxEyxQ&oe=6AA7EA63",
     "threads_biography": "Разрабатываю мобильные приложения под iOS и Android\nFlutterFlow • Flutter • Supabase • Firebase\nAPI, платежи, авторизация, публикация в сторах"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-08T07:00:00+0000"
       },
       {
-        "value": 75,
+        "value": 77,
         "end_time": "2026-09-09T07:00:00+0000"
       }
     ],
@@ -78,7 +78,7 @@
       "insights": {
         "views": [
           {
-            "value": 75
+            "value": 77
           }
         ],
         "likes": [
