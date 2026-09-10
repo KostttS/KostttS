@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-09-10T19:36:09.191210+00:00",
+  "generated_at": "2026-09-10T20:35:10.323525+00:00",
   "mentions": [],
-  "replies_to_recent_posts": [],
+  "replies_to_recent_posts": [
+    {
+      "id": "18457101331141207",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@gleb_developer/post/DdHpJJbkcER",
+      "text": "Худший баг это тот что молчит как рыба, но вредничает как бешенная обезьяна с неограниченным запасом гранат…",
+      "timestamp": "2026-09-10T19:59:19+0000",
+      "username": "gleb_developer",
+      "root_thread_id": "18104406797610810",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdHmeixD4Ug"
+    },
+    {
+      "id": "18111766196088769",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@maximmonin_/post/DdHnrzrComa",
+      "text": "За решение задачи и технической проблемы никогда не стыдно.",
+      "timestamp": "2026-09-10T19:46:35+0000",
+      "username": "maximmonin_",
+      "root_thread_id": "18104406797610810",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdHmeixD4Ug"
+    }
+  ],
   "own_recent_replies": [],
   "errors": [
     {
