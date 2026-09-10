@@ -2,6 +2,7 @@
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode
@@ -17,7 +18,7 @@ STATE_FILE = ROOT / "state.json"
 
 def api_json(url: str, method: str = "GET", data: dict | None = None) -> dict:
     body = None
-    headers = {"User-Agent": "KostttS-Threads-Publisher/1.1"}
+    headers = {"User-Agent": "KostttS-Threads-Publisher/1.2"}
     if data is not None:
         body = urlencode(data).encode("utf-8")
         headers["Content-Type"] = "application/x-www-form-urlencoded"
@@ -69,15 +70,27 @@ def publish_post(
     if not creation_id:
         raise RuntimeError(f"Threads API did not return a creation id: {created}")
 
-    published = api_json(
-        f"{API_BASE}/{user_id}/threads_publish",
-        method="POST",
-        data={"creation_id": creation_id, "access_token": token},
-    )
-    post_id = published.get("id")
-    if not post_id:
-        raise RuntimeError(f"Threads API did not return a published post id: {published}")
-    return str(post_id)
+    publish_url = f"{API_BASE}/{user_id}/threads_publish"
+    publish_data = {"creation_id": creation_id, "access_token": token}
+    delays = (2, 4, 8, 12)
+    last_error = None
+    for attempt, delay in enumerate(delays, start=1):
+        time.sleep(delay)
+        try:
+            published = api_json(publish_url, method="POST", data=publish_data)
+            post_id = published.get("id")
+            if not post_id:
+                raise RuntimeError(f"Threads API did not return a published post id: {published}")
+            return str(post_id)
+        except RuntimeError as exc:
+            last_error = exc
+            message = str(exc)
+            transient_media = "Media Not Found" in message or '"error_subcode":4279009' in message
+            if not transient_media or attempt == len(delays):
+                raise
+            print(f"Threads media container not ready; retrying publish ({attempt}/{len(delays)})...", file=sys.stderr)
+
+    raise last_error or RuntimeError("Threads publish failed")
 
 
 def parse_time(value: str) -> datetime:
