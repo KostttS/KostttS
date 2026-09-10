@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T21:37:15.084073+00:00",
+  "generated_at": "2026-09-10T23:13:23.020951+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -48,7 +48,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
