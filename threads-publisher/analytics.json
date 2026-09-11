@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T18:35:05.798989+00:00",
+  "generated_at": "2026-09-11T18:37:48.229894+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-hkg4-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=2VenaXFgCREQ7kNvwEdugAK&_nc_oc=AdqufaFLp9MtTtjF-_dVbZdF6Azzmk2km-Tgx-Mt8q55dbFPnWttTNXLsZGfTu7fOqg&_nc_zt=24&_nc_ht=scontent-hkg4-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=KTCg8wHRd5zYiBDoZrM2jw&_nc_tpa=Q5bMBQJcnmtEnEAUq7EYqFgqm9BwLqmckpo0PIsS26_0QNS6oMCNe977CKNrFYoME1dwBtDJUnk3mA1ecw&oh=00_AQIoEQycxbw2f0sYV43GExzpqcJ7ewjHBTXYnu0DCF10Ew&oe=6AAA060A",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=2VenaXFgCREQ7kNvwFXLZ__&_nc_oc=AdoS-q5DT4T5YZICCCKb5AGIJMxBYahxGPR_1PU9ql_A775liyVd_ofmkz0nDHruqSQ&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=TSIdFG4u_tq1HwNXf86LsQ&_nc_tpa=Q5bMBQJRF413EUKhZ3aRjA1JP3gbSy3Fb7J0AzQFsYuAFhpR7BT_pn8x95pW75623AMSDy195jszAwLvww&oh=00_AQL4QfgLp1gpH55vQfPIHR05WZxyKHu-_msQkpf4Gnlqgw&oe=6AAA060A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 7,
+      "quota_usage": 8,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -74,7 +74,7 @@
       "text": "Нужен фильм на вечер.\n\nНе новый проходняк на один раз, а прям культовый фильм, после которого понимаешь, почему о нём говорят уже лет двадцать.\n\nЧто бы вы выбрали один фильм?",
       "timestamp": "2026-09-11T18:35:03+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
@@ -88,7 +88,7 @@
         ],
         "replies": [
           {
-            "value": 0
+            "value": 2
           }
         ],
         "reposts": [
