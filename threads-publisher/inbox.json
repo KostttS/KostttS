@@ -1,10 +1,21 @@
 {
-  "generated_at": "2026-09-11T19:58:19.980389+00:00",
+  "generated_at": "2026-09-11T20:34:23.138331+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
-      "id": "18097967756631738",
+      "id": "18094236380294028",
       "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@judinasolveiga/post/DdKP1KZEVbi",
+      "text": "Маска.",
+      "timestamp": "2026-09-11T20:15:52+0000",
+      "username": "judinasolveiga",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18097967756631738",
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@mental_health_medicaldoctor/post/DdKG4FWjqNR",
       "text": "Последнее танго в Париже",
@@ -15,7 +26,7 @@
     },
     {
       "id": "18110265191097237",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@er_lan3708/post/DdKGGGDk-yK",
       "text": "Большой куш",
@@ -26,7 +37,7 @@
     },
     {
       "id": "18106429942902869",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@lightin_the_sun/post/DdKFRrHCIiY",
       "text": "Карты, деньги, два ствола. Кстати, давно не смотрела. Великий фильм!",
@@ -147,6 +158,33 @@
     }
   ],
   "own_recent_replies": [
+    {
+      "id": "18126371924494410",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKR714lOdv",
+      "username": "konstantin47209",
+      "text": "Вот это уже тяжёлая артиллерия 😄 Давно откладывал — видимо, пора.",
+      "timestamp": "2026-09-11T20:34:18+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18116757433938200",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKR6lZlFlI",
+      "username": "konstantin47209",
+      "text": "Второй Гай Ричи подряд 😄 «Большой куш» реально хороший кандидат на вечер.",
+      "timestamp": "2026-09-11T20:34:08+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18108961406265490",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKR5krlMDa",
+      "username": "konstantin47209",
+      "text": "Вот его как раз давно пора пересмотреть. Похоже, сегодня Гай Ричи уверенно побеждает 😄",
+      "timestamp": "2026-09-11T20:34:00+0000",
+      "has_replies": false
+    },
     {
       "id": "18068107511771140",
       "media_type": "TEXT_POST",
