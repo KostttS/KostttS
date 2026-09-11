@@ -1,10 +1,109 @@
 {
-  "generated_at": "2026-09-11T18:37:48.229894+00:00",
+  "generated_at": "2026-09-11T19:39:33.927835+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
-      "id": "18109434064869037",
+      "id": "18097967756631738",
       "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@mental_health_medicaldoctor/post/DdKG4FWjqNR",
+      "text": "Последнее танго в Париже",
+      "timestamp": "2026-09-11T18:57:37+0000",
+      "username": "mental_health_medicaldoctor",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18110265191097237",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@er_lan3708/post/DdKGGGDk-yK",
+      "text": "Большой куш",
+      "timestamp": "2026-09-11T18:50:47+0000",
+      "username": "er_lan3708",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18106429942902869",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@lightin_the_sun/post/DdKFRrHCIiY",
+      "text": "Карты, деньги, два ствола. Кстати, давно не смотрела. Великий фильм!",
+      "timestamp": "2026-09-11T18:43:38+0000",
+      "username": "lightin_the_sun",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18457206436187438",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@julja_rausch/post/DdKFAYeEVxs",
+      "text": "Донни Браско",
+      "timestamp": "2026-09-11T18:41:16+0000",
+      "username": "julja_rausch",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "17982466152114009",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@k.dolinskii/post/DdKE_6rDh65",
+      "text": "НА ПОСЛЕДНЕМ ДЫХАНИИ Годар.",
+      "timestamp": "2026-09-11T18:41:13+0000",
+      "username": "k.dolinskii",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18105408815223736",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@savik_1980/post/DdKE6WRiLBC",
+      "text": "Комната 2003 года",
+      "timestamp": "2026-09-11T18:40:27+0000",
+      "username": "savik_1980",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "17877439314547170",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@yahorkuzniatsou/post/DdKErLlDZW9",
+      "text": "Да, не говорят, но... Самый быстрый Индиан",
+      "timestamp": "2026-09-11T18:38:23+0000",
+      "username": "yahorkuzniatsou",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18132570031660314",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@chuchurumbache3/post/DdKEqOlDRSO",
+      "text": "С.Э.Р.",
+      "timestamp": "2026-09-11T18:38:15+0000",
+      "username": "chuchurumbache3",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18084428606303921",
+      "has_replies": true,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@moyanastena/post/DdKEnceDqlf",
+      "text": "Форест Гамп",
+      "timestamp": "2026-09-11T18:37:52+0000",
+      "username": "moyanastena",
+      "root_thread_id": "18134641915726649",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
+    },
+    {
+      "id": "18109434064869037",
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@anna___adams/post/DdKEmEDDnwo",
       "text": "Леон",
@@ -15,7 +114,7 @@
     },
     {
       "id": "18219875845340130",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@svivanova2037/post/DdKEjdliO0B",
       "text": "Шифр",
@@ -49,6 +148,42 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18068107511771140",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLqZHFHBn",
+      "username": "konstantin47209",
+      "text": "Если про «Шифр» 2002 года — вообще не видел. Записал, спасибо 👍",
+      "timestamp": "2026-09-11T19:39:30+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18129200620706091",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLpI_FMtu",
+      "username": "konstantin47209",
+      "text": "«Леон» — вот это как раз из тех, которые можно пересматривать. Хороший вариант 👍",
+      "timestamp": "2026-09-11T19:39:20+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18116619718982003",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLl1oH7qC",
+      "username": "konstantin47209",
+      "text": "Если про «Шифр» 2002 года — вообще не видел. Записал, спасибо 👍",
+      "timestamp": "2026-09-11T19:38:55+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18103983845253817",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLkAqn7-t",
+      "username": "konstantin47209",
+      "text": "«Леон» — вот это как раз из тех, которые можно пересматривать. Хороший вариант 👍",
+      "timestamp": "2026-09-11T19:38:40+0000",
+      "has_replies": false
+    },
+    {
       "id": "18105191630363608",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdH0U9lGdAY",
@@ -70,8 +205,8 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
