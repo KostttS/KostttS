@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T19:43:24.997535+00:00",
+  "generated_at": "2026-09-11T19:58:19.980389+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=2VenaXFgCREQ7kNvwHx6jKJ&_nc_oc=AdpQ9_Y9fAWjp9Bxo_9_COeyoVOSpJQTQBcnCUzsDxJnDN3XKLrUc61hAP5aPE3pR7o&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=XETUTbicxool8jpzJ_xztg&_nc_tpa=Q5bMBQL_MB2pQECDUVIyzPzmrnEi87ErOYKMQesVikUMTbnBbaYIOMCghtfGeea72xAkt_X7RncoM_Dx1g&oh=00_AQJcC_PgPXSoP8WD74MjIpcLZiVaRF3LqRLdm3ZXHrvqnw&oe=6AAA3E4A",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=2VenaXFgCREQ7kNvwGbg8TT&_nc_oc=AdoDthncCOUoPaf_233EovWJ8ck88SDnj9BEod2k7NLD5bzMIyzinDbjy8qpGdjVsbE&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=e0WF5c3mFKnaIDaTGcRjeA&_nc_tpa=Q5bMBQKlie0O_pM0AYx4poGf41LIVkGpADbj4ugBLKMvQrMZ3HFJgjkAsz3ftJkWt8Z20RGZW9kFRIYTiw&oh=00_AQKyiDUQkKHGmaLu_v-y-U-gLQayw05IvaHphG6_wO3naQ&oe=6AAA3E4A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-10T07:00:00+0000"
       },
       {
-        "value": 1452,
+        "value": 1485,
         "end_time": "2026-09-11T07:00:00+0000"
       }
     ],
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18635799763023369",
+      "media_type": "IMAGE",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU",
+      "username": "konstantin47209",
+      "text": "Всех с Новым годом! 🍎🍯\n\nШана Това! Пусть этот год будет спокойнее, добрее и принесёт побольше хороших новостей.\n\nС праздником, Израиль! 🇮🇱",
+      "timestamp": "2026-09-11T19:58:17+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18134641915726649",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 975
+            "value": 995
           }
         ],
         "likes": [
@@ -415,48 +457,6 @@
         "views": [
           {
             "value": 9
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18125187241819868",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdGsRAIm04B",
-      "username": "konstantin47209",
-      "text": "Одна из ошибок при разработке MVP — считать, что после готового дизайна остаётся просто «собрать экраны».\n\nНа практике большая часть работы часто спрятана внутри: авторизация, роли, база данных, API, платежи, уведомления, deep links и публикация.\n\nПоэтому перед оценкой приложения я сначала разбираю не количество экранов, а всю логику между ними.",
-      "timestamp": "2026-09-10T11:07:27+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 116
           }
         ],
         "likes": [
