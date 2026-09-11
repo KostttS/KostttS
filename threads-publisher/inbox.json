@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T21:20:27.950746+00:00",
+  "generated_at": "2026-09-11T21:37:41.670470+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
       "id": "18114574213803588",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@valentina_nails_tlv/post/DdKXAw2AiJ9",
       "text": "Шана това!",
@@ -15,7 +15,7 @@
     },
     {
       "id": "18014608508953696",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@neyman.cakes/post/DdKUfN2FCVC",
       "text": "Шана Това 🙏🏻❤️‍🔥",
@@ -181,6 +181,24 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18131048131740117",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKZLKkkkR9",
+      "username": "konstantin47209",
+      "text": "Шана Това! 🍎🍯 Пусть год будет хорошим!",
+      "timestamp": "2026-09-11T21:37:35+0000",
+      "has_replies": false
+    },
+    {
+      "id": "17914532379448231",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKZJd3kvoZ",
+      "username": "konstantin47209",
+      "text": "Шана Това! 🍎🍯 Хорошего и спокойного года!",
+      "timestamp": "2026-09-11T21:37:22+0000",
+      "has_replies": false
+    },
+    {
       "id": "18126371924494410",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdKR714lOdv",
@@ -251,22 +269,13 @@
       "text": "Согласен. Скорее смешно становится, когда два часа ищешь сложную причину, а в конце находишь одну мелочь в условии 🙂",
       "timestamp": "2026-09-10T21:37:08+0000",
       "has_replies": false
-    },
-    {
-      "id": "18093990344414048",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdH0TXimR0C",
-      "username": "konstantin47209",
-      "text": "Вот именно 😄 Когда падает с ошибкой — хотя бы понятно, с чего начинать. А когда всё «успешно», начинается настоящее расследование.",
-      "timestamp": "2026-09-10T21:36:55+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
       "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
