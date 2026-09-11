@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-09-11T20:34:23.138331+00:00",
+  "generated_at": "2026-09-11T21:20:27.950746+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18114574213803588",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@valentina_nails_tlv/post/DdKXAw2AiJ9",
+      "text": "Шана това!",
+      "timestamp": "2026-09-11T21:18:37+0000",
+      "username": "valentina_nails_tlv",
+      "root_thread_id": "18635799763023369",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU"
+    },
+    {
+      "id": "18014608508953696",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@neyman.cakes/post/DdKUfN2FCVC",
+      "text": "Шана Това 🙏🏻❤️‍🔥",
+      "timestamp": "2026-09-11T20:56:33+0000",
+      "username": "neyman.cakes",
+      "root_thread_id": "18635799763023369",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU"
+    },
     {
       "id": "18094236380294028",
       "has_replies": false,
@@ -243,7 +265,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
       "first_attempt_error": "Threads API HTTP 500: "
     }
   ]

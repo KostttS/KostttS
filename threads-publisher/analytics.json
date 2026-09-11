@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T20:34:23.138331+00:00",
+  "generated_at": "2026-09-11T21:20:27.950746+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=2VenaXFgCREQ7kNvwE0MVMd&_nc_oc=Adrw6bkF4FkVVd66AaZAyfyYS68OwYc8SBuOKU-FkdtlqwM5DOI43rtkujLd_1XZ8SI&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=coMfw7z6UcB8GhsM3hJ3ig&_nc_tpa=Q5bMBQJIQorEJEyZ39goVZmNJA--M20wEU3Ikp729CN1fsRpLneIueYEI4tHLHJj1xuNcsIftF4smusyBQ&oh=00_AQKMxAiAYb_PKwEkt34jIjprsOFRLiwGf50hEGJGK6x9Hw&oe=6AAA3E4A",
+    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=2VenaXFgCREQ7kNvwE1pQrd&_nc_oc=AdqERASUHD5vC_HQIR15iOulxgtqPrI_vgH1nUCDBytHXQFs8uwXGHV-oDYJZOrj58o&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=D7-VxKcx2IvMAxwEvDFCzA&_nc_tpa=Q5bMBQJjFkhKm68PwYdlIXeE0jUsSvq2ih-OXsXF1tdBb8hlnrzhvuMPyGRbTPfwnDnYNaGL7nBTsacjhQ&oh=00_AQLk_i39S_j_gHfBvB54WHpUW363J-3gq8BKKcqBBftz0w&oe=6AAA3E4A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-10T07:00:00+0000"
       },
       {
-        "value": 1642,
+        "value": 1943,
         "end_time": "2026-09-11T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 15
+      "value": 36
     },
     "replies": {
-      "value": 16
+      "value": 21
     },
     "reposts": {
       "value": 0
@@ -53,12 +53,12 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 8,
+      "quota_usage": 7,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 6,
+      "reply_quota_usage": 9,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -74,21 +74,21 @@
       "text": "Всех с Новым годом! 🍎🍯\n\nШана Това! Пусть этот год будет спокойнее, добрее и принесёт побольше хороших новостей.\n\nС праздником, Израиль! 🇮🇱",
       "timestamp": "2026-09-11T19:58:17+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 28
+            "value": 204
           }
         ],
         "likes": [
           {
-            "value": 16
+            "value": 29
           }
         ],
         "replies": [
           {
-            "value": 0
+            "value": 2
           }
         ],
         "reposts": [
@@ -120,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 1057
+            "value": 1163
           }
         ],
         "likes": [
@@ -330,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 197
+            "value": 198
           }
         ],
         "likes": [
