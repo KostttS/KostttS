@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-11T21:37:41.670470+00:00",
+  "generated_at": "2026-09-11T23:29:31.944369+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18071355068738475",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@teaching_at_/post/DdKZaL4kVJH",
+      "text": "И паштетиков котам!",
+      "timestamp": "2026-09-11T21:39:33+0000",
+      "username": "teaching_at_",
+      "root_thread_id": "18635799763023369",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU"
+    },
     {
       "id": "18114574213803588",
       "has_replies": true,
@@ -196,7 +207,7 @@
       "username": "konstantin47209",
       "text": "Шана Това! 🍎🍯 Хорошего и спокойного года!",
       "timestamp": "2026-09-11T21:37:22+0000",
-      "has_replies": false
+      "has_replies": true
     },
     {
       "id": "18126371924494410",
@@ -274,8 +285,8 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: ",
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }
