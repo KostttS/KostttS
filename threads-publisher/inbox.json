@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T23:29:31.944369+00:00",
+  "generated_at": "2026-09-11T23:35:24.908252+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
       "id": "18071355068738475",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@teaching_at_/post/DdKZaL4kVJH",
       "text": "И паштетиков котам!",
@@ -37,7 +37,7 @@
     },
     {
       "id": "18094236380294028",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@judinasolveiga/post/DdKP1KZEVbi",
       "text": "Маска.",
@@ -192,6 +192,24 @@
   ],
   "own_recent_replies": [
     {
+      "id": "17913657435266074",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKmpdKDwIK",
+      "username": "konstantin47209",
+      "text": "О, «Маска» давно не пересматривал 😄 Отличный вариант, если хочется чего-то лёгкого.",
+      "timestamp": "2026-09-11T23:35:19+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18037380506836968",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdKmoTYj_gL",
+      "username": "konstantin47209",
+      "text": "Вот! Кот на картинке явно именно ради этого праздника и пришёл 😄",
+      "timestamp": "2026-09-11T23:35:09+0000",
+      "has_replies": false
+    },
+    {
       "id": "18131048131740117",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdKZLKkkkR9",
@@ -261,24 +279,6 @@
       "username": "konstantin47209",
       "text": "Если про «Шифр» 2002 года — вообще не видел. Записал, спасибо 👍",
       "timestamp": "2026-09-11T19:38:55+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18103983845253817",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLkAqn7-t",
-      "username": "konstantin47209",
-      "text": "«Леон» — вот это как раз из тех, которые можно пересматривать. Хороший вариант 👍",
-      "timestamp": "2026-09-11T19:38:40+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18105191630363608",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdH0U9lGdAY",
-      "username": "konstantin47209",
-      "text": "Согласен. Скорее смешно становится, когда два часа ищешь сложную причину, а в конце находишь одну мелочь в условии 🙂",
-      "timestamp": "2026-09-10T21:37:08+0000",
       "has_replies": false
     }
   ],
