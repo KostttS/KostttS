@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T05:35:17.833452+00:00",
+  "generated_at": "2026-09-11T06:02:17.405562+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwHYIkG9&_nc_oc=AdoKEzbXaIFVvS36bnuJihCMuT035Y92_aEyF7EbiV3akkZfJUj1cP6u7-YW2g9r8YI&_nc_zt=24&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=VnW-uVrN9PX4ir9S_2GJWg&_nc_tpa=Q5bMBQKVh-z-cnrAjyngg7Ab3Pr92vcx8UaAfOSUUWiYpSbACa7xwGMQx0YR7L16w-35H8TEMl7FRDH9Vg&oh=00_AQLO1TShcKwfsw-9ETq7PSFQRHV2sr-gFKPgJ9rkCOVB0Q&oe=6AA97423",
+    "threads_profile_picture_url": "https://scontent-lhr6-2.cdninstagram.com/v/t51.82787-19/758427493_18073358822429576_7505362868158195519_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=105&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=Jjk-ZDG04S8Q7kNvwHhysP0&_nc_oc=AdoDl42RQO2jG7DC7VBnE4e82eC_u39XJfyDCNRVHDgbPfUgFaGAoZ7NnYTdITwJcPw&_nc_zt=24&_nc_ht=scontent-lhr6-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=hVrqo6crgVjeXCH6-GQ39g&_nc_tpa=Q5bMBQL399FU6QoOs07-nlczzV7dHkrjYM9y8kyoBLlPSw9yzavZ7y7M0Sd0eTwoUl-eESkIcckbzCYoRA&oh=00_AQKMpH70KDVNUCi5AH60LJoH797ckBsIbhD8xz2Pqzo6UQ&oe=6AA97423",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-09T07:00:00+0000"
       },
       {
-        "value": 453,
+        "value": 455,
         "end_time": "2026-09-10T07:00:00+0000"
       }
     ],
@@ -66,6 +66,48 @@
     }
   ],
   "recent_posts": [
+    {
+      "id": "18114397682516543",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdIuIh3FeU7",
+      "username": "konstantin47209",
+      "text": "Непопулярное мнение: FlutterFlow не заменяет разработчика. Он просто быстрее доводит проект до места, где без разработчика уже никак 😄\n\nПока рисуешь экраны — всё похоже на конструктор. Потом появляются RLS, Edge Functions, платежи, custom actions, deep links, внешние API.\n\nУ кого FlutterFlow уже переставал быть no-code — на какой задаче?",
+      "timestamp": "2026-09-11T06:02:14+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
     {
       "id": "17877130830548633",
       "media_type": "IMAGE",
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 302
+            "value": 303
           }
         ],
         "likes": [
