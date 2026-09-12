@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:08:39.665713+00:00",
+  "generated_at": "2026-09-12T11:39:53.216351+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "id": "18134066287635564",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@mvandet76/post/DdLxOS1jnFj",
       "text": "С праздником",
@@ -69,7 +69,7 @@
     },
     {
       "id": "18633403951033037",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@svetikzack/post/DdLwyQ_iG6J",
       "text": "שנה טובה🙏",
@@ -278,6 +278,24 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18006954800776304",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdL5jumG4nA",
+      "username": "konstantin47209",
+      "text": "שנה טובה ומתוקה! 🍎🍯",
+      "timestamp": "2026-09-12T11:39:48+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18045498203810346",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdL5iSmG2bK",
+      "username": "konstantin47209",
+      "text": "Спасибо! И вас с праздником 🍎🍯",
+      "timestamp": "2026-09-12T11:39:36+0000",
+      "has_replies": false
+    },
+    {
       "id": "18182907211414326",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdLyNs9nJk1",
@@ -348,30 +366,12 @@
       "text": "Шана Това! 🍎🍯 Пусть год будет хорошим!",
       "timestamp": "2026-09-11T21:37:35+0000",
       "has_replies": false
-    },
-    {
-      "id": "17914532379448231",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKZJd3kvoZ",
-      "username": "konstantin47209",
-      "text": "Шана Това! 🍎🍯 Хорошего и спокойного года!",
-      "timestamp": "2026-09-11T21:37:22+0000",
-      "has_replies": true
-    },
-    {
-      "id": "18126371924494410",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKR714lOdv",
-      "username": "konstantin47209",
-      "text": "Вот это уже тяжёлая артиллерия 😄 Давно откладывал — видимо, пора.",
-      "timestamp": "2026-09-11T20:34:18+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
