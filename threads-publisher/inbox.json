@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T13:35:03.730232+00:00",
+  "generated_at": "2026-09-12T13:36:01.822375+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
       "id": "18114775894949392",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@mlsrdn_a/post/DdMBIxnALbW",
       "text": "Пустые дороги на йом киппур",
@@ -15,7 +15,7 @@
     },
     {
       "id": "17865914754659243",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@irka5566/post/DdME_zxDnO9",
       "text": "Медовик. Кекс по рецепту бабушки.",
@@ -310,6 +310,24 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18129214285776431",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdMG2IdlrAQ",
+      "username": "konstantin47209",
+      "text": "Медовик по семейному рецепту — тут уже нечестная конкуренция 😄 Такое точно сильнее магазинных традиций.",
+      "timestamp": "2026-09-12T13:35:55+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18095440781433373",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdMG0nBlhH1",
+      "username": "konstantin47209",
+      "text": "Вот это сильный вариант. Пустые дороги на Йом-Кипур — реально то, что сложно представить, пока сам не увидишь.",
+      "timestamp": "2026-09-12T13:35:42+0000",
+      "has_replies": false
+    },
+    {
       "id": "18006954800776304",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdL5jumG4nA",
@@ -380,31 +398,13 @@
       "text": "О, «Маска» давно не пересматривал 😄 Отличный вариант, если хочется чего-то лёгкого.",
       "timestamp": "2026-09-11T23:35:19+0000",
       "has_replies": false
-    },
-    {
-      "id": "18037380506836968",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKmoTYj_gL",
-      "username": "konstantin47209",
-      "text": "Вот! Кот на картинке явно именно ради этого праздника и пришёл 😄",
-      "timestamp": "2026-09-11T23:35:09+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18131048131740117",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKZLKkkkR9",
-      "username": "konstantin47209",
-      "text": "Шана Това! 🍎🍯 Пусть год будет хорошим!",
-      "timestamp": "2026-09-11T21:37:35+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: ",
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }
