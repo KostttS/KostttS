@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T08:34:11.885381+00:00",
+  "generated_at": "2026-09-12T09:36:08.849667+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwFuevGh&_nc_oc=Adrr2nFuau3zLo-K8jHKcvzBZ4ZW29Yi_TjseJMWkCRYYT-kK3sLsInugrnyH3tfsZQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=o7_MV1D01n84LX0A7-8R8Q&_nc_tpa=Q5bMBQKyKTAWXw03zLinbR19emutbzXb3T2aAkaWeSK4OIvOKu090aDf2ueHC1PKDI6LW6_Rwe6IjMvutg&oh=00_AQK84n5ellSiVlfjP1dRxAPob6eYfAduydcx3nF4RcHz5g&oe=6AAAE70A",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwHqxawd&_nc_oc=Adq_MpV2sBm7GTGV9SSygTwwEDqKg-aq-xI-qP6AbQ0IgnblqYPcettikqnoR-IX9RE&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=eWL7bI5e7fBhwePHmDRmPQ&_nc_tpa=Q5bMBQLfivoC1ipQiZDGdKuG2jQB-qObz0V6_SD_cQGn1mhDBOnaJvLRmaTFa6orkW9Py8FLzDP8wy3diA&oh=00_AQJWiE4ruxKNLVWi3gynSiDiLWFgQOvM_9tvuwFV0a3xMA&oe=6AAAE70A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 278,
+        "value": 453,
         "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 10
+      "value": 22
     },
     "replies": {
-      "value": 2
+      "value": 9
     },
     "reposts": {
       "value": 0
@@ -53,12 +53,12 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 7,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 11,
+      "reply_quota_usage": 13,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -66,6 +66,48 @@
     }
   ],
   "recent_posts": [
+    {
+      "id": "18124799989823337",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdLrZD7m8ky",
+      "username": "konstantin47209",
+      "text": "Для владельца бизнеса кнопка «Оплатить» выглядит как одна функция.\n\nНо именно здесь нельзя делать «и так сойдёт»: деньги могут списаться, интернет оборваться, клиент нажать дважды, а приложение — не получить подтверждение.\n\nХорошая платёжная логика — это когда клиент вообще не знает, сколько проблем вы предусмотрели заранее.",
+      "timestamp": "2026-09-12T09:36:01+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
     {
       "id": "17874673620567642",
       "media_type": "TEXT_POST",
@@ -78,17 +120,17 @@
       "insights": {
         "views": [
           {
-            "value": 173
+            "value": 254
           }
         ],
         "likes": [
           {
-            "value": 8
+            "value": 12
           }
         ],
         "replies": [
           {
-            "value": 3
+            "value": 6
           }
         ],
         "reposts": [
@@ -120,12 +162,12 @@
       "insights": {
         "views": [
           {
-            "value": 434
+            "value": 467
           }
         ],
         "likes": [
           {
-            "value": 63
+            "value": 67
           }
         ],
         "replies": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 1294
+            "value": 1295
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18104406797610810",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdHmeixD4Ug",
-      "username": "konstantin47209",
-      "text": "Худший баг — не когда всё упало.\n\nХуже, когда API отвечает 200, данные в базе есть, ошибок нет… а на экране пусто.\n\nЧерез час ты уже проверяешь redirect, permissions, старый токен и начинаешь подозревать вообще всё 😄\n\nУ кого был баг из серии «нашёл причину и стало стыдно»?",
-      "timestamp": "2026-09-10T19:36:06+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 313
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 4
           }
         ],
         "reposts": [

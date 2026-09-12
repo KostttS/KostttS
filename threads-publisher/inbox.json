@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-12T08:34:11.885381+00:00",
+  "generated_at": "2026-09-12T09:36:08.849667+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "17902163721354344",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@aduardshabashkevich/post/DdLpjJqguq9",
+      "text": "вино и мед , 😉",
+      "timestamp": "2026-09-12T09:19:50+0000",
+      "username": "aduardshabashkevich",
+      "root_thread_id": "17874673620567642",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
+    },
     {
       "id": "18633121264030024",
       "has_replies": false,
@@ -15,7 +26,7 @@
     },
     {
       "id": "18185477080407284",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "IMAGE",
       "permalink": "https://www.threads.com/@berzhanovaidulla/post/DdLiRcmjeqR",
       "timestamp": "2026-09-12T08:16:15+0000",
@@ -230,28 +241,6 @@
       "username": "svivanova2037",
       "root_thread_id": "18134641915726649",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18457101331141207",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@gleb_developer/post/DdHpJJbkcER",
-      "text": "Худший баг это тот что молчит как рыба, но вредничает как бешенная обезьяна с неограниченным запасом гранат…",
-      "timestamp": "2026-09-10T19:59:19+0000",
-      "username": "gleb_developer",
-      "root_thread_id": "18104406797610810",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdHmeixD4Ug"
-    },
-    {
-      "id": "18111766196088769",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@maximmonin_/post/DdHnrzrComa",
-      "text": "За решение задачи и технической проблемы никогда не стыдно.",
-      "timestamp": "2026-09-10T19:46:35+0000",
-      "username": "maximmonin_",
-      "root_thread_id": "18104406797610810",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdHmeixD4Ug"
     }
   ],
   "own_recent_replies": [
