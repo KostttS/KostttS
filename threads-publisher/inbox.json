@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T21:33:53.089656+00:00",
+  "generated_at": "2026-09-12T21:36:43.935006+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
       "id": "18110296520029993",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@elenaolkhovoy/post/DdM5UqhiE74",
       "text": "6 лет прожила возле моря, уехала.",
@@ -15,7 +15,7 @@
     },
     {
       "id": "18441495643192489",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@sweetberry_sg/post/DdM5IucCOo-",
       "text": "Жить у моря. Без разницы, ехать или пешком )",
@@ -26,7 +26,7 @@
     },
     {
       "id": "17965289919180779",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@philippines2day/post/DdM494QGHyx",
       "text": "Именно так и было. Первые полгода жила прямо на берегу, до воды - 0,5 минуты. Дальше 2,5 года вариант Б, поднадоело море под окном🤩",
@@ -365,6 +365,33 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18133490317633396",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdM93X3FFei",
+      "username": "konstantin47209",
+      "text": "После шести лет интересно: когда уехали, моря потом реально не хватало или быстро отпустило?",
+      "timestamp": "2026-09-12T21:36:39+0000",
+      "has_replies": false
+    },
+    {
+      "id": "17987747223045277",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdM92NulMY5",
+      "username": "konstantin47209",
+      "text": "Вот это третий вариант, которого в опросе не было 😄 Главное — само море рядом, а несколько минут уже не принципиальны.",
+      "timestamp": "2026-09-12T21:36:30+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18408408694088985",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdM91JPlDUI",
+      "username": "konstantin47209",
+      "text": "Вот это как раз интересный опыт 😄 Получается, море под окном тоже может надоесть. А сейчас выбрали бы вариант Б снова?",
+      "timestamp": "2026-09-12T21:36:21+0000",
+      "has_replies": false
+    },
+    {
       "id": "18115462441777171",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdMiF8CFNWs",
@@ -425,33 +452,6 @@
       "username": "konstantin47209",
       "text": "Вот уже второй голос за гефилте фиш 😄 Похоже, я её сильно недооценил.",
       "timestamp": "2026-09-12T09:36:53+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18077967611343065",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdLreHQGwIJ",
-      "username": "konstantin47209",
-      "text": "Похоже, фаршированная рыба уверенно догоняет яблоки с мёдом 😄",
-      "timestamp": "2026-09-12T09:36:42+0000",
-      "has_replies": true
-    },
-    {
-      "id": "18073901030451564",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdLkTr5G8AQ",
-      "username": "konstantin47209",
-      "text": "Шана Това! Очень хочется, чтобы именно так и было 🙏",
-      "timestamp": "2026-09-12T08:34:06+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18092944772124854",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdLkSSam0ia",
-      "username": "konstantin47209",
-      "text": "Шана Това! 🍎🍯 Пусть новый год будет добрым и спокойным.",
-      "timestamp": "2026-09-12T08:33:55+0000",
       "has_replies": false
     }
   ],
