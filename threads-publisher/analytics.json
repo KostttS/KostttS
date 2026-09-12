@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-12T07:38:29.168191+00:00",
+  "generated_at": "2026-09-12T08:34:11.885381+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwGSx0XW&_nc_oc=AdpEPst3t00YkF6_Utpi9rkaqojyATJJhuWjOuOdCpxB1XaP9NwxRNSWmnQeFYAmNwg&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=UGOgNX-gPbvDf8CHkxJzCg&_nc_tpa=Q5bMBQJBlnrGGKYA5FSk7n0_vlr0LvucQBQLSX2hDFq5ba4JltW0OQpb5dkdM3c2q0M7xXR2S8suq6Km7g&oh=00_AQJM5De2ehlsOBG13qLqMcc1hgsi9hP0mZFn9xBsPij7Ig&oe=6AAAE70A",
+    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwFuevGh&_nc_oc=Adrr2nFuau3zLo-K8jHKcvzBZ4ZW29Yi_TjseJMWkCRYYT-kK3sLsInugrnyH3tfsZQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=o7_MV1D01n84LX0A7-8R8Q&_nc_tpa=Q5bMBQKyKTAWXw03zLinbR19emutbzXb3T2aAkaWeSK4OIvOKu090aDf2ueHC1PKDI6LW6_Rwe6IjMvutg&oh=00_AQK84n5ellSiVlfjP1dRxAPob6eYfAduydcx3nF4RcHz5g&oe=6AAAE70A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 2368,
+        "value": 2369,
         "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 37,
+        "value": 278,
         "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 1
+      "value": 10
     },
     "replies": {
-      "value": 0
+      "value": 2
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 7,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -74,21 +74,21 @@
       "text": "Первое утро нового года в Израиле 🍎🍯\n\nЕсли выбрать только ОДНУ вещь, без которой для вас Рош ха-Шана — уже не Рош ха-Шана, что это будет?\n\nУ меня пока яблоки с мёдом вне конкуренции 😄",
       "timestamp": "2026-09-12T07:38:26+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 173
           }
         ],
         "likes": [
           {
-            "value": 0
+            "value": 8
           }
         ],
         "replies": [
           {
-            "value": 0
+            "value": 3
           }
         ],
         "reposts": [
@@ -120,17 +120,17 @@
       "insights": {
         "views": [
           {
-            "value": 403
+            "value": 434
           }
         ],
         "likes": [
           {
-            "value": 61
+            "value": 63
           }
         ],
         "replies": [
           {
-            "value": 10
+            "value": 12
           }
         ],
         "reposts": [
@@ -162,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 1280
+            "value": 1294
           }
         ],
         "likes": [
@@ -204,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 11
+            "value": 14
           }
         ],
         "likes": [
@@ -246,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 30
+            "value": 34
           }
         ],
         "likes": [
@@ -288,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 279
+            "value": 282
           }
         ],
         "likes": [
@@ -330,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 91
+            "value": 93
           }
         ],
         "likes": [
@@ -372,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 208
+            "value": 210
           }
         ],
         "likes": [
@@ -414,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 23
+            "value": 25
           }
         ],
         "likes": [
@@ -456,7 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 312
+            "value": 313
           }
         ],
         "likes": [

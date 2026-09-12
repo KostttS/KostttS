@@ -1,10 +1,42 @@
 {
-  "generated_at": "2026-09-12T07:38:29.168191+00:00",
+  "generated_at": "2026-09-12T08:34:11.885381+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
-      "id": "18108266903522122",
+      "id": "18633121264030024",
       "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@jenny_gorn/post/DdLi5tYjlU0",
+      "text": "Гефилте Фиш",
+      "timestamp": "2026-09-12T08:21:45+0000",
+      "username": "jenny_gorn",
+      "root_thread_id": "17874673620567642",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
+    },
+    {
+      "id": "18185477080407284",
+      "has_replies": false,
+      "media_type": "IMAGE",
+      "permalink": "https://www.threads.com/@berzhanovaidulla/post/DdLiRcmjeqR",
+      "timestamp": "2026-09-12T08:16:15+0000",
+      "username": "berzhanovaidulla",
+      "root_thread_id": "17874673620567642",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
+    },
+    {
+      "id": "18134007133635882",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@neyman.cakes/post/DdLenKKjP8O",
+      "text": "А как же фаршированная рыба 🥰🥰🥰🥰",
+      "timestamp": "2026-09-12T07:44:16+0000",
+      "username": "neyman.cakes",
+      "root_thread_id": "17874673620567642",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
+    },
+    {
+      "id": "18108266903522122",
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@lvinaya_dolya/post/DdLcfW8jdwB",
       "text": "Шана Това!! Пусть будет лучше",
@@ -15,7 +47,7 @@
     },
     {
       "id": "18094899650541975",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@olgaioffe0/post/DdLIIq1gra7",
       "text": "Шана това!",
@@ -224,6 +256,24 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18073901030451564",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdLkTr5G8AQ",
+      "username": "konstantin47209",
+      "text": "Шана Това! Очень хочется, чтобы именно так и было 🙏",
+      "timestamp": "2026-09-12T08:34:06+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18092944772124854",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdLkSSam0ia",
+      "username": "konstantin47209",
+      "text": "Шана Това! 🍎🍯 Пусть новый год будет добрым и спокойным.",
+      "timestamp": "2026-09-12T08:33:55+0000",
+      "has_replies": false
+    },
+    {
       "id": "17913657435266074",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdKmpdKDwIK",
@@ -293,24 +343,6 @@
       "username": "konstantin47209",
       "text": "Если про «Шифр» 2002 года — вообще не видел. Записал, спасибо 👍",
       "timestamp": "2026-09-11T19:39:30+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18129200620706091",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLpI_FMtu",
-      "username": "konstantin47209",
-      "text": "«Леон» — вот это как раз из тех, которые можно пересматривать. Хороший вариант 👍",
-      "timestamp": "2026-09-11T19:39:20+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18116619718982003",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLl1oH7qC",
-      "username": "konstantin47209",
-      "text": "Если про «Шифр» 2002 года — вообще не видел. Записал, спасибо 👍",
-      "timestamp": "2026-09-11T19:38:55+0000",
       "has_replies": false
     }
   ],
