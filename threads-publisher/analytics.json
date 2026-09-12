@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T11:39:53.216351+00:00",
+  "generated_at": "2026-09-12T12:38:07.053562+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwF6bJkG&_nc_oc=AdpdDWNRRI66XOhGmAbxCvqZSl_5ge25hscsVn1aojHS7cnRhMcr_bFW_nidWNhSoNQ&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=pDbum1Bx_Wnz46uNnnbTtA&_nc_tpa=Q5bMBQKxs423YUwXm1K7YBrQpaw3dh8vEyBaQ5XdcUZdRUQwewsQIqtR17QBbjUHu5mWmmC4gEre8AHorw&oh=00_AQKWZJK-NU47Nilgq-uU00t7dCaPhNcc6d3XCR7HY5708Q&oe=6AAB1F4A",
+    "threads_profile_picture_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwFqAH0d&_nc_oc=AdqNOStdWu4pga2Dl5j0MSc_WqkO-tkrlR6jv7R0piy7uKlALsh4loeDf5D9MfSWUws&_nc_zt=24&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=hEsl2Op4NePeQqknwysYDA&_nc_tpa=Q5bMBQKE1dgOx7OuANnE7BGJ6xkXNzsqHO6qrvUgugU7vl2myDAyI4srRMB3h-QZNonDTyOWTEhBe_Yfcg&oh=00_AQLmeSxpewzYoiVDAO4mIZk0Lv2XzLeIQjdvkWeDA8b0Zg&oe=6AAB1F4A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 746,
+        "value": 821,
         "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 37
+      "value": 43
     },
     "replies": {
-      "value": 23
+      "value": 25
     },
     "reposts": {
       "value": 0
@@ -58,7 +58,7 @@
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 16,
+      "reply_quota_usage": 18,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -66,6 +66,48 @@
     }
   ],
   "recent_posts": [
+    {
+      "id": "17941649031085423",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdMAOfjG3ZE",
+      "username": "konstantin47209",
+      "text": "Если оставить в Израиле только ОДНУ вещь, по которой вы бы реально скучали после переезда — что выберете?\n\nМоре, еду, людей, погоду, шаббатную тишину — или вообще что-то неожиданное?",
+      "timestamp": "2026-09-12T12:38:04+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
     {
       "id": "18124799989823337",
       "media_type": "TEXT_POST",
@@ -120,12 +162,12 @@
       "insights": {
         "views": [
           {
-            "value": 486
+            "value": 522
           }
         ],
         "likes": [
           {
-            "value": 16
+            "value": 17
           }
         ],
         "replies": [
@@ -162,12 +204,12 @@
       "insights": {
         "views": [
           {
-            "value": 502
+            "value": 532
           }
         ],
         "likes": [
           {
-            "value": 77
+            "value": 80
           }
         ],
         "replies": [
@@ -204,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 1301
+            "value": 1304
           }
         ],
         "likes": [
@@ -415,48 +457,6 @@
         "views": [
           {
             "value": 211
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "17877130830548633",
-      "media_type": "IMAGE",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdHtOhnG9-v",
-      "username": "konstantin47209",
-      "text": "«Добавим ещё одну роль пользователя. Там же немного».\n\nФраза, после которой разработчик начинает нервно улыбаться 😄\n\nПотому что следом приезжают права, статусы, отдельные сценарии, уведомления, правила базы и кусок админки.\n\nВ Elinknest несколько типов пользователей: студент, преподаватель, школа, университет, админ. На макете — пять слов. В логике — уже совсем другая история.",
-      "timestamp": "2026-09-10T20:35:07+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 26
           }
         ],
         "likes": [
