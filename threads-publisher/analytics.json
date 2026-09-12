@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T15:37:09.000082+00:00",
+  "generated_at": "2026-09-12T17:12:14.327249+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=_up2gPl3M88Q7kNvwElsKxt&_nc_oc=AdrxG_TH32twGOAP77LCYbk-GTHKFHCgGIeI2BJpJZKz3Aqee9kHMxLuxNcvDnMJnUE&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=MskT8DjZC5KtF6s-kPw0Cg&_nc_tpa=Q5bMBQLadhTZN9nqYGjQeLaQsPrmXvWIwNleT-jrAXkiPyN01LmgRpyGI8RJFK7WECXcJvioLKzuG7iEtQ&oh=00_AQKEvrIqX5Kb8PuD_ILY3TxMkRqjq9fj5DSWhNgPvLeJyw&oe=6AAB4D7E",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=_up2gPl3M88Q7kNvwGL-BlA&_nc_oc=AdrvF77HCG5Fd3y206Nx8_oGjpWdS9lq5_TyBtDBkYCzk1_OOoOzb4Bp3xqjkEmA61k&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=MECjD_f82E0jUhEF_WHfew&_nc_tpa=Q5bMBQLVIZ0pA-ohMueoMfyFSfrArY-FKQ-QMpx6CSZutFbtvdnlQm_ye1WurLpKWBiSgAnfs3fsggSIBQ&oh=00_AQI5TKg12tH21HA84HEwrACZmEB2zcsLfIdPsY-MXkAn_A&oe=6AAB4D7E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 1246,
+        "value": 1418,
         "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 51
+      "value": 55
     },
     "replies": {
-      "value": 31
+      "value": 32
     },
     "reposts": {
       "value": 0
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18114398746962618",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdMfmWnlGAm",
+      "username": "konstantin47209",
+      "text": "Если бюджет первой версии приложения ограничен, какую ОДНУ вещь вы бы выкинули первой?\n\nЧат, подписки, карту, рефералку, AI или сложную админку?\n\nЯ почти всегда режу то, без чего главный сценарий всё равно работает. Первая версия должна доказать, что человек вообще вернётся в приложение второй раз — а не показать весь будущий бизнес за один релиз.",
+      "timestamp": "2026-09-12T17:12:11+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18376745092233331",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdMUtqZFlxk",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "likes": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 227
+            "value": 236
           }
         ],
         "likes": [
@@ -204,17 +246,17 @@
       "insights": {
         "views": [
           {
-            "value": 606
+            "value": 688
           }
         ],
         "likes": [
           {
-            "value": 18
+            "value": 19
           }
         ],
         "replies": [
           {
-            "value": 18
+            "value": 19
           }
         ],
         "reposts": [
@@ -246,12 +288,12 @@
       "insights": {
         "views": [
           {
-            "value": 581
+            "value": 618
           }
         ],
         "likes": [
           {
-            "value": 85
+            "value": 88
           }
         ],
         "replies": [
@@ -288,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 1310
+            "value": 1317
           }
         ],
         "likes": [
@@ -420,48 +462,6 @@
         "likes": [
           {
             "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18113044741821174",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdJFbbulTvU",
-      "username": "konstantin47209",
-      "text": "Народ из Нетании, а вы вообще что делаете на праздники?))\n\nКуда тут можно выбраться в ближайшие дни, чтобы не просто по набережной сотый раз пройтись?\n\nМожет движ какой-то есть, про который я вообще не знаю?",
-      "timestamp": "2026-09-11T09:25:48+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 95
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
           }
         ],
         "replies": [

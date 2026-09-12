@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:37:09.000082+00:00",
+  "generated_at": "2026-09-12T17:12:14.327249+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -12,6 +12,17 @@
       "username": "mlsrdn_a",
       "root_thread_id": "17941649031085423",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdMAOfjG3ZE"
+    },
+    {
+      "id": "18024780821700339",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@maxnedlin/post/DdMZ9heiMzu",
+      "text": "Работа",
+      "timestamp": "2026-09-12T16:22:52+0000",
+      "username": "maxnedlin",
+      "root_thread_id": "17874673620567642",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
     },
     {
       "id": "17865914754659243",
@@ -415,7 +426,7 @@
     {
       "feature": "mentions",
       "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }
