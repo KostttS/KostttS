@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T21:36:43.935006+00:00",
+  "generated_at": "2026-09-12T23:25:43.550829+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -371,7 +371,7 @@
       "username": "konstantin47209",
       "text": "После шести лет интересно: когда уехали, моря потом реально не хватало или быстро отпустило?",
       "timestamp": "2026-09-12T21:36:39+0000",
-      "has_replies": false
+      "has_replies": true
     },
     {
       "id": "17987747223045277",
@@ -458,7 +458,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
