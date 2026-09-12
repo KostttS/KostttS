@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-12T06:25:10.165991+00:00",
+  "generated_at": "2026-09-12T07:38:29.168191+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-qro3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwH8OMXy&_nc_oc=Adp9w6DiA_qo2M6g9LLJJ9wTBkDKFintsN96QtcIUbW6nER2q4ytzmyC4kgQVOiVL5I&_nc_zt=24&_nc_ht=scontent-qro3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=QWu231s08JjUgMpizVwtxA&_nc_tpa=Q5bMBQLPq-l8ENZaktQoAbGPz5wtrlN5NmXr67bsfYV3-EsBnmt8H_MyYym82J18-sHzpaan_Goy3LByvg&oh=00_AQIDjVJilvy0EqnWxpKpF7SVLrOqEhre5rAI6HFEKKt1VQ&oe=6AAAAECA",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwGSx0XW&_nc_oc=AdpEPst3t00YkF6_Utpi9rkaqojyATJJhuWjOuOdCpxB1XaP9NwxRNSWmnQeFYAmNwg&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=UGOgNX-gPbvDf8CHkxJzCg&_nc_tpa=Q5bMBQJBlnrGGKYA5FSk7n0_vlr0LvucQBQLSX2hDFq5ba4JltW0OQpb5dkdM3c2q0M7xXR2S8suq6Km7g&oh=00_AQJM5De2ehlsOBG13qLqMcc1hgsi9hP0mZFn9xBsPij7Ig&oe=6AAAE70A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 562,
-        "end_time": "2026-09-10T07:00:00+0000"
+        "value": 2368,
+        "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 2324,
-        "end_time": "2026-09-11T07:00:00+0000"
+        "value": 37,
+        "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 67
+      "value": 1
     },
     "replies": {
-      "value": 31
+      "value": 0
     },
     "reposts": {
       "value": 0
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "17874673620567642",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh",
+      "username": "konstantin47209",
+      "text": "Первое утро нового года в Израиле 🍎🍯\n\nЕсли выбрать только ОДНУ вещь, без которой для вас Рош ха-Шана — уже не Рош ха-Шана, что это будет?\n\nУ меня пока яблоки с мёдом вне конкуренции 😄",
+      "timestamp": "2026-09-12T07:38:26+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18635799763023369",
       "media_type": "IMAGE",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU",
@@ -78,17 +120,17 @@
       "insights": {
         "views": [
           {
-            "value": 374
+            "value": 403
           }
         ],
         "likes": [
           {
-            "value": 55
+            "value": 61
           }
         ],
         "replies": [
           {
-            "value": 9
+            "value": 10
           }
         ],
         "reposts": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 1255
+            "value": 1280
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 4
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18621902107011829",
-      "media_type": "IMAGE",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdHRvGnFSXp",
-      "username": "konstantin47209",
-      "text": "OLIMP TICKETS — хороший пример проекта, где мобильное приложение — это не просто интерфейс.\n\nВнутри: Firebase, авторизация, работа с данными и полноценная логика приложения. Проект доведён до рабочего продукта, а не оставлен на стадии прототипа.\n\nИменно такие задачи мне интереснее всего: когда нужно собрать приложение целиком и довести его до релиза.",
-      "timestamp": "2026-09-10T16:34:52+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 13
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
           }
         ],
         "reposts": [
