@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T09:36:08.849667+00:00",
+  "generated_at": "2026-09-12T09:37:00.443016+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwHqxawd&_nc_oc=Adq_MpV2sBm7GTGV9SSygTwwEDqKg-aq-xI-qP6AbQ0IgnblqYPcettikqnoR-IX9RE&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=eWL7bI5e7fBhwePHmDRmPQ&_nc_tpa=Q5bMBQLfivoC1ipQiZDGdKuG2jQB-qObz0V6_SD_cQGn1mhDBOnaJvLRmaTFa6orkW9Py8FLzDP8wy3diA&oh=00_AQJWiE4ruxKNLVWi3gynSiDiLWFgQOvM_9tvuwFV0a3xMA&oe=6AAAE70A",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwFJnrVb&_nc_oc=Ado2WOLXXwMRhdchOXPM_LVF5kpbzlwTrSPL7lJqvsrLx-uESaBew9l9JVUIApkju5o&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=s9SU8R9sUtWgWozyATFieQ&_nc_tpa=Q5bMBQLHzq4VAkJc--v3I-tjELsYKjmhCcDb20bYh8340gVJKOavOQFAmeB1XmxCdW9GxJLabrS5-dBCCw&oh=00_AQKe7fKKqFy_8R_Dip1QW3JjGfmSR4IBzlPr1jaI_R8ttQ&oe=6AAAE70A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 7,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -130,7 +130,7 @@
         ],
         "replies": [
           {
-            "value": 6
+            "value": 8
           }
         ],
         "reposts": [

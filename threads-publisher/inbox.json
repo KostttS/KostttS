@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:36:08.849667+00:00",
+  "generated_at": "2026-09-12T09:37:00.443016+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "id": "18633121264030024",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@jenny_gorn/post/DdLi5tYjlU0",
       "text": "Гефилте Фиш",
@@ -36,7 +36,7 @@
     },
     {
       "id": "18134007133635882",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@neyman.cakes/post/DdLenKKjP8O",
       "text": "А как же фаршированная рыба 🥰🥰🥰🥰",
@@ -245,6 +245,24 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18068891045738368",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdLrfctmz0B",
+      "username": "konstantin47209",
+      "text": "Вот уже второй голос за гефилте фиш 😄 Похоже, я её сильно недооценил.",
+      "timestamp": "2026-09-12T09:36:53+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18077967611343065",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdLreHQGwIJ",
+      "username": "konstantin47209",
+      "text": "Похоже, фаршированная рыба уверенно догоняет яблоки с мёдом 😄",
+      "timestamp": "2026-09-12T09:36:42+0000",
+      "has_replies": false
+    },
+    {
       "id": "18073901030451564",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdLkTr5G8AQ",
@@ -314,24 +332,6 @@
       "username": "konstantin47209",
       "text": "Второй Гай Ричи подряд 😄 «Большой куш» реально хороший кандидат на вечер.",
       "timestamp": "2026-09-11T20:34:08+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18108961406265490",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKR5krlMDa",
-      "username": "konstantin47209",
-      "text": "Вот его как раз давно пора пересмотреть. Похоже, сегодня Гай Ричи уверенно побеждает 😄",
-      "timestamp": "2026-09-11T20:34:00+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18068107511771140",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKLqZHFHBn",
-      "username": "konstantin47209",
-      "text": "Если про «Шифр» 2002 года — вообще не видел. Записал, спасибо 👍",
-      "timestamp": "2026-09-11T19:39:30+0000",
       "has_replies": false
     }
   ],
