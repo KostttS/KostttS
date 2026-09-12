@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:12:14.327249+00:00",
+  "generated_at": "2026-09-12T17:34:06.181304+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "id": "18024780821700339",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@maxnedlin/post/DdMZ9heiMzu",
       "text": "Работа",
@@ -332,6 +332,15 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18115462441777171",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdMiF8CFNWs",
+      "username": "konstantin47209",
+      "text": "Сильный ответ 😄 Праздник праздником, а работа всё равно остаётся главным ритуалом.",
+      "timestamp": "2026-09-12T17:33:59+0000",
+      "has_replies": false
+    },
+    {
       "id": "18129214285776431",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdMG2IdlrAQ",
@@ -411,21 +420,12 @@
       "text": "Шана Това! 🍎🍯 Пусть новый год будет добрым и спокойным.",
       "timestamp": "2026-09-12T08:33:55+0000",
       "has_replies": false
-    },
-    {
-      "id": "17913657435266074",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKmpdKDwIK",
-      "username": "konstantin47209",
-      "text": "О, «Маска» давно не пересматривал 😄 Отличный вариант, если хочется чего-то лёгкого.",
-      "timestamp": "2026-09-11T23:35:19+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
       "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
