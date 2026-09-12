@@ -1,10 +1,21 @@
 {
-  "generated_at": "2026-09-12T09:37:00.443016+00:00",
+  "generated_at": "2026-09-12T10:35:43.877596+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
-      "id": "17902163721354344",
+      "id": "18494315953100176",
       "has_replies": false,
+      "media_type": "IMAGE",
+      "permalink": "https://www.threads.com/@rustammukhamedov_1956/post/DdLr0frEUIE",
+      "text": "Треблинка !",
+      "timestamp": "2026-09-12T09:39:41+0000",
+      "username": "rustammukhamedov_1956",
+      "root_thread_id": "17874673620567642",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
+    },
+    {
+      "id": "17902163721354344",
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@aduardshabashkevich/post/DdLpjJqguq9",
       "text": "вино и мед , 😉",
@@ -44,6 +55,28 @@
       "username": "neyman.cakes",
       "root_thread_id": "17874673620567642",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
+    },
+    {
+      "id": "18134066287635564",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@mvandet76/post/DdLxOS1jnFj",
+      "text": "С праздником",
+      "timestamp": "2026-09-12T10:26:53+0000",
+      "username": "mvandet76",
+      "root_thread_id": "18635799763023369",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU"
+    },
+    {
+      "id": "18633403951033037",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@svetikzack/post/DdLwyQ_iG6J",
+      "text": "שנה טובה🙏",
+      "timestamp": "2026-09-12T10:23:04+0000",
+      "username": "svetikzack",
+      "root_thread_id": "18635799763023369",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU"
     },
     {
       "id": "18108266903522122",
@@ -245,6 +278,15 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18182907211414326",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdLyNs9nJk1",
+      "username": "konstantin47209",
+      "text": "Мёд — это точно 😄 Похоже, у каждого к нему ещё свой обязательный праздничный набор.",
+      "timestamp": "2026-09-12T10:35:38+0000",
+      "has_replies": false
+    },
+    {
       "id": "18068891045738368",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdLrfctmz0B",
@@ -260,7 +302,7 @@
       "username": "konstantin47209",
       "text": "Похоже, фаршированная рыба уверенно догоняет яблоки с мёдом 😄",
       "timestamp": "2026-09-12T09:36:42+0000",
-      "has_replies": false
+      "has_replies": true
     },
     {
       "id": "18073901030451564",
@@ -324,22 +366,13 @@
       "text": "Вот это уже тяжёлая артиллерия 😄 Давно откладывал — видимо, пора.",
       "timestamp": "2026-09-11T20:34:18+0000",
       "has_replies": false
-    },
-    {
-      "id": "18116757433938200",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKR6lZlFlI",
-      "username": "konstantin47209",
-      "text": "Второй Гай Ричи подряд 😄 «Большой куш» реально хороший кандидат на вечер.",
-      "timestamp": "2026-09-11T20:34:08+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: ",
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }

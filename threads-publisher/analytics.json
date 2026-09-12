@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T09:37:00.443016+00:00",
+  "generated_at": "2026-09-12T10:35:43.877596+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwFJnrVb&_nc_oc=Ado2WOLXXwMRhdchOXPM_LVF5kpbzlwTrSPL7lJqvsrLx-uESaBew9l9JVUIApkju5o&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=s9SU8R9sUtWgWozyATFieQ&_nc_tpa=Q5bMBQLHzq4VAkJc--v3I-tjELsYKjmhCcDb20bYh8340gVJKOavOQFAmeB1XmxCdW9GxJLabrS5-dBCCw&oh=00_AQKe7fKKqFy_8R_Dip1QW3JjGfmSR4IBzlPr1jaI_R8ttQ&oe=6AAAE70A",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwE05trd&_nc_oc=AdpK7L48W4WUoHWBI7YxwroSaMYkCeTvoKNvEpaiuhCY_jf3wWmih81cbigielOOZZk&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=DNC0caJFK6H5ArMksSR7sw&_nc_tpa=Q5bMBQKed4BlblMB9rD1mpBSlqR1sBim1sy8aR1BLEP2vZkVZqFBqYROZRPv9y-diG1tWkQXkdwsT2kUQA&oh=00_AQLUU4T5YiGx-xtl5oEv3lZv-4z_nBA2G12d9QWOjhY7kA&oe=6AAAE70A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 453,
+        "value": 640,
         "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 22
+      "value": 31
     },
     "replies": {
-      "value": 9
+      "value": 18
     },
     "reposts": {
       "value": 0
@@ -58,7 +58,7 @@
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 13,
+      "reply_quota_usage": 15,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -78,7 +78,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 24
           }
         ],
         "likes": [
@@ -120,17 +120,17 @@
       "insights": {
         "views": [
           {
-            "value": 254
+            "value": 421
           }
         ],
         "likes": [
           {
-            "value": 12
+            "value": 16
           }
         ],
         "replies": [
           {
-            "value": 8
+            "value": 15
           }
         ],
         "reposts": [
@@ -162,17 +162,17 @@
       "insights": {
         "views": [
           {
-            "value": 467
+            "value": 485
           }
         ],
         "likes": [
           {
-            "value": 67
+            "value": 72
           }
         ],
         "replies": [
           {
-            "value": 12
+            "value": 14
           }
         ],
         "reposts": [
@@ -204,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 1295
+            "value": 1296
           }
         ],
         "likes": [
@@ -246,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 14
+            "value": 15
           }
         ],
         "likes": [
@@ -288,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 34
+            "value": 35
           }
         ],
         "likes": [
@@ -330,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 282
+            "value": 283
           }
         ],
         "likes": [
@@ -372,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 93
+            "value": 94
           }
         ],
         "likes": [
@@ -414,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 210
+            "value": 211
           }
         ],
         "likes": [
@@ -456,7 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 25
+            "value": 26
           }
         ],
         "likes": [
