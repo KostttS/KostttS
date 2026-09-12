@@ -1,7 +1,40 @@
 {
-  "generated_at": "2026-09-12T20:48:49.587957+00:00",
+  "generated_at": "2026-09-12T21:33:53.089656+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18110296520029993",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@elenaolkhovoy/post/DdM5UqhiE74",
+      "text": "6 лет прожила возле моря, уехала.",
+      "timestamp": "2026-09-12T20:56:54+0000",
+      "username": "elenaolkhovoy",
+      "root_thread_id": "18023001290863887",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdM4YakH083"
+    },
+    {
+      "id": "18441495643192489",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@sweetberry_sg/post/DdM5IucCOo-",
+      "text": "Жить у моря. Без разницы, ехать или пешком )",
+      "timestamp": "2026-09-12T20:55:17+0000",
+      "username": "sweetberry_sg",
+      "root_thread_id": "18023001290863887",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdM4YakH083"
+    },
+    {
+      "id": "17965289919180779",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@philippines2day/post/DdM494QGHyx",
+      "text": "Именно так и было. Первые полгода жила прямо на берегу, до воды - 0,5 минуты. Дальше 2,5 года вариант Б, поднадоело море под окном🤩",
+      "timestamp": "2026-09-12T20:53:48+0000",
+      "username": "philippines2day",
+      "root_thread_id": "18023001290863887",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdM4YakH083"
+    },
     {
       "id": "18114775894949392",
       "has_replies": true,
@@ -425,8 +458,8 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
