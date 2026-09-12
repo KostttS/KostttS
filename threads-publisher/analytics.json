@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T12:38:07.053562+00:00",
+  "generated_at": "2026-09-12T13:35:03.730232+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwFqAH0d&_nc_oc=AdqNOStdWu4pga2Dl5j0MSc_WqkO-tkrlR6jv7R0piy7uKlALsh4loeDf5D9MfSWUws&_nc_zt=24&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=hEsl2Op4NePeQqknwysYDA&_nc_tpa=Q5bMBQKE1dgOx7OuANnE7BGJ6xkXNzsqHO6qrvUgugU7vl2myDAyI4srRMB3h-QZNonDTyOWTEhBe_Yfcg&oh=00_AQLmeSxpewzYoiVDAO4mIZk0Lv2XzLeIQjdvkWeDA8b0Zg&oe=6AAB1F4A",
+    "threads_profile_picture_url": "https://scontent-sin11-2.cdninstagram.com/v/t51.82787-19/806142160_18086651396429576_5465639754658521512_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=108&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=4FxU9aZ66EIQ7kNvwE_0nw-&_nc_oc=Ado4sOGY90EvVtyu717f9KbAPwRz2MKScZx4q4-_oC0jZS75Zx8KHBindJsA26CcnJg&_nc_zt=24&_nc_ht=scontent-sin11-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=tqLF2EXNIRXOmsBk9-OpsQ&_nc_tpa=Q5bMBQLtGXRDngEtHAImwVA_qLAa9JfpxYBB5LjXvhUHps1ICQ9blN_g8ZX0Yn1u7YFnsn58XMui4wc7Ew&oh=00_AQL73q-orUDQZM0IFqe0va3qVmfTfPktv3-ZroRGXP9XcQ&oe=6AAB1F4A",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 821,
+        "value": 1092,
         "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 43
+      "value": 46
     },
     "replies": {
-      "value": 25
+      "value": 27
     },
     "reposts": {
       "value": 0
@@ -74,11 +74,11 @@
       "text": "Если оставить в Израиле только ОДНУ вещь, по которой вы бы реально скучали после переезда — что выберете?\n\nМоре, еду, людей, погоду, шаббатную тишину — или вообще что-то неожиданное?",
       "timestamp": "2026-09-12T12:38:04+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 204
           }
         ],
         "likes": [
@@ -88,7 +88,7 @@
         ],
         "replies": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "reposts": [
@@ -162,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 522
+            "value": 544
           }
         ],
         "likes": [
@@ -172,7 +172,7 @@
         ],
         "replies": [
           {
-            "value": 16
+            "value": 17
           }
         ],
         "reposts": [
@@ -204,17 +204,17 @@
       "insights": {
         "views": [
           {
-            "value": 532
+            "value": 552
           }
         ],
         "likes": [
           {
-            "value": 80
+            "value": 81
           }
         ],
         "replies": [
           {
-            "value": 16
+            "value": 17
           }
         ],
         "reposts": [
@@ -246,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 1304
+            "value": 1306
           }
         ],
         "likes": [
