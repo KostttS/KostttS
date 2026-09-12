@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-12T14:09:38.893163+00:00",
+  "generated_at": "2026-09-12T15:37:09.000082+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=_up2gPl3M88Q7kNvwEBdF0n&_nc_oc=Ado8ret41ZwnkFXseEaVZkZ_J6o_gs41ptYdNgEHVIySZ5RlotlaDBC1fQ_cRT1SyJM&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=BpJTDANqO-udhLpoDomF4A&_nc_tpa=Q5bMBQKOyh_z8DAtVkRVUY_stMU48nZ2Ibp2C8GxdxvoPahScuQ4Aj_KNV-kX0USRnRu3V8CA4SyvL4PbA&oh=00_AQKGxaGtH3jnrOArLpocXDYTO148OaLG9IAhhVnl63D-QQ&oe=6AAB153E",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=_up2gPl3M88Q7kNvwElsKxt&_nc_oc=AdrxG_TH32twGOAP77LCYbk-GTHKFHCgGIeI2BJpJZKz3Aqee9kHMxLuxNcvDnMJnUE&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=MskT8DjZC5KtF6s-kPw0Cg&_nc_tpa=Q5bMBQLadhTZN9nqYGjQeLaQsPrmXvWIwNleT-jrAXkiPyN01LmgRpyGI8RJFK7WECXcJvioLKzuG7iEtQ&oh=00_AQKEvrIqX5Kb8PuD_ILY3TxMkRqjq9fj5DSWhNgPvLeJyw&oe=6AAB4D7E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-11T07:00:00+0000"
       },
       {
-        "value": 1135,
+        "value": 1246,
         "end_time": "2026-09-12T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 48
+      "value": 51
     },
     "replies": {
-      "value": 30
+      "value": 31
     },
     "reposts": {
       "value": 0
@@ -48,12 +48,12 @@
       "id": "17841442887264954/insights/clicks/day"
     },
     "followers_count": {
-      "value": 0
+      "value": 4
     }
   },
   "publishing_quota": [
     {
-      "quota_usage": 7,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18376745092233331",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdMUtqZFlxk",
+      "username": "konstantin47209",
+      "text": "Владельцы малого бизнеса, что бесит сильнее?\n\nА — заявки теряются в WhatsApp.\nБ — оплаты и заказы живут в таблицах.\nВ — всё держится на памяти одного сотрудника.\n\nЕсли можно убрать только ОДНУ такую боль — какую?\n\nВот с этого я бы начинал автоматизацию, а не с фразы «нам нужно приложение».",
+      "timestamp": "2026-09-12T15:37:06+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "17941649031085423",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdMAOfjG3ZE",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 218
+            "value": 227
           }
         ],
         "likes": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 28
+            "value": 31
           }
         ],
         "likes": [
@@ -162,12 +204,12 @@
       "insights": {
         "views": [
           {
-            "value": 575
+            "value": 606
           }
         ],
         "likes": [
           {
-            "value": 17
+            "value": 18
           }
         ],
         "replies": [
@@ -204,17 +246,17 @@
       "insights": {
         "views": [
           {
-            "value": 562
+            "value": 581
           }
         ],
         "likes": [
           {
-            "value": 82
+            "value": 85
           }
         ],
         "replies": [
           {
-            "value": 17
+            "value": 18
           }
         ],
         "reposts": [
@@ -246,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 1307
+            "value": 1310
           }
         ],
         "likes": [
@@ -288,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 15
+            "value": 16
           }
         ],
         "likes": [
@@ -330,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 35
+            "value": 36
           }
         ],
         "likes": [
@@ -372,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 283
+            "value": 284
           }
         ],
         "likes": [
@@ -414,49 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 94
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18114397682516543",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdIuIh3FeU7",
-      "username": "konstantin47209",
-      "text": "Непопулярное мнение: FlutterFlow не заменяет разработчика. Он просто быстрее доводит проект до места, где без разработчика уже никак 😄\n\nПока рисуешь экраны — всё похоже на конструктор. Потом появляются RLS, Edge Functions, платежи, custom actions, deep links, внешние API.\n\nУ кого FlutterFlow уже переставал быть no-code — на какой задаче?",
-      "timestamp": "2026-09-11T06:02:14+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 211
+            "value": 95
           }
         ],
         "likes": [
