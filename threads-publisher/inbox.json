@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:36:12.377180+00:00",
+  "generated_at": "2026-09-13T14:36:44.152703+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -166,82 +166,6 @@
       "username": "mlsrdn_a",
       "root_thread_id": "17941649031085423",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdMAOfjG3ZE"
-    },
-    {
-      "id": "18024780821700339",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@maxnedlin/post/DdMZ9heiMzu",
-      "text": "Работа",
-      "timestamp": "2026-09-12T16:22:52+0000",
-      "username": "maxnedlin",
-      "root_thread_id": "17874673620567642",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
-    },
-    {
-      "id": "17865914754659243",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@irka5566/post/DdME_zxDnO9",
-      "text": "Медовик. Кекс по рецепту бабушки.",
-      "timestamp": "2026-09-12T13:19:41+0000",
-      "username": "irka5566",
-      "root_thread_id": "17874673620567642",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
-    },
-    {
-      "id": "18494315953100176",
-      "has_replies": false,
-      "media_type": "IMAGE",
-      "permalink": "https://www.threads.com/@rustammukhamedov_1956/post/DdLr0frEUIE",
-      "text": "Треблинка !",
-      "timestamp": "2026-09-12T09:39:41+0000",
-      "username": "rustammukhamedov_1956",
-      "root_thread_id": "17874673620567642",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
-    },
-    {
-      "id": "17902163721354344",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@aduardshabashkevich/post/DdLpjJqguq9",
-      "text": "вино и мед , 😉",
-      "timestamp": "2026-09-12T09:19:50+0000",
-      "username": "aduardshabashkevich",
-      "root_thread_id": "17874673620567642",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
-    },
-    {
-      "id": "18633121264030024",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@jenny_gorn/post/DdLi5tYjlU0",
-      "text": "Гефилте Фиш",
-      "timestamp": "2026-09-12T08:21:45+0000",
-      "username": "jenny_gorn",
-      "root_thread_id": "17874673620567642",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
-    },
-    {
-      "id": "18185477080407284",
-      "has_replies": true,
-      "media_type": "IMAGE",
-      "permalink": "https://www.threads.com/@berzhanovaidulla/post/DdLiRcmjeqR",
-      "timestamp": "2026-09-12T08:16:15+0000",
-      "username": "berzhanovaidulla",
-      "root_thread_id": "17874673620567642",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
-    },
-    {
-      "id": "18134007133635882",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@neyman.cakes/post/DdLenKKjP8O",
-      "text": "А как же фаршированная рыба 🥰🥰🥰🥰",
-      "timestamp": "2026-09-12T07:44:16+0000",
-      "username": "neyman.cakes",
-      "root_thread_id": "17874673620567642",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh"
     }
   ],
   "own_recent_replies": [
@@ -339,7 +263,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]

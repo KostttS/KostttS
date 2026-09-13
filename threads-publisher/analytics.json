@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-13T13:36:12.377180+00:00",
+  "generated_at": "2026-09-13T14:36:44.152703+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEz4PaS&_nc_oc=AdrcPAmBluzJIkT6urjfJZnncCm7gliBszp18LfkiTNmfYb6Vfwsd8h4KoRbD-RWtUg&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=MKDK_5cTwYdRwZIHsfEcyw&_nc_tpa=Q5bMBQK3-XW3nlYDdWxXolb5c8D6MH80F70ejcLvXRIukxgAQxNSoQbw0QcVTuRSKSr1zPAof7sBeLOJEA&oh=00_AQI_eMvTVRjUNuWU1GxXH7WHLW1O98uRGbhaJJYxkrhfrQ&oe=6AAC66BE",
+    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEQgsnf&_nc_oc=Adq3KSU__Ly9QrTIjkLvy-EYLfwpmQNyXDeul4a9Z0WAuLB5R8EBYPFkYZFHKU2J4qY&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ibY-wIJXfHCev8SUmv3fpA&_nc_tpa=Q5bMBQJ6M6xzYPHFBjXekY7GFB-xkErJ6drEZN6hDmaliRxg2WoR3dJ0QjsDi0EoPjIU-48l7ENT24Dqlg&oh=00_AQLkWmLR9nUbDXcPQosKdmicv9j4ozxMIkg1fal4OOC8wQ&oe=6AAC9EFE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 2829,
+        "value": 2830,
         "end_time": "2026-09-12T07:00:00+0000"
       },
       {
-        "value": 410,
+        "value": 439,
         "end_time": "2026-09-13T07:00:00+0000"
       }
     ],
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 7,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -66,6 +66,48 @@
     }
   ],
   "recent_posts": [
+    {
+      "id": "18108401516603661",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdOymPtG228",
+      "username": "konstantin47209",
+      "text": "Мне всё меньше нравится идея добавлять AI в приложение просто потому, что сейчас его добавляют все.\n\nЕсли он не убирает конкретную работу — поиск, заполнение полей, разбор сотни записей, ожидание сотрудника — пользователю от надписи AI ни холодно ни жарко.\n\nХорошая автоматизация заметна не словом AI. Она заметна тем, что человеку стало меньше делать руками.",
+      "timestamp": "2026-09-13T14:36:41+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
     {
       "id": "18029056802893867",
       "media_type": "TEXT_POST",
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 50
+            "value": 52
           }
         ],
         "likes": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 87
+            "value": 92
           }
         ],
         "likes": [
@@ -204,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 1062
+            "value": 1068
           }
         ],
         "likes": [
@@ -372,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 245
+            "value": 246
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "17874673620567642",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdLd8B8G0Wh",
-      "username": "konstantin47209",
-      "text": "Первое утро нового года в Израиле 🍎🍯\n\nЕсли выбрать только ОДНУ вещь, без которой для вас Рош ха-Шана — уже не Рош ха-Шана, что это будет?\n\nУ меня пока яблоки с мёдом вне конкуренции 😄",
-      "timestamp": "2026-09-12T07:38:26+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 969
-          }
-        ],
-        "likes": [
-          {
-            "value": 26
-          }
-        ],
-        "replies": [
-          {
-            "value": 20
           }
         ],
         "reposts": [
