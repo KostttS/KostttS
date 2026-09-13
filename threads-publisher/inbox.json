@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-13T10:38:57.175449+00:00",
+  "generated_at": "2026-09-13T11:36:41.650811+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
       "id": "17991994442840368",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@smirnovandris/post/DdOWabsiCFm",
       "text": "ICloud",
@@ -15,7 +15,7 @@
     },
     {
       "id": "18102835685524616",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@matveyvsh/post/DdOK7HDjhVb",
       "text": "Spotify",
@@ -48,7 +48,7 @@
     },
     {
       "id": "18184457947413024",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@veretennikova.anj/post/DdN9PuggNsG",
       "text": "интернет. \nхотя иногда жалею, что он у меня есть. \nобслуживание авто - однозначно на это не жалко и всегда готова потому что автомобиль это мой комфорт",
@@ -70,7 +70,7 @@
     },
     {
       "id": "18387548908167796",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@icewarrior6/post/DdN8epJDpIr",
       "text": "Нету таких, у любых приложений и сервисов можно найти бесплатные аналоги",
@@ -350,141 +350,45 @@
       "username": "neyman.cakes",
       "root_thread_id": "18635799763023369",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU"
-    },
-    {
-      "id": "18094236380294028",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@judinasolveiga/post/DdKP1KZEVbi",
-      "text": "Маска.",
-      "timestamp": "2026-09-11T20:15:52+0000",
-      "username": "judinasolveiga",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18097967756631738",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@mental_health_medicaldoctor/post/DdKG4FWjqNR",
-      "text": "Последнее танго в Париже",
-      "timestamp": "2026-09-11T18:57:37+0000",
-      "username": "mental_health_medicaldoctor",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18110265191097237",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@er_lan3708/post/DdKGGGDk-yK",
-      "text": "Большой куш",
-      "timestamp": "2026-09-11T18:50:47+0000",
-      "username": "er_lan3708",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18106429942902869",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@lightin_the_sun/post/DdKFRrHCIiY",
-      "text": "Карты, деньги, два ствола. Кстати, давно не смотрела. Великий фильм!",
-      "timestamp": "2026-09-11T18:43:38+0000",
-      "username": "lightin_the_sun",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18457206436187438",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@julja_rausch/post/DdKFAYeEVxs",
-      "text": "Донни Браско",
-      "timestamp": "2026-09-11T18:41:16+0000",
-      "username": "julja_rausch",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "17982466152114009",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@k.dolinskii/post/DdKE_6rDh65",
-      "text": "НА ПОСЛЕДНЕМ ДЫХАНИИ Годар.",
-      "timestamp": "2026-09-11T18:41:13+0000",
-      "username": "k.dolinskii",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18105408815223736",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@savik_1980/post/DdKE6WRiLBC",
-      "text": "Комната 2003 года",
-      "timestamp": "2026-09-11T18:40:27+0000",
-      "username": "savik_1980",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "17877439314547170",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@yahorkuzniatsou/post/DdKErLlDZW9",
-      "text": "Да, не говорят, но... Самый быстрый Индиан",
-      "timestamp": "2026-09-11T18:38:23+0000",
-      "username": "yahorkuzniatsou",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18132570031660314",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@chuchurumbache3/post/DdKEqOlDRSO",
-      "text": "С.Э.Р.",
-      "timestamp": "2026-09-11T18:38:15+0000",
-      "username": "chuchurumbache3",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18084428606303921",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@moyanastena/post/DdKEnceDqlf",
-      "text": "Форест Гамп",
-      "timestamp": "2026-09-11T18:37:52+0000",
-      "username": "moyanastena",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18109434064869037",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@anna___adams/post/DdKEmEDDnwo",
-      "text": "Леон",
-      "timestamp": "2026-09-11T18:37:41+0000",
-      "username": "anna___adams",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
-    },
-    {
-      "id": "18219875845340130",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@svivanova2037/post/DdKEjdliO0B",
-      "text": "Шифр",
-      "timestamp": "2026-09-11T18:37:19+0000",
-      "username": "svivanova2037",
-      "root_thread_id": "18134641915726649",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdKESL6GYQc"
     }
   ],
   "own_recent_replies": [
+    {
+      "id": "18181746154423245",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdOd-_Wlys2",
+      "username": "konstantin47209",
+      "text": "С интернетом смешно: платишь за вещь, от которой периодически хочется отдохнуть 😄 А обслуживание машины — да, это уже покупка спокойствия.",
+      "timestamp": "2026-09-13T11:36:35+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18070915121720195",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdOd9slF970",
+      "username": "konstantin47209",
+      "text": "Вот это уже интересная позиция. То есть ни один платный сервис пока не оказался настолько удобнее бесплатного аналога, чтобы платить?",
+      "timestamp": "2026-09-13T11:36:24+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18141346675586745",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdOd8Fyl_ZR",
+      "username": "konstantin47209",
+      "text": "Spotify тоже из тех сервисов, где платишь скорее за отсутствие раздражения 😄 А если завтра цена вырастет вдвое — останетесь?",
+      "timestamp": "2026-09-13T11:36:11+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18173384359453964",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdOd6mLl7xQ",
+      "username": "konstantin47209",
+      "text": "iCloud — понимаю. Особенно когда однажды привыкаешь, что фото и файлы просто везде сами появляются.",
+      "timestamp": "2026-09-13T11:35:59+0000",
+      "has_replies": false
+    },
     {
       "id": "18133490317633396",
       "media_type": "TEXT_POST",
@@ -538,49 +442,13 @@
       "text": "Вот это сильный вариант. Пустые дороги на Йом-Кипур — реально то, что сложно представить, пока сам не увидишь.",
       "timestamp": "2026-09-12T13:35:42+0000",
       "has_replies": false
-    },
-    {
-      "id": "18006954800776304",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdL5jumG4nA",
-      "username": "konstantin47209",
-      "text": "שנה טובה ומתוקה! 🍎🍯",
-      "timestamp": "2026-09-12T11:39:48+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18045498203810346",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdL5iSmG2bK",
-      "username": "konstantin47209",
-      "text": "Спасибо! И вас с праздником 🍎🍯",
-      "timestamp": "2026-09-12T11:39:36+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18182907211414326",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdLyNs9nJk1",
-      "username": "konstantin47209",
-      "text": "Мёд — это точно 😄 Похоже, у каждого к нему ещё свой обязательный праздничный набор.",
-      "timestamp": "2026-09-12T10:35:38+0000",
-      "has_replies": true
-    },
-    {
-      "id": "18068891045738368",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdLrfctmz0B",
-      "username": "konstantin47209",
-      "text": "Вот уже второй голос за гефилте фиш 😄 Похоже, я её сильно недооценил.",
-      "timestamp": "2026-09-12T09:36:53+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
       "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }
