@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-09-13T14:36:44.152703+00:00",
+  "generated_at": "2026-09-13T15:39:17.341575+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18406869688094543",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@dzenstaff2026/post/DdO5igziEs4",
+      "text": "Вот это точная мысль: хорошая автоматизация видна не по слову AI, а по тому, что человеку стало меньше делать руками. Мы поэтому для себя держим простой критерий - если после внедрения не пропала конкретная повторяющаяся работа, значит, туда лезли зря. ИИ ради галочки потом только путает и добавляет модерации. А у вас бывало, что фича с ИИ в итоге не убрала ни одного действия?",
+      "timestamp": "2026-09-13T15:37:17+0000",
+      "username": "dzenstaff2026",
+      "root_thread_id": "18108401516603661",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdOymPtG228"
+    },
+    {
+      "id": "18059785916790033",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@tresorer/post/DdO1H5giHv7",
+      "text": "Мне нравится простой тест: если убрать слово AI из описания фичи, останется ли понятная ценность для пользователя? Если да, значит, скорее всего, сделали продукт. Если нет, возможно, просто прикрутили модный ярлык.",
+      "timestamp": "2026-09-13T14:58:41+0000",
+      "username": "tresorer",
+      "root_thread_id": "18108401516603661",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdOymPtG228"
+    },
     {
       "id": "17991994442840368",
       "has_replies": true,

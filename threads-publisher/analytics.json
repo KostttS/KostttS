@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-13T14:36:44.152703+00:00",
+  "generated_at": "2026-09-13T15:39:17.341575+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEQgsnf&_nc_oc=Adq3KSU__Ly9QrTIjkLvy-EYLfwpmQNyXDeul4a9Z0WAuLB5R8EBYPFkYZFHKU2J4qY&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ibY-wIJXfHCev8SUmv3fpA&_nc_tpa=Q5bMBQJ6M6xzYPHFBjXekY7GFB-xkErJ6drEZN6hDmaliRxg2WoR3dJ0QjsDi0EoPjIU-48l7ENT24Dqlg&oh=00_AQLkWmLR9nUbDXcPQosKdmicv9j4ozxMIkg1fal4OOC8wQ&oe=6AAC9EFE",
+    "threads_profile_picture_url": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwG4sucZ&_nc_oc=AdpIDv5pum7pVoV56beobQmxJCVvZf9TGKnPpbweLLfzWjiW0MX7usaOihszg3no-Ho&_nc_zt=24&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=9F_op4GYKqZTN1O_aBpNYw&_nc_tpa=Q5bMBQLo_LutKkMjar8-yTsYD7bQkShk_4TaUDoTA0_BxCaYiOfFOA9RWXBqEe4lbR3qSsBAtl0r3Of-ow&oh=00_AQJrXKtYTx8RygJnSx9ILh07cnf6EAtYoHrSas7Y8h0-Vw&oe=6AAC9EFE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-12T07:00:00+0000"
       },
       {
-        "value": 439,
+        "value": 603,
         "end_time": "2026-09-13T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 5
+      "value": 6
     },
     "replies": {
-      "value": 10
+      "value": 11
     },
     "reposts": {
       "value": 0
@@ -74,21 +74,21 @@
       "text": "Мне всё меньше нравится идея добавлять AI в приложение просто потому, что сейчас его добавляют все.\n\nЕсли он не убирает конкретную работу — поиск, заполнение полей, разбор сотни записей, ожидание сотрудника — пользователю от надписи AI ни холодно ни жарко.\n\nХорошая автоматизация заметна не словом AI. Она заметна тем, что человеку стало меньше делать руками.",
       "timestamp": "2026-09-13T14:36:41+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 136
           }
         ],
         "likes": [
           {
-            "value": 0
+            "value": 2
           }
         ],
         "replies": [
           {
-            "value": 0
+            "value": 2
           }
         ],
         "reposts": [
@@ -120,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "likes": [
@@ -162,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 52
+            "value": 53
           }
         ],
         "likes": [
@@ -246,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 1068
+            "value": 1079
           }
         ],
         "likes": [
@@ -414,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 246
+            "value": 248
           }
         ],
         "likes": [
