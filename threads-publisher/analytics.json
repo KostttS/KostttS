@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-13T11:36:41.650811+00:00",
+  "generated_at": "2026-09-13T12:18:34.663036+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwF4lmsD&_nc_oc=AdpW-JXLMqSIvvgQaBWAwJWyNFC7iWOj6kRT4GJGvkv8GNNj1bCNz5RbYlvZ5_eS3vA&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=A6EkcwFePtE-X8SvKK-3Tw&_nc_tpa=Q5bMBQJl6y9yrPl-UlfkH8l8VnguVFThyHuBaWLs5J_j3dPKPWe9czmOHjaj8Smdfc4SU627l6ANYAjwbQ&oh=00_AQKKhakZ0xhtoN9oo7bjZEJL2TfoSVaQoWfiADN4PMY52A&oe=6AAC66BE",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwGbO31V&_nc_oc=AdoLfTTeM5lCNxU2GW1W27eGd-YGg7WgYpgRRhXk05lOlgbnf7T01uAEfRIg92WJ_3g&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ZL1sG7GKdPcOnfdiX52n0g&_nc_tpa=Q5bMBQI1NqkXHEfkyKaY2n-7Agn77LbfdwlFOIP0bfpXSYaQ1xczeSiaC4CDajGKHQyWlJB0GoiyR5MmUw&oh=00_AQIJTIdX_4990aWWW6YvIuykncfDGzz8So9fBcKzojhepw&oe=6AAC66BE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 2828,
+        "value": 2829,
         "end_time": "2026-09-12T07:00:00+0000"
       },
       {
-        "value": 223,
+        "value": 332,
         "end_time": "2026-09-13T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 3
+      "value": 4
     },
     "replies": {
-      "value": 2
+      "value": 10
     },
     "reposts": {
       "value": 0
@@ -58,7 +58,7 @@
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 9,
+      "reply_quota_usage": 10,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -78,7 +78,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 14
           }
         ],
         "likes": [
@@ -120,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 59
           }
         ],
         "likes": [
@@ -162,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 1054
+            "value": 1055
           }
         ],
         "likes": [
@@ -172,7 +172,7 @@
         ],
         "replies": [
           {
-            "value": 14
+            "value": 16
           }
         ],
         "reposts": [
