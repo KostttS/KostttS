@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-09-13T06:38:29.102788+00:00",
+  "generated_at": "2026-09-13T10:38:57.175449+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "17991994442840368",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@smirnovandris/post/DdOWabsiCFm",
+      "text": "ICloud",
+      "timestamp": "2026-09-13T10:30:20+0000",
+      "username": "smirnovandris",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "18102835685524616",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@matveyvsh/post/DdOK7HDjhVb",
+      "text": "Spotify",
+      "timestamp": "2026-09-13T08:49:57+0000",
+      "username": "matveyvsh",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "17877452130543572",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@aminozill.exe/post/DdN9rNzDvNp",
+      "text": "Коммуналка, Яндекс музыка",
+      "timestamp": "2026-09-13T06:54:11+0000",
+      "username": "aminozill.exe",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "18623640463002935",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@drgilin/post/DdN9mGEjXW3",
+      "text": "zoom",
+      "timestamp": "2026-09-13T06:53:29+0000",
+      "username": "drgilin",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "18184457947413024",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@veretennikova.anj/post/DdN9PuggNsG",
+      "text": "интернет. \nхотя иногда жалею, что он у меня есть. \nобслуживание авто - однозначно на это не жалко и всегда готова потому что автомобиль это мой комфорт",
+      "timestamp": "2026-09-13T06:50:25+0000",
+      "username": "veretennikova.anj",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "18162694441468737",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@ivanovanastya41/post/DdN8mkNDMc1",
+      "text": "Коммуналка",
+      "timestamp": "2026-09-13T06:44:48+0000",
+      "username": "ivanovanastya41",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "18387548908167796",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@icewarrior6/post/DdN8epJDpIr",
+      "text": "Нету таких, у любых приложений и сервисов можно найти бесплатные аналоги",
+      "timestamp": "2026-09-13T06:43:43+0000",
+      "username": "icewarrior6",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "17989497135028698",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@a.simpleplease/post/DdN8dXjkzb0",
+      "text": "Cursor 🤷‍♀️",
+      "timestamp": "2026-09-13T06:43:33+0000",
+      "username": "a.simpleplease",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "18095276546419680",
+      "has_replies": true,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@angel_nazarchik/post/DdN8UJlDC6-",
+      "text": "Электричество",
+      "timestamp": "2026-09-13T06:42:17+0000",
+      "username": "angel_nazarchik",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
     {
       "id": "18107024375523175",
       "has_replies": false,
@@ -481,7 +580,7 @@
     {
       "feature": "mentions",
       "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }

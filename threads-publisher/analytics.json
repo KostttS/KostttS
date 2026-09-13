@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-13T06:38:29.102788+00:00",
+  "generated_at": "2026-09-13T10:38:57.175449+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwGGneJh&_nc_oc=AdoDZuQyuMpJPswUOm-l7NzQXS_XrExmdWapWrIxDg-mD6_bLqlTe6r5DI_K_1PwkmM&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=da3u_Z6Hw7-XJynEfd4zTw&_nc_tpa=Q5bMBQJ3aLKsJjeb_aM2d2IlLGKOtfMC-qbnn8WdUIqJqD5lT2moFyhIwNmqw4HGw62-Zmh-rCPw4vhQBA&oh=00_AQIP1OlUzKVp6V1vHttLjhuWHdyst_nWfE6Z2_Uu9sTTow&oe=6AAC2E7E",
+    "threads_profile_picture_url": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwGCmMsq&_nc_oc=AdosMbI2fmaVvyWzkJq2zkCF6u3tZ4xyyotD_UWYTohpG9v3CFRLgiXNzcg_2s1LDNY&_nc_zt=24&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=itx7vlNHYbtwoUmIY3rvCg&_nc_tpa=Q5bMBQIMDddXNT9yKd_DcEHNIdHI6ecYKOoe0f6DemZR3GgoOI_HCyO6JdeuzRveMpf1_x1GANYXu67PZw&oh=00_AQIlh9APIv2H0Zyeg4gwkrn9GiT0zL3xpQOz30A78aRRxg&oe=6AAC66BE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 2371,
-        "end_time": "2026-09-11T07:00:00+0000"
+        "value": 2828,
+        "end_time": "2026-09-12T07:00:00+0000"
       },
       {
-        "value": 1831,
-        "end_time": "2026-09-12T07:00:00+0000"
+        "value": 205,
+        "end_time": "2026-09-13T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 66
+      "value": 3
     },
     "replies": {
-      "value": 44
+      "value": 1
     },
     "reposts": {
       "value": 0
@@ -53,12 +53,12 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 5,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 13,
+      "reply_quota_usage": 8,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -74,11 +74,11 @@
       "text": "Назовите ОДНО приложение или сервис, за который вам реально не жалко платить каждый месяц.\n\nНе потому что «надо», а потому что без него уже было бы заметно хуже.\n\nИнтересно, что чаще всего окажется в ответах.",
       "timestamp": "2026-09-13T06:38:26+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 1047
           }
         ],
         "likes": [
@@ -88,7 +88,7 @@
         ],
         "replies": [
           {
-            "value": 0
+            "value": 10
           }
         ],
         "reposts": [
@@ -120,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 86
+            "value": 111
           }
         ],
         "likes": [
@@ -330,12 +330,12 @@
       "insights": {
         "views": [
           {
-            "value": 884
+            "value": 969
           }
         ],
         "likes": [
           {
-            "value": 24
+            "value": 26
           }
         ],
         "replies": [
@@ -414,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 1333
+            "value": 1334
           }
         ],
         "likes": [
