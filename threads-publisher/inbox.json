@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-13T16:34:18.254821+00:00",
+  "generated_at": "2026-09-13T16:37:59.435224+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
       "id": "18406869688094543",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@dzenstaff2026/post/DdO5igziEs4",
       "text": "Вот это точная мысль: хорошая автоматизация видна не по слову AI, а по тому, что человеку стало меньше делать руками. Мы поэтому для себя держим простой критерий - если после внедрения не пропала конкретная повторяющаяся работа, значит, туда лезли зря. ИИ ради галочки потом только путает и добавляет модерации. А у вас бывало, что фича с ИИ в итоге не убрала ни одного действия?",
@@ -15,7 +15,7 @@
     },
     {
       "id": "18059785916790033",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@tresorer/post/DdO1H5giHv7",
       "text": "Мне нравится простой тест: если убрать слово AI из описания фичи, останется ли понятная ценность для пользователя? Если да, значит, скорее всего, сделали продукт. Если нет, возможно, просто прикрутили модный ярлык.",
@@ -192,6 +192,24 @@
   ],
   "own_recent_replies": [
     {
+      "id": "18114523810798005",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdPAeEtkdf8",
+      "username": "konstantin47209",
+      "text": "Хороший тест. Я бы ещё добавил второй: если после внедрения человек делает столько же действий руками, значит ценность AI пока только в описании фичи.",
+      "timestamp": "2026-09-13T16:37:54+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18405331660082385",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdPAcxvEShj",
+      "username": "konstantin47209",
+      "text": "Да, бывало. Самый показательный случай — когда AI добавляет ещё один шаг проверки вместо того, чтобы убрать старый. В итоге технология есть, а времени у пользователя меньше не стало.",
+      "timestamp": "2026-09-13T16:37:45+0000",
+      "has_replies": false
+    },
+    {
       "id": "18181746154423245",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdOd-_Wlys2",
@@ -262,31 +280,13 @@
       "text": "Сильный ответ 😄 Праздник праздником, а работа всё равно остаётся главным ритуалом.",
       "timestamp": "2026-09-12T17:33:59+0000",
       "has_replies": false
-    },
-    {
-      "id": "18129214285776431",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdMG2IdlrAQ",
-      "username": "konstantin47209",
-      "text": "Медовик по семейному рецепту — тут уже нечестная конкуренция 😄 Такое точно сильнее магазинных традиций.",
-      "timestamp": "2026-09-12T13:35:55+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18095440781433373",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdMG0nBlhH1",
-      "username": "konstantin47209",
-      "text": "Вот это сильный вариант. Пустые дороги на Йом-Кипур — реально то, что сложно представить, пока сам не увидишь.",
-      "timestamp": "2026-09-12T13:35:42+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: ",
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }
