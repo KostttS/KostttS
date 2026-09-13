@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-13T16:37:59.435224+00:00",
+  "generated_at": "2026-09-13T18:37:45.400844+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "17895141648655933",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@vladis.predict/post/DdPM3KPjJxk",
+      "text": "Точно. Я бы проверял AI-функцию одним вопросом: какое конкретное действие пользователь после неё перестал делать? Если ответ нельзя назвать и измерить, это не автоматизация, а новый слой интерфейса.",
+      "timestamp": "2026-09-13T18:26:07+0000",
+      "username": "vladis.predict",
+      "root_thread_id": "18108401516603661",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdOymPtG228"
+    },
     {
       "id": "18406869688094543",
       "has_replies": true,
@@ -23,6 +34,28 @@
       "username": "tresorer",
       "root_thread_id": "18108401516603661",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdOymPtG228"
+    },
+    {
+      "id": "18104014157250460",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@cultivated763/post/DdPMIfWimUl",
+      "text": "Впн",
+      "timestamp": "2026-09-13T18:19:45+0000",
+      "username": "cultivated763",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
+    },
+    {
+      "id": "18107843174157221",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@gailina/post/DdPDWZMDRI1",
+      "text": "С недавних пор это впн",
+      "timestamp": "2026-09-13T17:03:00+0000",
+      "username": "gailina",
+      "root_thread_id": "18113639162115256",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdN73TOm-oI"
     },
     {
       "id": "17991994442840368",
@@ -234,7 +267,7 @@
       "username": "konstantin47209",
       "text": "Spotify тоже из тех сервисов, где платишь скорее за отсутствие раздражения 😄 А если завтра цена вырастет вдвое — останетесь?",
       "timestamp": "2026-09-13T11:36:11+0000",
-      "has_replies": false
+      "has_replies": true
     },
     {
       "id": "18173384359453964",
@@ -285,8 +318,8 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
