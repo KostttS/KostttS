@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-13T12:18:34.663036+00:00",
+  "generated_at": "2026-09-13T13:36:12.377180+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwGbO31V&_nc_oc=AdoLfTTeM5lCNxU2GW1W27eGd-YGg7WgYpgRRhXk05lOlgbnf7T01uAEfRIg92WJ_3g&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ZL1sG7GKdPcOnfdiX52n0g&_nc_tpa=Q5bMBQI1NqkXHEfkyKaY2n-7Agn77LbfdwlFOIP0bfpXSYaQ1xczeSiaC4CDajGKHQyWlJB0GoiyR5MmUw&oh=00_AQIJTIdX_4990aWWW6YvIuykncfDGzz8So9fBcKzojhepw&oe=6AAC66BE",
+    "threads_profile_picture_url": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEz4PaS&_nc_oc=AdrcPAmBluzJIkT6urjfJZnncCm7gliBszp18LfkiTNmfYb6Vfwsd8h4KoRbD-RWtUg&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=MKDK_5cTwYdRwZIHsfEcyw&_nc_tpa=Q5bMBQK3-XW3nlYDdWxXolb5c8D6MH80F70ejcLvXRIukxgAQxNSoQbw0QcVTuRSKSr1zPAof7sBeLOJEA&oh=00_AQI_eMvTVRjUNuWU1GxXH7WHLW1O98uRGbhaJJYxkrhfrQ&oe=6AAC66BE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,12 +14,12 @@
         "end_time": "2026-09-12T07:00:00+0000"
       },
       {
-        "value": 332,
+        "value": 410,
         "end_time": "2026-09-13T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 4
+      "value": 5
     },
     "replies": {
       "value": 10
@@ -53,12 +53,12 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 7,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 10,
+      "reply_quota_usage": 8,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -66,6 +66,48 @@
     }
   ],
   "recent_posts": [
+    {
+      "id": "18029056802893867",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdOrqpDoCRv",
+      "username": "konstantin47209",
+      "text": "Какая ОДНА бытовая вещь в Израиле оказалась для вас неожиданно удобной?\n\nНе достопримечательность и не море — именно мелочь из обычной жизни, к которой быстро привыкаешь.",
+      "timestamp": "2026-09-13T13:36:08+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
     {
       "id": "17970342279135581",
       "media_type": "TEXT_POST",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 14
+            "value": 50
           }
         ],
         "likes": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 59
+            "value": 87
           }
         ],
         "likes": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 1055
+            "value": 1062
           }
         ],
         "likes": [
@@ -204,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 112
+            "value": 114
           }
         ],
         "likes": [
@@ -330,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 244
+            "value": 245
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 20
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18635799763023369",
-      "media_type": "IMAGE",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdKNz8LFBYU",
-      "username": "konstantin47209",
-      "text": "Всех с Новым годом! 🍎🍯\n\nШана Това! Пусть этот год будет спокойнее, добрее и принесёт побольше хороших новостей.\n\nС праздником, Израиль! 🇮🇱",
-      "timestamp": "2026-09-11T19:58:17+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 661
-          }
-        ],
-        "likes": [
-          {
-            "value": 92
-          }
-        ],
-        "replies": [
-          {
-            "value": 18
           }
         ],
         "reposts": [
