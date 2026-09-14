@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-14T06:52:34.509413+00:00",
+  "generated_at": "2026-09-14T10:04:31.333540+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwGVWTph&_nc_oc=AdpYc3CWSQdjWq60rL-tJPJkuc4SNZM-4U5Rv4TXKYqa7uHGuC4_kso7lMzr6I1u4aE&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ROwlOujQvkAb3JZBbldy3g&_nc_tpa=Q5bMBQKvL_w9UiEGjCyQ864wFj4fhpOZMVYNBuUMyKrofmLKbiBYD4papU9GjyL3yuC1OOtSoxx-knmGhA&oh=00_AQKZKK3mrY3v-zTYBUSsNQp27l1MJXDcUMoZEW73gbjBMg&oe=6AAD7FFE",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwFae4bR&_nc_oc=Adrq8L9E9SZL2k4qmwIKnFSZdORsYco512PIpUmabkCamtZ0I5teRq2_qJaxQXujitk&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=lyC2mLdo0cRQEioOBTBRAA&_nc_tpa=Q5bMBQJDRoi10-bjLrSAU_MYtDIQ2DVtfWqWuo6aGLxXi17oXZneub5o9wrezAOvAOb-bVTxWEwLwkcaOA&oh=00_AQIxpOWmBn_-FwkMOrwHL2sJpgzEdv_w0DV9LD3usQHuSg&oe=6AAD7FFE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 2831,
-        "end_time": "2026-09-12T07:00:00+0000"
+        "value": 2844,
+        "end_time": "2026-09-13T07:00:00+0000"
       },
       {
-        "value": 2817,
-        "end_time": "2026-09-13T07:00:00+0000"
+        "value": 43,
+        "end_time": "2026-09-14T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 9
+      "value": 0
     },
     "replies": {
-      "value": 33
+      "value": 0
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 7,
+      "quota_usage": 8,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "17989986351021716",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdQ4PT1FvyN",
+      "username": "konstantin47209",
+      "text": "Что в приложении выглядит для владельца бизнеса как «одна кнопка», а на деле чаще всего требует больше всего работы?\n\nОплата — хороший пример: списать деньги мало. Нужно пережить двойное нажатие, обрыв интернета, возврат и ситуацию, когда банк подтвердил платёж, а приложение ещё нет.\n\nПоэтому стоимость продукта почти никогда нельзя нормально оценить просто по числу экранов.",
+      "timestamp": "2026-09-14T10:04:28+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18099177797637573",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdQiRcAmxnU",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 25
           }
         ],
         "likes": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 604
+            "value": 622
           }
         ],
         "likes": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 250
+            "value": 251
           }
         ],
         "likes": [
@@ -204,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 1070
+            "value": 1080
           }
         ],
         "likes": [
@@ -246,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 214
+            "value": 215
           }
         ],
         "likes": [
@@ -414,7 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 1159
+            "value": 1160
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 19
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18023001290863887",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdM4YakH083",
-      "username": "konstantin47209",
-      "text": "Вы живёте у моря несколько лет. Можно оставить только один вариант:\n\nА — квартира попроще, но 5 минут пешком до пляжа.\nБ — квартира заметно лучше, но до моря уже ехать.\n\nЧто выбираете?",
-      "timestamp": "2026-09-12T20:48:46+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 117
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 10
           }
         ],
         "reposts": [
