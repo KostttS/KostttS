@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-14T05:35:33.657872+00:00",
+  "generated_at": "2026-09-14T06:52:34.509413+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18282160168292364",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@sergey.krasiuk/post/DdQaH0uiFlF",
+      "text": "Качественную обувь по скидке 😁",
+      "timestamp": "2026-09-14T05:41:14+0000",
+      "username": "sergey.krasiuk",
+      "root_thread_id": "18149725645532343",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdQZddIkU3-"
+    },
     {
       "id": "17963989101191947",
       "has_replies": true,
@@ -428,8 +439,8 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-14T05:35:33.657872+00:00",
+  "generated_at": "2026-09-14T06:52:34.509413+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwFsPA_n&_nc_oc=AdqaH2F4UOcsv9ehtwGYugLaRwSAV8pVbzmlyAxXpy3DD9lrWIIbL1w8QaxOu-_pWNM&_nc_zt=24&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=b5ogMgZntw39dRr84m2A-w&_nc_tpa=Q5bMBQL5612QcCou87NHalX_DTZUF6BDQTD_DZe55sWCAVNuhJj5oUKm2e5-Yd_LAIpCOYE5ws_K0dnE1A&oh=00_AQJEob1icP8a-fYzQId1ULzZKpuFIwSq7NKkXWweIOiZfA&oe=6AAD47BE",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwGVWTph&_nc_oc=AdpYc3CWSQdjWq60rL-tJPJkuc4SNZM-4U5Rv4TXKYqa7uHGuC4_kso7lMzr6I1u4aE&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ROwlOujQvkAb3JZBbldy3g&_nc_tpa=Q5bMBQKvL_w9UiEGjCyQ864wFj4fhpOZMVYNBuUMyKrofmLKbiBYD4papU9GjyL3yuC1OOtSoxx-knmGhA&oh=00_AQKZKK3mrY3v-zTYBUSsNQp27l1MJXDcUMoZEW73gbjBMg&oe=6AAD7FFE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-12T07:00:00+0000"
       },
       {
-        "value": 2198,
+        "value": 2817,
         "end_time": "2026-09-13T07:00:00+0000"
       }
     ],
@@ -22,7 +22,7 @@
       "value": 9
     },
     "replies": {
-      "value": 32
+      "value": 33
     },
     "reposts": {
       "value": 0
@@ -67,12 +67,12 @@
   ],
   "recent_posts": [
     {
-      "id": "18149725645532343",
+      "id": "18099177797637573",
       "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdQZddIkU3-",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdQiRcAmxnU",
       "username": "konstantin47209",
-      "text": "Назовите ОДНУ вещь, которую вы купили недорого, а пользуетесь ей почти каждый день.\n\nВот такие покупки обычно радуют сильнее всего.",
-      "timestamp": "2026-09-14T05:35:31+0000",
+      "text": "Если бы завтра можно было навсегда убрать из вашего бизнеса ОДНО рутинное действие — что бы вы выбрали?\n\nПеренос заявок из WhatsApp, сверку оплат, копирование заказов, одинаковые сообщения клиентам?\n\nИменно такие мелкие повторяющиеся действия чаще всего выгоднее автоматизировать первыми.",
+      "timestamp": "2026-09-14T06:52:31+0000",
       "is_quote_post": false,
       "has_replies": false,
       "insights": {
@@ -109,6 +109,48 @@
       }
     },
     {
+      "id": "18149725645532343",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdQZddIkU3-",
+      "username": "konstantin47209",
+      "text": "Назовите ОДНУ вещь, которую вы купили недорого, а пользуетесь ей почти каждый день.\n\nВот такие покупки обычно радуют сильнее всего.",
+      "timestamp": "2026-09-14T05:35:31+0000",
+      "is_quote_post": false,
+      "has_replies": true,
+      "insights": {
+        "views": [
+          {
+            "value": 604
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 1
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "17944333227071751",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdPhNvGoOhP",
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 249
+            "value": 250
           }
         ],
         "likes": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 1061
+            "value": 1070
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 10
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18114398746962618",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdMfmWnlGAm",
-      "username": "konstantin47209",
-      "text": "Если бюджет первой версии приложения ограничен, какую ОДНУ вещь вы бы выкинули первой?\n\nЧат, подписки, карту, рефералку, AI или сложную админку?\n\nЯ почти всегда режу то, без чего главный сценарий всё равно работает. Первая версия должна доказать, что человек вообще вернётся в приложение второй раз — а не показать весь будущий бизнес за один релиз.",
-      "timestamp": "2026-09-12T17:12:11+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 22
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
           }
         ],
         "reposts": [
