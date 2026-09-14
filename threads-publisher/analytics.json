@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-14T18:37:23.446910+00:00",
+  "generated_at": "2026-09-14T19:06:37.830955+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEfbxHP&_nc_oc=AdqCTj-6xz9xOhZvybNEgLJ0y1TfErZvuL0bqnk3NVq2Ry7YqJ91gP3wsAzUf6b6eFw&_nc_zt=24&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ml73ffw9l8ZbJEMKpPvMkg&_nc_tpa=Q5bMBQLHVOxsN_PE0QgFyuOUIDmsL3rg0MugT7QnnuLFsZnQoHuLoYSpfKK3NpGVBImf5wAWJBD5-TEm1A&oh=00_AQITHuNri9GoQlIdZGqdeyH49RIdAUrgwEi0GN6WvQKAwg&oe=6AAE28BE",
+    "threads_profile_picture_url": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwHZre0q&_nc_oc=Adqly2l1bHAz8Vd9zsvP4zzZTPc6uShNpBquuTtfG1JrYQGIDWJUqy2ac-V8ZjtHIzY&_nc_zt=24&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=IqcNq29zZP0YhH5gs2F0ew&_nc_tpa=Q5bMBQLJRUINZPciUwroFFJw0Z1-6MB6f8t6m4hrToOuxUMyHGiIq-qBJNiJXMKi506RqHqVOYNT4vR9rw&oh=00_AQLQikTZnBISyi_JmIsuROVQ9l3XBDYE773sJ71KpCWhyw&oe=6AAE28BE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 2847,
+        "value": 2848,
         "end_time": "2026-09-13T07:00:00+0000"
       },
       {
-        "value": 219,
+        "value": 733,
         "end_time": "2026-09-14T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 0
+      "value": 2
     },
     "replies": {
-      "value": 0
+      "value": 5
     },
     "reposts": {
       "value": 0
@@ -67,12 +67,12 @@
   ],
   "recent_posts": [
     {
-      "id": "18138257131624622",
+      "id": "18485732977104071",
       "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdRy7tiIFQj",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdR2R07IBLv",
       "username": "konstantin47209",
-      "text": "Если выбирать только одно:\n\nА — большой город, где всё рядом и постоянно что-то происходит.\nБ — спокойнее у моря, но за частью развлечений и дел приходится ездить.\n\nЧто выберете на несколько лет, не на отпуск?",
-      "timestamp": "2026-09-14T18:37:21+0000",
+      "text": "Представьте: денег в первой версии продукта хватает только на ОДНО.\n\nА — сделать его заметно красивее.\nБ — убрать одно действие, которое пользователь сейчас каждый день делает руками.\n\nЧто выберете?\n\nЯ почти всегда за Б. Красоту можно улучшать постепенно. Причину возвращаться в продукт нужно дать сразу.",
+      "timestamp": "2026-09-14T19:06:35+0000",
       "is_quote_post": false,
       "has_replies": false,
       "insights": {
@@ -89,6 +89,48 @@
         "replies": [
           {
             "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18138257131624622",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdRy7tiIFQj",
+      "username": "konstantin47209",
+      "text": "Если выбирать только одно:\n\nА — большой город, где всё рядом и постоянно что-то происходит.\nБ — спокойнее у моря, но за частью развлечений и дел приходится ездить.\n\nЧто выберете на несколько лет, не на отпуск?",
+      "timestamp": "2026-09-14T18:37:21+0000",
+      "is_quote_post": false,
+      "has_replies": true,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 2
+          }
+        ],
+        "replies": [
+          {
+            "value": 5
           }
         ],
         "reposts": [
@@ -288,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 1149
+            "value": 1154
           }
         ],
         "likes": [
@@ -415,48 +457,6 @@
         "views": [
           {
             "value": 57
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18128717017886975",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdOd2LOluyC",
-      "username": "konstantin47209",
-      "text": "Самый дорогой вариант автоматизации — автоматизировать бардак.\n\nКогда заявка идёт WhatsApp → заметка → таблица → память сотрудника, новое приложение не чинит процесс. Оно просто делает этот хаос красивее и дороже.\n\nПоэтому я бы сначала убрал лишние шаги. И только потом решал, что вообще стоит автоматизировать.",
-      "timestamp": "2026-09-13T11:35:22+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 95
           }
         ],
         "likes": [
