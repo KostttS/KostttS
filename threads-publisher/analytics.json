@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T15:42:31.350264+00:00",
+  "generated_at": "2026-09-15T17:36:06.709537+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEIRSr3&_nc_oc=AdqeAoqDTTwhbTW-cGpz239c40EcEWneDokn0CoRL0gGnFNeoNkw_C_mWHxF0E-g4Ws&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=n1TYcmNhCYoU-razU3FZZA&_nc_tpa=Q5bMBQK7OQ6dabn4ghnngtTqrbSTErZkyjw3dEBw39KTKLz_wMu8bWUR5m6Gak4tcM79pq9pSrULqtEZZQ&oh=00_AQKKDaDtES1CRw6f2R2H3C1gv8pxVmCUdEDaKsEDwJ_BNw&oe=6AAF41FE",
+    "threads_profile_picture_url": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEg6Uc5&_nc_oc=AdqmTkumxNXgrZTL9vfVG4iOfxxhXAF9TEXiZr4mduy1WB_sywmiSvA3XowdlJJgid4&_nc_zt=24&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=pgTJ0wJGQtwHBEXzyEZvCg&_nc_tpa=Q5bMBQL_xS1AanB5ON1xRhRCFe_sWBbJDYrr3K9LOFmGT6JaZq0FC3mnb7tAr9gi2gpVIhkKRWiK9pu-xQ&oh=00_AQIrrTrkSzhGcRZVm6mRUgYlz_kpyErqJjrdfsCAsjuf2Q&oe=6AAF41FE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,12 +14,12 @@
         "end_time": "2026-09-14T07:00:00+0000"
       },
       {
-        "value": 209,
+        "value": 216,
         "end_time": "2026-09-15T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 3
+      "value": 4
     },
     "replies": {
       "value": 4
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18115635055823175",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdUQtvFnC1L",
+      "username": "konstantin47209",
+      "text": "Можно оставить только одно на целый год:\n\nА — жить в большом городе без машины.\nБ — жить у моря, но машина нужна почти для всего.\n\nЧто выберете?",
+      "timestamp": "2026-09-15T17:36:04+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18119117783284099",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdTZ881m_ce",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 147
+            "value": 149
           }
         ],
         "likes": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 17
+            "value": 18
           }
         ],
         "likes": [
@@ -288,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 667
+            "value": 668
           }
         ],
         "likes": [
@@ -330,12 +372,12 @@
       "insights": {
         "views": [
           {
-            "value": 67
+            "value": 68
           }
         ],
         "likes": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "replies": [
@@ -372,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 26
+            "value": 27
           }
         ],
         "likes": [
@@ -414,7 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 636
+            "value": 637
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 1
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "17944333227071751",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdPhNvGoOhP",
-      "username": "konstantin47209",
-      "text": "У работы на себя есть странный эффект: выходной определяется не календарём, а тем, перестал ли ты мысленно проверять сообщения от клиентов.\n\nИногда физически не работаешь уже несколько часов, а голова всё ещё где-то в проекте.",
-      "timestamp": "2026-09-13T21:24:03+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 253
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
           }
         ],
         "reposts": [
