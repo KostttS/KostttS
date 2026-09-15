@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-15T09:37:35.345154+00:00",
+  "generated_at": "2026-09-15T11:36:31.956512+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18117435310940493",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@dzenstaff2026/post/DdTj3AziGen",
+      "text": "Согласен, и добавил бы второй признак: если ответ сотрудника каждый раз собирается заново из трёх источников, это тоже кандидат. У нас так было с заявками на звонки: агент принимал звонок, аналитик разбирал, координатор сводил отчёты. За месяц через систему прошло 1 467 звонков и освободилось 148 часов. Причём разбирать стали 100% разговоров, а не пару в день. А у вас свободное время где сейчас лежит: в кабинете, в переписке или в голове администратора?",
+      "timestamp": "2026-09-15T11:04:02+0000",
+      "username": "dzenstaff2026",
+      "root_thread_id": "18127592662772299",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ798G2UW"
+    },
     {
       "id": "18128437459747287",
       "has_replies": false,
@@ -164,8 +175,8 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: ",
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }
