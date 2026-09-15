@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T19:15:49.544165+00:00",
+  "generated_at": "2026-09-15T22:24:52.382116+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=uRJp_6Y3TasQ7kNvwE_A5pq&_nc_oc=AdqeG092vv-Uli8UxuRz_a87Fp8VcZcfV6Y9nBmRB1LFok8ff6IHz1gzjh8LBC4D2nI&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=u25-zGye89t5V8nqE8vJWA&_nc_tpa=Q5bMBQI_-mlZmfGF2rwJKsjZh1vApmsX87RC83voGuRlKBrpDGs6YOQg1umJzJExX2VoBQlvsL1OhKzxaQ&oh=00_AQLQtd0i-85BqUBGcKQE9wvSr7VU-8TgFCdTT2aJjuDLgw&oe=6AAF7A3E",
+    "threads_profile_picture_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=uRJp_6Y3TasQ7kNvwEAfii0&_nc_oc=Adp13JQBB0Exzn1o6Gh1KIZzRL3JJO2XNNv7kUONePSR-d1BqMFaoBqTuMJJOXxhpNQ&_nc_zt=24&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=4xiEOrP3WixW8QjqqwvdeQ&_nc_tpa=Q5bMBQJyZayQsAIwuABIcgoPQFqARKJpwgOfGToU-n3aXggz3YlCu_TOWFpO8HNETTSQcItd_fJP4MuIJA&oh=00_AQIkbPUMKCjKI4Xx2zrr5vN0dzTjqxtTUhXb85cbsXQCiA&oe=6AAFB27E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,12 +14,12 @@
         "end_time": "2026-09-14T07:00:00+0000"
       },
       {
-        "value": 624,
+        "value": 1060,
         "end_time": "2026-09-15T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 4
+      "value": 10
     },
     "replies": {
       "value": 8
@@ -67,12 +67,12 @@
   ],
   "recent_posts": [
     {
-      "id": "17868842754643611",
+      "id": "18215388475355676",
       "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdUcH83GQE3",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO",
       "username": "konstantin47209",
-      "text": "Самая тяжёлая часть попытки выбраться из работы, которая тебя уже достала, — новую жизнь приходится строить после старой.\n\nДнём работаешь ради денег. Вечером садишься учиться, искать клиентов, делать свои проекты. И всё это именно тогда, когда сил уже почти нет.\n\nПолучается странный замкнутый круг: чтобы однажды перестать жить в таком режиме, какое-то время приходится жить в нём вдвойне.",
-      "timestamp": "2026-09-15T19:15:46+0000",
+      "text": "Назовите ОДИН сервис, за который вы продолжили бы платить, даже если завтра он станет на 30% дороже.\n\nВот это, по-моему, лучший тест настоящей ценности продукта.",
+      "timestamp": "2026-09-15T22:24:50+0000",
       "is_quote_post": false,
       "has_replies": false,
       "insights": {
@@ -109,6 +109,48 @@
       }
     },
     {
+      "id": "17868842754643611",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdUcH83GQE3",
+      "username": "konstantin47209",
+      "text": "Самая тяжёлая часть попытки выбраться из работы, которая тебя уже достала, — новую жизнь приходится строить после старой.\n\nДнём работаешь ради денег. Вечером садишься учиться, искать клиентов, делать свои проекты. И всё это именно тогда, когда сил уже почти нет.\n\nПолучается странный замкнутый круг: чтобы однажды перестать жить в таком режиме, какое-то время приходится жить в нём вдвойне.",
+      "timestamp": "2026-09-15T19:15:46+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 408
+          }
+        ],
+        "likes": [
+          {
+            "value": 6
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18115635055823175",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdUQtvFnC1L",
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 399
+            "value": 417
           }
         ],
         "likes": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 151
+            "value": 152
           }
         ],
         "likes": [
@@ -204,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 18
+            "value": 19
           }
         ],
         "likes": [
@@ -246,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 76
+            "value": 77
           }
         ],
         "likes": [
@@ -420,48 +462,6 @@
         "likes": [
           {
             "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18099177797637573",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdQiRcAmxnU",
-      "username": "konstantin47209",
-      "text": "Если бы завтра можно было навсегда убрать из вашего бизнеса ОДНО рутинное действие — что бы вы выбрали?\n\nПеренос заявок из WhatsApp, сверку оплат, копирование заказов, одинаковые сообщения клиентам?\n\nИменно такие мелкие повторяющиеся действия чаще всего выгоднее автоматизировать первыми.",
-      "timestamp": "2026-09-14T06:52:31+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 27
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
           }
         ],
         "replies": [
