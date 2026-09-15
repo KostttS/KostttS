@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T17:36:06.709537+00:00",
+  "generated_at": "2026-09-15T19:15:49.544165+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=1J2BFT9ott4Q7kNvwEg6Uc5&_nc_oc=AdqmTkumxNXgrZTL9vfVG4iOfxxhXAF9TEXiZr4mduy1WB_sywmiSvA3XowdlJJgid4&_nc_zt=24&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=pgTJ0wJGQtwHBEXzyEZvCg&_nc_tpa=Q5bMBQL_xS1AanB5ON1xRhRCFe_sWBbJDYrr3K9LOFmGT6JaZq0FC3mnb7tAr9gi2gpVIhkKRWiK9pu-xQ&oh=00_AQIrrTrkSzhGcRZVm6mRUgYlz_kpyErqJjrdfsCAsjuf2Q&oe=6AAF41FE",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy5DMyJ9&_nc_ohc=uRJp_6Y3TasQ7kNvwE_A5pq&_nc_oc=AdqeG092vv-Uli8UxuRz_a87Fp8VcZcfV6Y9nBmRB1LFok8ff6IHz1gzjh8LBC4D2nI&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=u25-zGye89t5V8nqE8vJWA&_nc_tpa=Q5bMBQI_-mlZmfGF2rwJKsjZh1vApmsX87RC83voGuRlKBrpDGs6YOQg1umJzJExX2VoBQlvsL1OhKzxaQ&oh=00_AQLQtd0i-85BqUBGcKQE9wvSr7VU-8TgFCdTT2aJjuDLgw&oe=6AAF7A3E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-14T07:00:00+0000"
       },
       {
-        "value": 216,
+        "value": 624,
         "end_time": "2026-09-15T07:00:00+0000"
       }
     ],
@@ -22,7 +22,7 @@
       "value": 4
     },
     "replies": {
-      "value": 4
+      "value": 8
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 5,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,12 +67,12 @@
   ],
   "recent_posts": [
     {
-      "id": "18115635055823175",
+      "id": "17868842754643611",
       "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdUQtvFnC1L",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdUcH83GQE3",
       "username": "konstantin47209",
-      "text": "Можно оставить только одно на целый год:\n\nА — жить в большом городе без машины.\nБ — жить у моря, но машина нужна почти для всего.\n\nЧто выберете?",
-      "timestamp": "2026-09-15T17:36:04+0000",
+      "text": "Самая тяжёлая часть попытки выбраться из работы, которая тебя уже достала, — новую жизнь приходится строить после старой.\n\nДнём работаешь ради денег. Вечером садишься учиться, искать клиентов, делать свои проекты. И всё это именно тогда, когда сил уже почти нет.\n\nПолучается странный замкнутый круг: чтобы однажды перестать жить в таком режиме, какое-то время приходится жить в нём вдвойне.",
+      "timestamp": "2026-09-15T19:15:46+0000",
       "is_quote_post": false,
       "has_replies": false,
       "insights": {
@@ -109,6 +109,48 @@
       }
     },
     {
+      "id": "18115635055823175",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdUQtvFnC1L",
+      "username": "konstantin47209",
+      "text": "Можно оставить только одно на целый год:\n\nА — жить в большом городе без машины.\nБ — жить у моря, но машина нужна почти для всего.\n\nЧто выберете?",
+      "timestamp": "2026-09-15T17:36:04+0000",
+      "is_quote_post": false,
+      "has_replies": true,
+      "insights": {
+        "views": [
+          {
+            "value": 399
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 4
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18119117783284099",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdTZ881m_ce",
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 149
+            "value": 151
           }
         ],
         "likes": [
@@ -330,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 668
+            "value": 669
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18149725645532343",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdQZddIkU3-",
-      "username": "konstantin47209",
-      "text": "Назовите ОДНУ вещь, которую вы купили недорого, а пользуетесь ей почти каждый день.\n\nВот такие покупки обычно радуют сильнее всего.",
-      "timestamp": "2026-09-14T05:35:31+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 637
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 1
           }
         ],
         "reposts": [
