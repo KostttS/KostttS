@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:36:39.407563+00:00",
+  "generated_at": "2026-09-15T15:42:31.350264+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -12,6 +12,17 @@
       "username": "tresorer",
       "root_thread_id": "18119117783284099",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ881m_ce"
+    },
+    {
+      "id": "18108214985174886",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@damir_d_ai/post/DdUAheoDCcD",
+      "text": "Делал такое для салона красоты, бот сам показывал свободные слоты и записывал без участия администратора, запись выросла на 30% просто потому что люди не хотят ждать ответа. Если интересно как устроено, пишите t.me/damir_d_ai",
+      "timestamp": "2026-09-15T15:14:30+0000",
+      "username": "damir_d_ai",
+      "root_thread_id": "18127592662772299",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ798G2UW"
     },
     {
       "id": "18117435310940493",
@@ -186,7 +197,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
