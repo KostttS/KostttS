@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-16T05:20:06.749525+00:00",
+  "generated_at": "2026-09-16T10:13:32.793006+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwEqYOVl&_nc_oc=AdqYgkVSeRfEoWyjgkEHQ8IRgG-1OcO56OLa5Wls27YCGgkFRmamQByU1TRxuGHbuX4&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=KkEqp6UISxbJgDHJhD5kZw&_nc_tpa=Q5bMBQISF_PnSAG0MoSxyOZxkp3tL8Bx2yqkt3VO902ZmMPom4HhWhCgbEYmCmX5F03SHNzLLtIt5Z8sBw&oh=00_AQLZYX7vBbGY9NRRZfoxFh0DPh3qLsNjRRUtxdcKzXwFfg&oe=6AAFEABE",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwE_k1rW&_nc_oc=AdqTuuT-Q8HoDeyWH_Rlioc5IuJPSmky0DH3d5TobyNfnt1WmHDx0ZSYDbtBv-ubwXg&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=P23fZ6hganSvEiTfs0sOQA&_nc_tpa=Q5bMBQLM4ZOVIurYgy5O_jZFJeeAlBca0A_tCp6kAiE2YU3-HChzNI5lnljjW-3DA1G5s372bc_JUvQzaA&oh=00_AQL_jWAt91ZSqRY2wBBFTVKZyEZJrHZUV5MVIuRUQsa1eA&oe=6AB022FE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 1321,
-        "end_time": "2026-09-14T07:00:00+0000"
+        "value": 2197,
+        "end_time": "2026-09-15T07:00:00+0000"
       },
       {
-        "value": 1641,
-        "end_time": "2026-09-15T07:00:00+0000"
+        "value": 66,
+        "end_time": "2026-09-16T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 10
+      "value": 0
     },
     "replies": {
-      "value": 16
+      "value": 0
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 4,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,12 +67,12 @@
   ],
   "recent_posts": [
     {
-      "id": "18096468821087562",
+      "id": "17884390830492308",
       "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdVhR-3G9zP",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdWC3SvFlj_",
       "username": "konstantin47209",
-      "text": "Есть вещи, которые почему-то начинаешь ценить только после переезда.\n\nНазовите ОДНУ самую обычную мелочь, которой вам неожиданно стало не хватать в другом городе или стране.",
-      "timestamp": "2026-09-16T05:20:04+0000",
+      "text": "Хороший MVP — это не урезанное приложение. Это продукт, в котором оставили один законченный путь пользователя и убрали всё, без чего этот путь работает.\n\nРазница важная: экономить надо на количестве функций, а не на качестве главного сценария.",
+      "timestamp": "2026-09-16T10:13:30+0000",
       "is_quote_post": false,
       "has_replies": false,
       "insights": {
@@ -109,6 +109,90 @@
       }
     },
     {
+      "id": "17903602146574530",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdWC2iUlhUv",
+      "username": "konstantin47209",
+      "text": "Самая неприятная рутина в маленьком бизнесе — та, которая выглядит слишком мелкой, чтобы её автоматизировать.\n\nОтветить на одинаковый вопрос. Перенести заявку. Проверить оплату. Напомнить клиенту. И так десятки раз.\n\nПо отдельности — две минуты. Вместе — кусок каждого рабочего дня.",
+      "timestamp": "2026-09-16T10:13:24+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18096468821087562",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdVhR-3G9zP",
+      "username": "konstantin47209",
+      "text": "Есть вещи, которые почему-то начинаешь ценить только после переезда.\n\nНазовите ОДНУ самую обычную мелочь, которой вам неожиданно стало не хватать в другом городе или стране.",
+      "timestamp": "2026-09-16T05:20:04+0000",
+      "is_quote_post": false,
+      "has_replies": true,
+      "insights": {
+        "views": [
+          {
+            "value": 558
+          }
+        ],
+        "likes": [
+          {
+            "value": 1
+          }
+        ],
+        "replies": [
+          {
+            "value": 7
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18215388475355676",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO",
@@ -120,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 552
+            "value": 592
           }
         ],
         "likes": [
@@ -158,11 +242,11 @@
       "text": "Самая тяжёлая часть попытки выбраться из работы, которая тебя уже достала, — новую жизнь приходится строить после старой.\n\nДнём работаешь ради денег. Вечером садишься учиться, искать клиентов, делать свои проекты. И всё это именно тогда, когда сил уже почти нет.\n\nПолучается странный замкнутый круг: чтобы однажды перестать жить в таком режиме, какое-то время приходится жить в нём вдвойне.",
       "timestamp": "2026-09-15T19:15:46+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 437
+            "value": 443
           }
         ],
         "likes": [
@@ -172,7 +256,7 @@
         ],
         "replies": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "reposts": [
@@ -204,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 419
+            "value": 427
           }
         ],
         "likes": [
@@ -288,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 22
+            "value": 25
           }
         ],
         "likes": [
@@ -383,90 +467,6 @@
         "replies": [
           {
             "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18485732977104071",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdR2R07IBLv",
-      "username": "konstantin47209",
-      "text": "Представьте: денег в первой версии продукта хватает только на ОДНО.\n\nА — сделать его заметно красивее.\nБ — убрать одно действие, которое пользователь сейчас каждый день делает руками.\n\nЧто выберете?\n\nЯ почти всегда за Б. Красоту можно улучшать постепенно. Причину возвращаться в продукт нужно дать сразу.",
-      "timestamp": "2026-09-14T19:06:35+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 201
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18138257131624622",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdRy7tiIFQj",
-      "username": "konstantin47209",
-      "text": "Если выбирать только одно:\n\nА — большой город, где всё рядом и постоянно что-то происходит.\nБ — спокойнее у моря, но за частью развлечений и дел приходится ездить.\n\nЧто выберете на несколько лет, не на отпуск?",
-      "timestamp": "2026-09-14T18:37:21+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 669
-          }
-        ],
-        "likes": [
-          {
-            "value": 3
-          }
-        ],
-        "replies": [
-          {
-            "value": 5
           }
         ],
         "reposts": [
