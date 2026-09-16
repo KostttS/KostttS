@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T10:13:32.793006+00:00",
+  "generated_at": "2026-09-16T15:00:56.778147+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwE_k1rW&_nc_oc=AdqTuuT-Q8HoDeyWH_Rlioc5IuJPSmky0DH3d5TobyNfnt1WmHDx0ZSYDbtBv-ubwXg&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=P23fZ6hganSvEiTfs0sOQA&_nc_tpa=Q5bMBQLM4ZOVIurYgy5O_jZFJeeAlBca0A_tCp6kAiE2YU3-HChzNI5lnljjW-3DA1G5s372bc_JUvQzaA&oh=00_AQL_jWAt91ZSqRY2wBBFTVKZyEZJrHZUV5MVIuRUQsa1eA&oe=6AB022FE",
+    "threads_profile_picture_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwFNVwxi&_nc_oc=AdobK448VBpJEZmY8xItl-js7PG4LXcrwese6q1CF5fuUefu3Rwa7WzD_RV-IgQdono&_nc_zt=24&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=JGDbp6TZl7xx8IlZU5yFJw&_nc_tpa=Q5bMBQLZfi9N4QlnD8362xFhURY_SUHx8fSD9rLORCcFi3MMMKaX2TrY-9OZRh-34x0j-1RfLNS0ONkp-Q&oh=00_AQK10xSbv9jNjgejkEVAzhryg62ZgQvYRNhC9DsqZurApw&oe=6AB0937E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-15T07:00:00+0000"
       },
       {
-        "value": 66,
+        "value": 352,
         "end_time": "2026-09-16T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 0
+      "value": 1
     },
     "replies": {
-      "value": 0
+      "value": 2
     },
     "reposts": {
       "value": 0
@@ -53,12 +53,12 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 4,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
       },
-      "reply_quota_usage": 1,
+      "reply_quota_usage": 0,
       "reply_config": {
         "quota_total": 1000,
         "quota_duration": 86400
@@ -78,7 +78,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 129
           }
         ],
         "likes": [
@@ -116,21 +116,21 @@
       "text": "Самая неприятная рутина в маленьком бизнесе — та, которая выглядит слишком мелкой, чтобы её автоматизировать.\n\nОтветить на одинаковый вопрос. Перенести заявку. Проверить оплату. Напомнить клиенту. И так десятки раз.\n\nПо отдельности — две минуты. Вместе — кусок каждого рабочего дня.",
       "timestamp": "2026-09-16T10:13:24+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 41
           }
         ],
         "likes": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "replies": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "reposts": [
@@ -162,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 558
+            "value": 576
           }
         ],
         "likes": [
@@ -204,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 592
+            "value": 635
           }
         ],
         "likes": [
@@ -246,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 443
+            "value": 447
           }
         ],
         "likes": [
@@ -288,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 427
+            "value": 433
           }
         ],
         "likes": [
@@ -330,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 153
+            "value": 154
           }
         ],
         "likes": [
@@ -372,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 25
+            "value": 29
           }
         ],
         "likes": [
@@ -414,7 +414,7 @@
       "insights": {
         "views": [
           {
-            "value": 77
+            "value": 78
           }
         ],
         "likes": [
@@ -456,7 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 150
+            "value": 151
           }
         ],
         "likes": [

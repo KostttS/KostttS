@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-16T10:13:32.793006+00:00",
+  "generated_at": "2026-09-16T15:00:56.778147+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "17946675105320944",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@dzenstaff2026/post/DdWFcqzCNwO",
+      "text": "Вот эти «слишком мелкие» задачи мы и забираем первыми. Проверено: считать надо не отдельную мелочь, а сумму за неделю - у нас на одном реестре оплат набегало 6-8 часов, хотя каждая операция по две минуты. Агент закрывает их по регламенту, человек только смотрит расхождения. А сколько у вас таких повторов набегает за неделю, если сложить? Вся инфа - в шапке профиля.",
+      "timestamp": "2026-09-16T10:36:01+0000",
+      "username": "dzenstaff2026",
+      "root_thread_id": "17903602146574530",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdWC2iUlhUv"
+    },
     {
       "id": "18007314426005665",
       "has_replies": false,
@@ -329,7 +340,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
