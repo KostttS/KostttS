@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-16T18:54:57.450047+00:00",
+  "generated_at": "2026-09-16T21:57:38.131160+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "17931150399145919",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@donmigueldekh/post/DdW_Ix3jP_S",
+      "text": "Куда меньше то? Совсем ебанулись со своим успешным успехом.",
+      "timestamp": "2026-09-16T19:00:07+0000",
+      "username": "donmigueldekh",
+      "root_thread_id": "18095634989546930",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdW-g-lmUau"
+    },
     {
       "id": "17946675105320944",
       "has_replies": false,
@@ -199,39 +210,6 @@
       "username": "tresorer",
       "root_thread_id": "18119117783284099",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ881m_ce"
-    },
-    {
-      "id": "18127095001801447",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@rai28.official/post/DdVIqzSCEKp",
-      "text": "Здравствуйте. Мы делаем AI-агентов, автоматизацию и кастомную IT-разработку под продажи, поддержку, CRM и внутренние инструменты. Если актуально, напишите нам в Telegram: https://t.me/raisales28",
-      "timestamp": "2026-09-16T01:44:55+0000",
-      "username": "rai28.official",
-      "root_thread_id": "18127592662772299",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ798G2UW"
-    },
-    {
-      "id": "18108214985174886",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@damir_d_ai/post/DdUAheoDCcD",
-      "text": "Делал такое для салона красоты, бот сам показывал свободные слоты и записывал без участия администратора, запись выросла на 30% просто потому что люди не хотят ждать ответа. Если интересно как устроено, пишите t.me/damir_d_ai",
-      "timestamp": "2026-09-15T15:14:30+0000",
-      "username": "damir_d_ai",
-      "root_thread_id": "18127592662772299",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ798G2UW"
-    },
-    {
-      "id": "18117435310940493",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@dzenstaff2026/post/DdTj3AziGen",
-      "text": "Согласен, и добавил бы второй признак: если ответ сотрудника каждый раз собирается заново из трёх источников, это тоже кандидат. У нас так было с заявками на звонки: агент принимал звонок, аналитик разбирал, координатор сводил отчёты. За месяц через систему прошло 1 467 звонков и освободилось 148 часов. Причём разбирать стали 100% разговоров, а не пару в день. А у вас свободное время где сейчас лежит: в кабинете, в переписке или в голове администратора?",
-      "timestamp": "2026-09-15T11:04:02+0000",
-      "username": "dzenstaff2026",
-      "root_thread_id": "18127592662772299",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ798G2UW"
     }
   ],
   "own_recent_replies": [

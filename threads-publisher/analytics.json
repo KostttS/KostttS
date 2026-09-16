@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T18:54:57.450047+00:00",
+  "generated_at": "2026-09-16T21:57:38.131160+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwHCkZT1&_nc_oc=AdrDzmx1FMg2klFXEpxtSmSw-vWmTdKRtWOV2mTvfO6S4-eh2zG-zdyCQ1E-Dik8NHw&_nc_zt=24&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=9nmClMIp_elGeBP2EqroQg&_nc_tpa=Q5bMBQLExLCMiB9Wiowt8zBKzqQny5vEU_gS9FrabNzZ_aSAqWKexJ-KxeVQzW2nkNN9hEqtbek4vLuM9w&oh=00_AQKGK-vFeP0iarweJs_9PtHLy0WWJWaW7SvI4oiY9JBugA&oe=6AB0CBBE",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwH3UA1O&_nc_oc=Adpoegy6ag6iog5G_t2KuPNYqg5yGSYilum9CJoX8AN2vD7d7xfd96Nx6qUbnJL8jpo&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=AkZcSbWOcxHVMLt6HhrZdw&_nc_tpa=Q5bMBQJusMEEwBT5E3ttEYMAklrpwwoXSh6j3eJm7hg9eC0JqF5Oct2n-QFIk-IT36IhK8Eu-N_TFZn6Cg&oh=00_AQI8hBb2GOLa5ppcK9IbmoRjG-mX_FJ2fB5lesu3bezXDQ&oe=6AB0CBBE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-15T07:00:00+0000"
       },
       {
-        "value": 411,
+        "value": 630,
         "end_time": "2026-09-16T07:00:00+0000"
       }
     ],
@@ -22,7 +22,7 @@
       "value": 1
     },
     "replies": {
-      "value": 2
+      "value": 3
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 5,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18115467866048433",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdXTcBMFk5i",
+      "username": "konstantin47209",
+      "text": "Какой цифровой продукт вы открываете почти каждый день не потому, что он нравится, а потому что без него уже неудобно жить?\n\nИнтересно, какие продукты стали инфраструктурой незаметно для нас самих.",
+      "timestamp": "2026-09-16T21:57:35+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18073376909469030",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdW-iB8GR8c",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 6
           }
         ],
         "likes": [
@@ -116,11 +158,11 @@
       "text": "Если выбирать одно на ближайшие пять лет:\n\nА — больше денег, но почти нет свободного времени.\nБ — денег заметно меньше, зато каждый день остаётся несколько часов на себя.\n\nЧто выберете сейчас, не в теории?",
       "timestamp": "2026-09-16T18:54:46+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 166
           }
         ],
         "likes": [
@@ -130,7 +172,7 @@
         ],
         "replies": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "reposts": [
@@ -246,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 583
+            "value": 586
           }
         ],
         "likes": [
@@ -288,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 677
+            "value": 716
           }
         ],
         "likes": [
@@ -330,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 449
+            "value": 450
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 1
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18127592662772299",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdTZ798G2UW",
-      "username": "konstantin47209",
-      "text": "Если клиенту нужно написать вам в WhatsApp, дождаться ответа и только потом узнать свободное время — это уже кандидат на автоматизацию.\n\nНе потому что каждому бизнесу нужно приложение. А потому что человек не должен ждать сотрудника ради ответа, который система уже знает.",
-      "timestamp": "2026-09-15T09:37:25+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 33
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 4
           }
         ],
         "reposts": [
