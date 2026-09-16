@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-16T00:41:38.800530+00:00",
+  "generated_at": "2026-09-16T05:20:06.749525+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18109881715915048",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@balashov128/post/DdVZt35jIbt",
+      "text": "бензин...",
+      "timestamp": "2026-09-16T04:13:54+0000",
+      "username": "balashov128",
+      "root_thread_id": "18215388475355676",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
+    },
     {
       "id": "17932215129400382",
       "has_replies": false,
@@ -111,6 +122,17 @@
       "username": "tresorer",
       "root_thread_id": "18119117783284099",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ881m_ce"
+    },
+    {
+      "id": "18127095001801447",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@rai28.official/post/DdVIqzSCEKp",
+      "text": "Здравствуйте. Мы делаем AI-агентов, автоматизацию и кастомную IT-разработку под продажи, поддержку, CRM и внутренние инструменты. Если актуально, напишите нам в Telegram: https://t.me/raisales28",
+      "timestamp": "2026-09-16T01:44:55+0000",
+      "username": "rai28.official",
+      "root_thread_id": "18127592662772299",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdTZ798G2UW"
     },
     {
       "id": "18108214985174886",
@@ -285,7 +307,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
       "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
