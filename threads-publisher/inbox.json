@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:00:56.778147+00:00",
+  "generated_at": "2026-09-16T18:54:57.450047+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -144,17 +144,6 @@
       "username": "dianazaprutskaya",
       "root_thread_id": "18215388475355676",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
-    },
-    {
-      "id": "18129122887760113",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@markmaksimov.bridge/post/DdVlop6Da3v",
-      "text": "Вот этот «двойной режим» мне кажется одной из самых недооценённых проблем. Человек хочет попробовать новое направление, но почти весь ресурс уже уходит на работу, из которой он как раз пытается выбраться.\nБыло бы здорово, если бы переход можно было делать постепенно — через небольшие реальные проекты, не разрушая сразу то, что уже даёт тебе опору.",
-      "timestamp": "2026-09-16T05:58:02+0000",
-      "username": "markmaksimov.bridge",
-      "root_thread_id": "17868842754643611",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUcH83GQE3"
     },
     {
       "id": "18121097299844478",
@@ -340,7 +329,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]

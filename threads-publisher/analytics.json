@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T15:00:56.778147+00:00",
+  "generated_at": "2026-09-16T18:54:57.450047+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwFNVwxi&_nc_oc=AdobK448VBpJEZmY8xItl-js7PG4LXcrwese6q1CF5fuUefu3Rwa7WzD_RV-IgQdono&_nc_zt=24&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=JGDbp6TZl7xx8IlZU5yFJw&_nc_tpa=Q5bMBQLZfi9N4QlnD8362xFhURY_SUHx8fSD9rLORCcFi3MMMKaX2TrY-9OZRh-34x0j-1RfLNS0ONkp-Q&oh=00_AQK10xSbv9jNjgejkEVAzhryg62ZgQvYRNhC9DsqZurApw&oe=6AB0937E",
+    "threads_profile_picture_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwHCkZT1&_nc_oc=AdrDzmx1FMg2klFXEpxtSmSw-vWmTdKRtWOV2mTvfO6S4-eh2zG-zdyCQ1E-Dik8NHw&_nc_zt=24&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=9nmClMIp_elGeBP2EqroQg&_nc_tpa=Q5bMBQLExLCMiB9Wiowt8zBKzqQny5vEU_gS9FrabNzZ_aSAqWKexJ-KxeVQzW2nkNN9hEqtbek4vLuM9w&oh=00_AQKGK-vFeP0iarweJs_9PtHLy0WWJWaW7SvI4oiY9JBugA&oe=6AB0CBBE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-15T07:00:00+0000"
       },
       {
-        "value": 352,
+        "value": 411,
         "end_time": "2026-09-16T07:00:00+0000"
       }
     ],
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 5,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,6 +67,90 @@
   ],
   "recent_posts": [
     {
+      "id": "18073376909469030",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdW-iB8GR8c",
+      "username": "konstantin47209",
+      "text": "Владельцу бизнеса легко привыкнуть быть человеком, через которого проходит вообще всё.\n\nКлиент спросил — ответить. Сотрудник уточнил — решить. Оплата не сошлась — проверить. Заявка потерялась — найти.\n\nА потом оказывается, что бизнес вроде работает на тебя, но без тебя не работает вообще.",
+      "timestamp": "2026-09-16T18:54:54+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18095634989546930",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdW-g-lmUau",
+      "username": "konstantin47209",
+      "text": "Если выбирать одно на ближайшие пять лет:\n\nА — больше денег, но почти нет свободного времени.\nБ — денег заметно меньше, зато каждый день остаётся несколько часов на себя.\n\nЧто выберете сейчас, не в теории?",
+      "timestamp": "2026-09-16T18:54:46+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "17884390830492308",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdWC3SvFlj_",
@@ -78,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 129
+            "value": 132
           }
         ],
         "likes": [
@@ -162,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 576
+            "value": 583
           }
         ],
         "likes": [
@@ -204,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 635
+            "value": 677
           }
         ],
         "likes": [
@@ -246,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 447
+            "value": 449
           }
         ],
         "likes": [
@@ -288,7 +372,7 @@
       "insights": {
         "views": [
           {
-            "value": 433
+            "value": 436
           }
         ],
         "likes": [
@@ -372,7 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 29
+            "value": 33
           }
         ],
         "likes": [
@@ -383,90 +467,6 @@
         "replies": [
           {
             "value": 4
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18005144615999239",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdTA9ZvHObU",
-      "username": "konstantin47209",
-      "text": "Назовите ОДНУ вещь, на которой вы когда-то решили сэкономить — и потом пожалели.\n\nНе обязательно дорогую. Иногда именно мелочи лучше всего учат, где экономия вообще не работает.",
-      "timestamp": "2026-09-15T05:59:09+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 78
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18107328382984424",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdSAkMImQtn",
-      "username": "konstantin47209",
-      "text": "Есть момент, когда работа на себя перестаёт ощущаться свободой: когда телефон лежит рядом даже в выходной, потому что «вдруг клиент напишет».\n\nСамое сложное оказалось не работать самому. Самое сложное — реально выключаться.",
-      "timestamp": "2026-09-14T20:36:29+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 151
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
           }
         ],
         "reposts": [
