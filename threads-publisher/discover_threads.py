@@ -23,11 +23,11 @@ QUERIES = [
     "build a mobile app",
 ]
 
-FIELDS = "id,username,text,timestamp,permalink,shortcode,has_replies"
+FIELDS = "id,username,text,timestamp,permalink,shortcode,has_replies,is_reply"
 
 
 def api_json(url: str) -> dict:
-    req = Request(url, headers={"User-Agent": "KostttS-Threads-Discovery/1.0"})
+    req = Request(url, headers={"User-Agent": "KostttS-Threads-Discovery/1.1"})
     try:
         with urlopen(req, timeout=60) as response:
             raw = response.read().decode("utf-8")
@@ -63,11 +63,11 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     existing = load_existing()
     last = parse_iso(str(existing.get("searched_at", "")))
-    if last and now - last < timedelta(minutes=55):
+    existing_errors = existing.get("errors", []) or []
+    if last and now - last < timedelta(minutes=55) and not existing_errors:
         print("Discovery was refreshed less than 55 minutes ago; skipping.")
         return 0
 
-    since = now - timedelta(days=3)
     all_rows = {}
     errors = []
 
@@ -75,11 +75,7 @@ def main() -> int:
         params = {
             "q": query,
             "search_type": "RECENT",
-            "search_mode": "KEYWORD",
-            "limit": 20,
             "fields": FIELDS,
-            "since": since.isoformat(),
-            "until": now.isoformat(),
             "access_token": token,
         }
         url = f"{API_BASE}/keyword_search?{urlencode(params)}"
@@ -100,7 +96,6 @@ def main() -> int:
 
     output = {
         "searched_at": now.isoformat(),
-        "since": since.isoformat(),
         "queries": QUERIES,
         "count": len(rows),
         "results": rows[:120],
