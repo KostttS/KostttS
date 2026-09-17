@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T15:01:28.194523+00:00",
+  "generated_at": "2026-09-17T16:34:25.009238+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwGGmhWi&_nc_oc=Ado2xaN7pN6AcY8F50hIDStuoSQky7FMhVfYkEbN4-oGs-KuQ7QW1Mwh9g3Gl4vr2No&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=4k4G4JCWHoyBFXy4jO_UnQ&_nc_tpa=Q5bMBQIz00uXFUKyU0Z7mH_DooKUJpdMUK4iOe5CXz25msz3aFb6QZ8KwjoY63HVi2SufF3HJKfk6XugUg&oh=00_AQL4i9soanPcmsGdtv5muf0c4HspTzNipubyF36w2O7Vcg&oe=6AB1E4FE",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwERE4cT&_nc_oc=AdpKbxCy-6HXDFjpZ06eux7LmLCkfHDC34bw3tU5s_gRqlzPPcaAiCxIewGtYuD5XjA&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=c-9rJbDXfupdibWp-Qu9tg&_nc_tpa=Q5bMBQJB-k75is2AG27Nzv0pQ1yJpIYMZyLLuCs3wmEqiZkLphSkN9Nw0UzISmgZfT1_-r5YvogwN7ZkkQ&oh=00_AQK0_dhYwLUmueiqYxFzgcva1bu42DI8nLMFnULy5pdfKA&oe=6AB1E4FE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 1941,
+        "value": 2071,
         "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "17983144769892402",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM",
+      "username": "konstantin47209",
+      "text": "Какую ОДНУ бытовую вещь вы бы навсегда отдали на автомат — готовку, уборку, покупки, документы, планирование или что-то другое?\n\nТолько одну.",
+      "timestamp": "2026-09-17T16:34:23+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18093231698541984",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdYmMsgFQ3z",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 122
+            "value": 123
           }
         ],
         "likes": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 1793
+            "value": 1932
           }
         ],
         "likes": [
@@ -420,48 +462,6 @@
         "likes": [
           {
             "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 7
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18215388475355676",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO",
-      "username": "konstantin47209",
-      "text": "Назовите ОДИН сервис, за который вы продолжили бы платить, даже если завтра он станет на 30% дороже.\n\nВот это, по-моему, лучший тест настоящей ценности продукта.",
-      "timestamp": "2026-09-15T22:24:50+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 728
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
           }
         ],
         "replies": [

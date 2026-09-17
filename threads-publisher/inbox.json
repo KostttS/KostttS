@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:01:28.194523+00:00",
+  "generated_at": "2026-09-17T16:34:25.009238+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -157,17 +157,6 @@
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
     },
     {
-      "id": "18138239218619237",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@_hengest_/post/DdYm8yBDSfZ",
-      "text": "Выдача банковской карты за минуту",
-      "timestamp": "2026-09-17T10:07:15+0000",
-      "username": "_hengest_",
-      "root_thread_id": "18123409234677152",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
-    },
-    {
       "id": "18336217273286374",
       "has_replies": false,
       "media_type": "TEXT_POST",
@@ -287,72 +276,6 @@
       "username": "be_loval",
       "root_thread_id": "18096468821087562",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdVhR-3G9zP"
-    },
-    {
-      "id": "18109881715915048",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@balashov128/post/DdVZt35jIbt",
-      "text": "бензин...",
-      "timestamp": "2026-09-16T04:13:54+0000",
-      "username": "balashov128",
-      "root_thread_id": "18215388475355676",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
-    },
-    {
-      "id": "17932215129400382",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@sabiruanov/post/DdU8Ae7iOfb",
-      "text": "Подписка на чат жпт и эппл музыка",
-      "timestamp": "2026-09-15T23:54:17+0000",
-      "username": "sabiruanov",
-      "root_thread_id": "18215388475355676",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
-    },
-    {
-      "id": "18124360678885959",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@alrubsov/post/DdUyz2BCvLu",
-      "text": "Налоги",
-      "timestamp": "2026-09-15T22:33:55+0000",
-      "username": "alrubsov",
-      "root_thread_id": "18215388475355676",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
-    },
-    {
-      "id": "18147479731558463",
-      "has_replies": true,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@crimollo/post/DdUyYqAiIhz",
-      "text": "да, за впн хоть в 10 раз дороже, без него в принципе ничего нет",
-      "timestamp": "2026-09-15T22:30:12+0000",
-      "username": "crimollo",
-      "root_thread_id": "18215388475355676",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
-    },
-    {
-      "id": "18076020740413836",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@garkalina.anna/post/DdUyRpTghKr",
-      "text": "Самое интересное, это 0 комментариев …",
-      "timestamp": "2026-09-15T22:29:15+0000",
-      "username": "garkalina.anna",
-      "root_thread_id": "18215388475355676",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
-    },
-    {
-      "id": "18425114059150870",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@dianazaprutskaya/post/DdUyR62DQBY",
-      "text": "За ВПН",
-      "timestamp": "2026-09-15T22:29:17+0000",
-      "username": "dianazaprutskaya",
-      "root_thread_id": "18215388475355676",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdUxwrdEXRO"
     }
   ],
   "own_recent_replies": [
@@ -451,7 +374,7 @@
     {
       "feature": "mentions",
       "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
