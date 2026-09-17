@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T10:00:46.864888+00:00",
+  "generated_at": "2026-09-17T15:01:28.194523+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwFJxlz_&_nc_oc=Adp5d5-VoOpRv4LgxhwwVn1KHS2NmJk3ka0n-8Ul0phneL0LA_bYhshxZ9ABmOa9qxE&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=KdsAO5vfWycb4PKvDgWPcQ&_nc_tpa=Q5bMBQJUmHvM4EjRIVx9g7nmzcByyxj6KzbSGLPjc-V0S0f8NRTN1MvhjJkD1Inty05NztOIso9ToLjStw&oh=00_AQIXXbmpe76U57FtMvFg79Fh5Dk2Hw4bpQRgYDGMY0Eaqg&oe=6AB1747E",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwGGmhWi&_nc_oc=Ado2xaN7pN6AcY8F50hIDStuoSQky7FMhVfYkEbN4-oGs-KuQ7QW1Mwh9g3Gl4vr2No&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=4k4G4JCWHoyBFXy4jO_UnQ&_nc_tpa=Q5bMBQIz00uXFUKyU0Z7mH_DooKUJpdMUK4iOe5CXz25msz3aFb6QZ8KwjoY63HVi2SufF3HJKfk6XugUg&oh=00_AQL4i9soanPcmsGdtv5muf0c4HspTzNipubyF36w2O7Vcg&oe=6AB1E4FE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 4,
+        "value": 1941,
         "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 0
+      "value": 1
     },
     "replies": {
-      "value": 0
+      "value": 27
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 5,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -78,7 +78,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 122
           }
         ],
         "likes": [
@@ -120,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 3
           }
         ],
         "likes": [
@@ -158,21 +158,21 @@
       "text": "Назовите ОДНУ вещь, которая в вашей стране считается совершенно обычной, а приезжих стабильно удивляет.\n\nНе достопримечательность. Именно бытовую мелочь.",
       "timestamp": "2026-09-17T10:00:28+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 1793
           }
         ],
         "likes": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "replies": [
           {
-            "value": 0
+            "value": 27
           }
         ],
         "reposts": [
@@ -204,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 221
+            "value": 223
           }
         ],
         "likes": [
@@ -330,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 134
+            "value": 135
           }
         ],
         "likes": [
