@@ -1,6 +1,5 @@
 {
-  "searched_at": "2026-09-17T17:29:14.408533+00:00",
-  "since": "2026-09-14T17:29:14.408533+00:00",
+  "searched_at": "2026-09-17T17:30:09.670608+00:00",
   "queries": [
     "ищу мобильного разработчика",
     "нужен мобильный разработчик",
@@ -21,15 +20,15 @@
     },
     {
       "query": "нужен мобильный разработчик",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "ищу разработчика приложения",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "нужен Flutter разработчик",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "looking for mobile app developer",
@@ -37,7 +36,7 @@
     },
     {
       "query": "need a mobile app developer",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "looking for Flutter developer",
