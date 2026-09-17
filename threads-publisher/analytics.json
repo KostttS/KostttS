@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T17:36:07.091477+00:00",
+  "generated_at": "2026-09-17T19:03:20.604228+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwEMarJ_&_nc_oc=AdoxD62jYB6lhJ0jczvXNnBptb-uC0BdYCRWk6NYnofAE5-mLu8gOJLOQFtuB1KPGhA&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=ve-TRiOTYGX9Ix2aMpyZtg&_nc_tpa=Q5bMBQIfqcNeNVSLzd-MmHT_XfwZhKg7xL_QUUMY1lvHyzW6C4Y7Hmeyf1Az8o0FFl0Y5Fh2C1HZao6UXg&oh=00_AQJ9PN7519gmSqWeM5DsScxqchYUJKJ7ppbyvobbW78rNA&oe=6AB1E4FE",
+    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwHWkMSN&_nc_oc=AdqH6NSvP7n69dLn3B3Va8yVsZB8ID3N2idQ1YNyPD30FCKuhFF_M5497912dHbpNDA&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=Dmr8kne0WyFu4TRXV7IWBw&_nc_tpa=Q5bMBQK-nRrGlablb53nq9heX8AZlp2R4Xpt-8SxAgbzhbgqA_1422lxZNtYqnK0oyHndeXo-Bb_XW_b-Q&oh=00_AQJTdbuWCk0FlDmwsmXbPdFz89u50hnWhXDdt0t1nJcPhw&oe=6AB21D3E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 2717,
+        "value": 2897,
         "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 7,
+      "quota_usage": 5,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "17877824706548300",
+      "media_type": "IMAGE",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdZkRCGGO4g",
+      "username": "konstantin47209",
+      "text": "Маленький бизнес часто не замечает момент, когда «мы пока сами справляемся» превращается в систему из костылей.\n\nОдин сотрудник знает, где заявки. Второй — кому уже ответили. Владелец помнит, кто не оплатил. Что-то лежит в WhatsApp, что-то в таблице, что-то просто в голове.\n\nИ всё работает. Ровно до отпуска, болезни или первого серьёзного роста.",
+      "timestamp": "2026-09-17T19:03:08+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "17983144769892402",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 522
+            "value": 556
           }
         ],
         "likes": [
@@ -204,12 +246,12 @@
       "insights": {
         "views": [
           {
-            "value": 2018
+            "value": 2195
           }
         ],
         "likes": [
           {
-            "value": 1
+            "value": 2
           }
         ],
         "replies": [
@@ -246,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 224
+            "value": 225
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 1
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18096468821087562",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdVhR-3G9zP",
-      "username": "konstantin47209",
-      "text": "Есть вещи, которые почему-то начинаешь ценить только после переезда.\n\nНазовите ОДНУ самую обычную мелочь, которой вам неожиданно стало не хватать в другом городе или стране.",
-      "timestamp": "2026-09-16T05:20:04+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 590
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 7
           }
         ],
         "reposts": [
