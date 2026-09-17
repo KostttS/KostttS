@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-17T19:03:20.604228+00:00",
+  "generated_at": "2026-09-17T22:11:17.173616+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18010877261762861",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@morozovmarketing/post/DdZoaO9AsxU",
+      "text": "тот самый момент обычно выглядит так: выручка ровная, а владелец уже год работает без выходных. формально все хорошо, фактически бизнес уперся в одного человека. что у вас в посте дальше, про что именно момент?",
+      "timestamp": "2026-09-17T19:39:15+0000",
+      "username": "morozovmarketing",
+      "root_thread_id": "17877824706548300",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZkRCGGO4g"
+    },
     {
       "id": "18104121224622873",
       "has_replies": false,
@@ -91,6 +102,28 @@
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM"
     },
     {
+      "id": "18103040363579679",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@suspenzia/post/DdZxI2HgHEc",
+      "text": "Аа1234",
+      "timestamp": "2026-09-17T20:55:31+0000",
+      "username": "suspenzia",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18623349451010558",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@_saulebeketovna/post/DdZpz0JCDYp",
+      "text": "Сарқыт",
+      "timestamp": "2026-09-17T19:51:29+0000",
+      "username": "_saulebeketovna",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
       "id": "17891129316437863",
       "has_replies": false,
       "media_type": "TEXT_POST",
@@ -114,7 +147,7 @@
     },
     {
       "id": "18070084226492146",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@pros.vibros/post/DdY-zbLDLaK",
       "text": "Выписываться из больницы после полостных операций через сутки, а после естественных родов в тот же день",
@@ -147,7 +180,7 @@
     },
     {
       "id": "17905536423559139",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@madination1/post/DdY3p1ODDBz",
       "text": "Если вас позвали в гости ,потом вы собрались уходить - вам дадут с собой пакет с едой и угощениями,чтоб поели те кто не пришёл либо угостить деток.У казахов это называется Саркыт❤️",
@@ -256,6 +289,17 @@
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
     },
     {
+      "id": "18138239218619237",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@_hengest_/post/DdYm8yBDSfZ",
+      "text": "Выдача банковской карты за минуту",
+      "timestamp": "2026-09-17T10:07:15+0000",
+      "username": "_hengest_",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
       "id": "18336217273286374",
       "has_replies": false,
       "media_type": "TEXT_POST",
@@ -268,7 +312,7 @@
     },
     {
       "id": "17906089476475930",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@ovainshtok/post/DdYm3Cnjtj_",
       "text": "Общественный транспорт не работает в субботу 🥲",
@@ -298,17 +342,6 @@
       "username": "donmigueldekh",
       "root_thread_id": "18095634989546930",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdW-g-lmUau"
-    },
-    {
-      "id": "17946675105320944",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@dzenstaff2026/post/DdWFcqzCNwO",
-      "text": "Вот эти «слишком мелкие» задачи мы и забираем первыми. Проверено: считать надо не отдельную мелочь, а сумму за неделю - у нас на одном реестре оплат набегало 6-8 часов, хотя каждая операция по две минуты. Агент закрывает их по регламенту, человек только смотрит расхождения. А сколько у вас таких повторов набегает за неделю, если сложить? Вся инфа - в шапке профиля.",
-      "timestamp": "2026-09-16T10:36:01+0000",
-      "username": "dzenstaff2026",
-      "root_thread_id": "17903602146574530",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdWC2iUlhUv"
     }
   ],
   "own_recent_replies": [
@@ -406,7 +439,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
       "first_attempt_error": "Threads API HTTP 500: "
     }
   ]

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-17T19:03:20.604228+00:00",
+  "generated_at": "2026-09-17T22:11:17.173616+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwHWkMSN&_nc_oc=AdqH6NSvP7n69dLn3B3Va8yVsZB8ID3N2idQ1YNyPD30FCKuhFF_M5497912dHbpNDA&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=Dmr8kne0WyFu4TRXV7IWBw&_nc_tpa=Q5bMBQK-nRrGlablb53nq9heX8AZlp2R4Xpt-8SxAgbzhbgqA_1422lxZNtYqnK0oyHndeXo-Bb_XW_b-Q&oh=00_AQJTdbuWCk0FlDmwsmXbPdFz89u50hnWhXDdt0t1nJcPhw&oe=6AB21D3E",
+    "threads_profile_picture_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwE8nEI2&_nc_oc=Adpsswuag4RY2LIoEVaZ61kA6cR-YGOJVM0_HAxF3oVQ4IauJ3IIKYviwCblQAZtXeI&_nc_zt=24&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=rcqKNtJ30XtNBFe6Y0oCzA&_nc_tpa=Q5bMBQLPoDZcT18vgbvoB5JD2pmQ2qd9ABMM7-lGOlOjCB-hOLU8HKzBcxGwZXsH2ZXfJDvBN0XiET1w0w&oh=00_AQLNXvwabikQdq0QS_OvSt84NOT3RYAzQ-PL6P7Qx1jVGQ&oe=6AB21D3E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,15 +14,15 @@
         "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 2897,
+        "value": 3663,
         "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 1
+      "value": 3
     },
     "replies": {
-      "value": 37
+      "value": 43
     },
     "reposts": {
       "value": 0
@@ -67,12 +67,12 @@
   ],
   "recent_posts": [
     {
-      "id": "17877824706548300",
-      "media_type": "IMAGE",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdZkRCGGO4g",
+      "id": "18116273314971928",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdZ5x41j157",
       "username": "konstantin47209",
-      "text": "Маленький бизнес часто не замечает момент, когда «мы пока сами справляемся» превращается в систему из костылей.\n\nОдин сотрудник знает, где заявки. Второй — кому уже ответили. Владелец помнит, кто не оплатил. Что-то лежит в WhatsApp, что-то в таблице, что-то просто в голове.\n\nИ всё работает. Ровно до отпуска, болезни или первого серьёзного роста.",
-      "timestamp": "2026-09-17T19:03:08+0000",
+      "text": "Есть приложения, которые экономят пять кликов. А есть те, которые убирают необходимость вообще помнить о задаче.\n\nДля бизнеса второе почти всегда ценнее: не быстрее нажать кнопку, а сделать так, чтобы человеку не пришлось её нажимать.",
+      "timestamp": "2026-09-17T22:11:06+0000",
       "is_quote_post": false,
       "has_replies": false,
       "insights": {
@@ -109,6 +109,48 @@
       }
     },
     {
+      "id": "17877824706548300",
+      "media_type": "IMAGE",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdZkRCGGO4g",
+      "username": "konstantin47209",
+      "text": "Маленький бизнес часто не замечает момент, когда «мы пока сами справляемся» превращается в систему из костылей.\n\nОдин сотрудник знает, где заявки. Второй — кому уже ответили. Владелец помнит, кто не оплатил. Что-то лежит в WhatsApp, что-то в таблице, что-то просто в голове.\n\nИ всё работает. Ровно до отпуска, болезни или первого серьёзного роста.",
+      "timestamp": "2026-09-17T19:03:08+0000",
+      "is_quote_post": false,
+      "has_replies": true,
+      "insights": {
+        "views": [
+          {
+            "value": 146
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 1
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "17983144769892402",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM",
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 556
+            "value": 573
           }
         ],
         "likes": [
@@ -246,17 +288,17 @@
       "insights": {
         "views": [
           {
-            "value": 2195
+            "value": 2772
           }
         ],
         "likes": [
           {
-            "value": 2
+            "value": 3
           }
         ],
         "replies": [
           {
-            "value": 28
+            "value": 33
           }
         ],
         "reposts": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "17903602146574530",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdWC2iUlhUv",
-      "username": "konstantin47209",
-      "text": "Самая неприятная рутина в маленьком бизнесе — та, которая выглядит слишком мелкой, чтобы её автоматизировать.\n\nОтветить на одинаковый вопрос. Перенести заявку. Проверить оплату. Напомнить клиенту. И так десятки раз.\n\nПо отдельности — две минуты. Вместе — кусок каждого рабочего дня.",
-      "timestamp": "2026-09-16T10:13:24+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 42
-          }
-        ],
-        "likes": [
-          {
-            "value": 1
-          }
-        ],
-        "replies": [
-          {
-            "value": 1
           }
         ],
         "reposts": [
