@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-17T16:34:25.009238+00:00",
+  "generated_at": "2026-09-17T17:29:16.061773+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwERE4cT&_nc_oc=AdpKbxCy-6HXDFjpZ06eux7LmLCkfHDC34bw3tU5s_gRqlzPPcaAiCxIewGtYuD5XjA&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=c-9rJbDXfupdibWp-Qu9tg&_nc_tpa=Q5bMBQJB-k75is2AG27Nzv0pQ1yJpIYMZyLLuCs3wmEqiZkLphSkN9Nw0UzISmgZfT1_-r5YvogwN7ZkkQ&oh=00_AQK0_dhYwLUmueiqYxFzgcva1bu42DI8nLMFnULy5pdfKA&oe=6AB1E4FE",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwGyjueI&_nc_oc=AdqXCXzJHH5whVlIYZ32j_SvMgtjSukRkDzFh89-iy6kO_lBxdxFvGW9eTkJ8uc9ytU&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=nB-yv7gYfIf3Ft3DipY-0g&_nc_tpa=Q5bMBQLfO_QBGHPICcirCjA7gnKrqrmTTqHelb6BtHlKCWKePSFeFsxj8Vg2CpEMWQirQrMbjco3j-MHhA&oh=00_AQLlqvUqfifhC4dvM9NdXrjtOr4Gv7CmFUXN2oQDAurhCA&oe=6AB1E4FE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 876,
+        "value": 878,
         "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 2071,
+        "value": 2680,
         "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
@@ -22,7 +22,7 @@
       "value": 1
     },
     "replies": {
-      "value": 27
+      "value": 37
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 7,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -74,11 +74,11 @@
       "text": "Какую ОДНУ бытовую вещь вы бы навсегда отдали на автомат — готовку, уборку, покупки, документы, планирование или что-то другое?\n\nТолько одну.",
       "timestamp": "2026-09-17T16:34:23+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 522
           }
         ],
         "likes": [
@@ -88,7 +88,7 @@
         ],
         "replies": [
           {
-            "value": 0
+            "value": 9
           }
         ],
         "reposts": [
@@ -204,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 1932
+            "value": 2018
           }
         ],
         "likes": [
@@ -214,7 +214,7 @@
         ],
         "replies": [
           {
-            "value": 27
+            "value": 28
           }
         ],
         "reposts": [
@@ -246,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 223
+            "value": 224
           }
         ],
         "likes": [
@@ -330,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 169
+            "value": 170
           }
         ],
         "likes": [

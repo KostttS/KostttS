@@ -1,0 +1,55 @@
+{
+  "searched_at": "2026-09-17T17:29:14.408533+00:00",
+  "since": "2026-09-14T17:29:14.408533+00:00",
+  "queries": [
+    "ищу мобильного разработчика",
+    "нужен мобильный разработчик",
+    "ищу разработчика приложения",
+    "нужен Flutter разработчик",
+    "looking for mobile app developer",
+    "need a mobile app developer",
+    "looking for Flutter developer",
+    "mobile app development partner",
+    "build a mobile app"
+  ],
+  "count": 0,
+  "results": [],
+  "errors": [
+    {
+      "query": "ищу мобильного разработчика",
+      "error": "Threads API HTTP 500: "
+    },
+    {
+      "query": "нужен мобильный разработчик",
+      "error": "Threads API HTTP 500: "
+    },
+    {
+      "query": "ищу разработчика приложения",
+      "error": "Threads API HTTP 500: "
+    },
+    {
+      "query": "нужен Flutter разработчик",
+      "error": "Threads API HTTP 500: "
+    },
+    {
+      "query": "looking for mobile app developer",
+      "error": "Threads API HTTP 500: "
+    },
+    {
+      "query": "need a mobile app developer",
+      "error": "Threads API HTTP 500: "
+    },
+    {
+      "query": "looking for Flutter developer",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+    },
+    {
+      "query": "mobile app development partner",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+    },
+    {
+      "query": "build a mobile app",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+    }
+  ]
+}
