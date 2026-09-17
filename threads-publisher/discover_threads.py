@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parent
 OUT_FILE = ROOT / "discovery.json"
 
 QUERIES = [
+    # Direct mobile-development demand — first priority.
     "ищу мобильного разработчика",
     "нужен мобильный разработчик",
     "ищу разработчика приложения",
@@ -21,13 +22,40 @@ QUERIES = [
     "looking for Flutter developer",
     "mobile app development partner",
     "build a mobile app",
+    "нужен разработчик iOS Android",
+    "ищу подрядчика мобильное приложение",
+    "доделать мобильное приложение",
+    "разработчик MVP приложения",
+    "white label mobile developer",
+    "mobile development subcontractor",
+    "agency needs mobile developer",
+
+    # People/partners who say they can bring clients or have client flow.
+    "есть клиенты нужен разработчик",
+    "ищу разработчика под клиентов",
+    "ищу партнера разработчика",
+    "партнер разработчик за процент",
+    "могу приводить клиентов",
+    "приведу клиентов разработчику",
+    "есть поток клиентов",
+    "ищу технического партнера",
+    "лидогенерация для разработчиков",
+    "ищу подрядчика под клиентов",
+    "have clients need developer",
+    "I can bring clients to developers",
+    "looking for development partner",
+    "looking for technical delivery partner",
+    "need development partner for clients",
+    "lead generation developers partnership",
+    "looking for dev partner for clients",
+    "agency looking for development partner",
 ]
 
 FIELDS = "id,username,text,timestamp,permalink,shortcode,has_replies,is_reply"
 
 
 def api_json(url: str) -> dict:
-    req = Request(url, headers={"User-Agent": "KostttS-Threads-Discovery/1.1"})
+    req = Request(url, headers={"User-Agent": "KostttS-Threads-Discovery/1.2"})
     try:
         with urlopen(req, timeout=60) as response:
             raw = response.read().decode("utf-8")
@@ -98,7 +126,7 @@ def main() -> int:
         "searched_at": now.isoformat(),
         "queries": QUERIES,
         "count": len(rows),
-        "results": rows[:120],
+        "results": rows[:160],
         "errors": errors,
     }
     OUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
