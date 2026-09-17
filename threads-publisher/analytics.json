@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-17T05:08:59.809667+00:00",
+  "generated_at": "2026-09-17T10:00:46.864888+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwFrBkPf&_nc_oc=AdrOWQYgfVMJoBi3duNRHTD05-C_vx9dE2Nx4hVP0-4p7iqPQSBTHEm7MS3p9U5hx1s&_nc_zt=24&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=l5ArJ8qpu2tZaiVMV1UjcQ&_nc_tpa=Q5bMBQIiBQ5dnEO5VicnQn_7bmR6gC25yGrMMXSs1ChSdQl2-y2hoqgMlhO3KgrA5A5B-F2RE1Y4iKfV8g&oh=00_AQKnyjILF_bJAAjfHJaWPd2n241JmF_6n1jn8wT7FIXRAA&oe=6AB13C3E",
+    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwFJxlz_&_nc_oc=Adp5d5-VoOpRv4LgxhwwVn1KHS2NmJk3ka0n-8Ul0phneL0LA_bYhshxZ9ABmOa9qxE&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=KdsAO5vfWycb4PKvDgWPcQ&_nc_tpa=Q5bMBQJUmHvM4EjRIVx9g7nmzcByyxj6KzbSGLPjc-V0S0f8NRTN1MvhjJkD1Inty05NztOIso9ToLjStw&oh=00_AQIXXbmpe76U57FtMvFg79Fh5Dk2Hw4bpQRgYDGMY0Eaqg&oe=6AB1747E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 2197,
-        "end_time": "2026-09-15T07:00:00+0000"
+        "value": 876,
+        "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 871,
-        "end_time": "2026-09-16T07:00:00+0000"
+        "value": 4,
+        "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 1
+      "value": 0
     },
     "replies": {
-      "value": 3
+      "value": 0
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 5,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,6 +67,132 @@
   ],
   "recent_posts": [
     {
+      "id": "18093231698541984",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdYmMsgFQ3z",
+      "username": "konstantin47209",
+      "text": "Самая дорогая функция в приложении — иногда та, которой вообще не должно было быть.\n\nЕё надо придумать, нарисовать, разработать, протестировать, поддерживать — а пользователь спокойно жил бы без неё.\n\nПоэтому перед разработкой полезнее спросить не «что ещё добавить?», а «что можно не делать вообще?»",
+      "timestamp": "2026-09-17T10:00:44+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "17888944281453513",
+      "media_type": "IMAGE",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdYmLkBlaHA",
+      "username": "konstantin47209",
+      "text": "Есть момент, когда таблица перестаёт быть удобным инструментом и становится диспетчером бизнеса.\n\nЗаявки в одной вкладке, оплаты в другой, статусы меняют руками, клиент спрашивает в WhatsApp — и кто-то должен помнить, что где обновить.\n\nВот тогда проблема уже не в таблице. Проблема в том, что процесс держится на памяти людей.",
+      "timestamp": "2026-09-17T10:00:38+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18123409234677152",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO",
+      "username": "konstantin47209",
+      "text": "Назовите ОДНУ вещь, которая в вашей стране считается совершенно обычной, а приезжих стабильно удивляет.\n\nНе достопримечательность. Именно бытовую мелочь.",
+      "timestamp": "2026-09-17T10:00:28+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18115467866048433",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdXTcBMFk5i",
@@ -78,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 216
+            "value": 221
           }
         ],
         "likes": [
@@ -330,7 +456,7 @@
       "insights": {
         "views": [
           {
-            "value": 727
+            "value": 728
           }
         ],
         "likes": [
@@ -341,132 +467,6 @@
         "replies": [
           {
             "value": 7
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "17868842754643611",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdUcH83GQE3",
-      "username": "konstantin47209",
-      "text": "Самая тяжёлая часть попытки выбраться из работы, которая тебя уже достала, — новую жизнь приходится строить после старой.\n\nДнём работаешь ради денег. Вечером садишься учиться, искать клиентов, делать свои проекты. И всё это именно тогда, когда сил уже почти нет.\n\nПолучается странный замкнутый круг: чтобы однажды перестать жить в таком режиме, какое-то время приходится жить в нём вдвойне.",
-      "timestamp": "2026-09-15T19:15:46+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 450
-          }
-        ],
-        "likes": [
-          {
-            "value": 6
-          }
-        ],
-        "replies": [
-          {
-            "value": 1
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18115635055823175",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdUQtvFnC1L",
-      "username": "konstantin47209",
-      "text": "Можно оставить только одно на целый год:\n\nА — жить в большом городе без машины.\nБ — жить у моря, но машина нужна почти для всего.\n\nЧто выберете?",
-      "timestamp": "2026-09-15T17:36:04+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 439
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 4
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18119117783284099",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdTZ881m_ce",
-      "username": "konstantin47209",
-      "text": "В первой версии продукта я бы скорее убрал половину функций, чем сделал пять главных сценариев наполовину.\n\nКлиент не оценивает количество пунктов в ТЗ. Он замечает, получилось ли нормально сделать то, ради чего открыл приложение.",
-      "timestamp": "2026-09-15T09:37:33+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 154
-          }
-        ],
-        "likes": [
-          {
-            "value": 2
-          }
-        ],
-        "replies": [
-          {
-            "value": 1
           }
         ],
         "reposts": [
