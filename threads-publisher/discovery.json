@@ -54,5 +54,10 @@
   },
   "count": 0,
   "results": [],
-  "errors": []
+  "errors": [
+    {
+      "feature": "review_refresh",
+      "error": "force one immediate keyword-search refresh for App Review demo"
+    }
+  ]
 }
