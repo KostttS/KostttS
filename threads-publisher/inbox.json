@@ -1,10 +1,21 @@
 {
-  "generated_at": "2026-09-18T06:10:18.224200+00:00",
+  "generated_at": "2026-09-18T07:38:15.220484+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
-      "id": "18139057345609746",
+      "id": "18121688789297702",
       "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@lisa_silver_fox/post/DdaxZkagGjP",
+      "text": "Запах дома.",
+      "timestamp": "2026-09-18T06:17:02+0000",
+      "username": "lisa_silver_fox",
+      "root_thread_id": "17882292102688424",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/Ddawk19Fhvw"
+    },
+    {
+      "id": "18139057345609746",
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@artur.kupriyanov/post/DdZ71ZwE7M4",
       "text": "Согласен, убрать рутину на уровне бизнес-процесса - куда важнее, чем просто ускорить. Иногда триггерная рассылка решает вопрос \"забыли про клиента\" эффективнее, чем менеджер с напоминалкой.",
@@ -15,7 +26,7 @@
     },
     {
       "id": "18010877261762861",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@morozovmarketing/post/DdZoaO9AsxU",
       "text": "тот самый момент обычно выглядит так: выручка ровная, а владелец уже год работает без выходных. формально все хорошо, фактически бизнес уперся в одного человека. что у вас в посте дальше, про что именно момент?",
@@ -113,6 +124,28 @@
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM"
     },
     {
+      "id": "18066646502750227",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@katie_temirova_/post/Dda59AFDEJb",
+      "text": "Один пароль от эцп на всю страну 😂🤣",
+      "timestamp": "2026-09-18T07:31:47+0000",
+      "username": "katie_temirova_",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18055736636799607",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@sashaisaakovich/post/Dda5mwAG6n6",
+      "text": "Говорить sorry, если вам нечаянно наступили на ногу",
+      "timestamp": "2026-09-18T07:28:45+0000",
+      "username": "sashaisaakovich",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
       "id": "18148171903538696",
       "has_replies": false,
       "media_type": "TEXT_POST",
@@ -158,7 +191,7 @@
     },
     {
       "id": "18114973942812678",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@twiggy_jamaica/post/DdaFim1o-Mk",
       "text": "У нас могут на работу не придти потому что дождь.",
@@ -397,20 +430,27 @@
       "username": "photo_creator_ashdod",
       "root_thread_id": "18123409234677152",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
-    },
-    {
-      "id": "17931150399145919",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@donmigueldekh/post/DdW_Ix3jP_S",
-      "text": "Куда меньше то? Совсем ебанулись со своим успешным успехом.",
-      "timestamp": "2026-09-16T19:00:07+0000",
-      "username": "donmigueldekh",
-      "root_thread_id": "18095634989546930",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdW-g-lmUau"
     }
   ],
   "own_recent_replies": [
+    {
+      "id": "18335396350256896",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/Dda6pGvFhuM",
+      "username": "konstantin47209",
+      "text": "Именно про этот перелом: заявки уже не теряются катастрофически, но вся картина держится на владельце — он сверяет статусы, оплаты, кому ответили. Формально процесс работает, а масштабировать его нельзя без ещё большего участия владельца. У ваших клиентов это чаще начинается с CRM/таблиц или с коммуникаций в мессенджерах?",
+      "timestamp": "2026-09-18T07:37:52+0000",
+      "has_replies": false
+    },
+    {
+      "id": "18120182114303079",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/Dda6nfolgq5",
+      "username": "konstantin47209",
+      "text": "Да, именно. И это хороший пример, где отдельное приложение вообще может быть лишним: если триггер и интеграция закрывают потерю клиента, ценность уже получена. У вас такие автоматизации чаще для продаж или для сервиса после сделки?",
+      "timestamp": "2026-09-18T07:37:39+0000",
+      "has_replies": false
+    },
     {
       "id": "17880956643529655",
       "media_type": "TEXT_POST",
@@ -481,24 +521,6 @@
       "username": "konstantin47209",
       "text": "Spotify тоже из тех сервисов, где платишь скорее за отсутствие раздражения 😄 А если завтра цена вырастет вдвое — останетесь?",
       "timestamp": "2026-09-13T11:36:11+0000",
-      "has_replies": true
-    },
-    {
-      "id": "18173384359453964",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdOd6mLl7xQ",
-      "username": "konstantin47209",
-      "text": "iCloud — понимаю. Особенно когда однажды привыкаешь, что фото и файлы просто везде сами появляются.",
-      "timestamp": "2026-09-13T11:35:59+0000",
-      "has_replies": false
-    },
-    {
-      "id": "18133490317633396",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdM93X3FFei",
-      "username": "konstantin47209",
-      "text": "После шести лет интересно: когда уехали, моря потом реально не хватало или быстро отпустило?",
-      "timestamp": "2026-09-12T21:36:39+0000",
       "has_replies": true
     }
   ],
