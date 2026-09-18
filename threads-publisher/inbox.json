@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:37:14.315582+00:00",
+  "generated_at": "2026-09-18T12:55:08.325181+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -114,7 +114,7 @@
     },
     {
       "id": "18213715294347953",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@eaudekarolina/post/DdZTzN-DF1q",
       "text": "Документы !",
@@ -616,7 +616,7 @@
     {
       "feature": "mentions",
       "error": "Threads API HTTP 500: ",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
