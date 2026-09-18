@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-09-17T22:11:17.173616+00:00",
+  "generated_at": "2026-09-18T00:22:40.470552+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
+    {
+      "id": "18139057345609746",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@artur.kupriyanov/post/DdZ71ZwE7M4",
+      "text": "Согласен, убрать рутину на уровне бизнес-процесса - куда важнее, чем просто ускорить. Иногда триггерная рассылка решает вопрос \"забыли про клиента\" эффективнее, чем менеджер с напоминалкой.",
+      "timestamp": "2026-09-17T22:28:59+0000",
+      "username": "artur.kupriyanov",
+      "root_thread_id": "18116273314971928",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZ5x41j157"
+    },
     {
       "id": "18010877261762861",
       "has_replies": false,
@@ -100,6 +111,17 @@
       "username": "eaudekarolina",
       "root_thread_id": "17983144769892402",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM"
+    },
+    {
+      "id": "18114973942812678",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@twiggy_jamaica/post/DdaFim1o-Mk",
+      "text": "У нас могут на работу не придти потому что дождь.",
+      "timestamp": "2026-09-17T23:53:48+0000",
+      "username": "twiggy_jamaica",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
     },
     {
       "id": "18103040363579679",
@@ -439,7 +461,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: "
     }
   ]

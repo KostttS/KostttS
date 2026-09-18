@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-17T22:11:17.173616+00:00",
+  "generated_at": "2026-09-18T00:22:40.470552+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sea1-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwE8nEI2&_nc_oc=Adpsswuag4RY2LIoEVaZ61kA6cR-YGOJVM0_HAxF3oVQ4IauJ3IIKYviwCblQAZtXeI&_nc_zt=24&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=rcqKNtJ30XtNBFe6Y0oCzA&_nc_tpa=Q5bMBQLPoDZcT18vgbvoB5JD2pmQ2qd9ABMM7-lGOlOjCB-hOLU8HKzBcxGwZXsH2ZXfJDvBN0XiET1w0w&oh=00_AQLNXvwabikQdq0QS_OvSt84NOT3RYAzQ-PL6P7Qx1jVGQ&oe=6AB21D3E",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwEwZ3x_&_nc_oc=AdrAzszjCwlR3p00deSnMesomYBVl9giusROSNKszaU-Ss9-lLhEw9838mRPimpTLJM&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=Upmidjdyaz5b-7AvYvp7UA&_nc_tpa=Q5bMBQLLwVr5yG9MQBK5cxHZC6nipVePhf2thlDc_ouBBZ2WuP3Tl-g9ITecfus900l3Rx0dzyBjDHr0kg&oh=00_AQLGKxDcWcqgnHuC8NzGYYDiPjWsr04Nexk9K2XdofRxRw&oe=6AB2557E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 878,
+        "value": 879,
         "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 3663,
+        "value": 4016,
         "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
@@ -22,7 +22,7 @@
       "value": 3
     },
     "replies": {
-      "value": 43
+      "value": 45
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 5,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -74,11 +74,11 @@
       "text": "Есть приложения, которые экономят пять кликов. А есть те, которые убирают необходимость вообще помнить о задаче.\n\nДля бизнеса второе почти всегда ценнее: не быстрее нажать кнопку, а сделать так, чтобы человеку не пришлось её нажимать.",
       "timestamp": "2026-09-17T22:11:06+0000",
       "is_quote_post": false,
-      "has_replies": false,
+      "has_replies": true,
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 171
           }
         ],
         "likes": [
@@ -88,7 +88,7 @@
         ],
         "replies": [
           {
-            "value": 0
+            "value": 1
           }
         ],
         "reposts": [
@@ -120,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 146
+            "value": 147
           }
         ],
         "likes": [
@@ -288,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 2772
+            "value": 2979
           }
         ],
         "likes": [
@@ -298,7 +298,7 @@
         ],
         "replies": [
           {
-            "value": 33
+            "value": 34
           }
         ],
         "reposts": [
@@ -330,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 225
+            "value": 226
           }
         ],
         "likes": [
