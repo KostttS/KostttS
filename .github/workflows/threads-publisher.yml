@@ -75,16 +75,29 @@ jobs:
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/monitor_threads.py
 
-      - name: Save Threads state, monitoring and discovery data
+      - name: Store Threads runtime data
+        if: steps.config.outputs.configured == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: threads-runtime-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            threads-publisher/analytics.json
+            threads-publisher/inbox.json
+            threads-publisher/discovery.json
+          retention-days: 7
+          if-no-files-found: error
+
+      - name: Save public-safe Threads state metadata
         if: steps.config.outputs.configured == 'true'
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- threads-publisher/state.json threads-publisher/analytics.json threads-publisher/inbox.json threads-publisher/discovery.json)" ]; then
-            echo "No Threads state, monitoring or discovery changes."
+          if [ -z "$(git status --porcelain -- threads-publisher/state.json)" ]; then
+            echo "No Threads state metadata changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add threads-publisher/state.json threads-publisher/analytics.json threads-publisher/inbox.json threads-publisher/discovery.json
-          git commit -m "Update Threads state, monitoring and discovery data"
+          git add threads-publisher/state.json
+          git commit -m "Update Threads state metadata"
+          git pull --rebase
           git push
