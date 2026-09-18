@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:13:34.143397+00:00",
+  "generated_at": "2026-09-18T17:43:45.482414+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -180,7 +180,7 @@
     },
     {
       "id": "17903077092577278",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@yerlan_kosmos/post/Dda-12nCDOA",
       "text": "Апщу берш",
@@ -615,7 +615,7 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
+      "error": "Threads API HTTP 500: ",
       "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
