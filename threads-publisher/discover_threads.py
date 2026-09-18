@@ -51,7 +51,7 @@ QUERIES = [
     "agency looking for development partner",
 ]
 
-FIELDS = "id,username,text,timestamp,permalink,shortcode,has_replies,is_reply"
+FIELDS = "id,username,text,timestamp,permalink"
 
 
 def api_json(url: str) -> dict:
@@ -100,24 +100,33 @@ def main() -> int:
     errors = []
 
     for query in QUERIES:
-        params = {
-            "q": query,
-            "search_type": "RECENT",
-            "fields": FIELDS,
-            "access_token": token,
-        }
-        url = f"{API_BASE}/keyword_search?{urlencode(params)}"
-        try:
-            payload = api_json(url)
-            for item in payload.get("data", []) or []:
-                post_id = str(item.get("id", "")).strip()
-                if not post_id:
-                    continue
-                row = dict(item)
-                row["matched_query"] = query
-                all_rows[post_id] = row
-        except Exception as exc:
-            errors.append({"query": query, "error": str(exc)})
+        # Keep keyword_search requests deliberately minimal. Optional media
+        # fields have caused Meta to return opaque HTTP 500/code=1 responses.
+        # If RECENT itself is temporarily rejected, retry without search_type.
+        attempts = [
+            {"q": query, "search_type": "RECENT", "fields": FIELDS, "limit": 25, "access_token": token},
+            {"q": query, "fields": FIELDS, "limit": 25, "access_token": token},
+            {"q": query, "fields": "id,text", "limit": 25, "access_token": token},
+        ]
+        payload = None
+        attempt_errors = []
+        for params in attempts:
+            url = f"{API_BASE}/keyword_search?{urlencode(params)}"
+            try:
+                payload = api_json(url)
+                break
+            except Exception as exc:
+                attempt_errors.append(str(exc))
+        if payload is None:
+            errors.append({"query": query, "error": " | ".join(attempt_errors)})
+            continue
+        for item in payload.get("data", []) or []:
+            post_id = str(item.get("id", "")).strip()
+            if not post_id:
+                continue
+            row = dict(item)
+            row["matched_query"] = query
+            all_rows[post_id] = row
 
     rows = list(all_rows.values())
     rows.sort(key=lambda x: str(x.get("timestamp", "")), reverse=True)
