@@ -1,5 +1,5 @@
 {
-  "searched_at": "2026-09-18T05:02:16.007706+00:00",
+  "searched_at": "2026-09-18T06:09:56.810213+00:00",
   "queries": [
     "ищу мобильного разработчика",
     "нужен мобильный разработчик",
@@ -41,139 +41,139 @@
   "errors": [
     {
       "query": "ищу мобильного разработчика",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "нужен мобильный разработчик",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "ищу разработчика приложения",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "нужен Flutter разработчик",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "looking for mobile app developer",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "need a mobile app developer",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "looking for Flutter developer",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "mobile app development partner",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "build a mobile app",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "нужен разработчик iOS Android",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "ищу подрядчика мобильное приложение",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "доделать мобильное приложение",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "разработчик MVP приложения",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "white label mobile developer",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500:  | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "mobile development subcontractor",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "agency needs mobile developer",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "есть клиенты нужен разработчик",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "ищу разработчика под клиентов",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "ищу партнера разработчика",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: "
     },
     {
       "query": "партнер разработчик за процент",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "могу приводить клиентов",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "приведу клиентов разработчику",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "есть поток клиентов",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500:  | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "ищу технического партнера",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "лидогенерация для разработчиков",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "ищу подрядчика под клиентов",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "have clients need developer",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "I can bring clients to developers",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "looking for development partner",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "looking for technical delivery partner",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "need development partner for clients",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "lead generation developers partnership",
-      "error": "Threads API HTTP 500: "
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "looking for dev partner for clients",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     },
     {
       "query": "agency looking for development partner",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}} | Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }

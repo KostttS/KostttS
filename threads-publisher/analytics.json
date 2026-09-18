@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T05:02:24.588344+00:00",
+  "generated_at": "2026-09-18T06:10:18.224200+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwF9HGOz&_nc_oc=AdrRUCNOt-XiRZBq4YkKgLiQByPdMbuSB9rYH8FSHxbxIampQ6_Ml3HxH6ExJbKJzgo&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=QaHmd3zovQnu_-k3AZOGZw&_nc_tpa=Q5bMBQJLgZwEkdX1dZg32MT_HzLVqt8_9GxEd8bGnZZ6RUGGefD-kf8XZGivousBWWZ-9y7ZL5KeDG3-aw&oh=00_AQJoEPRq1kTx-FMUjgNSRWYImRxXpnJXITdSzfd-InAsQA&oe=6AB28DBE",
+    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwHrXT6v&_nc_oc=AdpRaRgDVTE8aToJZ8du2nFlWLR6gBlViEkiNRvffGs4OFV49fYDqACD1aWdvD9LO3k&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=-eyykqzxJDtm4CVW0tUSLA&_nc_tpa=Q5bMBQIwFzmQtRzjoChSHcXisNyKIdBJwEs8-olB-hSk4cDY1pQ2dP9_fw0Ppo3S1L3uDh8Q0eDNAxvwSQ&oh=00_AQIs5ZXn6nmakez5yKZlOc280hzju2lW47xbc6FX8HQeYg&oe=6AB28DBE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-16T07:00:00+0000"
       },
       {
-        "value": 4464,
+        "value": 4659,
         "end_time": "2026-09-17T07:00:00+0000"
       }
     ],
@@ -22,7 +22,7 @@
       "value": 3
     },
     "replies": {
-      "value": 49
+      "value": 51
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 6,
+      "quota_usage": 7,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "17882292102688424",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/Ddawk19Fhvw",
+      "username": "konstantin47209",
+      "text": "Назовите ОДНУ вещь, по которой вы мгновенно понимаете: «я дома».\n\nНе город и не страна целиком. Именно маленькая бытовая деталь.",
+      "timestamp": "2026-09-18T06:09:54+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18116273314971928",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdZ5x41j157",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 174
+            "value": 175
           }
         ],
         "likes": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 150
+            "value": 153
           }
         ],
         "likes": [
@@ -288,7 +330,7 @@
       "insights": {
         "views": [
           {
-            "value": 3360
+            "value": 3485
           }
         ],
         "likes": [
@@ -298,7 +340,7 @@
         ],
         "replies": [
           {
-            "value": 37
+            "value": 41
           }
         ],
         "reposts": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 1
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "17884390830492308",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdWC3SvFlj_",
-      "username": "konstantin47209",
-      "text": "Хороший MVP — это не урезанное приложение. Это продукт, в котором оставили один законченный путь пользователя и убрали всё, без чего этот путь работает.\n\nРазница важная: экономить надо на количестве функций, а не на качестве главного сценария.",
-      "timestamp": "2026-09-16T10:13:30+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 135
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
           }
         ],
         "reposts": [

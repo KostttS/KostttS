@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T05:02:24.588344+00:00",
+  "generated_at": "2026-09-18T06:10:18.224200+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -111,6 +111,28 @@
       "username": "eaudekarolina",
       "root_thread_id": "17983144769892402",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM"
+    },
+    {
+      "id": "18148171903538696",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@oliibcn/post/DdawaEiDTT5",
+      "text": "Ужин в 22:00",
+      "timestamp": "2026-09-18T06:08:22+0000",
+      "username": "oliibcn",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18036311708850229",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@gnauanova216/post/DdarFc8DHZC",
+      "text": "Расплачиваюсь ладонью.",
+      "timestamp": "2026-09-18T05:21:52+0000",
+      "username": "gnauanova216",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
     },
     {
       "id": "18096223208406185",
@@ -323,7 +345,7 @@
     },
     {
       "id": "18127306135826046",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@ohhh_meow/post/DdYm-SYgvS4",
       "text": "Говорим пин-код от карты продавцам в магазинах",
@@ -484,7 +506,7 @@
     {
       "feature": "mentions",
       "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: "
+      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
     }
   ]
 }
