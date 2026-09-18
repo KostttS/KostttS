@@ -99,6 +99,23 @@ def main() -> int:
     all_rows = {}
     errors = []
 
+    token_debug = {}
+    try:
+        debug_params = {"input_token": token, "access_token": token}
+        debug_url = f"{API_BASE}/debug_token?{urlencode(debug_params)}"
+        debug_data = api_json(debug_url).get("data", {})
+        token_debug = {
+            "is_valid": debug_data.get("is_valid"),
+            "type": debug_data.get("type"),
+            "application": debug_data.get("application"),
+            "expires_at": debug_data.get("expires_at"),
+            "data_access_expires_at": debug_data.get("data_access_expires_at"),
+            "scopes": debug_data.get("scopes", []),
+            "user_id": debug_data.get("user_id"),
+        }
+    except Exception as exc:
+        token_debug = {"error": str(exc)}
+
     for query in QUERIES:
         # Keep keyword_search requests deliberately minimal. Optional media
         # fields have caused Meta to return opaque HTTP 500/code=1 responses.
@@ -134,6 +151,7 @@ def main() -> int:
     output = {
         "searched_at": now.isoformat(),
         "queries": QUERIES,
+        "token_debug": token_debug,
         "count": len(rows),
         "results": rows[:160],
         "errors": errors,
