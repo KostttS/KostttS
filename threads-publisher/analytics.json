@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-18T07:38:15.220484+00:00",
+  "generated_at": "2026-09-18T09:47:49.790766+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwG1zLru&_nc_oc=AdrMJmpmnsWg1b1FPYN6VEWGuJOMrxVSxqUtrDM8sAvQzGrPI8-D3-PhQgCX25jrAWM&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=Pldqf_Mayi-0Q-RpBMikBg&_nc_tpa=Q5bMBQKkTNVat91u0Fke691W2BsEW7_ReAMmym-wTvijAxyLb3T9fcyeT_CqMgyBj86osfULjm7TLx0cnQ&oh=00_AQJ8nNNPV8Bt0KP15ImHBuYzpUN0ijS_UlrWCuYcpL_4pQ&oe=6AB2C5FE",
+    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwFg-bnw&_nc_oc=Adq3vftasWJ6LfKZz41YWJmT2LWqYlZIjvNE1xONMysG61MJCSaw5Aktyy-l6HM17ic&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=KaxvpsfkkuOjO34DkpfGVQ&_nc_tpa=Q5bMBQJ85-pdnO3Qs99Nw3bAg-diB7pQZ9ijnldgMzagwR90iF8ts4-3NaeNfYjrUvkourkPx2NIheCkug&oh=00_AQItMlc4ijKJo-FWcTg_7MTUkVMAoiKb0bqxqR0ATDfq8g&oe=6AB2C5FE",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
     "views": [
       {
-        "value": 5181,
+        "value": 5183,
         "end_time": "2026-09-17T07:00:00+0000"
       },
       {
-        "value": 95,
+        "value": 1021,
         "end_time": "2026-09-18T07:00:00+0000"
       }
     ],
     "likes": {
-      "value": 0
+      "value": 1
     },
     "replies": {
-      "value": 0
+      "value": 24
     },
     "reposts": {
       "value": 0
@@ -67,6 +67,48 @@
   ],
   "recent_posts": [
     {
+      "id": "18135540817712597",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdbJeGbmw67",
+      "username": "konstantin47209",
+      "text": "Иногда лучший способ удешевить приложение — вообще не разрабатывать часть приложения.\n\nЕсли действие можно безопасно оставить в админке, автоматизировать или убрать из первого релиза, пользователь ничего не потеряет. А бизнес не платит за экран, который почти никто не откроет.",
+      "timestamp": "2026-09-18T09:47:26+0000",
+      "is_quote_post": false,
+      "has_replies": false,
+      "insights": {
+        "views": [
+          {
+            "value": 0
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 0
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18175933921379551",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/Dda6mmeFnHH",
@@ -78,7 +120,7 @@
       "insights": {
         "views": [
           {
-            "value": 0
+            "value": 16
           }
         ],
         "likes": [
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 384
+            "value": 440
           }
         ],
         "likes": [
@@ -162,7 +204,7 @@
       "insights": {
         "views": [
           {
-            "value": 178
+            "value": 179
           }
         ],
         "likes": [
@@ -172,7 +214,7 @@
         ],
         "replies": [
           {
-            "value": 2
+            "value": 3
           }
         ],
         "reposts": [
@@ -204,7 +246,7 @@
       "insights": {
         "views": [
           {
-            "value": 156
+            "value": 158
           }
         ],
         "likes": [
@@ -214,7 +256,7 @@
         ],
         "replies": [
           {
-            "value": 2
+            "value": 3
           }
         ],
         "reposts": [
@@ -246,7 +288,7 @@
       "insights": {
         "views": [
           {
-            "value": 575
+            "value": 576
           }
         ],
         "likes": [
@@ -372,17 +414,17 @@
       "insights": {
         "views": [
           {
-            "value": 3721
+            "value": 4417
           }
         ],
         "likes": [
           {
-            "value": 3
+            "value": 4
           }
         ],
         "replies": [
           {
-            "value": 46
+            "value": 64
           }
         ],
         "reposts": [
@@ -415,48 +457,6 @@
         "views": [
           {
             "value": 226
-          }
-        ],
-        "likes": [
-          {
-            "value": 0
-          }
-        ],
-        "replies": [
-          {
-            "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18073376909469030",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdW-iB8GR8c",
-      "username": "konstantin47209",
-      "text": "Владельцу бизнеса легко привыкнуть быть человеком, через которого проходит вообще всё.\n\nКлиент спросил — ответить. Сотрудник уточнил — решить. Оплата не сошлась — проверить. Заявка потерялась — найти.\n\nА потом оказывается, что бизнес вроде работает на тебя, но без тебя не работает вообще.",
-      "timestamp": "2026-09-16T18:54:54+0000",
-      "is_quote_post": false,
-      "has_replies": false,
-      "insights": {
-        "views": [
-          {
-            "value": 7
           }
         ],
         "likes": [

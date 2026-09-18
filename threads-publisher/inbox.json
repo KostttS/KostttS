@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:38:15.220484+00:00",
+  "generated_at": "2026-09-18T09:47:49.790766+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -124,6 +124,105 @@
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM"
     },
     {
+      "id": "18119704069937753",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@wadim_parowoz_1986/post/DdbJR9JjHtK",
+      "text": "Открывать окно зимой в мороз, чтобы проветрить. Потому что батареи работают, как адские печки.",
+      "timestamp": "2026-09-18T09:45:43+0000",
+      "username": "wadim_parowoz_1986",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18097305305425894",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@aynura_bashirova/post/DdbHix6CGJw",
+      "text": "Встретить гостей, накормить их, положить им еды с собой, после них уже самим попить чай",
+      "timestamp": "2026-09-18T09:30:32+0000",
+      "username": "aynura_bashirova",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18090782246657860",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@diestro_minsk/post/DdbHIEjjY2v",
+      "text": "ждать зеленого при переходе пустой улицы",
+      "timestamp": "2026-09-18T09:26:53+0000",
+      "username": "diestro_minsk",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "17941624437086743",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@kazmail777/post/DdbFtBRjlk8",
+      "text": "Когда самому уважаемому гостю дают вареную голову барана, он отрезает уши дает кому-то и говорит, это чтобы лучше слышать, отрезает глаза, дает другому - это чтобы лучше видеть и т.д. самое вкусное это мозги, для этого надо череп расколоть.",
+      "timestamp": "2026-09-18T09:14:27+0000",
+      "username": "kazmail777",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18115264741799790",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@nataly_sibanov/post/DdbE7i5Dkz_",
+      "text": "Солдаты и солдатки на улицах))",
+      "timestamp": "2026-09-18T09:07:42+0000",
+      "username": "nataly_sibanov",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "17903077092577278",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@yerlan_kosmos/post/Dda-12nCDOA",
+      "text": "Апщу берш",
+      "timestamp": "2026-09-18T08:14:30+0000",
+      "username": "yerlan_kosmos",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18083697014690191",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@kirstrel/post/Dda99FeiKrN",
+      "text": "Запас тапок для гостей.",
+      "timestamp": "2026-09-18T08:06:45+0000",
+      "username": "kirstrel",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18093447767398608",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@johnnyvol22/post/Dda79NVCCDR",
+      "text": "берёзовый веник",
+      "timestamp": "2026-09-18T07:49:17+0000",
+      "username": "johnnyvol22",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18195230587384322",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@juls_iss/post/Dda7NFCDCh_",
+      "text": "Делить город на верх и низ )",
+      "timestamp": "2026-09-18T07:42:43+0000",
+      "username": "juls_iss",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
       "id": "18066646502750227",
       "has_replies": false,
       "media_type": "TEXT_POST",
@@ -136,7 +235,7 @@
     },
     {
       "id": "18055736636799607",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@sashaisaakovich/post/Dda5mwAG6n6",
       "text": "Говорить sorry, если вам нечаянно наступили на ногу",
@@ -440,7 +539,7 @@
       "username": "konstantin47209",
       "text": "Именно про этот перелом: заявки уже не теряются катастрофически, но вся картина держится на владельце — он сверяет статусы, оплаты, кому ответили. Формально процесс работает, а масштабировать его нельзя без ещё большего участия владельца. У ваших клиентов это чаще начинается с CRM/таблиц или с коммуникаций в мессенджерах?",
       "timestamp": "2026-09-18T07:37:52+0000",
-      "has_replies": false
+      "has_replies": true
     },
     {
       "id": "18120182114303079",
@@ -449,7 +548,7 @@
       "username": "konstantin47209",
       "text": "Да, именно. И это хороший пример, где отдельное приложение вообще может быть лишним: если триггер и интеграция закрывают потерю клиента, ценность уже получена. У вас такие автоматизации чаще для продаж или для сервиса после сделки?",
       "timestamp": "2026-09-18T07:37:39+0000",
-      "has_replies": false
+      "has_replies": true
     },
     {
       "id": "17880956643529655",
