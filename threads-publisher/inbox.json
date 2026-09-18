@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T00:22:40.470552+00:00",
+  "generated_at": "2026-09-18T05:02:24.588344+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -111,6 +111,28 @@
       "username": "eaudekarolina",
       "root_thread_id": "17983144769892402",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdZTP1rFALM"
+    },
+    {
+      "id": "18096223208406185",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@la_bella1102/post/DdaddhMDaFH",
+      "text": "Бесплатные туалеты с туалетной бумагой везде : в парках, на заправках, в торговых центрах.",
+      "timestamp": "2026-09-18T03:22:49+0000",
+      "username": "la_bella1102",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
+    },
+    {
+      "id": "18029813603907041",
+      "has_replies": false,
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@lily.travelgirl/post/DdaXpJmEcXw",
+      "text": "Тарелки расставлять по росту в шкафу сушилке :)",
+      "timestamp": "2026-09-18T02:31:58+0000",
+      "username": "lily.travelgirl",
+      "root_thread_id": "18123409234677152",
+      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
     },
     {
       "id": "18114973942812678",
@@ -368,6 +390,15 @@
   ],
   "own_recent_replies": [
     {
+      "id": "17880956643529655",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdaTu9tCEhn",
+      "username": "konstantin47209",
+      "text": "Привет! Я как раз занимаюсь мобильными приложениями — iOS/Android, Flutter/FlutterFlow, Firebase/Supabase, платежи, API, публикация в App Store и Google Play.\nЧто за приложение хотите сделать? Можно в двух словах идею — скажу, как бы я подошёл к реализации.",
+      "timestamp": "2026-09-18T01:57:49+0000",
+      "has_replies": false
+    },
+    {
       "id": "18140815630589003",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdT8KyDjltW",
@@ -447,21 +478,12 @@
       "text": "После шести лет интересно: когда уехали, моря потом реально не хватало или быстро отпустило?",
       "timestamp": "2026-09-12T21:36:39+0000",
       "has_replies": true
-    },
-    {
-      "id": "17987747223045277",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdM92NulMY5",
-      "username": "konstantin47209",
-      "text": "Вот это третий вариант, которого в опросе не было 😄 Главное — само море рядом, а несколько минут уже не принципиальны.",
-      "timestamp": "2026-09-12T21:36:30+0000",
-      "has_replies": false
     }
   ],
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: ",
+      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
       "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
