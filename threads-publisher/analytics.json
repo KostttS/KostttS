@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T17:43:45.482414+00:00",
+  "generated_at": "2026-09-18T18:04:28.353550+00:00",
   "profile": {
     "id": "29009211928704957",
     "username": "konstantin47209",
     "name": "Konstantin | Mobile App Developer",
-    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwG1plBu&_nc_oc=Adr0iVouROEhEM769515mzjwS7wxx9Q9RS1lMGnamRv-_uQ25If7_KADPPRlV4e5ub8&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=vXpXU3lqE07oRhPDVoz0Mg&_nc_tpa=Q5bMBQIwQHTYnFqw70AI3cSugdWREh7ACHacqEAa9b9nIahFcFfy5dmp4Vl7aWc1sBacEepRqi_6XlYK-Q&oh=00_AQK059D2y2Kyewr9DPV5kyiXZucUdHOAHeZ_CC841noZYA&oe=6AB3367E",
+    "threads_profile_picture_url": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-19/808190949_18086923064429576_104201063921574595_n.jpg?_nc_cat=101&ccb=7-5&_nc_sid=30ff31&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=uRJp_6Y3TasQ7kNvwEYZqvJ&_nc_oc=AdpzRNTh1ZJ9w4cN8HV1swtybJh_n5OHsMDqIw49-diLj2MLzc4VO49h85vTqoX1De4&_nc_zt=24&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=UAQCRHEhBA2V0IeUBHKOAA&_nc_tpa=Q5bMBQJWwg9IJLoKBqTrtghBExBzWWmcpZlUjAW54c8_Cgr5F8EdQ1efuvZFCM-rikOWvpbEvytPCiVHyg&oh=00_AQK5ner2PaV1rWpOSWZHhkTJnhc0x3LIQMFMUfi2pFXM-w&oe=6AB3367E",
     "threads_biography": "Mobile App Developer\nFlutterFlow • Flutter • Supabase • Firebase\niOS & Android apps\nDM for projects"
   },
   "account_insights": {
@@ -14,7 +14,7 @@
         "end_time": "2026-09-17T07:00:00+0000"
       },
       {
-        "value": 1864,
+        "value": 1874,
         "end_time": "2026-09-18T07:00:00+0000"
       }
     ],
@@ -22,7 +22,7 @@
       "value": 4
     },
     "replies": {
-      "value": 34
+      "value": 36
     },
     "reposts": {
       "value": 0
@@ -53,7 +53,7 @@
   },
   "publishing_quota": [
     {
-      "quota_usage": 5,
+      "quota_usage": 6,
       "config": {
         "quota_total": 250,
         "quota_duration": 86400
@@ -67,12 +67,12 @@
   ],
   "recent_posts": [
     {
-      "id": "18093860747558650",
+      "id": "17970005052170276",
       "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/Ddb_85ymoPL",
+      "permalink": "https://www.threads.com/@konstantin47209/post/DdcCWPMGhLu",
       "username": "konstantin47209",
-      "text": "Какая ОДНА мелкая обязанность бесит вас непропорционально сильно?\n\nТа, что занимает пять минут, но каждый раз хочется отложить её до последнего.",
-      "timestamp": "2026-09-18T17:43:30+0000",
+      "text": "Рост бизнеса иногда выглядит совсем не как рост.\n\nСначала стало больше клиентов — отлично. Потом больше сообщений. Потом кто-то забыл ответить. Потом два человека ведут разные версии одной таблицы. Потом владелец вечером проверяет всё сам, потому что уже никому не доверяет картину целиком.\n\nВыручка выросла. Свободы стало меньше.",
+      "timestamp": "2026-09-18T18:04:26+0000",
       "is_quote_post": false,
       "has_replies": false,
       "insights": {
@@ -109,6 +109,48 @@
       }
     },
     {
+      "id": "18093860747558650",
+      "media_type": "TEXT_POST",
+      "permalink": "https://www.threads.com/@konstantin47209/post/Ddb_85ymoPL",
+      "username": "konstantin47209",
+      "text": "Какая ОДНА мелкая обязанность бесит вас непропорционально сильно?\n\nТа, что занимает пять минут, но каждый раз хочется отложить её до последнего.",
+      "timestamp": "2026-09-18T17:43:30+0000",
+      "is_quote_post": false,
+      "has_replies": true,
+      "insights": {
+        "views": [
+          {
+            "value": 5
+          }
+        ],
+        "likes": [
+          {
+            "value": 0
+          }
+        ],
+        "replies": [
+          {
+            "value": 1
+          }
+        ],
+        "reposts": [
+          {
+            "value": 0
+          }
+        ],
+        "quotes": [
+          {
+            "value": 0
+          }
+        ],
+        "shares": [
+          {
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "18135540817712597",
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@konstantin47209/post/DdbJeGbmw67",
@@ -120,7 +162,7 @@
       "insights": {
         "views": [
           {
-            "value": 232
+            "value": 233
           }
         ],
         "likes": [
@@ -425,48 +467,6 @@
         "replies": [
           {
             "value": 0
-          }
-        ],
-        "reposts": [
-          {
-            "value": 0
-          }
-        ],
-        "quotes": [
-          {
-            "value": 0
-          }
-        ],
-        "shares": [
-          {
-            "value": 0
-          }
-        ]
-      }
-    },
-    {
-      "id": "18123409234677152",
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO",
-      "username": "konstantin47209",
-      "text": "Назовите ОДНУ вещь, которая в вашей стране считается совершенно обычной, а приезжих стабильно удивляет.\n\nНе достопримечательность. Именно бытовую мелочь.",
-      "timestamp": "2026-09-17T10:00:28+0000",
-      "is_quote_post": false,
-      "has_replies": true,
-      "insights": {
-        "views": [
-          {
-            "value": 4996
-          }
-        ],
-        "likes": [
-          {
-            "value": 7
-          }
-        ],
-        "replies": [
-          {
-            "value": 70
           }
         ],
         "reposts": [
