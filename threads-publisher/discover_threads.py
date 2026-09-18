@@ -12,6 +12,8 @@ ROOT = Path(__file__).resolve().parent
 OUT_FILE = ROOT / "discovery.json"
 
 QUERIES = [
+    # Review/test-friendly broad query; also useful for catching Russian app discussions.
+    "приложение",
     # Direct mobile-development demand — first priority.
     "ищу мобильного разработчика",
     "нужен мобильный разработчик",
