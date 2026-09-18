@@ -8,6 +8,7 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
 API_BASE = "https://graph.threads.net/v1.0"
+# App Review refresh marker: 2026-09-18
 ROOT = Path(__file__).resolve().parent
 OUT_FILE = ROOT / "discovery.json"
 
