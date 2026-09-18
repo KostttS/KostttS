@@ -116,6 +116,8 @@ def main() -> int:
     except Exception as exc:
         token_debug = {"error": str(exc)}
 
+    print("Threads token scopes:", token_debug.get("scopes", []), "valid=", token_debug.get("is_valid"))
+
     for query in QUERIES:
         # Keep keyword_search requests deliberately minimal. Optional media
         # fields have caused Meta to return opaque HTTP 500/code=1 responses.
