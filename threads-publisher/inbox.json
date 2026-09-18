@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T09:47:49.790766+00:00",
+  "generated_at": "2026-09-18T12:37:14.315582+00:00",
   "mentions": [],
   "replies_to_recent_posts": [
     {
@@ -411,7 +411,7 @@
     },
     {
       "id": "18076876085687812",
-      "has_replies": false,
+      "has_replies": true,
       "media_type": "TEXT_POST",
       "permalink": "https://www.threads.com/@sweet_libertine/post/DdYnzeXkZAG",
       "text": "Приложение с собственным паспортом и другими документами",
@@ -483,17 +483,6 @@
       "text": "Говорим пин-код от карты продавцам в магазинах",
       "timestamp": "2026-09-17T10:07:27+0000",
       "username": "ohhh_meow",
-      "root_thread_id": "18123409234677152",
-      "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
-    },
-    {
-      "id": "18138239218619237",
-      "has_replies": false,
-      "media_type": "TEXT_POST",
-      "permalink": "https://www.threads.com/@_hengest_/post/DdYm8yBDSfZ",
-      "text": "Выдача банковской карты за минуту",
-      "timestamp": "2026-09-17T10:07:15+0000",
-      "username": "_hengest_",
       "root_thread_id": "18123409234677152",
       "root_thread_permalink": "https://www.threads.com/@konstantin47209/post/DdYmKpBFZFO"
     },
@@ -626,8 +615,8 @@
   "errors": [
     {
       "feature": "mentions",
-      "error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}",
-      "first_attempt_error": "Threads API HTTP 500: {\"error\":{\"code\":1,\"message\":\"An unknown error occurred\"}}"
+      "error": "Threads API HTTP 500: ",
+      "first_attempt_error": "Threads API HTTP 500: "
     }
   ]
 }
