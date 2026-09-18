@@ -11,6 +11,7 @@ API_BASE = "https://graph.threads.net/v1.0"
 # App Review refresh marker: 2026-09-18
 ROOT = Path(__file__).resolve().parent
 OUT_FILE = ROOT / "discovery.json"
+STATE_FILE = ROOT / "state.json"
 
 QUERIES = [
     # Review/test-friendly broad query; also useful for catching Russian app discussions.
@@ -68,13 +69,17 @@ def api_json(url: str) -> dict:
         raise RuntimeError(f"Threads API HTTP {exc.code}: {raw}") from exc
 
 
-def load_existing():
-    if not OUT_FILE.exists():
-        return {}
+def load_json(path: Path, default):
+    if not path.exists():
+        return default
     try:
-        return json.loads(OUT_FILE.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
-        return {}
+        return default
+
+
+def save_json(path: Path, value) -> None:
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def parse_iso(value: str):
@@ -92,10 +97,10 @@ def main() -> int:
         raise RuntimeError("THREADS_ACCESS_TOKEN is not set")
 
     now = datetime.now(timezone.utc)
-    existing = load_existing()
-    last = parse_iso(str(existing.get("searched_at", "")))
-    existing_errors = existing.get("errors", []) or []
-    if last and now - last < timedelta(minutes=55) and not existing_errors:
+    state = load_json(STATE_FILE, {})
+    last = parse_iso(str(state.get("last_discovery_at", "")))
+    last_had_errors = bool(state.get("last_discovery_had_errors", False))
+    if last and now - last < timedelta(minutes=55) and not last_had_errors:
         print("Discovery was refreshed less than 55 minutes ago; skipping.")
         return 0
 
@@ -161,7 +166,10 @@ def main() -> int:
         "results": rows[:160],
         "errors": errors,
     }
-    OUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    save_json(OUT_FILE, output)
+    state["last_discovery_at"] = now.isoformat()
+    state["last_discovery_had_errors"] = bool(errors)
+    save_json(STATE_FILE, state)
     print(f"Saved {len(rows)} unique Threads discovery results; errors={len(errors)}")
     return 0
 
