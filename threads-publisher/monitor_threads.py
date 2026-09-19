@@ -202,8 +202,30 @@ def main() -> int:
             item["parent_reply_permalink"] = own_reply.get("permalink")
             replies_to_own_replies.append(item)
 
-    mentions_payload = get_mentions(inbox_errors)
-    mentions = mentions_payload.get("data", [])
+    # The mentions endpoint requires threads_manage_mentions. Check the
+    # token scopes first so a missing optional permission is not reported as
+    # an opaque HTTP 500/token failure.
+    token = os.getenv("THREADS_ACCESS_TOKEN", "").strip()
+    token_scopes = []
+    if token:
+        debug_payload = try_call(
+            inbox_errors,
+            "token_scope_probe",
+            lambda: api_json("/debug_token", {"input_token": token}),
+            {},
+        )
+        token_scopes = (
+            debug_payload.get("data", {}).get("scopes", [])
+            if isinstance(debug_payload, dict)
+            else []
+        )
+
+    mentions_scope_available = "threads_manage_mentions" in token_scopes
+    if mentions_scope_available:
+        mentions_payload = get_mentions(inbox_errors)
+        mentions = mentions_payload.get("data", [])
+    else:
+        mentions = []
 
     analytics = {
         "generated_at": now,
@@ -216,6 +238,8 @@ def main() -> int:
     inbox = {
         "generated_at": now,
         "mentions": mentions,
+        "mentions_scope_available": mentions_scope_available,
+        "token_scopes": token_scopes,
         "replies_to_recent_posts": replies,
         "own_recent_replies": own_replies,
         "replies_to_own_replies": replies_to_own_replies,
