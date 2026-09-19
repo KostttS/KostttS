@@ -98,9 +98,9 @@
     "reply-2026-09-19-005",
     "reply-2026-09-19-006"
   ],
-  "last_discovery_at": "2026-09-19T08:17:10.569523+00:00",
+  "last_discovery_at": "2026-09-19T08:17:54.679371+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "35431583430",
+  "last_discovery_run_id": "35431585084",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-35431583430-1"
+  "last_discovery_artifact_name": "threads-runtime-35431585084-1"
 }
