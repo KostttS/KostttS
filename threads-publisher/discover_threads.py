@@ -213,6 +213,14 @@ def main() -> int:
     save_json(OUT_FILE, output)
     state["last_discovery_at"] = now.isoformat()
     state["last_discovery_had_errors"] = bool(errors)
+    # Persist the run that actually produced discovery.json. The general
+    # runtime pointer can advance every 15 minutes even when discovery skips.
+    run_id = os.getenv("GITHUB_RUN_ID", "").strip()
+    run_attempt = os.getenv("GITHUB_RUN_ATTEMPT", "").strip() or "1"
+    if run_id:
+        state["last_discovery_run_id"] = run_id
+        state["last_discovery_run_attempt"] = run_attempt
+        state["last_discovery_artifact_name"] = f"threads-runtime-{run_id}-{run_attempt}"
     save_json(STATE_FILE, state)
     print(f"Saved {len(rows)} unique Threads discovery results; errors={len(errors)}")
     return 0
