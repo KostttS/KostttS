@@ -199,6 +199,43 @@ def main() -> int:
                 row["matched_search_type"] = search_type
                 all_rows[post_id] = row
 
+    # Diagnostic query: "ChatGPT" should have abundant public Threads posts.
+    # Keep it out of lead results; it only tells us whether keyword_search is
+    # actually returning public external content for this token/app.
+    diagnostic_search = {
+        "query": "ChatGPT",
+        "search_type": "RECENT",
+        "total": 0,
+        "self": 0,
+        "external": 0,
+        "error": None,
+    }
+    diag_params = {
+        "q": "ChatGPT",
+        "search_type": "RECENT",
+        "search_mode": "KEYWORD",
+        "fields": FIELDS,
+        "limit": 10,
+        "since": since_ts,
+        "until": until_ts,
+        "access_token": token,
+    }
+    try:
+        diag_url = f"{API_BASE}/keyword_search?{urlencode(diag_params)}"
+        diag_payload = api_json(diag_url)
+        diag_rows = diag_payload.get("data", []) or []
+        diagnostic_search["total"] = len(diag_rows)
+        diagnostic_search["self"] = sum(
+            1
+            for item in diag_rows
+            if str(item.get("username", "")).strip().lower() == self_username
+        )
+        diagnostic_search["external"] = (
+            diagnostic_search["total"] - diagnostic_search["self"]
+        )
+    except Exception as exc:
+        diagnostic_search["error"] = str(exc)
+
     rows = list(all_rows.values())
     rows.sort(key=lambda x: str(x.get("timestamp", "")), reverse=True)
 
@@ -207,6 +244,7 @@ def main() -> int:
         "queries": QUERIES,
         "token_debug": token_debug,
         "count": len(rows),
+        "diagnostic_search": diagnostic_search,
         "results": rows[:160],
         "errors": errors,
     }
