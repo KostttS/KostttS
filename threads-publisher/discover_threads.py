@@ -33,6 +33,12 @@ QUERIES = [
     "white label mobile developer",
     "mobile development subcontractor",
     "agency needs mobile developer",
+    # Broader discovery terms. Specific demand phrases are still preferred,
+    # but these keep the search from collapsing to only our own posts.
+    "FlutterFlow",
+    "mobile app",
+    "мобильное приложение",
+    "ищу разработчика",
 
     # People/partners who say they can bring clients or have client flow.
     "есть клиенты нужен разработчик",
@@ -106,6 +112,9 @@ def main() -> int:
 
     all_rows = {}
     errors = []
+    self_username = "konstantin47209"
+    since_ts = int((now - timedelta(days=7)).timestamp())
+    until_ts = int(now.timestamp())
 
     token_debug = {}
     try:
@@ -127,33 +136,68 @@ def main() -> int:
     print("Threads token scopes:", token_debug.get("scopes", []), "valid=", token_debug.get("is_valid"))
 
     for query in QUERIES:
-        # Keep keyword_search requests deliberately minimal. Optional media
-        # fields have caused Meta to return opaque HTTP 500/code=1 responses.
-        # If RECENT itself is temporarily rejected, retry without search_type.
-        attempts = [
-            {"q": query, "search_type": "RECENT", "fields": FIELDS, "limit": 25, "access_token": token},
-            {"q": query, "fields": FIELDS, "limit": 25, "access_token": token},
-            {"q": query, "fields": "id,text", "limit": 25, "access_token": token},
-        ]
-        payload = None
-        attempt_errors = []
-        for params in attempts:
-            url = f"{API_BASE}/keyword_search?{urlencode(params)}"
-            try:
-                payload = api_json(url)
-                break
-            except Exception as exc:
-                attempt_errors.append(str(exc))
-        if payload is None:
-            errors.append({"query": query, "error": " | ".join(attempt_errors)})
-            continue
-        for item in payload.get("data", []) or []:
-            post_id = str(item.get("id", "")).strip()
-            if not post_id:
+        # Search both RECENT and TOP. RECENT alone can heavily favor our own
+        # posts for broad terms, which makes discovery look healthy while
+        # finding zero external opportunities.
+        for search_type in ("RECENT", "TOP"):
+            attempts = [
+                {
+                    "q": query,
+                    "search_type": search_type,
+                    "search_mode": "KEYWORD",
+                    "fields": FIELDS,
+                    "limit": 25,
+                    "since": since_ts,
+                    "until": until_ts,
+                    "access_token": token,
+                },
+                {
+                    "q": query,
+                    "search_type": search_type,
+                    "fields": FIELDS,
+                    "limit": 25,
+                    "since": since_ts,
+                    "until": until_ts,
+                    "access_token": token,
+                },
+                {
+                    "q": query,
+                    "search_type": search_type,
+                    "fields": "id,text",
+                    "limit": 25,
+                    "since": since_ts,
+                    "until": until_ts,
+                    "access_token": token,
+                },
+            ]
+            payload = None
+            attempt_errors = []
+            for params in attempts:
+                url = f"{API_BASE}/keyword_search?{urlencode(params)}"
+                try:
+                    payload = api_json(url)
+                    break
+                except Exception as exc:
+                    attempt_errors.append(str(exc))
+            if payload is None:
+                errors.append(
+                    {
+                        "query": query,
+                        "search_type": search_type,
+                        "error": " | ".join(attempt_errors),
+                    }
+                )
                 continue
-            row = dict(item)
-            row["matched_query"] = query
-            all_rows[post_id] = row
+
+            for item in payload.get("data", []) or []:
+                post_id = str(item.get("id", "")).strip()
+                username = str(item.get("username", "")).strip().lower()
+                if not post_id or username == self_username:
+                    continue
+                row = dict(item)
+                row["matched_query"] = query
+                row["matched_search_type"] = search_type
+                all_rows[post_id] = row
 
     rows = list(all_rows.values())
     rows.sort(key=lambda x: str(x.get("timestamp", "")), reverse=True)
