@@ -175,6 +175,33 @@ def main() -> int:
     )
     own_replies = own_replies_payload.get("data", [])
 
+    # Follow the conversation one level deeper so replies to our own replies
+    # are not silently missed. This is important for lead conversations.
+    replies_to_own_replies = []
+    seen_nested_ids = set()
+    for own_reply in own_replies:
+        own_reply_id = str(own_reply.get("id", "")).strip()
+        if not own_reply_id or not own_reply.get("has_replies"):
+            continue
+        nested_payload = try_call(
+            inbox_errors,
+            f"replies_to_own_reply:{own_reply_id}",
+            lambda rid=own_reply_id: api_json(
+                f"/{rid}/replies",
+                {"fields": REPLY_FIELDS, "reverse": "true", "limit": 50},
+            ),
+            {"data": []},
+        )
+        for nested in nested_payload.get("data", []):
+            nested_id = str(nested.get("id", "")).strip()
+            if not nested_id or nested_id in seen_nested_ids:
+                continue
+            seen_nested_ids.add(nested_id)
+            item = dict(nested)
+            item["parent_reply_id"] = own_reply_id
+            item["parent_reply_permalink"] = own_reply.get("permalink")
+            replies_to_own_replies.append(item)
+
     mentions_payload = get_mentions(inbox_errors)
     mentions = mentions_payload.get("data", [])
 
@@ -191,6 +218,7 @@ def main() -> int:
         "mentions": mentions,
         "replies_to_recent_posts": replies,
         "own_recent_replies": own_replies,
+        "replies_to_own_replies": replies_to_own_replies,
         "errors": inbox_errors,
     }
 
@@ -200,6 +228,7 @@ def main() -> int:
     print(
         f"Threads monitor complete: {len(posts)} recent posts, "
         f"{len(replies)} incoming replies, {len(own_replies)} own replies, "
+        f"{len(replies_to_own_replies)} replies to own replies, "
         f"{len(mentions)} mentions, "
         f"{len(analytics_errors) + len(inbox_errors)} feature errors."
     )
