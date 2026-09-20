@@ -1,1 +1,2 @@
 Threads publisher external recovery trigger.
+2026-09-20T16:03:40Z recovery overdue: threads-2026-09-20-004 (publish_at 2026-09-20T16:20:00Z; local scheduled 19:20 Asia/Jerusalem; watchdog context local 19:03:40)
