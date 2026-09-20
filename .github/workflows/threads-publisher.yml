@@ -10,6 +10,7 @@ on:
       - "threads-publisher/publish_threads.py"
       - "threads-publisher/monitor_threads.py"
       - "threads-publisher/discover_threads.py"
+      - "threads-publisher/recovery-trigger.txt"
       - ".github/workflows/threads-publisher.yml"
   workflow_dispatch:
     inputs:
