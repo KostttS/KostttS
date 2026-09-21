@@ -3,3 +3,4 @@ Threads publisher external recovery trigger.
 Recovery marker: threads-2026-09-20-005 | publish_at=2026-09-20T18:00:00Z | checked_at=2026-09-20T18:47:55Z
 Recovery marker: threads-2026-09-21-003 | publish_at=2026-09-21T08:35:00Z | checked_at=2026-09-21T10:14:59Z
 Recovery marker: threads-2026-09-21-005 | publish_at=2026-09-21T18:00:00Z | checked_at=2026-09-21T18:33:17Z
+Recovery marker: threads-2026-09-21-006 | publish_at=2026-09-21T19:35:00Z | checked_at=2026-09-21T20:33:12Z
