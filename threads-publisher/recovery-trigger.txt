@@ -6,3 +6,4 @@ Recovery marker: threads-2026-09-21-005 | publish_at=2026-09-21T18:00:00Z | chec
 Recovery marker: threads-2026-09-21-006 | publish_at=2026-09-21T19:35:00Z | checked_at=2026-09-21T20:33:12Z
 Recovery marker: threads-2026-09-22-002 | publish_at=2026-09-22T06:50:00Z | checked_at=2026-09-22T09:37:56Z
 Recovery marker: threads-2026-09-22-003 | publish_at=2026-09-22T08:35:00Z | checked_at=2026-09-22T09:37:56Z
+Recovery marker: threads-2026-09-22-005 | publish_at=2026-09-22T18:00:00Z | checked_at=2026-09-22T18:36:36Z
