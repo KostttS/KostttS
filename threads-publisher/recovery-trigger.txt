@@ -1,4 +1,4 @@
 recovery_marker
-overdue_ids: threads-2026-09-27-005
-publish_at_utc: threads-2026-09-27-005=2026-09-27T17:55:00Z
-current_utc: 2026-09-27T18:46:04Z
+overdue_ids: threads-2026-09-28-001
+publish_at_utc: threads-2026-09-28-001=2026-09-28T05:20:00Z
+current_utc: 2026-09-28T05:53:07Z
