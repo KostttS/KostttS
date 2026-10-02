@@ -1,1 +1,1 @@
-recovery 2026-10-02T06:43:00Z overdue threads-2026-10-02-001 publish_at=2026-10-02T05:20:00Z; force publisher after stale state
+recovery 2026-10-02T08:37:00Z overdue queue check: threads-2026-10-02-002 and threads-2026-10-02-003
