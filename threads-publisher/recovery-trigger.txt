@@ -1,4 +1,1 @@
-recovery_marker
-overdue_ids: threads-2026-09-28-006
-publish_at_utc: threads-2026-09-28-006=2026-09-28T19:30:00Z
-current_utc: 2026-09-28T20:28:37Z
+recovery 2026-10-02T06:43:00Z overdue threads-2026-10-02-001 publish_at=2026-10-02T05:20:00Z; force publisher after stale state
