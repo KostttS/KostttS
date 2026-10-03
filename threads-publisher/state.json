@@ -139,9 +139,10 @@
     "threads-2026-10-03-002",
     "threads-2026-10-03-003",
     "threads-2026-10-03-004",
-    "threads-2026-10-03-005"
+    "threads-2026-10-03-005",
+    "threads-2026-10-03-006"
   ],
-  "last_run_at": "2026-10-03T18:19:26.859606+00:00",
+  "last_run_at": "2026-10-03T21:39:46.068358+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -205,9 +206,9 @@
     "reply-2026-10-02-002",
     "reply-2026-10-03-001"
   ],
-  "last_discovery_at": "2026-10-03T17:43:51.248009+00:00",
+  "last_discovery_at": "2026-10-03T21:39:46.145408+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "37130676272",
-  "last_discovery_run_attempt": "2",
-  "last_discovery_artifact_name": "threads-runtime-37130676272-2"
+  "last_discovery_run_id": "37155872587",
+  "last_discovery_run_attempt": "1",
+  "last_discovery_artifact_name": "threads-runtime-37155872587-1"
 }
