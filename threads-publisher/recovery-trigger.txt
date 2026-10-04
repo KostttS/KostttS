@@ -1,1 +1,4 @@
-publisher recovery 2026-10-03T07:42Z
+publisher recovery
+post_ids: threads-2026-10-04-003
+publish_at_utc: threads-2026-10-04-003=2026-10-04T08:20:00Z
+current_utc: 2026-10-04T09:14:07Z
