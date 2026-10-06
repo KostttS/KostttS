@@ -1,4 +1,4 @@
 Recovery marker
-Overdue post ids: threads-2026-10-06-005
-UTC publish_at: threads-2026-10-06-005 = 2026-10-06T18:00:00Z
-Current UTC time: 2026-10-06T19:05:44Z
+Overdue post ids: threads-2026-10-06-006
+UTC publish_at: threads-2026-10-06-006 = 2026-10-06T19:35:00Z
+Current UTC time: 2026-10-06T20:03:38Z
