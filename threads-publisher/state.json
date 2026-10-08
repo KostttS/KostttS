@@ -240,9 +240,9 @@
     "reply-2026-10-04-006",
     "reply-2026-10-05-001"
   ],
-  "last_discovery_at": "2026-10-08T19:43:49.796061+00:00",
+  "last_discovery_at": "2026-10-08T23:36:38.467619+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "37834089050",
+  "last_discovery_run_id": "37860377550",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-37834089050-1"
+  "last_discovery_artifact_name": "threads-runtime-37860377550-1"
 }
