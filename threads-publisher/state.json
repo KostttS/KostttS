@@ -182,9 +182,11 @@
     "threads-2026-10-11-agency-mobile",
     "threads-2026-10-11-hero-parking",
     "threads-2026-10-13-buyer-audit",
-    "threads-2026-10-13-hero-ownership"
+    "threads-2026-10-13-hero-ownership",
+    "threads-2026-10-14-buyer-field-photo",
+    "threads-2026-10-14-hero-field-code"
   ],
-  "last_run_at": "2026-10-14T04:39:38.695083+00:00",
+  "last_run_at": "2026-10-14T09:38:01.636550+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -260,9 +262,9 @@
     "reply-2026-10-10-artur-followup",
     "reply-2026-10-11-artur-full-mobile"
   ],
-  "last_discovery_at": "2026-10-14T04:39:38.766812+00:00",
+  "last_discovery_at": "2026-10-14T09:38:01.705417+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "38512501293",
+  "last_discovery_run_id": "38543734668",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-38512501293-1"
+  "last_discovery_artifact_name": "threads-runtime-38543734668-1"
 }
