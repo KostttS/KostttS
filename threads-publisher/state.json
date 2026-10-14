@@ -180,9 +180,11 @@
     "threads-2026-10-10-005",
     "threads-2026-10-10-006",
     "threads-2026-10-11-agency-mobile",
-    "threads-2026-10-11-hero-parking"
+    "threads-2026-10-11-hero-parking",
+    "threads-2026-10-13-buyer-audit",
+    "threads-2026-10-13-hero-ownership"
   ],
-  "last_run_at": "2026-10-11T19:24:34.453801+00:00",
+  "last_run_at": "2026-10-14T04:39:38.695083+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -258,9 +260,9 @@
     "reply-2026-10-10-artur-followup",
     "reply-2026-10-11-artur-full-mobile"
   ],
-  "last_discovery_at": "2026-10-13T15:40:36.764613+00:00",
+  "last_discovery_at": "2026-10-14T04:39:38.766812+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "38424078088",
+  "last_discovery_run_id": "38512501293",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-38424078088-1"
+  "last_discovery_artifact_name": "threads-runtime-38512501293-1"
 }
