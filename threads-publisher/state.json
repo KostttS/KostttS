@@ -265,9 +265,9 @@
     "reply-2026-10-10-artur-followup",
     "reply-2026-10-11-artur-full-mobile"
   ],
-  "last_discovery_at": "2026-10-15T10:22:22.104031+00:00",
+  "last_discovery_at": "2026-10-15T15:15:43.189491+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "38719758850",
+  "last_discovery_run_id": "38758733498",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-38719758850-1"
+  "last_discovery_artifact_name": "threads-runtime-38758733498-1"
 }
