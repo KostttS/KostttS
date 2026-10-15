@@ -186,10 +186,11 @@
     "threads-2026-10-14-agency-technical-gap",
     "threads-2026-10-14-buyer-field-photo",
     "threads-2026-10-14-hero-field-code",
+    "threads-2026-10-15-buyer-no-app",
     "threads-2026-10-15-founder-offline",
     "threads-2026-10-15-hero-paradox"
   ],
-  "last_run_at": "2026-10-15T10:22:21.884472+00:00",
+  "last_run_at": "2026-10-15T19:19:40.631082+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -265,9 +266,9 @@
     "reply-2026-10-10-artur-followup",
     "reply-2026-10-11-artur-full-mobile"
   ],
-  "last_discovery_at": "2026-10-15T15:15:43.189491+00:00",
+  "last_discovery_at": "2026-10-15T19:19:40.705546+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "38758733498",
+  "last_discovery_run_id": "38792951182",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-38758733498-1"
+  "last_discovery_artifact_name": "threads-runtime-38792951182-1"
 }
