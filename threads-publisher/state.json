@@ -189,10 +189,11 @@
     "threads-2026-10-15-buyer-no-app",
     "threads-2026-10-15-founder-offline",
     "threads-2026-10-15-hero-paradox",
+    "threads-2026-10-16-agency-partner",
     "threads-2026-10-16-buyer-payment",
     "threads-2026-10-16-hero-handoff"
   ],
-  "last_run_at": "2026-10-16T10:07:22.415344+00:00",
+  "last_run_at": "2026-10-16T18:41:16.083635+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -268,9 +269,9 @@
     "reply-2026-10-10-artur-followup",
     "reply-2026-10-11-artur-full-mobile"
   ],
-  "last_discovery_at": "2026-10-16T14:52:17.522635+00:00",
+  "last_discovery_at": "2026-10-16T18:41:16.159546+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "38919253788",
+  "last_discovery_run_id": "38949208674",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-38919253788-1"
+  "last_discovery_artifact_name": "threads-runtime-38949208674-1"
 }
