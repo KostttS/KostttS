@@ -4,6 +4,7 @@ import os
 import sys
 import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -161,6 +162,27 @@ def main() -> int:
             due_posts.append(post)
 
     due_posts.sort(key=lambda p: parse_time(str(p["publish_at"])))
+
+    # Only publish originals in Israel daytime/evening windows.
+    # Never dump overdue posts in a batch. Replies can publish any time.
+    local_now = now.astimezone(ZoneInfo("Asia/Jerusalem"))
+    in_window = (8 <= local_now.hour < 12) or (19 <= local_now.hour < 23)
+    if not in_window:
+        if due_posts:
+            print(f"Deferring {len(due_posts)} originals outside allowed window.")
+        due_posts = []
+    else:
+        eligible = [
+            p for p in due_posts
+            if parse_time(str(p["publish_at"])).astimezone(ZoneInfo("Asia/Jerusalem")).date() == local_now.date()
+            and (
+                8 <= parse_time(str(p["publish_at"])).astimezone(ZoneInfo("Asia/Jerusalem")).hour < 12
+                or 19 <= parse_time(str(p["publish_at"])).astimezone(ZoneInfo("Asia/Jerusalem")).hour < 23
+            )
+        ]
+        if len(due_posts) > len(eligible):
+            print(f"Deferring {len(due_posts)-len(eligible)} stale originals for review.")
+        due_posts = eligible[:1]
 
     for post in due_posts:
         post_key = str(post["id"])
