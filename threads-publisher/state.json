@@ -193,9 +193,10 @@
     "threads-2026-10-16-buyer-payment",
     "threads-2026-10-16-hero-handoff",
     "threads-2026-10-17-buyer-app-rescue",
-    "threads-2026-10-17-hero-phone"
+    "threads-2026-10-17-hero-phone",
+    "threads-2026-10-18-hero-vasya"
   ],
-  "last_run_at": "2026-10-17T18:17:24.268979+00:00",
+  "last_run_at": "2026-10-18T06:39:33.237695+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -271,9 +272,9 @@
     "reply-2026-10-10-artur-followup",
     "reply-2026-10-11-artur-full-mobile"
   ],
-  "last_discovery_at": "2026-10-18T05:33:13.274250+00:00",
+  "last_discovery_at": "2026-10-18T06:39:33.317636+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "39100940571",
+  "last_discovery_run_id": "39104805949",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-39100940571-1"
+  "last_discovery_artifact_name": "threads-runtime-39104805949-1"
 }
