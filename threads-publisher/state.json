@@ -274,9 +274,9 @@
     "reply-2026-10-11-artur-full-mobile",
     "reply-2026-10-18-artur-tests"
   ],
-  "last_discovery_at": "2026-10-19T23:56:33.715646+00:00",
+  "last_discovery_at": "2026-10-20T04:33:25.559673+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "39344626871",
+  "last_discovery_run_id": "39370194341",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-39344626871-1"
+  "last_discovery_artifact_name": "threads-runtime-39370194341-1"
 }
