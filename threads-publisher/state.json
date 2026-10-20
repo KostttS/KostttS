@@ -196,9 +196,10 @@
     "threads-2026-10-17-hero-phone",
     "threads-2026-10-18-hero-vasya",
     "threads-2026-10-19-hero-sunday",
+    "threads-2026-10-20-buyer-duplicate-request",
     "threads-2026-10-20-hero-support-order"
   ],
-  "last_run_at": "2026-10-20T06:32:37.204994+00:00",
+  "last_run_at": "2026-10-20T18:40:44.385941+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -275,9 +276,9 @@
     "reply-2026-10-11-artur-full-mobile",
     "reply-2026-10-18-artur-tests"
   ],
-  "last_discovery_at": "2026-10-20T14:29:50.646263+00:00",
+  "last_discovery_at": "2026-10-20T18:40:44.458924+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "39439723497",
+  "last_discovery_run_id": "39476819642",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-39439723497-1"
+  "last_discovery_artifact_name": "threads-runtime-39476819642-1"
 }
