@@ -278,9 +278,9 @@
     "reply-2026-10-18-artur-tests",
     "reply-2026-10-21-artur-mvp"
   ],
-  "last_discovery_at": "2026-10-21T13:48:55.937795+00:00",
+  "last_discovery_at": "2026-10-21T15:30:10.013581+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "39611247501",
+  "last_discovery_run_id": "39626253119",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-39611247501-1"
+  "last_discovery_artifact_name": "threads-runtime-39626253119-1"
 }
