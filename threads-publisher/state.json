@@ -200,7 +200,7 @@
     "threads-2026-10-20-hero-support-order",
     "threads-2026-10-21-hero-two-jobs"
   ],
-  "last_run_at": "2026-10-21T06:39:15.132770+00:00",
+  "last_run_at": "2026-10-21T13:48:55.879524+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -275,11 +275,12 @@
     "reply-2026-10-09-004",
     "reply-2026-10-10-artur-followup",
     "reply-2026-10-11-artur-full-mobile",
-    "reply-2026-10-18-artur-tests"
+    "reply-2026-10-18-artur-tests",
+    "reply-2026-10-21-artur-mvp"
   ],
-  "last_discovery_at": "2026-10-21T12:38:28.802733+00:00",
+  "last_discovery_at": "2026-10-21T13:48:55.937795+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "39601204145",
+  "last_discovery_run_id": "39611247501",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-39601204145-1"
+  "last_discovery_artifact_name": "threads-runtime-39611247501-1"
 }
