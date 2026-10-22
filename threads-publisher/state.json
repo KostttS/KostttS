@@ -280,9 +280,9 @@
     "reply-2026-10-21-artur-mvp",
     "reply-2026-10-22-artur-demand-first"
   ],
-  "last_discovery_at": "2026-10-22T06:27:36.989807+00:00",
+  "last_discovery_at": "2026-10-22T12:17:25.438833+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "39734038644",
+  "last_discovery_run_id": "39777109928",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-39734038644-1"
+  "last_discovery_artifact_name": "threads-runtime-39777109928-1"
 }
