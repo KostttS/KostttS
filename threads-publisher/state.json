@@ -282,9 +282,9 @@
     "reply-2026-10-22-artur-demand-first",
     "reply-2026-10-23-artur-project-invite"
   ],
-  "last_discovery_at": "2026-10-23T08:40:55.938564+00:00",
+  "last_discovery_at": "2026-10-23T09:44:06.965718+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "39926360819",
+  "last_discovery_run_id": "39933997252",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-39926360819-1"
+  "last_discovery_artifact_name": "threads-runtime-39933997252-1"
 }
