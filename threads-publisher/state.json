@@ -201,9 +201,10 @@
     "threads-2026-10-21-hero-two-jobs",
     "threads-2026-10-22-founder-cut-scope",
     "threads-2026-10-23-agency-after-release",
-    "threads-2026-10-23-hero-sea-time"
+    "threads-2026-10-23-hero-sea-time",
+    "threads-2026-10-24-hero-address-repeat"
   ],
-  "last_run_at": "2026-10-23T18:37:16.119592+00:00",
+  "last_run_at": "2026-10-24T06:38:07.315555+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -284,9 +285,9 @@
     "reply-2026-10-23-artur-project-invite",
     "reply-2026-10-23-botvinov-support-ownership"
   ],
-  "last_discovery_at": "2026-10-24T05:37:45.777005+00:00",
+  "last_discovery_at": "2026-10-24T06:38:07.378229+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "40066986603",
+  "last_discovery_run_id": "40070962628",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40066986603-1"
+  "last_discovery_artifact_name": "threads-runtime-40070962628-1"
 }
