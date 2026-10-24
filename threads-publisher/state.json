@@ -284,9 +284,9 @@
     "reply-2026-10-23-artur-project-invite",
     "reply-2026-10-23-botvinov-support-ownership"
   ],
-  "last_discovery_at": "2026-10-24T01:38:02.711031+00:00",
+  "last_discovery_at": "2026-10-24T02:39:42.617724+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "40050670734",
+  "last_discovery_run_id": "40055089339",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40050670734-1"
+  "last_discovery_artifact_name": "threads-runtime-40055089339-1"
 }
