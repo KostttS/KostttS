@@ -202,9 +202,10 @@
     "threads-2026-10-22-founder-cut-scope",
     "threads-2026-10-23-agency-after-release",
     "threads-2026-10-23-hero-sea-time",
+    "threads-2026-10-24-buyer-access-recovery",
     "threads-2026-10-24-hero-address-repeat"
   ],
-  "last_run_at": "2026-10-24T09:41:06.563875+00:00",
+  "last_run_at": "2026-10-24T19:38:36.630007+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -287,9 +288,9 @@
     "reply-2026-10-24-michael-hummus",
     "reply-2026-10-24-shalom-hummus"
   ],
-  "last_discovery_at": "2026-10-24T16:40:00.468539+00:00",
+  "last_discovery_at": "2026-10-24T19:38:36.708466+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "40112598858",
+  "last_discovery_run_id": "40126212571",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40112598858-1"
+  "last_discovery_artifact_name": "threads-runtime-40126212571-1"
 }
