@@ -6,3 +6,7 @@ Current UTC time: 2026-10-07T18:09:00Z
 Recovery request 2026-10-24T18:40:55Z
 Reason: 2026-10-24 20:20 Asia/Jerusalem post due; state.json not yet marked published at 21:40 local.
 Post id: threads-2026-10-24-buyer-access-recovery
+
+Recovery request 2026-10-24T19:36:00Z
+Reason: runtime pointer still at 16:50Z after prior recovery trigger; scheduled 20:20 Israel post not in published_ids at 22:35 local. Request queue + analytics/inbox refresh, no new original outside approved window.
+Post id: threads-2026-10-24-buyer-access-recovery
