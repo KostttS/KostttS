@@ -10,3 +10,7 @@ Post id: threads-2026-10-24-buyer-access-recovery
 Recovery request 2026-10-24T19:36:00Z
 Reason: runtime pointer still at 16:50Z after prior recovery trigger; scheduled 20:20 Israel post not in published_ids at 22:35 local. Request queue + analytics/inbox refresh, no new original outside approved window.
 Post id: threads-2026-10-24-buyer-access-recovery
+
+Recovery request 2026-10-25T08:44:00Z
+Reason: Threads scheduled workflow has not run since 2026-10-25T04:45Z (cron */15); today 08:40 Asia/Jerusalem HERO is due but absent from state.json at 10:42 local. Request queue run to publish only today's eligible post, refresh analytics/inbox/discovery, avoid duplicates and stale originals.
+Post id: threads-2026-10-25-hero-prices
