@@ -14,3 +14,6 @@ Post id: threads-2026-10-24-buyer-access-recovery
 Recovery request 2026-10-25T08:44:00Z
 Reason: Threads scheduled workflow has not run since 2026-10-25T04:45Z (cron */15); today 08:40 Asia/Jerusalem HERO is due but absent from state.json at 10:42 local. Request queue run to publish only today's eligible post, refresh analytics/inbox/discovery, avoid duplicates and stale originals.
 Post id: threads-2026-10-25-hero-prices
+
+Recovery request 2026-10-25T12:43:00Z
+Reason: scheduled Threads workflow has not run since 2026-10-25T08:45Z despite quarter-hour cron; refresh analytics/inbox/discovery and verify queue without publishing originals outside 08-12/19-23 Asia/Jerusalem. No new post due before 19:20 local.
