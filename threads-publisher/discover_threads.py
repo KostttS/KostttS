@@ -236,6 +236,46 @@ def main() -> int:
     except Exception as exc:
         diagnostic_search["error"] = str(exc)
 
+    # A successful HTTP 200 with an empty result does not prove that public
+    # search works. Probe a broad term without date filters as a control.
+    # This separates possible date-filter issues from an App Review limitation.
+    if diagnostic_search["total"] == 0:
+        diagnostic_search["unfiltered_control"] = {
+            "query": "ChatGPT",
+            "total": 0,
+            "external": 0,
+            "error": None,
+        }
+        control_params = {
+            "q": "ChatGPT",
+            "search_type": "TOP",
+            "fields": "id,text,username,timestamp,permalink",
+            "limit": 10,
+            "access_token": token,
+        }
+        try:
+            control_payload = api_json(
+                f"{API_BASE}/keyword_search?{urlencode(control_params)}"
+            )
+            control_rows = control_payload.get("data", []) or []
+            diagnostic_search["unfiltered_control"]["total"] = len(control_rows)
+            diagnostic_search["unfiltered_control"]["external"] = sum(
+                1 for item in control_rows
+                if str(item.get("username", "")).strip().lower() != self_username
+            )
+        except Exception as exc:
+            diagnostic_search["unfiltered_control"]["error"] = str(exc)
+
+    diagnostic_search["public_search_verified"] = bool(
+        diagnostic_search["external"]
+        or diagnostic_search.get("unfiltered_control", {}).get("external")
+    )
+    diagnostic_search["status"] = (
+        "public_results_verified"
+        if diagnostic_search["public_search_verified"]
+        else "public_search_unverified_check_app_review"
+    )
+
     rows = list(all_rows.values())
     rows.sort(key=lambda x: str(x.get("timestamp", "")), reverse=True)
 
