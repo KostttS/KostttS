@@ -21,3 +21,6 @@ Reason: scheduled Threads workflow has not run since 2026-10-25T08:45Z despite q
 Recovery request 2026-10-25T17:41:00Z
 Reason: 19:20 Asia/Jerusalem buyer post is due; at 19:40 local state.json does not include its ID and runtime pointer remains at 17:13Z. Trigger queue run to publish only eligible pending posts and refresh analytics/inbox/discovery. Check published_ids before posting to prevent duplicates.
 Post id: threads-2026-10-25-founder-store-block
+
+Recovery request 2026-10-25T19:35:29Z
+Reason: latest Threads runtime artifact at 17:42Z, while scheduled workflow cron is four times per hour and no subsequent run exists by 21:35 Asia/Jerusalem. Trigger queue/inbox/analytics/discovery refresh; no new original post due, prevent duplicates, keep original posting only 08-12/19-23 Asia/Jerusalem.
