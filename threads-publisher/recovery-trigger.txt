@@ -17,3 +17,7 @@ Post id: threads-2026-10-25-hero-prices
 
 Recovery request 2026-10-25T12:43:00Z
 Reason: scheduled Threads workflow has not run since 2026-10-25T08:45Z despite quarter-hour cron; refresh analytics/inbox/discovery and verify queue without publishing originals outside 08-12/19-23 Asia/Jerusalem. No new post due before 19:20 local.
+
+Recovery request 2026-10-25T17:41:00Z
+Reason: 19:20 Asia/Jerusalem buyer post is due; at 19:40 local state.json does not include its ID and runtime pointer remains at 17:13Z. Trigger queue run to publish only eligible pending posts and refresh analytics/inbox/discovery. Check published_ids before posting to prevent duplicates.
+Post id: threads-2026-10-25-founder-store-block
