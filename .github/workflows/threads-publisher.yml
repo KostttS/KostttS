@@ -2,7 +2,7 @@ name: Threads Publisher
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7,22,37,52 * * * *"
   push:
     paths:
       - "threads-publisher/posts.json"
