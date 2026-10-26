@@ -27,3 +27,7 @@ Reason: latest Threads runtime artifact at 17:42Z, while scheduled workflow cron
 
 Recovery request 2026-10-26T04:42:00Z
 Reason: at 06:42 Asia/Jerusalem last Threads Publisher scheduled run was 00:10Z (02:10 local), >4 hours old despite cron 4 times/hour. Trigger refresh of analytics, inbox, replies_to_own_replies, discovery; do not publish any original outside 08-12 or 19-23 local; no new post due before 08:45 local. Keep existing queue unchanged.
+
+Recovery request 2026-10-26T07:45:00Z
+Reason: at 09:45 Asia/Jerusalem the 08:45 HERO post threads-2026-10-26-hero-local-routes is overdue and absent from published_ids; latest completed run 04:55Z (06:55 local), despite 7,22,37,52 cron. Trigger queue + analytics/inbox/discovery refresh. Publish only due original inside 08-12 or 19-23 Asia/Jerusalem, avoid duplicates. Do not change future queue.
+Post id: threads-2026-10-26-hero-local-routes
