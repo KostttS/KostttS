@@ -31,3 +31,6 @@ Reason: at 06:42 Asia/Jerusalem last Threads Publisher scheduled run was 00:10Z 
 Recovery request 2026-10-26T07:45:00Z
 Reason: at 09:45 Asia/Jerusalem the 08:45 HERO post threads-2026-10-26-hero-local-routes is overdue and absent from published_ids; latest completed run 04:55Z (06:55 local), despite 7,22,37,52 cron. Trigger queue + analytics/inbox/discovery refresh. Publish only due original inside 08-12 or 19-23 Asia/Jerusalem, avoid duplicates. Do not change future queue.
 Post id: threads-2026-10-26-hero-local-routes
+
+Recovery request 2026-10-26T12:42:00Z
+Reason: latest completed Threads Publisher workflow run at 10:57Z, now 12:42Z (>1h40 gap) despite four cron slots per hour. Refresh analytics, inbox, replies_to_own_replies and discovery. No original post due now; preserve the 08-12/19-23 Asia/Jerusalem publication restriction, check state to avoid duplicates, leave posts/replies queue unchanged.
