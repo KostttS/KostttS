@@ -205,9 +205,10 @@
     "threads-2026-10-24-buyer-access-recovery",
     "threads-2026-10-24-hero-address-repeat",
     "threads-2026-10-25-founder-store-block",
-    "threads-2026-10-25-hero-prices"
+    "threads-2026-10-25-hero-prices",
+    "threads-2026-10-26-hero-local-routes"
   ],
-  "last_run_at": "2026-10-25T17:42:11.670095+00:00",
+  "last_run_at": "2026-10-26T07:46:42.465337+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -290,9 +291,9 @@
     "reply-2026-10-24-michael-hummus",
     "reply-2026-10-24-shalom-hummus"
   ],
-  "last_discovery_at": "2026-10-26T04:43:24.088190+00:00",
+  "last_discovery_at": "2026-10-26T07:46:42.542471+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "40270505391",
+  "last_discovery_run_id": "40287855303",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40270505391-1"
+  "last_discovery_artifact_name": "threads-runtime-40287855303-1"
 }
