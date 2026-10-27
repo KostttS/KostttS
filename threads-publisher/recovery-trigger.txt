@@ -46,3 +46,7 @@ Reason: at 04:41 Asia/Jerusalem latest runtime pointer remains 2026-10-27T00:53:
 
 Recovery request 2026-10-27T04:36:00Z
 Reason: at 06:36 Asia/Jerusalem latest Threads runtime pointer 2026-10-27T02:42:52Z (04:42 local), about 1h54m old despite 15-minute schedule. Refresh analytics, inbox, replies_to_own_replies and discovery; do not publish any original outside 08-12 and 19-23 Asia/Jerusalem. Do not modify queue or repeat replies; validate current published_ids, keep personal stories attributed only to Konstantin.
+
+Recovery request 2026-10-27T07:40:00Z
+Reason: at 09:40 Asia/Jerusalem today's scheduled HERO threads-2026-10-27-hero-apartment-no-agent becomes due; latest completed Threads runtime remains 06:10Z (~90 minutes old) despite cron four times/hour. Trigger queue run to publish only eligible 09:40 HERO within 08-12 local, then refresh analytics/inbox/replies_to_own_replies/discovery. Verify state before posting; no duplicates or queue rewrite; preserve strict Konstantin/Egor attribution.
+Post id: threads-2026-10-27-hero-apartment-no-agent
