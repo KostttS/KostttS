@@ -40,3 +40,6 @@ Reason: last completed Threads Publisher run at 12:42Z, nearly 3 hours ago despi
 
 Recovery request 2026-10-27T00:38:43Z
 Reason: latest runtime pointer is 2026-10-26T22:44:43Z (~1h54m old) despite 15-minute cron. Refresh Threads analytics, inbox, replies_to_own_replies and discovery; do not publish originals outside 08:00-12:00 and 19:00-23:00 Asia/Jerusalem; avoid duplicates and do not alter scheduled posts.
+
+Recovery request 2026-10-27T02:41:00Z
+Reason: at 04:41 Asia/Jerusalem latest runtime pointer remains 2026-10-27T00:53:19Z (02:53 local), ~1h48m old despite scheduled cron four times per hour. Refresh analytics, inbox, replies_to_own_replies and discovery; use previous valid discovery artifact if public search unverified. Do not publish original posts outside 08-12 or 19-23 local; avoid duplicate replies, do not change scheduled posts or personal attribution rules.
