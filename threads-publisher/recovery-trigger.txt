@@ -53,3 +53,4 @@ Post id: threads-2026-10-27-hero-apartment-no-agent
 
 Recovery request 2026-10-27T10:34:34Z
 Reason: at 12:34 Asia/Jerusalem the latest completed Threads runtime pointer is 2026-10-27T08:45:59Z (10:45 local), about 1h49m old despite quarter-hour cron. Refresh analytics, inbox, replies_to_own_replies and discovery. No original post is due until 19:20 local; enforce 08-12 and 19-23 posting windows, check state.json and replies.json for duplicates, leave queue and personal attribution unchanged.
+Recovery monitoring trigger: 2026-10-27T13:41:27Z (scheduled checks absent since 12:19Z; no queue edits)
