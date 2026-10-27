@@ -43,3 +43,6 @@ Reason: latest runtime pointer is 2026-10-26T22:44:43Z (~1h54m old) despite 15-m
 
 Recovery request 2026-10-27T02:41:00Z
 Reason: at 04:41 Asia/Jerusalem latest runtime pointer remains 2026-10-27T00:53:19Z (02:53 local), ~1h48m old despite scheduled cron four times per hour. Refresh analytics, inbox, replies_to_own_replies and discovery; use previous valid discovery artifact if public search unverified. Do not publish original posts outside 08-12 or 19-23 local; avoid duplicate replies, do not change scheduled posts or personal attribution rules.
+
+Recovery request 2026-10-27T04:36:00Z
+Reason: at 06:36 Asia/Jerusalem latest Threads runtime pointer 2026-10-27T02:42:52Z (04:42 local), about 1h54m old despite 15-minute schedule. Refresh analytics, inbox, replies_to_own_replies and discovery; do not publish any original outside 08-12 and 19-23 Asia/Jerusalem. Do not modify queue or repeat replies; validate current published_ids, keep personal stories attributed only to Konstantin.
