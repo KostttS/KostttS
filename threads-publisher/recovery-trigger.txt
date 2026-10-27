@@ -63,3 +63,6 @@ Reason: latest Threads Publisher run at 15:35Z; 19:20 Asia/Jerusalem buyer-secur
 
 Recovery monitoring trigger: 2026-10-27T19:36:41Z
 Reason: latest completed Threads Publisher run at 2026-10-27T18:05:35Z (20:05 Asia/Jerusalem), more than 90 minutes old despite 15-minute cron. Refresh analytics, inbox, replies_to_own_replies and discovery, verify today's posts without duplicates; keep future queue and strict Konstantin/Egor attribution unchanged. No unrelated channels.
+
+Recovery monitoring trigger: 2026-10-27T20:42:07Z
+Reason: latest completed Threads Publisher run at 2026-10-27T19:39Z, >60 minutes ago despite quarter-hour cron. Run queue + refresh analytics, inbox, replies_to_own_replies and discovery. No original post is due tonight; preserve 08-12 and 19-23 Asia/Jerusalem publication windows, avoid duplicate replies, do not change posts.json or replies.json, maintain Konstantin/Egor factual separation. No other channels.
