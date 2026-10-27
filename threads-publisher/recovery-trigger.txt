@@ -57,3 +57,6 @@ Recovery monitoring trigger: 2026-10-27T13:41:27Z (scheduled checks absent since
 
 Recovery monitoring trigger: 2026-10-27T15:35:00Z
 Reason: latest completed Threads Publisher run at 2026-10-27T13:42Z, almost 2 hours old despite quarter-hour cron. Run queue + refresh analytics/inbox/replies_to_own_replies/discovery. No original due before 19:20 Asia/Jerusalem. Do not publish outside 08-12 or 19-23, do not duplicate replies, do not modify scheduled content or Konstantin/Egor attribution.
+
+Recovery monitoring trigger: 2026-10-27T17:34:23Z
+Reason: latest Threads Publisher run at 15:35Z; 19:20 Asia/Jerusalem buyer-security post threads-2026-10-27-buyer-payment-missing is overdue and absent from published_ids. Trigger queue run within approved 19-23 window, refresh analytics/inbox/replies_to_own_replies/discovery. Do not duplicate replies or edit future queue; no other channels. Confirm success from GitHub Actions.
