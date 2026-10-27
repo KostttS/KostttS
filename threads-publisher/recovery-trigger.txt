@@ -37,3 +37,6 @@ Reason: latest completed Threads Publisher workflow run at 10:57Z, now 12:42Z (>
 
 Recovery request 2026-10-26T15:39:00Z
 Reason: last completed Threads Publisher run at 12:42Z, nearly 3 hours ago despite four cron slots per hour. Refresh analytics, inbox, replies_to_own_replies and discovery. No original post due until 19:20 Asia/Jerusalem; do not publish outside 08-12/19-23, check state for duplicates, preserve queue.
+
+Recovery request 2026-10-27T00:38:43Z
+Reason: latest runtime pointer is 2026-10-26T22:44:43Z (~1h54m old) despite 15-minute cron. Refresh Threads analytics, inbox, replies_to_own_replies and discovery; do not publish originals outside 08:00-12:00 and 19:00-23:00 Asia/Jerusalem; avoid duplicates and do not alter scheduled posts.
