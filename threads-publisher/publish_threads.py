@@ -187,6 +187,9 @@ def main() -> int:
     for post in due_posts:
         post_key = str(post["id"])
         text = str(post["text"])
+        if len(text) > 500:
+            print(f"Skipping oversized queued post {post_key}: {len(text)} chars (Threads limit 500).", file=sys.stderr)
+            continue
         image_url = str(post.get("image_url", "")).strip() or None
         post_id = publish_post(token, user_id, text, image_url)
         print(f"Published queued post {post_key}: {post_id}")
@@ -212,6 +215,9 @@ def main() -> int:
         reply_key = str(reply["id"])
         target_id = str(reply["reply_to_id"])
         text = str(reply["text"])
+        if len(text) > 500:
+            print(f"Skipping oversized queued reply {reply_key}: {len(text)} chars (Threads limit 500).", file=sys.stderr)
+            continue
         post_id = publish_post(token, user_id, text, reply_to_id=target_id)
         print(f"Published queued reply {reply_key}: {post_id}")
         published_reply_ids.add(reply_key)
