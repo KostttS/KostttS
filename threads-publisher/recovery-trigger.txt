@@ -69,3 +69,6 @@ Reason: latest completed Threads Publisher run at 2026-10-27T19:39Z, >60 minutes
 
 Recovery monitoring trigger: 2026-10-28T03:40:00Z
 Reason: at 05:40 Asia/Jerusalem latest Threads Publisher run completed 2026-10-28T01:27Z (~2h13m ago) despite four scheduled checks per hour. Refresh analytics, inbox, replies_to_own_replies and discovery; no original posts due before 09:40 local. Preserve posting windows 08-12/19-23, verify state and prevent duplicates; leave posts.json and replies.json unchanged; do not mix Konstantin and Egor facts or touch other channels.
+
+Recovery monitoring trigger: 2026-10-28T08:36:08Z
+Reason: 10:36 Asia/Jerusalem, latest completed Threads Publisher run 07:18Z, and today's 09:40 HERO threads-2026-10-28-hero-rental-no-agent remains absent from published_ids. Trigger queue to publish only today's due HERO within 08-12 local, refresh analytics/inbox/replies_to_own_replies/discovery. Avoid duplicates, preserve posts.json and replies.json, no unrelated channels or biographical claims.
