@@ -294,9 +294,9 @@
     "reply-2026-10-24-michael-hummus",
     "reply-2026-10-24-shalom-hummus"
   ],
-  "last_discovery_at": "2026-10-28T01:26:25.037289+00:00",
+  "last_discovery_at": "2026-10-28T03:38:08.559273+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "40615044147",
+  "last_discovery_run_id": "40627799367",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40615044147-1"
+  "last_discovery_artifact_name": "threads-runtime-40627799367-1"
 }
