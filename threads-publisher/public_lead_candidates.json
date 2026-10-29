@@ -147,6 +147,26 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Public post verified; local Mumbai preference and budget not clarified. Public HTML post PK is NOT an official Threads API media ID; do not auto-reply or add to replies.json. No commercial contact made."
+    },
+    {
+      "id": "public-lead-2026-10-29-vickyy-business-management",
+      "url": "https://www.threads.com/@vickyy_bhaii/post/DfD25gMmAaX",
+      "username": "vickyy_bhaii",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-29T01:45:21Z",
+      "observed_at": "2026-10-29T21:43:21.860Z",
+      "request": "Malaysia-based owner seeks custom business management app OR website to track daily orders, income, expenses, and profit; asks for portfolio and quotation. Mobile platform, budget, timeline, remote acceptance unknown.",
+      "observed_likes": 44,
+      "observed_replies": 95,
+      "observed_views_approx": 4800,
+      "observed_views_source": "public Threads page via TinyFish fetch_content 2026-10-29 23h Asia/Jerusalem; rounded public UI, not official API",
+      "priority": "buyer_intent_recent_scope_clear_remote_unverified_competitive",
+      "status": "qualified_potential_buyer_not_contacted_no_verified_media_id",
+      "draft": "Hi! I saw your post about tracking daily orders, expenses, income and profit. I build custom business apps with Flutter/FlutterFlow and Firebase/Supabase, including admin dashboards and reports. Portfolio: https://www.behance.net/24512dab. Would you prefer a mobile app, a web dashboard, or both? Is remote development acceptable? I can review the workflows before discussing a quotation.",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Real buyer-style request with quotation and specific business workflows; paid contract not independently confirmed. 95 public replies means high competition. No verified official threads_media ID; do not auto-reply via public PK or repeat @mentions. No signed-in Threads browser session."
     }
   ]
 }
