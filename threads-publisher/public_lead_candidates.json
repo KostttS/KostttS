@@ -119,6 +119,26 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Exact public URL verified, but original post is 18 days old with many replies; do not assume still open. No verified official Threads media ID; do not auto-reply."
+    },
+    {
+      "id": "public-lead-2026-10-29-irshad-astrology-app",
+      "url": "https://www.threads.com/@irshadshah01/post/De6LYuriC_9",
+      "username": "irshadshah01",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-25T07:31:58Z",
+      "observed_at": "2026-10-29T19:45:00Z",
+      "request": "Looking for an app developer in Mumbai to build an app similar to AstroTalk; exact feature set, platform, budget, paid contract and whether remote work is accepted are unknown.",
+      "observed_likes": 3,
+      "observed_replies": 14,
+      "observed_views_approx": 1200,
+      "observed_views_source": "public Threads page fetched 2026-10-29 21:45 Asia/Jerusalem via TinyFish; rounded public view count, not official API",
+      "priority": "secondary_location_mumbai_remote_and_payment_unverified",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Hi Irshad! I saw your post about an app similar to AstroTalk in Mumbai. I develop Flutter/FlutterFlow iOS/Android apps with Firebase/Supabase, APIs and payments. Is remote development an option, and which features matter for the first version—expert profiles, chat/calls, bookings or payments? Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Public post verified; local Mumbai preference and budget not clarified. Public HTML post PK is NOT an official Threads API media ID; do not auto-reply or add to replies.json. No commercial contact made."
     }
   ]
 }
