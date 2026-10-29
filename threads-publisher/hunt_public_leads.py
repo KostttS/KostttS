@@ -8,6 +8,8 @@ Never use public PK as Threads Graph reply_to_id.
 import json
 import os
 import time
+import re
+import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -26,6 +28,24 @@ QUERIES=[
     "restaurant app", "MVP app",
 ]
 SELF="konstantin47209"
+VERSION=2
+
+
+def fingerprint(text):
+    value=" ".join((text or "").lower().split())
+    value=re.sub(r"https?://\\S+|@\\w+|#\\w+","",value)
+    value=re.sub(r"[^a-zа-яё0-9]+"," ",value)
+    return hashlib.sha256(value.strip().encode("utf-8")).hexdigest()[:20]
+
+
+def disqualifiers(text):
+    value=(text or "").lower()
+    out=[]
+    if any(s in value for s in ("commission-based", "commission only", "work on commission", "за процент", "оплата процент")):
+        out.append("commission_only")
+    if any(s in value for s in ("indonesia only","only indonesia", "send us your cv", "send your cv", "присылайте резюме", "вакансия в штат")):
+        out.append("location_or_employment_restrictions")
+    return out
 
 def load(path,default):
     try:
@@ -40,7 +60,7 @@ def main():
     now=datetime.now(timezone.utc)
     hour=now.astimezone(ZoneInfo("Asia/Jerusalem")).strftime("%Y-%m-%d %H")
     previous=load(STATE,{"last_hour":None,"seen":{}})
-    if previous.get("last_hour")==hour:
+    if previous.get("last_hour")==hour and previous.get("version")==VERSION:
         save(OUT,{"checked_at":now.isoformat(),"status":"already_scanned_this_local_hour",
                   "last_scan_at":previous.get("last_scan_at"),
                   "coverage":"limited_public_pages_no_automatic_replies"})
@@ -74,7 +94,22 @@ def main():
             time.sleep(0.22)
         if budget_exhausted:
             break
-    leads=sorted(rows.values(),key=lambda x:(x["first_seen_by_scanner"],x["timestamp"]),reverse=True)
+    # A repeated copy-pasted hiring announcement across unrelated accounts
+    # is not automatically a second buyer or an authenticated original.
+    seen_fingerprints={}
+    for row in rows.values():
+        fp=fingerprint(row.get("text_excerpt"))
+        row["content_fingerprint"]=fp
+        seen_fingerprints.setdefault(fp,set()).add(row["username"])
+    for row in rows.values():
+        flags=disqualifiers(row.get("text_excerpt"))
+        authors=seen_fingerprints.get(row["content_fingerprint"],set())
+        if len(authors)>1:
+            flags.append("same_text_from_multiple_accounts")
+            row["duplicate_accounts"]=sorted(authors)
+        row["risk_flags"]=flags
+        row["lead_status"]="review_duplicate_or_nonbuyer" if flags else "potential_request_unverified_budget"
+    leads=sorted(rows.values(),key=lambda x:(not x["risk_flags"],x["first_seen_by_scanner"],x["timestamp"]),reverse=True)
     out={
         "checked_at":now.isoformat(),
         "status":"public_lead_candidates_found" if leads else "no_verified_public_buyer_candidates",
@@ -84,6 +119,7 @@ def main():
         "time_budget_exhausted":budget_exhausted,
         "unique_buyer_candidates":len(leads),
         "newly_discovered_candidates":sum(x["first_seen_by_scanner"] for x in leads),
+        "candidates_without_obvious_disqualifiers":sum(not x["risk_flags"] for x in leads),
         "candidates":leads[:30],"diagnostics":diagnostics,
         "guardrails":[
             "Public PK is not an official media ID; no automatic replies from this dataset.",
@@ -102,7 +138,7 @@ def main():
             "url":row["url"],
         }
     saved=dict(list(sorted(saved.items(),key=lambda pair:pair[1]["last_seen_at"],reverse=True))[:1000])
-    save(STATE,{"last_hour":hour,"last_scan_at":now.isoformat(),"seen":saved})
+    save(STATE,{"version":VERSION,"last_hour":hour,"last_scan_at":now.isoformat(),"seen":saved})
     print(f"Threads hourly buyer hunt: {len(leads)} candidates ({sum(x['first_seen_by_scanner'] for x in leads)} new), {len(diagnostics)} search pages")
 
 if __name__=="__main__":
