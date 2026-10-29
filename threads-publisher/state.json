@@ -299,11 +299,11 @@
     "reply-2026-10-24-michael-hummus",
     "reply-2026-10-24-shalom-hummus"
   ],
-  "last_discovery_at": "2026-10-29T17:37:14.226668+00:00",
+  "last_discovery_at": "2026-10-29T18:44:57.042205+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "40922860839",
+  "last_discovery_run_id": "40933543098",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40922860839-1",
+  "last_discovery_artifact_name": "threads-runtime-40933543098-1",
   "failed_reply_ids": {
     "reply-2026-10-29-bike-taxi-mvp": {
       "reply_to_id": "4016165537571250202",
