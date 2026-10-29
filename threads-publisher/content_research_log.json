@@ -1867,6 +1867,209 @@
         "No verified official external Threads media IDs; public HTML PK is invalid for reply_to_id.",
         "No signed-in Threads browser profile in TinyFish; do not claim contact."
       ]
+    },
+    {
+      "checked_at": "2026-10-29T22:43:00Z",
+      "local_slot": "2026-10-30 00:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "runtime_pointer_updated_at": "2026-10-29T22:41:32Z",
+        "runtime_run_id": "40967386250",
+        "own_threads_analytics": "2026-10-29T22:41:21Z",
+        "inbox": "2026-10-29T22:41:21Z",
+        "external_trends": "2026-10-29T22:40:11Z",
+        "lead_discovery": "2026-10-29T22:38:28Z",
+        "instagram_metricool_checked": "2026-10-30 00:42 Asia/Jerusalem",
+        "public_web_search": "2026-10-30 00:42 Asia/Jerusalem"
+      },
+      "source_status": {
+        "external_trends": "verified_public_sample: 94 unique posts from 24 search pages, 20 with embedded posts; NOT all Threads",
+        "lead_hunt": "public_lead_candidates_found: 28 search pages, 4 candidates, 2 without obvious disqualifiers, 0 new",
+        "official_keyword_search": "App Review approval not verified; no official public media IDs for buyer posts; no public PK used as reply_to_id",
+        "external_views": "unavailable/null, NOT zero",
+        "instagram_competitor": "Metricool IG competitor posts query returned 0 rows; no verifiable competitor Instagram post-level stats",
+        "public_web_search": "Alternative RU/EN targeted search returned irrelevant background articles and no new verifiable Threads buyer post",
+        "direct_reply": "blocked pending verified official media ID or authenticated browser; no message sent"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "topic": "payment webhook lost order",
+          "age_hours_at_snapshot": 5.09,
+          "views": 21,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "commercial_leads": 0,
+          "growth_since_22h_local": {
+            "views": 1,
+            "replies": 0
+          }
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "topic": "own targeted bike-taxi @mention, NOT buyer reply",
+          "age_hours_at_snapshot": 16.27,
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "notification_verified": false,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEf1J-GysI",
+          "published_at": "2026-10-29T07:43:06Z",
+          "topic": "ownership and support risk",
+          "age_hours_at_snapshot": 16.97,
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfCBPYPm5IJ",
+          "published_at": "2026-10-28T08:37:18Z",
+          "topic": "field workflow versus WhatsApp",
+          "age_hours_at_snapshot": 38.07,
+          "views": 95,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "commercial_leads": 0
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0,
+        "account_replies": 0,
+        "account_likes": 0
+      },
+      "own_instagram": {
+        "source": "Metricool blogId 6890763",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "published_at_local": "2026-10-28 17:46:21",
+            "age_hours_at_check": 30.94,
+            "views": 2,
+            "reach": 2,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "published_at_local": "2026-10-26 08:03:36",
+            "age_hours_at_check": 88.64,
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          }
+        ],
+        "organic_clicks": "deprecated/unavailable; do not count as 0",
+        "competitor_posts": "unavailable (0 configured rows)",
+        "scheduled_posts_oct30_oct31": 0
+      },
+      "external_threads": [
+        {
+          "url": "https://www.threads.com/@v.viklya/post/De1-LThDOLD",
+          "author": "v.viklya",
+          "published_at": "2026-10-23T16:19:34Z",
+          "likes": 2580,
+          "replies": 152,
+          "reposts": 41,
+          "views": null,
+          "growth": null,
+          "mechanism": "Polarizing statement about demanding low-budget clients: clear conflict and short form; large engagement but not a buyer lead; avoid insulting customers."
+        },
+        {
+          "url": "https://www.threads.com/@portotonicvibe/post/DfFDnSTDU0s",
+          "author": "portotonicvibe",
+          "published_at": "2026-10-29T12:55:42Z",
+          "likes": 82,
+          "replies": 33,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "elapsed_hours": 6.65,
+            "likes_delta": 29,
+            "replies_delta": 16
+          },
+          "mechanism": "Specific unglamorous business problem, concrete real-world stakes and vivid detail; adapt to demonstrable app failure/operational loss, no invented case."
+        },
+        {
+          "url": "https://www.threads.com/@ketimosha/post/DfEoSeAjTCR",
+          "author": "ketimosha",
+          "published_at": "2026-10-29T08:56:55Z",
+          "likes": 56,
+          "replies": 102,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "elapsed_hours": 1.92,
+            "likes_delta": 5,
+            "replies_delta": 21
+          },
+          "mechanism": "Narrow local founder question creates many replies; adapt to exact business workflow bottleneck, not generic engagement bait."
+        },
+        {
+          "url": "https://www.threads.com/@wow_tingles/post/DfEAhT2FNfL",
+          "author": "wow_tingles",
+          "published_at": "2026-10-29T03:09:25Z",
+          "likes": 56,
+          "replies": 105,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "elapsed_hours": 11.95,
+            "likes_delta": 37,
+            "replies_delta": 61
+          },
+          "mechanism": "Specific installs-to-paid-conversion numbers trigger discussion; mostly developer audience, not a paid client request; never fabricate own sales figures."
+        },
+        {
+          "url": "https://www.threads.com/@tsaritovamina/post/DfEKtygEpop",
+          "author": "tsaritovamina",
+          "published_at": "2026-10-29T04:38:30Z",
+          "likes": 32,
+          "replies": 36,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "elapsed_hours": 11.95,
+            "likes_delta": 12,
+            "replies_delta": 7
+          },
+          "mechanism": "Real buyer asks for nanny matching app with design ready; strongest commercial relevance, but no verified official reply media ID; draft already saved and not contacted."
+        }
+      ],
+      "inbox": {
+        "checked_at": "2026-10-29T22:41:21Z",
+        "mentions_scope_available": false,
+        "replies_to_recent_posts": 0,
+        "replies_to_own_replies": 6,
+        "latest_reply_to_own_replies": "2026-10-24T17:16:46Z",
+        "new_qualified_inquiries": 0
+      },
+      "leads": {
+        "stored_potential": 8,
+        "lead_hunt_new": 0,
+        "confirmed_direct_contacts": 0,
+        "confirmed_paid": 0,
+        "one_own_mention_delivery_unverified": true,
+        "duplicate_or_invalid_id_attempts": 0
+      },
+      "decision": {
+        "scale": "None: own posts have zero replies/clicks and no buyer conversions. Do not scale unrelated viral topics.",
+        "remove": "Avoid irrelevant personal stories, generic developer-to-developer engagement, equity-only requests, Brandi Flo and duplicate @mentions.",
+        "test": "In future eligible windows, consider a short buyer-specific operational failure/diagnostic CTA and track leads after 24h; prioritize verified buyer contact if official media ID or signed-in browser becomes available.",
+        "queue_changed": false,
+        "reason": "No measured lead conversion or Instagram interaction justifies changing future queue; no original posts at 00:00 outside allowed hours, and no scheduled Instagram post to publish without a tested image concept."
+      }
     }
   ]
 }
