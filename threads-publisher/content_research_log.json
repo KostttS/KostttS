@@ -68,6 +68,77 @@
         "confirmed_paid": 0,
         "new_qualified": 0
       }
+    },
+    {
+      "checked_at": "2026-10-29T05:41:32.126Z",
+      "source_cutoffs": {
+        "public_threads_sample": "2026-10-29T05:37:23Z",
+        "threads_own_latest": "2026-10-29T05:38Z",
+        "instagram_metricool": "2026-10-29"
+      },
+      "source_status": "VERIFIED_BOUNDED_PUBLIC_SAMPLE; NOT complete Threads coverage; public view counts unavailable",
+      "external_sample": {
+        "queries": 12,
+        "page_requests": 24,
+        "embedded_candidates": 411,
+        "verified_unique_external_posts": 123,
+        "high_engagement_candidates": 22
+      },
+      "examples": [
+        {
+          "url": "https://www.threads.com/@laylo.tarantino/post/Dey3YhtEW1N",
+          "topic": "broad viral social debate (not for professional imitation)",
+          "likes": 12401,
+          "replies": 562,
+          "reposts": 1001,
+          "mechanism": "provocative opinion encourages disagreement; exclude content topic"
+        },
+        {
+          "url": "https://www.threads.com/@hormozi/post/DfDB01Qn6b3",
+          "topic": "business ranking",
+          "likes": 428,
+          "replies": 32,
+          "reposts": 29,
+          "mechanism": "ultra-short contrast invites reaction; test original concise professional contrast"
+        },
+        {
+          "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+          "topic": "actual demand: Android bike taxi MVP",
+          "likes": 45,
+          "replies": 64,
+          "reposts": 0,
+          "mechanism": "explicit project scope and request for developer; qualified potential project"
+        },
+        {
+          "url": "https://www.threads.com/@berlin_ceo070/post/De3qgj4DE32",
+          "topic": "actual demand: restaurant website and mobile ordering",
+          "likes": 78,
+          "replies": 182,
+          "reposts": 1,
+          "mechanism": "specific buyer requirements; qualified potential project with high reply competition"
+        }
+      ],
+      "precision_fixes": [
+        "Replaced ambiguous MVP query (sports) with MVP app",
+        "Vendor self-promotion excluded from buyer signals",
+        "Raw public post_id preserved for exact reply_to_id",
+        "Null external views never equated to zero"
+      ],
+      "decisions": {
+        "scale": "measure professional business-pain hooks by age-adjusted views and paid lead conversion, do not imitate political controversy",
+        "remove": "irrelevant sports MVP and own sales pitches falsely classified as buyers",
+        "test": "concise original contrast hook for owners and highly specific lead replies",
+        "queue_changed": "replies queued for two public project requests, posts unchanged"
+      },
+      "leads": {
+        "qualified_potential": 2,
+        "paid_confirmed": 0,
+        "reply_queue": [
+          "reply-2026-10-29-bike-taxi-mvp",
+          "reply-2026-10-29-restaurant-ordering"
+        ],
+        "publication_status": "queued_not_confirmed"
+      }
     }
   ]
 }
