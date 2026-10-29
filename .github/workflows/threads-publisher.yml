@@ -12,6 +12,7 @@ on:
       - "threads-publisher/discover_threads.py"
       - "threads-publisher/discover_public_trends.py"
       - "threads-publisher/probe_public_reply_ids.py"
+      - "threads-publisher/hunt_public_leads.py"
       - "threads-publisher/recovery-trigger.txt"
       - ".github/workflows/threads-publisher.yml"
   workflow_dispatch:
@@ -81,6 +82,10 @@ jobs:
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/discover_public_trends.py
 
+      - name: Find publicly posted mobile-app buyer requests (hourly)
+        if: steps.config.outputs.configured == 'true'
+        run: python3 threads-publisher/hunt_public_leads.py
+
       - name: Resolve exact public lead API media IDs (read-only)
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/probe_public_reply_ids.py
@@ -100,6 +105,7 @@ jobs:
             threads-publisher/discovery.json
             threads-publisher/external_trends.json
             threads-publisher/lead_id_resolution.json
+            threads-publisher/lead_discovery.json
           retention-days: 7
           if-no-files-found: error
 
@@ -116,7 +122,7 @@ jobs:
           }
           EOF
 
-          if [ -z "$(git status --porcelain -- threads-publisher/state.json threads-publisher/runtime_pointer.json threads-publisher/trends_state.json)" ]; then
+          if [ -z "$(git status --porcelain -- threads-publisher/state.json threads-publisher/runtime_pointer.json threads-publisher/trends_state.json threads-publisher/lead_hunt_state.json)" ]; then
             echo "No Threads state metadata changes."
             exit 0
           fi
@@ -125,6 +131,9 @@ jobs:
           git add threads-publisher/state.json threads-publisher/runtime_pointer.json
           if [ -f threads-publisher/trends_state.json ]; then
             git add threads-publisher/trends_state.json
+          fi
+          if [ -f threads-publisher/lead_hunt_state.json ]; then
+            git add threads-publisher/lead_hunt_state.json
           fi
           git commit -m "Update Threads state metadata and runtime pointer"
           # Runtime JSON files are intentionally not committed. Stash any
