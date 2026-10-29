@@ -33,7 +33,7 @@ VERSION=2
 
 def fingerprint(text):
     value=" ".join((text or "").lower().split())
-    value=re.sub(r"https?://\\S+|@\\w+|#\\w+","",value)
+    value=re.sub(r"https?://\S+|@\w+|#\w+","",value)
     value=re.sub(r"[^a-zа-яё0-9]+"," ",value)
     return hashlib.sha256(value.strip().encode("utf-8")).hexdigest()[:20]
 
