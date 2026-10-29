@@ -12,8 +12,17 @@
       "request": "Android-only Flutter bike taxi MVP: OTP, pickup/drop, ride booking/tracking, driver and mobile-friendly admin",
       "observed_likes": 45,
       "observed_replies": 64,
-      "status": "reply_api_blocked_needs_verified_media_id",
-      "draft": "Hi! I build Android apps with Flutter/FlutterFlow, Firebase/Supabase and APIs. Your bike-taxi MVP needs connected customer/driver flows (OTP, maps, booking, trip tracking) and a usable admin. Portfolio: https://www.behance.net/24512dab. Do you already have a backend or maps provider? I can review the scope before discussing a quote."
+      "status": "mentioned_in_own_public_post_response_unconfirmed",
+      "draft": "Hi! I build Android apps with Flutter/FlutterFlow, Firebase/Supabase and APIs. Your bike-taxi MVP needs connected customer/driver flows (OTP, maps, booking, trip tracking) and a usable admin. Portfolio: https://www.behance.net/24512dab. Do you already have a backend or maps provider? I can review the scope before discussing a quote.",
+      "outreach": {
+        "kind": "own_original_post_with_at_mention_not_reply",
+        "public_mention_url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+        "verified_own_threads_media_id": "17990338773028002",
+        "published_at": "2026-10-29T08:25:04Z",
+        "delivery_or_notification_verified": false,
+        "reply_under_buyer_post_sent": false,
+        "followup_policy": "Monitor replies; do not repeat mention automatically. Official reply needs verified target media ID."
+      }
     },
     {
       "id": "public-lead-2026-10-29-restaurant-ordering",
