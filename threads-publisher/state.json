@@ -213,7 +213,7 @@
     "threads-2026-10-28-buyer-device-switch",
     "threads-2026-10-28-hero-rental-no-agent"
   ],
-  "last_run_at": "2026-10-28T17:40:48.976952+00:00",
+  "last_run_at": "2026-10-29T05:41:14.960733+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -300,5 +300,19 @@
   "last_discovery_had_errors": false,
   "last_discovery_run_id": "40823851496",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40823851496-1"
+  "last_discovery_artifact_name": "threads-runtime-40823851496-1",
+  "failed_reply_ids": {
+    "reply-2026-10-29-bike-taxi-mvp": {
+      "reply_to_id": "4016165537571250202",
+      "attempted_at": "2026-10-29T05:41:14.846296+00:00",
+      "error": "Threads API HTTP 500: {\"error\":{\"message\":\"Param reply_to_id is not a valid threads_media ID\",\"type\":\"THApiException\",\"code\":100,\"fbtrace_id\":\"AwlsdlUv2QRjLM-pnLnrxbm\"}}",
+      "status": "needs_review_no_automatic_retry"
+    },
+    "reply-2026-10-29-restaurant-ordering": {
+      "reply_to_id": "4014864548322102774",
+      "attempted_at": "2026-10-29T05:41:14.960590+00:00",
+      "error": "Threads API HTTP 500: {\"error\":{\"message\":\"Param reply_to_id is not a valid threads_media ID\",\"type\":\"THApiException\",\"code\":100,\"fbtrace_id\":\"AvH3iCZJSg6nuBvABND4_RL\"}}",
+      "status": "needs_review_no_automatic_retry"
+    }
+  }
 }
