@@ -66,7 +66,59 @@
       "draft": "Здравствуйте! Увидел ваш запрос на приложение для подбора нянь. Разрабатываю iOS/Android на FlutterFlow/Flutter с Firebase/Supabase и API. Если дизайн уже готов, какие сценарии нужны в первой версии: анкеты нянь, поиск, отклики, проверка, оплата? ИИ-функции можно обсудить отдельно под конкретную задачу. Примеры: https://www.behance.net/24512dab",
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
-      "notes": "Found in verified external_trends.json 12:00 local scan; public HTML ID is not an official threads_media ID; no API reply or repeat @mention without verified official ID and dedupe check."
+      "notes": "Found in verified external_trends.json 12:00 local scan; public HTML ID is not an official threads_media ID; no API reply or repeat @mention without verified official ID and dedupe check.",
+      "latest_observation": {
+        "checked_at": "2026-10-29T11:40:00Z",
+        "likes": 22,
+        "replies": 32,
+        "views_approx": 2800,
+        "source": "public Threads page via TinyFish fetch_content",
+        "growth_vs_initial": {
+          "likes": 2,
+          "replies": 3,
+          "views_approx": 300
+        }
+      }
+    },
+    {
+      "id": "public-lead-2026-10-29-swati-flutter-firebase",
+      "url": "https://www.threads.com/@swatiii.1080/post/DerbP0kDXcA",
+      "username": "swatiii.1080",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-19T14:01:57Z",
+      "observed_at": "2026-10-29T11:40:00Z",
+      "request": "Exploring a mobile app idea; specifically requests Flutter/Dart, Firebase, REST APIs/integrations, clean UI and Play Store experience; budget and paid engagement not confirmed.",
+      "observed_likes": 25,
+      "observed_replies": 23,
+      "observed_views_approx": 1900,
+      "observed_views_source": "public Threads page fetched 2026-10-29 13:40 Asia/Jerusalem",
+      "priority": "secondary_older_10_days_payment_unverified",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Hi! I work with Flutter/FlutterFlow, Firebase, REST APIs and Play Store releases. I saw your mobile app brief and can share relevant work: https://www.behance.net/24512dab. Is this a funded client project, and which core workflow should the first version cover? Happy to check whether my experience fits before discussing scope.",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Exact public URL and post text verified. No official Threads media ID. Do not auto-reply or assume funded project."
+    },
+    {
+      "id": "public-lead-2026-10-29-frank-app-quotes",
+      "url": "https://www.threads.com/@frank.tirimacco/post/DeV7byrCNel",
+      "username": "frank.tirimacco",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-11T05:39:55Z",
+      "observed_at": "2026-10-29T11:40:00Z",
+      "request": "Looking for app developers and quotes to help design an app; mobile development scope, budget and whether request remains open not confirmed.",
+      "observed_likes": 67,
+      "observed_replies": 119,
+      "observed_views_approx": 31500,
+      "observed_views_source": "public Threads page fetched 2026-10-29 13:40 Asia/Jerusalem",
+      "priority": "secondary_older_18_days_high_competition",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Hi Frank! I saw your post asking for app development quotes. I build iOS/Android apps with Flutter/FlutterFlow, Firebase/Supabase and APIs. Portfolio: https://www.behance.net/24512dab. Are you still looking, and is the immediate need UI design or a working MVP? I can review the scope before suggesting cost or timing.",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Exact public URL verified, but original post is 18 days old with many replies; do not assume still open. No verified official Threads media ID; do not auto-reply."
     }
   ]
 }
