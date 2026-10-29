@@ -17,7 +17,7 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "external_trends.json"
 STATE = ROOT / "trends_state.json"
@@ -96,6 +96,9 @@ def relevant(text, q):
     if not needle or not content:
         return False
     if needle in content:
+        if needle == "flutter":
+            # Exclude ordinary phrases like "heart flutter" from developer discovery.
+            return bool(re.search(r"\bflutter\b", content) and any(s in content for s in ("app", "develop", "developer", "dart", "android", "ios", "firebase", "приложени", "разработ")))
         return True
     words = [w for w in needle.split() if len(w) > 1]
     return len(words) > 1 and all(word in content for word in words)
@@ -156,7 +159,9 @@ def normalize(post, query, source_view, when, prior):
         velocity = (growth.get("likes_delta") or 0) + 4 * (growth.get("replies_delta") or 0) + 3 * (growth.get("reposts_delta") or 0)
         score += round(velocity / max(0.5, growth["elapsed_hours"]), 2)
     return {
-        "code": code, "post_id": str(post.get("pk") or ""),
+        "code": code, "public_post_pk": str(post.get("pk") or ""),
+        "verified_threads_api_media_id": None,
+        "can_auto_reply_via_api": False,
         "url": "https://www.threads.com/@" + username + "/post/" + code,
         "username": username, "timestamp": datetime.fromtimestamp(ts, timezone.utc).isoformat(),
         "age_hours": round(age_h, 1), "text_excerpt": body[:550],
@@ -244,7 +249,8 @@ def scan():
         "coverage": "bounded_public_search_sample_not_all_threads",
         "notes": ["View counts on external posts may not be public. Null is not zero.",
                   "TOP/recent pages are samples and sometimes contain unrelated posts, which are filtered.",
-                  "High-engagement candidate means an explicit threshold, not proof of virality."],
+                  "High-engagement candidate means an explicit threshold, not proof of virality.",
+                  "Public web pk is NOT verified as a Threads API media ID for reply_to_id."],
         "queries": queries, "page_requests": len(diagnostics),
         "pages_with_embedded_posts": good_responses, "embedded_posts_before_filter": total_embedded,
         "verified_unique_external_posts": len(ranked),
