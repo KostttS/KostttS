@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
+  "entries": [
+    {
+      "checked_at": "2026-10-29T05:18:00Z",
+      "source_cutoffs": {
+        "threads_runtime": "2026-10-29T02:44:53Z",
+        "instagram_metricool": "2026-10-29T05:18:00Z"
+      },
+      "own_threads": [
+        {
+          "topic": "control of app and release access",
+          "date": "2026-10-24",
+          "views": 162,
+          "replies": 0
+        },
+        {
+          "topic": "FlutterFlow Firebase Legacy Access deadline",
+          "date": "2026-10-26",
+          "views": 126,
+          "replies": 0
+        },
+        {
+          "topic": "WhatsApp vs field-service app",
+          "date": "2026-10-28",
+          "views": 94,
+          "replies": 0
+        },
+        {
+          "topic": "existing app readiness checklist",
+          "date": "2026-10-27",
+          "views": 26,
+          "replies": 0
+        },
+        {
+          "topic": "owner trust in contractor",
+          "date": "2026-10-25",
+          "views": 18,
+          "replies": 0
+        }
+      ],
+      "own_instagram": {
+        "period": "2026-10-16 to 2026-10-28",
+        "posts": 9,
+        "max_views": 12,
+        "min_views": 2,
+        "total_interactions": 0,
+        "total_new_followers": 0
+      },
+      "competitor_evidence": [],
+      "competitor_status": "UNVERIFIED — Metricool Threads/Instagram competitor metric queries returned 0 rows; Threads API discovery 39 queries/0 results, including diagnostic; web searches found no identifiable current Threads posts with independently verifiable views/replies; do not claim competitor examples have been benchmarked.",
+      "insights": [
+        "Own professional post about retaining control of application is strongest at 162 views but has 0 replies and 0 confirmed paying leads.",
+        "Own checklist post is relatively weak at 26 views; avoid adding more generic checklists without new evidence.",
+        "Instagram organic posts 2–12 views and 0 interaction; no basis to repeat identical format as a growth tactic.",
+        "Highest-view nonprofessional story was misattributed personal content; exclude it from strategic winners.",
+        "Existing queued 2026-10-29 morning HERO about dependency on developers follows strongest professional theme; no evidence to rewrite or publish outside permitted hours."
+      ],
+      "decision": {
+        "scale": "test further angles on ownership/access and specific business consequences, not automatic scaling without lead signals",
+        "remove": "unverified personal anecdotes and generic checklist content",
+        "test": "specific app-rescue cases with clear symptom and buyer-focused call to action",
+        "queue_changed": false
+      },
+      "blocker": "Verified current RU/EN external Threads competitor post-level statistics still unavailable through available sources; fix is to require specific examples, document failures and not substitute old own numbers or X performance.",
+      "leads": {
+        "confirmed_paid": 0,
+        "new_qualified": 0
+      }
+    }
+  ]
+}
