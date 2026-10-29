@@ -89,3 +89,6 @@ Reason: at 21:43 Asia/Jerusalem latest verified lead_hunt_state last_hour=20 and
 
 Recovery request 2026-10-29T20:42:00Z
 Reason: 22:42 Asia/Jerusalem even-hour deep review is due, but latest runtime pointer is 21:45 local and trends_state last scan is 20:45 local. Trigger existing Threads workflow to refresh 22:00 local public trends, hourly buyer hunt, own analytics and inbox. No new original posts, no duplicate mentions, no unverified public PK replies, no queue changes, no other channels.
+
+Recovery request 2026-10-29T22:37:00Z
+Reason: at 00:37 Asia/Jerusalem 30 Oct, latest verified Threads Publisher runtime_pointer remains 2026-10-29T20:59:41Z (22:59 local), and no completed 00:00 even-hour trend/lead scan is present in GitHub Actions. Trigger existing workflow for midnight deep analysis, hourly buyer hunt, inbox/replies, own analytics. Do not publish outside 08–12/19–23, change posts/replies queue, use public HTML PK for replies, or contact other channels.
