@@ -211,9 +211,10 @@
     "threads-2026-10-27-buyer-payment-missing",
     "threads-2026-10-27-hero-apartment-no-agent",
     "threads-2026-10-28-buyer-device-switch",
-    "threads-2026-10-28-hero-rental-no-agent"
+    "threads-2026-10-28-hero-rental-no-agent",
+    "threads-2026-10-29-hero-support-risk"
   ],
-  "last_run_at": "2026-10-29T05:41:14.960733+00:00",
+  "last_run_at": "2026-10-29T07:43:09.315812+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
