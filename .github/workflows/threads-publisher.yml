@@ -10,6 +10,7 @@ on:
       - "threads-publisher/publish_threads.py"
       - "threads-publisher/monitor_threads.py"
       - "threads-publisher/discover_threads.py"
+      - "threads-publisher/discover_public_trends.py"
       - "threads-publisher/recovery-trigger.txt"
       - ".github/workflows/threads-publisher.yml"
   workflow_dispatch:
@@ -75,6 +76,10 @@ jobs:
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/discover_threads.py
 
+      - name: Sample publicly visible external Threads trends (every 2 local hours)
+        if: steps.config.outputs.configured == 'true'
+        run: python3 threads-publisher/discover_public_trends.py
+
       - name: Collect Threads analytics and inbox
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/monitor_threads.py
@@ -88,6 +93,7 @@ jobs:
             threads-publisher/analytics.json
             threads-publisher/inbox.json
             threads-publisher/discovery.json
+            threads-publisher/external_trends.json
           retention-days: 7
           if-no-files-found: error
 
@@ -104,13 +110,16 @@ jobs:
           }
           EOF
 
-          if [ -z "$(git status --porcelain -- threads-publisher/state.json threads-publisher/runtime_pointer.json)" ]; then
+          if [ -z "$(git status --porcelain -- threads-publisher/state.json threads-publisher/runtime_pointer.json threads-publisher/trends_state.json)" ]; then
             echo "No Threads state metadata changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add threads-publisher/state.json threads-publisher/runtime_pointer.json
+          if [ -f threads-publisher/trends_state.json ]; then
+            git add threads-publisher/trends_state.json
+          fi
           git commit -m "Update Threads state metadata and runtime pointer"
           # Runtime JSON files are intentionally not committed. Stash any
           # generated/legacy copies before rebasing state metadata.
