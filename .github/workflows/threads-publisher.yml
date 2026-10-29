@@ -74,6 +74,10 @@ jobs:
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/publish_threads.py
 
+      - name: Find publicly posted mobile-app buyer requests (hourly)
+        if: steps.config.outputs.configured == 'true'
+        run: python3 threads-publisher/hunt_public_leads.py
+
       - name: Discover mobile-development opportunities on Threads
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/discover_threads.py
@@ -81,10 +85,6 @@ jobs:
       - name: Sample publicly visible external Threads trends (every 2 local hours)
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/discover_public_trends.py
-
-      - name: Find publicly posted mobile-app buyer requests (hourly)
-        if: steps.config.outputs.configured == 'true'
-        run: python3 threads-publisher/hunt_public_leads.py
 
       - name: Resolve exact public lead API media IDs (read-only)
         if: steps.config.outputs.configured == 'true'
