@@ -11,6 +11,7 @@ on:
       - "threads-publisher/monitor_threads.py"
       - "threads-publisher/discover_threads.py"
       - "threads-publisher/discover_public_trends.py"
+      - "threads-publisher/probe_public_reply_ids.py"
       - "threads-publisher/recovery-trigger.txt"
       - ".github/workflows/threads-publisher.yml"
   workflow_dispatch:
@@ -80,6 +81,10 @@ jobs:
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/discover_public_trends.py
 
+      - name: Resolve exact public lead API media IDs (read-only)
+        if: steps.config.outputs.configured == 'true'
+        run: python3 threads-publisher/probe_public_reply_ids.py
+
       - name: Collect Threads analytics and inbox
         if: steps.config.outputs.configured == 'true'
         run: python3 threads-publisher/monitor_threads.py
@@ -94,6 +99,7 @@ jobs:
             threads-publisher/inbox.json
             threads-publisher/discovery.json
             threads-publisher/external_trends.json
+            threads-publisher/lead_id_resolution.json
           retention-days: 7
           if-no-files-found: error
 
