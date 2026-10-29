@@ -42,6 +42,21 @@ def normalize_url(url):
         return ""
 
 def scan():
+    # Previous profile_posts/profile_lookup requests returned HTTP 403/code 10,
+    # and direct public PK lookup returned HTTP 400/code 100. Do not repeat
+    # these blocked probes on every hourly workflow run. A deliberate
+    # operator-supplied App Review change marker is required to re-enable.
+    review_change=os.getenv("THREADS_PUBLIC_LEAD_PROBE_APP_REVIEW_CHANGE_ID","").strip()
+    if not review_change:
+        OUT.write_text(json.dumps({
+            "checked_at":datetime.now(timezone.utc).isoformat(),
+            "status":"skipped_pending_verified_app_review_change",
+            "reason":"Known official profile endpoints returned 403; public HTML PK is not a Threads API media ID. No requests attempted.",
+            "confirmed_api_media_ids":0,
+            "results":[]
+        },ensure_ascii=False,indent=2)+"\\n","utf-8")
+        print("Lead ID probe skipped: no verified App Review change marker; zero API calls")
+        return
     token=os.getenv("THREADS_ACCESS_TOKEN","").strip()
     if not token:
         raise RuntimeError("Missing Threads token in environment")
@@ -71,14 +86,8 @@ def scan():
         # Additional discovery diagnostic; do not treat public PK or user ID as media ID.
         profile,err=get_json("profile_lookup",{"username":username},token)
         row["probes"].append({"endpoint":"profile_lookup","error":err,"returned_profile":bool(profile.get("username") or profile.get("data"))})
-        pk=str(lead.get("public_post_pk") or "")
-        if pk.isdigit():
-            media,err=get_json(pk,{"fields":"id,permalink,text"},token)
-            match=not err and normalize_url(media.get("permalink",""))==target_path and str(media.get("id","")).isdigit()
-            row["probes"].append({"endpoint":"direct_public_pk_lookup","error":err,"exact_match":bool(match)})
-            if match:
-                row["confirmed_api_media_id"]=str(media["id"])
-                row["proof"]={"api_permalink":media.get("permalink"),"id_source":"official_media_object_exact_match"}
+        # Public HTML PKs must NEVER be used as official media IDs or
+        # probed as object IDs. Only exact official permalink matches count.
         result["results"].append(row)
     OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n","utf-8")
     print("Lead ID probe: exact confirmed API IDs",sum(bool(x.get("confirmed_api_media_id")) for x in result["results"]),"/",len(result["results"]))
