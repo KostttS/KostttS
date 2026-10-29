@@ -49,6 +49,24 @@
       "observed_replies": 35,
       "status": "potential_buyer_needs_scope_verified_reply_id",
       "draft": "Hi! I build iOS/Android business apps with Flutter/FlutterFlow, Firebase/Supabase, APIs and payments. Portfolio: https://www.behance.net/24512dab. Could you share the main user workflow, target platform and whether the project is at idea, prototype or existing-app stage? I can then say if I’m a fit without guessing costs or deadlines."
+    },
+    {
+      "id": "public-lead-2026-10-29-nanny-matching-app",
+      "url": "https://www.threads.com/@tsaritovamina/post/DfEKtygEpop",
+      "username": "tsaritovamina",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "observed_at": "2026-10-29T10:46:00Z",
+      "request": "RU: App to match families with nannies; design ready; AI usage welcomed but optional; platform, budget, deadline unknown.",
+      "observed_likes": 20,
+      "observed_replies": 29,
+      "observed_views_approx": 2500,
+      "observed_views_source": "public Threads page via TinyFish fetch_content 2026-10-29T10:46Z (not external_trends.json)",
+      "status": "qualified_buyer_contact_blocked_no_verified_media_id",
+      "draft": "Здравствуйте! Увидел ваш запрос на приложение для подбора нянь. Разрабатываю iOS/Android на FlutterFlow/Flutter с Firebase/Supabase и API. Если дизайн уже готов, какие сценарии нужны в первой версии: анкеты нянь, поиск, отклики, проверка, оплата? ИИ-функции можно обсудить отдельно под конкретную задачу. Примеры: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Found in verified external_trends.json 12:00 local scan; public HTML ID is not an official threads_media ID; no API reply or repeat @mention without verified official ID and dedupe check."
     }
   ]
 }
