@@ -35,7 +35,15 @@
       "observed_likes": 78,
       "observed_replies": 182,
       "status": "reply_api_blocked_needs_verified_media_id",
-      "draft": "Hi! I develop Flutter/FlutterFlow apps with ordering, payments, push and Firebase/Supabase integrations. I could handle the restaurant's mobile ordering app and coordinate APIs with the website developer. Portfolio: https://www.behance.net/24512dab. Have you chosen the ordering backend and payment provider? I can review requirements before proposing cost or timing."
+      "draft": "Hi! I develop Flutter/FlutterFlow apps with ordering, payments, push and Firebase/Supabase integrations. I could handle the restaurant's mobile ordering app and coordinate APIs with the website developer. Portfolio: https://www.behance.net/24512dab. Have you chosen the ordering backend and payment provider? I can review requirements before proposing cost or timing.",
+      "latest_observation": {
+        "checked_at": "2026-10-29T20:43:00Z",
+        "likes": 78,
+        "replies": 183,
+        "views_approx": 15100,
+        "source": "live public Threads page via TinyFish fetch_content; views rounded in UI, not official API",
+        "reply_under_buyer_post_sent": false
+      }
     },
     {
       "id": "public-lead-2026-10-29-haseeb-business-app",
@@ -68,15 +76,15 @@
       "reply_under_buyer_post_sent": false,
       "notes": "Found in verified external_trends.json 12:00 local scan; public HTML ID is not an official threads_media ID; no API reply or repeat @mention without verified official ID and dedupe check.",
       "latest_observation": {
-        "checked_at": "2026-10-29T15:43:00Z",
-        "likes": 29,
-        "replies": 34,
-        "views_approx": 3300,
+        "checked_at": "2026-10-29T20:43:00Z",
+        "likes": 32,
+        "replies": 36,
+        "views_approx": 3900,
         "source": "live public Threads page via TinyFish fetch_content; views rounded in UI, not official API",
         "growth_vs_initial": {
-          "likes": 9,
-          "replies": 5,
-          "views_approx": 800
+          "likes": 12,
+          "replies": 7,
+          "views_approx": 1400
         }
       }
     },
