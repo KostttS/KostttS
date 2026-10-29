@@ -212,10 +212,11 @@
     "threads-2026-10-27-hero-apartment-no-agent",
     "threads-2026-10-28-buyer-device-switch",
     "threads-2026-10-28-hero-rental-no-agent",
+    "threads-2026-10-29-buyer-payment-webhook",
     "threads-2026-10-29-hero-support-risk",
     "threads-2026-10-29-targeted-bike-taxi-mention"
   ],
-  "last_run_at": "2026-10-29T08:25:04.561880+00:00",
+  "last_run_at": "2026-10-29T17:36:10.889411+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -298,11 +299,11 @@
     "reply-2026-10-24-michael-hummus",
     "reply-2026-10-24-shalom-hummus"
   ],
-  "last_discovery_at": "2026-10-29T16:00:37.104158+00:00",
+  "last_discovery_at": "2026-10-29T17:37:14.226668+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "40907085479",
+  "last_discovery_run_id": "40922860839",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-40907085479-1",
+  "last_discovery_artifact_name": "threads-runtime-40922860839-1",
   "failed_reply_ids": {
     "reply-2026-10-29-bike-taxi-mvp": {
       "reply_to_id": "4016165537571250202",
