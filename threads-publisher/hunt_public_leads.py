@@ -45,6 +45,12 @@ def disqualifiers(text):
         out.append("commission_only")
     if any(s in value for s in ("indonesia only","only indonesia", "send us your cv", "send your cv", "присылайте резюме", "вакансия в штат")):
         out.append("location_or_employment_restrictions")
+    # A profit split or work before payment is not a funded mobile-app order.
+    if any(s in value for s in ("no money involved until it pays", "no money until it pays", "equity only", "profit share", "profit split", "revenue share", "revenue split", "60% to you", "unpaid project", "work for exposure")):
+        out.append("contingent_or_unfunded_compensation")
+    # Public search often returns freelancers quoting a buyer's request.
+    if any(s in value for s in ("i came across your post about looking for", "i'd love to help bring your idea to life", "here's my portfolio so you can check", "looking for a new opportunity as a flutter developer", "open to remote opportunities worldwide")):
+        out.append("developer_self_promotion_not_buyer")
     return out
 
 def load(path,default):
