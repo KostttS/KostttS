@@ -27,6 +27,19 @@
       "observed_replies": 182,
       "status": "reply_api_blocked_needs_verified_media_id",
       "draft": "Hi! I develop Flutter/FlutterFlow apps with ordering, payments, push and Firebase/Supabase integrations. I could handle the restaurant's mobile ordering app and coordinate APIs with the website developer. Portfolio: https://www.behance.net/24512dab. Have you chosen the ordering backend and payment provider? I can review requirements before proposing cost or timing."
+    },
+    {
+      "id": "public-lead-2026-10-29-haseeb-business-app",
+      "url": "https://www.threads.com/@haseebnazim4/post/De0uXPhDXZ3",
+      "username": "haseebnazim4",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "observed_at": "2026-10-29T08:23:46Z",
+      "request": "Looking for an app developer for a business application; scope, budget and project status not provided",
+      "observed_likes": 19,
+      "observed_replies": 35,
+      "status": "potential_buyer_needs_scope_verified_reply_id",
+      "draft": "Hi! I build iOS/Android business apps with Flutter/FlutterFlow, Firebase/Supabase, APIs and payments. Portfolio: https://www.behance.net/24512dab. Could you share the main user workflow, target platform and whether the project is at idea, prototype or existing-app stage? I can then say if I’m a fit without guessing costs or deadlines."
     }
   ]
 }
