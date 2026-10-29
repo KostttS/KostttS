@@ -200,7 +200,7 @@ def scan():
     slot = local.strftime("%Y-%m-%d %H")
     state = load(STATE, {"last_slot": "", "posts": {}})
     # Even local hours only; each slot once. The GitHub workflow runs 4x/hour.
-    force_probe = os.getenv("GITHUB_EVENT_NAME") == "push"
+    force_probe = os.getenv("THREADS_TRENDS_FORCE_SCAN") == "1"  # explicit override only; ordinary push respects even local hours
     if (local.hour % 2 and not force_probe) or (state.get("last_slot") == slot and state.get("schema_version") == SCHEMA_VERSION):
         save(OUT, {"checked_at": when.isoformat(), "status": "skipped",
                    "reason": "outside_two_hour_window_or_already_scanned",
