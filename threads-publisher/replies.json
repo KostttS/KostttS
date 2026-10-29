@@ -360,5 +360,15 @@
     "id": "reply-2026-10-24-michael-hummus",
     "reply_to_id": "18030173513861592",
     "text": "Спасибо, полезно знать! Значит, в хумусии надо прямо просить без тхины. А в магазинных банках она, похоже, почти везде — поэтому и ищу другой вариант."
+  },
+  {
+    "id": "reply-2026-10-29-bike-taxi-mvp",
+    "reply_to_id": "4016165537571250202",
+    "text": "Hi! I build Android apps with Flutter/FlutterFlow, Firebase/Supabase and APIs. Your bike-taxi MVP needs connected customer/driver flows (OTP, maps, booking, trip tracking) and a usable admin. Portfolio: https://www.behance.net/24512dab. Do you already have a backend or maps provider? I can review the scope before discussing a quote."
+  },
+  {
+    "id": "reply-2026-10-29-restaurant-ordering",
+    "reply_to_id": "4014864548322102774",
+    "text": "Hi! I develop Flutter/FlutterFlow apps with ordering, payments, push and Firebase/Supabase integrations. I could handle the restaurant's mobile ordering app and coordinate APIs with the website developer. Portfolio: https://www.behance.net/24512dab. Have you chosen the ordering backend and payment provider? I can review requirements before proposing cost or timing."
   }
 ]
