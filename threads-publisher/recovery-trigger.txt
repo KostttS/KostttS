@@ -79,3 +79,5 @@ Reason: at 09:40 Asia/Jerusalem today's queued professional HERO threads-2026-10
 2026-10-29T08:25:43.619Z — Execute due buyer-specific Threads mention within allowed 08–12 Israel window; avoid duplicate posts and invalid replies; refresh lead hunt.
 
 2026-10-29T10:41:20Z — Recovery refresh: last Threads Publisher run 08:57Z despite cron 7,22,37,52; refresh hourly lead_discovery, 12:00 Asia/Jerusalem external_trends, analytics, inbox and replies_to_own_replies. Do not publish outside 08–12/19–23 local, no duplicate outreach or invalid public PK replies, preserve posts.json/replies.json, no other channels.
+
+2026-10-29T13:41:23Z — Recovery refresh: at 15:41 Asia/Jerusalem the latest completed Threads Publisher run and runtime pointer remain at 10:45Z (12:45 local), almost 3 hours stale despite cron 7,22,37,52. Run hourly lead hunt, inbox/replies_to_own_replies, analytics, and external trend sampling according to its even-local-hour guard. Do not publish originals outside 08–12/19–23 local; next due post is 19:20. Do not use public HTML PK as reply IDs or duplicate mentions. Leave posts.json and replies.json unchanged; no unrelated channels.
