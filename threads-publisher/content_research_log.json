@@ -1103,6 +1103,186 @@
         "api_replies_to_unverified_public_pks": 0,
         "own_public_mention_not_reply": 1
       }
+    },
+    {
+      "checked_at": "2026-10-29T14:39:58.020Z",
+      "local_analysis_slot": "2026-10-29 16:00 Asia/Jerusalem",
+      "source_cutoffs": {
+        "own_threads_runtime": "2026-10-29T13:48:59Z",
+        "runtime_run_id": "40885387364",
+        "external_trends_last_full": "2026-10-29T13:44:05Z",
+        "external_trends_run_id": "40884424317",
+        "lead_discovery_last_full": "2026-10-29T13:45:49Z",
+        "instagram_metricool_checked_at": "2026-10-29 16:37 Asia/Jerusalem",
+        "public_threads_live_check": "2026-10-29 16:37-16:40 Asia/Jerusalem"
+      },
+      "source_status": "16:00 slot: current artifact external_trends=skipped, lead_discovery=already_scanned_this_local_hour; used previous complete artifact (128 verified unique posts from 24 public page requests; lead hunt 28 pages/6 candidates). No 16:00-hour full scan yet. Public Threads pages fetched live to validate examples. Bounded sample only, not all Threads.",
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEf1J-GysI",
+          "published_at": "2026-10-29T07:43:06Z",
+          "age_hours_at_check_approx": 6.9,
+          "views": 23,
+          "replies": 0,
+          "likes": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "age_hours_at_check_approx": 6.2,
+          "views": 23,
+          "replies": 0,
+          "likes": 0,
+          "commercial_leads": 0,
+          "notes": "Own @mention post, not reply; notification unverified"
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfC_b6CICXi",
+          "published_at": "2026-10-28T17:40:46Z",
+          "age_hours_at_check_approx": 20.9,
+          "views": 79,
+          "replies": 0,
+          "likes": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfCBPYPm5IJ",
+          "published_at": "2026-10-28T08:37:18Z",
+          "age_hours_at_check_approx": 30,
+          "views": 95,
+          "replies": 0,
+          "likes": 0,
+          "commercial_leads": 0
+        }
+      ],
+      "own_threads_account_link_clicks": 0,
+      "own_instagram": {
+        "source": "Metricool brand 6890763 Instagram posts",
+        "last_post_url": "https://www.instagram.com/p/DfDAAhFCERl/",
+        "last_post_date": "2026-10-28",
+        "views": 2,
+        "reach": 2,
+        "comments": 0,
+        "interactions": 0,
+        "follows": 0,
+        "prior_2026_10_26": {
+          "views": 5,
+          "reach": 4,
+          "interactions": 0
+        },
+        "prior_2026_10_25": {
+          "views": 5,
+          "reach": 4,
+          "interactions": 0
+        },
+        "scheduled_posts_2026_10_29": 0,
+        "organic_link_clicks": "unavailable (deprecated Metricool field)"
+      },
+      "external_examples": [
+        {
+          "url": "https://www.threads.com/@tsaritovamina/post/DfEKtygEpop",
+          "author": "tsaritovamina",
+          "published_at": "2026-10-29T04:38:30Z",
+          "views_approx": 3200,
+          "likes": 28,
+          "replies": 33,
+          "reposts": "not reliably extracted",
+          "source": "live public Threads page",
+          "mechanism": "Specific funded-status-unverified buyer request: nanny-matching app with design ready; clear immediate need. Highest direct commercial relevance, but no confirmed contact or budget."
+        },
+        {
+          "url": "https://www.threads.com/@elmirkal_/post/DfCfPL-Dao1",
+          "author": "elmirkal_",
+          "published_at": "2026-10-28T12:59:21Z",
+          "views_approx": 87700,
+          "likes": 248,
+          "replies": 40,
+          "reposts": 5,
+          "source": "live public Threads page and external_trends",
+          "growth_in_external_trends_last_3h": {
+            "likes": 14,
+            "replies": 1,
+            "reposts": 1
+          },
+          "mechanism": "Concrete sale of existing coffee shop, price and DM CTA; attention is not mobile app demand. Adapt specificity/CTA, not topic."
+        },
+        {
+          "url": "https://www.threads.com/@andreystartsev/post/DfEk7IxFD88",
+          "author": "andreystartsev",
+          "published_at": "2026-10-29T08:27:31Z",
+          "views_approx": 1400,
+          "likes": 18,
+          "replies": 21,
+          "reposts": 1,
+          "source": "live public Threads page",
+          "growth_since_13_44Z": {
+            "likes": 2,
+            "replies": 1,
+            "reposts": 0
+          },
+          "mechanism": "Explicit process automation request for marketing agency and form; adjacent to integrations but NOT mobile-app buyer, no unsolicited contact."
+        },
+        {
+          "url": "https://www.threads.com/@portotonicvibe/post/DfFDnSTDU0s",
+          "author": "portotonicvibe",
+          "published_at": "2026-10-29T12:55:42Z",
+          "views_approx": 1400,
+          "likes": 40,
+          "replies": 13,
+          "reposts": 4,
+          "source": "live public Threads page",
+          "growth_since_13_44Z": {
+            "likes": 12,
+            "replies": 6,
+            "reposts": 4
+          },
+          "mechanism": "Unexpected unglamorous business problem and concrete imagery; test original client-specific pain points, not borrowed stories."
+        },
+        {
+          "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+          "author": "mellowbrandstudio",
+          "published_at": "2026-10-26T03:11:02Z",
+          "views": null,
+          "likes": 45,
+          "replies": 64,
+          "reposts": 0,
+          "source": "external_trends.json last full",
+          "growth_last_3h": {
+            "likes": 0,
+            "replies": 0,
+            "reposts": 0
+          },
+          "mechanism": "Explicit Flutter bike-taxi MVP scope, strong buyer relevance, but own @mention post has no verified reply; do not repeat."
+        }
+      ],
+      "lead_hunt": {
+        "last_full_scan": "2026-10-29T13:45:49Z",
+        "pages_checked": 28,
+        "unique_candidates": 6,
+        "newly_discovered": 2,
+        "new_relevant_paid_buyers": 0,
+        "disqualified_new": "One unpaid profit-share proposal, one developer self-promotion",
+        "saved_public_candidates": 6,
+        "verified_direct_contacts": 0,
+        "confirmed_paid": 0,
+        "reply_id_blocker": "No approved official threads_media IDs for external posts; public_post_pk invalid; 403/400 probes not retried.",
+        "threads_browser_login": "No signed-in Threads profile in TinyFish; cannot browser-reply.",
+        "inbox": "0 replies to recent own posts, 0 new commercial replies; mentions scope unavailable; old replies_to_own_replies only."
+      },
+      "decision": {
+        "scale": "No commercial conversion evidence to scale. Prioritize direct buyer requests over viral nonbuyer engagement.",
+        "remove": "Do not imitate unrelated viral personal/business stories, unpaid revenue share requests or self-promotion; no duplicate @mentions.",
+        "test": "Compare concise concrete client-failure hook and buyer CTA in next eligible posts; keep existing 19:20 payment-webhook post as controlled test, evaluate after published.",
+        "queue_changed": false,
+        "reason": "Current Threads posts 0 replies and 0 clicks; Instagram 0 interactions; no measured reason to rewrite pending 19:20 post. 16-hour full discovery missing, used last complete artifact and live page verification."
+      },
+      "limitations": [
+        "No verified 16:00-hour GitHub runtime scan yet; current pointer 15:49 local.",
+        "External post views from public page are approximate; external_trends views=null means unavailable, not zero.",
+        "Instagram competitor dataset unavailable; did not invent Instagram competitor metrics.",
+        "No official API reply ID or authenticated Threads browser session, so no direct outreach sent."
+      ]
     }
   ]
 }
