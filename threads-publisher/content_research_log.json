@@ -139,6 +139,29 @@
         ],
         "publication_status": "queued_not_confirmed"
       }
+    },
+    {
+      "checked_at": "2026-10-29T05:44:40.612Z",
+      "type": "api_reply_failure_correction",
+      "sources": [
+        "2026-10-29 public Threads HTML search",
+        "GitHub Threads publish failure state"
+      ],
+      "facts": [
+        "Public search collection returned verified external posts and public PK values.",
+        "Threads publish API rejected both attempted replies with code 100: public PK is not a valid threads_media ID.",
+        "Neither lead has been contacted through Threads API; no price or deadline committed."
+      ],
+      "lead_urls": [
+        "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+        "https://www.threads.com/@berlin_ceo070/post/De3qgj4DE32"
+      ],
+      "action": [
+        "Removed two invalid replies.json entries.",
+        "Saved both in public_lead_candidates.json as blocked pending verified official media IDs.",
+        "Added permanent non-retry guard in publisher and updated hourly automation instructions."
+      ],
+      "next_gate": "Verify threads_keyword_search approval in Meta App Review; public web PK must not be used as reply_to_id."
     }
   ]
 }
