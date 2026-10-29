@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "description": "Public Threads leads discovered from bounded public HTML sample. Public post PKs are NOT verified Threads API reply_to_id; never auto-publish on these IDs.",
+  "leads": [
+    {
+      "id": "public-lead-2026-10-29-bike-taxi",
+      "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+      "username": "mellowbrandstudio",
+      "public_post_pk": "4016165537571250202",
+      "confirmed_api_media_id": null,
+      "observed_at": "2026-10-29T05:37:23Z",
+      "request": "Android-only Flutter bike taxi MVP: OTP, pickup/drop, ride booking/tracking, driver and mobile-friendly admin",
+      "observed_likes": 45,
+      "observed_replies": 64,
+      "status": "reply_api_blocked_needs_verified_media_id",
+      "draft": "Hi! I build Android apps with Flutter/FlutterFlow, Firebase/Supabase and APIs. Your bike-taxi MVP needs connected customer/driver flows (OTP, maps, booking, trip tracking) and a usable admin. Portfolio: https://www.behance.net/24512dab. Do you already have a backend or maps provider? I can review the scope before discussing a quote."
+    },
+    {
+      "id": "public-lead-2026-10-29-restaurant-ordering",
+      "url": "https://www.threads.com/@berlin_ceo070/post/De3qgj4DE32",
+      "username": "berlin_ceo070",
+      "public_post_pk": "4014864548322102774",
+      "confirmed_api_media_id": null,
+      "observed_at": "2026-10-29T05:37:23Z",
+      "request": "Restaurant mobile app plus website for food orders; wants portfolio, estimated cost and timeline",
+      "observed_likes": 78,
+      "observed_replies": 182,
+      "status": "reply_api_blocked_needs_verified_media_id",
+      "draft": "Hi! I develop Flutter/FlutterFlow apps with ordering, payments, push and Firebase/Supabase integrations. I could handle the restaurant's mobile ordering app and coordinate APIs with the website developer. Portfolio: https://www.behance.net/24512dab. Have you chosen the ordering backend and payment provider? I can review requirements before proposing cost or timing."
+    }
+  ]
+}
