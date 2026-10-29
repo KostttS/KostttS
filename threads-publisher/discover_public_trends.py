@@ -17,6 +17,7 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
+SCHEMA_VERSION = 2
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "external_trends.json"
 STATE = ROOT / "trends_state.json"
@@ -27,7 +28,7 @@ SCRIPT_RE = re.compile(r'<script[^>]*type=["\x27]application/json["\x27][^>]*>(.
 # Fixed buyer and creator terms, plus rotating broad RU/EN topics. This is a
 # sample of searchable public posts, NOT a firehose of all Threads content.
 CORE = [
-    "FlutterFlow", "Flutter", "MVP", "ищу разработчика",
+    "FlutterFlow", "Flutter", "MVP app", "ищу разработчика",
     "mobile app", "agency", "стартап", "бизнес"
 ]
 ROTATING = [
@@ -155,7 +156,8 @@ def normalize(post, query, source_view, when, prior):
         velocity = (growth.get("likes_delta") or 0) + 4 * (growth.get("replies_delta") or 0) + 3 * (growth.get("reposts_delta") or 0)
         score += round(velocity / max(0.5, growth["elapsed_hours"]), 2)
     return {
-        "code": code, "url": "https://www.threads.com/@" + username + "/post/" + code,
+        "code": code, "post_id": str(post.get("pk") or ""),
+        "url": "https://www.threads.com/@" + username + "/post/" + code,
         "username": username, "timestamp": datetime.fromtimestamp(ts, timezone.utc).isoformat(),
         "age_hours": round(age_h, 1), "text_excerpt": body[:550],
         "matched_queries": [query], "views": None, "likes": likes, "replies": replies,
@@ -167,9 +169,25 @@ def normalize(post, query, source_view, when, prior):
 
 def buyer_signal(row):
     t = row["text_excerpt"].lower()
-    need = any(s in t for s in ("looking for", "need a", "hiring", "ищу", "нужен", "нужна", "ищем"))
-    dev = any(s in t for s in ("flutter", "mobile app", "app developer", "разработчик", "приложени", "mvp"))
-    return need and dev
+    # Avoid agencies advertising their own services or 'algorithm connect me' posts.
+    if any(s in t for s in ("get a free quote", "message us", "we build apps",
+                             "we are a software house", "connect me with founders",
+                             "our development services", "dm for projects")):
+        return False
+    exact_need = re.search(
+        r"(looking for|need|hiring|hire|seeking|ищу|нужен|нужна|ищем|требуется)"
+        r".{0,80}(flutter\s*(developer|dev)|mobile\s*(app\s*)?developer|"
+        r"app\s*developer|developer\s*for\s*(an?\s*)?app|"
+        r"разработчик|разработчика|программист)",
+        t, re.I | re.S
+    )
+    app_need = re.search(
+        r"(need|looking for|хочу|нужно|нужен|ищу).{0,55}"
+        r"(someone to build|build an?\s*(android|ios|mobile)\s*app|"
+        r"разработать приложение|создать приложение|приложение под ключ)",
+        t, re.I | re.S
+    )
+    return bool(exact_need or app_need)
 
 def scan():
     when = now_utc()
@@ -178,7 +196,7 @@ def scan():
     state = load(STATE, {"last_slot": "", "posts": {}})
     # Even local hours only; each slot once. The GitHub workflow runs 4x/hour.
     force_probe = os.getenv("GITHUB_EVENT_NAME") == "push"
-    if (local.hour % 2 and not force_probe) or state.get("last_slot") == slot:
+    if (local.hour % 2 and not force_probe) or (state.get("last_slot") == slot and state.get("schema_version") == SCHEMA_VERSION):
         save(OUT, {"checked_at": when.isoformat(), "status": "skipped",
                    "reason": "outside_two_hour_window_or_already_scanned",
                    "last_scan_at": state.get("last_scan_at"), "coverage": "bounded_public_sample"})
@@ -248,7 +266,7 @@ def scan():
     updated = dict(sorted(updated.items(),
                           key=lambda item: number(item[1].get("last_seen_unix")) or 0,
                           reverse=True)[:1200])
-    save(STATE, {"last_slot": slot, "last_scan_at": when.isoformat(),
+    save(STATE, {"schema_version": SCHEMA_VERSION, "last_slot": slot, "last_scan_at": when.isoformat(),
                  "status": status, "posts": updated})
     print("Threads public trend sample:", status, len(ranked),
           "verified posts,", len(buyer), "possible buyer signals in", len(diagnostics), "pages")
