@@ -148,6 +148,8 @@ def main() -> int:
     state = load_json(STATE_FILE, {"published_ids": [], "published_reply_ids": []})
     published_ids = set(state.get("published_ids", []))
     published_reply_ids = set(state.get("published_reply_ids", []))
+    failed_reply_ids = dict(state.get("failed_reply_ids", {}))
+    state_changed = False
     now = datetime.now(timezone.utc)
     published_any = False
 
@@ -202,7 +204,7 @@ def main() -> int:
         target_id = str(reply.get("reply_to_id", "")).strip()
         text = str(reply.get("text", "")).strip()
         send_at = str(reply.get("send_at", "")).strip() or None
-        if not reply_key or not target_id or not text or reply_key in published_reply_ids:
+        if not reply_key or not target_id or not text or reply_key in published_reply_ids or reply_key in failed_reply_ids:
             continue
         if is_due(send_at, now):
             due_replies.append(reply)
@@ -218,12 +220,26 @@ def main() -> int:
         if len(text) > 500:
             print(f"Skipping oversized queued reply {reply_key}: {len(text)} chars (Threads limit 500).", file=sys.stderr)
             continue
-        post_id = publish_post(token, user_id, text, reply_to_id=target_id)
+        try:
+            post_id = publish_post(token, user_id, text, reply_to_id=target_id)
+        except Exception as exc:
+            # Do not block analytics/publishing or repeatedly send a comment
+            # whose first attempt might have succeeded before a transport error.
+            failed_reply_ids[reply_key] = {
+                "reply_to_id": target_id,
+                "attempted_at": datetime.now(timezone.utc).isoformat(),
+                "error": str(exc)[:600],
+                "status": "needs_review_no_automatic_retry",
+            }
+            state_changed = True
+            print(f"Queued reply {reply_key} failed, flagged for review (no retry): {exc}", file=sys.stderr)
+            continue
         print(f"Published queued reply {reply_key}: {post_id}")
         published_reply_ids.add(reply_key)
         published_any = True
 
-    if published_any:
+    if published_any or state_changed:
+        state["failed_reply_ids"] = failed_reply_ids
         state["published_ids"] = sorted(published_ids)
         state["published_reply_ids"] = sorted(published_reply_ids)
         state["last_run_at"] = datetime.now(timezone.utc).isoformat()
