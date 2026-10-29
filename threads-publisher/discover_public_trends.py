@@ -107,7 +107,7 @@ def fetch(q, view):
         "Accept-Language": "en-US,en;q=0.9"
     })
     try:
-        with urlopen(req, timeout=18) as resp:
+        with urlopen(req, timeout=8) as resp:
             if resp.status != 200:
                 return [], {"http_status": resp.status}
             page = resp.read(5_000_000).decode("utf-8", errors="replace")
@@ -177,7 +177,8 @@ def scan():
     slot = local.strftime("%Y-%m-%d %H")
     state = load(STATE, {"last_slot": "", "posts": {}})
     # Even local hours only; each slot once. The GitHub workflow runs 4x/hour.
-    if local.hour % 2 or state.get("last_slot") == slot:
+    force_probe = os.getenv("GITHUB_EVENT_NAME") == "push"
+    if (local.hour % 2 and not force_probe) or state.get("last_slot") == slot:
         save(OUT, {"checked_at": when.isoformat(), "status": "skipped",
                    "reason": "outside_two_hour_window_or_already_scanned",
                    "last_scan_at": state.get("last_scan_at"), "coverage": "bounded_public_sample"})
@@ -190,8 +191,13 @@ def scan():
     all_posts = {}
     diagnostics = []
     total_embedded = 0
+    deadline = time.monotonic() + 115  # avoid holding publishing runs for long
+    budget_exhausted = False
     for q in queries:
         for view in ("recent", "default"):
+            if time.monotonic() >= deadline:
+                budget_exhausted = True
+                break
             found, diag = fetch(q, view)
             total_embedded += len(found)
             diagnostics.append({"query": q, "view": view, **diag})
@@ -208,6 +214,8 @@ def scan():
                 else:
                     all_posts[key] = row
             time.sleep(0.30)
+        if budget_exhausted:
+            break
     ranked = sorted(all_posts.values(), key=lambda x: x["score_heuristic"], reverse=True)
     buyer = [x for x in ranked if buyer_signal(x)]
     good_responses = sum(d.get("embedded_posts", 0) > 0 for d in diagnostics)
@@ -223,7 +231,8 @@ def scan():
         "pages_with_embedded_posts": good_responses, "embedded_posts_before_filter": total_embedded,
         "verified_unique_external_posts": len(ranked),
         "high_engagement_candidates": sum(x["high_engagement_candidate"] for x in ranked),
-        "http_403_or_429": blocked, "diagnostics": diagnostics,
+        "http_403_or_429": blocked, "time_budget_exhausted": budget_exhausted,
+        "diagnostics": diagnostics,
         "top_posts": ranked[:25], "buyer_signals": buyer[:12]
     }
     save(OUT, output)
