@@ -72,3 +72,6 @@ Reason: at 05:40 Asia/Jerusalem latest Threads Publisher run completed 2026-10-2
 
 Recovery monitoring trigger: 2026-10-28T08:36:08Z
 Reason: 10:36 Asia/Jerusalem, latest completed Threads Publisher run 07:18Z, and today's 09:40 HERO threads-2026-10-28-hero-rental-no-agent remains absent from published_ids. Trigger queue to publish only today's due HERO within 08-12 local, refresh analytics/inbox/replies_to_own_replies/discovery. Avoid duplicates, preserve posts.json and replies.json, no unrelated channels or biographical claims.
+
+Recovery monitoring trigger: 2026-10-29T07:40:10Z
+Reason: at 09:40 Asia/Jerusalem today's queued professional HERO threads-2026-10-29-hero-support-risk is due, but latest completed Threads Publisher run and runtime pointer remain at 05:44Z, and state.json has no published ID for this post. Trigger the existing queue runner and refresh analytics, inbox, replies_to_own_replies and discovery. Preserve 08-12/19-23 local publishing windows; publisher must check state to avoid duplicate publication, must not retry blocked public HTML PK lead replies, and must leave posts.json and replies.json unchanged. No unrelated channels or unverified personal anecdotes.
