@@ -1283,6 +1283,193 @@
         "Instagram competitor dataset unavailable; did not invent Instagram competitor metrics.",
         "No official API reply ID or authenticated Threads browser session, so no direct outreach sent."
       ]
+    },
+    {
+      "checked_at": "2026-10-29T16:40:30Z",
+      "local_analysis_slot": "2026-10-29 18:00 Asia/Jerusalem",
+      "source_cutoffs": {
+        "runtime_pointer_updated_at": "2026-10-29T16:02:43Z",
+        "runtime_run_id": "40907085479",
+        "own_threads_analytics": "2026-10-29T16:02:34Z",
+        "external_trends": "2026-10-29T16:01:17Z",
+        "lead_discovery": "2026-10-29T15:59:33Z",
+        "inbox": "2026-10-29T16:02:34Z",
+        "instagram_metricool_checked": "2026-10-29 18:40 Asia/Jerusalem",
+        "public_web_search": "2026-10-29 18:40 Asia/Jerusalem"
+      },
+      "source_status": "Current 18:00 local slot verified: fresh GitHub artifact has 159 unique external posts from 24 public page requests (20 pages with posts, 0 HTTP 403/429); bounded sample, not all Threads. Separate lead hunt checked 28 public pages, 7 candidates, one newly discovered generic request. Official keyword discovery still 39 queries/0 results, public search unverified; alternative public web searches found no additional verified leads.",
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEf1J-GysI",
+          "published_at": "2026-10-29T07:43:06Z",
+          "age_hours_at_check_approx": 10.96,
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "age_hours_at_check_approx": 10.26,
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "commercial_leads": 0,
+          "notes": "Own public @mention, not a reply; notification and delivery unverified"
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfC_b6CICXi",
+          "published_at": "2026-10-28T17:40:46Z",
+          "age_hours_at_check_approx": 23,
+          "views": 79,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfCBPYPm5IJ",
+          "published_at": "2026-10-28T08:37:18Z",
+          "age_hours_at_check_approx": 32.05,
+          "views": 95,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        }
+      ],
+      "own_threads_account_link_clicks": 0,
+      "own_instagram": {
+        "source": "Metricool brand 6890763, Instagram posts",
+        "latest_post_date": "2026-10-28",
+        "views": 2,
+        "reach": 2,
+        "interactions": 0,
+        "comments": 0,
+        "previous_2026_10_26": {
+          "views": 5,
+          "reach": 4,
+          "interactions": 0
+        },
+        "previous_2026_10_25": {
+          "views": 5,
+          "reach": 4,
+          "interactions": 0
+        },
+        "scheduled_posts_2026_10_29_30": 0,
+        "organic_clicks": "unavailable (deprecated Metricool field)",
+        "commercial_leads_confirmed": 0
+      },
+      "external_examples": [
+        {
+          "url": "https://www.threads.com/@hormozi/post/DfDB01Qn6b3",
+          "author": "hormozi",
+          "published_at": "2026-10-28T18:01:39Z",
+          "age_hours_at_scan": 22,
+          "likes": 928,
+          "replies": 65,
+          "reposts": 66,
+          "views": null,
+          "mechanism": "Three-part concise contrast Sales < Marketing < Product; immediately debatable hierarchy and strong compression. Could test an original customer-focused comparison (working payment > extra screens) but not copy; business attention, not app buyer."
+        },
+        {
+          "url": "https://www.threads.com/@kazantsev_fingram/post/DfEYA66kYOH",
+          "author": "kazantsev_fingram",
+          "published_at": "2026-10-29",
+          "age_hours_at_scan": 9.4,
+          "likes": 312,
+          "replies": 43,
+          "reposts": 4,
+          "views": null,
+          "mechanism": "Specific business cost pressures, humorous contrast between being self-employed and paying overhead; relatable founder pain. Adapt by naming real operational losses from broken ordering flow, not personal anecdotes. Engagement is not confirmed buyer intent."
+        },
+        {
+          "url": "https://www.threads.com/@portotonicvibe/post/DfFDnSTDU0s",
+          "author": "portotonicvibe",
+          "published_at": "2026-10-29",
+          "age_hours_at_scan": 3.1,
+          "likes": 53,
+          "replies": 17,
+          "reposts": 0,
+          "views": null,
+          "growth_vs_previous_logged_at_16h": {
+            "likes": 13,
+            "replies": 4,
+            "reposts": "inconsistent public parser: previously 4, now 0; do not infer decline"
+          },
+          "mechanism": "Counterintuitive unglamorous business niche plus concrete practical problem; adapt to an original specific repair/use-case post, not copying story."
+        },
+        {
+          "url": "https://www.threads.com/@elmirkal_/post/DfCfPL-Dao1",
+          "author": "elmirkal_",
+          "published_at": "2026-10-28T12:59:21Z",
+          "age_hours_at_scan": 27,
+          "likes": 248,
+          "replies": 40,
+          "reposts": 5,
+          "views": null,
+          "growth_vs_previous_logged_at_16h": {
+            "likes": 0,
+            "replies": 0,
+            "reposts": 0
+          },
+          "mechanism": "Specific ready-made business for sale, concrete offer and CTA; adapt specificity in scope/CTA, but no mobile development lead."
+        },
+        {
+          "url": "https://www.threads.com/@berlin_ceo070/post/De3qgj4DE32",
+          "author": "berlin_ceo070",
+          "published_at": "2026-10-24T08:06:12Z",
+          "age_hours_at_scan": 127.9,
+          "likes": 78,
+          "replies": 183,
+          "reposts": 1,
+          "views": null,
+          "mechanism": "Explicit restaurant website + mobile food ordering app brief, portfolio/cost/timing requested; real potential buyer but high reply competition. Already saved, no verified API media ID; cannot send reply."
+        }
+      ],
+      "lead_hunt": {
+        "status": "public_lead_candidates_found",
+        "pages_checked": 28,
+        "unique_candidates": 7,
+        "newly_discovered_candidates": 1,
+        "new_candidate": {
+          "url": "https://www.threads.com/@mrityunjoy_143/post/De0dNcSiIwM",
+          "author": "mrityunjoy_143",
+          "published_at": "2026-10-23T02:12:16Z",
+          "request": "Looking for an app developer",
+          "likes": 20,
+          "replies": 42,
+          "qualification": "generic, ~6.5 days old, no scope/budget/funding; research-only, not counted as verified payable order",
+          "draft": "Hi! I build iOS/Android business apps with Flutter/FlutterFlow, Firebase/Supabase and APIs. What kind of app do you need, and is there an approved budget and target platform? I can share relevant work once I understand the scope."
+        },
+        "existing_saved_candidates": 6,
+        "new_verified_paid_buyers": 0,
+        "confirmed_direct_contacts": 0,
+        "confirmed_paid": 0,
+        "inbox": {
+          "replies_to_recent_posts": 0,
+          "new_commercial_replies": 0,
+          "replies_to_own_replies": "only older conversations, latest Oct 24",
+          "mentions_scope_available": false
+        },
+        "reply_id_blocker": "Official exact target threads_media ID unavailable; public_post_pk invalid; no 403/400 probe retries",
+        "outreach_sent": 0
+      },
+      "decision": {
+        "scale": "No theme proven to convert into qualified buyer contacts. Do not scale based on reach alone.",
+        "remove": "Avoid generic viral personal topics, developer self-promotion and unpaid equity-only offers.",
+        "test": "Keep the 19:20 local buyer-focused payment/webhook failure post as a controlled test; measure its first 2-24h views, replies and commercial inquiries after confirmed publication; favor concrete customer failure and clear qualification CTA.",
+        "queue_changed": false,
+        "reason": "Current own Threads posts have 0 replies/clicks and Instagram posts 0 interactions; no new conversion evidence to justify changing future queue. Evening post is PENDING, not published."
+      },
+      "limitations": [
+        "External post views=null means unavailable, not zero.",
+        "Official Threads discovery 39 queries/0 results; public bounded sample verified via artifact; web alternatives found no additional verified results.",
+        "Instagram competitor posts/metrics not configured; no fabricated comparisons.",
+        "Instagram DMs not available via Metricool; cannot assert inbox absence there.",
+        "No approved exact official API media IDs or signed-in Threads browser for external replies."
+      ]
     }
   ]
 }
