@@ -54,7 +54,7 @@ def scan():
             "reason":"Known official profile endpoints returned 403; public HTML PK is not a Threads API media ID. No requests attempted.",
             "confirmed_api_media_ids":0,
             "results":[]
-        },ensure_ascii=False,indent=2)+"\\n","utf-8")
+        },ensure_ascii=False,indent=2)+"\n","utf-8")
         print("Lead ID probe skipped: no verified App Review change marker; zero API calls")
         return
     token=os.getenv("THREADS_ACCESS_TOKEN","").strip()
