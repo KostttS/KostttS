@@ -3750,6 +3750,106 @@
         "replies_sent": 0,
         "instagram_post_created": false,
         "reason": "At 16h no permitted original posting, no new confirmed buyer, no valid target media ID. Last verified runtime 15h and latest full external 14h; 16h scheduled result not yet available."
+      },
+      "post_recovery_runtime": {
+        "verified_at": "2026-10-30T14:42:27Z",
+        "run_id": "41073386376",
+        "status": "completed",
+        "conclusion": "success",
+        "artifact_name": "threads-runtime-41073386376-1",
+        "external_trends": {
+          "checked_at": "2026-10-30T14:40:42Z",
+          "status": "verified_public_sample",
+          "unique_posts": 128,
+          "pages_checked": 24,
+          "pages_with_posts": 20,
+          "coverage": "bounded_public_search_sample_not_all_threads",
+          "views": "null = unavailable, not zero",
+          "top_relevant_examples": [
+            {
+              "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+              "likes": 71,
+              "replies": 106,
+              "reposts": 1,
+              "growth_since_14h": {
+                "likes": 5,
+                "replies": 4
+              },
+              "mechanism": "Exact marketing-agency audience and one simple CTA; conversations not paid mobile-app demand"
+            },
+            {
+              "url": "https://www.threads.com/@onmylevel_chey/post/DfFmt8TFQa0",
+              "likes": 774,
+              "replies": 19,
+              "reposts": 31,
+              "growth_elapsed_hours": 11.98,
+              "growth": {
+                "likes": 568,
+                "replies": 6,
+                "reposts": 22
+              },
+              "mechanism": "Humorous founder-role overload and contrast, strong shares; founder attention but no paid app intent; do not copy"
+            },
+            {
+              "url": "https://www.threads.com/@dk_petersburg/post/DfHBOe-EXrw",
+              "likes": 16,
+              "replies": 45,
+              "reposts": 0,
+              "growth_since_14h": {
+                "likes": 7,
+                "replies": 13
+              },
+              "mechanism": "Regional small-business self-promotion prompt attracts introductions; low relevance to commissioned mobile apps"
+            },
+            {
+              "url": "https://www.threads.com/@core_mur67/post/DfGy4HJCDPv",
+              "likes": 25,
+              "replies": 70,
+              "reposts": 0,
+              "growth": null,
+              "mechanism": "Explicit $500 website brief creates many responses; real procurement wording but not mobile app, do not count as mobile lead"
+            }
+          ]
+        },
+        "lead_discovery": {
+          "checked_at": "2026-10-30T14:38:32Z",
+          "pages_checked": 28,
+          "unique_candidates": 4,
+          "newly_discovered": 0,
+          "without_obvious_disqualifiers": 1,
+          "existing_qualified": [
+            "mellowbrandstudio bike taxi"
+          ],
+          "excluded": [
+            "pixxiebubbles82 unpaid rev-share",
+            "work_fromhome349 duplicate text across accounts",
+            "berlin_ceo070 restaurant brief now flagged same text from multiple accounts; verify authenticity before contact"
+          ],
+          "verified_media_ids": 0,
+          "confirmed_paid_projects": 0
+        },
+        "own_threads": {
+          "checked_at": "2026-10-30T14:42:11Z",
+          "agency_post_views": 42,
+          "agency_post_likes": 3,
+          "agency_post_replies": 2,
+          "payment_webhook_post_views": 28,
+          "delta_payment_views_since_15h": 1,
+          "link_clicks": 0,
+          "new_commercial_replies": 0
+        },
+        "inbox": {
+          "checked_at": "2026-10-30T14:42:11Z",
+          "new_buyer_replies": 0,
+          "kuro_solutions_new_response": false,
+          "mentions_scope_available": false
+        },
+        "action": {
+          "posts_published": 0,
+          "replies_sent": 0,
+          "queue_changed": false,
+          "reason": "16h outside posting window; no new qualified funded lead or verified buyer media ID. No measurable basis to scale posts."
+        }
       }
     }
   ]
