@@ -135,3 +135,6 @@ Reason: scheduled 19:20 buyer-specific own @mention post threads-2026-10-30-targ
 
 Recovery request 2026-10-30T18:41:21Z (20:41 Asia/Jerusalem)
 Reason: latest Threads Publisher run was 2026-10-30T17:40Z (19:40 local), and 20:00 even-hour trends, lead hunt, inbox/analytics are overdue despite 7,22,37,52 cron. Trigger existing workflow once to refresh 20h bounded external trends, paid-buyer discovery, own analytics, inbox/replies_to_own_replies and verify 19:40 targeted @mention outcomes. The own mention is already published; do not duplicate it or assume the buyer was notified. No public HTML PK as API reply ID, no queue rewrites, no Egor stories/Brandi Flo, no unrelated channels. Original posting only 08-12/19-23 local.
+
+Recovery request 2026-10-30T19:39:18Z
+Reason: 21:39 Asia/Jerusalem hourly audit: latest confirmed scheduled run #623 completed 20:49 local; no newer workflow run in public actions listing. Trigger a single queue/inbox/analytics/buyer-hunt refresh. Do not duplicate the already published @welkxdigital.tech mention, and do not create new originals without evidence. Keep official media ID guardrails.
