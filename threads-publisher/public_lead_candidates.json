@@ -270,19 +270,26 @@
       "observed_views": null,
       "observed_metrics_source": "Public Threads UI verified in TinyFish browser 2026-10-30 ~18:36 Asia/Jerusalem; likes not numbered, views unavailable",
       "priority": "high_stated_budget_urgent_but_scope_exceeds_typical_1500_full_airbnb_clone",
-      "status": "verified_public_budgeted_brief_not_contacted_no_verified_media_id",
+      "status": "own_public_mention_published_no_verified_buyer_contact",
       "draft": "Hi! I saw your $1,500 Airbnb-style BnB app brief. I build Flutter/FlutterFlow iOS/Android apps with Firebase/Supabase and APIs. At that budget I'd suggest a tightly scoped MVP, not a full Airbnb clone. Is the brief still open, and which flow is essential first: listings, booking, or payments? Portfolio: https://www.behance.net/24512dab",
-      "contact_attempted": false,
+      "contact_attempted": true,
       "reply_under_buyer_post_sent": false,
       "notes": "Original buyer post verified via browser, not @dreambit.io's reply. No official threads_media ID; do not use HTML public PK or attempt API reply. Check other-channel duplicates before any outreach. Budget stated in public post, actual funded contract not confirmed.",
       "planned_outreach": {
         "kind": "own_original_post_with_at_mention_not_reply",
         "queued_post_id": "threads-2026-10-30-targeted-bnb-brief-mention",
         "publish_at": "2026-10-30T17:20:00Z",
-        "status": "queued_pending_unverified",
+        "status": "published_own_post_confirmed_not_reply",
         "delivery_or_notification_verified": false,
         "reply_under_buyer_post_sent": false,
-        "followup_policy": "After runtime API confirms own post, record permalink and monitor reactions; no repeated mentions or claims of direct contact. No API reply without validated target threads_media ID."
+        "followup_policy": "After runtime API confirms own post, record permalink and monitor reactions; no repeated mentions or claims of direct contact. No API reply without validated target threads_media ID.",
+        "own_post_permalink": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+        "own_official_media_id": "18449185375125834",
+        "verified_from": "GitHub Threads runtime analytics.json 2026-10-30T17:42:27Z and state.json published_ids",
+        "published_at": "2026-10-30T17:40:27Z",
+        "observed_replies_at_19_42": 0,
+        "observed_views_at_19_42": 0,
+        "notes": "Own public @mention is confirmed published; this is not a reply to buyer post and does not prove notification or buyer contact. No repeat mentions."
       }
     }
   ]
