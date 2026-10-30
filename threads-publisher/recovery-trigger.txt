@@ -110,3 +110,6 @@ Reason: at 06:45 Asia/Jerusalem, latest verified runtime_pointer is 2026-10-30T0
 
 Recovery monitoring trigger: 2026-10-30T05:34:11Z
 Reason: at 07:34 Asia/Jerusalem last runtime pointer is 2026-10-30T04:48:47Z (06:48 local); scheduled 07:07/07:22 cron checks absent. Refresh hourly buyer discovery, Threads inbox/replies/analytics and external trends when due. No original content scheduled for 30 Oct and current time is outside 08-12/19-23 local posting windows. No duplicates, no unverified public PK replies; do not change queue or attributed facts.
+
+Recovery request 2026-10-30T07:44:00Z
+Reason: at 09:44 Asia/Jerusalem the latest verified Threads Publisher run remains 2026-10-30T06:39Z (08:39 local), despite scheduled cron 7,22,37,52; 09 local hourly scan not yet available. Trigger existing queue safely to refresh hourly buyer hunt, inbox/replies_to_own_replies and own analytics; the new 08:39 agency post shows a public reply needing classification. Odd local hour: do not duplicate even-hour external trend sampling. No new original post due, no duplicate contacts or public HTML PK replies; preserve queue, time windows and Konstantin/Egor attribution. No other channels.
