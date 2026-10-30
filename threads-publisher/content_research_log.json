@@ -3851,6 +3851,186 @@
           "reason": "16h outside posting window; no new qualified funded lead or verified buyer media ID. No measurable basis to scale posts."
         }
       }
+    },
+    {
+      "checked_at": "2026-10-30T16:36:09Z",
+      "local_slot": "2026-10-30 18:00 Asia/Jerusalem (review at 18:36)",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "runtime_pointer": "2026-10-30T15:46:51Z",
+        "latest_runtime_run_id": "41083467502",
+        "own_threads_analytics": "2026-10-30T15:46:40Z",
+        "inbox": "2026-10-30T15:46:40Z",
+        "lead_discovery": "2026-10-30T15:44:30Z",
+        "external_trends_full": "2026-10-30T14:40:42Z",
+        "external_trends_run_id": "41073386376",
+        "instagram_metricool": "2026-10-30 around 18:36 Asia/Jerusalem",
+        "buyer_direct_browser": "2026-10-30 around 18:36 Asia/Jerusalem"
+      },
+      "source_status": {
+        "scheduled_workflow": "No new 18h runtime pointer by 18:36; latest pointer remains 17:46 local. GitHub connector can read artifacts but exposes no workflow dispatch or run listing; no claim of successful 18h scheduled run.",
+        "external_trends": "17h artifact status skipped, correctly reused 16h verified_public_sample: 128 unique posts from 24 pages; not full Threads",
+        "external_views": "null means unavailable, not zero",
+        "official_keyword_search": "17h official discovery count 0; approved App Review access not established; no verified target media IDs",
+        "mentions": "mentions scope unavailable; 17h inbox no new commercial response",
+        "web_search": "Alternative public search found apparent $1500 BnB brief in @dreambit.io reply snippet; browser traced original author @welkxdigital.tech and verified original post. Search snippet author would have been a false positive.",
+        "instagram_competitors": "Fresh verified competitor Instagram post metrics unavailable; cannot claim analysis of competitor IG performance."
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+          "published_at": "2026-10-30T06:39:13Z",
+          "age_hours_at_snapshot": 9.12,
+          "views": 42,
+          "likes": 3,
+          "replies": 2,
+          "commercial_buyer_replies": 0,
+          "technical_partner_replies": 1,
+          "topic": "web agency booking website/mobile backend sync"
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "age_hours_at_snapshot": 22.18,
+          "views": 28,
+          "likes": 0,
+          "replies": 1,
+          "commercial_buyer_replies": 0,
+          "topic": "payment webhook missing order"
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "topic": "own @mention of bike-taxi author; no reply delivery confirmed"
+        }
+      ],
+      "own_threads_link_clicks": 0,
+      "own_instagram": {
+        "source": "Metricool blog 6890763 read 2026-10-30 18:36 local",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "published_at_local": "2026-10-28 17:46:21",
+            "age_hours_approx": 48.8,
+            "views": 4,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "published_at_local": "2026-10-26 08:03:36",
+            "age_hours_approx": 106.5,
+            "views": 8,
+            "reach": 5,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+            "published_at_local": "2026-10-25 08:03:09",
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          }
+        ],
+        "organic_clicks": "deprecated/unavailable, not zero"
+      },
+      "external_threads": [
+        {
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "likes": 71,
+          "replies": 106,
+          "reposts": 1,
+          "views": null,
+          "growth_2h": {
+            "likes": 5,
+            "replies": 4
+          },
+          "mechanism": "Exact agency-owner audience and one low-friction invitation; comments do not imply paying app customers. Adapt as a concrete agency integration brief request."
+        },
+        {
+          "url": "https://www.threads.com/@onmylevel_chey/post/DfFmt8TFQa0",
+          "author": "onmylevel_chey",
+          "published_at": "2026-10-29T18:02:26Z",
+          "likes": 774,
+          "replies": 19,
+          "reposts": 31,
+          "views": null,
+          "growth_12h": {
+            "likes": 568,
+            "replies": 6,
+            "reposts": 22
+          },
+          "mechanism": "Humorous multi-role founder overload and short list drive sharing; relevant to founder attention but no paid development intent. Do not imitate generic humor."
+        },
+        {
+          "url": "https://www.threads.com/@jeffbullas/post/DfF_lNLE47G",
+          "author": "jeffbullas",
+          "published_at": "2026-10-29T21:39:42Z",
+          "likes": 119,
+          "replies": 103,
+          "reposts": 0,
+          "views": null,
+          "mechanism": "Identity-specific question to older founders lowers response friction; discussion not buyer demand. Adapt only to a real owner workflow question."
+        },
+        {
+          "url": "https://www.threads.com/@core_mur67/post/DfGy4HJCDPv",
+          "author": "core_mur67",
+          "published_at": "2026-10-30T05:07:55Z",
+          "likes": 25,
+          "replies": 70,
+          "reposts": 0,
+          "views": null,
+          "mechanism": "Explicit $500 website budget and concrete procurement request attracts responses; not mobile app, do not count as mobile development lead."
+        }
+      ],
+      "lead_search": {
+        "latest_hourly_pages_checked": 28,
+        "latest_hourly_candidates": 5,
+        "latest_hourly_new_candidates": 0,
+        "latest_hourly_without_obvious_disqualifiers": 1,
+        "new_directly_verified_external_buyer": {
+          "url": "https://www.threads.com/@welkxdigital.tech/post/De9urjekykQ",
+          "author": "welkxdigital.tech",
+          "original_date": "2026-10-26",
+          "budget_usd_stated": 1500,
+          "scope": "Airbnb-style BnB mobile app, ASAP",
+          "public_comments": 4,
+          "public_reposts": 1,
+          "public_shares": 2,
+          "public_likes": null,
+          "public_views": null,
+          "source": "TinyFish live browser verified original post, not @dreambit.io developer reply",
+          "contact_status": "not_contacted_no_verified_media_id",
+          "budget_caveat": "Full Airbnb-style feature scope likely too broad for stated budget; ask for narrow MVP and whether brief still open"
+        },
+        "stored_candidates_after_update": 13,
+        "confirmed_new_buyer_contacts": 0,
+        "confirmed_paid_orders": 0,
+        "official_buyer_media_ids": 0,
+        "kuro_solutions": "No new reply since verified technical answer",
+        "notes": [
+          "Buyer post is verified public with stated budget, but funding/availability and willingness to hire are not independently confirmed.",
+          "Do not confuse @dreambit.io reply with original buyer.",
+          "No API reply without official media ID, no repeated @mentions or speculative delivery."
+        ]
+      },
+      "decision": {
+        "scale": "No theme has demonstrated paid client acquisition; cannot scale based on likes or views alone.",
+        "remove": "Avoid generic Instagram promos, developer-only networking, unpaid rev-share and broad viral jokes; exclude Brandi Flo and Egor life stories.",
+        "test": "Prioritize real $1500 BnB brief if a legitimate contact route/official media ID becomes available; use concise scope-first tailored message and confirm current budget/requirements. For future owned content test one buyer-specific problem only if new evidence warrants.",
+        "queue_changed": false,
+        "posts_published": 0,
+        "replies_sent": 0,
+        "reason": "18h outside original posting windows and 18h runtime unavailable; no safe official target reply ID. No repeated post rewrites."
+      }
     }
   ]
 }
