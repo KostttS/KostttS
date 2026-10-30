@@ -98,3 +98,6 @@ Reason: at 02:35 Asia/Jerusalem the latest completed Threads Publisher workflow 
 
 Recovery request 2026-10-30T01:44:00Z
 Reason: at 03:44 Asia/Jerusalem, latest Threads Publisher workflow completed 00:47Z (02:47 local); 03:00 local hourly scan not yet available despite cron 7,22,37,52. Trigger existing workflow to refresh hourly buyer hunt, analytics, inbox and replies_to_own_replies. Do not publish originals outside 08-12/19-23 local; do not change queue, duplicate outreach, use public_post_pk as official API media ID, or touch other channels.
+
+Recovery request 2026-10-30T02:40:00Z
+Reason: 04:40 Asia/Jerusalem; latest completed Threads Publisher run 01:49Z (03:49 local), with 04:00 even-hour trend and lead review not yet run despite cron. Trigger existing workflow to refresh 04:00 local public trends, hourly buyer hunt, analytics, inbox/replies_to_own_replies and official-ID diagnostics. Do not publish original posts outside 08-12/19-23 local; no queue rewrites, no duplicate contacts or public_post_pk as reply ID; preserve Konstantin/Egor attribution and other-channel separation.
