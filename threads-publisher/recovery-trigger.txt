@@ -123,3 +123,6 @@ Reason: at 13:36 Asia/Jerusalem latest completed Threads Publisher run remains 0
 
 Recovery request 2026-10-30T12:36:00Z (14:36 Asia/Jerusalem)
 Reason: 14:00 even-hour comparative review and hourly paid-buyer discovery overdue; latest verified runtime pointer 2026-10-30T11:39:39Z (13:39 local), with no 14:00 refresh. Trigger existing workflow once to collect bounded external trends, lead_discovery, own analytics and inbox/replies_to_own_replies. Existing publisher enforces original-post windows and same-day guard; current time outside 08-12/19-23, so do not publish originals. No unverified public PK replies, duplicate contacts or @mentions, queue edits, unrelated channels or personal anecdotes.
+
+Recovery request 2026-10-30T14:38:30Z (16:38 Asia/Jerusalem)
+Reason: 16:00 even-hour deep review requires fresh runtime and 16h bounded public trends; latest completed runtime pointer still 2026-10-30T13:26:58Z (15:26 local) after 16:37 schedule slot. Trigger existing workflow once to refresh own Threads analytics, inbox/replies_to_own_replies, hourly RU/EN paid buyer search and even-hour external trends. Preserve original posting windows 08–12/19–23; 16h is outside window. Do not change posts/replies queues, use public HTML PK as official media ID, duplicate contacts/mentions, publish personal Egor stories or Brandi Flo, or touch other channels.
