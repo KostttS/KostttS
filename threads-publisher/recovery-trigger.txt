@@ -132,3 +132,6 @@ Reason: 17h local hourly buyer hunt and inbox check overdue; latest verified run
 
 Recovery request 2026-10-30T17:39:04Z (19:39 Asia/Jerusalem)
 Reason: scheduled 19:20 buyer-specific own @mention post threads-2026-10-30-targeted-bnb-brief-mention is due but absent from published_ids; latest successful workflow was 16:41Z (18:41 local), with no 19h local run despite cron 7,22,37,52. Trigger existing publisher queue once, respecting 19–23 local original-post window and published_ids dedupe. Refresh hourly buyer hunt, inbox/replies_to_own_replies and analytics. No HTML public PK as reply ID, no duplicate mentions, no unrelated channels or personal stories. Confirm actual publication only from API/runtime and state.
+
+Recovery request 2026-10-30T18:41:21Z (20:41 Asia/Jerusalem)
+Reason: latest Threads Publisher run was 2026-10-30T17:40Z (19:40 local), and 20:00 even-hour trends, lead hunt, inbox/analytics are overdue despite 7,22,37,52 cron. Trigger existing workflow once to refresh 20h bounded external trends, paid-buyer discovery, own analytics, inbox/replies_to_own_replies and verify 19:40 targeted @mention outcomes. The own mention is already published; do not duplicate it or assume the buyer was notified. No public HTML PK as API reply ID, no queue rewrites, no Egor stories/Brandi Flo, no unrelated channels. Original posting only 08-12/19-23 local.
