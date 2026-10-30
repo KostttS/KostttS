@@ -214,9 +214,10 @@
     "threads-2026-10-28-hero-rental-no-agent",
     "threads-2026-10-29-buyer-payment-webhook",
     "threads-2026-10-29-hero-support-risk",
-    "threads-2026-10-29-targeted-bike-taxi-mention"
+    "threads-2026-10-29-targeted-bike-taxi-mention",
+    "threads-2026-10-30-agency-booking-backend"
   ],
-  "last_run_at": "2026-10-29T17:36:10.889411+00:00",
+  "last_run_at": "2026-10-30T06:39:21.293979+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
