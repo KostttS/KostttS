@@ -253,6 +253,28 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Public post verified, not proof of a paid order. Do not send via Threads API without confirmed official media ID. Cross-channel contact status not verified; check before outreach."
+    },
+    {
+      "id": "public-lead-2026-10-30-welkxdigital-bnb-1500",
+      "url": "https://www.threads.com/@welkxdigital.tech/post/De9urjekykQ",
+      "username": "welkxdigital.tech",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_date": "2026-10-26",
+      "observed_at": "2026-10-30T16:36:00Z",
+      "request": "EN: urgent intermediary/agency seeking mobile app developer for a client Airbnb-style BnB app, stated budget USD 1,500, wants relevant portfolio and ASAP availability; platform, precise MVP scope, payment terms and current availability not confirmed.",
+      "observed_likes": null,
+      "observed_replies": 4,
+      "observed_reposts": 1,
+      "observed_shares": 2,
+      "observed_views": null,
+      "observed_metrics_source": "Public Threads UI verified in TinyFish browser 2026-10-30 ~18:36 Asia/Jerusalem; likes not numbered, views unavailable",
+      "priority": "high_stated_budget_urgent_but_scope_exceeds_typical_1500_full_airbnb_clone",
+      "status": "verified_public_budgeted_brief_not_contacted_no_verified_media_id",
+      "draft": "Hi! I saw your $1,500 Airbnb-style BnB app brief. I build Flutter/FlutterFlow iOS/Android apps with Firebase/Supabase and APIs. At that budget I'd suggest a tightly scoped MVP, not a full Airbnb clone. Is the brief still open, and which flow is essential first: listings, booking, or payments? Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Original buyer post verified via browser, not @dreambit.io's reply. No official threads_media ID; do not use HTML public PK or attempt API reply. Check other-channel duplicates before any outreach. Budget stated in public post, actual funded contract not confirmed."
     }
   ]
 }
