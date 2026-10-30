@@ -3230,6 +3230,173 @@
         "Public post PK never used as threads_media ID.",
         "Instagram DM inaccessible."
       ]
+    },
+    {
+      "checked_at": "2026-10-30T10:43:17.234Z",
+      "local_analysis_slot": "2026-10-30 12:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "threads_runtime": "2026-10-30T09:44:09Z",
+        "runtime_run_id": "41035381041",
+        "lead_discovery": "2026-10-30T09:42:34Z",
+        "external_trends_last_full": "2026-10-30T06:33:20Z",
+        "instagram_metricool": "2026-10-30 around 12:40 Asia/Jerusalem",
+        "public_threads": "2026-10-30 around 12:40 Asia/Jerusalem"
+      },
+      "source_status": {
+        "github_actions": "No 12h local workflow run visible; latest completed 11:44 local. Browser GitHub session signed out, so cannot dispatch. GitHub connector read works, but no workflow_dispatch action exposed.",
+        "external_trends": "11h artifact status=skipped; latest full verified sample is 08h, 121 posts / 24 public search pages; not entire Threads. 12h scan missed. Three public Threads posts checked directly via TinyFish.",
+        "lead_hunt": "Latest 11h scan: 28 public pages, 6 known candidates, 0 newly discovered, 1 without obvious disqualifiers. Additional targeted web search found one 14-day-old ambiguous RU developer collaboration request, saved as research only. No confirmed paid brief.",
+        "official_keyword_search": "39 queries and 0 results in 11h artifact; public search approval unverified, no HTML PK used as media ID.",
+        "inbox": "11:44 artifact: Kuro Solutions comment previously answered with official ID 18155721697547526; no subsequent reply in available snapshot; current 12h inbox unavailable.",
+        "instagram_direct": "Not accessible through Metricool; no DM claims.",
+        "instagram_competitors": "No new verified Instagram competitor engagement in this run; last reviewed examples are stale and cannot be counted as new."
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+          "published_at": "2026-10-30T06:39:13Z",
+          "age_hours_at_1144_local": 5.08,
+          "topic": "agency booking backend/mobile sync",
+          "views": 39,
+          "likes": 3,
+          "replies": 2,
+          "commercial_contact": "@kurosolutions technical discussion; paid brief unconfirmed",
+          "confirmed_paid_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "topic": "payment webhook lost order",
+          "views": 24,
+          "likes": 0,
+          "replies": 1,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "topic": "single targeted mention, not a reply",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "contact_verified": false
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0
+      },
+      "own_instagram": {
+        "source": "Metricool blogId 6890763, queried 24-30 Oct with date boundary through Oct31",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "date": "2026-10-28",
+            "views": 4,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "date": "2026-10-26",
+            "views": 8,
+            "reach": 5,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+            "date": "2026-10-25",
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          }
+        ],
+        "organic_link_clicks": "Unavailable (deprecated)",
+        "commercial_leads_confirmed": 0
+      },
+      "external_examples": [
+        {
+          "network": "Threads",
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "views_public_approx": 7700,
+          "likes": 63,
+          "replies": 97,
+          "reposts": 1,
+          "previous_10h_likes": 56,
+          "previous_10h_replies": 89,
+          "mechanism": "Direct callout to marketing agency owners with simple comment/tag action; clear B2B audience, but engagement is not a paid mobile development order. Adapt as narrow agency workflow question."
+        },
+        {
+          "network": "Threads",
+          "url": "https://www.threads.com/@ketimosha/post/DfEoSeAjTCR",
+          "author": "ketimosha",
+          "published_at": "2026-10-29T08:56:55Z",
+          "views_public_approx": 18900,
+          "likes": 99,
+          "replies": 154,
+          "reposts": 1,
+          "previous_10h_likes": 96,
+          "previous_10h_replies": 144,
+          "mechanism": "Localized invitation to entrepreneurs to introduce themselves; social networking, not paid lead evidence. Adapt clear industry audience, not generic networking."
+        },
+        {
+          "network": "Threads",
+          "url": "https://www.threads.com/@sezim_toktombaeva/post/DfFMFX0jav3",
+          "author": "sezim_toktombaeva",
+          "published_at": "2026-10-29T14:09:42Z",
+          "views_public_approx": 9900,
+          "likes": 25,
+          "replies": 55,
+          "reposts": null,
+          "previous_10h_likes": 23,
+          "previous_10h_replies": 52,
+          "mechanism": "Specific urgent WhatsApp business-account incident prompts troubleshooting. Adapt verifiable technical workflow failures, never invent personal incidents."
+        }
+      ],
+      "buyer_examples": [
+        {
+          "url": "https://www.threads.com/@vickyy_bhaii/post/DfD25gMmAaX",
+          "request": "Business management app/web for daily orders, expenses, income, profits; asks portfolio and quotation.",
+          "views_public_approx": 5700,
+          "likes": 47,
+          "replies": 100,
+          "contact_confirmed": false,
+          "paid_confirmed": false,
+          "official_media_id": null
+        },
+        {
+          "url": "https://www.threads.com/@romanenko_dmitriy_/post/DejbG58jAN2",
+          "request": "RU generic iOS/Android developer collaboration; no funded client brief.",
+          "published_at": "2026-10-16T11:26:49Z",
+          "views_public_approx": 14300,
+          "likes": 58,
+          "replies": 56,
+          "paid_confirmed": false,
+          "official_media_id": null,
+          "contact_confirmed": false
+        }
+      ],
+      "lead_hunt": {
+        "stored_candidates": 12,
+        "latest_hourly_scan_new": 0,
+        "new_research_candidates_this_review": 1,
+        "confirmed_funded": 0,
+        "confirmed_new_contacts": 0,
+        "paid_orders": 0,
+        "api_outreach_sent": 0
+      },
+      "decision": {
+        "scale": "No content theme proven to produce a paying buyer; agency post shows limited professional discussion, continue observing without scaling by likes.",
+        "remove": "Exclude unpaid equity offers, Egor personal stories, Brandi Flo, mass mentions, generic app pitches.",
+        "test": "Future in-window post can ask a narrow buyer problem (booking backend sync, payments, missing order) with one concrete question; only after new measurable evidence.",
+        "queue_changed": false,
+        "reason": "12h runtime missing and no verified incremental buyer conversions; current time outside 08-12 publishing window."
+      }
     }
   ]
 }
