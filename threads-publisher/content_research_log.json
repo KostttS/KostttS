@@ -2790,6 +2790,238 @@
           "mechanism": "Actual Flutter Android bike taxi MVP request; commercial relevance high, but already addressed by one own @mention with delivery unverified; no official media ID for direct reply."
         }
       ]
+    },
+    {
+      "checked_at": "2026-10-30T06:39:23.607Z",
+      "local_analysis_slot": "2026-10-30 08:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "threads_runtime": "2026-10-30T06:34:41.912Z",
+        "runtime_run_id": "41014562891",
+        "external_trends": "2026-10-30T06:33:20.399Z",
+        "lead_discovery": "2026-10-30T06:31:23.075Z",
+        "inbox": "2026-10-30T06:34:41.912Z",
+        "instagram_metricool": "2026-10-30 morning local; requested through 08:35",
+        "public_direct_threads_instagram": "2026-10-30 morning local"
+      },
+      "source_status": {
+        "github_actions": "Runtime artifact threads-runtime-41014562891-1 exists and has analytics, inbox, external_trends, lead_discovery, discovery, lead_id_resolution.",
+        "external_trends": "verified_public_sample, 121 unique posts / 24 search page requests / 20 pages with embedded posts; bounded sample, not whole Threads.",
+        "lead_hunt": "28 public pages, 5 known buyer-style candidates, 0 new; 2 without obvious disqualifiers, not verified paid; 9 stored research candidates.",
+        "official_keyword_search": "39 searches, 0 results; App Review approval not verified; no public PK replies attempted.",
+        "external_web_fallback": "Web search found no verified new buyers; TinyFish search found only a developer self-promotion, not a buyer.",
+        "instagram_competitors": "Two direct Instagram posts fetched; zero comments shown; current likes, views, reach and buyer conversions unavailable.",
+        "instagram_direct": "Not available in Metricool; cannot claim DM inbox checked."
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "topic": "lost order / payment webhook",
+          "age_hours_approx": 13,
+          "views": 23,
+          "likes": 0,
+          "replies": 1,
+          "commercial_leads": 0,
+          "comment": "Unrelated JobPath promotion; no reply."
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "topic": "targeted bike taxi @mention (not reply)",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0,
+          "notification_verified": false
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEf1J-GysI",
+          "published_at": "2026-10-29T07:43:06Z",
+          "topic": "support/ownership HERO",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfCBPYPm5IJ",
+          "published_at": "2026-10-28T08:37:18Z",
+          "topic": "staff continue using WhatsApp despite company app",
+          "views": 95,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfC_b6CICXi",
+          "published_at": "2026-10-28T17:40:46Z",
+          "topic": "orders disappear after phone switch",
+          "views": 79,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0
+      },
+      "own_instagram": {
+        "source": "Metricool blogId 6890763, queried 25-30 Oct",
+        "latest": {
+          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+          "date": "2026-10-28",
+          "views": 4,
+          "reach": 4,
+          "interactions": 0,
+          "comments": 0
+        },
+        "oct26": {
+          "url": "https://www.instagram.com/p/De8zuFCCom7/",
+          "views": 8,
+          "reach": 5,
+          "interactions": 0
+        },
+        "oct25": {
+          "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+          "views": 5,
+          "reach": 4,
+          "interactions": 0
+        },
+        "commercial_leads_confirmed": 0,
+        "organic_clicks": "Unavailable/deprecated",
+        "instagram_dm": "Not available"
+      },
+      "external_examples": [
+        {
+          "network": "Threads",
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "age_hours_at_scan": 12.7,
+          "likes": 52,
+          "replies": 83,
+          "reposts": 1,
+          "views": null,
+          "likes_growth": 10,
+          "replies_growth": 6,
+          "growth_elapsed_hours": 1.77,
+          "mechanism": "Explicitly names agency owners and asks them to respond; strong target clarity. Adapt to web agencies with existing customer app integration needs, not generic viral CTA."
+        },
+        {
+          "network": "Threads",
+          "url": "https://www.threads.com/@ketimosha/post/DfEoSeAjTCR",
+          "author": "ketimosha",
+          "published_at": "2026-10-29T08:56:55Z",
+          "age_hours_at_scan": 21.6,
+          "likes": 78,
+          "replies": 128,
+          "reposts": 1,
+          "views": null,
+          "likes_growth": 22,
+          "replies_growth": 26,
+          "growth_elapsed_hours": 7.89,
+          "mechanism": "City-specific business-owner invitation and simple question; adaptation should specify client problem and ask about current backend rather than ask for follows."
+        },
+        {
+          "network": "Threads",
+          "url": "https://www.threads.com/@sezim_toktombaeva/post/DfFMFX0jav3",
+          "author": "sezim_toktombaeva",
+          "published_at": "2026-10-29T14:09:42Z",
+          "age_hours_at_scan": 16.4,
+          "likes": 22,
+          "replies": 43,
+          "reposts": 0,
+          "views": null,
+          "mechanism": "Specific urgent problem—business WhatsApp hacked—prompts practical advice. Not a buyer brief; adapt specificity of failure mode without fabricating personal incident."
+        },
+        {
+          "network": "Threads",
+          "url": "https://www.threads.com/@jrprinceee/post/DfD5rpxjVeN",
+          "author": "jrprinceee",
+          "published_at": "2026-10-29T02:09:40Z",
+          "age_hours_at_scan": 28.4,
+          "likes": 28,
+          "replies": 316,
+          "reposts": 0,
+          "views": null,
+          "mechanism": "Debate about small-business budgets creates replies; discussion volume is not evidence of paying mobile-app buyers."
+        },
+        {
+          "network": "Instagram",
+          "url": "https://www.instagram.com/p/DfFSgctFZSz/",
+          "author": "virtuoustechlogic",
+          "published_at": "2026-10-29T15:06:39Z",
+          "comments_public": 0,
+          "likes_public": null,
+          "views": null,
+          "mechanism": "Technical Flutter vs FlutterFlow comparison; no verified public engagement beyond zero comments in current direct fetch."
+        },
+        {
+          "network": "Instagram",
+          "url": "https://www.instagram.com/p/DfCpnc1lDgZ/",
+          "author": "profcymaglobal",
+          "published_at": "2026-10-28T14:30:04Z",
+          "comments_public": 0,
+          "likes_public": null,
+          "views": null,
+          "mechanism": "Generic app-pitch; no evidence it converts."
+        }
+      ],
+      "buyer_examples": [
+        {
+          "url": "https://www.threads.com/@tsaritovamina/post/DfEKtygEpop",
+          "request": "Nanny matching app, design ready; wants DM",
+          "public_views_approx": 4300,
+          "public_likes": 34,
+          "public_replies": 36,
+          "public_reposts": 18,
+          "contact_confirmed": false,
+          "paid_confirmed": false,
+          "official_media_id": null
+        },
+        {
+          "url": "https://www.threads.com/@vickyy_bhaii/post/DfD25gMmAaX",
+          "request": "Business management app/web for orders/income/expenses/profit; asks portfolio and quote",
+          "public_views_approx": 5400,
+          "public_likes": 46,
+          "public_replies": 99,
+          "public_reposts": 7,
+          "contact_confirmed": false,
+          "paid_confirmed": false,
+          "official_media_id": null
+        }
+      ],
+      "lead_hunt": {
+        "saved_candidates": 9,
+        "latest_scan_candidates": 5,
+        "new_candidates": 0,
+        "confirmed_funded": 0,
+        "confirmed_direct_contacts": 0,
+        "paid_orders": 0,
+        "new_commercial_inbox": 0,
+        "api_outreach_sent": 0,
+        "replies_to_own_replies": "No new commercial responses; latest Oct24."
+      },
+      "decision": {
+        "scale": "No topic proven to generate a paid lead; do not scale by raw views or developer-only engagement.",
+        "remove": "Avoid generic app ads, personal stories of Egor, Brandi Flo, repeat @mentions, equity-only offers.",
+        "test": "One targeted English agency buyer-problem post: existing booking website → mobile app, shared orders/accounts/payments; ask for active brief and backend. Test anchored to verified targeted-audience engagement, not proven conversions.",
+        "queue_changed": true,
+        "queued_post_id": "threads-2026-10-30-agency-booking-backend",
+        "queued_post_at": "2026-10-30T06:35:00Z",
+        "queued_commit": "b320945e88800c9cb37071443209a0b9639ce3cd",
+        "published_verified": false,
+        "instagram_queue_changed": false,
+        "reason": "Prior buyer posts yielded zero leads; target-audience Threads posts show measurable replies; one buyer-focused experiment, no broad HERO or duplicate outreach. Publication requires GitHub API confirmation."
+      },
+      "limitations": [
+        "External sample bounded; external views=null means unavailable, not zero.",
+        "Direct buyer public view counts are rounded, not official API.",
+        "Public post PK is not valid official threads_media ID; no buyer replies without verified media ID.",
+        "Instagram Direct unavailable; competitor likes/views not independently verified in current fetch."
+      ]
     }
   ]
 }
