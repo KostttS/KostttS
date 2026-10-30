@@ -274,7 +274,16 @@
       "draft": "Hi! I saw your $1,500 Airbnb-style BnB app brief. I build Flutter/FlutterFlow iOS/Android apps with Firebase/Supabase and APIs. At that budget I'd suggest a tightly scoped MVP, not a full Airbnb clone. Is the brief still open, and which flow is essential first: listings, booking, or payments? Portfolio: https://www.behance.net/24512dab",
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
-      "notes": "Original buyer post verified via browser, not @dreambit.io's reply. No official threads_media ID; do not use HTML public PK or attempt API reply. Check other-channel duplicates before any outreach. Budget stated in public post, actual funded contract not confirmed."
+      "notes": "Original buyer post verified via browser, not @dreambit.io's reply. No official threads_media ID; do not use HTML public PK or attempt API reply. Check other-channel duplicates before any outreach. Budget stated in public post, actual funded contract not confirmed.",
+      "planned_outreach": {
+        "kind": "own_original_post_with_at_mention_not_reply",
+        "queued_post_id": "threads-2026-10-30-targeted-bnb-brief-mention",
+        "publish_at": "2026-10-30T17:20:00Z",
+        "status": "queued_pending_unverified",
+        "delivery_or_notification_verified": false,
+        "reply_under_buyer_post_sent": false,
+        "followup_policy": "After runtime API confirms own post, record permalink and monitor reactions; no repeated mentions or claims of direct contact. No API reply without validated target threads_media ID."
+      }
     }
   ]
 }
