@@ -101,3 +101,6 @@ Reason: at 03:44 Asia/Jerusalem, latest Threads Publisher workflow completed 00:
 
 Recovery request 2026-10-30T02:40:00Z
 Reason: 04:40 Asia/Jerusalem; latest completed Threads Publisher run 01:49Z (03:49 local), with 04:00 even-hour trend and lead review not yet run despite cron. Trigger existing workflow to refresh 04:00 local public trends, hourly buyer hunt, analytics, inbox/replies_to_own_replies and official-ID diagnostics. Do not publish original posts outside 08-12/19-23 local; no queue rewrites, no duplicate contacts or public_post_pk as reply ID; preserve Konstantin/Egor attribution and other-channel separation.
+
+Recovery request 2026-10-30 05 Asia/Jerusalem
+Reason: latest verified runtime_pointer remains at 2026-10-30T02:43:34Z (04:43 local) during 05-hour monitoring. Refresh hourly public buyer hunt, own analytics, inbox and replies_to_own_replies. It is an odd local hour, so do not force a duplicate two-hour trend scan; keep last full sample. No original posts outside 08–12/19–23 local, no duplicate outreach, no HTML public_post_pk as reply ID, no other channels or personal-story substitutions.
