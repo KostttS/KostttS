@@ -76,12 +76,12 @@
       "reply_under_buyer_post_sent": false,
       "notes": "Found in verified external_trends.json 12:00 local scan; public HTML ID is not an official threads_media ID; no API reply or repeat @mention without verified official ID and dedupe check.",
       "latest_observation": {
-        "checked_at": "2026-10-30T03:35:00Z",
-        "likes": 33,
+        "checked_at": "2026-10-30T06:37:00Z",
+        "likes": 34,
         "replies": 36,
-        "reposts": 17,
-        "views_approx": 4200,
-        "source": "live public Threads page via TinyFish fetch_content; UI views rounded, not official API",
+        "reposts": 18,
+        "views_approx": 4300,
+        "source": "live public Threads page via TinyFish fetch_content; rounded UI views, not official API",
         "reply_under_buyer_post_sent": false
       }
     },
@@ -165,12 +165,12 @@
       "reply_under_buyer_post_sent": false,
       "notes": "Real buyer-style request with quotation and specific business workflows; paid contract not independently confirmed. 95 public replies means high competition. No verified official threads_media ID; do not auto-reply via public PK or repeat @mentions. No signed-in Threads browser session.",
       "latest_observation": {
-        "checked_at": "2026-10-30T03:35:00Z",
-        "likes": 45,
-        "replies": 96,
+        "checked_at": "2026-10-30T06:37:00Z",
+        "likes": 46,
+        "replies": 99,
         "reposts": 7,
-        "views_approx": 5200,
-        "source": "live public Threads page via TinyFish fetch_content; UI views rounded, not official API",
+        "views_approx": 5400,
+        "source": "live public Threads page via TinyFish fetch_content; rounded UI views, not official API",
         "reply_under_buyer_post_sent": false
       }
     },
