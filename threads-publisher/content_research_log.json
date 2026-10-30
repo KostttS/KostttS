@@ -4026,10 +4026,14 @@
         "scale": "No theme has demonstrated paid client acquisition; cannot scale based on likes or views alone.",
         "remove": "Avoid generic Instagram promos, developer-only networking, unpaid rev-share and broad viral jokes; exclude Brandi Flo and Egor life stories.",
         "test": "Prioritize real $1500 BnB brief if a legitimate contact route/official media ID becomes available; use concise scope-first tailored message and confirm current budget/requirements. For future owned content test one buyer-specific problem only if new evidence warrants.",
-        "queue_changed": false,
+        "queue_changed": true,
         "posts_published": 0,
         "replies_sent": 0,
-        "reason": "18h outside original posting windows and 18h runtime unavailable; no safe official target reply ID. No repeated post rewrites."
+        "reason": "One new budgeted buyer brief justifies a single targeted own @mention experiment at permitted 19:20 local. Queued only, not published; no reply, delivery, or notification verified. All other queued content unchanged.",
+        "posts_queued": 1,
+        "queued_post_id": "threads-2026-10-30-targeted-bnb-brief-mention",
+        "queued_for": "2026-10-30T17:20:00Z (19:20 Asia/Jerusalem)",
+        "queue_commit": "ff210e067cac3a507e60f83e5c8ae45ec0c7fda9"
       }
     }
   ]
