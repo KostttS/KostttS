@@ -360,5 +360,10 @@
     "id": "reply-2026-10-24-michael-hummus",
     "reply_to_id": "18030173513861592",
     "text": "Спасибо, полезно знать! Значит, в хумусии надо прямо просить без тхины. А в магазинных банках она, похоже, почти везде — поэтому и ищу другой вариант."
+  },
+  {
+    "id": "reply-2026-10-30-kurosolutions-booking-sync",
+    "reply_to_id": "17938020894407096",
+    "text": "For bookings and payments, I wouldn't rely on Realtime listeners as the source of truth. I'd use server-side writes and idempotent webhooks for external events, then Realtime to update the mobile UI. Session conflicts also need clear ownership/version checks. Is this for an active client booking project? I can help with the Flutter/Supabase mobile integration."
   }
 ]
