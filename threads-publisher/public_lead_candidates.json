@@ -76,16 +76,13 @@
       "reply_under_buyer_post_sent": false,
       "notes": "Found in verified external_trends.json 12:00 local scan; public HTML ID is not an official threads_media ID; no API reply or repeat @mention without verified official ID and dedupe check.",
       "latest_observation": {
-        "checked_at": "2026-10-29T20:43:00Z",
-        "likes": 32,
+        "checked_at": "2026-10-30T03:35:00Z",
+        "likes": 33,
         "replies": 36,
-        "views_approx": 3900,
-        "source": "live public Threads page via TinyFish fetch_content; views rounded in UI, not official API",
-        "growth_vs_initial": {
-          "likes": 12,
-          "replies": 7,
-          "views_approx": 1400
-        }
+        "reposts": 17,
+        "views_approx": 4200,
+        "source": "live public Threads page via TinyFish fetch_content; UI views rounded, not official API",
+        "reply_under_buyer_post_sent": false
       }
     },
     {
@@ -166,7 +163,33 @@
       "draft": "Hi! I saw your post about tracking daily orders, expenses, income and profit. I build custom business apps with Flutter/FlutterFlow and Firebase/Supabase, including admin dashboards and reports. Portfolio: https://www.behance.net/24512dab. Would you prefer a mobile app, a web dashboard, or both? Is remote development acceptable? I can review the workflows before discussing a quotation.",
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
-      "notes": "Real buyer-style request with quotation and specific business workflows; paid contract not independently confirmed. 95 public replies means high competition. No verified official threads_media ID; do not auto-reply via public PK or repeat @mentions. No signed-in Threads browser session."
+      "notes": "Real buyer-style request with quotation and specific business workflows; paid contract not independently confirmed. 95 public replies means high competition. No verified official threads_media ID; do not auto-reply via public PK or repeat @mentions. No signed-in Threads browser session.",
+      "latest_observation": {
+        "checked_at": "2026-10-30T03:35:00Z",
+        "likes": 45,
+        "replies": 96,
+        "reposts": 7,
+        "views_approx": 5200,
+        "source": "live public Threads page via TinyFish fetch_content; UI views rounded, not official API",
+        "reply_under_buyer_post_sent": false
+      }
+    },
+    {
+      "id": "public-lead-2026-10-30-erlan-astana-integration",
+      "url": "https://www.threads.com/@e.er1an/post/DesT5TBiIT4",
+      "username": "e.er1an",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "observed_at": "2026-10-30T03:35:00Z",
+      "post_published_at": "2026-10-19T22:16:57Z",
+      "request": "RU: Astana-based poster seeks app developer, says he will handle an integration. Platform, backend, scope, paid contract, budget, timeline and remote-work acceptance unconfirmed; post is ~10 days old.",
+      "observed_likes": 16,
+      "observed_replies": 18,
+      "observed_views_approx": 3700,
+      "observed_views_source": "live public Threads page via TinyFish fetch_content, UI rounded",
+      "status": "research_candidate_needs_paid_scope_confirmation_no_verified_media_id",
+      "draft": "Здравствуйте! Увидел, что вы ищете разработчика приложения и планируете интеграцию. Я занимаюсь FlutterFlow/Flutter, Firebase/Supabase и API. Могу подключиться к мобильной части или существующему проекту. Подскажите, какая интеграция нужна, проект коммерческий и возможна ли удалённая работа? Примеры: https://www.behance.net/24512dab. Стоимость и сроки смогу обсуждать после требований.",
+      "notes": "No outreach sent. Do not auto-reply using public post PK; first obtain validated official threads_media ID or authenticated authorized browser access. Check duplicate and whether request is still open."
     }
   ]
 }
