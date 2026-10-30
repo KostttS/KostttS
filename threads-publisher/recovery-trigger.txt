@@ -141,3 +141,6 @@ Reason: 21:39 Asia/Jerusalem hourly audit: latest confirmed scheduled run #623 c
 
 Recovery request 2026-10-30T20:39:17.346Z (22h Asia/Jerusalem)
 Reason: at 22:39 local no new Threads Publisher workflow after 21:42 local; 22h deep review logged separately using latest 21:42 own analytics/inbox and 20:47 verified external sample. Trigger existing workflow once for fresh 22h lead_discovery, external_trends, inbox/replies_to_own_replies, and own analytics. Do not duplicate prior buyer @mentions, do not treat public HTML PK as official reply ID, do not invent paid leads, do not publish personal/Egor/Brandi Flo stories, do not touch other channels. Original posts only in permitted local windows and only with evidence.
+
+Recovery request 2026-10-30T22:40:00Z (31 Oct 00:40 Asia/Jerusalem)
+Reason: latest verified runtime_pointer is 2026-10-30T20:42:16Z (22:42 local), ~2h old despite 7,22,37,52 cron. Trigger existing Threads Publisher workflow for 00:00 local even-hour bounded external trends, hourly paid-buyer discovery, Threads analytics and inbox/replies_to_own_replies. Midnight is outside approved original publishing windows; do not publish originals, duplicate already contacted leads, use HTML public_post_pk as API reply ID, modify content queue or other channels. Maintain Konstantin/Egor separation and Brandi Flo ban.
