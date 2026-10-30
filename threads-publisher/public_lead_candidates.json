@@ -190,6 +190,48 @@
       "status": "research_candidate_needs_paid_scope_confirmation_no_verified_media_id",
       "draft": "Здравствуйте! Увидел, что вы ищете разработчика приложения и планируете интеграцию. Я занимаюсь FlutterFlow/Flutter, Firebase/Supabase и API. Могу подключиться к мобильной части или существующему проекту. Подскажите, какая интеграция нужна, проект коммерческий и возможна ли удалённая работа? Примеры: https://www.behance.net/24512dab. Стоимость и сроки смогу обсуждать после требований.",
       "notes": "No outreach sent. Do not auto-reply using public post PK; first obtain validated official threads_media ID or authenticated authorized browser access. Check duplicate and whether request is still open."
+    },
+    {
+      "id": "public-lead-2026-10-30-rud24c-app-developer",
+      "url": "https://www.threads.com/@rud24c/post/DeygSXnGAK5",
+      "username": "rud24c",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-22T08:00:40Z",
+      "observed_at": "2026-10-30T09:43:00Z",
+      "request": "Explicitly asks for an app developer and DM; no app platform, scope, budget, timeline, funded status, or remote acceptance specified.",
+      "observed_likes": 43,
+      "observed_replies": 66,
+      "observed_reposts": 8,
+      "observed_views_approx": 10000,
+      "observed_views_source": "Public Threads post fetched 2026-10-30 ~11:43 Asia/Jerusalem via TinyFish; views rounded public UI, not official API",
+      "priority": "secondary_older_8_days_scope_payment_unverified_high_reply_competition",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Hi! I saw your post looking for an app developer. I build Flutter/FlutterFlow apps for iOS/Android with Firebase/Supabase, APIs and payments. Portfolio: https://www.behance.net/24512dab. Are you still hiring for a funded app project? What is the main workflow and preferred platform? Happy to review the brief first.",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Buyer request exact text and URL verified; no proof of paid project. Do not send via Threads API without verified official media ID; cross-channel contact status not checked."
+    },
+    {
+      "id": "public-lead-2026-10-30-mrityunjoy-app-developer",
+      "url": "https://www.threads.com/@mrityunjoy_143/post/De0dNcSiIwM",
+      "username": "mrityunjoy_143",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-23T02:12:16Z",
+      "observed_at": "2026-10-30T09:43:00Z",
+      "request": "Explicitly asks for an app developer referral; no scope, stack, funded status, budget, timeline or remote preference specified.",
+      "observed_likes": 20,
+      "observed_replies": 42,
+      "observed_reposts": 3,
+      "observed_views_approx": 4400,
+      "observed_views_source": "Public Threads post fetched 2026-10-30 ~11:43 Asia/Jerusalem via TinyFish; views rounded public UI, not official API",
+      "priority": "secondary_older_7_days_scope_payment_unverified",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Hi! I saw you were looking for an app developer. I work with Flutter/FlutterFlow, Firebase/Supabase and API integrations for iOS/Android. Portfolio: https://www.behance.net/24512dab. Is your request still open, and is this a funded project? If so, what should the first version do?",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Previously seen by hourly hunt on Oct 29 but not stored as a vetted buyer; public request verified, no paid contract evidence; do not use public HTML PK as API media ID. No contact made."
     }
   ]
 }
