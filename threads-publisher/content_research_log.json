@@ -2070,6 +2070,251 @@
         "queue_changed": false,
         "reason": "No measured lead conversion or Instagram interaction justifies changing future queue; no original posts at 00:00 outside allowed hours, and no scheduled Instagram post to publish without a tested image concept."
       }
+    },
+    {
+      "checked_at": "2026-10-30T00:40:10Z",
+      "local_analysis_slot": "2026-10-30 02:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "threads_runtime": "2026-10-30T00:39:44Z",
+        "runtime_run_id": "40980784866",
+        "external_trends": "2026-10-30T00:38:33Z",
+        "lead_discovery": "2026-10-30T00:36:57Z",
+        "inbox": "2026-10-30T00:39:44Z",
+        "instagram_metricool": "2026-10-30 02:35 Asia/Jerusalem",
+        "public_threads_direct_checks": "2026-10-30 approx 02:35-02:39 Asia/Jerusalem",
+        "fallback_web_search": "2026-10-30 approx 02:35 Asia/Jerusalem"
+      },
+      "source_status": {
+        "github_actions": "No scheduled workflow since 2026-10-29T20:59:44Z; last runtime 00:41 local. Recovery-trigger commit d96b734 launched successful push workflow run 40980784866, new runtime 02:39 local.",
+        "external": "verified_public_sample: 142 unique external posts / 24 page requests / 20 pages with embedded posts, 0 HTTP 403/429; bounded sample, not entire Threads",
+        "lead_hunt": "28 public pages, 6 candidates, 0 new, 2 plausible but funding unverified; 8 saved leads total, no direct contact",
+        "official_keyword_search": "39 queries / 0 results including control; App Review approval not verified",
+        "api_media_id_resolution": "skipped_pending_verified_app_review_change; confirmed external media IDs 0; no invalid public PK retries",
+        "web_fallback": "Standard and TinyFish web searches on RU/EN buyer keywords returned no new verifiable Threads buyers; does not imply absence of market",
+        "external_views": "Artifact views=null means unavailable; separately checked direct public Threads pages have rounded UI views",
+        "instagram_competitors": "Metricool competitors rows=[]; no verified competitor post-level metrics",
+        "instagram_direct": "Not available through Metricool"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "topic": "payment webhook and missing order",
+          "age_hours": 7.06,
+          "views": 22,
+          "likes": 0,
+          "replies": 1,
+          "commercial_leads": 0,
+          "reply_classification": "@nastya.kov177 2026-10-29T23:46:46Z: generic anecdote with unrelated JobPath promotion, not buyer request, no response",
+          "growth_from_00h_snapshot": {
+            "views": 1,
+            "replies": 1
+          }
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "topic": "single bike taxi @mention, not reply",
+          "age_hours": 16.25,
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0,
+          "notification_verified": false
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEf1J-GysI",
+          "published_at": "2026-10-29T07:43:06Z",
+          "topic": "app ownership and support HERO",
+          "age_hours": 16.94,
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfC_b6CICXi",
+          "published_at": "2026-10-28T17:40:46Z",
+          "topic": "lost order history after phone change",
+          "age_hours": 30.98,
+          "views": 79,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfCBPYPm5IJ",
+          "published_at": "2026-10-28T08:37:18Z",
+          "topic": "field service app WhatsApp bottleneck",
+          "age_hours": 40.04,
+          "views": 95,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0
+      },
+      "own_instagram": {
+        "source": "Metricool blogId 6890763, Instagram posts 25-30 Oct",
+        "latest": {
+          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+          "date": "2026-10-28",
+          "views": 4,
+          "reach": 4,
+          "interactions": 0,
+          "comments": 0
+        },
+        "oct26": {
+          "url": "https://www.instagram.com/p/De8zuFCCom7/",
+          "views": 8,
+          "reach": 5,
+          "interactions": 0
+        },
+        "oct25": {
+          "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+          "views": 5,
+          "reach": 4,
+          "interactions": 0
+        },
+        "organic_clicks": "unavailable: deprecated Metricool metric",
+        "commercial_leads_confirmed": 0,
+        "instagram_dm": "not available"
+      },
+      "external_examples": [
+        {
+          "url": "https://www.threads.com/@ketimosha/post/DfEoSeAjTCR",
+          "author": "ketimosha",
+          "published_at": "2026-10-29T08:56:55Z",
+          "likes_public": 68,
+          "replies_public": 116,
+          "views_public_approx": 11800,
+          "previous_artifact_likes": 56,
+          "previous_artifact_replies": 102,
+          "growth": {
+            "likes_delta": 12,
+            "replies_delta": 14
+          },
+          "mechanism": "Direct local business-owner introduction prompt creates responses; no evidence of paid app demand; avoid generic engagement-bait, adapt only specific operational pain questions."
+        },
+        {
+          "url": "https://www.threads.com/@portotonicvibe/post/DfFDnSTDU0s",
+          "author": "portotonicvibe",
+          "published_at": "2026-10-29T12:55:42Z",
+          "likes_public": 85,
+          "replies_public": 33,
+          "reposts_public": 5,
+          "views_public_approx": 6400,
+          "previous_artifact_likes": 82,
+          "previous_artifact_replies": 33,
+          "growth": {
+            "likes_delta": 3,
+            "replies_delta": 0
+          },
+          "mechanism": "Concrete unglamorous business problem with sensory specifics; adapt to factual failure in orders or payments, no copying."
+        },
+        {
+          "url": "https://www.threads.com/@wow_tingles/post/DfEAhT2FNfL",
+          "author": "wow_tingles",
+          "published_at": "2026-10-29T03:09:25Z",
+          "likes_public": 64,
+          "replies_public": 105,
+          "views_public_approx": 15200,
+          "previous_artifact_likes": 56,
+          "previous_artifact_replies": 105,
+          "growth": {
+            "likes_delta": 8,
+            "replies_delta": 0
+          },
+          "mechanism": "Specific claimed app installs vs paid subscriptions provokes developer discussion; author claims 373 installs and 14 paid subscriptions, not independently verified; developer attention is not buyer demand."
+        },
+        {
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "likes": 35,
+          "replies": 59,
+          "reposts": 1,
+          "views": null,
+          "growth_from_prior_scan": {
+            "elapsed_hours": 5.88,
+            "likes_delta": 20,
+            "replies_delta": 44
+          },
+          "mechanism": "Explicit request to meet marketing agency owners, narrow audience produces comments; potentially useful agency-targeting format, not a mobile development project request."
+        },
+        {
+          "url": "https://www.threads.com/@beit.seder/post/DfGF834jOZ_",
+          "author": "beit.seder",
+          "published_at": "2026-10-29T22:35:21Z",
+          "likes": 10,
+          "replies": 7,
+          "reposts": 2,
+          "views": null,
+          "growth_from_prior_scan": {
+            "elapsed_hours": 1.97,
+            "likes_delta": 8,
+            "replies_delta": 7
+          },
+          "mechanism": "Israeli local service founder openly describes no advertising budget and concrete service; authentic owner pain draws early replies, not a buyer for app development."
+        }
+      ],
+      "buyer_examples": [
+        {
+          "url": "https://www.threads.com/@tsaritovamina/post/DfEKtygEpop",
+          "author": "tsaritovamina",
+          "published_at": "2026-10-29T04:38:30Z",
+          "request": "Nanny matching mobile app, design ready, interested in AI-assisted development",
+          "views_public_approx": 4200,
+          "likes_public": 33,
+          "replies_public": 36,
+          "contact_confirmed": false,
+          "funding_confirmed": false,
+          "verified_official_media_id": null
+        },
+        {
+          "url": "https://www.threads.com/@vickyy_bhaii/post/DfD25gMmAaX",
+          "author": "vickyy_bhaii",
+          "published_at": "2026-10-29T01:45:21Z",
+          "request": "Business management app/web for orders, revenue, expenses, profit; asks portfolio and quotation",
+          "views_public_approx": 5000,
+          "likes_public": 45,
+          "replies_public": 96,
+          "contact_confirmed": false,
+          "funding_confirmed": false,
+          "verified_official_media_id": null
+        }
+      ],
+      "lead_hunt": {
+        "saved_candidates": 8,
+        "latest_scan_candidates": 6,
+        "new_candidates": 0,
+        "latest_without_obvious_disqualifiers": 2,
+        "confirmed_funded": 0,
+        "confirmed_direct_contacts": 0,
+        "paid_orders": 0,
+        "api_outreach_sent": 0,
+        "new_commercial_inbox": 0,
+        "new_noncommercial_inbox_replies": 1,
+        "replies_to_own_replies": "only older replies up to Oct 24"
+      },
+      "decision": {
+        "scale": "No format has demonstrated commercial lead conversion; do not scale on viral views or developer-only discussions.",
+        "remove": "Exclude unfunded revenue-share proposals, self-promotion, political/personal engagement bait and unrelated life stories; no Brandi Flo.",
+        "test": "Next permitted publishing window, consider a concise buyer-specific diagnostic post only after assessing existing posts; use precise problem and offer; do not force a post merely to fill schedule.",
+        "queue_changed": false,
+        "reason": "No new paid buyer evidence or confirmed outreach route; current time outside original-post window, no upcoming queue entries; no repeated @mentions.",
+        "outreach_action": "No direct replies because external official media IDs unavailable; no TinyFish authenticated Threads profile; new reply is unrelated promotion, not answered."
+      },
+      "limitations": [
+        "Search sample is bounded; zero new candidates does not prove no market.",
+        "External views in artifact unavailable; public UI views rounded and observed separately.",
+        "No verified external Threads media IDs; public HTML PK never valid for replies.",
+        "No Instagram competitor metrics or Instagram Direct access."
+      ]
     }
   ]
 }
