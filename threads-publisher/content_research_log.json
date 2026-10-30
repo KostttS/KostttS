@@ -4446,6 +4446,102 @@
         "posts_published": 0,
         "replies_sent": 0,
         "reason": "No new qualified funded buyer, no official target media ID, no measurable reason to rewrite future queue. 22h full scan not yet available at 22:39; this review uses last verified 20:47 sample."
+      },
+      "post_recovery_runtime": {
+        "run_id": "41124918961",
+        "workflow_status": "completed",
+        "workflow_conclusion": "success",
+        "artifact_name": "threads-runtime-41124918961-1",
+        "runtime_pointer_updated_at": "2026-10-30T20:42:16Z",
+        "external_trends": {
+          "checked_at": "2026-10-30T20:41:02Z",
+          "status": "verified_public_sample",
+          "verified_unique_external_posts": 49,
+          "page_requests": 24,
+          "pages_with_embedded_posts": 18,
+          "coverage": "bounded search sample; different keyword set from 20h, so lower count is not evidence of market decline",
+          "views": "null = unavailable"
+        },
+        "verified_examples": [
+          {
+            "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+            "likes": 83,
+            "replies": 120,
+            "reposts": 1,
+            "growth_since_20h": {
+              "likes": 1,
+              "replies": 0
+            },
+            "mechanism": "Exact agency owner audience and comment/tag CTA, engagement but not paid project."
+          },
+          {
+            "url": "https://www.threads.com/@caramelxcouture/post/DfGl67WFcsm",
+            "likes": 138,
+            "replies": 23,
+            "reposts": 10,
+            "growth_since_20h": {
+              "likes": 16,
+              "replies": 2,
+              "reposts": 4
+            },
+            "mechanism": "Specific agencies and brands, real prior work claim and availability; transferable structure without copying claims."
+          },
+          {
+            "url": "https://www.threads.com/@ladylyzo/post/DfIYOX1CHge",
+            "likes": 9,
+            "replies": 29,
+            "reposts": 0,
+            "growth": null,
+            "mechanism": "Direct Russian business-owner introduction question; attracts introductions, not proven app buyers."
+          },
+          {
+            "url": "https://www.threads.com/@aannaaabui/post/DfIJP0LjbuI",
+            "likes": 50,
+            "replies": 29,
+            "reposts": 0,
+            "growth": null,
+            "mechanism": "Specific business-owner operational vulnerability and personal framing; avoid inventing a personal story, focus on verified technical pain."
+          }
+        ],
+        "own_threads": {
+          "checked_at": "2026-10-30T20:42:07Z",
+          "targeted_bnb_views": 9,
+          "targeted_bnb_replies": 0,
+          "agency_post_views": 42,
+          "agency_post_replies": 2,
+          "payment_webhook_views": 28,
+          "link_clicks": 0,
+          "new_commercial_replies": 0
+        },
+        "inbox": {
+          "checked_at": "2026-10-30T20:42:07Z",
+          "new_commercial_replies": 0,
+          "mentions_available": false,
+          "kurosolutions_new_reply": false
+        },
+        "lead_discovery": {
+          "checked_at": "2026-10-30T20:39:28Z",
+          "pages_checked": 28,
+          "unique_candidates": 3,
+          "newly_discovered": 0,
+          "without_obvious_disqualifiers": 2,
+          "existing": [
+            "mellowbrandstudio",
+            "berlin_ceo070"
+          ],
+          "excluded": [
+            "pixxiebubbles82 unpaid rev-share"
+          ],
+          "duplicate_warning": "berlin_ceo070 text duplicated by work_fromhome349 in prior sample; authenticity remains unverified",
+          "confirmed_target_media_ids": 0,
+          "paid_orders": 0
+        },
+        "action": {
+          "new_posts": 0,
+          "new_replies": 0,
+          "queue_changed": false,
+          "reason": "No new qualified funded buyer or confirmed target media ID; no reason to post duplicate @mentions."
+        }
       }
     }
   ]
