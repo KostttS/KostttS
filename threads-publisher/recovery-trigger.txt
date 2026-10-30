@@ -95,3 +95,6 @@ Reason: at 00:37 Asia/Jerusalem 30 Oct, latest verified Threads Publisher runtim
 
 Recovery request 2026-10-30T00:35:00Z
 Reason: at 02:35 Asia/Jerusalem the latest completed Threads Publisher workflow is 2026-10-29T22:41Z (00:41 local); no 01:00 local hourly scan and 02:00 local deep-analysis runtime are available despite cron 7,22,37,52. Trigger the existing workflow to refresh public lead discovery, external trends (02 local even slot), own analytics, inbox and replies_to_own_replies. No original publication outside 08-12/19-23, no queue rewrite, no duplicate outreach, no public_post_pk as API reply ID, no unrelated channels.
+
+Recovery request 2026-10-30T01:44:00Z
+Reason: at 03:44 Asia/Jerusalem, latest Threads Publisher workflow completed 00:47Z (02:47 local); 03:00 local hourly scan not yet available despite cron 7,22,37,52. Trigger existing workflow to refresh hourly buyer hunt, analytics, inbox and replies_to_own_replies. Do not publish originals outside 08-12/19-23 local; do not change queue, duplicate outreach, use public_post_pk as official API media ID, or touch other channels.
