@@ -2802,7 +2802,9 @@
         "lead_discovery": "2026-10-30T06:31:23.075Z",
         "inbox": "2026-10-30T06:34:41.912Z",
         "instagram_metricool": "2026-10-30 morning local; requested through 08:35",
-        "public_direct_threads_instagram": "2026-10-30 morning local"
+        "public_direct_threads_instagram": "2026-10-30 morning local",
+        "followup_runtime": "2026-10-30T06:39:21.571Z",
+        "followup_run_id": "41015316427"
       },
       "source_status": {
         "github_actions": "Runtime artifact threads-runtime-41014562891-1 exists and has analytics, inbox, external_trends, lead_discovery, discovery, lead_id_resolution.",
@@ -3012,9 +3014,13 @@
         "queued_post_id": "threads-2026-10-30-agency-booking-backend",
         "queued_post_at": "2026-10-30T06:35:00Z",
         "queued_commit": "b320945e88800c9cb37071443209a0b9639ce3cd",
-        "published_verified": false,
+        "published_verified": true,
         "instagram_queue_changed": false,
-        "reason": "Prior buyer posts yielded zero leads; target-audience Threads posts show measurable replies; one buyer-focused experiment, no broad HERO or duplicate outreach. Publication requires GitHub API confirmation."
+        "reason": "Prior buyer posts yielded zero leads; target-audience Threads posts show measurable replies; one buyer-focused experiment, no broad HERO or duplicate outreach. Publication requires GitHub API confirmation.",
+        "published_at": "2026-10-30T06:39:13Z",
+        "published_url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+        "verified_own_threads_media_id": "18115229194843268",
+        "verification_source": "new runtime artifact 41015316427 analytics.json, and state.json published_ids"
       },
       "limitations": [
         "External sample bounded; external views=null means unavailable, not zero.",
