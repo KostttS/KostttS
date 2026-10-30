@@ -92,3 +92,6 @@ Reason: 22:42 Asia/Jerusalem even-hour deep review is due, but latest runtime po
 
 Recovery request 2026-10-29T22:37:00Z
 Reason: at 00:37 Asia/Jerusalem 30 Oct, latest verified Threads Publisher runtime_pointer remains 2026-10-29T20:59:41Z (22:59 local), and no completed 00:00 even-hour trend/lead scan is present in GitHub Actions. Trigger existing workflow for midnight deep analysis, hourly buyer hunt, inbox/replies, own analytics. Do not publish outside 08–12/19–23, change posts/replies queue, use public HTML PK for replies, or contact other channels.
+
+Recovery request 2026-10-30T00:35:00Z
+Reason: at 02:35 Asia/Jerusalem the latest completed Threads Publisher workflow is 2026-10-29T22:41Z (00:41 local); no 01:00 local hourly scan and 02:00 local deep-analysis runtime are available despite cron 7,22,37,52. Trigger the existing workflow to refresh public lead discovery, external trends (02 local even slot), own analytics, inbox and replies_to_own_replies. No original publication outside 08-12/19-23, no queue rewrite, no duplicate outreach, no public_post_pk as API reply ID, no unrelated channels.
