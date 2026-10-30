@@ -717,5 +717,10 @@
     "text": "@mellowbrandstudio I saw your Android bike-taxi MVP brief. The tricky part isn't just the screens: rider/driver matching, maps, live trip status, OTP and admin need to work together. I build Flutter/FlutterFlow apps with Firebase/Supabase and APIs and can review the scope before any quote. Portfolio: https://www.behance.net/24512dab. Have you chosen your backend and maps provider?",
     "intent": "targeted_public_mention_not_reply",
     "source_lead_id": "public-lead-2026-10-29-bike-taxi"
+  },
+  {
+    "id": "threads-2026-10-30-agency-booking-backend",
+    "publish_at": "2026-10-30T06:35:00Z",
+    "text": "Web agencies: your client already has a booking website, then asks for an iOS/Android app. The hard part is keeping accounts, bookings and payments in sync—not drawing more screens.\n\nI build the mobile side in Flutter/FlutterFlow with Firebase/Supabase and APIs, including fixes to existing apps.\n\nHave an active client brief? Send the backend stack and ONE must-work workflow. I'll check if I can handle the mobile part.\n\nPortfolio: https://www.behance.net/24512dab"
   }
 ]
