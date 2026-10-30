@@ -4035,6 +4035,195 @@
         "queued_for": "2026-10-30T17:20:00Z (19:20 Asia/Jerusalem)",
         "queue_commit": "ff210e067cac3a507e60f83e5c8ae45ec0c7fda9"
       }
+    },
+    {
+      "checked_at": "2026-10-30T18:41:21Z",
+      "local_slot": "2026-10-30 20:00 Asia/Jerusalem (review at 20:41)",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "latest_runtime": "2026-10-30T17:42:27Z",
+        "run_id": "41100707281",
+        "latest_full_external_trends": "2026-10-30T16:43:22Z",
+        "run_id_external": "41092113223",
+        "lead_discovery": "2026-10-30T17:40:30Z",
+        "instagram_metricool_checked": "2026-10-30 20:41 Asia/Jerusalem"
+      },
+      "source_status": {
+        "scheduled_20h_runtime": "unavailable; no Threads Publisher run after 19:40 UTC+2 as of 20:41",
+        "fallback": "19h runtime for own analytics/inbox/leads; 18h verified_public_sample for external trends",
+        "external_coverage": "134 unique public Threads posts, 24 pages, 19 pages with posts; NOT all Threads",
+        "external_views": "unavailable (null), not zero",
+        "web_fallback": "Public web search for October 2026 Flutter/app-development Threads leads returned no results; direct Threads post opens inaccessible in web search",
+        "instagram_competitor_data": "No independently verified current competitor Instagram post metrics; unavailable",
+        "official_keyword_search": "No confirmed App Review approval; API search prior 39 queries / 0 results; public PK cannot be used as reply ID"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+          "published_at": "2026-10-30T17:40:27Z",
+          "age_minutes_at_snapshot": 2,
+          "views": 0,
+          "likes": 0,
+          "replies": 0,
+          "topic": "own targeted @welkxdigital.tech mention, NOT reply",
+          "buyer_notification_confirmed": false,
+          "contact_confirmed": false
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+          "published_at": "2026-10-30T06:39:13Z",
+          "age_hours_at_snapshot": 11.05,
+          "views": 42,
+          "likes": 3,
+          "replies": 2,
+          "commercial_buyer_replies": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "age_hours_at_snapshot": 24.1,
+          "views": 28,
+          "likes": 0,
+          "replies": 1,
+          "commercial_buyer_replies": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "contact_confirmed": false
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0,
+        "insights_checked": "2026-10-30T17:42:27Z"
+      },
+      "own_instagram": {
+        "checked_at": "2026-10-30 20:41 Asia/Jerusalem",
+        "source": "Metricool blogId 6890763",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "date": "2026-10-28",
+            "views": 4,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0,
+            "follows": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "date": "2026-10-26",
+            "views": 8,
+            "reach": 5,
+            "interactions": 0,
+            "comments": 0,
+            "follows": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+            "date": "2026-10-25",
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0,
+            "follows": 0
+          }
+        ],
+        "organic_clicks": "deprecated/unavailable, not zero",
+        "scheduled_posts": 0
+      },
+      "external_threads": [
+        {
+          "url": "https://www.threads.com/@hormozi/post/DfDB01Qn6b3",
+          "author": "hormozi",
+          "published_at": "2026-10-28T18:01:39Z",
+          "likes": 1192,
+          "replies": 78,
+          "reposts": 84,
+          "views": null,
+          "growth": {
+            "hours": 21.96,
+            "likes": 140,
+            "replies": 8,
+            "reposts": 8
+          },
+          "mechanism": "Very short sales/marketing/product contrast. Adapt to concrete app workflow failure, not unsupported claims."
+        },
+        {
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "likes": 77,
+          "replies": 114,
+          "reposts": 1,
+          "views": null,
+          "growth": {
+            "hours": 2.04,
+            "likes": 6,
+            "replies": 8
+          },
+          "mechanism": "Calls out marketing agency owners and asks easy comment/tag. High conversation, not verified paid work; test precise active-brief CTA rather than generic networking."
+        },
+        {
+          "url": "https://www.threads.com/@core_mur67/post/DfGy4HJCDPv",
+          "author": "core_mur67",
+          "published_at": "2026-10-30T05:07:55Z",
+          "likes": 27,
+          "replies": 73,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "hours": 2.04,
+            "likes": 2,
+            "replies": 3
+          },
+          "mechanism": "Specific $500 website procurement request elicits many offers. Website not mobile app; do not count as mobile lead. Budget/scope specificity may inform future buyer-focused content."
+        },
+        {
+          "url": "https://www.threads.com/@kea.webdesign/post/DfHlgj-jZFt",
+          "author": "kea.webdesign",
+          "published_at": "2026-10-30T12:30:21Z",
+          "likes": 14,
+          "replies": 40,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "hours": 2.04,
+            "likes": 2,
+            "replies": 8
+          },
+          "mechanism": "Invitation to promote businesses in comments. Generates networking replies but weak evidence of paid mobile buyers; do not copy."
+        }
+      ],
+      "lead_search": {
+        "latest_checked_at": "2026-10-30T17:40:30Z",
+        "pages_checked": 28,
+        "known_candidates_found": 3,
+        "newly_discovered": 0,
+        "without_obvious_disqualifiers": 2,
+        "stored_public_candidates": 13,
+        "confirmed_funded_contracts": 0,
+        "confirmed_new_buyer_contacts": 0,
+        "paid_orders": 0,
+        "verified_buyer_media_ids": 0,
+        "excluded_unpaid": "pixxiebubbles82 revenue-share without upfront payment",
+        "priority": "welkxdigital.tech stated $1,500 budget; own mention published 19:40, no verified notification or reply",
+        "kuro_solutions": "technical question already answered, no new reply as of 19:42"
+      },
+      "decision": {
+        "scale": "No demonstrated paid lead conversion; do not scale based on comments/views alone",
+        "remove": "No personal stories from Egor, no Brandi Flo, no irrelevant viral engagement or unfunded rev-share",
+        "test": "Measure response to one published buyer-specific @mention for 24–48h; pursue official ID approval or authorized browser to enable actual replies; next content only when supported by buyer signals",
+        "queue_changed": false,
+        "new_posts_created": 0,
+        "replies_sent": 0,
+        "reason": "Own targeted mention already published and verified. No new funded brief or valid official buyer media ID. 20h scheduled runtime absent; using explicitly dated fallback and public web search failure. Do not duplicate outreach."
+      },
+      "blocker": "20h GitHub Actions schedule did not run by 20:41; reason unverified. Official Threads keyword_search App Review not confirmed; no direct replies to public PK."
     }
   ]
 }
