@@ -232,6 +232,27 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Previously seen by hourly hunt on Oct 29 but not stored as a vetted buyer; public request verified, no paid contract evidence; do not use public HTML PK as API media ID. No contact made."
+    },
+    {
+      "id": "public-lead-2026-10-30-romanenko-mobile-collaboration",
+      "url": "https://www.threads.com/@romanenko_dmitriy_/post/DejbG58jAN2",
+      "username": "romanenko_dmitriy_",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-16T11:26:49Z",
+      "observed_at": "2026-10-30T10:42:58.134Z",
+      "request": "RU: 'Ищем разработчика мобильных приложений' for iOS/Android, seeks experience and completed projects; says multiple collaboration formats possible. No concrete client brief, budget, payment, stack, or remote work confirmation.",
+      "observed_likes": 58,
+      "observed_replies": 56,
+      "observed_reposts": null,
+      "observed_views_approx": 14300,
+      "observed_views_source": "Public Threads page via TinyFish direct fetch 2026-10-30 around 12:40 Asia/Jerusalem; rounded public UI, not official API",
+      "priority": "secondary_older_14_days_generic_collaboration_paid_client_unverified",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Здравствуйте! Увидел ваш запрос на разработчика iOS/Android. Я делаю мобильные приложения на Flutter/FlutterFlow с Firebase/Supabase и API-интеграциями. Портфолио: https://www.behance.net/24512dab. У вас сейчас есть конкретный оплачиваемый проект или речь о будущем сотрудничестве? Могу посмотреть краткое ТЗ и стек.",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Public post verified, not proof of a paid order. Do not send via Threads API without confirmed official media ID. Cross-channel contact status not verified; check before outreach."
     }
   ]
 }
