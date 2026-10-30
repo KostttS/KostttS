@@ -4223,7 +4223,41 @@
         "replies_sent": 0,
         "reason": "Own targeted mention already published and verified. No new funded brief or valid official buyer media ID. 20h scheduled runtime absent; using explicitly dated fallback and public web search failure. Do not duplicate outreach."
       },
-      "blocker": "20h GitHub Actions schedule did not run by 20:41; reason unverified. Official Threads keyword_search App Review not confirmed; no direct replies to public PK."
+      "blocker": "20h GitHub Actions schedule did not run by 20:41; reason unverified. Official Threads keyword_search App Review not confirmed; no direct replies to public PK.",
+      "public_verification_20_45": {
+        "checked_at_local": "2026-10-30 20:45 Asia/Jerusalem",
+        "source": "TinyFish public Threads page fetch (not API)",
+        "own_targeted_post": {
+          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+          "views": 9,
+          "replies_visible": 0,
+          "not_proof_of_notification": true
+        },
+        "buyer_original": {
+          "url": "https://www.threads.com/@welkxdigital.tech/post/De9urjekykQ",
+          "published_at": "2026-10-26T16:38:06Z",
+          "views": 72,
+          "replies": 4,
+          "reposts": 1,
+          "shares": 2,
+          "brief_budget_usd": 1500
+        },
+        "external_taylor": {
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "published_at": "2026-10-29T17:51:56Z",
+          "views_rounded": "11.6K",
+          "likes": 82,
+          "replies": 120,
+          "reposts": 2,
+          "shares": 7,
+          "growth_vs_18h_sample": {
+            "likes": 5,
+            "replies": 6,
+            "reposts": 1
+          }
+        },
+        "notes": "No verified buyer reply to own @mention; public page does not prove notification or DM. These views are from public UI, separate from official analytics."
+      }
     }
   ]
 }
