@@ -722,5 +722,12 @@
     "id": "threads-2026-10-30-agency-booking-backend",
     "publish_at": "2026-10-30T06:35:00Z",
     "text": "Web agencies: your client already has a booking website, then asks for an iOS/Android app. The hard part is keeping accounts, bookings and payments in sync—not drawing more screens.\n\nI build the mobile side in Flutter/FlutterFlow with Firebase/Supabase and APIs, including fixes to existing apps.\n\nHave an active client brief? Send the backend stack and ONE must-work workflow. I'll check if I can handle the mobile part.\n\nPortfolio: https://www.behance.net/24512dab"
+  },
+  {
+    "id": "threads-2026-10-30-targeted-bnb-brief-mention",
+    "publish_at": "2026-10-30T17:20:00Z",
+    "text": "@welkxdigital.tech I saw your $1,500 Airbnb-style BnB mobile-app brief. I build Flutter/FlutterFlow apps with Firebase/Supabase and APIs. At that budget I'd focus on a narrow MVP (e.g. listings + booking request), not a full Airbnb clone. Is the client brief still open, and what must work in v1? Portfolio: https://www.behance.net/24512dab",
+    "intent": "targeted_public_mention_not_reply",
+    "source_lead_id": "public-lead-2026-10-30-welkxdigital-bnb-1500"
   }
 ]
