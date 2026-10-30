@@ -4258,6 +4258,195 @@
         },
         "notes": "No verified buyer reply to own @mention; public page does not prove notification or DM. These views are from public UI, separate from official analytics."
       }
+    },
+    {
+      "checked_at": "2026-10-30T20:38:46.432Z",
+      "local_slot": "2026-10-30 22:00 Asia/Jerusalem (review at 22:36–22:39)",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "threads_latest_runtime": "2026-10-30T19:42:18Z",
+        "threads_latest_run_id": "41117208687",
+        "external_trends_full": "2026-10-30T18:47:28Z",
+        "external_trends_run_id": "41109591212",
+        "lead_discovery": "2026-10-30T19:40:56Z",
+        "instagram_metricool_checked": "2026-10-30T20:38:46.432Z",
+        "public_web_search_checked": "2026-10-30T20:38:46.432Z"
+      },
+      "source_status": {
+        "external_trends_latest": "skipped at 21h, reused 20:47 verified_public_sample from run 41109591212; 107 unique external posts from 24 bounded public search page requests, 20 with embedded posts; NOT full Threads",
+        "external_views": "null = unavailable, not zero",
+        "official_keyword_search": "21h runtime: 39 queries returned 0; scope in token but App Review approval not verified",
+        "external_instagram": "No verified post-level metrics for competing Instagram accounts available; no comparison invented",
+        "web_search": "Four alternate site:threads.com RU/EN queries for 30 Oct app developers and budgets returned no results; cannot infer no demand",
+        "inbox": "21:42 local runtime: 2 previously known replies on own posts (Kuro Solutions already answered; Nastya non-buyer); no new verified commercial response; mentions unavailable",
+        "lead_id_resolution": "skipped_pending_verified_app_review_change, zero confirmed target media IDs"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+          "published_at": "2026-10-30T17:40:27Z",
+          "age_hours_at_snapshot": 2.03,
+          "topic": "own targeted @mention to BnB $1500 buyer, not reply",
+          "views": 9,
+          "likes": 0,
+          "replies": 0,
+          "confirmed_buyer_response": false
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+          "published_at": "2026-10-30T06:39:13Z",
+          "age_hours_at_snapshot": 13.05,
+          "topic": "web agencies booking sync",
+          "views": 42,
+          "likes": 3,
+          "replies": 2,
+          "confirmed_commercial_buyer_replies": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "age_hours_at_snapshot": 26.1,
+          "topic": "payment webhook missing orders",
+          "views": 28,
+          "likes": 0,
+          "replies": 1,
+          "confirmed_commercial_buyer_replies": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "age_hours_at_snapshot": 35.29,
+          "topic": "bike taxi own targeted @mention, not reply",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "confirmed_buyer_response": false
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0
+      },
+      "own_instagram": {
+        "source": "Metricool brandId 6890763, read 2026-10-30 22:37 local",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "published_at_local": "2026-10-28 17:46:21",
+            "age_hours_at_check": 52.9,
+            "views": 4,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "published_at_local": "2026-10-26 08:03:36",
+            "age_hours_at_check": 110.6,
+            "views": 8,
+            "reach": 5,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+            "published_at_local": "2026-10-25 08:03:09",
+            "age_hours_at_check": 134.6,
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          }
+        ],
+        "organic_clicks": "deprecated/unavailable, not zero",
+        "confirmed_buyer_contacts": 0
+      },
+      "external_threads": [
+        {
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "likes": 82,
+          "replies": 120,
+          "reposts": 1,
+          "views": null,
+          "growth_vs_18h_artifact": {
+            "likes": 5,
+            "replies": 6
+          },
+          "mechanism": "Names marketing agency owners and asks for comments/tags; low-friction targeted callout; networking not verified mobile-app purchase intent."
+        },
+        {
+          "url": "https://www.threads.com/@dk_petersburg/post/DfHBOe-EXrw",
+          "author": "dk_petersburg",
+          "published_at": "2026-10-30T07:13:19Z",
+          "likes": 28,
+          "replies": 83,
+          "reposts": 0,
+          "views": null,
+          "growth_since_16h_artifact": {
+            "likes": 12,
+            "replies": 38
+          },
+          "mechanism": "Calls small-business owners to self-introduce, high reply participation but poor qualification as paid app buyers."
+        },
+        {
+          "url": "https://www.threads.com/@caramelxcouture/post/DfGl67WFcsm",
+          "author": "caramelxcouture",
+          "published_at": "2026-10-30T03:14:43Z",
+          "likes": 122,
+          "replies": 21,
+          "reposts": 6,
+          "views": null,
+          "growth_in_last_4h": {
+            "likes": 73,
+            "replies": 11,
+            "reposts": 3
+          },
+          "mechanism": "Concrete agency audience, proof of specific prior activation and clear availability/CTA; adapt as truthful project-specific mobile delivery availability, without inventing client successes."
+        },
+        {
+          "url": "https://www.threads.com/@viclev.dev/post/DfFZf5ViIDS",
+          "author": "viclev.dev",
+          "published_at": "2026-10-29T16:06:55Z",
+          "likes": 19,
+          "replies": 94,
+          "reposts": 0,
+          "views": null,
+          "growth_in_last_12h": {
+            "likes": 4,
+            "replies": 39
+          },
+          "mechanism": "Show-your-project developer prompt creates developer replies, not buyers; do not imitate as main acquisition tactic."
+        }
+      ],
+      "lead_search": {
+        "pages_checked": 28,
+        "unique_candidates": 4,
+        "newly_discovered": 0,
+        "without_obvious_disqualifiers": 1,
+        "stored_candidates": 13,
+        "confirmed_funded_projects": 0,
+        "confirmed_new_buyer_contacts": 0,
+        "paid_orders": 0,
+        "official_target_media_ids": 0,
+        "notes": [
+          "mellowbrandstudio bike taxi previously @mentioned; no reply confirmed, do not repeat",
+          "work_fromhome349 restaurant duplicated from berlin_ceo070, authenticity uncertain",
+          "pixxiebubbles82 explicitly unpaid until future profits; exclude",
+          "welkxdigital $1500 BnB lead previously @mentioned in own post, no buyer response",
+          "Kuro Solutions prior technical comment answered; no new reply"
+        ]
+      },
+      "decision": {
+        "scale": "No confirmed paying lead from any theme; do not scale by views. Precise agency/backend question is worth monitoring but 42 views and 2 replies are not proof of acquisition.",
+        "remove": "Avoid generic developer-networking posts, unpaid rev-share requests, dubious duplicate restaurant briefs, unverified personal stories and Brandi Flo promotion.",
+        "test": "Continue measuring published targeted BnB and bike-taxi mentions for real buyer responses; next buyer-focused post only with evidence, within 08–12 or 19–23 local and at most one broad HERO daily.",
+        "queue_changed": false,
+        "posts_published": 0,
+        "replies_sent": 0,
+        "reason": "No new qualified funded buyer, no official target media ID, no measurable reason to rewrite future queue. 22h full scan not yet available at 22:39; this review uses last verified 20:47 sample."
+      }
     }
   ]
 }
