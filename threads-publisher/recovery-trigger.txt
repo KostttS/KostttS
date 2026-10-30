@@ -107,3 +107,6 @@ Reason: latest verified runtime_pointer remains at 2026-10-30T02:43:34Z (04:43 l
 
 Recovery request 2026-10-30 06 Asia/Jerusalem
 Reason: at 06:45 Asia/Jerusalem, latest verified runtime_pointer is 2026-10-30T03:38:42Z (05:38 local); no 06:00 even-hour runtime artifact is available. The 06h deep analysis was logged with explicit source cutoffs and fallback verified public checks. Trigger existing Threads Publisher workflow to collect fresh 06h public trends, hourly paid-buyer leads, own analytics, inbox/replies and official-ID status. Do not publish outside 08–12/19–23, duplicate contacts or @mentions, use public HTML PK as official reply ID, alter unrelated channels, or change the queue without new measurements.
+
+Recovery monitoring trigger: 2026-10-30T05:34:11Z
+Reason: at 07:34 Asia/Jerusalem last runtime pointer is 2026-10-30T04:48:47Z (06:48 local); scheduled 07:07/07:22 cron checks absent. Refresh hourly buyer discovery, Threads inbox/replies/analytics and external trends when due. No original content scheduled for 30 Oct and current time is outside 08-12/19-23 local posting windows. No duplicates, no unverified public PK replies; do not change queue or attributed facts.
