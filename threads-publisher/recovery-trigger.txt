@@ -138,3 +138,6 @@ Reason: latest Threads Publisher run was 2026-10-30T17:40Z (19:40 local), and 20
 
 Recovery request 2026-10-30T19:39:18Z
 Reason: 21:39 Asia/Jerusalem hourly audit: latest confirmed scheduled run #623 completed 20:49 local; no newer workflow run in public actions listing. Trigger a single queue/inbox/analytics/buyer-hunt refresh. Do not duplicate the already published @welkxdigital.tech mention, and do not create new originals without evidence. Keep official media ID guardrails.
+
+Recovery request 2026-10-30T20:39:17.346Z (22h Asia/Jerusalem)
+Reason: at 22:39 local no new Threads Publisher workflow after 21:42 local; 22h deep review logged separately using latest 21:42 own analytics/inbox and 20:47 verified external sample. Trigger existing workflow once for fresh 22h lead_discovery, external_trends, inbox/replies_to_own_replies, and own analytics. Do not duplicate prior buyer @mentions, do not treat public HTML PK as official reply ID, do not invent paid leads, do not publish personal/Egor/Brandi Flo stories, do not touch other channels. Original posts only in permitted local windows and only with evidence.
