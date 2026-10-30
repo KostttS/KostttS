@@ -4543,6 +4543,211 @@
           "reason": "No new qualified funded buyer or confirmed target media ID; no reason to post duplicate @mentions."
         }
       }
+    },
+    {
+      "checked_at": "2026-10-30T22:44:00Z",
+      "local_slot": "2026-10-31 00:00 Asia/Jerusalem (verified 00:43–00:44)",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "threads_runtime": "2026-10-30T22:43:31.525888Z",
+        "run_id": "41139674078",
+        "lead_discovery": "2026-10-30T22:40:37.906713Z",
+        "external_trends": "2026-10-30T22:42:12.683087Z",
+        "instagram_metricool": "2026-10-31 00:39 Asia/Jerusalem",
+        "public_web_search": "2026-10-31 00:40–00:43 Asia/Jerusalem"
+      },
+      "source_status": {
+        "scheduled_runtime": "completed_successfully; 00h full artifact verified",
+        "external_coverage": "104 verified unique public Threads posts, 24 bounded search pages, 20 pages with embedded posts; NOT whole Threads",
+        "external_views": "null means unavailable, not zero",
+        "official_keyword_search": "39 official queries, 0 results; App Review approval unverified despite token scope; cannot infer no demand",
+        "public_web_search": "Two targeted site:threads.com searches returned no verified fresh paid mobile-app brief. TinyFish RU result appeared relevant in search snippet but original @rai28.official post was actually a seller of AI services; rejected after direct page verification. @pavelduglas result was a developer reply, not buyer. No false leads added.",
+        "instagram_competitors": "No independently verified current competitor Instagram post metrics; unavailable",
+        "inbox": "Official runtime 00:43 local: no new business replies; existing Kuro Solutions question already answered; @welkxdigital.tech mention has no confirmed buyer response",
+        "lead_id_resolution": "skipped_pending_verified_app_review_change; confirmed_api_media_ids=0"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+          "published_at": "2026-10-30T17:40:27Z",
+          "age_hours_at_snapshot": 5.05,
+          "topic": "own buyer-specific @welkxdigital.tech mention (not reply)",
+          "views": 9,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "buyer_notification_verified": false
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+          "published_at": "2026-10-30T06:39:13Z",
+          "age_hours_at_snapshot": 16.07,
+          "topic": "web agency booking/backend integration",
+          "views": 42,
+          "likes": 3,
+          "replies": 2,
+          "reposts": 0,
+          "qualified_buyer_replies": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "age_hours_at_snapshot": 29.12,
+          "topic": "payment webhook lost order",
+          "views": 28,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "qualified_buyer_replies": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "age_hours_at_snapshot": 38.31,
+          "topic": "bike taxi buyer @mention, not reply",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "buyer_notification_verified": false
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0
+      },
+      "own_instagram": {
+        "source": "Metricool blogId 6890763",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "published_at_local": "2026-10-28 17:46:21",
+            "age_hours_at_check": 54.9,
+            "views": 4,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "published_at_local": "2026-10-26 08:03:36",
+            "age_hours_at_check": 112.6,
+            "views": 8,
+            "reach": 5,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+            "published_at_local": "2026-10-25 08:03:09",
+            "age_hours_at_check": 136.6,
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "comments": 0
+          }
+        ],
+        "organic_clicks": "deprecated/unavailable, not zero",
+        "scheduled_posts": 0,
+        "qualified_buyer_contacts": 0
+      },
+      "external_threads": [
+        {
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "age_hours_at_scan": 28.8,
+          "likes": 84,
+          "replies": 127,
+          "reposts": 1,
+          "views": null,
+          "growth": {
+            "hours": 2.02,
+            "likes_delta": 1,
+            "replies_delta": 7,
+            "reposts_delta": 0
+          },
+          "mechanism": "Directly names marketing agency owners, simple low-friction comment/tag request; many replies but not proof of buyers. Adapt only to specific agency mobile-app handoff brief and a qualifying question."
+        },
+        {
+          "url": "https://www.threads.com/@caramelxcouture/post/DfGl67WFcsm",
+          "author": "caramelxcouture",
+          "published_at": "2026-10-30T03:14:43Z",
+          "age_hours_at_scan": 19.5,
+          "likes": 156,
+          "replies": 27,
+          "reposts": 10,
+          "views": null,
+          "growth": {
+            "hours": 2.02,
+            "likes_delta": 18,
+            "replies_delta": 4,
+            "reposts_delta": 0
+          },
+          "mechanism": "Names target agency/brand audience, concrete recent work and availability; can adapt to verifiable own portfolio with narrow service offer, never invent named client projects."
+        },
+        {
+          "url": "https://www.threads.com/@ladylyzo/post/DfIYOX1CHge",
+          "author": "ladylyzo",
+          "published_at": "2026-10-30T19:53:31Z",
+          "age_hours_at_scan": 2.8,
+          "likes": 24,
+          "replies": 37,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "hours": 2.02,
+            "likes_delta": 15,
+            "replies_delta": 8,
+            "reposts_delta": 0
+          },
+          "mechanism": "Simple business-owner identity question and brief professional credibility; attracts self-identification but not confirmed software procurement. Avoid generic networking-only copy."
+        },
+        {
+          "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+          "author": "mellowbrandstudio",
+          "published_at": "2026-10-26T03:11:02Z",
+          "age_hours_at_scan": 115.5,
+          "likes": 45,
+          "replies": 65,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "hours": 2.02,
+            "likes_delta": 0,
+            "replies_delta": 0,
+            "reposts_delta": 0
+          },
+          "mechanism": "Specific Flutter bike-taxi MVP with OTP/maps/driver/admin; direct procurement intent but budget unknown, many replies. Prior own @mention not reply, no contact verified; do not repeat."
+        }
+      ],
+      "lead_search": {
+        "checked_at": "2026-10-30T22:40:37.906713Z",
+        "pages_checked": 28,
+        "candidates": 4,
+        "newly_discovered": 0,
+        "without_obvious_disqualifiers": 1,
+        "stored_candidates": 13,
+        "verified_target_media_ids": 0,
+        "confirmed_new_buyer_contacts": 0,
+        "paid_orders": 0,
+        "excluded": "pixxiebubbles82 unfunded revenue share; berlin_ceo070/work_fromhome349 identical restaurant brief from multiple accounts",
+        "priority": "welkxdigital.tech stated $1500 Airbnb-like mobile brief; single own @mention posted Oct 30 19:40, 9 views and no reply; no verified notification"
+      },
+      "decision": {
+        "scale": "No theme proven to acquire paid customers. Do not scale generic viral engagement or count comments as contracts.",
+        "remove": "Avoid unrelated sensational/identity engagement, unfunded rev-share, Brandi Flo, and any Egor biographical story.",
+        "test": "Evaluate 24–48h response to the single buyer-specific mention and one qualifying active-brief question; next original buyer-facing content only if data supports, within 08–12 or 19–23 local.",
+        "queue_changed": false,
+        "new_posts_created": 0,
+        "replies_sent": 0,
+        "reason": "Fresh 00h run produced no new paid buyer or valid target media ID. Instagram engagement still zero; no justified queue rewrite or duplicate @mention."
+      },
+      "operational": {
+        "recovery_trigger_commit": "b4ca72d8c17439a209cb89fac8862bbeed041a4a",
+        "scheduled_run": "41139674078 completed success",
+        "note": "Additional recovery run #41139706297 was queued by trigger while scheduled run was active; no duplicate content should be created at midnight."
+      }
     }
   ]
 }
