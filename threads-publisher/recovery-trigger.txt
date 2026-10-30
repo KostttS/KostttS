@@ -116,3 +116,6 @@ Reason: at 09:44 Asia/Jerusalem the latest verified Threads Publisher run remain
 
 Recovery request 2026-10-30T09:40:40Z
 Reason: at 11:40 Asia/Jerusalem latest verified runtime pointer remains 2026-10-30T07:49:12Z (09:49 local); no 10:00 or 11:00 local hourly scans despite workflow cron 7,22,37,52. Run existing publisher safely to refresh 11h public buyer hunt, own Threads analytics and inbox/replies_to_own_replies, retain last complete even-hour external trends sample. No new original post queued; do not duplicate published content or replies, use public HTML PK as media ID, publish unrelated personal stories, or touch other channels. Keep posting windows and queue unchanged.
+
+Recovery request 2026-10-30T11:36:45Z
+Reason: at 13:36 Asia/Jerusalem latest completed Threads Publisher run remains 09:44Z (11:44 local); no 12h even-slot or 13h hourly scan visible despite cron 7,22,37,52. Trigger existing workflow to refresh hourly paid buyer hunt, own Threads analytics, inbox/replies_to_own_replies, and external trends according to two-hour guard. Do not publish originals outside 08-12/19-23 local, use public HTML PK as official media ID, duplicate contacts, or alter posts/replies queue or other channels. Preserve strict Konstantin/Egor attribution.
