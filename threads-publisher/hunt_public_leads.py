@@ -54,8 +54,8 @@ def disqualifiers(text):
     internship_recruitment_markers=("looking for", "hiring", "apply", "career", "freshers welcome", "вакансия", "ищем")
     if (any(s in value for s in hiring_markers) and any(s in value for s in employment_markers)) or (any(s in value for s in internship_markers) and any(s in value for s in internship_recruitment_markers)):
         out.append("employee_job_ad_not_project")
-    # A profit split or work before payment is not a funded mobile-app order.
-    if any(s in value for s in ("no money involved until it pays", "no money until it pays", "equity only", "profit share", "profit split", "revenue share", "revenue split", "60% to you", "unpaid project", "work for exposure")):
+    # A profit split or post-delivery-only payment promise is not verified funded work.
+    if any(s in value for s in ("no money involved until it pays", "no money until it pays", "equity only", "profit share", "profit split", "revenue share", "revenue split", "60% to you", "unpaid project", "work for exposure", "after building my app i pay", "after building the app i pay", "build my app then i pay", "i pay after the app is built", "pay after building the app")):
         out.append("contingent_or_unfunded_compensation")
     # Public search often returns freelancers quoting a buyer's request.
     if any(s in value for s in ("i came across your post about looking for", "i'd love to help bring your idea to life", "here's my portfolio so you can check", "looking for a new opportunity as a flutter developer", "open to remote opportunities worldwide")):
