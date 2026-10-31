@@ -5736,6 +5736,125 @@
         "No authenticated Threads browser session, no verified App Review keyword_search; no direct buyer replies attempted.",
         "Web/TinyFish targeted searches produced no new buyer links; this does not imply no demand exists."
       ]
+    },
+    {
+      "checked_at": "2026-10-31T06:47:52.079Z",
+      "type": "late_source_reconciliation_of_2026-10-31_08h_deep_review",
+      "local_slot": "2026-10-31 08:00 Asia/Jerusalem",
+      "source_cutoffs": {
+        "recovered_run_id": "41177826641",
+        "runtime": "2026-10-31T06:47:14Z",
+        "lead_discovery": "2026-10-31T06:44:36Z",
+        "external_trends": "2026-10-31T06:46:00Z",
+        "instagram_metricool": "2026-10-31 ~08:41 Asia/Jerusalem",
+        "public_live_threads": "2026-10-31 ~08:41 Asia/Jerusalem"
+      },
+      "verified_recovery": {
+        "workflow_status": "success",
+        "artifact": "threads-runtime-41177826641-1",
+        "runtime_pointer_updated_at": "2026-10-31T06:47:20Z",
+        "trigger_commit": "859f3b4ab2868f331e779208151d294a88e0aa0e"
+      },
+      "own_threads": {
+        "agency_booking": {
+          "views": 42,
+          "likes": 3,
+          "replies": 2,
+          "commercial_leads": 0
+        },
+        "bnb_mention": {
+          "views": 9,
+          "likes": 0,
+          "replies": 0,
+          "contact_verified": false
+        },
+        "payment_webhook": {
+          "views": 33,
+          "likes": 0,
+          "replies": 1
+        },
+        "bike_taxi_mention": {
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "contact_verified": false
+        },
+        "field_whatsapp": {
+          "views": 95,
+          "likes": 0,
+          "replies": 0
+        },
+        "portfolio_link_clicks": 0
+      },
+      "own_instagram": {
+        "latest_post_2026_10_28": {
+          "views": 6,
+          "reach": 4,
+          "likes": 1,
+          "comments": 1,
+          "interactions": 2
+        },
+        "latest_post_2026_10_26": {
+          "views": 8,
+          "reach": 5,
+          "interactions": 0
+        },
+        "clicks": "unavailable_deprecated",
+        "new_confirmed_paid_leads": 0
+      },
+      "external_trends": {
+        "status": "verified_public_sample",
+        "unique_external_posts": 118,
+        "pages_checked": 24,
+        "high_engagement_candidates": 17,
+        "coverage": "bounded public HTML sample, not full Threads",
+        "views_on_sample_posts": "null/unavailable; separate live public checks documented in preceding 08h review",
+        "comparison_warning": "118 vs previous 121 reflects changing bounded sample, not platform trend",
+        "buyer_signals": [
+          "https://www.threads.com/@berlin_ceo070/post/De3qgj4DE32",
+          "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa"
+        ],
+        "top_viral_posts": "Dominated by unrelated AI/political/social stories; not suitable to mimic for mobile-app buyer acquisition."
+      },
+      "lead_hunt": {
+        "pages_checked": 28,
+        "candidates": 3,
+        "new_candidates": 0,
+        "candidate_urls": [
+          "https://www.threads.com/@confused.ex/post/DfBwrglE3tZ",
+          "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+          "https://www.threads.com/@berlin_ceo070/post/De3qgj4DE32"
+        ],
+        "qualified_paid_confirmed": 0,
+        "official_media_ids": 0,
+        "contact_sent": 0,
+        "paid_orders": 0
+      },
+      "inbox": {
+        "mentions_scope_available": false,
+        "new_commercial_replies": 0,
+        "new_replies_to_own_replies": 0,
+        "kurosolutions_already_answered": true
+      },
+      "official_discovery": {
+        "results": 0,
+        "approved_app_review_unverified": true
+      },
+      "decision": {
+        "scale": "No paid lead conversion; preserve narrow agency booking/app rescue tests rather than inflate reach metrics.",
+        "remove": "No generic viral personal stories, no repeated own @mentions or public_post_pk replies.",
+        "test": "Wait for verified buyer contact channel and paid brief; consider only distinct buyer-facing diagnostic content based on new measurements.",
+        "queue_changed": false,
+        "posts_created": 0,
+        "replies_sent": 0,
+        "reason": "Fresh recovered run confirms no new paid leads, no new replies and no performance change. Publishing only for schedule would not be evidence-based."
+      },
+      "limitations": [
+        "No official keyword search approval; scope alone insufficient.",
+        "Public PK cannot be used for API replies.",
+        "No signed-in Threads browser profile; no direct contact made.",
+        "Instagram competitor metrics unavailable in Metricool."
+      ]
     }
   ]
 }
