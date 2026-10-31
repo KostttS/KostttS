@@ -5910,24 +5910,24 @@
       ]
     },
     {
-      "checked_at": "2026-10-31T16:39:00Z",
+      "checked_at": "2026-10-31T16:43:00Z",
       "local_slot": "2026-10-31 18:00 Asia/Jerusalem",
       "type": "two_hour_deep_review",
       "source_cutoffs": {
-        "threads_runtime": "2026-10-31T15:44:40Z",
-        "threads_run_id": "41216289521",
-        "external_trends_full": "2026-10-31T14:37:54Z",
-        "external_trends_run_id": "41210887006",
-        "lead_discovery_full": "2026-10-31T15:40:55Z",
-        "lead_discovery_run_id": "41215996662",
+        "threads_runtime": "2026-10-31T16:42:41Z",
+        "threads_run_id": "41220766434",
+        "external_trends_full": "2026-10-31T16:41:31Z",
+        "external_trends_run_id": "41220766434",
+        "lead_discovery_full": "2026-10-31T16:40:03Z",
+        "lead_discovery_run_id": "41220766434",
         "instagram_metricool": "2026-10-31 18:38 Asia/Jerusalem",
         "public_web_search": "2026-10-31 18:38 Asia/Jerusalem"
       },
       "source_status": {
-        "threads_runtime": "Last completed run at 17:44 local; no 18:00 local scheduled run yet in GitHub run listing at check. Fresh deep review will trigger a push workflow by updating this audit log; do not claim fresh post-run data before checking.",
-        "external_trends": "verified_public_sample 119 unique posts from 24 public pages; latest 17:44 artifact status skipped, previous full 16:37 used; not entire Threads",
+        "threads_runtime": "Recovered missing 18h scheduled check with authorized recovery-trigger push; GitHub Actions 41220766434 completed successfully at 18:42:53 Israel; fresh analytics, inbox, discovery and trends read from artifact.",
+        "external_trends": "verified_public_sample 148 unique posts from 24 public pages, 20 with embedded posts, 24 high-engagement candidates; NOT all Threads. Previous 16h sample had 119 unique, but different search samples cannot be interpreted as audience growth.",
         "external_views": "null=unavailable, not zero",
-        "official_keyword_search": "App Review approval not verified; previous 39 queries including control returned 0, not evidence of absent demand",
+        "official_keyword_search": "Fresh discovery.json: 39 keyword queries, 0 results, including ChatGPT control 0; public search unverified; App Review approval not confirmed.",
         "instagram_competitors": "No verified competitor Instagram post metrics available; not claimed",
         "web_fallback": "Three alternate RU/EN Threads site search queries returned no results; search indexing is limited; not proof of no buyers"
       },
@@ -5936,7 +5936,7 @@
           "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
           "published_at": "2026-10-31T07:44:14Z",
           "topic": "FlutterFlow App Store / Google Play release blocker",
-          "age_hours_at_runtime": 8.01,
+          "age_hours_at_runtime": 8.97,
           "views": 29,
           "likes": 0,
           "replies": 0,
@@ -5947,7 +5947,7 @@
           "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
           "published_at": "2026-10-30T06:39:13Z",
           "topic": "agency booking integration",
-          "age_hours_at_runtime": 33.09,
+          "age_hours_at_runtime": 34.06,
           "views": 42,
           "likes": 3,
           "replies": 2,
@@ -5958,7 +5958,7 @@
           "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
           "published_at": "2026-10-30T17:40:27Z",
           "topic": "targeted BnB public @mention, not a reply",
-          "age_hours_at_runtime": 22.07,
+          "age_hours_at_runtime": 23.04,
           "views": 9,
           "likes": 0,
           "replies": 0,
@@ -6067,27 +6067,36 @@
           "url": "https://www.threads.com/@yeraliyeva08/post/DfJ6-Y8ETWk",
           "author": "yeraliyeva08",
           "published_at": "2026-10-31T10:16:24Z",
-          "likes": 83,
-          "replies": 41,
-          "reposts": 1,
+          "likes": 138,
+          "replies": 58,
+          "reposts": 2,
           "views": null,
           "growth": {
-            "elapsed_hours": 1.98,
-            "likes_delta": 32,
-            "replies_delta": 4,
+            "elapsed_hours": 2.06,
+            "likes_delta": 55,
+            "replies_delta": 17,
             "reposts_delta": 1
           },
           "mechanism": "Founder story plus community invitation builds local discussion, not software demand; do not copy biography or solicit without brief."
+        },
+        {
+          "url": "https://www.threads.com/@zhanelya.almazova/post/DfKbrPdiHG0",
+          "author": "zhanelya.almazova",
+          "published_at": "2026-10-31T15:02:09Z",
+          "likes": 6,
+          "replies": 21,
+          "reposts": 0,
+          "views": null,
+          "mechanism": "Asks how to start a scalable business with a stated amount of capital; open-ended question drives practical discussion, but NOT a mobile-app development brief and not an appropriate sales approach."
         }
       ],
       "lead_search": {
         "pages_checked": 28,
-        "full_scan_at": "2026-10-31T15:40:55Z",
-        "candidates": 3,
-        "new_candidates": 1,
+        "full_scan_at": "2026-10-31T16:40:03Z",
+        "candidates": 2,
+        "new_candidates": 0,
         "qualified_new_paid_projects": 0,
         "excluded": [
-          "bilvaleaf Flutter internship 6-12 months",
           "pixxiebubbles82 no-upfront-pay 60/40 rev-share"
         ],
         "known_potential_buyer": "mellowbrandstudio Android Flutter bike taxi MVP",
@@ -6097,7 +6106,7 @@
         "reply_attempts": 0
       },
       "inbox": {
-        "checked_at": "2026-10-31T15:44:40Z",
+        "checked_at": "2026-10-31T16:42:41Z",
         "mentions_scope_available": false,
         "commercial_replies_new": 0,
         "latest_relevant": "kurosolutions booking sync already answered 2026-10-30; no repeat",
@@ -6110,13 +6119,13 @@
         "queue_changed": false,
         "posts_created": 0,
         "replies_sent": 0,
-        "reason": "18:00–18:59 outside allowed original-post window; current 29-view release post and 9-view public mention have no confirmed buyer replies, so no measurable reason to rewrite queue."
+        "reason": "At 18:42 local outside 08-12/19-23 original posting windows; latest post remains 29 views/0 replies, BnB @mention 9 views/0 replies, agency post 42 views/2 replies but no paid buyer. Fresh 18h external trends 148 posts, but no newly qualified paid buyer; no basis to change future queue or repeat mentions."
       },
       "limitations": [
-        "18:00 local scheduled GitHub run not yet observed; this log write may trigger push workflow, verify result separately.",
         "No official media ID for third-party posts; public PK never used as reply_to_id.",
         "External Threads views unavailable; Instagram competitor and DM data unavailable.",
-        "No confirmed new buyer contacts or paid orders."
+        "No confirmed new buyer contacts or paid orders.",
+        "Fresh 18h artifact confirms 0 new qualified paid projects; 148-post sample is not platform-wide. New run recovered successfully."
       ]
     }
   ]
