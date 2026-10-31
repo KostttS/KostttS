@@ -5314,10 +5314,11 @@
         "pages_checked": 24,
         "previous_full_sample_unique": 87,
         "comparison_warning": "Samples are not a platform-wide trend measure; sample composition differs, so 121 vs 87 is not an organic growth metric.",
-        "official_keyword_search": "39 queries, 0 results including control; public keyword search not verified despite token scope",
+        "official_keyword_search": "Current 06h artifact has NO discovery.json; previous verified 05:44 local artifact: 39 queries / 0 results, control 0; official public search still unverified. Do not count as a fresh 06h search.",
         "instagram_competitor_rows": "empty in Metricool; one publicly accessible competitor post inspected separately",
         "browser_threads_signed_in": false,
-        "public_web_search": "Alternate RU/EN public web searches returned no new verified funded buyer; some results were old, developer self-promotion or unrelated."
+        "public_web_search": "Alternate RU/EN public web searches returned no new verified funded buyer; some results were old, developer self-promotion or unrelated.",
+        "current_discovery_artifact": "missing (step produced no discovery.json; not proof of no buyer posts)"
       },
       "own_threads": [
         {
@@ -5507,7 +5508,7 @@
       },
       "operational": {
         "action": "Triggered and verified successful GitHub runtime refresh; reviewed current and previous artifact, inbox, candidate dedupe, official ID diagnostics, Metricool and live public Threads/Instagram posts. Audit log appended only.",
-        "limitations": "No signed-in Threads browser profile; official public keyword_search unverified; external sample limited; organic Instagram clicks unavailable."
+        "limitations": "No signed-in Threads browser profile; official public keyword_search unverified; external sample limited; organic Instagram clicks unavailable. Current 06h artifact omitted discovery.json; prior official discovery is the latest available."
       }
     }
   ]
