@@ -185,3 +185,6 @@ Reason: latest successful Threads Publisher run #41220766434 updated runtime_poi
 
 Recovery request 2026-10-31T18:42:00Z
 Reason: 20:42 Asia/Jerusalem deep comparison slot; last runtime_pointer at 2026-10-31T17:44:13Z (19:44 local), and trends_state last full at 18:41 local. Trigger existing Threads Publisher workflow to refresh bounded public external trends, hourly RU/EN buyer hunt, own analytics, inbox/replies and official ID status. No new post due tonight; do not publish outside approved windows, duplicate contacts or use public_post_pk as reply ID. Keep queues and other channels unchanged.
+
+Recovery request 2026-10-31T19:41:00Z (21:41 Asia/Jerusalem)
+Reason: 21h local hourly scan absent from recent GitHub Actions despite schedule. Trigger existing Threads Publisher workflow to refresh RU/EN paid-buyer lead_discovery, own Threads analytics and inbox/replies, verified ID status. Odd local hour: use prior 20h full external_trends sample, not rescan as a deep slot. Keep no duplicates, no public_post_pk replies, no unrelated channels, no Egor personal stories or Brandi Flo. No new content without evidence. This is a recovery-only marker.
