@@ -4958,8 +4958,9 @@
         "reason": "No fresh 02h Threads runtime or verified new buyer media ID; posting outside 08–12/19–23 prohibited; 00h evidence does not justify rewriting queue."
       },
       "operational": {
-        "recovery_attempt": "Checked current GitHub pointer and public Actions page; tried authenticated GitHub browser to trigger missing 02h workflow, but browser profile has no GitHub sign-in. No dispatch or duplicate triggered.",
-        "note": "No claims of fresh 02h Threads metrics or buyer contact; scheduler fault remains unresolved. Existing hourly automation left enabled."
+        "recovery_attempt": "Checked public Actions and current runtime pointer: no 02h run. Authenticated TinyFish browser dispatch blocked by signed-out GitHub profile. Subsequently pushed one change to existing workflow trigger file (commit b987c382cd626669c9d6a8b42f4181d07f7940c7), which matches workflow push paths and should initiate recovery; completion/runtime artifact NOT YET VERIFIED.",
+        "note": "02h scheduled run missing; recovery push committed, not yet verified as executed. Existing hourly ChatGPT automation left enabled.",
+        "recovery_trigger_commit": "b987c382cd626669c9d6a8b42f4181d07f7940c7"
       }
     }
   ]
