@@ -3,73 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-10-29T05:18:00Z",
-      "source_cutoffs": {
-        "threads_runtime": "2026-10-29T02:44:53Z",
-        "instagram_metricool": "2026-10-29T05:18:00Z"
-      },
-      "own_threads": [
-        {
-          "topic": "control of app and release access",
-          "date": "2026-10-24",
-          "views": 162,
-          "replies": 0
-        },
-        {
-          "topic": "FlutterFlow Firebase Legacy Access deadline",
-          "date": "2026-10-26",
-          "views": 126,
-          "replies": 0
-        },
-        {
-          "topic": "WhatsApp vs field-service app",
-          "date": "2026-10-28",
-          "views": 94,
-          "replies": 0
-        },
-        {
-          "topic": "existing app readiness checklist",
-          "date": "2026-10-27",
-          "views": 26,
-          "replies": 0
-        },
-        {
-          "topic": "owner trust in contractor",
-          "date": "2026-10-25",
-          "views": 18,
-          "replies": 0
-        }
-      ],
-      "own_instagram": {
-        "period": "2026-10-16 to 2026-10-28",
-        "posts": 9,
-        "max_views": 12,
-        "min_views": 2,
-        "total_interactions": 0,
-        "total_new_followers": 0
-      },
-      "competitor_evidence": [],
-      "competitor_status": "UNVERIFIED — Metricool Threads/Instagram competitor metric queries returned 0 rows; Threads API discovery 39 queries/0 results, including diagnostic; web searches found no identifiable current Threads posts with independently verifiable views/replies; do not claim competitor examples have been benchmarked.",
-      "insights": [
-        "Own professional post about retaining control of application is strongest at 162 views but has 0 replies and 0 confirmed paying leads.",
-        "Own checklist post is relatively weak at 26 views; avoid adding more generic checklists without new evidence.",
-        "Instagram organic posts 2–12 views and 0 interaction; no basis to repeat identical format as a growth tactic.",
-        "Highest-view nonprofessional story was misattributed personal content; exclude it from strategic winners.",
-        "Existing queued 2026-10-29 morning HERO about dependency on developers follows strongest professional theme; no evidence to rewrite or publish outside permitted hours."
-      ],
-      "decision": {
-        "scale": "test further angles on ownership/access and specific business consequences, not automatic scaling without lead signals",
-        "remove": "unverified personal anecdotes and generic checklist content",
-        "test": "specific app-rescue cases with clear symptom and buyer-focused call to action",
-        "queue_changed": false
-      },
-      "blocker": "Verified current RU/EN external Threads competitor post-level statistics still unavailable through available sources; fix is to require specific examples, document failures and not substitute old own numbers or X performance.",
-      "leads": {
-        "confirmed_paid": 0,
-        "new_qualified": 0
-      }
-    },
-    {
       "checked_at": "2026-10-29T05:41:32.126Z",
       "source_cutoffs": {
         "public_threads_sample": "2026-10-29T05:37:23Z",
@@ -5854,6 +5787,218 @@
         "Public PK cannot be used for API replies.",
         "No signed-in Threads browser profile; no direct contact made.",
         "Instagram competitor metrics unavailable in Metricool."
+      ]
+    },
+    {
+      "checked_at": "2026-10-31T08:37:23.615Z",
+      "local_slot": "2026-10-31 10:00 Asia/Jerusalem",
+      "type": "deep_comparative_analysis",
+      "source_cutoffs": {
+        "threads_runtime": "2026-10-31T08:21:13Z",
+        "runtime_run_id": "41184093942",
+        "lead_discovery": "2026-10-31T08:19:06Z",
+        "external_trends": "2026-10-31T08:20:07Z",
+        "instagram_metricool": "2026-10-31 ~10:35 Asia/Jerusalem",
+        "public_threads_live": "2026-10-31 ~10:35 Asia/Jerusalem"
+      },
+      "source_status": {
+        "runtime_success": true,
+        "run_event": "schedule",
+        "external_trends_status": "verified_public_sample",
+        "external_unique_posts": 72,
+        "external_pages": 24,
+        "previous_bounded_sample": 118,
+        "sample_comparison": "72 vs 118 reflects bounded changing search results, not platform-wide decline",
+        "lead_pages": 28,
+        "lead_candidates": 2,
+        "new_candidates": 0,
+        "lead_search_status": "public_lead_candidates_found",
+        "official_reply_id_resolution": "skipped_pending_verified_app_review_change; 0 verified target IDs",
+        "alternate_web_search": "Four targeted RU/EN TinyFish searches plus web search found no newly verifiable funded mobile-app brief",
+        "threads_signed_in_browser": false,
+        "instagram_competitor_analytics": "not configured in Metricool; direct public example inspected"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
+          "published_at": "2026-10-31T07:44:14Z",
+          "age_hours_at_runtime": 0.62,
+          "views": 17,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0,
+          "topic": "FlutterFlow App Store / Google Play release blocker"
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+          "published_at": "2026-10-30T06:39:13Z",
+          "age_hours_at_runtime": 25.7,
+          "views": 42,
+          "likes": 3,
+          "replies": 2,
+          "commercial_leads": 0,
+          "topic": "agency booking app backend integration",
+          "existing_kurosolutions_reply_already_answered": true
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+          "published_at": "2026-10-30T17:40:27Z",
+          "age_hours_at_runtime": 14.7,
+          "views": 9,
+          "likes": 0,
+          "replies": 0,
+          "commercial_leads": 0,
+          "notification_to_buyer_unverified": true
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "views": 33,
+          "likes": 0,
+          "replies": 1,
+          "commercial_leads": 0
+        }
+      ],
+      "threads_account": {
+        "followers": 6,
+        "portfolio_link_clicks": 0
+      },
+      "own_instagram": {
+        "source": "Metricool IGPO 2026-10-24..31",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "published_date": "2026-10-28",
+            "views": 6,
+            "reach": 4,
+            "likes": 1,
+            "comments": 1,
+            "interactions": 2,
+            "follows": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "published_date": "2026-10-26",
+            "views": 8,
+            "reach": 5,
+            "likes": 0,
+            "comments": 0,
+            "interactions": 0,
+            "follows": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+            "published_date": "2026-10-25",
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "follows": 0
+          }
+        ],
+        "organic_clicks": "unavailable_deprecated_IGPO09",
+        "commercial_leads_confirmed": 0
+      },
+      "external_threads": [
+        {
+          "url": "https://www.threads.com/@_ayoitsb/post/DfH6aR2FDzu",
+          "author": "_ayoitsb",
+          "published_at": "2026-10-30T15:33:00Z",
+          "likes": 47,
+          "replies": 69,
+          "views_approx": 2800,
+          "source": "live public Threads page",
+          "growth_vs_10h_sample": {
+            "replies_delta": 2
+          },
+          "mechanism": "New agency owner states one concrete need and asks for referrals; easy tag CTA creates high reply-to-like ratio.",
+          "buyer_relevance": "Logo design only; not mobile app development; do not contact."
+        },
+        {
+          "url": "https://www.threads.com/@chasehunterdimond/post/De6wrtGGyxi",
+          "author": "chasehunterdimond",
+          "published_at": "2026-10-25T12:57:52Z",
+          "likes": 116,
+          "replies": 3,
+          "reposts": 36,
+          "views_approx": 19100,
+          "source": "live public Threads page",
+          "mechanism": "Compact reusable marketing frameworks drive saves/shares more than buyer discussion; adapt problem-insight-solution for app diagnostics, not copy post.",
+          "buyer_relevance": "Content creator, not buyer."
+        },
+        {
+          "url": "https://www.threads.com/@eto.pro.dengi/post/DfJmNryCNcF",
+          "author": "eto.pro.dengi",
+          "published_at": "2026-10-31T07:15:00Z",
+          "likes": 1,
+          "replies": 5,
+          "views": 84,
+          "source": "live public Threads page",
+          "mechanism": "Numbered investor objections with withheld final reason prompt discussion despite tiny sample; unproven at scale.",
+          "buyer_relevance": "Founder education, no app request."
+        },
+        {
+          "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+          "author": "mellowbrandstudio",
+          "published_at": "2026-10-26T03:11:02Z",
+          "likes": 45,
+          "replies": 65,
+          "views_approx": 5500,
+          "source": "live public Threads page",
+          "growth_vs_previous": {
+            "likes_delta": 0,
+            "replies_delta": 0
+          },
+          "mechanism": "Explicit Android Flutter bike-taxi MVP feature list plus portfolio/price CTA attracts vendors.",
+          "buyer_relevance": "Potential funded project unverified; already mentioned once in own public post; no confirmed reply ID or delivery, do not duplicate."
+        }
+      ],
+      "external_instagram": [
+        {
+          "url": "https://www.instagram.com/p/DfFSgctFZSz/",
+          "author": "virtuoustechlogic",
+          "published_at": "2026-10-29T15:06:39Z",
+          "likes": 5,
+          "comments": 1,
+          "source": "live public Instagram page",
+          "mechanism": "Concrete FlutterFlow-vs-Flutter tradeoffs, code ownership and native SDKs, founder-facing but no evidence of superior reach.",
+          "buyer_relevance": "Competitor, not buyer."
+        }
+      ],
+      "lead_search": {
+        "newly_discovered_candidates": 0,
+        "candidate_urls": [
+          "https://www.threads.com/@confused.ex/post/DfBwrglE3tZ",
+          "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa"
+        ],
+        "candidate_dedupe": "Both present in lead_hunt_state/public_lead_candidates; replies.json contains no verified official reply to either; bike taxi previously @mentioned without delivery confirmation.",
+        "confirmed_official_target_media_ids": 0,
+        "new_confirmed_paid_contacts": 0,
+        "new_confirmed_paid_orders": 0,
+        "prepared_contact": "Existing personalized bike-taxi draft retained; India-specific ASAP request lacks scope, budget and remote acceptance; no safe verified direct channel."
+      },
+      "inbox": {
+        "replies_to_recent_posts": 2,
+        "own_recent_replies": 10,
+        "replies_to_own_replies": 6,
+        "new_commercial_replies": 0,
+        "kurosolutions_already_answered": true,
+        "mentions_scope_available": false
+      },
+      "decision": {
+        "scale": "Keep testing specific buyer pain (release blockers, backend sync) and agency-facing integration; no proven paid conversion.",
+        "remove": "Do not copy unrelated viral content or fabricate personal stories; no repeat @mentions, no public_post_pk replies.",
+        "test": "Measure new release-blocker post after comparable age; pursue verified direct buyer contact only when official media ID or authorized browser access exists.",
+        "queue_changed": false,
+        "posts_created": 0,
+        "replies_sent": 0,
+        "reason": "New post at 09:44 has only 17 views after ~37 minutes and 0 leads; no defensible measured reason to rewrite queue or post again at 10:35. Instagram post performance remains low; no new creative published without evidence."
+      },
+      "limitations": [
+        "Public search limited to 24 pages and 72 posts; not whole Threads.",
+        "No approved official keyword_search result or verified target media ID.",
+        "No signed-in Threads browser profile.",
+        "Instagram organic post clicks deprecated/unavailable, not zero.",
+        "Commercial paid project status of public buyer posts unconfirmed."
       ]
     }
   ]
