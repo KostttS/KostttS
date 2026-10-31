@@ -171,3 +171,6 @@ Reason: 13:42 Asia/Jerusalem hourly lead/inbox check; latest verified runtime_po
 
 Recovery request 2026-10-31T12:37:30Z (14:37 Asia/Jerusalem)
 Reason: latest verified runtime_pointer remains 2026-10-31T11:44:48Z (13:44 local) and no 14h run is listed at scheduled 14:37 slot. Trigger existing workflow once to refresh paid mobile-development lead_discovery, even-hour bounded external_trends, analytics and inbox/replies_to_own_replies. 14:37 is outside original-post windows; no original post, duplicate outreach or unverified public_post_pk reply, no unrelated channels. Preserve attribution and Brandi Flo ban.
+
+Recovery request 2026-10-31T13:39:00Z (15:39 Asia/Jerusalem)
+Reason: latest verified runtime_pointer remains 2026-10-31T12:40:15Z (14:40 local) and no 15h hourly lead/inbox run appeared after scheduled 15:37 slot. Trigger the existing publisher once for hourly RU/EN paid-buyer lead_discovery, own Threads analytics and inbox/replies_to_own_replies. 15h is outside 08-12/19-23 original-post windows; preserve published state, posts/replies queue, no duplicate @mentions, no public_post_pk as threads_media ID, no unrelated channels, Egor stories or Brandi Flo.
