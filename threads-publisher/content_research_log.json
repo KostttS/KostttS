@@ -4748,6 +4748,219 @@
         "scheduled_run": "41139674078 completed success",
         "note": "Additional recovery run #41139706297 was queued by trigger while scheduled run was active; no duplicate content should be created at midnight."
       }
+    },
+    {
+      "checked_at": "2026-10-31T00:45:12.490Z",
+      "local_slot": "2026-10-31 02:00 Asia/Jerusalem (late recovery review; 02h runtime missing)",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "latest_runtime_pointer": "2026-10-30T22:43:58Z",
+        "latest_runtime_run_id": "41139706297",
+        "latest_full_external_trends": "2026-10-30T22:42:12.683087Z",
+        "latest_full_lead_discovery": "2026-10-30T22:40:37.906713Z",
+        "metricool_checked_at": "2026-10-31T00:45:12.490Z",
+        "public_web_checked_at": "2026-10-31T00:45:12.490Z"
+      },
+      "source_status": {
+        "github_02h_run": "No new runtime pointer since 00:43 local; public GitHub Actions page did not show a 02:00 run. Authenticated dispatch unavailable: TinyFish GitHub browser profile signed out. This is a missed 02h data collection, not a zero-result scan.",
+        "external_trends": "Latest runtime says skipped; fell back to prior verified 00h bounded sample: 104 unique posts / 24 public search pages. NOT a new 02h scan, NOT all Threads.",
+        "lead_discovery": "Latest runtime already_scanned_this_local_hour; fell back to prior 00h full scan: 28 pages, 4 existing candidates, 0 new. Web search also tried EN/RU alternative queries.",
+        "external_views": "null means unavailable, never zero",
+        "official_search": "Previously 39 queries/0 results; no verified keyword_search approval or buyer threads_media IDs",
+        "instagram_competitors": "Three public Instagram posts verified via TinyFish; likes/comments are public post counters, reach/views unavailable"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+          "published_at": "2026-10-30T17:40:27Z",
+          "age_hours_at_review": 7.1,
+          "topic": "one targeted @mention to BnB buyer, NOT reply",
+          "views": 9,
+          "likes": 0,
+          "replies": 0,
+          "source": "latest 00:43 local runtime",
+          "buyer_notification_verified": false
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+          "published_at": "2026-10-30T06:39:13Z",
+          "age_hours_at_review": 18.1,
+          "topic": "web agency booking/mobile integration",
+          "views": 42,
+          "likes": 3,
+          "replies": 2,
+          "qualified_buyer_replies": 0,
+          "source": "latest 00:43 local runtime"
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
+          "published_at": "2026-10-29T17:36:08Z",
+          "age_hours_at_review": 31.2,
+          "topic": "lost payment webhook",
+          "views": 28,
+          "likes": 0,
+          "replies": 1,
+          "qualified_buyer_replies": 0,
+          "source": "latest 00:43 local runtime"
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/DfEkoMvleN7",
+          "published_at": "2026-10-29T08:25:01Z",
+          "age_hours_at_review": 40.3,
+          "topic": "bike taxi @mention",
+          "views": 23,
+          "likes": 0,
+          "replies": 0,
+          "source": "latest 00:43 local runtime"
+        }
+      ],
+      "own_threads_account": {
+        "followers": 6,
+        "link_clicks": 0,
+        "source": "latest 00:43 local runtime; not a fresh 02h measurement"
+      },
+      "own_instagram": {
+        "source": "Metricool blogId 6890763 live query",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "published_at_local": "2026-10-28 17:46:21",
+            "age_hours_at_review": 57,
+            "views": 6,
+            "reach": 4,
+            "interactions": 2,
+            "likes": 1,
+            "comments": 1,
+            "shares": 0,
+            "new_followers": 0,
+            "commercial_leads": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "published_at_local": "2026-10-26 08:03:36",
+            "views": 8,
+            "reach": 5,
+            "interactions": 0,
+            "commercial_leads": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
+            "published_at_local": "2026-10-25 08:03:09",
+            "views": 5,
+            "reach": 4,
+            "interactions": 0,
+            "commercial_leads": 0
+          }
+        ],
+        "organic_link_clicks": "deprecated/unavailable, not zero"
+      },
+      "external_threads": [
+        {
+          "url": "https://www.threads.com/@taylorxtaylor/post/DfFlhEWkd8T",
+          "author": "taylorxtaylor",
+          "published_at": "2026-10-29T17:51:56Z",
+          "age_hours_at_review": 30.9,
+          "likes": 84,
+          "replies": 127,
+          "reposts": 1,
+          "views": null,
+          "growth": {
+            "hours": 2.02,
+            "likes_delta": 1,
+            "replies_delta": 7
+          },
+          "mechanism": "Direct audience callout plus low-friction question; comments reflect networking, not purchase intent."
+        },
+        {
+          "url": "https://www.threads.com/@caramelxcouture/post/DfGl67WFcsm",
+          "author": "caramelxcouture",
+          "published_at": "2026-10-30T03:14:43Z",
+          "age_hours_at_review": 21.5,
+          "likes": 156,
+          "replies": 27,
+          "reposts": 10,
+          "views": null,
+          "growth": {
+            "hours": 2.02,
+            "likes_delta": 18,
+            "replies_delta": 4
+          },
+          "mechanism": "Specific audience + concrete claimed work + availability; adapt only with verifiable mobile portfolio."
+        },
+        {
+          "url": "https://www.threads.com/@ladylyzo/post/DfIYOX1CHge",
+          "author": "ladylyzo",
+          "published_at": "2026-10-30T19:53:31Z",
+          "age_hours_at_review": 4.9,
+          "likes": 24,
+          "replies": 37,
+          "reposts": 0,
+          "views": null,
+          "growth": {
+            "hours": 2.02,
+            "likes_delta": 15,
+            "replies_delta": 8
+          },
+          "mechanism": "Simple business-owner identity question; audience discussion without software procurement."
+        }
+      ],
+      "external_instagram": [
+        {
+          "url": "https://www.instagram.com/p/DfCofyTDsRQ/",
+          "author": "alliancetek_inc",
+          "published_at": "2026-10-28T14:20:17Z",
+          "likes": 3,
+          "comments": 1,
+          "views": null,
+          "reach": null,
+          "mechanism": "Framework cost comparison targeted at buyer decision, but minimal measured discussion."
+        },
+        {
+          "url": "https://www.instagram.com/p/DfFSgctFZSz/",
+          "author": "virtuoustechlogic",
+          "published_at": "2026-10-29T15:06:39Z",
+          "likes": 5,
+          "comments": 1,
+          "views": null,
+          "reach": null,
+          "mechanism": "FlutterFlow versus Flutter after-launch risks, targeted buyer checklist; not evidence of lead generation."
+        },
+        {
+          "url": "https://www.instagram.com/p/DfCpnc1lDgZ/",
+          "author": "profcymaglobal",
+          "published_at": "2026-10-28T14:30:04Z",
+          "likes": 2,
+          "comments": 0,
+          "views": null,
+          "reach": null,
+          "mechanism": "Generic build-an-app value statement; weak visible engagement, not proven demand."
+        }
+      ],
+      "lead_search": {
+        "last_full_scan_at": "2026-10-30T22:40:37.906713Z",
+        "pages_checked": 28,
+        "known_candidates": 4,
+        "new_candidates": 0,
+        "stored_candidates": 13,
+        "additional_web": "Searched Threads RU/EN buyer terms. One fresh Shopify-only website brief ($700–800, 3 weeks) excluded as out of mobile-app scope; apparent bike-taxi results were known or replies; BnB $1500 is already contacted by a single own @mention.",
+        "confirmed_target_api_media_ids": 0,
+        "new_confirmed_buyer_contacts": 0,
+        "paid_orders": 0,
+        "priority": "@welkxdigital.tech BnB $1500 is still publicly visible; own @mention published but no buyer notification or reply confirmed."
+      },
+      "decision": {
+        "scale": "Do not scale any format as proven to acquire paid customers. Continue focusing on actual buyer briefs and narrow mobile backend integration offers.",
+        "remove": "Do not treat generic business networking comments, unrelated web-only jobs, rev-share, or third-party life stories as mobile-app leads.",
+        "test": "At next allowed publishing window only if fresh measurements justify, test concrete buyer problem + one qualifying question, with no new @mention to previously contacted buyers.",
+        "queue_changed": false,
+        "new_posts_created": 0,
+        "replies_sent": 0,
+        "reason": "No fresh 02h Threads runtime or verified new buyer media ID; posting outside 08–12/19–23 prohibited; 00h evidence does not justify rewriting queue."
+      },
+      "operational": {
+        "recovery_attempt": "Checked current GitHub pointer and public Actions page; tried authenticated GitHub browser to trigger missing 02h workflow, but browser profile has no GitHub sign-in. No dispatch or duplicate triggered.",
+        "note": "No claims of fresh 02h Threads metrics or buyer contact; scheduler fault remains unresolved. Existing hourly automation left enabled."
+      }
     }
   ]
 }
