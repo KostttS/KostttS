@@ -191,3 +191,6 @@ Reason: 21h local hourly scan absent from recent GitHub Actions despite schedule
 
 Recovery request 2026-10-31T20:44:00Z (22:44 Asia/Jerusalem)
 Reason: 22h local deep-analysis scheduled workflow absent from GitHub Actions run list (latest 21:44 local). Trigger existing Threads Publisher workflow to refresh full external_trends, hourly lead_discovery, own analytics, inbox and official ID status. No duplicate outreach, no public HTML PK replies, no personal Egor stories, no Brandi Flo, no unrelated channels. No new posts without evidence. Recovery-only marker.
+
+Recovery request 2026-10-31T23:43:00Z
+Reason: at 01:43 Asia/Jerusalem (2026-11-01), latest runtime pointer still 2026-10-31T21:54:29Z (23:54 local), ~1h49 old despite cron 7,22,37,52. Trigger queue run to refresh hourly lead_discovery, inbox, replies_to_own_replies and analytics; no original posts permitted at 01:43 local. Preserve all post/reply queues and exact official Threads media ID safety; no repeat mentions or invalid PK replies.
