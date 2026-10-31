@@ -733,6 +733,6 @@
   {
     "id": "threads-2026-10-31-buyer-release-blocker",
     "publish_at": "2026-10-31T07:35:00Z",
-    "text": "Your FlutterFlow app is ready, but the App Store or Google Play release is stuck.\n\nBefore paying for a rebuild, identify the actual blocker: signing, store-account access, a rejected permission, or an API that only fails in production.\n\nI help founders and agencies fix FlutterFlow/Flutter apps, Firebase/Supabase integrations, and iOS/Android releases.\n\nHave a client app waiting to launch? Send the rejection/error text (no keys or personal data) and your stack. I can suggest a practical first check.\n\nPortfolio: https://www.behance.net/24512dab"
+    "text": "Your FlutterFlow app is built, but App Store / Google Play release is blocked.\n\nBefore paying for a rebuild, check signing, store-account access, rejected permissions, and production API errors.\n\nI fix FlutterFlow/Flutter apps, Firebase/Supabase integrations and iOS/Android releases.\n\nHave a client app stuck before launch? DM the rejection/error text and stack (no secrets). I'll suggest the first check.\n\nPortfolio: https://www.behance.net/24512dab"
   }
 ]
