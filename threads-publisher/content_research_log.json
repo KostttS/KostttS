@@ -4962,6 +4962,160 @@
         "note": "02h scheduled run missing; recovery push committed, not yet verified as executed. Existing hourly ChatGPT automation left enabled.",
         "recovery_trigger_commit": "b987c382cd626669c9d6a8b42f4181d07f7940c7"
       }
+    },
+    {
+      "checked_at": "2026-10-31T01:43:33Z",
+      "type": "late_source_reconciliation_of_2026-10-31_02h_deep_review",
+      "source_cutoffs": {
+        "threads_runtime": "2026-10-31T00:48:47.425826Z",
+        "run_id": "41151885849",
+        "external_trends": "2026-10-31T00:47:26.609361Z",
+        "lead_discovery": "2026-10-31T00:45:36.888621Z",
+        "instagram_metricool": "2026-10-31 03:43 Asia/Jerusalem",
+        "web_search": "2026-10-31 03:43 Asia/Jerusalem"
+      },
+      "own_threads": {
+        "recent_posts": [
+          {
+            "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
+            "published_at": "2026-10-30T17:40:27Z",
+            "age_hours_approx": 8,
+            "views": null,
+            "likes": null,
+            "replies": null
+          },
+          {
+            "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
+            "published_at": "2026-10-30T06:39:13Z",
+            "age_hours_approx": 19,
+            "views": null,
+            "likes": null,
+            "replies": null
+          }
+        ],
+        "note": "Fresh runtime lists posts but individual post-level insights are null, not zero; age-adjusted performance comparisons cannot be verified. Account link clicks: 0 across returned link URLs; no paid buyer identified in inbox."
+      },
+      "own_instagram": {
+        "source": "Metricool brandId 6890763, Instagram posts",
+        "posts": [
+          {
+            "date": "2026-10-28",
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "views": 6,
+            "reach": 4,
+            "likes": 1,
+            "comments": 1,
+            "interactions": 2
+          },
+          {
+            "date": "2026-10-26",
+            "url": "https://www.instagram.com/p/De8zuFCCom7/",
+            "views": 8,
+            "reach": 5,
+            "likes": 0,
+            "comments": 0,
+            "interactions": 0
+          }
+        ],
+        "clicks": "unavailable_not_zero",
+        "commercial_leads_confirmed": 0
+      },
+      "external_sample": {
+        "status": "verified_public_sample",
+        "page_requests": 24,
+        "unique_external_posts": 87,
+        "high_engagement_candidates": 15,
+        "views_on_external_posts": "unavailable_not_zero",
+        "note": "Bounded public HTML sample, not platform-wide trends; public_post_pk is NOT official threads_media ID."
+      },
+      "external_examples": [
+        {
+          "url": "https://www.threads.com/@aannaaabui/post/DfIJP0LjbuI",
+          "author": "aannaaabui",
+          "published_at": "2026-10-30T17:42:38Z",
+          "likes": 96,
+          "replies": 45,
+          "reposts": 0,
+          "growth": {
+            "hours": 4.11,
+            "likes_delta": 46,
+            "replies_delta": 16
+          },
+          "mechanism": "Specific owner pain and consequential admission drive replies; adapt only concrete business pain, not the owner's personal story.",
+          "buyer_relevance": "business owner audience, not a mobile app request"
+        },
+        {
+          "url": "https://www.threads.com/@quilltides/post/DfILbgJEqR1",
+          "author": "quilltides",
+          "published_at": "2026-10-30T18:00:00Z",
+          "likes": 55,
+          "replies": 6,
+          "reposts": 1,
+          "mechanism": "App launch obstacle (Apple review) framed as a concrete problem; could test practical release troubleshooting angle without claiming client demand.",
+          "buyer_relevance": "possible relevant pain; no paid brief or contact confirmed"
+        },
+        {
+          "url": "https://www.threads.com/@berlin_ceo070/post/De3qgj4DE32",
+          "author": "berlin_ceo070",
+          "published_at": "2026-10-24T08:06:12Z",
+          "likes": 80,
+          "replies": 183,
+          "reposts": 1,
+          "growth": {
+            "hours": 4.11,
+            "likes_delta": 0,
+            "replies_delta": 0
+          },
+          "mechanism": "Explicit restaurant app and ordering scope draws developers; high competition, request authenticity still needs checking.",
+          "buyer_relevance": "potential paid request, no verified official target media ID"
+        },
+        {
+          "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+          "author": "mellowbrandstudio",
+          "published_at": "2026-10-26T03:11:02Z",
+          "likes": 45,
+          "replies": 65,
+          "reposts": 0,
+          "growth": {
+            "hours": 2.09,
+            "likes_delta": 0,
+            "replies_delta": 0
+          },
+          "mechanism": "Explicit Android bike taxi MVP functions and request for portfolio; relevant lead but no budget.",
+          "buyer_relevance": "already contacted through separate own @mention; do not repeat"
+        }
+      ],
+      "buyer_hunt": {
+        "pages_checked": 28,
+        "unique_candidates": 2,
+        "new_candidates": 0,
+        "confirmed_api_media_ids": 0,
+        "official_keyword_search_results": 0,
+        "reply_attempts": 0,
+        "confirmed_new_contacts": 0,
+        "confirmed_paid_orders": 0
+      },
+      "inbox": {
+        "latest_at": "2026-10-31T00:48:47Z",
+        "new_qualified_commercial_messages": 0,
+        "kurosolutions_reply_status": "Existing own reply already published; no new answer detected.",
+        "mentions_scope_available": false
+      },
+      "decision": {
+        "scale": "No demonstrated paid conversion; prioritize qualified live buyer briefs, specific app rescue or booking sync problems.",
+        "remove": "Do not imitate unrelated viral/personal posts, do not repeat mentions or invalid public_post_pk replies.",
+        "test": "Only when permitted and supported by fresh measurements: buyer-specific one-workflow diagnostic and single qualifying question.",
+        "queue_changed": false,
+        "new_posts_created": 0,
+        "replies_sent": 0,
+        "reason": "02h recovery run produced new verifiable bounded trend sample but no new qualified paid buyer; post insights null and no confirmed delivery justify no queue edits."
+      },
+      "limitations": [
+        "Current 03h local hourly GitHub runtime not yet present; latest verified run 02:48 local.",
+        "Threads own post insights null; do not recycle older values as current.",
+        "External Threads views unavailable; Metricool Threads posts returned no rows.",
+        "Public web search after 2026-10-28 yielded no additional verifiable buyer post."
+      ]
     }
   ]
 }
