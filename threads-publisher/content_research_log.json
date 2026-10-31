@@ -5318,7 +5318,7 @@
         "instagram_competitor_rows": "empty in Metricool; one publicly accessible competitor post inspected separately",
         "browser_threads_signed_in": false,
         "public_web_search": "Alternate RU/EN public web searches returned no new verified funded buyer; some results were old, developer self-promotion or unrelated.",
-        "current_discovery_artifact": "missing (step produced no discovery.json; not proof of no buyer posts)"
+        "current_discovery_artifact": "not emitted: discover_threads.py skipped because previous successful discovery at 03:43:20Z was <55 minutes before this run began at ~04:36Z; previous artifact used per fallback rule."
       },
       "own_threads": [
         {
@@ -5508,7 +5508,7 @@
       },
       "operational": {
         "action": "Triggered and verified successful GitHub runtime refresh; reviewed current and previous artifact, inbox, candidate dedupe, official ID diagnostics, Metricool and live public Threads/Instagram posts. Audit log appended only.",
-        "limitations": "No signed-in Threads browser profile; official public keyword_search unverified; external sample limited; organic Instagram clicks unavailable. Current 06h artifact omitted discovery.json; prior official discovery is the latest available."
+        "limitations": "No signed-in Threads browser profile; official public keyword_search unverified; external sample limited; organic Instagram clicks unavailable. Current 06h artifact omitted discovery.json due 55-minute discovery throttle; prior official discovery is latest available."
       }
     }
   ]
