@@ -174,3 +174,5 @@ Reason: latest verified runtime_pointer remains 2026-10-31T11:44:48Z (13:44 loca
 
 Recovery request 2026-10-31T13:39:00Z (15:39 Asia/Jerusalem)
 Reason: latest verified runtime_pointer remains 2026-10-31T12:40:15Z (14:40 local) and no 15h hourly lead/inbox run appeared after scheduled 15:37 slot. Trigger the existing publisher once for hourly RU/EN paid-buyer lead_discovery, own Threads analytics and inbox/replies_to_own_replies. 15h is outside 08-12/19-23 original-post windows; preserve published state, posts/replies queue, no duplicate @mentions, no public_post_pk as threads_media ID, no unrelated channels, Egor stories or Brandi Flo.
+
+2026-10-31T15:40:00Z — Recovery monitoring: latest completed Threads Publisher run 2026-10-31T14:39:22Z (16:39 Israel); no 17:00 local scheduled run found by 17:40 despite quarter-hour cron. Refresh hourly lead hunt, analytics, inbox, replies_to_own_replies and official discovery. Do not publish originals outside 08–12/19–23 Asia/Jerusalem; do not send duplicate/invalid public PK replies or change queue; keep personal attribution rules.
