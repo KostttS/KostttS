@@ -6140,7 +6140,93 @@
         "Public HTML post PK is not verified Threads media ID; do not send API reply.",
         "Instagram Direct and external Threads views except live public UI unavailable.",
         "No confirmed new paid leads."
-      ]
+      ],
+      "recovery_followup": {
+        "checked_at": "2026-10-31T20:46:20Z",
+        "run_id": "41240084374",
+        "run_url": "https://github.com/KostttS/KostttS/actions/runs/41240084374",
+        "run_conclusion": "success",
+        "runtime_pointer_updated_at": "2026-10-31T20:46:13Z",
+        "analytics_generated_at": "2026-10-31T20:45:59Z",
+        "inbox_generated_at": "2026-10-31T20:45:59Z",
+        "lead_discovery": {
+          "checked_at": "2026-10-31T20:41:40Z",
+          "pages_checked": 26,
+          "candidates": 3,
+          "new_candidates": 0,
+          "qualified_candidates": 1,
+          "known_bike_taxi": 1,
+          "excluded": [
+            "internship",
+            "no-upfront revenue share"
+          ]
+        },
+        "external_trends": {
+          "checked_at": "2026-10-31T20:44:27Z",
+          "status": "verified_public_sample",
+          "unique_posts": 68,
+          "pages": 24,
+          "high_engagement_candidates": 10,
+          "views_null_means_unavailable": true,
+          "not_all_threads": true,
+          "comparison_note": "20h 127 vs 22h 68 are different bounded samples, not audience growth"
+        },
+        "external_examples_updated": [
+          {
+            "url": "https://www.threads.com/@inserbia/post/DfKflN0ACZ3",
+            "likes": 4,
+            "replies": 73,
+            "reposts": 0,
+            "growth_2h": {
+              "likes": 2,
+              "replies": 30,
+              "reposts": 0
+            },
+            "views": null,
+            "not_buyer": true
+          },
+          {
+            "url": "https://www.threads.com/@myrzabek.yernar/post/DfJ0isnjMZu",
+            "likes": 262,
+            "replies": 23,
+            "reposts": 2,
+            "growth_4h": {
+              "likes": 83,
+              "replies": 3,
+              "reposts": 0
+            },
+            "views": null,
+            "not_buyer": true
+          },
+          {
+            "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
+            "likes": 45,
+            "replies": 65,
+            "reposts": 0,
+            "growth_2h": {
+              "likes": 0,
+              "replies": 0,
+              "reposts": 0
+            },
+            "views": null,
+            "known_buyer": true
+          }
+        ],
+        "official_discovery": {
+          "queries": 39,
+          "results": 0,
+          "control_results": 0,
+          "approved_public_search_unverified": true
+        },
+        "verified_third_party_api_media_ids": 0,
+        "own_posts_change": "No new publication; last release blocker 29 views/0 replies, agency 42 views/2 replies; no qualified buyer replies.",
+        "new_confirmed_contacts": 0,
+        "confirmed_paid_orders": 0,
+        "posts_created": 0,
+        "replies_sent": 0,
+        "queue_changed": false,
+        "decision": "Recovery succeeded. No new paid buyer or conversion, so no evidence-backed queue change or duplicate @mention. Continue monitoring."
+      }
     }
   ]
 }
