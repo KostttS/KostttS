@@ -729,5 +729,10 @@
     "text": "@welkxdigital.tech I saw your $1,500 Airbnb-style BnB mobile-app brief. I build Flutter/FlutterFlow apps with Firebase/Supabase and APIs. At that budget I'd focus on a narrow MVP (e.g. listings + booking request), not a full Airbnb clone. Is the client brief still open, and what must work in v1? Portfolio: https://www.behance.net/24512dab",
     "intent": "targeted_public_mention_not_reply",
     "source_lead_id": "public-lead-2026-10-30-welkxdigital-bnb-1500"
+  },
+  {
+    "id": "threads-2026-10-31-buyer-release-blocker",
+    "publish_at": "2026-10-31T07:35:00Z",
+    "text": "Your FlutterFlow app is ready, but the App Store or Google Play release is stuck.\n\nBefore paying for a rebuild, identify the actual blocker: signing, store-account access, a rejected permission, or an API that only fails in production.\n\nI help founders and agencies fix FlutterFlow/Flutter apps, Firebase/Supabase integrations, and iOS/Android releases.\n\nHave a client app waiting to launch? Send the rejection/error text (no keys or personal data) and your stack. I can suggest a practical first check.\n\nPortfolio: https://www.behance.net/24512dab"
   }
 ]
