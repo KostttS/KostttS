@@ -45,6 +45,13 @@ def disqualifiers(text):
         out.append("commission_only")
     if any(s in value for s in ("indonesia only","only indonesia", "send us your cv", "send your cv", "присылайте резюме", "вакансия в штат")):
         out.append("location_or_employment_restrictions")
+    # Employee recruitment ads are not paid client development briefs.
+    # Require BOTH a hiring marker and a payroll/HR marker to avoid filtering
+    # genuine project briefs that merely say they are hiring a contractor.
+    hiring_markers=("we are hiring", "we\u0027re hiring", "job vacancy", "job opening", "вакансия", "ищем в штат")
+    employment_markers=("salary", "notice period", "full-time", "full time", "monthly pay", "зарплата", "оклад")
+    if any(s in value for s in hiring_markers) and any(s in value for s in employment_markers):
+        out.append("employee_job_ad_not_project")
     # A profit split or work before payment is not a funded mobile-app order.
     if any(s in value for s in ("no money involved until it pays", "no money until it pays", "equity only", "profit share", "profit split", "revenue share", "revenue split", "60% to you", "unpaid project", "work for exposure")):
         out.append("contingent_or_unfunded_compensation")
