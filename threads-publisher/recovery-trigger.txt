@@ -159,3 +159,6 @@ Reason: At 07:35 Asia/Jerusalem, latest completed Threads Publisher workflow was
 
 Recovery request 2026-10-31T06:46:00Z (08:46 Asia/Jerusalem)
 Reason: 08h local deep-analysis slot has no fresh runtime pointer; latest confirmed artifact is 07:37:59 local (05:37:59Z), despite scheduled cron 7,22,37,52. Trigger existing workflow once to refresh 08h paid-buyer lead hunt, bounded external trends, own analytics and inbox/replies_to_own_replies. The 08h comparative evidence log is already written; no new original posts queued, no duplicate buyer @mentions, no unverified public_post_pk as official reply ID, no queue changes or other channels. Preserve Konstantin/Egor attribution and Brandi Flo ban.
+
+Recovery request 2026-10-31T09:42:00Z (11:42 Asia/Jerusalem)
+Reason: latest verified runtime_pointer 2026-10-31T08:21:23Z (10:21 local), with no 11h local hourly lead/inbox check after cron slots. Trigger existing workflow once via approved push path to refresh hourly paid mobile-development lead_discovery, analytics, inbox/replies_to_own_replies; 11h odd slot retains last complete 10h external_trends. No new originals queued, no duplicate outreach or @mentions, no public_post_pk as official media ID, preserve 08-12/19-23 windows, Konstantin/Egor separation and Brandi Flo ban. No other channels.
