@@ -165,3 +165,6 @@ Reason: latest verified runtime_pointer 2026-10-31T08:21:23Z (10:21 local), with
 
 Recovery request 2026-10-31T10:37:42Z (12:37 Asia/Jerusalem)
 Reason: latest confirmed runtime_pointer is 2026-10-31T09:44:38Z (11:44 local), so 12h deep-analysis slot lacks a fresh artifact despite scheduled 7,22,37,52 cron. Trigger one existing workflow run via permitted push path to refresh hourly paid-buyer lead_discovery, 12h bounded external_trends, analytics and inbox/replies_to_own_replies. 12:37 is outside original-post windows 08–12/19–23. Do not post new originals, duplicate known mentions/replies, use public_post_pk as media ID, touch other channels, or modify signed state without verified API results. Keep Konstantin/Egor separation and Brandi Flo ban. Deep-review log records last verified fallback and live public checks.
+
+Recovery request 2026-10-31T11:42:00Z
+Reason: 13:42 Asia/Jerusalem hourly lead/inbox check; latest verified runtime_pointer remains 2026-10-31T10:43:29Z (12:43 local), and public GitHub Actions listing has no newer run. Request check of lead_discovery, inbox, analytics and replies; no original posts at 13:42 (outside 08-12/19-23), no duplicate contact, no public PK replies. Retain existing queue and state.
