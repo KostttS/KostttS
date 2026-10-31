@@ -156,3 +156,6 @@ Reason: no GitHub Threads Publisher run newer than #41165487920 (completed 05:44
 
 Recovery request 2026-10-31T05:36:00Z
 Reason: At 07:35 Asia/Jerusalem, latest completed Threads Publisher workflow was 06:36 local (04:36Z) despite 4x/hour cron. Trigger a single queue/inbox/lead/trends check, preserving publication windows, signed state and no duplicate outreach. Current 07 local is outside original-post window.
+
+Recovery request 2026-10-31T06:46:00Z (08:46 Asia/Jerusalem)
+Reason: 08h local deep-analysis slot has no fresh runtime pointer; latest confirmed artifact is 07:37:59 local (05:37:59Z), despite scheduled cron 7,22,37,52. Trigger existing workflow once to refresh 08h paid-buyer lead hunt, bounded external trends, own analytics and inbox/replies_to_own_replies. The 08h comparative evidence log is already written; no new original posts queued, no duplicate buyer @mentions, no unverified public_post_pk as official reply ID, no queue changes or other channels. Preserve Konstantin/Egor attribution and Brandi Flo ban.
