@@ -188,3 +188,6 @@ Reason: 20:42 Asia/Jerusalem deep comparison slot; last runtime_pointer at 2026-
 
 Recovery request 2026-10-31T19:41:00Z (21:41 Asia/Jerusalem)
 Reason: 21h local hourly scan absent from recent GitHub Actions despite schedule. Trigger existing Threads Publisher workflow to refresh RU/EN paid-buyer lead_discovery, own Threads analytics and inbox/replies, verified ID status. Odd local hour: use prior 20h full external_trends sample, not rescan as a deep slot. Keep no duplicates, no public_post_pk replies, no unrelated channels, no Egor personal stories or Brandi Flo. No new content without evidence. This is a recovery-only marker.
+
+Recovery request 2026-10-31T20:44:00Z (22:44 Asia/Jerusalem)
+Reason: 22h local deep-analysis scheduled workflow absent from GitHub Actions run list (latest 21:44 local). Trigger existing Threads Publisher workflow to refresh full external_trends, hourly lead_discovery, own analytics, inbox and official ID status. No duplicate outreach, no public HTML PK replies, no personal Egor stories, no Brandi Flo, no unrelated channels. No new posts without evidence. Recovery-only marker.
