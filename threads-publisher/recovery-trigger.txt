@@ -168,3 +168,6 @@ Reason: latest confirmed runtime_pointer is 2026-10-31T09:44:38Z (11:44 local), 
 
 Recovery request 2026-10-31T11:42:00Z
 Reason: 13:42 Asia/Jerusalem hourly lead/inbox check; latest verified runtime_pointer remains 2026-10-31T10:43:29Z (12:43 local), and public GitHub Actions listing has no newer run. Request check of lead_discovery, inbox, analytics and replies; no original posts at 13:42 (outside 08-12/19-23), no duplicate contact, no public PK replies. Retain existing queue and state.
+
+Recovery request 2026-10-31T12:37:30Z (14:37 Asia/Jerusalem)
+Reason: latest verified runtime_pointer remains 2026-10-31T11:44:48Z (13:44 local) and no 14h run is listed at scheduled 14:37 slot. Trigger existing workflow once to refresh paid mobile-development lead_discovery, even-hour bounded external_trends, analytics and inbox/replies_to_own_replies. 14:37 is outside original-post windows; no original post, duplicate outreach or unverified public_post_pk reply, no unrelated channels. Preserve attribution and Brandi Flo ban.
