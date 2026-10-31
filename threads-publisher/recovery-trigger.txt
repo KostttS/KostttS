@@ -153,3 +153,6 @@ Reason: latest completed Threads Publisher run #41157399293 updated runtime_poin
 
 Recovery request 2026-10-31T04:34:34Z (06:34 Asia/Jerusalem)
 Reason: no GitHub Threads Publisher run newer than #41165487920 (completed 05:44 local) when checked at 06:34 local; even-hour 06h comparative analysis needs current bounded external trends, lead_discovery, inbox and post insights. Trigger the existing workflow once via the configured push path. Do not publish originals before 08:00 local, duplicate buyer mentions, use public_post_pk as an official media ID, publish Egor stories or Brandi Flo, or touch unrelated channels. Preserve only API-verified signed state.
+
+Recovery request 2026-10-31T05:36:00Z
+Reason: At 07:35 Asia/Jerusalem, latest completed Threads Publisher workflow was 06:36 local (04:36Z) despite 4x/hour cron. Trigger a single queue/inbox/lead/trends check, preserving publication windows, signed state and no duplicate outreach. Current 07 local is outside original-post window.
