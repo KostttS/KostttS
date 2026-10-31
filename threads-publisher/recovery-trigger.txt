@@ -144,3 +144,6 @@ Reason: at 22:39 local no new Threads Publisher workflow after 21:42 local; 22h 
 
 Recovery request 2026-10-30T22:40:00Z (31 Oct 00:40 Asia/Jerusalem)
 Reason: latest verified runtime_pointer is 2026-10-30T20:42:16Z (22:42 local), ~2h old despite 7,22,37,52 cron. Trigger existing Threads Publisher workflow for 00:00 local even-hour bounded external trends, hourly paid-buyer discovery, Threads analytics and inbox/replies_to_own_replies. Midnight is outside approved original publishing windows; do not publish originals, duplicate already contacted leads, use HTML public_post_pk as API reply ID, modify content queue or other channels. Maintain Konstantin/Egor separation and Brandi Flo ban.
+
+Recovery request 2026-10-31T00:46:00Z (31 Oct 02:46 Asia/Jerusalem)
+Reason: runtime_pointer last updated 2026-10-30T22:43:58Z; 02:00 local deep-analysis slot has no new runtime in public Actions list, despite cron 7,22,37,52. Trigger existing Threads Publisher workflow ONCE via allowed push path to refresh lead_discovery, external_trends, inbox/replies_to_own_replies and analytics. Do not publish originals at night (allowed 08–12/19–23), duplicate known @mentions, use public_post_pk as threads_media ID, alter other channels, or include Egor stories/Brandi Flo. Log of late 02h comparison already saved separately; no new paid lead confirmed.
