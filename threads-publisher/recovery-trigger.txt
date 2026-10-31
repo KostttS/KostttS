@@ -182,3 +182,6 @@ Reason: 18h even-local-hour review has been logged using the latest complete 16h
 
 Recovery request 2026-10-31T17:41:04Z (19:41 Asia/Jerusalem)
 Reason: latest successful Threads Publisher run #41220766434 updated runtime_pointer 2026-10-31T16:42:48Z (18:42 local); no 19h local hourly scan visible after scheduled 19:07/19:22/19:37 cron. Trigger existing workflow once to refresh hourly paid RU/EN lead_discovery, own Threads analytics, inbox/replies_to_own_replies and official-ID status; 19h odd slot retains latest 18h external_trends. No new post queued, no speculative publication, duplicate buyer mentions, invalid public_post_pk replies, unrelated channels, Egor stories or Brandi Flo. Preserve published state and 08-12/19-23 original-post windows.
+
+Recovery request 2026-10-31T18:42:00Z
+Reason: 20:42 Asia/Jerusalem deep comparison slot; last runtime_pointer at 2026-10-31T17:44:13Z (19:44 local), and trends_state last full at 18:41 local. Trigger existing Threads Publisher workflow to refresh bounded public external trends, hourly RU/EN buyer hunt, own analytics, inbox/replies and official ID status. No new post due tonight; do not publish outside approved windows, duplicate contacts or use public_post_pk as reply ID. Keep queues and other channels unchanged.
