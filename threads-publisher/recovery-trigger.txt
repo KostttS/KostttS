@@ -206,3 +206,6 @@ Reason: no 04h local workflow run visible. Run existing Threads Publisher to ref
 
 Recovery request 2026-11-01T03:40:00Z (05:40 Asia/Jerusalem)
 Reason: latest verified runtime pointer 2026-11-01T02:39:41Z (04:39 local), and GitHub Actions shows no 05h scheduled run despite 7,22,37,52 cron. Trigger existing publisher to refresh hourly RU/EN paid-buyer lead_discovery, own Threads analytics, inbox/replies_to_own_replies and official ID status. Odd hour: retain verified 04h external trends, do not force extra scan. 05h is outside original-post windows 08-12/19-23; no original posts, duplicate @mentions, invalid public_post_pk replies, other channels, Egor stories or Brandi Flo. Preserve queues and signed state unless API verifies change.
+
+Recovery request 2026-11-01T04:37:00Z (06:37 Asia/Jerusalem)
+Reason: latest completed Threads Publisher run 05:42 local, no completed 06h runtime at this check. Trigger existing workflow for 06h hourly paid RU/EN buyer search, analytics, inbox and even-hour bounded external trends. No original post outside 08-12/19-23; no public HTML PK replies, duplicate mentions, unverified delivery claims, Egor stories, Brandi Flo, or other channels. 06h research log precheck already recorded. Recovery marker only.
