@@ -1,21 +1,686 @@
 {
   "schema_version": 3,
-  "last_slot": "2026-11-01 02",
-  "last_scan_at": "2026-11-01T00:46:00.408088+00:00",
+  "last_slot": "2026-11-01 04",
+  "last_scan_at": "2026-11-01T02:38:20.641746+00:00",
   "status": "verified_public_sample",
   "posts": {
     "De8SUciGaAa": {
       "first_seen_unix": 1793251991,
-      "last_seen_unix": 1793493960,
+      "last_seen_unix": 1793500700,
       "likes": 45,
       "replies": 65,
       "reposts": 0
     },
     "De9k2P-kY6V": {
       "first_seen_unix": 1793251991,
-      "last_seen_unix": 1793493960,
+      "last_seen_unix": 1793500700,
       "likes": 11,
       "replies": 2,
+      "reposts": 0
+    },
+    "DfBrBkSjevj": {
+      "first_seen_unix": 1793371242,
+      "last_seen_unix": 1793500700,
+      "likes": 26,
+      "replies": 4,
+      "reposts": 1
+    },
+    "DfJt1OCkb9X": {
+      "first_seen_unix": 1793457474,
+      "last_seen_unix": 1793500700,
+      "likes": 49,
+      "replies": 17,
+      "reposts": 8
+    },
+    "DfKvxDojRSt": {
+      "first_seen_unix": 1793479467,
+      "last_seen_unix": 1793500700,
+      "likes": 50,
+      "replies": 8,
+      "reposts": 4
+    },
+    "DfH78mDD_oK": {
+      "first_seen_unix": 1793407646,
+      "last_seen_unix": 1793500700,
+      "likes": 99,
+      "replies": 4,
+      "reposts": 12
+    },
+    "DfKKUAWiPnU": {
+      "first_seen_unix": 1793464891,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 3,
+      "reposts": 0
+    },
+    "DfEoov6DkgW": {
+      "first_seen_unix": 1793342000,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 2,
+      "reposts": 0
+    },
+    "De7hPfmid8Q": {
+      "first_seen_unix": 1793251991,
+      "last_seen_unix": 1793500700,
+      "likes": 42,
+      "replies": 0,
+      "reposts": 2
+    },
+    "DfLVIpHiAd_": {
+      "first_seen_unix": 1793493960,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 18,
+      "reposts": 0
+    },
+    "DfK1qiGiCke": {
+      "first_seen_unix": 1793493960,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfKyoYmD4y7": {
+      "first_seen_unix": 1793493960,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfK2PgjE75O": {
+      "first_seen_unix": 1793493960,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0
+    },
+    "De9__CrCDaI": {
+      "first_seen_unix": 1793493960,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 1,
+      "reposts": 1
+    },
+    "DfHOHBnAbs3": {
+      "first_seen_unix": 1793421438,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 11,
+      "reposts": 0
+    },
+    "DfJ0isnjMZu": {
+      "first_seen_unix": 1793464891,
+      "last_seen_unix": 1793500700,
+      "likes": 282,
+      "replies": 23,
+      "reposts": 2
+    },
+    "DfJioA9EvEj": {
+      "first_seen_unix": 1793429160,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfJn7qwAlaC": {
+      "first_seen_unix": 1793479467,
+      "last_seen_unix": 1793500700,
+      "likes": 18,
+      "replies": 37,
+      "reposts": 0
+    },
+    "DfKDZCAEdB5": {
+      "first_seen_unix": 1793479467,
+      "last_seen_unix": 1793500700,
+      "likes": 15,
+      "replies": 15,
+      "reposts": 0
+    },
+    "DfKm2RojoDB": {
+      "first_seen_unix": 1793479467,
+      "last_seen_unix": 1793500700,
+      "likes": 18,
+      "replies": 4,
+      "reposts": 0
+    },
+    "DfKVsb1FFEb": {
+      "first_seen_unix": 1793479467,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfKSM7ZE5X7": {
+      "first_seen_unix": 1793457474,
+      "last_seen_unix": 1793500700,
+      "likes": 15,
+      "replies": 3,
+      "reposts": 0
+    },
+    "DfKhJAkksjn": {
+      "first_seen_unix": 1793464891,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfJ6-Y8ETWk": {
+      "first_seen_unix": 1793443326,
+      "last_seen_unix": 1793500700,
+      "likes": 237,
+      "replies": 81,
+      "reposts": 4
+    },
+    "DfKbrPdiHG0": {
+      "first_seen_unix": 1793464891,
+      "last_seen_unix": 1793500700,
+      "likes": 44,
+      "replies": 88,
+      "reposts": 0
+    },
+    "DfFOZsukeCa": {
+      "first_seen_unix": 1793371242,
+      "last_seen_unix": 1793500700,
+      "likes": 84,
+      "replies": 50,
+      "reposts": 1
+    },
+    "DfKBwg3Dame": {
+      "first_seen_unix": 1793457474,
+      "last_seen_unix": 1793500700,
+      "likes": 101,
+      "replies": 39,
+      "reposts": 19
+    },
+    "DfHqgzPiNCN": {
+      "first_seen_unix": 1793457474,
+      "last_seen_unix": 1793500700,
+      "likes": 62,
+      "replies": 47,
+      "reposts": 1
+    },
+    "DfJ4r2AFlLx": {
+      "first_seen_unix": 1793457474,
+      "last_seen_unix": 1793500700,
+      "likes": 98,
+      "replies": 8,
+      "reposts": 3
+    },
+    "DfKXxgWkbs6": {
+      "first_seen_unix": 1793457474,
+      "last_seen_unix": 1793500700,
+      "likes": 3,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfKEB5KgB8-": {
+      "first_seen_unix": 1793457474,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfJuemgDYCO": {
+      "first_seen_unix": 1793443326,
+      "last_seen_unix": 1793500700,
+      "likes": 30,
+      "replies": 17,
+      "reposts": 0
+    },
+    "DfKEOwXFZ1c": {
+      "first_seen_unix": 1793450335,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfJmNryCNcF": {
+      "first_seen_unix": 1793434807,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 5,
+      "reposts": 0
+    },
+    "DfJeZQvjmA6": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 521,
+      "replies": 83,
+      "reposts": 5
+    },
+    "DfKfh9SGeVW": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 101,
+      "replies": 53,
+      "reposts": 6
+    },
+    "DfKoCDKkWTg": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 296,
+      "replies": 3,
+      "reposts": 0
+    },
+    "DfKeuMVDLCl": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 271,
+      "replies": 5,
+      "reposts": 0
+    },
+    "DfK_LUaCUNV": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 6,
+      "replies": 53,
+      "reposts": 0
+    },
+    "DfGWvqEElKx": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 258,
+      "replies": 33,
+      "reposts": 2
+    },
+    "De7LRbKCFa3": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 391,
+      "replies": 43,
+      "reposts": 2
+    },
+    "DfLVb1MjNir": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 32,
+      "replies": 10,
+      "reposts": 1
+    },
+    "DfLD1Vxnzb_": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 37,
+      "replies": 14,
+      "reposts": 0
+    },
+    "DfKJY5woKoB": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 16,
+      "replies": 21,
+      "reposts": 2
+    },
+    "DfKfQSUEdZw": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 7,
+      "replies": 20,
+      "reposts": 0
+    },
+    "DfKRXNDAUsq": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 8,
+      "replies": 18,
+      "reposts": 0
+    },
+    "DfLeJ-NmePE": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 7,
+      "reposts": 0
+    },
+    "DfLoIwIGIez": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 5,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfLnvP1kdJc": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 3,
+      "reposts": 0
+    },
+    "De58LiXjTs6": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 45,
+      "replies": 41,
+      "reposts": 0
+    },
+    "De6uKkRjsgV": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 119,
+      "replies": 12,
+      "reposts": 2
+    },
+    "DfLOSAmk1Jx": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 6,
+      "reposts": 0
+    },
+    "DfLLXhMCHCj": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 3,
+      "replies": 5,
+      "reposts": 0
+    },
+    "DfLk-IzjQep": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfLoEWqm2jU": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 3,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLe0mrmzRN": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 3,
+      "reposts": 0
+    },
+    "DfLp9FIio4E": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLoDA2CBhq": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLpJHUAGyr": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLpHxmjEaD": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLmRBakZ0V": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0
+    },
+    "De_0plbE_L-": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 65,
+      "replies": 0,
+      "reposts": 1
+    },
+    "DfLf123H-ox": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 1,
+      "reposts": 1
+    },
+    "DfLoPSjmBFh": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLXzJLEYOo": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfKcRzGCJ_I": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 4,
+      "replies": 4,
+      "reposts": 0
+    },
+    "DfISLcxjV6R": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 18,
+      "replies": 3,
+      "reposts": 1
+    },
+    "DfLCtZIErKV": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 10,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLn9nADyaS": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfKYV2JgFwG": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 10,
+      "replies": 0,
+      "reposts": 3
+    },
+    "DfLEzM6iGWy": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 3,
+      "reposts": 0
+    },
+    "DfJYjFgge4b": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 6,
+      "replies": 4,
+      "reposts": 0
+    },
+    "DfLcHFmluNg": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 3,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLmEfqm6_n": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "De9jo2bj_cz": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 40,
+      "replies": 3,
+      "reposts": 0
+    },
+    "DfLBPBWkcBC": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfLKS_TFdnM": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfLi0etEU0E": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 4,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfLND3YEsJi": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 4,
+      "replies": 0,
+      "reposts": 1
+    },
+    "DfLETm4jZ8x": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 3,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfKn5yRFA3I": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 1,
+      "reposts": 1
+    },
+    "DfKf8Uoky5s": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 2,
+      "reposts": 0
+    },
+    "DfJTwEDiPms": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 3,
+      "reposts": 0
+    },
+    "DfLQ8GwE97g": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLENOtiLnY": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLC2KqjLQX": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 2,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfLFXsGEpBK": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 4,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfKjG5eArb3": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfKf0TGoBcE": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 5,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfLhQNIgM9S": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfIKP8BE_Wz": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfHYtz3k9Nn": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 1,
+      "reposts": 0
+    },
+    "DfIBdeakVS9": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 1,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfLrWz6GSK5": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfLrVi0mcBc": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfK6OEYjvee": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0
+    },
+    "DfKnAMRlc48": {
+      "first_seen_unix": 1793500700,
+      "last_seen_unix": 1793500700,
+      "likes": 0,
+      "replies": 0,
       "reposts": 0
     },
     "DfKWk16m9_d": {
@@ -53,20 +718,6 @@
       "replies": 2,
       "reposts": 0
     },
-    "DfBrBkSjevj": {
-      "first_seen_unix": 1793371242,
-      "last_seen_unix": 1793493960,
-      "likes": 26,
-      "replies": 4,
-      "reposts": 1
-    },
-    "DfJt1OCkb9X": {
-      "first_seen_unix": 1793457474,
-      "last_seen_unix": 1793493960,
-      "likes": 45,
-      "replies": 17,
-      "reposts": 8
-    },
     "DfKfJTAH0iU": {
       "first_seen_unix": 1793479467,
       "last_seen_unix": 1793493960,
@@ -80,13 +731,6 @@
       "likes": 153,
       "replies": 28,
       "reposts": 2
-    },
-    "DfKvxDojRSt": {
-      "first_seen_unix": 1793479467,
-      "last_seen_unix": 1793493960,
-      "likes": 42,
-      "replies": 6,
-      "reposts": 3
     },
     "DfLAb4BDjdX": {
       "first_seen_unix": 1793479467,
@@ -151,13 +795,6 @@
       "replies": 0,
       "reposts": 0
     },
-    "DfH78mDD_oK": {
-      "first_seen_unix": 1793407646,
-      "last_seen_unix": 1793493960,
-      "likes": 99,
-      "replies": 4,
-      "reposts": 12
-    },
     "DfHeAxSExBF": {
       "first_seen_unix": 1793363961,
       "last_seen_unix": 1793493960,
@@ -170,20 +807,6 @@
       "last_seen_unix": 1793493960,
       "likes": 33,
       "replies": 18,
-      "reposts": 0
-    },
-    "DfKKUAWiPnU": {
-      "first_seen_unix": 1793464891,
-      "last_seen_unix": 1793493960,
-      "likes": 0,
-      "replies": 3,
-      "reposts": 0
-    },
-    "DfEoov6DkgW": {
-      "first_seen_unix": 1793342000,
-      "last_seen_unix": 1793493960,
-      "likes": 2,
-      "replies": 2,
       "reposts": 0
     },
     "DfJhsY5CKBN": {
@@ -206,13 +829,6 @@
       "likes": 1,
       "replies": 1,
       "reposts": 0
-    },
-    "De7hPfmid8Q": {
-      "first_seen_unix": 1793251991,
-      "last_seen_unix": 1793493960,
-      "likes": 42,
-      "replies": 0,
-      "reposts": 2
     },
     "DfEqy7KmHHk": {
       "first_seen_unix": 1793386048,
@@ -310,13 +926,6 @@
       "last_seen_unix": 1793493960,
       "likes": 3,
       "replies": 10,
-      "reposts": 0
-    },
-    "DfLVIpHiAd_": {
-      "first_seen_unix": 1793493960,
-      "last_seen_unix": 1793493960,
-      "likes": 1,
-      "replies": 6,
       "reposts": 0
     },
     "De89sJcmSOx": {
@@ -501,13 +1110,6 @@
       "replies": 2,
       "reposts": 1
     },
-    "DfK1qiGiCke": {
-      "first_seen_unix": 1793493960,
-      "last_seen_unix": 1793493960,
-      "likes": 0,
-      "replies": 2,
-      "reposts": 0
-    },
     "DfK1mgOiMCm": {
       "first_seen_unix": 1793493960,
       "last_seen_unix": 1793493960,
@@ -564,13 +1166,6 @@
       "replies": 0,
       "reposts": 0
     },
-    "DfKyoYmD4y7": {
-      "first_seen_unix": 1793493960,
-      "last_seen_unix": 1793493960,
-      "likes": 2,
-      "replies": 1,
-      "reposts": 0
-    },
     "DfDs6DODFX8": {
       "first_seen_unix": 1793493960,
       "last_seen_unix": 1793493960,
@@ -603,13 +1198,6 @@
       "first_seen_unix": 1793493960,
       "last_seen_unix": 1793493960,
       "likes": 4,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfK2PgjE75O": {
-      "first_seen_unix": 1793493960,
-      "last_seen_unix": 1793493960,
-      "likes": 1,
       "replies": 1,
       "reposts": 0
     },
@@ -695,13 +1283,6 @@
       "last_seen_unix": 1793493960,
       "likes": 3,
       "replies": 0,
-      "reposts": 1
-    },
-    "De9__CrCDaI": {
-      "first_seen_unix": 1793493960,
-      "last_seen_unix": 1793493960,
-      "likes": 1,
-      "replies": 1,
       "reposts": 1
     },
     "DfJnQAckRxw": {
@@ -823,20 +1404,6 @@
       "replies": 1,
       "reposts": 0
     },
-    "DfHOHBnAbs3": {
-      "first_seen_unix": 1793421438,
-      "last_seen_unix": 1793479467,
-      "likes": 0,
-      "replies": 11,
-      "reposts": 0
-    },
-    "DfJ0isnjMZu": {
-      "first_seen_unix": 1793464891,
-      "last_seen_unix": 1793479467,
-      "likes": 262,
-      "replies": 23,
-      "reposts": 2
-    },
     "DfKfslijceI": {
       "first_seen_unix": 1793464891,
       "last_seen_unix": 1793479467,
@@ -893,13 +1460,6 @@
       "replies": 1,
       "reposts": 0
     },
-    "DfJioA9EvEj": {
-      "first_seen_unix": 1793429160,
-      "last_seen_unix": 1793479467,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
     "DfHzscLE9l5": {
       "first_seen_unix": 1793392862,
       "last_seen_unix": 1793479467,
@@ -914,25 +1474,11 @@
       "replies": 9,
       "reposts": 20
     },
-    "DfJn7qwAlaC": {
-      "first_seen_unix": 1793479467,
-      "last_seen_unix": 1793479467,
-      "likes": 17,
-      "replies": 31,
-      "reposts": 0
-    },
     "DfF1cRck2Tz": {
       "first_seen_unix": 1793479467,
       "last_seen_unix": 1793479467,
       "likes": 14,
       "replies": 48,
-      "reposts": 0
-    },
-    "DfKDZCAEdB5": {
-      "first_seen_unix": 1793479467,
-      "last_seen_unix": 1793479467,
-      "likes": 13,
-      "replies": 15,
       "reposts": 0
     },
     "DfK-B7CCuLr": {
@@ -977,13 +1523,6 @@
       "replies": 2,
       "reposts": 1
     },
-    "DfKm2RojoDB": {
-      "first_seen_unix": 1793479467,
-      "last_seen_unix": 1793479467,
-      "likes": 9,
-      "replies": 1,
-      "reposts": 0
-    },
     "DfKp2dRDVGk": {
       "first_seen_unix": 1793479467,
       "last_seen_unix": 1793479467,
@@ -1017,13 +1556,6 @@
       "last_seen_unix": 1793479467,
       "likes": 0,
       "replies": 1,
-      "reposts": 0
-    },
-    "DfKVsb1FFEb": {
-      "first_seen_unix": 1793479467,
-      "last_seen_unix": 1793479467,
-      "likes": 0,
-      "replies": 2,
       "reposts": 0
     },
     "DfJ9GyslZaY": {
@@ -1103,13 +1635,6 @@
       "replies": 0,
       "reposts": 0
     },
-    "DfKSM7ZE5X7": {
-      "first_seen_unix": 1793457474,
-      "last_seen_unix": 1793472276,
-      "likes": 9,
-      "replies": 3,
-      "reposts": 0
-    },
     "DfKWLCvmzpk": {
       "first_seen_unix": 1793457474,
       "last_seen_unix": 1793472276,
@@ -1149,13 +1674,6 @@
       "first_seen_unix": 1793464891,
       "last_seen_unix": 1793472276,
       "likes": 1,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfKhJAkksjn": {
-      "first_seen_unix": 1793464891,
-      "last_seen_unix": 1793472276,
-      "likes": 0,
       "replies": 1,
       "reposts": 0
     },
@@ -1817,13 +2335,6 @@
       "replies": 7,
       "reposts": 1
     },
-    "DfJ6-Y8ETWk": {
-      "first_seen_unix": 1793443326,
-      "last_seen_unix": 1793464891,
-      "likes": 138,
-      "replies": 58,
-      "reposts": 2
-    },
     "De5dov6Ag-M": {
       "first_seen_unix": 1793443326,
       "last_seen_unix": 1793464891,
@@ -2040,13 +2551,6 @@
       "likes": 115,
       "replies": 0,
       "reposts": 12
-    },
-    "DfKbrPdiHG0": {
-      "first_seen_unix": 1793464891,
-      "last_seen_unix": 1793464891,
-      "likes": 6,
-      "replies": 21,
-      "reposts": 0
     },
     "DfKGw--iCwQ": {
       "first_seen_unix": 1793464891,
@@ -2727,13 +3231,6 @@
       "replies": 1,
       "reposts": 0
     },
-    "DfFOZsukeCa": {
-      "first_seen_unix": 1793371242,
-      "last_seen_unix": 1793457474,
-      "likes": 84,
-      "replies": 50,
-      "reposts": 1
-    },
     "DfKHxY2DHWt": {
       "first_seen_unix": 1793457474,
       "last_seen_unix": 1793457474,
@@ -2761,27 +3258,6 @@
       "likes": 37,
       "replies": 12,
       "reposts": 0
-    },
-    "DfKBwg3Dame": {
-      "first_seen_unix": 1793457474,
-      "last_seen_unix": 1793457474,
-      "likes": 52,
-      "replies": 22,
-      "reposts": 13
-    },
-    "DfHqgzPiNCN": {
-      "first_seen_unix": 1793457474,
-      "last_seen_unix": 1793457474,
-      "likes": 55,
-      "replies": 42,
-      "reposts": 0
-    },
-    "DfJ4r2AFlLx": {
-      "first_seen_unix": 1793457474,
-      "last_seen_unix": 1793457474,
-      "likes": 71,
-      "replies": 5,
-      "reposts": 1
     },
     "DfKV7oMDYvx": {
       "first_seen_unix": 1793457474,
@@ -2938,13 +3414,6 @@
       "reposts": 0
     },
     "DfKXjvcCLA2": {
-      "first_seen_unix": 1793457474,
-      "last_seen_unix": 1793457474,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfKXxgWkbs6": {
       "first_seen_unix": 1793457474,
       "last_seen_unix": 1793457474,
       "likes": 0,
@@ -3224,13 +3693,6 @@
       "replies": 1,
       "reposts": 0
     },
-    "DfKEB5KgB8-": {
-      "first_seen_unix": 1793457474,
-      "last_seen_unix": 1793457474,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
     "DfKLhBNmBzj": {
       "first_seen_unix": 1793457474,
       "last_seen_unix": 1793457474,
@@ -3321,13 +3783,6 @@
       "likes": 1082,
       "replies": 49,
       "reposts": 6
-    },
-    "DfJuemgDYCO": {
-      "first_seen_unix": 1793443326,
-      "last_seen_unix": 1793450335,
-      "likes": 14,
-      "replies": 7,
-      "reposts": 0
     },
     "DfJt1NGkZez": {
       "first_seen_unix": 1793443326,
@@ -3565,13 +4020,6 @@
       "last_seen_unix": 1793450335,
       "likes": 0,
       "replies": 1,
-      "reposts": 0
-    },
-    "DfKEOwXFZ1c": {
-      "first_seen_unix": 1793450335,
-      "last_seen_unix": 1793450335,
-      "likes": 1,
-      "replies": 2,
       "reposts": 0
     },
     "De4egm6lPGK": {
@@ -3937,13 +4385,6 @@
       "likes": 685,
       "replies": 30,
       "reposts": 121
-    },
-    "DfJmNryCNcF": {
-      "first_seen_unix": 1793434807,
-      "last_seen_unix": 1793443326,
-      "likes": 2,
-      "replies": 5,
-      "reposts": 0
     },
     "DfILUSiIFUO": {
       "first_seen_unix": 1793434807,
@@ -7961,447 +8402,6 @@
       "last_seen_unix": 1793378602,
       "likes": 3,
       "replies": 0,
-      "reposts": 0
-    },
-    "DfH-awLlLOD": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfBQovaEll4": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 42,
-      "replies": 2,
-      "reposts": 0
-    },
-    "DfH3mvEEaYY": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 2,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfH9mZ6E6V3": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfHbbMPkV4_": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 7,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfH80fklLEK": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfH8L9FE4A1": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfIAtcYjdAN": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 2,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH1E8glVuk": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfHBAMHEQcU": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 3,
-      "replies": 2,
-      "reposts": 0
-    },
-    "DfH4rB3E3JL": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfH16XjFUEC": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfHlxVHFIBY": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 2,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfH0pD2iJ9s": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfHqa_1DfBt": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfHgKTlm-13": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfIBfA1kddo": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfIBAmdDaqN": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfIA0VhmjRN": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfHncuUgjmn": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfHgRkSjuUQ": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfIAJqXDjBL": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH40gRn2uQ": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 2,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfF5OEJlFcm": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 2,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfH8lwSjLsF": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfHdaCrDiOA": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 2,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfHZDi-jvH1": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 2,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfHtB43keGz": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfHY_xRESbi": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 1,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH_DNlkR3i": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH4uU7E-C_": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfICPQtgkMD": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfIBmCpmFpx": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH8SEJH-MU": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH827GFLqI": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH87rIoJDO": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfIA0t7CeCN": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH99TFnJBp": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfICeCSFacP": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH8uMao1P6": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfIBV0OjNwI": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfIBAgUDc3Q": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH-ONnluCp": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfHxw_xFrE9": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH-HkOIKdh": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfH04IYjWYa": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfICTbymo9e": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfIBtm9Gb6b": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfICPHwIzDi": {
-      "first_seen_unix": 1793378602,
-      "last_seen_unix": 1793378602,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfGKVt2Fpwf": {
-      "first_seen_unix": 1793363961,
-      "last_seen_unix": 1793371242,
-      "likes": 11,
-      "replies": 3,
-      "reposts": 0
-    },
-    "DfFxX_4CJwU": {
-      "first_seen_unix": 1793342000,
-      "last_seen_unix": 1793371242,
-      "likes": 0,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfFmt8TFQa0": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 774,
-      "replies": 19,
-      "reposts": 31
-    },
-    "DfFeaVfIC9y": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 8,
-      "replies": 4,
-      "reposts": 0
-    },
-    "DfFPfzljN6d": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 15,
-      "replies": 2,
-      "reposts": 0
-    },
-    "DfF6YD-ASXZ": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 2,
-      "replies": 1,
-      "reposts": 1
-    },
-    "DfF7IoDj0I1": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 3,
-      "replies": 1,
-      "reposts": 0
-    },
-    "DfGLL05jTRO": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 15,
-      "replies": 0,
-      "reposts": 1
-    },
-    "DfFQzmtDGqi": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 2,
-      "replies": 1,
-      "reposts": 0
-    },
-    "De3cFJBiY1g": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 7,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfGhBBbkUnU": {
-      "first_seen_unix": 1793328126,
-      "last_seen_unix": 1793371242,
-      "likes": 7,
-      "replies": 0,
-      "reposts": 0
-    },
-    "DfFAkksiFmq": {
-      "first_seen_unix": 1793281445,
-      "last_seen_unix": 1793371242,
-      "likes": 25,
-      "replies": 18,
-      "reposts": 0
-    },
-    "DfF-zktkXDg": {
-      "first_seen_unix": 1793371242,
-      "last_seen_unix": 1793371242,
-      "likes": 1246,
-      "replies": 67,
-      "reposts": 56
-    },
-    "DfHrdOTDLZX": {
-      "first_seen_unix": 1793371242,
-      "last_seen_unix": 1793371242,
-      "likes": 113,
-      "replies": 37,
       "reposts": 0
     }
   }
