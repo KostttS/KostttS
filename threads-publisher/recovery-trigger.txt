@@ -209,3 +209,6 @@ Reason: latest verified runtime pointer 2026-11-01T02:39:41Z (04:39 local), and 
 
 Recovery request 2026-11-01T04:37:00Z (06:37 Asia/Jerusalem)
 Reason: latest completed Threads Publisher run 05:42 local, no completed 06h runtime at this check. Trigger existing workflow for 06h hourly paid RU/EN buyer search, analytics, inbox and even-hour bounded external trends. No original post outside 08-12/19-23; no public HTML PK replies, duplicate mentions, unverified delivery claims, Egor stories, Brandi Flo, or other channels. 06h research log precheck already recorded. Recovery marker only.
+
+Recovery request 2026-11-01T05:38:44Z (07:38 Asia/Jerusalem)
+Reason: most recent completed Threads Publisher run 06:41 local; no 07h run in GitHub Actions at this check. Trigger existing workflow for hourly RU/EN buyer discovery, Threads analytics/inbox and official reply ID checks. 07h is odd-hour: use last full 06h external trends; do not force an extra deep scan. No original post outside 08-12/19-23, duplicate mention, public HTML PK reply, personal Egor story, Brandi Flo or other channel. Do not change queue or signed state without verified API result. Recovery marker only.
