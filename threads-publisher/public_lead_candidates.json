@@ -372,6 +372,38 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Not a new request; 14 Sep 2026. Claims paid work but unverified; repeated similar posts. No verified official Threads media ID, no outreach attempted; check duplicates first."
+    },
+    {
+      "id": "public-lead-2026-11-01-johangozlan-clientscave-hourly",
+      "url": "https://www.threads.com/@johangozlan/post/DfNs24HCeJt",
+      "username": "johangozlan",
+      "original_post_at": "2026-11-01T21:30:01Z",
+      "observed_at": "2026-11-01T21:43:00Z",
+      "request": "Remote mobile app freelancer $20-35/hour, no stack or requirements; advertised by ClientsCave business development, underlying marketplace listing names Connor Halbrooks (not independently verified).",
+      "external_requirement_url": "https://clientscave.com/requirements/2284da8a-ae68-41a2-a61c-5f771ba64e24",
+      "confirmed_api_media_id": null,
+      "priority": "secondary_paid_marketplace_lead_not_direct_buyer",
+      "status": "marketplace_paid_contact_unlock_not_verified_direct_buyer",
+      "draft": "Hi Connor, I build iOS/Android apps with Flutter/FlutterFlow, Firebase/Supabase and APIs. What is the core user workflow and current stage of the app? I can share relevant work and review scope before discussing rates. Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Live Threads post and external requirement verified 2026-11-01. ClientsCave says unlocking contact requires buying Stars. No proof of funded engagement, independent client authenticity, or free direct contact. Do not pay or @mention aggregator automatically; no official media ID."
+    },
+    {
+      "id": "public-lead-2026-11-01-clientscave-prototype-fixed",
+      "url": "https://www.threads.com/@clientscave/post/DfNdjWRjP8x",
+      "username": "clientscave",
+      "original_post_at": "2026-11-01T19:16:16Z",
+      "observed_at": "2026-11-01T21:43:00Z",
+      "request": "Remote fixed-price development of existing app prototype; stack, budget amount, and milestones unspecified. Marketplace listing names Alexis Fernandez (not independently verified).",
+      "external_requirement_url": "https://clientscave.com/requirements/a0ace45a-6bf8-4d6c-aab3-3add7be67c3c",
+      "confirmed_api_media_id": null,
+      "priority": "secondary_paid_marketplace_lead_not_direct_buyer",
+      "status": "marketplace_paid_contact_unlock_not_verified_direct_buyer",
+      "draft": "Hi Alexis, I help move existing Flutter/FlutterFlow prototypes into working iOS/Android apps, including Firebase/Supabase and API integrations. Which stack is the prototype using, and what is the one blocker for the next phase? Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Live Threads post and external requirement verified 2026-11-01. ClientsCave requires paid Stars to unlock client contact; listing alone does not prove a funded buyer. No paid unlock, no direct contact, no verified Threads media ID."
     }
   ]
 }
