@@ -215,3 +215,6 @@ Reason: most recent completed Threads Publisher run 06:41 local; no 07h run in G
 
 Recovery request 2026-11-01T06:35:29Z (08:35 Asia/Jerusalem)
 Reason: latest confirmed Threads runtime is 07:41 local and no 08h even-hour run in GitHub Actions. Trigger existing workflow once for 08h buyer hunt, external trends, own analytics and inbox/replies. 09:20 local buyer post is not yet due; do not publish early or duplicate previous mentions. No unverified public PK replies, no personal Egor stories, no Brandi Flo or unrelated channels. Recovery marker only.
+
+Recovery request 2026-11-01T08:35:00Z
+Reason: At 10:35 Asia/Jerusalem latest completed runtime pointer is 2026-11-01T07:22:37Z (09:22 local), >70 minutes old despite quarter-hour cron. Run the existing queue workflow to refresh 10:00 local deep public trends, hourly buyer leads, own analytics, inbox and replies. Respect publishing windows, no duplicates, no speculative API replies, no new original unless due.
