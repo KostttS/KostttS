@@ -5147,7 +5147,7 @@
         "external_trends": "latest status skipped; last verified full artifact run 41315881067 at 16h, 93 unique posts from 23 requested public pages; not full Threads",
         "lead_discovery": "21h full artifact run 41340009889, 28 pages, 2 known candidates, 0 new, 1 non-disqualified; latest 21:42 artifact status already_scanned_this_local_hour",
         "instagram_competitors": "No fresh verified post-level competitor data",
-        "alternative_search": "TinyFish RU/EN indexed web search found older YCLIENTS web-app request from July 31, 2026 (not a new active paid mobile buyer), seller post and internship, no newly verified paid lead"
+        "alternative_search": "TinyFish RU/EN public web search found two previously unregistered but OLD posts: @dezignora Aug 17 Flutter Android-to-iOS release (76 days old, no budget), @prince_verma__pxh Sep 14 claimed paid client app projects (48 days old, scope/active status unverified), plus older July 31 YCLIENTS web-app request. These are not new active paid leads."
       },
       "own_threads": [
         {
@@ -5243,13 +5243,18 @@
         "disqualified": "pixxiebubbles82 unpaid until profit",
         "new_confirmed_paid_contacts": 0,
         "verified_official_buyer_media_ids": 0,
-        "contacts_sent_this_run": 0
+        "contacts_sent_this_run": 0,
+        "newly_registered_stale_research_candidates": 2,
+        "stale_research_candidates": [
+          "https://www.threads.com/@dezignora/post/DcJVquwEx5a",
+          "https://www.threads.com/@prince_verma__pxh/post/DdQxVp0Dy9Q"
+        ]
       },
       "decisions": {
         "scale": "Test distinct 50% viral/30% commercial/20% direct buyer mix over 10 posts; monitor profile visits, buyer contacts and revenue",
         "remove": "Generic long text posts with no responses as default; do not confuse broad viral money discussion with paid client demand",
         "test": "One queued viral binary salary-vs-time HERO, compare first 2/12/24h with own commercial posts; publish only through existing GitHub workflow",
-        "action": "No new queue edits: 21:45 viral HERO remains unpublished in GitHub state at 22:34, next scheduled job should be checked before adding another. Metricool Threads erroneous post is ERROR authentication failure, not published; Instagram scheduled queue empty.",
+        "action": "No new queue edits: 21:45 viral HERO remains unpublished in GitHub state at 22:34, next scheduled job should be checked before adding another. Metricool Threads erroneous post is ERROR authentication failure, not published; Instagram scheduled queue empty. Two older buyer-style leads were recorded in public_lead_candidates.json as stale research only, no contact sent.",
         "limitation": "No current 22h GitHub runtime artifact; latest 21:42 local. Public Threads external sample is bounded; Instagram competitor posts unavailable; buyer DM not verifiable without valid official API media IDs."
       }
     }
