@@ -332,6 +332,46 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "New buyer-style candidate found in 14:40 local lead_discovery.json, exact public URL checked. Budget and scope unverified; no official threads_media ID. Do not send using public HTML PK, repeat @mention, or claim contact. Check cross-channel duplicates before any future outreach."
+    },
+    {
+      "id": "public-lead-2026-11-01-dezignora-ios-flutter-release",
+      "url": "https://www.threads.com/@dezignora/post/DcJVquwEx5a",
+      "username": "dezignora",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-08-17T15:16:14Z",
+      "observed_at": "2026-11-01T20:36:00Z",
+      "request": "Creative agency seeking iOS Flutter developer to publish already launched Android Flutter app to Apple App Store; short-term project. Post is 76 days old; current availability and budget unknown.",
+      "observed_likes": 15,
+      "observed_replies": 18,
+      "observed_views_approx": 2300,
+      "observed_metrics_source": "Live public Threads post fetched 2026-11-01 ~22:36 Asia/Jerusalem; rounded public UI, not official API",
+      "priority": "stale_76_days_exact_stack_scope_budget_and_current_status_unverified",
+      "status": "research_candidate_stale_not_contacted_no_verified_media_id",
+      "draft": "Hi Dezignora! I saw your post about publishing an existing Flutter Android app to the iOS App Store. I work with Flutter/FlutterFlow iOS/Android releases and App Store submission issues. Is the short-term iOS release still open? If yes, what is currently blocking the submission? Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Not a new request; 17 Aug 2026. No verified official Threads media ID. No contact; check duplicate channels and whether project still open before outreach."
+    },
+    {
+      "id": "public-lead-2026-11-01-prince-verma-client-mobile-projects",
+      "url": "https://www.threads.com/@prince_verma__pxh/post/DdQxVp0Dy9Q",
+      "username": "prince_verma__pxh",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-09-14T09:04:06Z",
+      "observed_at": "2026-11-01T20:36:00Z",
+      "request": "Claims multiple immediate paid mobile app client projects and long-term opportunities; no stack, client verification, budget or scope. Post 48 days old; repeated similar recruiting posts observed.",
+      "observed_likes": 8,
+      "observed_replies": 12,
+      "observed_views_approx": 1100,
+      "observed_metrics_source": "Live public Threads post fetched 2026-11-01 ~22:36 Asia/Jerusalem; rounded public UI, not official API",
+      "priority": "stale_48_days_claimed_paid_but_unverified_scope_and_active_status",
+      "status": "research_candidate_stale_not_contacted_no_verified_media_id",
+      "draft": "Hi Prince, I saw your post about paid mobile app client projects. I build Flutter/FlutterFlow iOS/Android apps with Firebase/Supabase, APIs, payments and store releases. Are any funded client briefs still open? If so, could you share the stack, scope and expected engagement? Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Not a new request; 14 Sep 2026. Claims paid work but unverified; repeated similar posts. No verified official Threads media ID, no outreach attempted; check duplicates first."
     }
   ]
 }
