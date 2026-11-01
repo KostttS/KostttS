@@ -217,9 +217,10 @@
     "threads-2026-10-29-targeted-bike-taxi-mention",
     "threads-2026-10-30-agency-booking-backend",
     "threads-2026-10-30-targeted-bnb-brief-mention",
-    "threads-2026-10-31-buyer-release-blocker"
+    "threads-2026-10-31-buyer-release-blocker",
+    "threads-2026-11-01-buyer-order-expense-scope"
   ],
-  "last_run_at": "2026-10-31T07:44:16.852702+00:00",
+  "last_run_at": "2026-11-01T07:21:12.822818+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
