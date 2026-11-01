@@ -197,3 +197,6 @@ Reason: at 01:43 Asia/Jerusalem (2026-11-01), latest runtime pointer still 2026-
 
 Recovery request 2026-11-01T00:44:00Z (02:44 Asia/Jerusalem)
 Reason: latest visible completed Threads Publisher runtime pointer is 2026-10-31T23:46:46Z (01:46 local), and no 02h completed run visible during deep review. Trigger existing workflow to refresh hourly lead discovery, 2h external trends, own analytics, inbox, replies_to_own_replies and verified media-ID diagnostics. Do not publish original content outside 08-12/19-23 local, do not repeat public mentions or reply via HTML PK, and do not touch unrelated channels. This marker is for recovery only.
+
+Recovery request 2026-11-01T01:40:41Z (03:40 Asia/Jerusalem)
+Reason: no 03h local workflow visible (latest run 02:56 local, successful); trigger existing Threads Publisher workflow for fresh hourly lead_discovery, inbox/replies_to_own_replies, own analytics and official media-ID status. Odd local hour: do not mislabel skipped external_trends as no results; use last verified 02h sample. No original posts outside 08-12/19-23 local, no duplicate mentions, no invalid public_post_pk replies, no Egor stories, no Brandi Flo, no unrelated channels. Recovery-only marker.
