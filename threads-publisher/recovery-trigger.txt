@@ -223,3 +223,6 @@ Recovery request 2026-11-01T10:42:00Z
 Reason: 12:42 Asia/Jerusalem deep review due; latest runtime_pointer remains 08:40Z (10:40 local), trends_state last_slot=10. Trigger existing Threads Publisher workflow to refresh lead_discovery, external_trends, analytics and inbox. Outside original posting windows: no new originals; avoid duplicate replies, public HTML PK IDs, repeat mentions, unrelated channels. Preserve queue.
 
 2026-11-01 14:39 Asia/Jerusalem: Recovery check for missed 13:00/14:00 scheduled runs. Run normal Threads Publisher checks, refresh analytics/inbox/lead_discovery/external_trends; no outside-window original posts, no duplicate outreach, preserve signed state.
+
+Recovery request 2026-11-01T13:40:05Z (15:40 Asia/Jerusalem)
+Reason: last completed Threads Publisher run was 2026-11-01T12:44Z (14:44 local); no 15h local run in GitHub Actions despite 7,22,37,52 cron. Trigger existing workflow once for hourly RU/EN mobile app buyer hunt, Threads analytics, inbox and replies_to_own_replies, retaining last full 14h public trends. Outside 08–12/19–23 original-post window: no originals, duplicate @mentions, unverified public_post_pk replies, personal Egor stories, Brandi Flo or unrelated channels. Keep published state and queues unchanged absent verified API result.
