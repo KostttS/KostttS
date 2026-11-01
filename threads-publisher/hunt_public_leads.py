@@ -58,7 +58,7 @@ def disqualifiers(text):
     if any(s in value for s in ("no money involved until it pays", "no money until it pays", "equity only", "profit share", "profit split", "revenue share", "revenue split", "60% to you", "unpaid project", "work for exposure", "after building my app i pay", "after building the app i pay", "build my app then i pay", "i pay after the app is built", "pay after building the app")):
         out.append("contingent_or_unfunded_compensation")
     # Public search often returns freelancers quoting a buyer's request.
-    if any(s in value for s in ("i came across your post about looking for", "i'd love to help bring your idea to life", "here's my portfolio so you can check", "looking for a new opportunity as a flutter developer", "open to remote opportunities worldwide")):
+    if any(s in value for s in ("i came across your post about looking for", "i'd love to help bring your idea to life", "here's my portfolio so you can check", "looking for a new opportunity as a flutter developer", "open to remote opportunities worldwide", "anyone looking for web and app developer", "anyone looking for an app developer", "anyone looking for a web developer")):
         out.append("developer_self_promotion_not_buyer")
     return out
 
