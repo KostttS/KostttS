@@ -212,3 +212,6 @@ Reason: latest completed Threads Publisher run 05:42 local, no completed 06h run
 
 Recovery request 2026-11-01T05:38:44Z (07:38 Asia/Jerusalem)
 Reason: most recent completed Threads Publisher run 06:41 local; no 07h run in GitHub Actions at this check. Trigger existing workflow for hourly RU/EN buyer discovery, Threads analytics/inbox and official reply ID checks. 07h is odd-hour: use last full 06h external trends; do not force an extra deep scan. No original post outside 08-12/19-23, duplicate mention, public HTML PK reply, personal Egor story, Brandi Flo or other channel. Do not change queue or signed state without verified API result. Recovery marker only.
+
+Recovery request 2026-11-01T06:35:29Z (08:35 Asia/Jerusalem)
+Reason: latest confirmed Threads runtime is 07:41 local and no 08h even-hour run in GitHub Actions. Trigger existing workflow once for 08h buyer hunt, external trends, own analytics and inbox/replies. 09:20 local buyer post is not yet due; do not publish early or duplicate previous mentions. No unverified public PK replies, no personal Egor stories, no Brandi Flo or unrelated channels. Recovery marker only.
