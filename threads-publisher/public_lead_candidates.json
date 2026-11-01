@@ -312,6 +312,26 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Original public Threads post and date verified. No budget or official media ID; do not auto-reply using public HTML PK. Do not repeat own @mentions without compelling evidence."
+    },
+    {
+      "id": "public-lead-2026-11-01-faithinator-flutter-request",
+      "url": "https://www.threads.com/@faithinator001/post/DfEvfapjYpC",
+      "username": "faithinator001",
+      "public_post_pk": "4018545634625555010",
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-29T09:59:51Z",
+      "observed_at": "2026-11-01T12:44:00Z",
+      "request": "Looking for Flutter developer. let connect. No project description, client status, paid budget, timeline or platform provided.",
+      "observed_likes": 1,
+      "observed_replies": 3,
+      "observed_views": 207,
+      "observed_metrics_source": "Live public Threads page via TinyFish fetch_content 2026-11-01 ~14:44 Asia/Jerusalem; not official API",
+      "priority": "secondary_vague_request_paid_project_unverified",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Hi! I saw you're looking for a Flutter developer. I build Flutter/FlutterFlow mobile apps with Firebase/Supabase and API integrations. Is this for a funded client project or an existing app, and what's the main feature you need? Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "New buyer-style candidate found in 14:40 local lead_discovery.json, exact public URL checked. Budget and scope unverified; no official threads_media ID. Do not send using public HTML PK, repeat @mention, or claim contact. Check cross-channel duplicates before any future outreach."
     }
   ]
 }
