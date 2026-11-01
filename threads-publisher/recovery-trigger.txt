@@ -203,3 +203,6 @@ Reason: no 03h local workflow visible (latest run 02:56 local, successful); trig
 
 Recovery request 2026-11-01T02:39:00Z (04:39 Asia/Jerusalem)
 Reason: no 04h local workflow run visible. Run existing Threads Publisher to refresh hourly paid mobile-app buyer search, official media-ID diagnostics, own analytics and inbox; 04h is an even-hour external trends scan. No posts outside 08-12/19-23 local; no duplicate @mentions, invalid HTML PK replies, personal Egor stories, Brandi Flo or other channels. Recovery marker only.
+
+Recovery request 2026-11-01T03:40:00Z (05:40 Asia/Jerusalem)
+Reason: latest verified runtime pointer 2026-11-01T02:39:41Z (04:39 local), and GitHub Actions shows no 05h scheduled run despite 7,22,37,52 cron. Trigger existing publisher to refresh hourly RU/EN paid-buyer lead_discovery, own Threads analytics, inbox/replies_to_own_replies and official ID status. Odd hour: retain verified 04h external trends, do not force extra scan. 05h is outside original-post windows 08-12/19-23; no original posts, duplicate @mentions, invalid public_post_pk replies, other channels, Egor stories or Brandi Flo. Preserve queues and signed state unless API verifies change.
