@@ -742,13 +742,14 @@
   },
   {
     "id": "threads-2026-11-01-hero-time-vs-salary",
-    "publish_at": "2026-11-01T19:45:00Z",
+    "publish_at": "2026-11-02T06:45:00Z",
     "text": "Вам предлагают выбрать только одно:\n\n💰 Зарплата на 20% выше\nили\n⏰ Рабочий день на 2 часа короче — за те же деньги.\n\nЧто выберете? И почему?",
     "intent": "viral_broad_hero",
     "hypothesis": "Short binary money/time question adapted from verified public Threads low-friction engagement pattern; no commercial CTA; measure views/replies and profile visits, not assume buyer conversion",
     "source_examples": [
       "https://www.threads.com/@daria_balabueva/post/DfKmxj5iWDv",
       "https://www.threads.com/@beauty_ds_akvarel/post/DfMQQJViGNy"
-    ]
+    ],
+    "reschedule_reason": "2026-11-01 21:45 local slot missed: last completed workflow runtime at 21:42 local; by 23:39 outside 19-23 publishing window, official published_ids lacks post. Move same broad HERO to 2026-11-02 08:45 local; avoid duplicate."
   }
 ]
