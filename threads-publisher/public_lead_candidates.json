@@ -291,6 +291,27 @@
         "observed_views_at_19_42": 0,
         "notes": "Own public @mention is confirmed published; this is not a reply to buyer post and does not prove notification or buyer contact. No repeat mentions."
       }
+    },
+    {
+      "id": "public-lead-2026-11-01-julian-appstore-coder",
+      "url": "https://www.threads.com/@juliankingofficial/post/De636IVFIzs",
+      "username": "juliankingofficial",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-10-25T14:01:00Z",
+      "observed_at": "2026-11-01T03:41:00Z",
+      "request": "Looking for someone who can build functional mobile apps and get them approved by app stores; no stack, scope, budget or timeline given.",
+      "observed_likes": 23,
+      "observed_replies": 42,
+      "observed_reposts": 2,
+      "observed_views_approx": 10100,
+      "observed_views_source": "Public Threads post fetched 2026-11-01 around 05:41 Asia/Jerusalem via TinyFish; rounded UI views, not official API.",
+      "priority": "secondary_6_days_old_budget_unverified_competitive_42_replies",
+      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "draft": "Hi Julian! I saw you're looking for someone who can build functional apps and get them approved by app stores. I develop and troubleshoot Flutter/FlutterFlow iOS/Android apps, including Firebase/Supabase, APIs and store submissions. Portfolio: https://www.behance.net/24512dab. Is this a funded app project, and are you starting from a brief or an existing build that's stuck in review?",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Original public Threads post and date verified. No budget or official media ID; do not auto-reply using public HTML PK. Do not repeat own @mentions without compelling evidence."
     }
   ]
 }
