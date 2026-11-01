@@ -218,3 +218,6 @@ Reason: latest confirmed Threads runtime is 07:41 local and no 08h even-hour run
 
 Recovery request 2026-11-01T08:35:00Z
 Reason: At 10:35 Asia/Jerusalem latest completed runtime pointer is 2026-11-01T07:22:37Z (09:22 local), >70 minutes old despite quarter-hour cron. Run the existing queue workflow to refresh 10:00 local deep public trends, hourly buyer leads, own analytics, inbox and replies. Respect publishing windows, no duplicates, no speculative API replies, no new original unless due.
+
+Recovery request 2026-11-01T10:42:00Z
+Reason: 12:42 Asia/Jerusalem deep review due; latest runtime_pointer remains 08:40Z (10:40 local), trends_state last_slot=10. Trigger existing Threads Publisher workflow to refresh lead_discovery, external_trends, analytics and inbox. Outside original posting windows: no new originals; avoid duplicate replies, public HTML PK IDs, repeat mentions, unrelated channels. Preserve queue.
