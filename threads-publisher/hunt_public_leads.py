@@ -41,6 +41,9 @@ def fingerprint(text):
 def disqualifiers(text):
     value=(text or "").lower()
     out=[]
+    # A promoted paid-contact marketplace listing is not an independently verified direct buyer.
+    if "clientscave.com/requirements/" in value:
+        out.append("pay_to_unlock_marketplace_contact_not_direct_buyer")
     if any(s in value for s in ("commission-based", "commission only", "work on commission", "за процент", "оплата процент")):
         out.append("commission_only")
     if any(s in value for s in ("indonesia only","only indonesia", "send us your cv", "send your cv", "присылайте резюме", "вакансия в штат")):
