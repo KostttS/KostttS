@@ -221,3 +221,5 @@ Reason: At 10:35 Asia/Jerusalem latest completed runtime pointer is 2026-11-01T0
 
 Recovery request 2026-11-01T10:42:00Z
 Reason: 12:42 Asia/Jerusalem deep review due; latest runtime_pointer remains 08:40Z (10:40 local), trends_state last_slot=10. Trigger existing Threads Publisher workflow to refresh lead_discovery, external_trends, analytics and inbox. Outside original posting windows: no new originals; avoid duplicate replies, public HTML PK IDs, repeat mentions, unrelated channels. Preserve queue.
+
+2026-11-01 14:39 Asia/Jerusalem: Recovery check for missed 13:00/14:00 scheduled runs. Run normal Threads Publisher checks, refresh analytics/inbox/lead_discovery/external_trends; no outside-window original posts, no duplicate outreach, preserve signed state.
