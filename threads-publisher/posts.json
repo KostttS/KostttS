@@ -739,5 +739,16 @@
     "id": "threads-2026-11-01-buyer-order-expense-scope",
     "publish_at": "2026-11-01T07:20:00Z",
     "text": "Business owners: do you need a custom app, or just one reliable daily workflow?\n\nIf orders, payments and expenses live in separate sheets, start small:\n• record each order once\n• track paid/unpaid status\n• see daily totals by location or staff\n\nI build Flutter/FlutterFlow apps with Firebase/Supabase and APIs. Have a funded project? Send the current tools and ONE report you need daily. I can review the MVP scope before any quote.\n\nPortfolio: https://www.behance.net/24512dab"
+  },
+  {
+    "id": "threads-2026-11-01-hero-time-vs-salary",
+    "publish_at": "2026-11-01T19:45:00Z",
+    "text": "Вам предлагают выбрать только одно:\n\n💰 Зарплата на 20% выше\nили\n⏰ Рабочий день на 2 часа короче — за те же деньги.\n\nЧто выберете? И почему?",
+    "intent": "viral_broad_hero",
+    "hypothesis": "Short binary money/time question adapted from verified public Threads low-friction engagement pattern; no commercial CTA; measure views/replies and profile visits, not assume buyer conversion",
+    "source_examples": [
+      "https://www.threads.com/@daria_balabueva/post/DfKmxj5iWDv",
+      "https://www.threads.com/@beauty_ds_akvarel/post/DfMQQJViGNy"
+    ]
   }
 ]
