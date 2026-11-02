@@ -232,3 +232,5 @@ Reason: latest completed Threads Publisher run was 2026-11-01T14:22Z (16:22 loca
 
 Recovery request 2026-11-02T01:42:07Z
 Reason: as of 03:42 Asia/Jerusalem, latest public Threads Publisher run #676 and runtime_pointer.json are from 2026-11-01T22:47Z (00:47 local); quarter-hour cron has not produced the 01/02/03 local buyer scans. Trigger one queue run to refresh hourly lead_discovery, inbox, replies, analytics, external trends if due. Nighttime: DO NOT publish original posts; respect 08-12 and 19-23 Asia/Jerusalem, state dedupe and official threads_media ID guardrails. Pending HERO due 2026-11-02 08:45 local, not now.
+
+2026-11-02 05:40 Asia/Jerusalem: recovery check-only via push after missing scheduled lead scans since 03:53 local. Refresh lead_discovery, inbox, replies, analytics; no original posts outside 08:00-12:00 and 19:00-23:00. Do not duplicate replies or unverified media IDs.
