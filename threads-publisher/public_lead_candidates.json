@@ -469,6 +469,26 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Not a confirmed funded mobile development job. Exact public URL and original text checked. No official Threads media ID, no browser session, no message sent. Recheck duplicates before any contact."
+    },
+    {
+      "id": "public-lead-2026-11-03-axia-designer-mobile-referrals",
+      "url": "https://www.threads.com/@axia.mark/post/DfPxVMcjUqA",
+      "username": "axia.mark",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-11-02T16:47:35Z",
+      "observed_at": "2026-11-02T23:45:00Z",
+      "request": "UI/UX designer completed a mobile design project weeks earlier; client wanted a mobile developer but designer's existing developer contact was booked. Author invites collaboration/referrals. No confirmation client still hiring, budget, mobile stack, or paid contract.",
+      "observed_likes": 44,
+      "observed_replies": 39,
+      "observed_views_approx": 1900,
+      "observed_views_source": "Public Threads page via TinyFish fetch_content on 2026-11-03 01:45 Asia/Jerusalem; rounded UI views, not official API",
+      "status": "potential_referral_partner_old_client_need_unconfirmed_no_verified_media_id",
+      "priority": "secondary_relevant_partner_not_active_verified_paid_order",
+      "draft": "Hi Axia! I build iOS/Android apps with Flutter/FlutterFlow, Firebase/Supabase and API integrations. I saw your post about a design client who needed a mobile developer. If a project comes up, I'd be happy to collaborate while you lead the design. Portfolio: https://www.behance.net/24512dab. Is that client still looking, or would it be better to connect for future projects?",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Not an active verified paid brief. No official Threads media ID; never use HTML public post PK as reply_to_id. Do not send duplicate @mention or claim contact. Commercial collaboration relevance only."
     }
   ]
 }
