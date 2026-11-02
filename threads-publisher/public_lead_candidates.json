@@ -248,11 +248,14 @@
       "observed_views_approx": 14300,
       "observed_views_source": "Public Threads page via TinyFish direct fetch 2026-10-30 around 12:40 Asia/Jerusalem; rounded public UI, not official API",
       "priority": "secondary_older_14_days_generic_collaboration_paid_client_unverified",
-      "status": "research_candidate_not_contacted_no_verified_media_id",
+      "status": "closed_hired_developer_2026_10_22",
       "draft": "Здравствуйте! Увидел ваш запрос на разработчика iOS/Android. Я делаю мобильные приложения на Flutter/FlutterFlow с Firebase/Supabase и API-интеграциями. Портфолио: https://www.behance.net/24512dab. У вас сейчас есть конкретный оплачиваемый проект или речь о будущем сотрудничестве? Могу посмотреть краткое ТЗ и стек.",
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
-      "notes": "Public post verified, not proof of a paid order. Do not send via Threads API without confirmed official media ID. Cross-channel contact status not verified; check before outreach."
+      "notes": "Public post verified, not proof of a paid order. Do not send via Threads API without confirmed official media ID. Cross-channel contact status not verified; check before outreach. Follow-up public post by same author 2026-10-22 explicitly says 'Специалиста нашли' (specialist found); exclude from active buyer outreach, no reply.",
+      "closed_at": "2026-10-22T09:10:38Z",
+      "closed_evidence_url": "https://www.threads.com/@romanenko_dmitriy_/post/DeyoSwunO68/",
+      "closed_verified_at": "2026-11-02T08:48:47Z"
     },
     {
       "id": "public-lead-2026-10-30-welkxdigital-bnb-1500",
