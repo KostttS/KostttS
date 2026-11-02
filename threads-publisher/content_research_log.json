@@ -4832,23 +4832,23 @@
       "local_slot": "2026-11-02 20:00 Asia/Jerusalem",
       "type": "two_hour_deep_comparative_analysis_with_live_public_fallback",
       "source_cutoffs": {
-        "threads_runtime": "2026-11-02T17:47:36Z",
-        "threads_run_id": "41494442017",
-        "external_trends_full": "2026-11-02T16:44:42Z",
-        "external_trends_run_id": "41484076509",
-        "lead_discovery_full": "2026-11-02T16:42:30Z",
+        "threads_runtime": "2026-11-02T18:50:27Z",
+        "threads_run_id": "41503762491",
+        "external_trends_full": "2026-11-02T18:49:07Z",
+        "external_trends_run_id": "41503762491",
+        "lead_discovery_full": "2026-11-02T18:46:50Z",
         "live_public_threads": "2026-11-02 ~20:44 Asia/Jerusalem",
         "instagram_metricool": "2026-11-02 ~20:44 Asia/Jerusalem"
       },
       "source_status": {
-        "threads_runtime": "Latest runtime pointer and Actions list still point to 19:47 local; no 20h workflow artifact was available. Official inbox/insights therefore lag the 20h slot; no new commercial inbox claims after 19:47.",
-        "external_trends": "18h full artifact verified_public_sample: 101 unique posts from 24 public pages, 26 high-engagement candidates; latest 19h artifact status=skipped, not zero posts. Five actual posts were refetched live ~20:44 for updated public metrics.",
-        "lead_discovery": "18h full artifact: 28 public pages, one Flutter intern vacancy, zero qualified buyer candidates. 19h artifact status=already_scanned_this_local_hour; not interpreted as no buyers.",
-        "official_keyword_search": "Last full discovery returned 39 searches / 0 results; official public keyword permission not verified by App Review.",
+        "threads_runtime": "20h recovery run 41503762491 completed successfully at 20:50 Israel, after queue update triggered GitHub Actions; fresh official analytics, inbox, lead hunt, external trends read from artifact.",
+        "external_trends": "20h full artifact verified_public_sample: 95 unique posts from 24 public pages, 25 high-engagement candidates, many unrelated to B2B. Earlier 18h artifact had 101 posts; sample composition differs, not a reach trend. Selected public posts additionally refetched live.",
+        "lead_discovery": "20h full artifact: 28 public pages, 2 candidates, 0 newly discovered and 0 qualifying: one Flutter intern vacancy, one speculative profit-share offer with no upfront payment. Neither is a paid project.",
+        "official_keyword_search": "Fresh 20h discovery.json: 39 keyword searches / 0 results, including control; scope alone does not confirm App Review approval.",
         "public_web_fallback": "Alternative site:threads.com RU/EN web searches yielded no fresh suitable active paid mobile briefs; one apparent Russian request was explicitly closed because author found a developer. Search indexing incomplete.",
-        "instagram_competitors": "No independently verified Instagram competitor post metrics. Do not substitute Threads data for Instagram.",
-        "public_metrics_caveat": "External views were null in 18h HTML artifact; live public Threads page checks at ~20:44 supplied views for selected posts. Counts rounded where marked K.",
-        "publishing_health": "No workflow run after 19:47 local visible; GitHub connector supports reads and file writes but not workflow_dispatch. Browser profile had no confirmed GitHub/Threads sign-in; did not claim to run official API or send messages."
+        "instagram_competitors": "No verified Instagram competitor post metrics; not conflated with Threads. Metricool 2 Nov post published but absent from feed analytics.",
+        "public_metrics_caveat": "Public Threads pages refetched live at ~20:44-20:50; some counts rounded. Fresh 20h official own-post metrics agree: new agency post 19 views, HERO 7, 0 replies. External sample views=null still means unavailable for unrefetched posts.",
+        "publishing_health": "GitHub Actions 41503762491 success; runtime_pointer.json updated to 20:50 local. No new Threads post due in this run. Instagram post for Nov 3 remains Metricool PENDING; no other posts considered published."
       },
       "own_threads": [
         {
@@ -4857,10 +4857,10 @@
           "content_type": "direct_agency",
           "age_hours_approx": 1,
           "views": 19,
-          "likes": "0 at official publish-time snapshot; no fresh official value",
-          "replies": "0 at official publish-time snapshot; no fresh official value",
+          "likes": 0,
+          "replies": 0,
           "qualified_leads": 0,
-          "source": "live public page + official 19:47 runtime"
+          "source": "official 20:50 runtime + live public page"
         },
         {
           "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
@@ -4871,7 +4871,7 @@
           "likes": 0,
           "replies": 0,
           "qualified_leads": 0,
-          "source": "live public page + official 19:47 runtime"
+          "source": "official 20:50 runtime + live public page"
         },
         {
           "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
@@ -4985,6 +4985,39 @@
             "replies_delta": 9
           },
           "mechanism": "Explicit urgent request attracts replies; request is website launch, not qualified mobile-app lead."
+        },
+        {
+          "url": "https://www.threads.com/@victoriaaveyard/post/DfP1MHNGPK3",
+          "username": "victoriaaveyard",
+          "published_at": "2026-11-02T17:21:18Z",
+          "age_hours_approx": 1.5,
+          "views_approx": 10600,
+          "likes_approx": 1000,
+          "replies": 36,
+          "reposts": 121,
+          "mechanism": "Strong ethical conflict around monetizing scraped creative works; attention, not an appropriate direct lead or text to copy."
+        },
+        {
+          "url": "https://www.threads.com/@elladavin_/post/DfPBr0-jhZe",
+          "username": "elladavin_",
+          "published_at": "2026-11-02T09:51:15Z",
+          "age_hours_approx": 9,
+          "views_approx": 9500,
+          "likes": 885,
+          "replies": 234,
+          "reposts": 40,
+          "mechanism": "AI-art ownership analogy and direct challenge elicit discussion; not evidence of mobile-app demand."
+        },
+        {
+          "url": "https://www.threads.com/@sasha_kotkinaa/post/DfPl8MhiU_v",
+          "username": "sasha_kotkinaa",
+          "published_at": "2026-11-02T15:08:03Z",
+          "age_hours_approx": 3.8,
+          "views_approx": 3800,
+          "likes": 52,
+          "replies": 14,
+          "reposts": 0,
+          "mechanism": "Concrete reported business result (4 leads, 1 sale) offers social proof; claim is author's and not independently verified."
         }
       ],
       "buyer_signals": [
@@ -5008,6 +5041,18 @@
           "username": "jana1813",
           "url": "https://www.threads.com/@jana1813/post/De_59DYjeEO",
           "status": "Closed: author explicitly states developer already found; not a new buyer."
+        },
+        {
+          "username": "myraridzuan",
+          "url": "https://www.threads.com/@myraridzuan/post/DfPlshSmaUB",
+          "published_at": "2026-11-02T15:05:55Z",
+          "views_approx": 1700,
+          "likes": 19,
+          "replies": 17,
+          "reposts": 1,
+          "status": "New secondary research candidate: asks for one AI cross-platform integration job, but mobile scope, paid budget and stack unverified; no official media ID or contact.",
+          "draft_recorded_in": "threads-publisher/public_lead_candidates.json",
+          "commit": "9b405b4b30207661facd9cf082a29b8657d9151a"
         }
       ],
       "decision": {
@@ -5036,11 +5081,23 @@
           "status": "PENDING not published",
           "media": "CableMap floor map screenshot",
           "network": "instagram"
+        },
+        {
+          "type": "recovery_workflow",
+          "run_id": "41503762491",
+          "status": "completed_success",
+          "at": "2026-11-02T18:50:42Z"
+        },
+        {
+          "type": "github_lead_register",
+          "status": "secondary_research_only",
+          "username": "myraridzuan",
+          "commit": "9b405b4b30207661facd9cf082a29b8657d9151a"
         }
       ],
       "contact_attempts": 0,
       "new_confirmed_paid_projects": 0,
-      "notes": "No public HTML PK used as official API media ID. No replies.json or signed publication state modified. Avoid Brandi Flo and any personal Egor stories."
+      "notes": "No public HTML PK used as official API media ID. No replies.json or signed publication state modified. Avoid Brandi Flo and any personal Egor stories. Fresh 20h runtime obtained after GitHub push; 0 new qualified buyer leads, 0 new inbox replies, 0 official reply IDs. No contact sent."
     }
   ]
 }
