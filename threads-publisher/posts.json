@@ -756,5 +756,65 @@
     "id": "threads-2026-11-02-agency-mobile-handoff",
     "publish_at": "2026-11-02T17:20:00Z",
     "text": "Agency owners: your client needs an iOS/Android app, but your team builds websites.\n\nWho owns the mobile side after launch—API changes, push, app-store reviews and urgent fixes?\n\nI handle Flutter/FlutterFlow apps with Firebase/Supabase and APIs while your agency keeps the client relationship.\n\nHave a funded client project? DM your stack and ONE mobile task. I’ll suggest a practical first step.\n\nPortfolio: https://www.behance.net/24512dab"
+  },
+  {
+    "id": "threads-2026-11-03-hero-hidden-fees",
+    "publish_at": "2026-11-03T07:15:00Z",
+    "text": "Что раздражает сильнее: когда услуга честно дорожает на 10% или когда в конце оплаты внезапно появляется «маленькая комиссия»?\n\nВыберите одно. Почему?",
+    "content_type": "viral_hero"
+  },
+  {
+    "id": "threads-2026-11-03-founder-status-gap",
+    "publish_at": "2026-11-03T17:20:00Z",
+    "text": "A customer doesn't care whether their request was lost in WhatsApp, a spreadsheet or an API. They care that nobody can tell them its status.\n\nFor a business app, start with one reliable flow: request → assignment → status → customer update.\n\nI build Flutter/FlutterFlow mobile workflows with Firebase/Supabase and APIs. Have a funded project? DM the two systems that need to connect and what fails today.\n\nPortfolio: https://www.behance.net/24512dab",
+    "content_type": "commercial"
+  },
+  {
+    "id": "threads-2026-11-04-hero-subscription-choice",
+    "publish_at": "2026-11-04T07:15:00Z",
+    "text": "You can cancel ONE kind of monthly subscription forever: streaming, cloud storage, productivity apps or delivery memberships.\n\nWhich one goes first? What would actually make you keep paying?",
+    "content_type": "viral_hero"
+  },
+  {
+    "id": "threads-2026-11-04-buyer-login-payment",
+    "publish_at": "2026-11-04T17:20:00Z",
+    "text": "FlutterFlow app crashes on login, or orders disappear after payment?\n\nI troubleshoot Flutter/FlutterFlow apps for iOS/Android with Firebase, Supabase, APIs and payment callbacks.\n\nIf this is an active funded project, DM the exact failing step, platform and backend (no credentials). I'll suggest a practical first diagnostic check.\n\nWork: https://www.behance.net/24512dab",
+    "content_type": "direct_buyer"
+  },
+  {
+    "id": "threads-2026-11-05-hero-ai-work-task",
+    "publish_at": "2026-11-05T07:15:00Z",
+    "text": "Если бы ИИ мог навсегда убрать ОДНУ часть вашей работы, что бы вы выбрали: переписку, отчёты, звонки или бесконечные согласования?\n\nТолько один вариант. Почему именно он?",
+    "content_type": "viral_hero"
+  },
+  {
+    "id": "threads-2026-11-05-founder-double-order",
+    "publish_at": "2026-11-05T17:20:00Z",
+    "text": "Самая дорогая кнопка в приложении иногда выглядит совершенно обычно: «Оформить заказ».\n\nКлиент нажал — тишина. Нажал снова — два заказа. Исправлять нужно не только текст на кнопке, но и обработку повторных запросов на сервере.\n\nРаботаю с FlutterFlow/Flutter, Firebase/Supabase и API. Если в вашем действующем приложении возникают дубли, напишите, где именно. Разберём первый шаг диагностики.",
+    "content_type": "commercial"
+  },
+  {
+    "id": "threads-2026-11-06-hero-customer-wait",
+    "publish_at": "2026-11-06T07:15:00Z",
+    "text": "What feels worse as a customer: waiting 20 minutes with clear updates, or waiting 10 minutes with absolutely no explanation?\n\nWhich experience would make you leave a bad review?",
+    "content_type": "viral_hero"
+  },
+  {
+    "id": "threads-2026-11-06-buyer-mobile-api",
+    "publish_at": "2026-11-06T17:20:00Z",
+    "text": "Нужен подрядчик на конкретную задачу в Flutter/FlutterFlow-приложении?\n\nПодключаю Firebase/Supabase, API, push-уведомления, платежи; исправляю ошибки и помогаю с iOS/Android-релизами.\n\nЕсли проект действующий и есть бюджет, напишите стек и ОДНУ задачу, которую нужно решить. Сначала уточню технический объём, без обещаний цены и срока вслепую.\n\nПортфолио: https://www.behance.net/24512dab",
+    "content_type": "direct_buyer"
+  },
+  {
+    "id": "threads-2026-11-07-hero-free-vs-ads",
+    "publish_at": "2026-11-07T07:15:00Z",
+    "text": "Что бесит сильнее: платная подписка, которую забыл отменить, или бесплатное приложение с рекламой после каждого нажатия?\n\nЕсли выбрать только одно зло — какое?",
+    "content_type": "viral_hero"
+  },
+  {
+    "id": "threads-2026-11-07-agency-mvp-scope",
+    "publish_at": "2026-11-07T17:20:00Z",
+    "text": "An MVP doesn't need every feature from the client's website.\n\nIf the first mobile release can handle one real task—booking, job status or payment confirmation—test that flow before adding ten more screens.\n\nI build Flutter/FlutterFlow apps with Firebase/Supabase and APIs, and can take on the mobile part of an agency's funded client project.\n\nAgency owner? DM the backend stack and the one workflow your client needs first.\n\nPortfolio: https://www.behance.net/24512dab",
+    "content_type": "commercial"
   }
 ]
