@@ -239,3 +239,7 @@ Reason: as of 03:42 Asia/Jerusalem, latest public Threads Publisher run #676 and
 
 Recovery request 2026-11-02T06:45:00Z
 Reason: 08:45 Asia/Jerusalem scheduled HERO threads-2026-11-01-hero-time-vs-salary is now due but last completed workflow was 06:45 local and state.json does not show this ID. Trigger normal GitHub Actions queue, verify official API result, refresh 08h trends, hourly buyer hunt, analytics and inbox. Do not duplicate if published by another run; do not publish outside approved local windows.
+
+
+Recovery request 2026-11-02T08:48:47Z (10:48 Asia/Jerusalem)
+Reason: latest runtime_pointer.json still 2026-11-02T07:50:38Z (09:50 local), so the 10h deep analysis and hourly buyer scan are not yet evidenced by a completed runtime. Trigger existing Threads Publisher workflow once to refresh analytics, inbox/replies_to_own_replies, lead_discovery and external_trends for even local hour; respect current queue and official media ID dedupe. HERO already published at 08:45, do not repost. Instagram via Metricool only. No unverified public PK replies, unrelated channels, Egor stories or Brandi Flo.
