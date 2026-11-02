@@ -407,6 +407,45 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Live Threads post and external requirement verified 2026-11-01. ClientsCave requires paid Stars to unlock client contact; listing alone does not prove a funded buyer. No paid unlock, no direct contact, no verified Threads media ID."
+    },
+    {
+      "id": "public-lead-2026-11-02-spinex-flutter-courier-tiffin",
+      "url": "https://www.threads.com/@spinex_it_solutions/post/DfOnU12DPQA",
+      "related_url": "https://www.threads.com/@spinex_it_solutions/post/DfOWJLMDqyB",
+      "username": "spinex_it_solutions",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-11-02T06:00:55Z",
+      "related_post_at": "2026-11-02T03:30:46Z",
+      "observed_at": "2026-11-02T09:40:00Z",
+      "request": "Agency posts upcoming Flutter courier-tracking app projects with stated USD 1,600–2,600 per project and tiffin-service app projects USD 1,000–1,600. Exact deliverables, backend, contracts, payment terms, remote acceptance and whether budgets are real remain unverified.",
+      "observed_metrics": {
+        "courier": {
+          "views_approx": 1300,
+          "likes": 6,
+          "replies": 10,
+          "reposts": null,
+          "shares": 1
+        },
+        "tiffin": {
+          "views_approx": 1600,
+          "likes": 6,
+          "replies": 12,
+          "shares": 7
+        },
+        "source": "Public Threads pages via TinyFish fetch_content; rounded UI views, not official API"
+      },
+      "priority": "potential_stated_budget_recent_but_agency_credibility_unverified",
+      "status": "potential_funded_brief_needs_verification_no_verified_media_id",
+      "risk_flags": [
+        "Repeated phrase 'Instagram followers are priorities' across unrelated job posts; may be engagement/follower bait",
+        "No evidence of signed client contract, project payment or remote eligibility",
+        "Same author posts multiple project requests; one contact maximum if verified"
+      ],
+      "draft": "Hi Spinex team! I saw your Flutter courier-tracking and tiffin app briefs. I develop Flutter/FlutterFlow mobile apps with Firebase/Supabase and API integrations. Portfolio: https://www.behance.net/24512dab. Are these funded client projects open to remote contractors? If so, could you share the must-have MVP workflow, existing backend and payment milestones? I can review fit before discussing scope.",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Verified public Threads original posts and linked Instagram profile; this is a candidate, not a confirmed buyer or paid order. No official target threads_media ID, no authenticated Threads/Instagram browser session, no message sent. Do not use HTML public PK. Deduplicate at agency/account level and check cross-channel contacts before any future outreach."
     }
   ]
 }
