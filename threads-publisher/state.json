@@ -218,9 +218,10 @@
     "threads-2026-10-30-agency-booking-backend",
     "threads-2026-10-30-targeted-bnb-brief-mention",
     "threads-2026-10-31-buyer-release-blocker",
-    "threads-2026-11-01-buyer-order-expense-scope"
+    "threads-2026-11-01-buyer-order-expense-scope",
+    "threads-2026-11-01-hero-time-vs-salary"
   ],
-  "last_run_at": "2026-11-01T07:21:12.822818+00:00",
+  "last_run_at": "2026-11-02T06:45:25.685038+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -304,11 +305,11 @@
     "reply-2026-10-24-shalom-hummus",
     "reply-2026-10-30-kurosolutions-booking-sync"
   ],
-  "last_discovery_at": "2026-11-02T04:43:19.544523+00:00",
+  "last_discovery_at": "2026-11-02T06:46:27.730162+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "41389925205",
+  "last_discovery_run_id": "41401901133",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-41389925205-1",
+  "last_discovery_artifact_name": "threads-runtime-41401901133-1",
   "failed_reply_ids": {
     "reply-2026-10-29-bike-taxi-mvp": {
       "reply_to_id": "4016165537571250202",

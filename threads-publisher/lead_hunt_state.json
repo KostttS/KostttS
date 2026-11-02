@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "last_hour": "2026-11-02 06",
-  "last_scan_at": "2026-11-02T04:42:17.531179+00:00",
+  "last_hour": "2026-11-02 08",
+  "last_scan_at": "2026-11-02T06:45:25.760683+00:00",
   "seen": {
     "DfKeCGbgZpe": {
       "first_seen_at": "2026-10-31T15:40:55.455016+00:00",
-      "last_seen_at": "2026-11-02T04:42:17.531179+00:00",
+      "last_seen_at": "2026-11-02T06:45:25.760683+00:00",
       "url": "https://www.threads.com/@bilvaleaf/post/DfKeCGbgZpe"
+    },
+    "DfE80mODGNm": {
+      "first_seen_at": "2026-10-29T13:45:49.869127+00:00",
+      "last_seen_at": "2026-11-02T06:45:25.760683+00:00",
+      "url": "https://www.threads.com/@pixxiebubbles82/post/DfE80mODGNm"
     },
     "De8SUciGaAa": {
       "first_seen_at": "2026-10-29T10:44:32.651685+00:00",
@@ -22,11 +27,6 @@
       "first_seen_at": "2026-11-01T21:41:17.823620+00:00",
       "last_seen_at": "2026-11-02T01:43:23.206365+00:00",
       "url": "https://www.threads.com/@clientscave/post/DfNdjWRjP8x"
-    },
-    "DfE80mODGNm": {
-      "first_seen_at": "2026-10-29T13:45:49.869127+00:00",
-      "last_seen_at": "2026-11-01T22:44:24.146133+00:00",
-      "url": "https://www.threads.com/@pixxiebubbles82/post/DfE80mODGNm"
     },
     "De9vlVqjdDT": {
       "first_seen_at": "2026-10-31T18:42:25.630334+00:00",
