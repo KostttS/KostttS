@@ -446,6 +446,29 @@
       "contact_attempted": false,
       "reply_under_buyer_post_sent": false,
       "notes": "Verified public Threads original posts and linked Instagram profile; this is a candidate, not a confirmed buyer or paid order. No official target threads_media ID, no authenticated Threads/Instagram browser session, no message sent. Do not use HTML public PK. Deduplicate at agency/account level and check cross-channel contacts before any future outreach."
+    },
+    {
+      "id": "public-lead-2026-11-02-myraridzuan-ai-integrations",
+      "url": "https://www.threads.com/@myraridzuan/post/DfPlshSmaUB",
+      "username": "myraridzuan",
+      "public_post_pk": null,
+      "confirmed_api_media_id": null,
+      "original_post_at": "2026-11-02T15:05:55Z",
+      "observed_at": "2026-11-02T18:51:35.563Z",
+      "request": "Author requests one job involving AI integration and automation between different platforms; no explicit mobile app, tech stack, budget, paid contract, timeline or remote eligibility specified.",
+      "observed_metrics": {
+        "views_approx": 1700,
+        "likes": 19,
+        "replies": 17,
+        "reposts": 1,
+        "source": "Public Threads page via TinyFish, around 2026-11-02 20:50 Asia/Jerusalem"
+      },
+      "priority": "secondary_adjacent_api_integration_unverified_paid_mobile_scope",
+      "status": "research_candidate_not_qualified_paid_mobile_brief_no_verified_media_id",
+      "draft": "Hi! I work with Flutter/FlutterFlow mobile apps, Firebase/Supabase and API integrations. I saw you're looking for someone to connect platforms using AI. Which systems and APIs need to communicate, and is there a funded scope involving a mobile app or backend? If it fits my stack, I can review the technical requirements. Portfolio: https://www.behance.net/24512dab",
+      "contact_attempted": false,
+      "reply_under_buyer_post_sent": false,
+      "notes": "Not a confirmed funded mobile development job. Exact public URL and original text checked. No official Threads media ID, no browser session, no message sent. Recheck duplicates before any contact."
     }
   ]
 }
