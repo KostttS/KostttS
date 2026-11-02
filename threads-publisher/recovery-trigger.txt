@@ -236,3 +236,6 @@ Reason: as of 03:42 Asia/Jerusalem, latest public Threads Publisher run #676 and
 2026-11-02 05:40 Asia/Jerusalem: recovery check-only via push after missing scheduled lead scans since 03:53 local. Refresh lead_discovery, inbox, replies, analytics; no original posts outside 08:00-12:00 and 19:00-23:00. Do not duplicate replies or unverified media IDs.
 
 2026-11-02 06:41 Asia/Jerusalem: restore missed 06:00 deep comparative slot and hourly RU/EN buyer scan after latest 05:43 runtime. Refresh external_trends if due, lead_discovery, Threads analytics/inbox/replies. No original posting before 08:00; keep scheduled 08:45 HERO and signed state, no unverified public PK replies or duplicate contacts. This is recovery only.
+
+Recovery request 2026-11-02T06:45:00Z
+Reason: 08:45 Asia/Jerusalem scheduled HERO threads-2026-11-01-hero-time-vs-salary is now due but last completed workflow was 06:45 local and state.json does not show this ID. Trigger normal GitHub Actions queue, verify official API result, refresh 08h trends, hourly buyer hunt, analytics and inbox. Do not duplicate if published by another run; do not publish outside approved local windows.
