@@ -751,5 +751,10 @@
       "https://www.threads.com/@beauty_ds_akvarel/post/DfMQQJViGNy"
     ],
     "reschedule_reason": "2026-11-01 21:45 local slot missed: last completed workflow runtime at 21:42 local; by 23:39 outside 19-23 publishing window, official published_ids lacks post. Move same broad HERO to 2026-11-02 08:45 local; avoid duplicate."
+  },
+  {
+    "id": "threads-2026-11-02-agency-mobile-handoff",
+    "publish_at": "2026-11-02T17:20:00Z",
+    "text": "Agency owners: a client needs an iOS/Android app, but your team mainly builds web.\n\nWho will own the mobile side after launch—API changes, push notifications, app-store reviews and urgent fixes?\n\nI take on Flutter/FlutterFlow mobile work with Firebase/Supabase and API integrations, while your agency keeps the client relationship.\n\nHave a funded client project? DM the current stack and ONE mobile task you need covered. I’ll suggest a practical first step.\n\nPortfolio: https://www.behance.net/24512dab"
   }
 ]
