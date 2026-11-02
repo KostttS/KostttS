@@ -255,3 +255,4 @@ Reason: latest completed Threads Publisher runtime pointer is 2026-11-02T12:45:1
 
 Recovery request 2026-11-02T15:41:05Z (17:41 Asia/Jerusalem)
 Reason: latest completed Threads Publisher runtime_pointer remains 2026-11-02T14:16:08Z (16:16 local), and 17h hourly RU/EN paid buyer scan is not available. Trigger existing workflow once via approved recovery push path to refresh lead_discovery, analytics, inbox and replies_to_own_replies. Odd local hour: retain 16h verified external_trends; do not claim fresh even-hour trend scan. No original posting at 17h (outside 08-12/19-23), no duplicate mentions/replies or public_post_pk as official media ID; preserve 19:20 agency post and signed state, no Egor stories, Brandi Flo or other channels.
+2026-11-02T16:42:00Z — recovery for missed 18:00 Asia/Jerusalem deep review; no post requested; trigger existing workflow.
