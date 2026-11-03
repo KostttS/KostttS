@@ -200,8 +200,10 @@ def should_publish_scheduled(state: dict[str, Any], now: datetime) -> tuple[bool
     today = now.date().isoformat()
     if now.weekday() not in PUBLISH_WEEKDAYS:
         return False, "Today is not a publishing day."
-    if now.hour != PUBLISH_HOUR:
-        return False, f"The local publishing hour is {PUBLISH_HOUR:02d}:00."
+    # Scheduled GitHub Actions jobs may start hours late; do not require an exact hour.
+    # The daily state guard below still prevents duplicate publications.
+    if now.hour < PUBLISH_HOUR:
+        return False, f"The local publishing window opens at {PUBLISH_HOUR:02d}:00."
     if state.get("last_publish_date") == today:
         return False, "A post has already been published today."
     return True, "Scheduled publishing window is open."
