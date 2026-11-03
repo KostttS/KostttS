@@ -268,3 +268,6 @@ Reason: last completed Threads Publisher run #41530737835 at 21:45Z (02 Nov 23:4
 
 Recovery monitoring trigger: 2026-11-03T00:41:26Z
 Reason: as of 02:41 Asia/Jerusalem the most recent Threads Publisher workflow run completed at 2026-11-02T23:45Z (01:45 local); no 02h deep-trend scan yet despite scheduled cron. Run queue, hourly buyer hunt, official inbox and analytics, and 02h bounded external trends; enforce original-post windows 08–12/19–23 local, dedupe all replies, no guessed Threads media IDs, no queue edits.
+
+Recovery request 2026-11-03T11:38:00Z
+Reason: latest successful Threads Publisher run ended 2026-11-03T08:40Z, no runs for ~3 hours despite 7,22,37,52 cron. Trigger queue-safe analytics/inbox/lead_discovery refresh at 13:38 Asia/Jerusalem; do not publish original post outside 08-12 or 19-23 local; avoid duplicates.
