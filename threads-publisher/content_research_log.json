@@ -3,111 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-01T02:40:13.734Z",
-      "local_slot": "2026-11-01 04:00 Asia/Jerusalem",
-      "type": "recovered_artifact_addendum",
-      "source_cutoffs": {
-        "recovery_workflow_run": "41265906900",
-        "recovery_commit": "99639796f4786bd84683d100c343e2dc6c0c4b96",
-        "artifact_updated_at": "2026-11-01T02:39:41Z",
-        "external_trends": "2026-11-01T02:38:20Z",
-        "lead_discovery": "2026-11-01T02:36:36Z",
-        "threads_analytics_and_inbox": "2026-11-01T02:39:33Z",
-        "instagram_metricool": "2026-11-01 04h local"
-      },
-      "source_status": {
-        "workflow": "Recovery push workflow completed successfully; artifact downloaded and inspected. 04h external sample is verified, not skipped.",
-        "external": "97 unique external Threads posts from 24 public search pages; bounded sample, not all Threads. External views null means unavailable.",
-        "lead_hunt": "28 public pages, 4 known candidates, 0 new, 1 possible bike-taxi MVP with unverified funding. Flutter internship, Qatar employment vacancy and deferred-payment offer excluded.",
-        "official_keyword_search": "0 results including control; no confirmed external media ID; no invalid PK reply attempted.",
-        "inbox": "0 mentions (scope unavailable), 2 known replies to own recent posts and 6 historical replies to own replies, no new confirmed commercial contact.",
-        "instagram": "Metricool latest 28 Oct post 7 views, reach 5, 3 interactions, 1 comment; Instagram Direct unavailable; competitor post metrics unavailable."
-      },
-      "own_threads": {
-        "release_blocker": {
-          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-          "views": 29,
-          "replies": 0
-        },
-        "agency_booking": {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "views": 42,
-          "likes": 3,
-          "replies": 2
-        },
-        "payment_webhook": {
-          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
-          "views": 36,
-          "replies": 1
-        },
-        "profile_link_clicks": 0,
-        "confirmed_commercial_leads": 0
-      },
-      "external_threads": [
-        {
-          "url": "https://www.threads.com/@zhanelya.almazova/post/DfKbrPdiHG0",
-          "author": "zhanelya.almazova",
-          "likes": 44,
-          "replies": 88,
-          "reposts": 0,
-          "views": null,
-          "growth": {
-            "elapsed_hours": 9.95,
-            "likes_delta": 38,
-            "replies_delta": 67
-          },
-          "mechanism": "Specific 4m KZT business-startup question invites competing advice; business discussion but no mobile-development brief."
-        },
-        {
-          "url": "https://www.threads.com/@yeraliyeva08/post/DfJ6-Y8ETWk",
-          "author": "yeraliyeva08",
-          "likes": 237,
-          "replies": 81,
-          "reposts": 4,
-          "views": null,
-          "growth": {
-            "elapsed_hours": 9.95,
-            "likes_delta": 99,
-            "replies_delta": 23,
-            "reposts_delta": 2
-          },
-          "mechanism": "Specific new boutique-hotel opening, local relevance and founder story; audience interest not evidence of app budget."
-        },
-        {
-          "url": "https://www.threads.com/@ranjeni_0127/post/DfKfh9SGeVW",
-          "author": "ranjeni_0127",
-          "likes": 101,
-          "replies": 53,
-          "reposts": 6,
-          "views": null,
-          "mechanism": "Concrete service failure with named brand and time lost; high emotion, not software procurement."
-        },
-        {
-          "url": "https://www.threads.com/@testingcatalog/post/DfKvxDojRSt",
-          "author": "testingcatalog",
-          "likes": 50,
-          "replies": 8,
-          "reposts": 4,
-          "views": null,
-          "growth": {
-            "elapsed_hours": 1.87,
-            "likes_delta": 8,
-            "replies_delta": 2,
-            "reposts_delta": 1
-          },
-          "mechanism": "Specific iOS/Android beta announcement invites testing; app audience, not confirmed paying customer."
-        }
-      ],
-      "decision": {
-        "scale": "Concrete buyer pain, narrowly scoped MVP and explicit funded-project CTA; do not conflate engagement with paid leads.",
-        "remove": "Avoid generic viral topics, personal stories and non-funded project proposals.",
-        "test": "09:20 local buyer-focused post remains queued, not yet published; measure conversion after publication.",
-        "queue_changed": false,
-        "reply_sent": false,
-        "reason": "No newly verified buyer or media ID; existing queue already fits scope."
-      }
-    },
-    {
       "checked_at": "2026-11-01T04:36:00Z",
       "local_slot": "2026-11-01 06:00 Asia/Jerusalem",
       "type": "two_hour_deep_review",
@@ -4674,6 +4569,74 @@
         "active_buyer_dialogues": 0,
         "paid_orders": 0,
         "limitation": "No official verified media ID for public lead replies; no new paid buyer found. External views unavailable; bounded sample."
+      }
+    },
+    {
+      "checked_at": "2026-11-04T00:42:46Z",
+      "local_slot": "2026-11-04 02:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "runtime": "2026-11-03T21:57:01Z",
+        "runtime_run_id": "41726075927",
+        "external_trends": "skipped; last scan 2026-11-03T16:31:32Z; previous complete artifact not downloaded this run",
+        "lead_discovery": "2026-11-03T21:55:03Z",
+        "instagram_metricool": "2026-11-04 02:42 local"
+      },
+      "source_status": {
+        "external": "Current artifact skipped; no verified fresh external top posts available for this slot; no fabricated competitor metrics.",
+        "lead_hunt": "28 public pages, 3 known candidates, 0 new; Flutter job hiring contact only, not a verified paid project procurement.",
+        "official_api": "No verified external threads_media ID; no public PK replies attempted.",
+        "inbox": "2 historical replies to own posts (Oct 29/30), 6 historical replies to own replies; no verified new buyer conversation."
+      },
+      "own_threads": {
+        "nov_3_viral": {
+          "url": "https://www.threads.com/@konstantin47209/post/DfRd_r8latE",
+          "views": 1,
+          "replies": 0
+        },
+        "nov_2_agency": {
+          "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
+          "views": 30,
+          "replies": 0
+        },
+        "nov_2_viral": {
+          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
+          "views": 7,
+          "replies": 0
+        },
+        "profile_clicks": 0
+      },
+      "instagram": [
+        {
+          "date": "2026-11-02",
+          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+          "views": 14,
+          "reach": 6,
+          "interactions": 0,
+          "comments": 0,
+          "follows": 0
+        },
+        {
+          "date": "2026-10-28",
+          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+          "views": 11,
+          "reach": 6,
+          "interactions": 3,
+          "comments": 1,
+          "follows": 0
+        }
+      ],
+      "external_threads": [],
+      "decision": {
+        "scale": "Keep measurable agency buyer task as conversion experiment, but no qualified leads yet.",
+        "remove": "Do not scale generic viral questions: Nov 3 1 view, Nov 2 7 views; small samples.",
+        "test": "Different broad hook and specific agency conversion CTA in future slots only after fresh comparison.",
+        "queue_changed": false,
+        "reason": "External comparative evidence missing; publishing window closed at 02h; no verified new commercial contact.",
+        "messages_sent_confirmed": 0,
+        "new_buyer_replies_confirmed": 0,
+        "active_negotiations_confirmed": 0,
+        "paid_orders_confirmed": 0
       }
     }
   ]
