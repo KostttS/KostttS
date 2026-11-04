@@ -3,145 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-01T04:42:00Z",
-      "local_slot": "2026-11-01 06:00 Asia/Jerusalem",
-      "type": "recovered_artifact_addendum",
-      "source_cutoffs": {
-        "recovery_workflow_run": "41273812848",
-        "recovery_commit": "167b0d08899ea49bca7061980a4eebe34973f80b",
-        "artifact_updated_at": "2026-11-01T04:41:40Z",
-        "external_trends": "2026-11-01T04:40:00Z",
-        "lead_discovery": "2026-11-01T04:37:29Z",
-        "threads_analytics_inbox": "2026-11-01T04:41:28Z",
-        "instagram_metricool": "2026-11-01 06:35 local"
-      },
-      "source_status": {
-        "workflow": "Recovery push run completed successfully; full 06h runtime artifact downloaded and inspected.",
-        "external": "100 verified unique public Threads posts from 24 public search pages; bounded sample, not all Threads. 0 HTTP 403/429; public views null means unavailable.",
-        "lead_hunt": "28 pages, 3 known candidates, 0 newly discovered, 1 possible Flutter Android bike-taxi MVP with unverified funding. Internship and Qatar employee job excluded.",
-        "official_keyword_search": "0 results including ChatGPT control; official public search not verified. 0 confirmed external media IDs. No invalid public PK reply attempted.",
-        "inbox": "Two known replies on recent posts (kurosolutions, nastya.kov177); no new confirmed commercial inquiry. Mentions scope unavailable.",
-        "instagram": "Metricool three latest posts: 7/9/6 views, 5/6/5 reach, 3/1/1 interactions; Instagram Direct unavailable.",
-        "instagram_competitors": "Metricool competitor post analytics returned [] for Oct30-Nov1; alternative public search did not produce verified Instagram competitor post metrics.",
-        "public_web_fallback": "TinyFish and web RU/EN searches produced no newly verified paid mobile-app brief; cannot conclude none exist."
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-          "views": 29,
-          "likes": 0,
-          "replies": 0,
-          "published_at": "2026-10-31T07:44:14Z"
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "views": 42,
-          "likes": 3,
-          "replies": 2,
-          "published_at": "2026-10-30T06:39:13Z"
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
-          "views": 38,
-          "likes": 0,
-          "replies": 1,
-          "published_at": "2026-10-29T17:36:08Z"
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
-          "views": 9,
-          "likes": 0,
-          "replies": 0,
-          "published_at": "2026-10-30T17:40:27Z"
-        }
-      ],
-      "own_threads_account": {
-        "followers": 6,
-        "profile_link_clicks": 0,
-        "confirmed_commercial_leads": 0
-      },
-      "external_threads": [
-        {
-          "url": "https://www.threads.com/@trineev_ru/post/DfLI9IxkYZ4",
-          "author": "trineev_ru",
-          "published_at": "2026-10-31T21:37:49Z",
-          "age_hours": 7,
-          "likes": 3,
-          "replies": 11,
-          "reposts": 0,
-          "views": null,
-          "growth": {
-            "elapsed_hours": 3.9,
-            "replies_delta": 1
-          },
-          "mechanism": "B2B startup founder contrasts product-building vs customer acquisition; sharp conflict and failure lesson. Adapt as business workflow question, never claim founder's experience as Konstantin's."
-        },
-        {
-          "url": "https://www.threads.com/@elviramukhametzhar/post/DfJt1OCkb9X",
-          "author": "elviramukhametzhar",
-          "published_at": "2026-10-31T08:21:34Z",
-          "age_hours": 20.3,
-          "likes": 52,
-          "replies": 18,
-          "reposts": 8,
-          "views": null,
-          "growth": {
-            "elapsed_hours": 2.03,
-            "likes_delta": 3,
-            "replies_delta": 1
-          },
-          "mechanism": "Revenue vs real profit tension, specific business metrics; useful hook for owner-focused order/expense workflow but not an app order."
-        },
-        {
-          "url": "https://www.threads.com/@testingcatalog/post/DfKvxDojRSt",
-          "author": "testingcatalog",
-          "published_at": "2026-10-31T17:57:42Z",
-          "age_hours": 10.7,
-          "likes": 55,
-          "replies": 8,
-          "reposts": 4,
-          "views": null,
-          "growth": {
-            "elapsed_hours": 2.03,
-            "likes_delta": 5,
-            "replies_delta": 0
-          },
-          "mechanism": "Concrete iOS/Android beta and call to test; audience of app testers, not confirmed buyers."
-        },
-        {
-          "url": "https://www.threads.com/@mellowbrandstudio/post/De8SUciGaAa",
-          "author": "mellowbrandstudio",
-          "published_at": "2026-10-26T03:11:02Z",
-          "age_hours": 145.5,
-          "likes": 45,
-          "replies": 65,
-          "reposts": 0,
-          "views": null,
-          "growth": {
-            "elapsed_hours": 2.03,
-            "likes_delta": 0,
-            "replies_delta": 0
-          },
-          "mechanism": "Actual explicit Flutter Android bike-taxi MVP with driver/rider/admin requirements and portfolio request; budget unverified; previously mentioned once, no confirmed delivery."
-        }
-      ],
-      "lead_hunt": {
-        "new_confirmed_paid_projects": 0,
-        "new_confirmed_contacts": 0,
-        "paid_orders": 0,
-        "existing_bike_taxi_budget_unverified": true,
-        "verified_api_media_ids": 0
-      },
-      "decision": {
-        "scale": "Use precise client workflow, real pain, narrow MVP scope, explicit paid-project CTA; no proof of conversion from views.",
-        "remove": "Avoid unrelated high-like viral topics, repeated mentions and unsupported biographies.",
-        "test": "Retain 09:20 local order/expense buyer post; verify publication after the window and compare age-adjusted qualified inquiries.",
-        "queue_changed": false,
-        "reply_sent": false,
-        "reason": "No new qualified funded buyer and no official media ID; no evidence justifies rewriting queue or contacting existing leads again."
-      }
-    },
-    {
       "checked_at": "2026-11-01T06:40:32.294Z",
       "local_analysis_slot": "2026-11-01 08:00 Asia/Jerusalem",
       "type": "two_hour_deep_review",
@@ -4568,6 +4429,107 @@
         "active_negotiations_confirmed": 0,
         "paid_orders_confirmed": 0
       }
+    },
+    {
+      "checked_at": "2026-11-04T08:42:56+02:00",
+      "source_artifact": "threads-runtime-41758575243-1",
+      "source_generated_at": "2026-11-04T04:10:05+02:00",
+      "source_freshness": "4h33m old; runtime_pointer unchanged, not a current 08:00 snapshot",
+      "own_threads": {
+        "followers": 6,
+        "link_clicks": 0,
+        "posts": [
+          {
+            "url": "https://www.threads.com/@konstantin47209/post/DfRd_r8latE",
+            "published_at": "2026-11-03T10:37:11+02:00",
+            "views": 1,
+            "replies": 0
+          },
+          {
+            "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
+            "published_at": "2026-11-02T19:47:33+02:00",
+            "views": 30,
+            "replies": 0
+          },
+          {
+            "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
+            "published_at": "2026-11-02T08:45:23+02:00",
+            "views": 7,
+            "replies": 0
+          }
+        ]
+      },
+      "instagram": {
+        "source": "Metricool 2026-11-04 08:42 local",
+        "posts": [
+          {
+            "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+            "published_at": "2026-11-02T07:21:04",
+            "views": 14,
+            "reach": 6,
+            "interactions": 0,
+            "comments": 0
+          },
+          {
+            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+            "published_at": "2026-10-28T17:46:21",
+            "views": 11,
+            "reach": 6,
+            "interactions": 3,
+            "comments": 1
+          }
+        ],
+        "pending_error": "2026-11-03 CableMap post ERROR Media container not created by unknown cause"
+      },
+      "external_threads": {
+        "sample_size": 94,
+        "sample_checked_at": "2026-11-04T04:08:50+02:00",
+        "posts": [
+          {
+            "url": "https://www.threads.com/@bake3970/post/DfSWlUAjqBH",
+            "likes": 287,
+            "replies": 172,
+            "reposts": 4,
+            "views": null,
+            "mechanism": "Specific monetary loss and unresolved dispute; strong public accountability conflict; not suitable for imitation as personal experience."
+          },
+          {
+            "url": "https://www.threads.com/@zyrradee/post/DfROZ0ogXO3",
+            "likes": 574,
+            "replies": 8,
+            "reposts": 210,
+            "views": null,
+            "mechanism": "Customer-service emotional tension and two-sided fairness; adaptable to business process friction without fabricated biography."
+          },
+          {
+            "url": "https://www.threads.com/@vishnyaspelayaaaaaaaaa/post/DfSo6NpjrYN",
+            "likes": 229,
+            "replies": 58,
+            "reposts": 0,
+            "views": null,
+            "mechanism": "Personal financial distress, high engagement but unsuitable for B2B lead strategy."
+          }
+        ],
+        "growth": "unavailable for these posts"
+      },
+      "lead_hunt": {
+        "unique_candidates": 2,
+        "new_candidates": 0,
+        "confirmed_api_media_ids": 0,
+        "qualified_paid_project_candidates": 0,
+        "blocked_no_valid_reply_id": 2
+      },
+      "decision": {
+        "scale": "Test service-friction contrasts connected to concrete business automation, not unqualified virality.",
+        "remove": "Do not copy personal distress stories or treat job/intern ads as paid projects.",
+        "test": "Short problem-first posts for agency/mobile handoff with explicit funded-project CTA.",
+        "queue_changed": false,
+        "reason": "No current 08:00 artifact and no evidence of lead conversion; avoid unmeasured queue edits."
+      },
+      "messages_sent_confirmed": 0,
+      "new_buyer_replies_confirmed": 0,
+      "active_negotiations_confirmed": 0,
+      "paid_orders_confirmed": 0
     }
   ]
 }
