@@ -221,9 +221,10 @@
     "threads-2026-11-01-buyer-order-expense-scope",
     "threads-2026-11-01-hero-time-vs-salary",
     "threads-2026-11-02-agency-mobile-handoff",
-    "threads-2026-11-03-hero-hidden-fees"
+    "threads-2026-11-03-hero-hidden-fees",
+    "threads-2026-11-04-hero-subscription-choice"
   ],
-  "last_run_at": "2026-11-03T08:37:14.721634+00:00",
+  "last_run_at": "2026-11-04T09:02:08.806662+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -307,11 +308,11 @@
     "reply-2026-10-24-shalom-hummus",
     "reply-2026-10-30-kurosolutions-booking-sync"
   ],
-  "last_discovery_at": "2026-11-04T02:08:05.367420+00:00",
+  "last_discovery_at": "2026-11-04T09:03:16.645126+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "41758575243",
+  "last_discovery_run_id": "41804098107",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-41758575243-1",
+  "last_discovery_artifact_name": "threads-runtime-41804098107-1",
   "failed_reply_ids": {
     "reply-2026-10-29-bike-taxi-mvp": {
       "reply_to_id": "4016165537571250202",
