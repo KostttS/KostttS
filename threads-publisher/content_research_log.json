@@ -3,135 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-01T20:35:00Z",
-      "local_analysis_slot": "2026-11-01 22:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_with_21h_runtime_and_live_external_public",
-      "source_cutoffs": {
-        "threads_analytics": "2026-11-01T19:41:52Z",
-        "threads_inbox": "2026-11-01T19:41:52Z",
-        "buyer_hunt": "2026-11-01T19:06:27Z",
-        "public_trends_artifact": "2026-11-01T14:24:16Z (last full, current status skipped)",
-        "public_threads": "2026-11-01 22:34 Asia/Jerusalem fresh public fetch",
-        "instagram_metricool": "2026-11-01 22:34 Asia/Jerusalem"
-      },
-      "sources": {
-        "github_run": "https://github.com/KostttS/KostttS/actions/runs/41343024462",
-        "artifact": "threads-runtime-41343024462-1",
-        "external_trends": "latest status skipped; last verified full artifact run 41315881067 at 16h, 93 unique posts from 23 requested public pages; not full Threads",
-        "lead_discovery": "21h full artifact run 41340009889, 28 pages, 2 known candidates, 0 new, 1 non-disqualified; latest 21:42 artifact status already_scanned_this_local_hour",
-        "instagram_competitors": "No fresh verified post-level competitor data",
-        "alternative_search": "TinyFish RU/EN public web search found two previously unregistered but OLD posts: @dezignora Aug 17 Flutter Android-to-iOS release (76 days old, no budget), @prince_verma__pxh Sep 14 claimed paid client app projects (48 days old, scope/active status unverified), plus older July 31 YCLIENTS web-app request. These are not new active paid leads."
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfMLtG2EbzF",
-          "published_at": "2026-11-01T07:21:10Z",
-          "age_hours_at_snapshot": 12.34,
-          "views": 6,
-          "replies": 0,
-          "likes": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-          "published_at": "2026-10-31T07:44:14Z",
-          "age_hours_at_snapshot": 35.96,
-          "views": 29,
-          "replies": 0,
-          "likes": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "published_at": "2026-10-30T06:39:13Z",
-          "age_hours_at_snapshot": 61.04,
-          "views": 42,
-          "replies": 2,
-          "likes": 3
-        }
-      ],
-      "own_threads_profile": {
-        "followers": 6,
-        "account_clicks_aggregate": 0,
-        "inbox_new_buyer_contacts_verified": 0,
-        "hero_2026_11_01_1945_utc": "queued in posts.json; not in state.published_ids and absent from public profile at 22:34 local; cannot claim published"
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "published_at": "2026-10-28T17:46:21+02:00",
-          "reach": 5,
-          "interactions": 3,
-          "comments": 1,
-          "likes": 2
-        },
-        {
-          "url": "https://www.instagram.com/p/De8zuFCCom7/",
-          "published_at": "2026-10-26T08:03:36+02:00",
-          "reach": 6,
-          "interactions": 1
-        },
-        {
-          "url": "https://www.instagram.com/p/De6O4A4CP7N/",
-          "published_at": "2026-10-25T08:03:09+02:00",
-          "reach": 5,
-          "interactions": 1
-        }
-      ],
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@daria_balabueva/post/DfKmxj5iWDv",
-          "published_at": "2026-10-31T16:39:08Z",
-          "views_public_rounded": "334K",
-          "likes_public_rounded": "1.6K",
-          "replies": 245,
-          "reposts": 18,
-          "growth_since_approx_20h": "+4K views, +4 replies",
-          "mechanism": "Single short relatable money question; mass reach but no demonstrated paid app buyer conversion"
-        },
-        {
-          "url": "https://www.threads.com/@beauty_ds_akvarel/post/DfMQQJViGNy",
-          "published_at": "2026-11-01T08:00:49Z",
-          "views_public_rounded": "1.9K",
-          "likes": 31,
-          "replies": 67,
-          "reposts": 1,
-          "growth_since_approx_20h": "+200 views, +4 replies",
-          "mechanism": "Low-friction entrepreneur networking question; can adapt with a specific business workflow qualification"
-        },
-        {
-          "url": "https://www.threads.com/@duchan.jo/post/DfL_0CrD3kB",
-          "published_at": "2026-11-01T05:37:29Z",
-          "views_public_rounded": "13.4K",
-          "likes": 195,
-          "replies": 6,
-          "reposts": 24,
-          "growth_since_approx_20h": "+600 views, +9 likes, +4 reposts",
-          "mechanism": "Specific technical benefit and external proof; developer audience, buyer value unproven"
-        }
-      ],
-      "lead_status": {
-        "last_hunt_checked_pages": 28,
-        "existing_candidates": 2,
-        "new_candidates": 0,
-        "potential_funded": "mellowbrandstudio bike taxi Android Flutter MVP; budget unverified; own @mention already posted and contact unconfirmed",
-        "disqualified": "pixxiebubbles82 unpaid until profit",
-        "new_confirmed_paid_contacts": 0,
-        "verified_official_buyer_media_ids": 0,
-        "contacts_sent_this_run": 0,
-        "newly_registered_stale_research_candidates": 2,
-        "stale_research_candidates": [
-          "https://www.threads.com/@dezignora/post/DcJVquwEx5a",
-          "https://www.threads.com/@prince_verma__pxh/post/DdQxVp0Dy9Q"
-        ]
-      },
-      "decisions": {
-        "scale": "Test distinct 50% viral/30% commercial/20% direct buyer mix over 10 posts; monitor profile visits, buyer contacts and revenue",
-        "remove": "Generic long text posts with no responses as default; do not confuse broad viral money discussion with paid client demand",
-        "test": "One queued viral binary salary-vs-time HERO, compare first 2/12/24h with own commercial posts; publish only through existing GitHub workflow",
-        "action": "No new queue edits: 21:45 viral HERO remains unpublished in GitHub state at 22:34, next scheduled job should be checked before adding another. Metricool Threads erroneous post is ERROR authentication failure, not published; Instagram scheduled queue empty. Two older buyer-style leads were recorded in public_lead_candidates.json as stale research only, no contact sent.",
-        "limitation": "No current 22h GitHub runtime artifact; latest 21:42 local. Public Threads external sample is bounded; Instagram competitor posts unavailable; buyer DM not verifiable without valid official API media IDs."
-      }
-    },
-    {
       "checked_at": "2026-11-01T22:35:44Z",
       "local_analysis_slot": "2026-11-02 00:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis_with_23h_runtime_and_live_external",
@@ -3746,6 +3617,38 @@
         "test": "buyer-oriented content and restore current two-hour trend collection",
         "action": "No content queue change; no API-confirmed replies",
         "limitations": "No current verified external comparison; API reply IDs absent"
+      }
+    },
+    {
+      "checked_at": "2026-11-05T18:39:04Z",
+      "local_analysis_slot": "2026-11-05 20:00 Asia/Jerusalem",
+      "type": "partial_deep_review_source_limitation",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-05T17:58:50Z, run 42079511644; artifact exists but content not decoded via available connector",
+        "lead_hunt_state": "2026-11-05T17:56:59Z",
+        "public_trends_last_full": "2026-11-05T02:45:03Z",
+        "instagram_metricool": "2026-11-05 20:39 Asia/Jerusalem"
+      },
+      "own_instagram": [
+        {
+          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+          "published_at": "2026-11-02T07:21:04 (Metricool timestamp without explicit timezone)",
+          "reach": 6,
+          "views": 14,
+          "comments": 0,
+          "interactions": 0,
+          "follows": 0
+        }
+      ],
+      "own_threads": "unavailable: artifact ZIP contents not decoded; no fabricated numbers",
+      "external_posts": "unavailable fresh verified comparison; alternative public web search returned no matching results",
+      "buyer_contacts": "unverified: no artifact inbox available",
+      "decisions": {
+        "scale": "none without comparable evidence",
+        "remove": "none without comparable evidence",
+        "test": "no new post or reply queued",
+        "action": "Preserved existing queue; no duplicate contacts. Telegram queue 9 unpublished of 18; defer addition to daytime daily review.",
+        "limitation": "Deep comparison incomplete because runtime artifact content inaccessible through GitHub connector result; public search found no verified posts. No claims of delivered replies."
       }
     }
   ]
