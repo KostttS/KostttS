@@ -3,55 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-01T18:40:00Z",
-      "local_analysis_slot": "2026-11-01 20:00 Asia/Jerusalem (late review)",
-      "type": "deep_comparative_analysis_limited_fresh_public",
-      "source_cutoffs": {
-        "github_runtime_pointer": "2026-11-01T17:45:37Z",
-        "public_threads": "live TinyFish page fetch at review",
-        "own_threads": "last verified prior snapshot; no current artifact",
-        "instagram": "prior verified Metricool snapshot"
-      },
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@duchan.jo/post/DfL_0CrD3kB",
-          "views_public_rounded": "12.8K",
-          "likes": 186,
-          "replies": 6,
-          "reposts": 20,
-          "mechanism": "Concrete mobile testing tool + Github social proof; developer audience, not verified buyers"
-        },
-        {
-          "url": "https://www.threads.com/@beauty_ds_akvarel/post/DfMQQJViGNy",
-          "views_public_rounded": "1.7K",
-          "likes": 30,
-          "replies": 63,
-          "reposts": 1,
-          "mechanism": "Low friction entrepreneur question; adapt to qualified workflow problems"
-        },
-        {
-          "url": "https://www.threads.com/@daria_balabueva/post/DfKmxj5iWDv",
-          "views_public_rounded": "330K",
-          "likes_public_rounded": "1.6K",
-          "replies": 241,
-          "reposts": 18,
-          "mechanism": "Broad money question; viral but low buyer qualification"
-        }
-      ],
-      "own_threads": {
-        "last_known_buyer_post_views": 6,
-        "last_known_agency_post_views": 42,
-        "current_snapshot": "unavailable"
-      },
-      "decision": {
-        "scale": "Verified specific proof/case studies and entrepreneur questions with buyer qualification",
-        "remove": "Generic broad nonbuyer questions as conversion strategy",
-        "test": "A single buyer-oriented prompt and real app demonstration, compare responses and qualified contacts",
-        "action": "No further post scheduled through GitHub during this analysis; Metricool Threads post separately scheduled for 21:05 and pending; avoid duplicate",
-        "limitation": "Latest full runtime artifact and current inbox not fetched; bounded public sample; no verified new paid contacts"
-      }
-    },
-    {
       "checked_at": "2026-11-01T18:35:00Z",
       "local_analysis_slot": "2026-11-01 20:00 Asia/Jerusalem",
       "type": "two_hour_deep_review_with_stale_runtime_and_live_public_fallback",
@@ -3895,6 +3846,38 @@
         "test": "Check commercial reply delivery after verified API IDs; prioritize direct qualified buyer opportunities",
         "queue_changed": false,
         "reason": "No fresh external comparable metrics or newly qualified contact"
+      }
+    },
+    {
+      "checked_at": "2026-11-05T08:34:20Z",
+      "local_analysis_slot": "2026-11-05 10:00 Asia/Jerusalem",
+      "type": "deep_review_limited_sources",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-05T02:46:51Z",
+        "threads_lead_scan": "2026-11-05T02:42:37Z",
+        "instagram_metricool": "2026-11-05T08:34Z"
+      },
+      "own_threads": {
+        "fresh_analytics": "unavailable; runtime pointer stale ~5h48m",
+        "inbox": "unavailable"
+      },
+      "instagram": {
+        "last_post": "2026-11-02 07:21:04",
+        "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+        "reach": 6,
+        "views": 14,
+        "interactions": 0,
+        "comments": 0,
+        "new_follows": 0
+      },
+      "external_posts": "explicitly unavailable; alternate public web search returned no verifiable posts",
+      "lead_contacts": "unverified due stale Threads artifact",
+      "decision": {
+        "scale": "none without fresh comparable evidence",
+        "remove": "none",
+        "test": "restore Threads runtime collection; prioritize verified buyer replies",
+        "action": "No content changes; Instagram schedule empty; no confirmed reply IDs",
+        "limitation": "Cannot substantiate external 3-post comparison or current Threads inbox"
       }
     }
   ]
