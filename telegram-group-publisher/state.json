@@ -9,7 +9,8 @@
     "firebase-or-supabase",
     "rest-api-integration",
     "mobile-payments",
-    "geolocation-services"
+    "geolocation-services",
+    "useful-push-notifications"
   ],
   "history": [
     {
@@ -119,7 +120,19 @@
       "pin_error": null,
       "unpinned_message_id": null,
       "unpin_error": null
+    },
+    {
+      "post_id": "useful-push-notifications",
+      "message_id": 367,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-11-06T20:57:39.672278+02:00",
+      "caption_sha256": "7c2e6d03c89bddf67383e7265867b7b3f2de59084cf7eb815ce6a695c0de8713",
+      "pinned": false,
+      "pin_error": null,
+      "unpinned_message_id": null,
+      "unpin_error": null
     }
   ],
-  "last_publish_date": "2026-11-05"
+  "last_publish_date": "2026-11-06"
 }
