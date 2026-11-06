@@ -3,171 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-02T04:46:00Z",
-      "local_analysis_slot": "2026-11-02 06:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_fresh_06h_artifact_plus_live_public_posts",
-      "source_cutoffs": {
-        "threads_analytics": "2026-11-02T04:45:00Z",
-        "threads_inbox": "2026-11-02T04:45:00Z",
-        "buyer_hunt": "2026-11-02T04:42:17Z",
-        "external_trends": "2026-11-02T04:43:54Z",
-        "instagram_metricool": "2026-11-02 approx 06:42 local",
-        "live_public_threads": "2026-11-02 approx 06:44 local"
-      },
-      "sources": {
-        "github_run": "https://github.com/KostttS/KostttS/actions/runs/41389925205",
-        "artifact": "threads-runtime-41389925205-1",
-        "external_trends": {
-          "status": "verified_public_sample",
-          "unique_posts": 87,
-          "search_pages": 24,
-          "pages_with_posts": 20,
-          "high_engagement_candidates": 23,
-          "views_null": "unavailable in artifact, not zero"
-        },
-        "buyer_hunt": {
-          "status": "public_lead_candidates_found",
-          "pages_checked": 28,
-          "candidates": 1,
-          "new_candidates": 0,
-          "candidates_without_obvious_disqualifiers": 0
-        },
-        "discovery_api": "Official keyword search not verified; do not infer absence of buyers from zero results",
-        "alternative_search": "Web three Threads-targeted EN/RU queries plus TinyFish two date-filtered buyer searches returned zero fresh indexed direct mobile-app buyers; public indexing is incomplete",
-        "instagram_competitor_posts": "No verified current competitor-level metrics"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfMLtG2EbzF",
-          "published_at": "2026-11-01T07:21:10Z",
-          "age_hours_at_snapshot": 21.4,
-          "views": 6,
-          "replies": 0,
-          "likes": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-          "published_at": "2026-10-31T07:44:14Z",
-          "age_hours_at_snapshot": 45,
-          "views": 29,
-          "replies": 0,
-          "likes": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfII_MuIC49",
-          "published_at": "2026-10-30T17:40:27Z",
-          "views": 9,
-          "replies": 0,
-          "likes": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "published_at": "2026-10-30T06:39:13Z",
-          "views": 44,
-          "replies": 2,
-          "likes": 3
-        }
-      ],
-      "own_threads_profile": {
-        "followers": 6,
-        "link_clicks": 0,
-        "confirmed_new_paid_contacts": 0
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "date": "2026-10-28",
-          "views": 8,
-          "reach": 5,
-          "interactions": 2,
-          "comments": 1
-        },
-        {
-          "url": "https://www.instagram.com/p/De8zuFCCom7/",
-          "date": "2026-10-26",
-          "views": 9,
-          "reach": 6,
-          "interactions": 1,
-          "comments": 0
-        },
-        {
-          "url": "https://www.instagram.com/p/De6O4A4CP7N/",
-          "date": "2026-10-25",
-          "views": 6,
-          "reach": 5,
-          "interactions": 1,
-          "comments": 0
-        }
-      ],
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@biologyinbloom/post/DfE-PoDoSk6",
-          "published_at": "2026-10-29T12:08:46Z",
-          "live_views_approx": 188000,
-          "artifact_likes": 15815,
-          "artifact_replies": 505,
-          "artifact_reposts": 1414,
-          "mechanism": "Controversial value choice about ambition, broad identity and social debate; large audience but unrelated to paid mobile projects"
-        },
-        {
-          "url": "https://www.threads.com/@digitalwithtrish/post/DfNAe5SFmCC",
-          "published_at": "2026-11-01T15:02:15Z",
-          "live_views_approx": 20900,
-          "artifact_likes": 2520,
-          "artifact_replies": 76,
-          "artifact_reposts": 290,
-          "mechanism": "One-line strong opinion about repaying debts and direct argument invitation; mass reach not buyer signal"
-        },
-        {
-          "url": "https://www.threads.com/@edu195study/post/DfLtSPqFNFK",
-          "published_at": "2026-11-01T02:55:16Z",
-          "live_views_approx": 16800,
-          "live_likes": 374,
-          "live_replies": 14,
-          "mechanism": "Actual app launch and concrete user value; credible business proof, not a hiring post"
-        },
-        {
-          "url": "https://www.threads.com/@duchan.jo/post/DfL_0CrD3kB",
-          "published_at": "2026-11-01T05:37:29Z",
-          "live_views_approx": 14700,
-          "live_likes": 219,
-          "live_replies": 8,
-          "artifact_growth_over_14h": {
-            "likes_delta": 124,
-            "replies_delta": 3,
-            "reposts_delta": 13
-          },
-          "mechanism": "Specific app testing product, concrete feature and GitHub star milestone; professional engagement but no buyer confirmed"
-        },
-        {
-          "url": "https://www.threads.com/@aristoslavus/post/DfL4UkpidHo",
-          "published_at": "2026-11-01T04:31:42Z",
-          "live_views_approx": 6400,
-          "live_likes": 77,
-          "live_replies": 131,
-          "mechanism": "Founder credibility plus open self-introduction prompt; more relevant founder audience but not necessarily mobile buyers"
-        }
-      ],
-      "lead_status": {
-        "fresh_buyer_scan_pages": 28,
-        "unique_candidates": 1,
-        "new_candidates": 0,
-        "excluded_candidate": "bilvaleaf Flutter internship, not client brief",
-        "verified_api_media_ids": 0,
-        "confirmed_paid_contacts": 0,
-        "confirmed_paid_orders": 0,
-        "inbox": "No new business reply in available inbox; mentions_scope_available=false; old replies exist",
-        "reply_attempts": 0
-      },
-      "decision": {
-        "scale": "Use verifiable app outcomes and founder-level business questions in future commercial experiments, not unrelated mass controversy",
-        "remove": "Do not count job ads, pay-to-unlock intermediary posts, or developer-only attention as paid buyers; no repeated @mentions or personal stories",
-        "test": "Keep one scheduled broad HERO 08:45 local as isolated 50/30/20 reach test; compare after 2/12/24h to direct business posts on views, profile traffic and qualified enquiries",
-        "action": "Triggered and verified successful recovery run #41389925205 for missing 06h scan; saved evidence; no posts or replies at 06:46 outside publishing hours; no queue edits; no confirmed buyer ID",
-        "limitations": "External public HTML sample 87 posts /24 pages is not all Threads. Official discovery permission not verified; public post PK invalid as reply media ID. No current Instagram competitor evidence. TinyFish direct public pages supplied live views; archive views=null are not zeros."
-      }
-    },
-    {
       "checked_at": "2026-11-02T06:49:00Z",
       "local_analysis_slot": "2026-11-02 08:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis_fresh_08h_artifact_and_live_public_verification",
@@ -3237,6 +3072,46 @@
       "own_threads": "unavailable: runtime artifact not parsed",
       "decision": "No future queue changes due to missing current Threads analytics and verified competitor evidence. Threads buyer hunt stale; requires workflow investigation. Telegram queue 8 unpublished, no PR created.",
       "lead_metrics": "No confirmed new deliveries, replies, negotiations or paid orders in inspected repository state; live inbox not verified."
+    },
+    {
+      "checked_at": "2026-11-06T10:37:49Z",
+      "local_analysis_slot": "2026-11-06 12:00 Asia/Jerusalem",
+      "type": "partial_deep_analysis_sources_stale",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-06T03:38:06Z",
+        "lead_hunt_state": "2026-11-06T03:35:55Z",
+        "external_trends_state": "2026-11-05T02:45:03Z",
+        "instagram_metricool": "2026-11-06T10:37Z"
+      },
+      "own_instagram": [
+        {
+          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+          "date": "2026-11-02",
+          "views": 14,
+          "reach": 6,
+          "interactions": 0,
+          "comments": 0,
+          "follows": 0
+        },
+        {
+          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+          "date": "2026-10-28",
+          "views": 11,
+          "reach": 6,
+          "interactions": 3,
+          "comments": 1,
+          "follows": 0
+        }
+      ],
+      "own_threads": "fresh artifact not retrieved; current metrics unavailable",
+      "external_posts": "fresh verified competitor post metrics unavailable; old trends_state not treated as fresh",
+      "lead_status": "No newly verified contact; last Threads hunt 2026-11-06T03:35:55Z; official reply ID unavailable for old public candidates",
+      "decision": {
+        "scale": "none; insufficient current buyer-conversion evidence",
+        "remove": "no changes",
+        "test": "retain existing 50/30/20 experiment; obtain fresh artifact before queue changes"
+      },
+      "limitations": "Deep comparison incomplete because latest runtime pointer is stale and external trends_state is older than one day; do not invent external examples."
     }
   ]
 }
