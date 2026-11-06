@@ -224,9 +224,10 @@
     "threads-2026-11-03-hero-hidden-fees",
     "threads-2026-11-04-hero-subscription-choice",
     "threads-2026-11-05-founder-double-order",
-    "threads-2026-11-05-hero-ai-work-task"
+    "threads-2026-11-05-hero-ai-work-task",
+    "threads-2026-11-06-hero-customer-wait"
   ],
-  "last_run_at": "2026-11-05T17:56:59.203404+00:00",
+  "last_run_at": "2026-11-06T18:20:01.841722+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -310,11 +311,11 @@
     "reply-2026-10-24-shalom-hummus",
     "reply-2026-10-30-kurosolutions-booking-sync"
   ],
-  "last_discovery_at": "2026-11-06T11:27:06.161538+00:00",
+  "last_discovery_at": "2026-11-06T18:21:02.974142+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "42210187438",
+  "last_discovery_run_id": "42269697187",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-42210187438-1",
+  "last_discovery_artifact_name": "threads-runtime-42269697187-1",
   "failed_reply_ids": {
     "reply-2026-10-29-bike-taxi-mvp": {
       "reply_to_id": "4016165537571250202",
