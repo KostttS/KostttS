@@ -3,180 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-02T02:42:33Z",
-      "local_analysis_slot": "2026-11-02 04:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_bounded_previous_external_sample_no_04h_scan",
-      "source_cutoffs": {
-        "own_threads_analytics": "2026-11-02T01:52:49Z (03:52 local)",
-        "inbox": "2026-11-02T01:52:49Z",
-        "buyer_hunt": "2026-11-02T01:43:23Z (03:43 local; current 03:52 artifact already_scanned_this_local_hour)",
-        "external_trends": "2026-11-01T22:46:12Z (00:46 local latest complete; current 03:52 skipped)",
-        "instagram_metricool": "2026-11-02 04:42 local",
-        "public_web_search": "2026-11-02 04:42 local"
-      },
-      "sources": {
-        "github_run": "https://github.com/KostttS/KostttS/actions/runs/41374744116",
-        "runtime_artifact": "threads-runtime-41374744116-1",
-        "lead_run": "https://github.com/KostttS/KostttS/actions/runs/41373943367",
-        "external_full_run": "https://github.com/KostttS/KostttS/actions/runs/41358622105",
-        "external_status": "verified_public_sample, 81 unique posts from 24 search pages, 10 high engagement candidates; bounded and 4h old at this analysis; views=null unavailable, not zero",
-        "alternative_search": "Four TinyFish date-filtered Threads buyer queries after 2026-10-31 and four web date-filtered queries: zero indexed results; does not prove no buyer posts; no verified fresh 04h external sample",
-        "instagram_competitors": "not verified, no new competitor-level data"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfMLtG2EbzF",
-          "published_at": "2026-11-01T07:21:10Z",
-          "age_hours_at_0352_local": 18.53,
-          "views": 6,
-          "likes": 0,
-          "replies": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-          "published_at": "2026-10-31T07:44:14Z",
-          "age_hours_at_0352_local": 42.14,
-          "views": 29,
-          "likes": 0,
-          "replies": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "published_at": "2026-10-30T06:39:13Z",
-          "age_hours_at_0352_local": 67.23,
-          "views": 44,
-          "likes": 3,
-          "replies": 2
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfFjsyLFNnh",
-          "published_at": "2026-10-29T17:36:08Z",
-          "views": 47,
-          "likes": 0,
-          "replies": 1
-        }
-      ],
-      "own_threads_profile": {
-        "followers": 6,
-        "link_clicks": 0,
-        "commercial_leads_confirmed": 0,
-        "delta_since_0345_local": "no change in post views, replies, followers, or commercial inbox",
-        "queued_hero": "threads-2026-11-01-hero-time-vs-salary at 2026-11-02 08:45 local, not published as of snapshot"
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "published_at": "2026-10-28T17:46:21+02:00",
-          "views": 8,
-          "reach": 5,
-          "interactions": 3,
-          "likes": 2,
-          "comments": 1,
-          "follows": 0
-        },
-        {
-          "url": "https://www.instagram.com/p/De8zuFCCom7/",
-          "published_at": "2026-10-26T08:03:36+02:00",
-          "views": 9,
-          "reach": 6,
-          "interactions": 1,
-          "likes": 1,
-          "comments": 0,
-          "follows": 0
-        },
-        {
-          "url": "https://www.instagram.com/p/De6O4A4CP7N/",
-          "published_at": "2026-10-25T08:03:09+02:00",
-          "views": 6,
-          "reach": 5,
-          "interactions": 1,
-          "likes": 1,
-          "comments": 0,
-          "follows": 0
-        }
-      ],
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@karina_sakhmetova/post/DfMVolDDG64",
-          "published_at": "2026-11-01T08:47:50Z",
-          "likes": 394,
-          "replies": 21,
-          "reposts": 13,
-          "views": null,
-          "artifact_growth_over_12h": {
-            "likes": 332,
-            "replies": 17,
-            "reposts": 11
-          },
-          "mechanism": "specific money-saving travel hack with numbers and concrete steps; mass usefulness but not buyer evidence"
-        },
-        {
-          "url": "https://www.threads.com/@aristoslavus/post/DfL4UkpidHo",
-          "published_at": "2026-11-01T04:31:42Z",
-          "likes": 72,
-          "replies": 106,
-          "reposts": 0,
-          "views": null,
-          "artifact_growth_over_12h": {
-            "likes": 32,
-            "replies": 32
-          },
-          "mechanism": "specific founder credentials plus open business introduction prompt; commercially closer but no app buyer proven"
-        },
-        {
-          "url": "https://www.threads.com/@edu195study/post/DfLtSPqFNFK",
-          "published_at": "2026-11-01T02:55:16Z",
-          "likes": 333,
-          "replies": 13,
-          "reposts": 10,
-          "views": null,
-          "artifact_growth_over_12h": {
-            "likes": 184,
-            "replies": 5,
-            "reposts": 7
-          },
-          "mechanism": "real app launch with tangible user outcome and App Store proof; useful for credible commercial demos without fabricating own results"
-        },
-        {
-          "url": "https://www.threads.com/@larisaandsons/post/DfNFVVwgGwh",
-          "published_at": "2026-11-01T15:44:39Z",
-          "likes": 68,
-          "replies": 235,
-          "reposts": 0,
-          "views": null,
-          "mechanism": "specific recommendation request triggers replies, but network marketing audience not a paid app buyer"
-        },
-        {
-          "url": "https://www.threads.com/@aaasaturov/post/DfNgjcXjS70",
-          "published_at": "2026-11-01T19:42:30Z",
-          "likes": 14,
-          "replies": 39,
-          "reposts": 1,
-          "views": null,
-          "mechanism": "one-line founder introduction prompt, business audience; potential soft lead funnel, not direct hiring"
-        }
-      ],
-      "lead_status": {
-        "last_full_scan_pages": 28,
-        "last_full_scan_candidates": 4,
-        "last_full_scan_new": 0,
-        "known_mellowbrandstudio": "Already public @mentioned, budget and response unverified; no repeat",
-        "excluded": "Two ClientsCave pay-to-unlock intermediary posts; one Flutter internship",
-        "verified_api_target_media_ids": 0,
-        "confirmed_new_paid_contacts": 0,
-        "confirmed_paid_orders": 0,
-        "reply_attempts": 0,
-        "inbox": "Two old replies to posts and six old replies-to-own-replies; no new business reply; mentions scope unavailable"
-      },
-      "decision": {
-        "scale": "Evidence-backed real product outcomes and business founder introductions for commercial tests, not indiscriminate developer-audience views",
-        "remove": "Do not use unrelated personal stories or rev-share/paid-contact aggregators as buyer leads; generic long sales posts have no demonstrated conversion",
-        "test": "Keep 08:45 binary salary-vs-time viral HERO; measure views/replies/profile traffic at 2h,12h,24h and whether qualified buyers follow; preserve 50/30/20 as test only",
-        "action": "No new post or reply at 04:42 local, outside publication window and no new qualified buyer/media ID. No queue changes or duplicate mentions; Metricool Threads ERROR authentication failure remains not published.",
-        "limitation": "04h external-trends scan not available in runtime_pointer yet; previous full 00:46 local sample used. TinyFish and web index searches yielded no fresh verified buyer post; not evidence none exist. Instagram competitor posts unverified."
-      }
-    },
-    {
       "checked_at": "2026-11-02T04:46:00Z",
       "local_analysis_slot": "2026-11-02 06:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis_fresh_06h_artifact_plus_live_public_posts",
@@ -3385,6 +3211,32 @@
       "own_threads": "unavailable: current runtime ZIP content not retrieved",
       "decision": "No changes to Threads/Instagram queue: insufficient verified current cross-platform and competitor evidence. Continue lead search and monitor replies.",
       "lead_metrics": "No newly confirmed deliveries, replies, negotiations, or paid orders in inspected sources; inbox not verified live."
+    },
+    {
+      "checked_at": "2026-11-06T08:34:36Z",
+      "local_analysis_slot": "2026-11-06 10:00 Asia/Jerusalem",
+      "type": "partial_comparative_review_source_limitations",
+      "sources": {
+        "threads_runtime_pointer": "threads-runtime-42157514491-1 updated 2026-11-06T03:38:06Z; artifact ZIP not parsed",
+        "buyer_hunt_state": "last_scan_at 2026-11-06T03:35:55Z (stale >4h)",
+        "external_threads": "unavailable: external_trends.json inside artifact not extracted; trends_state last scan 2026-11-05T02:45:03Z, historical only",
+        "competitor_instagram": "unavailable: no verified competitor post metrics",
+        "public_web_search": "site:threads.com looking for flutter developer app November 2026 returned no results",
+        "instagram_metricool": "queried 2026-11-06T08:34Z, 2026-10-30 through 2026-11-06"
+      },
+      "own_instagram": [
+        {
+          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+          "published_at": "2026-11-02T07:21:04 (Metricool date)",
+          "reach": 6,
+          "comments": 0,
+          "interactions": 0,
+          "likes": 0
+        }
+      ],
+      "own_threads": "unavailable: runtime artifact not parsed",
+      "decision": "No future queue changes due to missing current Threads analytics and verified competitor evidence. Threads buyer hunt stale; requires workflow investigation. Telegram queue 8 unpublished, no PR created.",
+      "lead_metrics": "No confirmed new deliveries, replies, negotiations or paid orders in inspected repository state; live inbox not verified."
     }
   ]
 }
