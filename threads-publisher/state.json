@@ -226,9 +226,10 @@
     "threads-2026-11-05-founder-double-order",
     "threads-2026-11-05-hero-ai-work-task",
     "threads-2026-11-06-hero-customer-wait",
+    "threads-2026-11-07-agency-mvp-scope",
     "threads-2026-11-07-hero-free-vs-ads"
   ],
-  "last_run_at": "2026-11-07T09:18:42.993970+00:00",
+  "last_run_at": "2026-11-07T19:39:33.342208+00:00",
   "published_reply_ids": [
     "reply-2026-09-11-001",
     "reply-2026-09-11-002",
@@ -312,11 +313,11 @@
     "reply-2026-10-24-shalom-hummus",
     "reply-2026-10-30-kurosolutions-booking-sync"
   ],
-  "last_discovery_at": "2026-11-07T15:45:40.164246+00:00",
+  "last_discovery_at": "2026-11-07T19:40:38.689638+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "42387843244",
+  "last_discovery_run_id": "42407266361",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-42387843244-1",
+  "last_discovery_artifact_name": "threads-runtime-42407266361-1",
   "failed_reply_ids": {
     "reply-2026-10-29-bike-taxi-mvp": {
       "reply_to_id": "4016165537571250202",
