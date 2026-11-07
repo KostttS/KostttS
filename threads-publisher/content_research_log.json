@@ -3,214 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-02T10:40:32.164Z",
-      "local_slot": "2026-11-02 12:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_with_stale_runtime_and_live_public_fallback",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-02T09:19:42Z",
-        "runtime_run_id": "41419564446",
-        "runtime_pointer_updated_at": "2026-11-02T09:19:50Z",
-        "external_trends_last_full": "2026-11-02T08:51:24Z",
-        "external_trends_last_full_run_id": "41415888528",
-        "lead_discovery": "2026-11-02T09:18:38Z",
-        "inbox": "2026-11-02T09:19:42Z",
-        "instagram_metricool": "2026-11-02 ~12:40 Asia/Jerusalem",
-        "public_threads_live": "2026-11-02 ~12:40 Asia/Jerusalem"
-      },
-      "source_status": {
-        "fresh_12h_runtime_available": false,
-        "reason": "GitHub runtime_pointer.json still points to 11:19 local artifact; no 12:00 local artifact was available. 11:19 external_trends.json status skipped; previous 10:51 complete artifact used.",
-        "alternate_source_attempts": "Live TinyFish fetch of seven original Threads posts plus own post and Instagram; 12 additional targeted RU/EN public web searches for funded Flutter/FlutterFlow/MVP briefs. No verified new paid direct buyer found.",
-        "external_trends_status": "verified_public_sample_from_previous_10h_slot",
-        "external_unique_posts": 48,
-        "external_pages": 24,
-        "external_high_engagement_candidates": 9,
-        "official_keyword_search_target_media_ids": 0,
-        "mentions_scope_available": false,
-        "instagram_competitor_metrics": "not available from configured Metricool data",
-        "threads_signed_in_browser": false,
-        "public_html_pk_not_valid_reply_id": true
-      },
-      "own_threads": {
-        "snapshot": "2026-11-02T09:19:42Z official API; public HERO page independently checked ~12:40 local",
-        "posts": [
-          {
-            "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-            "published_at": "2026-11-02T06:45:23Z",
-            "age_hours_at_official_snapshot": 2.57,
-            "views": 7,
-            "likes": 0,
-            "replies": 0,
-            "reposts": 0,
-            "live_public_views_approx": 7,
-            "qualified_leads": 0,
-            "topic": "broad binary salary vs time HERO"
-          },
-          {
-            "url": "https://www.threads.com/@konstantin47209/post/DfMLtG2EbzF",
-            "published_at": "2026-11-01T07:21:10Z",
-            "age_hours_at_official_snapshot": 25.98,
-            "views": 6,
-            "likes": 0,
-            "replies": 0,
-            "qualified_leads": 0,
-            "topic": "general business workflow"
-          },
-          {
-            "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-            "published_at": "2026-10-31T07:44:14Z",
-            "age_hours_at_official_snapshot": 49.59,
-            "views": 29,
-            "likes": 0,
-            "replies": 0,
-            "qualified_leads": 0,
-            "topic": "FlutterFlow app store blocker"
-          },
-          {
-            "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-            "published_at": "2026-10-30T06:39:13Z",
-            "age_hours_at_official_snapshot": 74.68,
-            "views": 44,
-            "likes": 3,
-            "replies": 2,
-            "qualified_leads": 0,
-            "topic": "agency booking integration"
-          }
-        ],
-        "followers": 6,
-        "profile_link_clicks": 0,
-        "new_verified_commercial_replies_in_available_inbox": 0,
-        "inbox_fresh_after_11h": false
-      },
-      "own_instagram": {
-        "new_post": {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "published_at": "2026-11-02T07:21:06Z",
-          "metricool_status": "PUBLISHED",
-          "views": null,
-          "reach": null,
-          "interactions": null,
-          "clicks": null,
-          "reason": "New post not yet present in IGPO analytics; public page says no comments, do not treat missing reach as zero."
-        },
-        "previous_posts": [
-          {
-            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-            "date": "2026-10-28",
-            "views": 8,
-            "reach": 5,
-            "likes": 2,
-            "comments": 1,
-            "interactions": 3,
-            "follows": 0
-          },
-          {
-            "url": "https://www.instagram.com/p/De8zuFCCom7/",
-            "date": "2026-10-26",
-            "views": 9,
-            "reach": 6,
-            "likes": 1,
-            "comments": 0,
-            "interactions": 1,
-            "follows": 0
-          },
-          {
-            "url": "https://www.instagram.com/p/De6O4A4CP7N/",
-            "date": "2026-10-25",
-            "views": 6,
-            "reach": 5,
-            "likes": 1,
-            "comments": 0,
-            "interactions": 1,
-            "follows": 0
-          }
-        ],
-        "organic_clicks": "unavailable: IGPO09 deprecated"
-      },
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@mazel.tov33/post/DfGCGKDCNVH",
-          "author": "mazel.tov33",
-          "published_at": "2026-10-29T22:01:40Z",
-          "views_approx": 62200,
-          "likes": 813,
-          "replies": 47,
-          "reposts": 9,
-          "mechanism": "short absurd AI-startup humor; immediately legible contrast and shareability",
-          "b2b_relevance": "low; viral hook only, no paid lead",
-          "growth": "no verified increase vs 10:00 local public snapshot"
-        },
-        {
-          "url": "https://www.threads.com/@viclev.dev/post/DfFZf5ViIDS",
-          "author": "viclev.dev",
-          "published_at": "2026-10-29T16:06:55Z",
-          "views_approx": 2800,
-          "likes": 25,
-          "replies": 110,
-          "reposts": null,
-          "mechanism": "open invitation to showcase app projects, reply-friendly professional prompt",
-          "b2b_relevance": "developer engagement, not buyer evidence",
-          "growth": "no verified increase vs 10:00 local public snapshot"
-        },
-        {
-          "url": "https://www.threads.com/@amirakhalid____/post/DfMUnZBGV-2",
-          "author": "amirakhalid____",
-          "published_at": "2026-11-01T08:38:56Z",
-          "views_approx": 4800,
-          "likes": 52,
-          "replies": 133,
-          "reposts": 2,
-          "mechanism": "specific actionable request for e-commerce website contractor with stack and deliverables",
-          "b2b_relevance": "website Shopify/WooCommerce, not a Flutter mobile-app buyer"
-        },
-        {
-          "url": "https://www.threads.com/@spinex_it_solutions/post/DfOnU12DPQA",
-          "author": "spinex_it_solutions",
-          "published_at": "2026-11-02T06:00:55Z",
-          "views_approx": 1500,
-          "likes": 6,
-          "replies": 10,
-          "reposts": null,
-          "mechanism": "stated $1600–2600 budget for Flutter courier-tracking project attracts interested developers",
-          "b2b_relevance": "potential lead, agency authenticity/funding not verified; repeated Instagram followers requirement suspicious",
-          "growth": "approx +200 rounded views from prior 1300; replies unchanged at 10"
-        },
-        {
-          "url": "https://www.threads.com/@spinex_it_solutions/post/DfOWJLMDqyB",
-          "author": "spinex_it_solutions",
-          "published_at": "2026-11-02T03:30:46Z",
-          "views_approx": 1800,
-          "likes": 7,
-          "replies": 14,
-          "reposts": null,
-          "mechanism": "stated $1000–1600 budget for Flutter tiffin-service project attracts bids",
-          "b2b_relevance": "same agency as courier; one lead only, contract/funding unverified",
-          "growth": "approx +200 rounded views from prior 1600; likes 6→7, replies 12→14"
-        }
-      ],
-      "lead_status": {
-        "latest_hunt_pages": 28,
-        "latest_hunt_unique_candidates": 1,
-        "latest_hunt_new_candidates": 0,
-        "latest_hunt_candidate": "bilvaleaf Flutter intern (not paid app development contract)",
-        "new_verified_direct_paid_leads": 0,
-        "spinex_known_company": 1,
-        "spinex_briefs": 2,
-        "spinex_status": "registered previously, not contacted, budget claimed not verified, no official media ID",
-        "direct_replies_sent": 0,
-        "new_verified_contacts": 0,
-        "paid_orders": 0,
-        "authenticated_browser_profile_threads": false
-      },
-      "decision": {
-        "scale": "Continue testing concrete agency mobile handoff and release/operational pain topics; agency post 44 views/2 replies at ~75h beats general workflow 6 views/0 replies at ~26h, but sample too small and ages differ.",
-        "remove": "Exclude internships, website-only projects, unfunded collaboration, duplicate or unverified engagement bait from paid lead totals; no additional public @mentions to Spinex without verification.",
-        "test": "Keep 50/30/20 as unproven hypothesis; compare broad HERO 7 views/0 replies at 2.6h with same-age posts later, not against mature posts. Check tonight 19:20 agency post after API confirmation; track qualified contacts and profile clicks.",
-        "action": "Recorded evidence and live fallback. No queue mutation, no reply/mention, no signed-state change; evening agency post remains queued, Instagram post already PUBLISHED. No valid Threads target media ID for Spinex.",
-        "limitation": "12h fresh runtime unavailable, Instagram today's post analytics not yet reported; public search is bounded and may miss active buyer posts. No GitHub Actions workflow-dispatch action exposed through current connector; do not claim run triggered."
-      }
-    },
-    {
       "checked_at": "2026-11-02T12:39:47Z",
       "local_slot": "2026-11-02 14:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis_with_latest_13h_runtime_and_live_public_fallback",
@@ -2868,6 +2660,45 @@
         "test": "continue 50/30/20 hypothesis without modifying future queue"
       },
       "limitations": "GitHub connector exposes artifact download reference but no parsed ZIP content in this run; deep comparison incomplete. Instagram sample is a single post; no competitor metrics verified."
+    },
+    {
+      "checked_at": "2026-11-07T06:40:36Z",
+      "local_analysis_slot": "2026-11-07 08:00 Asia/Jerusalem",
+      "type": "partial_deep_analysis_artifact_unavailable",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-07T02:55:13Z (stale 3h45m); ZIP not parsed",
+        "threads_lead_hunt": "2026-11-07T02:51:45Z (stale)",
+        "instagram_metricool": "2026-11-07T06:40Z",
+        "external_posts": "unavailable: fresh artifact ZIP not parsed; no verified fresh external metrics"
+      },
+      "own_instagram": [
+        {
+          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+          "date": "2026-11-02",
+          "views": 14,
+          "reach": 6,
+          "interactions": 0,
+          "comments": 0,
+          "follows": 0
+        },
+        {
+          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
+          "date": "2026-10-28",
+          "views": 11,
+          "reach": 6,
+          "interactions": 3,
+          "comments": 1,
+          "follows": 0
+        }
+      ],
+      "own_threads": "unavailable: latest runtime ZIP content not retrieved",
+      "lead_status": "No newly confirmed outbound, replies or orders; live Threads inbox not verified.",
+      "decision": {
+        "scale": "none without verified buyer signals",
+        "remove": "none",
+        "test": "continue 50/30/20 pending current data"
+      },
+      "limitations": "GitHub connector artifact ZIP not parsed; no verified fresh external competitor posts; Threads deep comparison incomplete. Watchdog triggered commit 0248da7; run not verified."
     }
   ]
 }
