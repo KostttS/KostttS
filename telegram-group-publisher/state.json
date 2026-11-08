@@ -10,7 +10,8 @@
     "rest-api-integration",
     "mobile-payments",
     "geolocation-services",
-    "useful-push-notifications"
+    "useful-push-notifications",
+    "store-release"
   ],
   "history": [
     {
@@ -132,7 +133,19 @@
       "pin_error": null,
       "unpinned_message_id": null,
       "unpin_error": null
+    },
+    {
+      "post_id": "store-release",
+      "message_id": 368,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-11-08T19:41:21.933335+02:00",
+      "caption_sha256": "6cae78e8e4d58b1e6f0a3b02a4dbd65ca33b7c73ff08488a5f3b4c53ffffd750",
+      "pinned": false,
+      "pin_error": null,
+      "unpinned_message_id": null,
+      "unpin_error": null
     }
   ],
-  "last_publish_date": "2026-11-06"
+  "last_publish_date": "2026-11-08"
 }
