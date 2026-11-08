@@ -3,160 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-02T12:39:47Z",
-      "local_slot": "2026-11-02 14:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_with_latest_13h_runtime_and_live_public_fallback",
-      "source_cutoffs": {
-        "latest_runtime": "2026-11-02T11:45:45Z",
-        "latest_lead_discovery": "2026-11-02T11:44:03Z",
-        "last_full_external_trends": "2026-11-02T08:51:24Z",
-        "live_public_checks": "2026-11-02 ~14:39 Asia/Jerusalem",
-        "instagram_metricool": "2026-11-02 ~14:39 Asia/Jerusalem"
-      },
-      "source_status": {
-        "runtime": "latest completed run 41439107234; 14:00 local new runtime not yet available at review",
-        "external_trends": "latest artifact status=skipped; fallback 10:51 local full sample: 48 verified unique posts/24 public search pages; NOT whole Threads",
-        "official_keyword_search": "38 queries+control return zero; public search unverified, App Review not confirmed",
-        "instagram": "Nov 2 post confirmed PUBLISHED but its metrics absent from returned Metricool feed-post analytics; no fabricated zeros",
-        "external_public_views": "live public page counts, approximate when K rounded; null in archive means unavailable"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-          "published_at": "2026-11-02T06:45:23Z",
-          "topic": "mass audience salary vs free time HERO",
-          "views": 7,
-          "likes": 0,
-          "replies": 0,
-          "age_hours": 5.9,
-          "previous_views": 7
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfMLtG2EbzF",
-          "published_at": "2026-11-01T07:21:10Z",
-          "topic": "business workflow funded MVP",
-          "views": 6,
-          "replies": 0,
-          "age_hours": 30.4
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-          "published_at": "2026-10-31T07:44:14Z",
-          "topic": "FlutterFlow app-store release",
-          "views": 29,
-          "replies": 0,
-          "age_hours": 52.9
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "published_at": "2026-10-30T06:39:13Z",
-          "topic": "agency mobile booking sync",
-          "views": 44,
-          "likes": 3,
-          "replies": 2,
-          "age_hours": 78
-        }
-      ],
-      "own_threads_account": {
-        "followers": 6,
-        "link_clicks": 0,
-        "new_confirmed_paid_leads": 0,
-        "source": "official analytics.json in runtime 41439107234"
-      },
-      "own_instagram": {
-        "source": "Metricool brand 6890763",
-        "latest_post_url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "latest_post_published_at": "2026-11-02T09:21:00+02:00",
-        "published_confirmed": true,
-        "latest_post_views": null,
-        "latest_post_reach": null,
-        "latest_post_interactions": null,
-        "metricool_feed_data_returned": "2026-10-28 post: reach 5, interactions 3, comments 1; 2026-10-26 post: reach 6, interactions 1; Nov 2 metrics not yet returned",
-        "new_confirmed_paid_leads": 0
-      },
-      "external_examples": [
-        {
-          "url": "https://www.threads.com/@mazel.tov33/post/DfGCGKDCNVH",
-          "author": "mazel.tov33",
-          "published_at": "2026-10-29T22:01:40Z",
-          "views_approx": 62200,
-          "likes": 813,
-          "replies": 47,
-          "reposts": 9,
-          "mechanism": "absurdly high AI startup demand as one-line satire; strong mass hook, weak direct buyer intent"
-        },
-        {
-          "url": "https://www.threads.com/@viclev.dev/post/DfFZf5ViIDS",
-          "author": "viclev.dev",
-          "published_at": "2026-10-29T16:06:55Z",
-          "views_approx": 2800,
-          "likes": 25,
-          "replies": 112,
-          "mechanism": "invitation to share current projects produces high reply-to-view ratio; mostly developer audience, not qualified buyer"
-        },
-        {
-          "url": "https://www.threads.com/@olgapsy.strategy/post/DfMX8PiiAi7",
-          "author": "olgapsy.strategy",
-          "published_at": "2026-11-01T09:08:00Z",
-          "views": 749,
-          "likes": 28,
-          "replies": 55,
-          "mechanism": "controversial business-process claim and closing question; useful for owner-facing automation discussion"
-        },
-        {
-          "url": "https://www.threads.com/@aleksandr_matiiko/post/DfOutkwD5-Z",
-          "author": "aleksandr_matiiko",
-          "published_at": "2026-11-02T07:05:27Z",
-          "views": 537,
-          "likes": 4,
-          "replies": 19,
-          "mechanism": "explicit self-promotion invitation with author's product example; can invite business problems, but broad networking is not paid work"
-        },
-        {
-          "url": "https://www.threads.com/@spinex_it_solutions/post/DfOnU12DPQA",
-          "author": "spinex_it_solutions",
-          "published_at": "2026-11-02T06:00:55Z",
-          "views_approx": 1700,
-          "likes": 7,
-          "replies": 12,
-          "reposts": 0,
-          "mechanism": "budget and specific Flutter courier project are direct lead signals; funding unverified, follower preference suspicious; not confirmed contract"
-        }
-      ],
-      "lead_discovery": {
-        "latest_scan": "2026-11-02T11:44:03Z",
-        "pages_checked": 28,
-        "candidates": 1,
-        "new_candidates": 0,
-        "qualified_new": 0,
-        "only_candidate": "bilvaleaf Flutter internship, not a paid client project",
-        "spinex": "one previously recorded company, two unverified briefs; no verified official reply ID",
-        "new_contacts": 0,
-        "paid_orders": 0
-      },
-      "inbox": {
-        "latest_checked_at": "2026-11-02T11:45:45Z",
-        "new_commercial_replies": 0,
-        "kurosolutions_reply_already_answered": true,
-        "mentions_scope_available": false
-      },
-      "decisions": {
-        "scale": "Keep targeted agency/mobile integration format as next test: previous 44 views, 3 likes, 2 replies versus generic business 6/0; no buyer conversions yet",
-        "remove": "Exclude Flutter internships, pay-to-unlock marketplaces and generic website-only briefs from paid mobile lead counts",
-        "test": "Retain planned agency post 19:20 local; test 50/30/20 over multiple posts before judging viral HERO; use business-owner controversy/question mechanics only when relevant to actual services",
-        "queue_changed": false,
-        "reason": "No fresh confirmed conversion data or statistically meaningful new post comparison; avoid rewriting without evidence",
-        "posts_published_this_review": 0,
-        "replies_sent_this_review": 0
-      },
-      "limitations": [
-        "Current run's external_trends status skipped; used previous full verified sample, plus live public post checks",
-        "Official Threads keyword_search permission not validated despite token scope",
-        "No authorized Threads browser session, so public PK cannot be used as reply ID",
-        "Metricool has not returned Nov 2 Instagram reach/views; no zero imputed"
-      ]
-    },
-    {
       "checked_at": "2026-11-02T12:46:00Z",
       "local_slot": "2026-11-02 14:00 Asia/Jerusalem — post-refresh evidence addendum",
       "type": "deep_analysis_addendum_new_successful_runtime_not_rewriting_previous_log",
@@ -2699,6 +2545,69 @@
         "test": "continue 50/30/20 pending current data"
       },
       "limitations": "GitHub connector artifact ZIP not parsed; no verified fresh external competitor posts; Threads deep comparison incomplete. Watchdog triggered commit 0248da7; run not verified."
+    },
+    {
+      "checked_at": "2026-11-08T08:40:28Z",
+      "local_slot": "2026-11-08 10:00 Asia/Jerusalem",
+      "type": "deep_comparative_analysis",
+      "source_cutoffs": {
+        "threads_runtime": "2026-11-08T02:24:24Z",
+        "external_trends": "2026-11-08T02:23:25Z",
+        "lead_discovery": "2026-11-08T02:22:04Z",
+        "instagram_metricool": "2026-11-08T08:40Z"
+      },
+      "own_threads": [
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/Dfc8-S4FWI6",
+          "views": 64,
+          "likes": 0,
+          "replies": 0
+        },
+        {
+          "url": "https://www.threads.com/@konstantin47209/post/Dfb17KCFYwk",
+          "views": 5,
+          "likes": 0,
+          "replies": 0
+        }
+      ],
+      "own_instagram": {
+        "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+        "reach": 7,
+        "likes": 0,
+        "comments": 0,
+        "interactions": 0
+      },
+      "external_posts": [
+        {
+          "url": "https://www.threads.com/@am_belousova/post/DfcPHffiJGF",
+          "likes": 507,
+          "replies": 195,
+          "published_at": "2026-11-07T12:58:45Z",
+          "mechanism": "direct mutual support request to entrepreneurs"
+        },
+        {
+          "url": "https://www.threads.com/@michelletheluxnomad/post/DfcDfEKG2C-",
+          "likes": 288,
+          "replies": 52,
+          "published_at": "2026-11-07T11:17:06Z",
+          "mechanism": "investor perspective with strong speed-of-execution principle"
+        },
+        {
+          "url": "https://www.threads.com/@yaaaschef/post/DfcxnGwGaOz",
+          "likes": 279,
+          "replies": 42,
+          "published_at": "2026-11-07T18:00:09Z",
+          "mechanism": "personal conflict, not commercially relevant; do not copy"
+        }
+      ],
+      "lead_review": {
+        "url": "https://www.threads.com/@fazzu.tg/post/DfXGnXkE_9m",
+        "budget_usd": 3000,
+        "request": "mobile app",
+        "status": "candidate_not_contacted_no_verified_api_media_id"
+      },
+      "decision": "Keep future queue unchanged pending newer analytics; prioritize concrete customer problems and direct-contact leads; no speculative replies or personal stories.",
+      "limitations": "Runtime ~6h old, external views unavailable, no verified reply ID for buyer; competitor metrics are bounded public sample."
     }
   ]
 }
