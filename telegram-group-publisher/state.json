@@ -11,7 +11,8 @@
     "mobile-payments",
     "geolocation-services",
     "useful-push-notifications",
-    "store-release"
+    "store-release",
+    "elinknest-platform-case"
   ],
   "history": [
     {
@@ -145,7 +146,19 @@
       "pin_error": null,
       "unpinned_message_id": null,
       "unpin_error": null
+    },
+    {
+      "post_id": "elinknest-platform-case",
+      "message_id": 369,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-11-09T23:59:01.451873+02:00",
+      "caption_sha256": "40c7904d8a9541a128cdf4cdd82ab1e04c628f4d087ed1cc960fd27d4142a0aa",
+      "pinned": false,
+      "pin_error": null,
+      "unpinned_message_id": null,
+      "unpin_error": null
     }
   ],
-  "last_publish_date": "2026-11-08"
+  "last_publish_date": "2026-11-09"
 }
