@@ -3,171 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-02T14:17:02Z",
-      "local_slot": "2026-11-02 16:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_verified_runtime_and_live_external",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-02T14:16:01Z",
-        "lead_discovery": "2026-11-02T14:13:01Z",
-        "external_trends": "2026-11-02T14:14:42Z",
-        "instagram_metricool": "2026-11-02 ~16:11 Asia/Jerusalem",
-        "public_live_examples": "2026-11-02 ~16:15 Asia/Jerusalem",
-        "run_id": "41459795696"
-      },
-      "source_status": {
-        "workflow": "success, recovery push after missed 15h/16h cron slots",
-        "external": "verified_public_sample 78 unique external Threads posts/24 pages, 16 high-engagement; bounded sample, not all Threads",
-        "external_views": "archive views=null unavailable; views below from live public post pages, rounded when K",
-        "official_discovery": "39 queries + ChatGPT control: 0 results; official public search unverified; App Review not confirmed",
-        "instagram": "Metricool feed-post analytics returned Oct 28 post only; Nov 2 PUBLISHED post omitted; reach/views unavailable not zero"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-          "published_at": "2026-11-02T06:45:23Z",
-          "category": "viral HERO salary vs hours",
-          "age_hours": 7.5,
-          "views": 7,
-          "likes": 0,
-          "replies": 0,
-          "change_from_14h_views": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfMLtG2EbzF",
-          "published_at": "2026-11-01T07:21:10Z",
-          "category": "business funded MVP",
-          "age_hours": 30.9,
-          "views": 6,
-          "likes": 0,
-          "replies": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfJpjRqlZoL",
-          "published_at": "2026-10-31T07:44:14Z",
-          "category": "FlutterFlow release fix",
-          "age_hours": 54.5,
-          "views": 29,
-          "likes": 0,
-          "replies": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "published_at": "2026-10-30T06:39:13Z",
-          "category": "agency mobile booking integration",
-          "age_hours": 79.6,
-          "views": 44,
-          "likes": 3,
-          "replies": 2,
-          "qualified_leads": 0
-        }
-      ],
-      "own_account": {
-        "followers": 6,
-        "portfolio_link_clicks": 0,
-        "new_qualified_leads": 0
-      },
-      "own_instagram": {
-        "account": "konstantin47209",
-        "blog_id": 6890763,
-        "nov_2_url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "nov_2_status": "PUBLISHED",
-        "nov_2_views": null,
-        "nov_2_reach": null,
-        "nov_2_interactions": null,
-        "oct_28_url": "https://www.instagram.com/p/DfDAAhFCERl/",
-        "oct_28_views": 8,
-        "oct_28_reach": 5,
-        "oct_28_interactions": 3,
-        "oct_28_comments": 1
-      },
-      "external_examples": [
-        {
-          "url": "https://www.threads.com/@talgatovna_as/post/DfO6Kv_jMuA",
-          "author": "talgatovna_as",
-          "published_at": "2026-11-02T08:45:34Z",
-          "views_approx": 54500,
-          "likes": 612,
-          "replies": 67,
-          "reposts": 17,
-          "mechanism": "specific warning about mortgage intermediaries with concrete loss and urgency; broad audience trust/conflict; do not copy unverifiable personal claims"
-        },
-        {
-          "url": "https://www.threads.com/@viktoriya__ship/post/DfO-yd4lxgW",
-          "author": "viktoriya__ship",
-          "published_at": "2026-11-02T09:25:56Z",
-          "views_approx": 46700,
-          "likes": 126,
-          "replies": 99,
-          "mechanism": "strong price/value outrage plus explicit choice question; could test non-attacking founder-facing contrast about app cost vs repeated manual work"
-        },
-        {
-          "url": "https://www.threads.com/@naziur_ceo/post/DfL1qs4k9L4",
-          "author": "naziur_ceo",
-          "published_at": "2026-11-01T04:08:31Z",
-          "views_approx": 17400,
-          "likes": 323,
-          "replies": 3,
-          "reposts": 51,
-          "mechanism": "short startup terminology explainer; high shares/low replies, educational reach, not buyer proof"
-        },
-        {
-          "url": "https://www.threads.com/@alekenov/post/DfObj3RiM0Z",
-          "author": "alekenov",
-          "published_at": "2026-11-02T04:18:06Z",
-          "views_approx": 7800,
-          "likes": 800,
-          "replies": 13,
-          "reposts": 9,
-          "mechanism": "one-line relatable money sentiment drives likes, few conversations; not equivalent to qualified buyer traffic"
-        },
-        {
-          "url": "https://www.threads.com/@alexlmazalov/post/DfPWiPJjvTp",
-          "author": "alexlmazalov",
-          "published_at": "2026-11-02T12:53:26Z",
-          "views_approx": 3400,
-          "likes": 60,
-          "replies": 21,
-          "mechanism": "specific actionable business-bank workaround drives useful replies; adapt to actual app delivery bottlenecks, not banking topic"
-        }
-      ],
-      "lead_discovery": {
-        "pages_checked": 28,
-        "candidates": 2,
-        "newly_discovered": 0,
-        "qualified_paid_projects": 0,
-        "excluded": [
-          "BilvaLeaf Flutter internship",
-          "Qatar salaried mobile app vacancy"
-        ],
-        "spinex": "one known agency contact with two current unverified stated-budget briefs; 1.7k/2.3k public views; repeated Instagram follower criterion suspicious; no verified official media ID",
-        "other_search": "TinyFish RU/EN public search; ai.by.jyoti general freelance web/mobile call from Oct 30 lacks funded scope/budget; not qualified",
-        "new_contacts": 0,
-        "paid_orders": 0
-      },
-      "inbox": {
-        "checked_at": "2026-11-02T14:16:01Z",
-        "new_commercial_replies": 0,
-        "existing_kurosolutions_reply": "already answered",
-        "mentions_scope_available": false,
-        "replies_to_own_replies": "no new relevant replies"
-      },
-      "decisions": {
-        "scale": "Continue limited agency mobile handoff test; previous agency post 44 views/2 replies vs business general 6/0, but older post and no conversion so not proven",
-        "remove": "Do not use unsupported personal stories, website-only offers, internships, salaried jobs or suspicious follower-bait as paid leads; do not copy unrelated viral outrage",
-        "test": "Keep existing 19:20 local agency post as planned; test a short founder-specific price-vs-value contrast in a future 50/30/20 cycle only after more comparable results",
-        "queue_changed": false,
-        "reason": "HERO still 7 views/0 replies and no new qualified conversions; insufficient controlled evidence to rewrite queue; no original post permitted at 16h",
-        "posts_published": 0,
-        "replies_sent": 0
-      },
-      "limitations": [
-        "Official keyword_search returns zero even on control; no confirmed App Review permission",
-        "public HTML PK is not official Threads media ID; no outbound reply to Spinex",
-        "Metricool Nov 2 feed analytics missing despite confirmed PUBLISHED status",
-        "No authorized Threads browser session for direct public post replies"
-      ]
-    },
-    {
       "checked_at": "2026-11-02T16:47:00Z",
       "local_slot": "2026-11-02 18:00 Asia/Jerusalem",
       "type": "two_hour_deep_comparative_analysis",
@@ -2515,6 +2350,37 @@
         "GitHub workflow artifact not read",
         "No verified current external Threads engagement sample"
       ]
+    },
+    {
+      "checked_at": "2026-11-09T02:38:00Z",
+      "local_slot": "2026-11-09 04:00 Asia/Jerusalem",
+      "type": "deep_comparative_analysis_limited_evidence",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-08T23:58:52Z",
+        "instagram_metricool": "2026-11-09T02:38Z",
+        "public_web": "2026-11-09T02:38Z"
+      },
+      "source_status": {
+        "threads": "runtime pointer and lead_hunt_state read; artifact content not retrieved; current own engagement and inbox unavailable",
+        "instagram": "Metricool Instagram feed post analytics Nov 5-9 returned empty rows; not proof of no posts",
+        "external": "public web search found mostly undated/old Telegram aggregator examples, not verified recent Threads posts with engagement"
+      },
+      "own_threads": [],
+      "own_instagram": [],
+      "external_examples": [],
+      "decision": "No queue change: insufficient fresh measured comparative evidence. No unverified buyer or dated old Telegram aggregator post promoted.",
+      "lead_hunter": {
+        "scan_at": "2026-11-09T02:35:07Z",
+        "status": "completed",
+        "sources_checked": 8,
+        "messages_inspected": 3,
+        "alerts_sent": 0,
+        "reviewed_new_rejections": 3,
+        "confirmed_paid_orders": 0,
+        "source_audit_at": "2026-11-08T20:37:30Z",
+        "sources_promoted": 0,
+        "bot_archive_last_message": "2026-11-08T17:44:33Z"
+      }
     }
   ]
 }
