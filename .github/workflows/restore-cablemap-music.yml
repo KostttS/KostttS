@@ -47,7 +47,7 @@ jobs:
             -movflags +faststart -shortest \
             -metadata:s:a:0 title='CableMap Upbeat Original Theme' \
             /tmp/cablemap-with-upbeat-music.mp4
-          mv /tmp/cablemap-with-calm-music.mp4 cablemap-public/CableMap-demo-video.mp4
+          mv /tmp/cablemap-with-upbeat-music.mp4 cablemap-public/CableMap-demo-video.mp4
           ffprobe -v error -show_entries stream=index,codec_type,codec_name -of compact cablemap-public/CableMap-demo-video.mp4
       - name: Refresh website video URL without changing the design
         run: |
