@@ -1,0 +1,33 @@
+name: Publish CableMap demo files
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-cablemap-demo-20261109.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download public demo files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p cablemap-public
+          curl -L --fail --retry 3 'https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5454-8210-b214-04ffba11e9da/raw?se=2026-11-09T09%3A47%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=04c0591e-82f4-56a7-a5dd-61dafc0cdd6b&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-09T03%3A52%3A56Z&ske=2026-11-10T03%3A52%3A56Z&sks=b&skv=2026-02-06&sig=Xz75QJazd3U9aG2lZcpK5f29OyZ9lzqssLostJrwSXA%3D' -o cablemap-public/CableMap-demo-latest.apk
+          curl -L --fail --retry 3 'https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-107c-8210-9c13-02203b552306/raw?se=2026-11-09T09%3A47%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=c741f870-9fce-59c5-bce5-79dbf351f7cc&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-09T05%3A59%3A54Z&ske=2026-11-10T05%3A59%3A54Z&sks=b&skv=2026-02-06&sig=a3UmgjaiDdhCtdZkhXwwq2LKtRO9XfWx2QPQLm7lji8%3D' -o cablemap-public/CableMap-demo-video.mp4
+          ls -lh cablemap-public/
+      - name: Commit files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cablemap-public/CableMap-demo-latest.apk cablemap-public/CableMap-demo-video.mp4
+          git commit -m 'Publish CableMap demo APK and video'
+          git push
