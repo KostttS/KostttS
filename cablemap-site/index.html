@@ -1,26 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#07151a" />
-  <meta name="description" content="CableMap — a working field-record prototype for structured cabling, fiber, Wi-Fi and CCTV teams." />
-  <title>CableMap — Field cabling records, mapped to every port</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#031119">
+  <meta name="description" content="CableMap — mobile-first field workflow for structured cabling, fiber, Wi‑Fi and CCTV teams.">
+  <title>CableMap — Map every cable. Know every port.</title>
   <style>
     :root{
-      --bg:#071317;
-      --bg2:#0a1d22;
-      --panel:rgba(15,37,43,.72);
-      --panel2:#102a31;
-      --line:rgba(177,231,217,.14);
-      --text:#f5fbf9;
-      --muted:#a8beb8;
-      --mint:#77e0c2;
-      --mint2:#baf4e4;
-      --cyan:#77cfe0;
-      --shadow:0 30px 90px rgba(0,0,0,.35);
-      --radius:24px;
-      --max:1160px;
+      --bg:#031119;
+      --bg2:#061b27;
+      --panel:rgba(5,27,38,.82);
+      --panel2:rgba(7,36,49,.92);
+      --line:rgba(92,238,255,.24);
+      --line2:rgba(80,220,255,.42);
+      --text:#f7fbff;
+      --muted:#a9bdc8;
+      --cyan:#4beaff;
+      --cyan2:#78f3ff;
+      --mint:#79eed8;
+      --blue:#118dff;
+      --glow:0 0 28px rgba(56,221,255,.25);
+      --max:1480px;
+      --radius:22px;
     }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
@@ -29,192 +31,277 @@
       font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
       color:var(--text);
       background:
-        radial-gradient(900px 520px at 78% -10%, rgba(119,224,194,.16), transparent 60%),
-        radial-gradient(720px 520px at -10% 20%, rgba(119,207,224,.12), transparent 60%),
-        linear-gradient(180deg,#061115 0%,#08171b 42%,#071317 100%);
+        radial-gradient(1200px 700px at 80% -10%,rgba(0,166,255,.18),transparent 65%),
+        radial-gradient(900px 620px at 0% 18%,rgba(46,239,226,.08),transparent 60%),
+        linear-gradient(180deg,#020b10 0%,#031219 40%,#04151e 100%);
       overflow-x:hidden;
     }
     body:before{
       content:"";
-      position:fixed; inset:0; pointer-events:none; opacity:.22;
+      position:fixed;inset:0;pointer-events:none;z-index:-3;
       background-image:
-        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
-      background-size:44px 44px;
-      mask-image:linear-gradient(to bottom, black, transparent 82%);
+        linear-gradient(rgba(70,205,232,.035) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(70,205,232,.035) 1px,transparent 1px);
+      background-size:46px 46px;
+      mask-image:linear-gradient(to bottom,black 0%,rgba(0,0,0,.8) 55%,transparent 100%);
     }
     a{color:inherit;text-decoration:none}
     button{font:inherit}
-    .wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
-    nav{
-      position:sticky;top:0;z-index:40;
-      backdrop-filter:blur(18px);
-      background:rgba(6,17,21,.72);
-      border-bottom:1px solid var(--line)
-    }
-    .nav-in{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:-.02em}
-    .logo{
-      width:36px;height:36px;border-radius:11px;display:grid;place-items:center;
-      background:linear-gradient(145deg,var(--mint),var(--cyan));color:#052029;
-      box-shadow:0 8px 28px rgba(119,224,194,.26)
-    }
-    .logo svg{width:20px;height:20px}
-    .nav-links{display:flex;gap:26px;color:var(--muted);font-size:14px}
-    .nav-links a:hover{color:var(--text)}
-    .nav-cta{padding:10px 15px;border-radius:12px;background:var(--mint);color:#08221e;font-weight:800;font-size:14px}
+    .wrap{width:min(var(--max),calc(100% - 42px));margin:auto}
 
-    .hero{padding:86px 0 74px}
-    .hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:72px;align-items:center}
+    nav{
+      position:sticky;top:0;z-index:80;
+      background:rgba(1,12,17,.72);
+      backdrop-filter:blur(18px);
+      border-bottom:1px solid rgba(100,226,255,.16);
+      box-shadow:0 10px 35px rgba(0,0,0,.18)
+    }
+    .nav-in{height:74px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:20px;letter-spacing:-.035em}
+    .logo{
+      width:40px;height:40px;border-radius:12px;display:grid;place-items:center;
+      color:#02222c;
+      background:linear-gradient(145deg,#69f7e3,#56c8ff);
+      box-shadow:0 0 28px rgba(70,231,255,.35),inset 0 1px 0 rgba(255,255,255,.55)
+    }
+    .logo svg{width:23px;height:23px}
+    .nav-links{display:flex;align-items:center;gap:30px;font-size:14px;color:#b5c9d2}
+    .nav-links a{transition:.2s}
+    .nav-links a:hover{color:white;text-shadow:0 0 18px rgba(85,239,255,.7)}
+    .nav-cta{
+      border:1px solid rgba(85,238,255,.8);
+      color:#9cf8ff;background:rgba(6,36,46,.45);
+      padding:10px 18px;border-radius:13px;font-weight:900;
+      box-shadow:inset 0 0 20px rgba(65,223,255,.05),0 0 24px rgba(52,205,255,.08)
+    }
+
+    .hero{position:relative;min-height:790px;display:flex;align-items:center;overflow:hidden}
+    .hero:before{
+      content:"";
+      position:absolute;inset:0;z-index:-2;
+      background:
+        radial-gradient(520px 360px at 67% 44%,rgba(0,183,255,.19),transparent 70%),
+        radial-gradient(420px 300px at 89% 40%,rgba(20,107,255,.13),transparent 70%);
+    }
+    .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:34px;align-items:center;padding:72px 0 82px}
     .eyebrow{
-      display:inline-flex;align-items:center;gap:9px;padding:8px 12px;border-radius:999px;
-      border:1px solid rgba(119,224,194,.24);background:rgba(119,224,194,.07);
-      color:var(--mint2);font-weight:750;font-size:13px
+      display:inline-flex;align-items:center;gap:9px;padding:8px 13px;border-radius:999px;
+      color:#8df9f1;font-size:13px;font-weight:850;
+      background:rgba(17,75,80,.22);border:1px solid rgba(95,244,231,.27);
+      box-shadow:0 0 28px rgba(53,235,243,.06)
     }
-    .dot{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 5px rgba(119,224,194,.1)}
+    .eyebrow i{width:8px;height:8px;border-radius:50%;background:#6df3e0;box-shadow:0 0 0 5px rgba(109,243,224,.12),0 0 15px #6df3e0}
     h1{
-      font-size:clamp(48px,6.3vw,82px);line-height:.98;letter-spacing:-.06em;
-      margin:22px 0 24px;max-width:760px
+      margin:20px 0 22px;
+      max-width:790px;
+      font-size:clamp(54px,6.5vw,92px);
+      line-height:.95;letter-spacing:-.06em
     }
-    .grad{background:linear-gradient(100deg,#fff 5%,var(--mint2) 48%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
-    .hero p{font-size:19px;line-height:1.65;color:var(--muted);max-width:650px;margin:0}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+    .accent{color:#55ecff;text-shadow:0 0 30px rgba(67,224,255,.12)}
+    .lead{max-width:720px;color:#c0d2da;font-size:19px;line-height:1.55;margin:0}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
     .btn{
-      display:inline-flex;align-items:center;justify-content:center;gap:10px;
-      min-height:52px;padding:0 20px;border-radius:14px;border:1px solid transparent;
-      font-weight:800;transition:.2s ease;cursor:pointer
+      min-height:54px;display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      border-radius:14px;padding:0 22px;font-weight:900;border:1px solid transparent;
+      transition:.2s ease
     }
     .btn:hover{transform:translateY(-2px)}
-    .primary{background:var(--mint);color:#06231e;box-shadow:0 14px 36px rgba(119,224,194,.18)}
-    .secondary{border-color:var(--line);background:rgba(255,255,255,.035);color:#e9f5f1}
-    .hero-note{margin-top:18px;color:#7f9b94;font-size:13px;display:flex;gap:16px;flex-wrap:wrap}
-    .hero-note span:before{content:"✓";color:var(--mint);margin-right:7px}
+    .primary{
+      color:#03151d;
+      background:linear-gradient(135deg,#69f3df,#48dbff);
+      box-shadow:0 8px 30px rgba(71,225,255,.22),0 0 30px rgba(71,225,255,.14)
+    }
+    .secondary{
+      background:rgba(5,29,39,.72);border-color:rgba(95,216,239,.26);color:#f4fbff;
+      box-shadow:inset 0 0 22px rgba(71,225,255,.03)
+    }
+    .proof{display:flex;gap:22px;flex-wrap:wrap;margin-top:18px;color:#aac2ca;font-size:13px}
+    .proof span:before{content:"✓";color:#62f0da;margin-right:8px;font-weight:900}
+    .mobile-note{
+      margin-top:17px;display:inline-flex;align-items:center;gap:9px;
+      border:1px solid rgba(102,231,247,.28);border-radius:999px;padding:8px 13px;
+      background:rgba(6,33,43,.52);color:#bad1d9;font-size:12px
+    }
 
-    .phone-wrap{position:relative;display:flex;justify-content:center}
-    .glow{
-      position:absolute;width:420px;height:420px;border-radius:50%;filter:blur(80px);
-      background:rgba(119,224,194,.14);top:12%;right:1%
+    .device-stage{position:relative;min-height:610px;display:flex;align-items:center;justify-content:center}
+    .halo{
+      position:absolute;width:500px;height:500px;border-radius:50%;
+      background:radial-gradient(circle,rgba(0,187,255,.24),rgba(0,187,255,.06) 45%,transparent 72%);
+      filter:blur(8px)
     }
     .phone{
-      width:min(330px,80vw);padding:10px;border-radius:42px;position:relative;z-index:2;
-      background:linear-gradient(145deg,#273b40,#0d1719);border:1px solid rgba(255,255,255,.13);
-      box-shadow:var(--shadow)
+      width:min(330px,72vw);position:relative;z-index:5;padding:10px;border-radius:46px;
+      background:linear-gradient(145deg,#3a535f 0%,#13252e 40%,#061017 100%);
+      border:1px solid rgba(180,241,255,.32);
+      box-shadow:0 0 0 2px rgba(31,115,145,.15),0 0 46px rgba(33,203,255,.35),0 45px 85px rgba(0,0,0,.45)
     }
     .phone:before{
-      content:"";position:absolute;z-index:3;left:50%;top:14px;transform:translateX(-50%);
-      width:88px;height:22px;border-radius:18px;background:#061014
+      content:"";position:absolute;z-index:10;top:14px;left:50%;transform:translateX(-50%);
+      width:102px;height:24px;border-radius:20px;background:#02080b
     }
-    .phone video{display:block;width:100%;border-radius:33px;background:#091216;aspect-ratio:576/1400;object-fit:cover}
-    .floating-card{
-      position:absolute;z-index:5;padding:13px 15px;border:1px solid rgba(255,255,255,.12);
-      background:rgba(11,29,34,.86);backdrop-filter:blur(14px);border-radius:16px;
-      box-shadow:0 16px 40px rgba(0,0,0,.24);font-size:13px;color:var(--muted)
+    .phone video{display:block;width:100%;aspect-ratio:576/1400;object-fit:cover;border-radius:37px;background:#03090d}
+    .callout{
+      position:absolute;z-index:8;width:196px;padding:14px 16px;border-radius:18px;
+      background:rgba(5,31,43,.9);border:1px solid rgba(63,224,255,.45);
+      box-shadow:0 0 22px rgba(40,202,255,.14),inset 0 0 22px rgba(30,209,255,.04);
+      backdrop-filter:blur(10px)
     }
-    .floating-card strong{display:block;color:#fff;font-size:15px;margin-bottom:3px}
-    .fc1{left:0;top:17%}.fc2{right:-18px;bottom:18%}
+    .callout strong{display:block;font-size:16px;margin-bottom:4px}
+    .callout span{font-size:13px;color:#aac4ce;line-height:1.35}
+    .callout:after{
+      content:"";position:absolute;height:1px;width:62px;top:50%;
+      background:linear-gradient(90deg,rgba(77,233,255,.9),rgba(77,233,255,.15));
+      box-shadow:0 0 10px rgba(77,233,255,.9)
+    }
+    .c1{left:1%;top:18%}.c1:after{right:-62px}
+    .c2{left:-1%;bottom:18%}.c2:after{right:-62px}
+    .c3{right:-1%;top:18%}.c3:after{left:-62px;transform:rotate(180deg)}
+    .c4{right:-2%;bottom:18%}.c4:after{left:-62px;transform:rotate(180deg)}
 
-    section{padding:74px 0}
-    .section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}
-    .kicker{color:var(--mint);font-weight:800;text-transform:uppercase;letter-spacing:.13em;font-size:12px}
-    h2{font-size:clamp(34px,4.4vw,52px);line-height:1.05;letter-spacing:-.045em;margin:10px 0 0}
-    .section-head p{max-width:490px;color:var(--muted);line-height:1.65;margin:0}
+    .lightning{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.86}
+    .lightning path{fill:none;stroke:#2bbdff;stroke-width:1.7;filter:url(#glow)}
+    .lightning .fine{stroke-width:.75;opacity:.7}
+    .cables{position:absolute;left:0;right:0;bottom:-15px;height:190px;z-index:0;pointer-events:none;opacity:.8}
+    .cables path{fill:none;stroke-linecap:round;filter:url(#cableGlow)}
+    .cables .a{stroke:#17c7ff;stroke-width:5}
+    .cables .b{stroke:#1479ff;stroke-width:2.4}
+    .cables .c{stroke:#4af1ff;stroke-width:1.2}
 
-    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    section{padding:78px 0;position:relative}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:34px;margin-bottom:28px}
+    .kicker{color:#5deaff;text-transform:uppercase;font-size:12px;font-weight:900;letter-spacing:.16em}
+    h2{margin:8px 0 0;font-size:clamp(34px,4vw,54px);line-height:1.03;letter-spacing:-.045em}
+    .section-head p{max-width:620px;margin:0;color:#9fb6c1;line-height:1.6}
+
+    .features{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
     .card{
-      padding:25px;border-radius:22px;border:1px solid var(--line);
-      background:linear-gradient(180deg,rgba(18,45,52,.68),rgba(10,28,33,.62));
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.035)
+      position:relative;overflow:hidden;
+      border:1px solid rgba(66,213,242,.28);border-radius:20px;padding:23px;
+      background:
+        linear-gradient(180deg,rgba(10,43,56,.88),rgba(4,25,35,.78));
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.03),0 14px 36px rgba(0,0,0,.18)
+    }
+    .card:before{
+      content:"";position:absolute;inset:0;pointer-events:none;
+      background:linear-gradient(120deg,rgba(60,235,255,.05),transparent 35%)
     }
     .icon{
-      width:44px;height:44px;border-radius:13px;display:grid;place-items:center;margin-bottom:20px;
-      background:rgba(119,224,194,.1);border:1px solid rgba(119,224,194,.16);color:var(--mint)
+      width:46px;height:46px;border-radius:14px;display:grid;place-items:center;margin-bottom:18px;
+      color:#6ff4ff;background:rgba(28,113,131,.24);border:1px solid rgba(88,236,255,.22);
+      box-shadow:0 0 22px rgba(66,231,255,.08)
     }
-    .icon svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8}
-    .card h3{font-size:18px;margin:0 0 9px;letter-spacing:-.02em}
-    .card p{color:var(--muted);line-height:1.55;margin:0;font-size:14px}
+    .icon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8}
+    .card h3{font-size:17px;margin:0 0 8px}
+    .card p{margin:0;color:#abc0c9;font-size:14px;line-height:1.55}
 
-    .workflow{
-      border:1px solid var(--line);border-radius:28px;background:rgba(12,31,36,.62);
-      overflow:hidden;display:grid;grid-template-columns:repeat(4,1fr)
+    .workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .step{
+      padding:25px;border-radius:18px;border:1px solid rgba(68,214,242,.23);
+      background:linear-gradient(180deg,rgba(7,36,48,.78),rgba(3,20,28,.72));
+      position:relative
     }
-    .step{padding:28px;position:relative;min-height:190px}
-    .step+.step{border-left:1px solid var(--line)}
-    .num{font-size:12px;font-weight:900;color:var(--mint);letter-spacing:.12em;margin-bottom:34px}
-    .step h3{margin:0 0 9px;font-size:18px}
-    .step p{margin:0;color:var(--muted);font-size:14px;line-height:1.55}
+    .num{font-size:12px;color:#63eeff;font-weight:900;letter-spacing:.12em;margin-bottom:28px}
+    .step h3{margin:0 0 8px}
+    .step p{margin:0;color:#9eb6bf;font-size:14px;line-height:1.5}
+    .step:not(:last-child):after{
+      content:"›";position:absolute;right:-13px;top:48%;z-index:4;color:#57efff;font-size:30px;text-shadow:0 0 18px #57efff
+    }
 
-    .demo-grid{display:grid;grid-template-columns:1fr .86fr;gap:18px;align-items:stretch}
-    .demo-main,.credentials{
-      border:1px solid var(--line);border-radius:28px;padding:32px;background:rgba(12,31,36,.7)
+    .custom-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+    .custom-panel,.demo-panel,.contact-panel{
+      border:1px solid rgba(65,215,244,.28);border-radius:22px;
+      background:linear-gradient(145deg,rgba(8,42,55,.9),rgba(4,23,32,.84));
+      padding:30px;box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 18px 42px rgba(0,0,0,.18)
     }
-    .demo-main h3{font-size:28px;letter-spacing:-.035em;margin:0 0 12px}
-    .demo-main p{color:var(--muted);line-height:1.65;margin:0 0 24px}
-    .demo-buttons{display:flex;gap:11px;flex-wrap:wrap}
-    .credentials{background:linear-gradient(145deg,rgba(119,224,194,.09),rgba(12,31,36,.74))}
-    .credentials h3{margin:0 0 18px;font-size:20px}
-    .cred{
-      display:flex;align-items:center;justify-content:space-between;gap:14px;
-      padding:13px 14px;margin-top:10px;border-radius:14px;border:1px solid var(--line);
-      background:rgba(2,14,17,.38)
+    .custom-panel h3,.demo-panel h3,.contact-panel h3{font-size:26px;margin:0 0 12px}
+    .custom-panel p,.demo-panel p,.contact-panel p{color:#a9bec8;line-height:1.6;margin:0}
+    .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+    .chip{
+      padding:9px 12px;border-radius:999px;border:1px solid rgba(71,218,244,.24);
+      background:rgba(9,51,63,.6);color:#c8faff;font-size:13px
     }
-    .cred small{display:block;color:#719088;margin-bottom:4px}
-    .cred code{color:#e9fff8;font-size:14px;word-break:break-all}
-    .copy{
-      flex:0 0 auto;border:0;border-radius:10px;padding:9px 11px;background:rgba(119,224,194,.11);
-      color:var(--mint2);cursor:pointer;font-weight:750
+    .demo-panel{position:relative;overflow:hidden}
+    .demo-panel:after{
+      content:"";position:absolute;width:260px;height:260px;right:-100px;bottom:-120px;border-radius:50%;
+      background:radial-gradient(circle,rgba(29,194,255,.22),transparent 68%)
     }
-    .copy:hover{background:rgba(119,224,194,.18)}
+    .creds{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}
+    .cred{padding:13px;border:1px solid rgba(67,213,240,.2);border-radius:14px;background:rgba(2,17,24,.54)}
+    .cred small{display:block;color:#7297a5;margin-bottom:5px}
+    .cred code{font-size:13px;color:#e8fdff;word-break:break-all}
+    .copy{margin-top:8px;padding:7px 9px;border:0;border-radius:8px;background:rgba(61,212,235,.12);color:#89f2ff;cursor:pointer;font-weight:800}
 
-    .video-block{
-      border:1px solid var(--line);border-radius:28px;padding:20px;background:rgba(10,27,32,.78);
-      box-shadow:var(--shadow)
-    }
+    .video-block{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:center}
     .video-shell{
-      border-radius:20px;overflow:hidden;background:#02080a;max-width:430px;margin:auto;
-      border:1px solid rgba(255,255,255,.07)
+      max-width:390px;margin:auto;padding:10px;border-radius:38px;
+      background:linear-gradient(150deg,#244652,#09161d);border:1px solid rgba(93,230,255,.28);
+      box-shadow:0 0 42px rgba(44,206,255,.19),0 30px 70px rgba(0,0,0,.34)
     }
-    .video-shell video{display:block;width:100%;aspect-ratio:576/1400;object-fit:cover}
-    .video-caption{padding:18px 4px 2px;display:flex;justify-content:space-between;gap:16px;color:var(--muted);font-size:13px}
+    .video-shell video{width:100%;display:block;border-radius:30px;aspect-ratio:576/1400;object-fit:cover}
+    .video-copy h2{margin-top:0}
+    .video-copy p{color:#a8bec7;line-height:1.65;max-width:650px}
 
-    .pilot{
-      position:relative;overflow:hidden;padding:42px;border-radius:30px;border:1px solid rgba(119,224,194,.22);
+    .contact-wrap{
+      position:relative;overflow:hidden;
+      border:1px solid rgba(76,222,247,.32);border-radius:28px;padding:34px;
       background:
-        radial-gradient(500px 300px at 95% 0, rgba(119,224,194,.16), transparent 60%),
-        linear-gradient(135deg,rgba(18,48,54,.92),rgba(9,27,32,.92))
+        radial-gradient(430px 260px at 92% 0,rgba(37,187,255,.16),transparent 65%),
+        linear-gradient(135deg,rgba(8,44,58,.95),rgba(3,20,28,.92))
     }
-    .pilot h2{max-width:780px;margin:0 0 17px}
-    .pilot p{max-width:720px;color:var(--muted);line-height:1.65;margin:0 0 26px}
+    .contact-wrap:before{
+      content:"";position:absolute;inset:auto -60px -80px auto;width:400px;height:190px;
+      background:
+        radial-gradient(ellipse at center,rgba(35,212,255,.13),transparent 66%);
+      transform:rotate(-12deg)
+    }
+    .contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start;position:relative;z-index:2}
+    .contact-title{font-size:clamp(36px,4.6vw,58px);letter-spacing:-.05em;line-height:1.02;margin:5px 0 14px}
+    .contact-sub{color:#abc1ca;line-height:1.65;max-width:650px}
+    .contact-list{display:grid;gap:10px}
+    .contact-link{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+      padding:15px 16px;border:1px solid rgba(67,213,240,.22);border-radius:15px;
+      background:rgba(3,21,29,.54);transition:.2s
+    }
+    .contact-link:hover{transform:translateX(3px);border-color:rgba(90,237,255,.52);box-shadow:0 0 24px rgba(55,216,255,.08)}
+    .contact-link span{color:#88a9b5;font-size:12px;text-transform:uppercase;letter-spacing:.11em;font-weight:900}
+    .contact-link strong{font-size:14px;word-break:break-word}
 
-    footer{padding:34px 0 48px;border-top:1px solid var(--line);color:#7f9791;font-size:13px}
-    .foot{display:flex;justify-content:space-between;gap:20px;align-items:center}
+    footer{border-top:1px solid rgba(86,224,247,.12);padding:28px 0 42px;color:#7895a1;font-size:13px}
+    .foot{display:flex;justify-content:space-between;align-items:center;gap:20px}
 
-    @media(max-width:920px){
-      .nav-links{display:none}
-      .hero{padding-top:58px}
-      .hero-grid{grid-template-columns:1fr;gap:54px}
-      .hero-grid>div:first-child{text-align:center}
-      .hero p{margin:auto}.hero-actions,.hero-note{justify-content:center}
-      .phone-wrap{max-width:520px;margin:auto;width:100%}
-      .fc1{left:3%}.fc2{right:1%}
+    @media(max-width:1120px){
       .features{grid-template-columns:repeat(2,1fr)}
+      .callout{display:none}
+      .hero-grid{grid-template-columns:1fr .8fr}
+    }
+    @media(max-width:900px){
+      .nav-links{display:none}
+      .hero{min-height:auto}
+      .hero-grid{grid-template-columns:1fr;gap:44px;padding:58px 0 72px}
+      .hero-grid>div:first-child{text-align:center}
+      .lead{margin:auto}.hero-actions,.proof{justify-content:center}
+      .mobile-note{margin-left:auto;margin-right:auto}
+      .device-stage{min-height:auto;padding:20px 0}
+      .custom-grid,.video-block,.contact-grid{grid-template-columns:1fr}
       .workflow{grid-template-columns:repeat(2,1fr)}
-      .step:nth-child(3){border-left:0;border-top:1px solid var(--line)}
-      .step:nth-child(4){border-top:1px solid var(--line)}
-      .demo-grid{grid-template-columns:1fr}
-      .section-head{align-items:start;flex-direction:column}
+      .step:nth-child(2):after{display:none}
+      .video-copy{text-align:center}
+      .section-head{align-items:flex-start;flex-direction:column}
     }
     @media(max-width:620px){
       .wrap{width:min(var(--max),calc(100% - 24px))}
-      nav .nav-cta{padding:9px 12px}
+      nav .nav-cta{font-size:12px;padding:9px 11px}
+      .brand{font-size:18px}
       h1{font-size:48px}
-      .hero p{font-size:17px}
-      .features{grid-template-columns:1fr}
-      .workflow{grid-template-columns:1fr}
-      .step+.step,.step:nth-child(3),.step:nth-child(4){border-left:0;border-top:1px solid var(--line)}
-      .floating-card{display:none}
+      .lead{font-size:17px}
+      .features,.workflow{grid-template-columns:1fr}
+      .step:after{display:none!important}
       section{padding:58px 0}
-      .demo-main,.credentials,.pilot{padding:24px}
-      .foot{align-items:flex-start;flex-direction:column}
+      .custom-panel,.demo-panel,.contact-panel,.contact-wrap{padding:22px}
+      .creds{grid-template-columns:1fr}
+      .foot{flex-direction:column;align-items:flex-start}
+      .cables{height:130px}
     }
   </style>
 </head>
@@ -230,9 +317,10 @@
       <div class="nav-links">
         <a href="#features">Features</a>
         <a href="#workflow">How it works</a>
+        <a href="#custom">For your company</a>
         <a href="#video">Video</a>
-        <a href="#custom">Custom</a>
         <a href="#demo">Live demo</a>
+        <a href="#contact">Contact</a>
       </div>
       <a class="nav-cta" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener">Try mobile demo</a>
     </div>
@@ -240,29 +328,47 @@
 
   <main>
     <header class="hero">
+      <svg class="lightning" viewBox="0 0 1600 820" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <path d="M650 40 L690 83 674 103 728 137 709 161 760 197 744 226 807 266 788 300 842 331"/>
+        <path class="fine" d="M720 110 L675 142 644 169 619 205 584 226"/>
+        <path class="fine" d="M758 194 L804 165 842 137 867 98"/>
+        <path d="M1510 38 L1473 80 1491 107 1442 146 1454 174 1393 220 1406 251 1362 284"/>
+        <path class="fine" d="M1467 87 L1419 67 1381 53"/>
+        <path class="fine" d="M1408 246 L1450 267 1488 306 1511 352"/>
+        <path d="M715 522 L668 552 690 577 635 611 647 642 596 682"/>
+        <path class="fine" d="M649 611 L603 584 574 557"/>
+      </svg>
+
       <div class="wrap hero-grid">
         <div>
-          <div class="eyebrow"><span class="dot"></span> Working prototype — available to try now</div>
-          <h1>Map every cable.<br><span class="grad">Know every port.</span></h1>
-          <p>
-            CableMap turns any floor plan or site photo into a live field map for structured cabling, fiber, Wi‑Fi and CCTV work.
-            Record every point, cabinet, patch panel and physical port in one place.
-          </p>
+          <div class="eyebrow"><i></i> Working prototype — available to try now</div>
+          <h1>Map every cable.<br>Know every <span class="accent">port.</span></h1>
+          <p class="lead">Turn floor plans or site photos into a live field map for structured cabling, fiber, Wi‑Fi and CCTV work. Record and manage every point, cabinet, patch panel and physical port in one place.</p>
+
           <div class="hero-actions">
-            <a class="btn primary" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener">Open mobile demo <span>↗</span></a>
+            <a class="btn primary" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener">Open mobile demo ↗</a>
             <a class="btn secondary" href="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-latest.apk">Download Android APK</a>
           </div>
-          <div class="hero-note">
-            <span>Mobile prototype</span>
-            <span>Best viewed on a phone</span>
+
+          <div class="proof">
+            <span>No setup required</span>
             <span>Demo project included</span>
+            <span>Use your own plan too</span>
           </div>
+
+          <div class="mobile-note">ⓘ Prototype is mobile-first and optimized for phone screens.</div>
         </div>
 
-        <div class="phone-wrap">
-          <div class="glow"></div>
-          <div class="floating-card fc1"><strong>Point → Port</strong>Cabinet, panel and exact port</div>
-          <div class="floating-card fc2"><strong>Live field map</strong>Points, cameras, Wi‑Fi, cabinets</div>
+        <div class="device-stage">
+          <div class="halo"></div>
+          <div class="callout c1"><strong>Point → Port</strong><span>Cabinet, panel and exact physical port</span></div>
+          <div class="callout c2"><strong>Floor plans</strong><span>Use drawings or site photos</span></div>
+          <div class="callout c3"><strong>Live field map</strong><span>Points, cameras, Wi‑Fi, cabinets</span></div>
+          <div class="callout c4"><strong>Field-ready</strong><span>Built for installation and maintenance</span></div>
+
           <div class="phone">
             <video class="demo-video start-at-four" muted playsinline loop controls preload="auto" style="opacity:0;transition:opacity .15s ease">
               <source src="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4" type="video/mp4">
@@ -270,48 +376,48 @@
           </div>
         </div>
       </div>
+
+      <svg class="cables" viewBox="0 0 1600 190" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <filter id="cableGlow"><feGaussianBlur stdDeviation="4" result="cg"/><feMerge><feMergeNode in="cg"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <path class="a" d="M-20 160 C260 110 410 185 620 140 S980 85 1230 132 1470 92 1620 45"/>
+        <path class="b" d="M-10 177 C280 132 430 190 660 152 S1040 96 1250 150 1470 118 1620 69"/>
+        <path class="c" d="M0 145 C260 92 430 170 620 126 S990 72 1230 118 1460 71 1600 24"/>
+        <path class="c" d="M20 183 C300 145 470 201 680 161 S1040 110 1280 164 1490 137 1610 93"/>
+      </svg>
     </header>
 
     <section id="features">
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="kicker">Built for the field</div>
-            <h2>From floor plan to physical port</h2>
+            <div class="kicker">Key features</div>
+            <h2>Everything you need from plan to port</h2>
           </div>
-          <p>Keep the installation understandable after the job is finished — without rebuilding it from paper notes, phone photos or memory.</p>
+          <p>Built to make field documentation faster, clearer and easier to maintain after the installation team leaves the site.</p>
         </div>
 
         <div class="features">
           <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 5v14M4 10h4M13 9h4M13 14h3"/></svg></div>
-            <h3>Any plan becomes the map</h3>
-            <p>Upload a floor plan or photo, or simply photograph a paper plan and start placing infrastructure directly on it.</p>
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM8 6v12M4 11h4M13 10h4M13 14h3"/></svg></div>
+            <h3>Visual mapping</h3>
+            <p>Work with floor plans or site photos and build a live field map directly on top of them.</p>
           </article>
           <article class="card">
             <div class="icon"><svg viewBox="0 0 24 24"><circle cx="7" cy="12" r="3"/><circle cx="17" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><path d="M9.5 10.5l5-2M9.5 13.5l5 2"/></svg></div>
-            <h3>Outlet-to-port connection</h3>
-            <p>Link a field point to the exact cabinet, patch panel and physical port — and move it later when the installation changes.</p>
+            <h3>Full cable infrastructure</h3>
+            <p>Track points, cabinets, patch panels and the exact physical port behind each field connection.</p>
           </article>
           <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h2M14 8h2M8 12h2M14 12h2M8 16h2M14 16h2"/></svg></div>
-            <h3>Cabinets & patch panels</h3>
-            <p>See panels, port capacity and which physical ports are already connected or still available.</p>
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M7 3h10v18H7zM10 6h4M11 18h2"/></svg></div>
+            <h3>Field-first</h3>
+            <p>Designed for fast use on a phone while walking the site, installing, testing or troubleshooting.</p>
           </article>
           <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 6"/><path d="M4 4h16v16H4z"/></svg></div>
-            <h3>Installation status</h3>
-            <p>Track progress from cable pulled through installation and testing, so the next technician sees the current state immediately.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM8 6l2-2h4l2 2"/><circle cx="12" cy="12" r="3"/></svg></div>
-            <h3>Photos & notes</h3>
-            <p>Add field photos and comments to points so problems, routing details and site context stay attached to the right location.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 8v5l3 2"/><circle cx="12" cy="12" r="8"/><path d="M7 4l-2 2M17 4l2 2"/></svg></div>
-            <h3>Who changed what</h3>
-            <p>See who created a point or cabinet and who last modified it, with creation and last-update timestamps.</p>
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 20V10M9 20V4M14 20v-7M19 20V7"/><path d="M2 20h20"/></svg></div>
+            <h3>Structured data</h3>
+            <p>Keep network documentation complete, understandable and up to date instead of scattered across notes and photos.</p>
           </article>
         </div>
       </div>
@@ -321,92 +427,71 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="kicker">Workflow</div>
-            <h2>Four simple steps</h2>
+            <div class="kicker">How it works</div>
+            <h2>A simple workflow from plan to port</h2>
           </div>
-          <p>The current prototype already covers the core workflow from site plan to a documented physical connection.</p>
+          <p>The current prototype already covers the core field process from creating the map to preserving the final port-level record.</p>
         </div>
         <div class="workflow">
-          <div class="step">
-            <div class="num">01 — MAP</div>
-            <h3>Load the site plan</h3>
-            <p>Use an existing drawing, screenshot or a phone photo as the working map.</p>
+          <div class="step"><div class="num">01 — ADD</div><h3>Add a plan</h3><p>Upload a floor plan, screenshot or site photo and use it as the working map.</p></div>
+          <div class="step"><div class="num">02 — MAP</div><h3>Map points</h3><p>Place outlets, cabinets, cameras and Wi‑Fi exactly where they exist on site.</p></div>
+          <div class="step"><div class="num">03 — DEFINE</div><h3>Define ports</h3><p>Add patch panels and assign every field point to its exact cabinet and physical port.</p></div>
+          <div class="step"><div class="num">04 — USE</div><h3>Use it in the field</h3><p>Find, verify, move and update everything from your phone during installation or maintenance.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="custom">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker">For your company</div>
+            <h2>Custom features can be built around your workflow</h2>
           </div>
-          <div class="step">
-            <div class="num">02 — PLACE</div>
-            <h3>Add field objects</h3>
-            <p>Place outlets, Wi‑Fi, cameras and cabinets directly where they exist on site.</p>
+          <p>CableMap is not a fixed one-size-fits-all product. A dedicated version can be adapted to the way your company already works.</p>
+        </div>
+
+        <div class="custom-grid">
+          <div class="custom-panel">
+            <h3>Custom for your company</h3>
+            <p>Additional functions can be developed for a specific company: branding, roles, reports, approvals, company-specific statuses, exports, integrations and other workflow-specific tools.</p>
+            <div class="chips">
+              <span class="chip">Custom features</span>
+              <span class="chip">Your branding</span>
+              <span class="chip">Roles & access</span>
+              <span class="chip">Reports & exports</span>
+              <span class="chip">API integrations</span>
+              <span class="chip">Internal workflows</span>
+            </div>
           </div>
-          <div class="step">
-            <div class="num">03 — CONNECT</div>
-            <h3>Assign the exact port</h3>
-            <p>Connect each point to its cabinet, patch panel and physical port number.</p>
-          </div>
-          <div class="step">
-            <div class="num">04 — KEEP</div>
-            <h3>Preserve the record</h3>
-            <p>Status, photos, notes and change metadata stay with the project for the next visit.</p>
+
+          <div class="custom-panel">
+            <h3>Already have an app?</h3>
+            <p>CableMap functionality can also be integrated as a module inside an existing company application, instead of being delivered as a separate standalone product.</p>
+            <div class="chips">
+              <span class="chip">Existing app integration</span>
+              <span class="chip">White-label version</span>
+              <span class="chip">Separate branded app</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="video">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">Video demo</div>
-            <h2>See the prototype in action</h2>
-          </div>
-          <p>The demo shows the real workflow: opening a point, assigning cabinet/panel/port, creating a camera and seeing it appear on the selected physical port.</p>
+      <div class="wrap video-block">
+        <div class="video-shell">
+          <video class="demo-video start-at-four" controls playsinline preload="auto" style="opacity:0;transition:opacity .15s ease">
+            <source src="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4" type="video/mp4">
+          </video>
         </div>
-        <div class="video-block">
-          <div class="video-shell">
-            <video class="demo-video start-at-four" controls playsinline preload="auto" style="opacity:0;transition:opacity .15s ease">
-              <source src="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4" type="video/mp4">
-            </video>
+        <div class="video-copy">
+          <div class="kicker">Video demo</div>
+          <h2>See the actual prototype in action</h2>
+          <p>The video shows the real flow: opening a point, assigning cabinet → patch panel → port, moving connections, creating a camera on the plan and verifying that it appears on the selected physical port.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4" target="_blank" rel="noopener">Open full video ↗</a>
           </div>
-          <div class="video-caption">
-            <span>CableMap working prototype</span>
-            <a href="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4" target="_blank" rel="noopener">Open video ↗</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="custom">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">Custom development</div>
-            <h2>Custom for your company</h2>
-          </div>
-          <p>CableMap can be adapted to your company’s workflow instead of forcing your team into a fixed process.</p>
-        </div>
-
-        <div class="features">
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM8 10h8M8 14h5"/></svg></div>
-            <h3>Company-specific features</h3>
-            <p>Add the functions your team actually needs — custom workflows, reports, statuses, forms, approvals and project-specific tools.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></div>
-            <h3>Branding, roles & access</h3>
-            <p>Your logo, colors, user roles, permissions and company-specific access rules can be added to a dedicated version.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 14h6v6h-6zM14 4h6v6h-6zM4 14h6v6H4z"/><path d="M10 7h4M17 10v4M14 17h-4M7 14v-4"/></svg></div>
-            <h3>Integrations</h3>
-            <p>Connect CableMap with internal systems, exports, APIs, reporting tools or other software already used by your company.</p>
-          </article>
-        </div>
-
-        <div class="pilot" style="margin-top:18px;padding:30px 34px">
-          <div class="kicker">Existing software</div>
-          <h2 style="font-size:clamp(28px,3.6vw,42px)">Need CableMap inside your existing app?</h2>
-          <p>Custom integration is also possible. CableMap functionality can be added as a module inside an existing company application, or delivered as a separate branded app built around your workflow.</p>
         </div>
       </div>
     </section>
@@ -415,45 +500,56 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="kicker">Try it yourself</div>
-            <h2>Live demo access</h2>
-            <div style="display:inline-flex;margin-top:14px;padding:8px 11px;border-radius:999px;border:1px solid rgba(119,224,194,.22);background:rgba(119,224,194,.08);color:#baf4e4;font-size:12px;font-weight:800;letter-spacing:.04em">MOBILE PROTOTYPE</div>
+            <div class="kicker">Live demo</div>
+            <h2>Try CableMap yourself</h2>
           </div>
-          <p>A demo project is already inside. You can also upload your own floor plan or photo and create points and cabinets yourself.</p>
+          <p>The prototype is mobile-first. For the intended experience, open the web demo on a phone in Safari or Chrome, or install the Android APK.</p>
         </div>
 
-        <div class="demo-grid">
-          <div class="demo-main">
-            <h3>Open CableMap on your phone</h3>
-            <p><strong style="color:#eafff8">This prototype is designed for mobile screens.</strong> On desktop, the web demo may look stretched or oversized. For the intended experience, open it on a phone in Safari or Chrome, or install the Android APK. The same demo credentials work for both.</p>
-            <div class="demo-buttons">
-              <a class="btn primary" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener">Open mobile web demo</a>
-              <a class="btn secondary" href="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-latest.apk">Download APK</a>
+        <div class="custom-grid">
+          <div class="demo-panel">
+            <h3>Mobile web demo</h3>
+            <p>A ready-to-use demo project is already inside. You can also upload your own plan or photo and create points and cabinets yourself.</p>
+            <div class="creds">
+              <div class="cred"><small>Login</small><code>kors-film@ya.ru</code><br><button class="copy" data-copy="kors-film@ya.ru">Copy login</button></div>
+              <div class="cred"><small>Password</small><code>123123</code><br><button class="copy" data-copy="123123">Copy password</button></div>
             </div>
+            <a class="btn primary" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener">Open mobile demo ↗</a>
           </div>
 
-          <div class="credentials">
-            <h3>Demo credentials</h3>
-            <div class="cred">
-              <div><small>Login</small><code id="login">kors-film@ya.ru</code></div>
-              <button class="copy" data-copy="kors-film@ya.ru">Copy</button>
-            </div>
-            <div class="cred">
-              <div><small>Password</small><code id="password">123123</code></div>
-              <button class="copy" data-copy="123123">Copy</button>
+          <div class="demo-panel">
+            <h3>Android APK</h3>
+            <p>Install the current Android demo build directly. Android may show the standard “unknown source” warning because this is a direct demo APK rather than a Play Store release.</p>
+            <div class="hero-actions">
+              <a class="btn secondary" href="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-latest.apk">Download Android APK</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section id="contact">
       <div class="wrap">
-        <div class="pilot">
-          <div class="kicker">Real-project pilot</div>
-          <h2>Want to test CableMap on one of your actual sites?</h2>
-          <p>I can configure the current prototype around one real project so your team can evaluate the workflow with its own plan, cabinets, patch panels and points before deciding on a commercial format.</p>
-          <a class="btn primary" href="mailto:oxta.ha@gmail.com?subject=CableMap%20pilot">Discuss a pilot</a>
+        <div class="contact-wrap">
+          <div class="contact-grid">
+            <div>
+              <div class="kicker">Contact</div>
+              <div class="contact-title">Want CableMap for your company?</div>
+              <p class="contact-sub">I can configure the current prototype around one real project for evaluation, or build a dedicated version with additional features for your company.</p>
+              <div class="hero-actions">
+                <a class="btn primary" href="mailto:oxta.ha@gmail.com?subject=CableMap%20inquiry">Email me</a>
+                <a class="btn secondary" href="tel:+972529336010">Call</a>
+              </div>
+            </div>
+
+            <div class="contact-list">
+              <a class="contact-link" href="mailto:oxta.ha@gmail.com"><div><span>Email</span><br><strong>oxta.ha@gmail.com</strong></div><b>↗</b></a>
+              <a class="contact-link" href="tel:+972529336010"><div><span>Phone</span><br><strong>+972 52-933-6010</strong></div><b>↗</b></a>
+              <a class="contact-link" href="https://www.linkedin.com/in/konstantin-sergeev-a15a66306/" target="_blank" rel="noopener"><div><span>LinkedIn</span><br><strong>Konstantin Sergeev</strong></div><b>↗</b></a>
+              <a class="contact-link" href="https://www.behance.net/24512dab" target="_blank" rel="noopener"><div><span>Behance</span><br><strong>Portfolio</strong></div><b>↗</b></a>
+              <a class="contact-link" href="https://github.com/KostttS" target="_blank" rel="noopener"><div><span>GitHub</span><br><strong>KostttS</strong></div><b>↗</b></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -462,7 +558,7 @@
   <footer>
     <div class="wrap foot">
       <div class="brand"><span class="logo" style="width:30px;height:30px;border-radius:9px">C</span> CableMap</div>
-      <div>Working prototype by Konstantin Sergeev · Mobile App Developer</div>
+      <div>Konstantin Sergeev · Mobile App Developer · CableMap working prototype</div>
     </div>
   </footer>
 
@@ -478,16 +574,14 @@
       video.addEventListener('error', () => { video.style.opacity = '1'; }, { once: true });
     });
 
-    document.querySelectorAll('.copy').forEach(btn=>{
-      btn.addEventListener('click', async ()=>{
-        try{
+    document.querySelectorAll('.copy').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        try {
           await navigator.clipboard.writeText(btn.dataset.copy);
-          const old=btn.textContent;
-          btn.textContent='Copied';
-          setTimeout(()=>btn.textContent=old,1200);
-        }catch(e){
-          btn.textContent='Select & copy';
-        }
+          const old = btn.textContent;
+          btn.textContent = 'Copied';
+          setTimeout(() => btn.textContent = old, 1200);
+        } catch (_) {}
       });
     });
   </script>
