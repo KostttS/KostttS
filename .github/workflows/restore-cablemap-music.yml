@@ -1,4 +1,4 @@
-name: Restore calm music to CableMap demo video
+name: Update CableMap video soundtrack
 
 on:
   push:
@@ -32,32 +32,41 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-      - name: Compose gentle instrumental for the complete video
+      - name: Compose upbeat instrumental for the complete video
         run: |
           DURATION=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 cablemap-public/CableMap-demo-video.mp4)
           echo "Original video duration: $DURATION seconds"
-          python scripts/build_cablemap_music.py /tmp/cablemap-ambient.wav "$DURATION"
-      - name: Replace old beep with music and leave visual track bit-for-bit copied
+          python scripts/build_cablemap_music.py /tmp/cablemap-upbeat.wav "$DURATION"
+      - name: Replace soundtrack while stream-copying the original video
         run: |
           ffmpeg -hide_banner -loglevel error -y \
             -i cablemap-public/CableMap-demo-video.mp4 \
-            -i /tmp/cablemap-ambient.wav \
+            -i /tmp/cablemap-upbeat.wav \
             -map 0:v:0 -map 1:a:0 \
-            -c:v copy -c:a aac -b:a 128k -af 'volume=2.2' \
+            -c:v copy -c:a aac -b:a 160k -af 'volume=2.3,alimiter=limit=0.90' \
             -movflags +faststart -shortest \
-            -metadata:s:a:0 title='CableMap original calm instrumental' \
-            /tmp/cablemap-with-calm-music.mp4
+            -metadata:s:a:0 title='CableMap Upbeat Original Theme' \
+            /tmp/cablemap-with-upbeat-music.mp4
           mv /tmp/cablemap-with-calm-music.mp4 cablemap-public/CableMap-demo-video.mp4
           ffprobe -v error -show_entries stream=index,codec_type,codec_name -of compact cablemap-public/CableMap-demo-video.mp4
-      - name: Refresh website video cache while retaining all visual styling
+      - name: Refresh website video URL without changing the design
         run: |
-          sed -i 's@CableMap-demo-video.mp4@CableMap-demo-video.mp4?audio=calm-20261109@g' cablemap-site/index.html
-      - name: Commit video with restored music and cache-refresh URL
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          file = Path('cablemap-site/index.html')
+          html = file.read_text(encoding='utf-8')
+          html, count = re.subn(r'CableMap-demo-video\.mp4(?:\?audio=[A-Za-z0-9_-]+)?', 'CableMap-demo-video.mp4?audio=upbeat-20261109', html)
+          if count == 0: raise RuntimeError('Missing CableMap demo video sources')
+          file.write_text(html, encoding='utf-8')
+          print('Refreshed', count, 'video references')
+          PY
+      - name: Commit new soundtrack and fresh playback URL
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add cablemap-public/CableMap-demo-video.mp4 cablemap-site/index.html
-          git commit -m 'Replace CableMap demo beep with quiet ambient instrumental; retain video visuals'
+          git commit -m 'Update CableMap demo with upbeat original music; preserve video and design'
           git push origin HEAD:main
 
-# Retry workflow after transient GitHub Actions internal server error.
+# Updated on 2026-11-09 to replace overly somber background music with a 114 BPM original track.
