@@ -28,6 +28,10 @@ jobs:
           python-version: '3.11'
       - name: Install audio synthesis dependency
         run: python -m pip install --disable-pip-version-check numpy
+      - name: Install ffmpeg and ffprobe on the runner
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
       - name: Compose gentle instrumental for the complete video
         run: |
           DURATION=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 cablemap-public/CableMap-demo-video.mp4)
