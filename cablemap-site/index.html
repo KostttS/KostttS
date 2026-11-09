@@ -303,7 +303,178 @@
       .foot{flex-direction:column;align-items:flex-start}
       .cables{height:130px}
     }
-  </style>
+  
+/* CableMap visual redesign: closer to the approved neon mockup, without turning the site into a flat image. */
+:root{--cyan:#23e5f7;--mint:#5ef4eb;--line:rgba(53,227,248,.42)}
+body{
+ background:
+ radial-gradient(900px 490px at 70% 14%,rgba(0,132,232,.16),transparent 69%),
+ radial-gradient(720px 380px at 100% 34%,rgba(0,124,234,.12),transparent 75%),
+ linear-gradient(180deg,#01101c 0%,#00131f 50%,#01121b 100%);
+}
+body:before{background-size:34px 34px;background-image:linear-gradient(rgba(60,209,241,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(60,209,241,.045) 1px,transparent 1px)}
+nav{background:rgba(0,15,25,.89);border-bottom-color:rgba(59,225,255,.22)}
+.nav-in{height:60px}
+.brand{font-size:24px;gap:12px}
+.logo{width:41px;height:41px;border-radius:11px;background:linear-gradient(135deg,#70fff0,#18cfe9);box-shadow:0 0 23px rgba(17,238,242,.2)}
+.nav-links{font-size:14px;gap:28px}
+.nav-cta{color:#72fcf4;border:1.3px solid #24e8e5;min-width:134px;text-align:center;background:rgba(4,48,60,.28);border-radius:12px}
+.hero{min-height:0;isolation:isolate}
+.hero:before{background:radial-gradient(600px 350px at 68% 40%,rgba(0,96,221,.18),transparent 73%);z-index:-2}
+.hero-grid{position:relative;z-index:2;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);gap:16px;padding:30px 0 24px}
+.hero-grid>div:first-child{position:relative;z-index:3}
+.eyebrow{padding:7px 12px;font-size:12.5px;color:#82f8f5;border-color:rgba(61,218,234,.53);background:rgba(3,39,54,.5)}
+h1{font-size:clamp(52px,4.35vw,72px);line-height:.98;margin:16px 0 16px;letter-spacing:-.065em;max-width:720px}
+.accent{color:#22e7f4;text-shadow:0 0 20px rgba(40,237,255,.26)}
+.lead{max-width:640px;font-size:16px;line-height:1.46;color:#d4e9f0}
+.hero-actions{margin-top:21px;gap:12px}
+.btn{min-height:50px;font-size:15px;border-radius:12px;padding:0 20px}
+.btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.primary{background:linear-gradient(120deg,#4ef6f4,#26e4ed);box-shadow:0 0 30px rgba(33,226,247,.27);color:#00232b}
+.secondary{background:rgba(4,37,51,.66);border-color:rgba(70,219,244,.55);color:#f8ffff}
+.proof{gap:22px;margin-top:16px;color:#d3e5e9;font-size:12.5px}
+.proof span:before{color:#38f8ec}
+.mobile-note{margin-top:12px;color:#bee2ea;font-size:12px;border-color:rgba(56,221,248,.5)}
+.device-stage{height:478px;min-height:478px;overflow:visible}
+.halo{width:570px;height:490px;opacity:.8;background:radial-gradient(ellipse,rgba(0,145,248,.3),rgba(0,116,240,.06) 52%,transparent 75%)}
+.phone{width:274px;padding:7px;border-radius:38px;background:linear-gradient(145deg,#5ca5dc,#06121e 42%,#03101a);transform:rotate(3.4deg);border:1px solid #2dceff;box-shadow:0 0 0 3px rgba(0,130,235,.3),0 0 26px rgba(32,178,255,.85),0 0 58px rgba(12,122,255,.45),0 20px 50px rgba(0,0,0,.6)}
+.phone:before{top:11px;width:85px;height:21px}
+.phone video{height:458px;aspect-ratio:auto;object-fit:cover;object-position:center center;border-radius:31px;opacity:1!important}
+.callout{display:flex;align-items:center;width:218px;min-height:79px;gap:13px;padding:12px 13px;border:1px solid rgba(45,219,255,.85);border-radius:15px;background:linear-gradient(115deg,rgba(1,34,51,.95),rgba(2,27,44,.91));box-shadow:0 0 20px rgba(0,167,255,.16),inset 0 0 25px rgba(0,146,247,.06)}
+.callout strong{font-size:16px;margin:0 0 4px;color:#f7fdff;white-space:nowrap}
+.callout span{font-size:12.5px;line-height:1.24}
+.callout-icon{flex-shrink:0;display:flex;align-items:center;color:#6ffaff!important;filter:drop-shadow(0 0 8px rgba(31,236,255,.55))}
+.callout-icon svg{width:35px;height:35px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linejoin:round;stroke-linecap:round}
+.callout-copy{min-width:0}
+.callout:after{width:52px;box-shadow:0 0 9px #13d3ff}
+.callout:before{content:"";position:absolute;width:8px;height:8px;top:calc(50% - 4px);background:#aaffff;border-radius:50%;box-shadow:0 0 8px #2deefe,0 0 19px #08bdff}
+.c1{left:-3%;top:16%}.c2{left:-4%;bottom:18%}.c3{right:-2%;top:16%}.c4{right:-3%;bottom:18%}
+.c1:before,.c2:before{right:-55px}.c3:before,.c4:before{left:-55px}
+.lightning{z-index:1;inset:0;width:100%;height:100%;opacity:1}
+.lightning path{fill:none;stroke-linecap:round;stroke-linejoin:round;filter:none}
+.lightning .electric-halo{stroke:#126cfd;stroke-width:8;opacity:.77;filter:url(#electricGlow)}
+.lightning .electric-blue{stroke:#21a9ff;stroke-width:2.9;opacity:.95;filter:drop-shadow(0 0 4px #168dff)}
+.lightning .electric-core{stroke:#c9fbff;stroke-width:.95;opacity:.95}
+.lightning .electric-branch-glow{stroke:#0875ff;stroke-width:4.4;opacity:.65;filter:url(#electricGlow)}
+.lightning .electric-branch{stroke:#36baff;stroke-width:1.1;opacity:.8}
+.cables{height:140px;bottom:-13px;z-index:1;opacity:.94}
+.cables .a{stroke-width:5;filter:drop-shadow(0 0 6px #008efa)}
+.cables .b{stroke-width:2.8}.cables .c{stroke-width:1.6}
+section{padding:49px 0}
+#features{padding:12px 0 14px;z-index:3}
+#features .section-head{align-items:center;margin-bottom:14px;justify-content:flex-start;gap:22px}
+#features .section-head .kicker{display:none}
+#features .section-head h2{font-size:26px;letter-spacing:-.035em;white-space:nowrap;margin:0}
+#features .section-head h2:after{content:"/";font-weight:300;color:#37e7f1;margin-left:22px}
+#features .section-head p{max-width:850px;font-size:13px;line-height:1.4;color:#b9d5df}
+.features{gap:14px}
+.features .card{display:grid;grid-template-columns:59px minmax(0,1fr);grid-template-rows:auto auto;column-gap:13px;align-content:center;min-height:98px;padding:14px 15px;border-color:rgba(51,221,248,.45);border-radius:14px;background:linear-gradient(105deg,rgba(4,49,65,.87),rgba(1,26,41,.96))}
+.features .card .icon{grid-column:1;grid-row:1 / span 2;align-self:center;width:53px;height:53px;margin:0;border-radius:50%;background:radial-gradient(circle,rgba(0,230,243,.23),rgba(0,81,101,.4));border-color:rgba(21,212,242,.13);color:#79faff}
+.features .card .icon svg{width:30px;height:30px;stroke-linejoin:round;stroke-linecap:round}
+.features .card h3{grid-column:2;grid-row:1;font-size:15.5px;margin:0 0 5px;line-height:1.15}
+.features .card p{grid-column:2;grid-row:2;font-size:12.3px;line-height:1.3;color:#d1e5eb}
+.overview-section{padding:16px 0 50px}
+.overview-grid{display:grid;grid-template-columns:1.15fr 1fr .95fr;gap:18px;align-items:stretch}
+.overview-head{display:flex;align-items:center;gap:19px;margin:2px 0 24px;white-space:nowrap}
+.overview-head h2{font-size:25px;margin:0;line-height:1}
+.overview-head p{margin:0;color:#b7d1d9;font-size:12px;white-space:normal}
+.overview-head .slash{color:#20edff;font-size:30px;font-weight:250}
+.steps-inline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+.mini-step{text-align:center;position:relative;min-width:0}
+.mini-step:not(:last-child):after{content:"›";font-size:30px;font-weight:200;position:absolute;top:12px;right:-11px;color:#5ff6fc;text-shadow:0 0 12px #13e4ff;z-index:3}
+.step-symbol{margin:0 auto 9px;display:grid;place-items:center;width:61px;height:61px;border:1px solid #2be4ff;border-radius:12px;color:#7afaff;background:linear-gradient(145deg,rgba(0,76,96,.38),rgba(1,22,34,.7));box-shadow:0 0 17px rgba(0,160,255,.13)}
+.step-symbol svg{width:31px;height:31px;stroke:currentColor;fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.7}
+.mini-step h3{font-size:13px;line-height:1.2;margin:0 0 5px;white-space:nowrap}
+.mini-step p{font-size:11.5px;line-height:1.28;color:#c2d8df;margin:0}
+.overview-panel{position:relative;overflow:hidden;padding:18px 20px 16px;border:1px solid rgba(42,224,250,.54);border-radius:16px;background:linear-gradient(120deg,rgba(2,45,62,.97),rgba(1,29,43,.95));box-shadow:inset 0 0 30px rgba(0,166,235,.05)}
+.overview-panel:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(220px 130px at 0% 100%,rgba(0,177,248,.09),transparent 80%)}
+.panel-heading{display:flex;gap:13px;align-items:center;margin-bottom:7px}
+.panel-heading h2{margin:0;font-size:22px;letter-spacing:-.025em;line-height:1.15}
+.panel-heading .kicker{font-size:10px;letter-spacing:.12em;margin-bottom:4px;color:#6ef3fa}
+.panel-graphic{flex-shrink:0;width:72px;color:#57f5ff;filter:drop-shadow(0 0 9px rgba(0,218,245,.55))}
+.panel-graphic svg{width:64px;height:64px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linejoin:round}
+.overview-panel p{font-size:12px;line-height:1.45;color:#d2e7ed;margin:4px 0 14px}
+.panel-benefits{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 12px}
+.panel-benefits span{font-size:11.3px;color:#e1f5f7;white-space:nowrap}
+.panel-benefits span:before{content:"✓";color:#39f6e8;font-weight:900;margin-right:8px;font-size:15px}
+.preview-panel{background:linear-gradient(120deg,rgba(3,46,66,.9),rgba(0,25,42,.94)),radial-gradient(circle at 95% 30%,rgba(20,127,247,.22),transparent 70%)}
+.play-symbol{width:55px;height:55px;flex-shrink:0;display:grid;place-items:center;border-radius:50%;border:2px solid #49ffef;color:#4efff5;box-shadow:0 0 19px rgba(12,241,241,.31)}
+.play-symbol svg{width:29px;height:29px;stroke:currentColor;fill:none;stroke-width:1.5}
+.preview-panel .full-btn{display:flex;min-height:44px;margin:14px 0 10px}
+.preview-panel small{display:flex;align-items:center;gap:8px;color:#c2dbe3;font-size:10.5px}
+.preview-panel small svg{height:17px;width:17px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.6}
+#video{border-top:1px solid rgba(66,222,247,.13)}
+#demo{background:linear-gradient(180deg,transparent,rgba(3,44,60,.14))}
+@media(max-width:1400px){
+ .hero-grid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
+ h1{font-size:clamp(50px,4.5vw,65px)}
+ .callout{width:190px;padding:10px;gap:8px}
+ .callout-icon svg{width:28px;height:28px}
+ .callout strong{font-size:14px}
+ .callout span{font-size:11px}
+ .overview-grid{grid-template-columns:1.1fr 1fr 1fr;gap:12px}
+ .overview-panel{padding:16px}
+ .panel-heading h2{font-size:19px}
+ .mini-step h3{font-size:12px}
+ .mini-step p{font-size:10.5px}
+}
+@media(max-width:1120px){
+ .hero-grid{grid-template-columns:1fr .85fr;gap:20px}
+ .callout{display:none}
+ .phone{width:240px}
+ .phone video{height:427px}
+ .device-stage{height:467px;min-height:467px}
+ .features{grid-template-columns:repeat(2,1fr)}
+ .overview-grid{grid-template-columns:1fr 1fr}
+ .overview-steps{grid-column:1/-1}
+ .steps-inline{gap:14px}
+ .panel-benefits span{white-space:normal}
+}
+@media(max-width:900px){
+ .nav-in{height:64px}
+ .hero-grid{display:grid;grid-template-columns:1fr;gap:7px;padding:48px 0 16px}
+ .hero-grid>div:first-child{text-align:center}
+ h1{font-size:clamp(46px,8vw,67px);margin:18px auto}
+ .lead{margin:auto}
+ .device-stage{height:460px;min-height:460px;margin-top:12px}
+ .phone{width:242px}
+ .phone video{height:430px}
+ .hero-actions,.proof{justify-content:center}
+ .lightning{opacity:.72}
+ #features{padding-top:24px}
+ .overview-grid{grid-template-columns:1fr 1fr}
+ .overview-steps{grid-column:1/-1}
+}
+@media(max-width:620px){
+ .brand{font-size:19px}
+ .logo{width:35px;height:35px}
+ .nav-cta{min-width:auto;font-size:12px;padding:9px 11px}
+ h1{font-size:clamp(42px,10.7vw,55px)}
+ .lead{font-size:15px}
+ .hero-grid{padding-top:35px}
+ .proof{gap:10px}
+ .device-stage{height:420px;min-height:420px}
+ .phone{width:216px}
+ .phone video{height:387px}
+ .cables{height:85px}
+ #features .section-head{flex-direction:column;align-items:flex-start;gap:8px}
+ #features .section-head h2{font-size:25px}
+ #features .section-head h2:after{display:none}
+ .features{grid-template-columns:1fr}
+ .features .card{min-height:82px}
+ .overview-grid{grid-template-columns:1fr}
+ .overview-steps{grid-column:auto}
+ .overview-head{flex-wrap:wrap;row-gap:4px;margin-bottom:16px}
+ .overview-head h2{font-size:25px}
+ .steps-inline{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+ .mini-step:nth-child(2):after{display:none}
+ .mini-step h3{font-size:13px}
+ .mini-step p{font-size:11px}
+ .overview-panel{padding:20px}
+}
+@media(prefers-reduced-motion:reduce){.btn,.contact-link{transition:none}html{scroll-behavior:auto}}
+
+</style>
 </head>
 <body>
   <nav>
@@ -328,19 +499,25 @@
 
   <main>
     <header class="hero">
-      <svg class="lightning" viewBox="0 0 1600 820" preserveAspectRatio="none" aria-hidden="true">
-        <defs>
-          <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-        </defs>
-        <path d="M650 40 L690 83 674 103 728 137 709 161 760 197 744 226 807 266 788 300 842 331"/>
-        <path class="fine" d="M720 110 L675 142 644 169 619 205 584 226"/>
-        <path class="fine" d="M758 194 L804 165 842 137 867 98"/>
-        <path d="M1510 38 L1473 80 1491 107 1442 146 1454 174 1393 220 1406 251 1362 284"/>
-        <path class="fine" d="M1467 87 L1419 67 1381 53"/>
-        <path class="fine" d="M1408 246 L1450 267 1488 306 1511 352"/>
-        <path d="M715 522 L668 552 690 577 635 611 647 642 596 682"/>
-        <path class="fine" d="M649 611 L603 584 574 557"/>
-      </svg>
+      <svg class="lightning" viewBox="0 0 1600 560" preserveAspectRatio="none" aria-hidden="true">
+ <defs><filter id="electricGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4.3"/></filter></defs>
+ <path class="electric-halo" d="M630 40 L645.7 43.5 L661.4 46.9 L673.9 56.5 L687.7 63.7 L704 65.9 L716.7 75.1 L730.6 82 L740.3 97.1 L749.8 112.5 L772.4 102.8 L777.9 125.9 L799.9 117.1 L811.1 129.3 L826.9 132.6 L841.3 138.4 L848 159.3 L863.8 162.5 L875.1 174.6 L893.9 171.9 L904.3 185.8 L919.2 190.7 L937.1 189.9 L948.2 202.2 L963.7 206.1 L975 218"/><path class="electric-blue" d="M630 40 L645.7 43.5 L661.4 46.9 L673.9 56.5 L687.7 63.7 L704 65.9 L716.7 75.1 L730.6 82 L740.3 97.1 L749.8 112.5 L772.4 102.8 L777.9 125.9 L799.9 117.1 L811.1 129.3 L826.9 132.6 L841.3 138.4 L848 159.3 L863.8 162.5 L875.1 174.6 L893.9 171.9 L904.3 185.8 L919.2 190.7 L937.1 189.9 L948.2 202.2 L963.7 206.1 L975 218"/><path class="electric-core" d="M630 40 L645.7 43.5 L661.4 46.9 L673.9 56.5 L687.7 63.7 L704 65.9 L716.7 75.1 L730.6 82 L740.3 97.1 L749.8 112.5 L772.4 102.8 L777.9 125.9 L799.9 117.1 L811.1 129.3 L826.9 132.6 L841.3 138.4 L848 159.3 L863.8 162.5 L875.1 174.6 L893.9 171.9 L904.3 185.8 L919.2 190.7 L937.1 189.9 L948.2 202.2 L963.7 206.1 L975 218"/>
+ <path class="electric-branch-glow" d="M687.7 63.7 L676.2 63.3 L667.7 58.7 L659.5 53.6 L654.9 43.6 L644.3 42 L644.1 25.8 L630.5 28.3 L625.7 18.5 L617.6 13.3"/><path class="electric-branch" d="M687.7 63.7 L676.2 63.3 L667.7 58.7 L659.5 53.6 L654.9 43.6 L644.3 42 L644.1 25.8 L630.5 28.3 L625.7 18.5 L617.6 13.3"/>
+ <path class="electric-branch-glow" d="M772.4 102.8 L780.6 106 L777 117.1 L787.7 118.6 L790.4 125.4 L787.1 136.4 L792.5 141.5 L798.7 146 L809.5 147.3 L808.9 156.5"/><path class="electric-branch" d="M772.4 102.8 L780.6 106 L777 117.1 L787.7 118.6 L790.4 125.4 L787.1 136.4 L792.5 141.5 L798.7 146 L809.5 147.3 L808.9 156.5"/>
+ <path class="electric-branch-glow" d="M848 159.3 L850.4 152.8 L848.1 148.3 L842.9 145.1 L844.6 138.8 L834 138.1 L842.5 128.8 L833.7 127.2 L826.1 125.1 L829.6 118"/><path class="electric-branch" d="M848 159.3 L850.4 152.8 L848.1 148.3 L842.9 145.1 L844.6 138.8 L834 138.1 L842.5 128.8 L833.7 127.2 L826.1 125.1 L829.6 118"/>
+ <path class="electric-halo" d="M785 226 L800.1 228.2 L807 244.1 L827.3 237.6 L827.2 265.3 L852.6 250.1 L864.1 258.5 L869.3 277.1 L874 296.8 L900.5 280 L901.3 306.1 L926 292.2 L934.4 305.5 L947.2 311.6 L958.7 319.8 L961.6 342.5 L978.7 341.3 L986.5 355.7 L1006.5 349.7 L1015 363"/><path class="electric-blue" d="M785 226 L800.1 228.2 L807 244.1 L827.3 237.6 L827.2 265.3 L852.6 250.1 L864.1 258.5 L869.3 277.1 L874 296.8 L900.5 280 L901.3 306.1 L926 292.2 L934.4 305.5 L947.2 311.6 L958.7 319.8 L961.6 342.5 L978.7 341.3 L986.5 355.7 L1006.5 349.7 L1015 363"/><path class="electric-core" d="M785 226 L800.1 228.2 L807 244.1 L827.3 237.6 L827.2 265.3 L852.6 250.1 L864.1 258.5 L869.3 277.1 L874 296.8 L900.5 280 L901.3 306.1 L926 292.2 L934.4 305.5 L947.2 311.6 L958.7 319.8 L961.6 342.5 L978.7 341.3 L986.5 355.7 L1006.5 349.7 L1015 363"/>
+ <path class="electric-branch-glow" d="M901.3 306.1 L897.6 311.7 L889 306.7 L888.1 318.5 L879.6 313.8 L875.7 319.2 L867.6 315.3 L862.1 317 L857.1 319.8 L854.4 327.7"/><path class="electric-branch" d="M901.3 306.1 L897.6 311.7 L889 306.7 L888.1 318.5 L879.6 313.8 L875.7 319.2 L867.6 315.3 L862.1 317 L857.1 319.8 L854.4 327.7"/>
+ <path class="electric-halo" d="M1620 60 L1613.6 76.2 L1602.6 85 L1589.2 89.8 L1565.6 78.4 L1565.9 105.3 L1549.7 105.7 L1532 103.8 L1524.1 117.6 L1506.5 115.7 L1508.7 145.6 L1497.8 154.6 L1473 141.2 L1458.4 144.3 L1444.6 148.5 L1433.9 157.8 L1431.7 180.6 L1414.1 178.8 L1400 182.7 L1400.6 210.1 L1386.6 214 L1367.1 209.2 L1356.3 218.2 L1345.5 227.4 L1337.6 241 L1317.9 236 L1313.9 255.8 L1300 260"/><path class="electric-blue" d="M1620 60 L1613.6 76.2 L1602.6 85 L1589.2 89.8 L1565.6 78.4 L1565.9 105.3 L1549.7 105.7 L1532 103.8 L1524.1 117.6 L1506.5 115.7 L1508.7 145.6 L1497.8 154.6 L1473 141.2 L1458.4 144.3 L1444.6 148.5 L1433.9 157.8 L1431.7 180.6 L1414.1 178.8 L1400 182.7 L1400.6 210.1 L1386.6 214 L1367.1 209.2 L1356.3 218.2 L1345.5 227.4 L1337.6 241 L1317.9 236 L1313.9 255.8 L1300 260"/><path class="electric-core" d="M1620 60 L1613.6 76.2 L1602.6 85 L1589.2 89.8 L1565.6 78.4 L1565.9 105.3 L1549.7 105.7 L1532 103.8 L1524.1 117.6 L1506.5 115.7 L1508.7 145.6 L1497.8 154.6 L1473 141.2 L1458.4 144.3 L1444.6 148.5 L1433.9 157.8 L1431.7 180.6 L1414.1 178.8 L1400 182.7 L1400.6 210.1 L1386.6 214 L1367.1 209.2 L1356.3 218.2 L1345.5 227.4 L1337.6 241 L1317.9 236 L1313.9 255.8 L1300 260"/>
+ <path class="electric-branch-glow" d="M1508.7 145.6 L1503.5 141 L1502.9 136.1 L1505.8 131 L1507.3 126 L1512.3 120.7 L1513.7 115.7 L1504.9 111.3 L1500.8 106.7 L1506 101.4"/><path class="electric-branch" d="M1508.7 145.6 L1503.5 141 L1502.9 136.1 L1505.8 131 L1507.3 126 L1512.3 120.7 L1513.7 115.7 L1504.9 111.3 L1500.8 106.7 L1506 101.4"/>
+ <path class="electric-branch-glow" d="M1431.7 180.6 L1436.4 178.1 L1439.5 185.5 L1442.9 190.8 L1447.8 187.1 L1453.9 176.6 L1456 189.7 L1460.6 187.9 L1464.3 191.8 L1469.4 186.9"/><path class="electric-branch" d="M1431.7 180.6 L1436.4 178.1 L1439.5 185.5 L1442.9 190.8 L1447.8 187.1 L1453.9 176.6 L1456 189.7 L1460.6 187.9 L1464.3 191.8 L1469.4 186.9"/>
+ <path class="electric-halo" d="M1610 262 L1598.2 281 L1570.9 269 L1556.6 283.2 L1536.2 285.1 L1526.3 307.8 L1513 323.8 L1496.9 334.2 L1476.5 336.1 L1452.1 330 L1435.8 340 L1429.7 370.4 L1412.7 379 L1385 366.2 L1376 390.8 L1356.5 394.6 L1334.5 393.2 L1327.1 421 L1302.3 414.1 L1287 426.1 L1267.3 429.3 L1247.4 432.3 L1235 450"/><path class="electric-blue" d="M1610 262 L1598.2 281 L1570.9 269 L1556.6 283.2 L1536.2 285.1 L1526.3 307.8 L1513 323.8 L1496.9 334.2 L1476.5 336.1 L1452.1 330 L1435.8 340 L1429.7 370.4 L1412.7 379 L1385 366.2 L1376 390.8 L1356.5 394.6 L1334.5 393.2 L1327.1 421 L1302.3 414.1 L1287 426.1 L1267.3 429.3 L1247.4 432.3 L1235 450"/><path class="electric-core" d="M1610 262 L1598.2 281 L1570.9 269 L1556.6 283.2 L1536.2 285.1 L1526.3 307.8 L1513 323.8 L1496.9 334.2 L1476.5 336.1 L1452.1 330 L1435.8 340 L1429.7 370.4 L1412.7 379 L1385 366.2 L1376 390.8 L1356.5 394.6 L1334.5 393.2 L1327.1 421 L1302.3 414.1 L1287 426.1 L1267.3 429.3 L1247.4 432.3 L1235 450"/>
+ <path class="electric-halo" d="M640 460 L652.6 452.2 L668.7 456.9 L682.4 453.2 L694.1 442.4 L705.6 430.8 L724.7 446.2 L733 423.5 L753.7 443.9 L758.8 410.2 L771.5 403 L789.1 412.6 L803.3 410.9 L823.3 429 L837 425.2 L842.1 391.4 L862.9 412.5 L867.1 375.3 L890.8 406.5 L901.9 393.7 L915.3 389 L924 367.5 L942.9 382.2 L952 362.3 L971.8 379.7 L984.7 373 L993.2 351.1 L1010.2 358.8 L1020.9 344.7 L1037.5 351 L1050 343"/><path class="electric-blue" d="M640 460 L652.6 452.2 L668.7 456.9 L682.4 453.2 L694.1 442.4 L705.6 430.8 L724.7 446.2 L733 423.5 L753.7 443.9 L758.8 410.2 L771.5 403 L789.1 412.6 L803.3 410.9 L823.3 429 L837 425.2 L842.1 391.4 L862.9 412.5 L867.1 375.3 L890.8 406.5 L901.9 393.7 L915.3 389 L924 367.5 L942.9 382.2 L952 362.3 L971.8 379.7 L984.7 373 L993.2 351.1 L1010.2 358.8 L1020.9 344.7 L1037.5 351 L1050 343"/><path class="electric-core" d="M640 460 L652.6 452.2 L668.7 456.9 L682.4 453.2 L694.1 442.4 L705.6 430.8 L724.7 446.2 L733 423.5 L753.7 443.9 L758.8 410.2 L771.5 403 L789.1 412.6 L803.3 410.9 L823.3 429 L837 425.2 L842.1 391.4 L862.9 412.5 L867.1 375.3 L890.8 406.5 L901.9 393.7 L915.3 389 L924 367.5 L942.9 382.2 L952 362.3 L971.8 379.7 L984.7 373 L993.2 351.1 L1010.2 358.8 L1020.9 344.7 L1037.5 351 L1050 343"/>
+ <path class="electric-branch-glow" d="M694.1 442.4 L702.8 442.6 L711.2 441.6 L716.6 429.3 L728.2 440.5 L733.9 429.6 L743.2 432.1 L752.2 433.5 L759.5 428.3 L766.9 423.5"/><path class="electric-branch" d="M694.1 442.4 L702.8 442.6 L711.2 441.6 L716.6 429.3 L728.2 440.5 L733.9 429.6 L743.2 432.1 L752.2 433.5 L759.5 428.3 L766.9 423.5"/>
+ <path class="electric-branch-glow" d="M771.5 403 L776.3 398.5 L780.1 392 L786.4 390.2 L796.1 395 L800.9 390.5 L805 384.7 L809.8 380.1 L819.7 385.2 L822.3 376.4"/><path class="electric-branch" d="M771.5 403 L776.3 398.5 L780.1 392 L786.4 390.2 L796.1 395 L800.9 390.5 L805 384.7 L809.8 380.1 L819.7 385.2 L822.3 376.4"/>
+ <path class="electric-halo" d="M745 85 L732.6 95.7 L714.4 94.5 L702.1 105.4 L691.5 119.8 L674 119.8 L654.9 116.8 L645.9 134.4 L627.5 132.8 L621.1 155.8 L599.9 148.4 L591 166.4 L571 161.5 L560 175"/><path class="electric-blue" d="M745 85 L732.6 95.7 L714.4 94.5 L702.1 105.4 L691.5 119.8 L674 119.8 L654.9 116.8 L645.9 134.4 L627.5 132.8 L621.1 155.8 L599.9 148.4 L591 166.4 L571 161.5 L560 175"/><path class="electric-core" d="M745 85 L732.6 95.7 L714.4 94.5 L702.1 105.4 L691.5 119.8 L674 119.8 L654.9 116.8 L645.9 134.4 L627.5 132.8 L621.1 155.8 L599.9 148.4 L591 166.4 L571 161.5 L560 175"/>
+ <path class="electric-halo" d="M1360 240 L1371.1 246.6 L1386 248.2 L1393.9 259.1 L1407.6 262.2 L1411.8 278.2 L1416.6 293.3 L1430.3 296.4 L1442.5 301.5 L1453.5 308.4 L1469 309 L1470.2 329 L1481.2 335.8 L1490.5 344.9 L1500.7 352.6 L1515 355"/><path class="electric-blue" d="M1360 240 L1371.1 246.6 L1386 248.2 L1393.9 259.1 L1407.6 262.2 L1411.8 278.2 L1416.6 293.3 L1430.3 296.4 L1442.5 301.5 L1453.5 308.4 L1469 309 L1470.2 329 L1481.2 335.8 L1490.5 344.9 L1500.7 352.6 L1515 355"/><path class="electric-core" d="M1360 240 L1371.1 246.6 L1386 248.2 L1393.9 259.1 L1407.6 262.2 L1411.8 278.2 L1416.6 293.3 L1430.3 296.4 L1442.5 301.5 L1453.5 308.4 L1469 309 L1470.2 329 L1481.2 335.8 L1490.5 344.9 L1500.7 352.6 L1515 355"/>
+ <path class="electric-branch-glow" d="M1407.6 262.2 L1410.3 267.3 L1419.2 264.9 L1422.6 269.1 L1418.6 282.1 L1433.4 272.9 L1428 287.6 L1431.4 291.7 L1443.3 285.9 L1444.1 293.1"/><path class="electric-branch" d="M1407.6 262.2 L1410.3 267.3 L1419.2 264.9 L1422.6 269.1 L1418.6 282.1 L1433.4 272.9 L1428 287.6 L1431.4 291.7 L1443.3 285.9 L1444.1 293.1"/>
+ </svg>
 
       <div class="wrap hero-grid">
         <div>
@@ -349,8 +526,8 @@
           <p class="lead">Turn floor plans or site photos into a live field map for structured cabling, fiber, Wi‑Fi and CCTV work. Record and manage every point, cabinet, patch panel and physical port in one place.</p>
 
           <div class="hero-actions">
-            <a class="btn primary" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener">Open mobile demo ↗</a>
-            <a class="btn secondary" href="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-latest.apk">Download Android APK</a>
+            <a class="btn primary" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 19h4"/></svg> Open mobile demo <span aria-hidden="true">→</span></a>
+            <a class="btn secondary" href="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-latest.apk"><span aria-hidden="true">▣</span> Download Android APK</a>
           </div>
 
           <div class="proof">
@@ -364,10 +541,10 @@
 
         <div class="device-stage">
           <div class="halo"></div>
-          <div class="callout c1"><strong>Point → Port</strong><span>Cabinet, panel and exact physical port</span></div>
-          <div class="callout c2"><strong>Floor plans</strong><span>Use drawings or site photos</span></div>
-          <div class="callout c3"><strong>Live field map</strong><span>Points, cameras, Wi‑Fi, cabinets</span></div>
-          <div class="callout c4"><strong>Field-ready</strong><span>Built for installation and maintenance</span></div>
+          <div class="callout c1"><span class="callout-icon"><svg viewBox="0 0 24 24"><path d="M3 6h18v11H3zM7 6V4h10v2M6 11h2m2 0h2m2 0h2m2 0h1M8 17v3m8-3v3" /></svg></span><span class="callout-copy"><strong>Point → Port</strong><span>Cabinet, panel and exact port</span></span></div>
+          <div class="callout c2"><span class="callout-icon"><svg viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5Zm-9 10 9 5 9-5M3 17l9 5 9-5" /></svg></span><span class="callout-copy"><strong>Floor plans</strong><span>Use plans or site photos</span></span></div>
+          <div class="callout c3"><span class="callout-icon"><svg viewBox="0 0 24 24"><path d="M19 10c0 5-7 12-7 12S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.4"/></svg></span><span class="callout-copy"><strong>Live field map</strong><span>Points, cameras, Wi‑Fi, cabinets</span></span></div>
+          <div class="callout c4"><span class="callout-icon"><svg viewBox="0 0 24 24"><path d="M13.5 2 4 13h7l-.5 9L20 10h-7l.5-8Z"/></svg></span><span class="callout-copy"><strong>Field-ready</strong><span>Built for installation and maintenance</span></span></div>
 
           <div class="phone">
             <video class="demo-video start-at-four" muted playsinline loop controls preload="auto" style="opacity:0;transition:opacity .15s ease">
@@ -392,25 +569,24 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="kicker">Key features</div>
-            <h2>Everything you need from plan to port</h2>
+            <div class="kicker">FIELD DOCUMENTATION</div><h2>Key Features</h2>
           </div>
-          <p>Built to make field documentation faster, clearer and easier to maintain after the installation team leaves the site.</p>
+          <p>Everything you need to map, document and manage your cabling — in the field and in the office.</p>
         </div>
 
         <div class="features">
           <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM8 6v12M4 11h4M13 10h4M13 14h3"/></svg></div>
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5Zm-9 10 9 5 9-5M3 17l9 5 9-5" /></svg></div>
             <h3>Visual mapping</h3>
             <p>Work with floor plans or site photos and build a live field map directly on top of them.</p>
           </article>
           <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="7" cy="12" r="3"/><circle cx="17" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><path d="M9.5 10.5l5-2M9.5 13.5l5 2"/></svg></div>
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 6h18v11H3zM7 6V4h10v2M6 11h2m2 0h2m2 0h2m2 0h1M8 17v3m8-3v3" /></svg></div>
             <h3>Full cable infrastructure</h3>
             <p>Track points, cabinets, patch panels and the exact physical port behind each field connection.</p>
           </article>
           <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24"><path d="M7 3h10v18H7zM10 6h4M11 18h2"/></svg></div>
+            <div class="icon"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 19h4"/></svg></div>
             <h3>Field-first</h3>
             <p>Designed for fast use on a phone while walking the site, installing, testing or troubleshooting.</p>
           </article>
@@ -423,60 +599,30 @@
       </div>
     </section>
 
-    <section id="workflow">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">How it works</div>
-            <h2>A simple workflow from plan to port</h2>
-          </div>
-          <p>The current prototype already covers the core field process from creating the map to preserving the final port-level record.</p>
-        </div>
-        <div class="workflow">
-          <div class="step"><div class="num">01 — ADD</div><h3>Add a plan</h3><p>Upload a floor plan, screenshot or site photo and use it as the working map.</p></div>
-          <div class="step"><div class="num">02 — MAP</div><h3>Map points</h3><p>Place outlets, cabinets, cameras and Wi‑Fi exactly where they exist on site.</p></div>
-          <div class="step"><div class="num">03 — DEFINE</div><h3>Define ports</h3><p>Add patch panels and assign every field point to its exact cabinet and physical port.</p></div>
-          <div class="step"><div class="num">04 — USE</div><h3>Use it in the field</h3><p>Find, verify, move and update everything from your phone during installation or maintenance.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="custom">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">For your company</div>
-            <h2>Custom features can be built around your workflow</h2>
-          </div>
-          <p>CableMap is not a fixed one-size-fits-all product. A dedicated version can be adapted to the way your company already works.</p>
-        </div>
-
-        <div class="custom-grid">
-          <div class="custom-panel">
-            <h3>Custom for your company</h3>
-            <p>Additional functions can be developed for a specific company: branding, roles, reports, approvals, company-specific statuses, exports, integrations and other workflow-specific tools.</p>
-            <div class="chips">
-              <span class="chip">Custom features</span>
-              <span class="chip">Your branding</span>
-              <span class="chip">Roles & access</span>
-              <span class="chip">Reports & exports</span>
-              <span class="chip">API integrations</span>
-              <span class="chip">Internal workflows</span>
-            </div>
-          </div>
-
-          <div class="custom-panel">
-            <h3>Already have an app?</h3>
-            <p>CableMap functionality can also be integrated as a module inside an existing company application, instead of being delivered as a separate standalone product.</p>
-            <div class="chips">
-              <span class="chip">Existing app integration</span>
-              <span class="chip">White-label version</span>
-              <span class="chip">Separate branded app</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="workflow" class="overview-section">
+ <div class="wrap overview-grid">
+  <div class="overview-steps">
+   <div class="overview-head"><h2>How it works</h2><span class="slash">/</span><p>A simple workflow from plan to port.</p></div>
+   <div class="steps-inline">
+    <article class="mini-step"><span class="step-symbol"><svg viewBox="0 0 24 24"><path d="M5 2h10l5 5v15H5zM15 2v5h5M9 13h6M12 10v6"/></svg></span><h3>1. Add a plan</h3><p>Upload a floor plan or site photo.</p></article>
+    <article class="mini-step"><span class="step-symbol"><svg viewBox="0 0 24 24"><path d="M19 10c0 5-7 12-7 12S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.4"/></svg></span><h3>2. Map points</h3><p>Place points, cabinets and equipment.</p></article>
+    <article class="mini-step"><span class="step-symbol"><svg viewBox="0 0 24 24"><path d="M3 6h18v11H3zM7 6V4h10v2M6 11h2m2 0h2m2 0h2m2 0h1M8 17v3m8-3v3" /></svg></span><h3>3. Define ports</h3><p>Add patch panels and exact ports.</p></article>
+    <article class="mini-step"><span class="step-symbol"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m7.5 12 3 3 6-6"/></svg></span><h3>4. Use in the field</h3><p>Find, verify and update on your phone.</p></article>
+   </div>
+  </div>
+  <article class="overview-panel company-panel" id="custom">
+   <div class="panel-heading"><span class="panel-graphic"><svg viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5Zm-9 10 9 5 9-5M3 17l9 5 9-5" /></svg></span><div><div class="kicker">YOUR WORKFLOW</div><h2>Custom for your company</h2></div></div>
+   <p>CableMap can be tailored to your business with company-specific features, branding, user roles, custom reports, integrations and tools for your existing workflows.</p>
+   <div class="panel-benefits"><span>Custom features</span><span>Your branding</span><span>Roles &amp; access</span><span>Reports &amp; exports</span><span>Integrations</span><span>Existing app modules</span></div>
+  </article>
+  <article class="overview-panel preview-panel">
+   <div class="panel-heading"><span class="play-symbol"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7V5Z"/></svg></span><div><div class="kicker">WORKING PROTOTYPE</div><h2>Live demo</h2></div></div>
+   <p>Try CableMap in action with a ready-to-use demo project.</p>
+   <a class="btn primary full-btn" href="https://cabel-test-158q4t.flutterflow.app/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7V5Z"/></svg> Open mobile demo <span aria-hidden="true">→</span></a>
+   <small><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 19h4"/></svg> Prototype is mobile-first / best viewed on phone.</small>
+  </article>
+ </div>
+ </section>
 
     <section id="video">
       <div class="wrap video-block">
