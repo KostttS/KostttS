@@ -3,147 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-02T20:37:06.309Z",
-      "local_slot": "2026-11-02 22:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_partial_fresh_runtime_live_public_fallback",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-02T19:36:17Z",
-        "threads_run_id": "41511248619",
-        "lead_discovery": "2026-11-02T19:34:58Z",
-        "external_trends_last_full": "2026-11-02T18:49:07Z",
-        "instagram_metricool": "2026-11-02 22h local query",
-        "public_threads": "2026-11-02 22h local live refetch"
-      },
-      "source_status": {
-        "runtime": "latest pointer still 41511248619 at 21:36 local; no newer 22h artifact yet; 21h artifact inspected, external_trends.status=skipped (last full 20h sample 95 posts/24 pages), not evidence of zero trends",
-        "inbox": "21:36 runtime: no new commercial replies; mentions unavailable; previously answered kurosolutions remains; replies_to_own_replies show older discussions only",
-        "lead_hunt": "21:34 public scan 28 pages, 1 already known Flutter internship, 0 new candidates and 0 qualified funded mobile briefs",
-        "official_search": "prior official discovery 39/0; no new approved media IDs; no public_post_pk used for replies",
-        "web_fallback": "TinyFish 3 alternative RU/EN site:threads.com searches; 2 results in one search: Saloni is website developer advertising services, flciar is a hiring/staffing listing, not paid client mobile projects; two other queries returned 0",
-        "instagram": "Metricool posts queried Oct27-Nov2; only Oct28 metrics returned; Nov2 Instagram post confirmed PUBLISHED by scheduler but no feed insights; Nov3 post PENDING; failed Metricool Threads post Nov1 remains ERROR authentication failure and must not be duplicated"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
-          "published_at": "2026-11-02T17:47:33Z",
-          "age_hours_approx": 3.8,
-          "views": 24,
-          "likes": 0,
-          "replies": 0,
-          "previous_20h_views": 19,
-          "qualified_leads": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-          "published_at": "2026-11-02T06:45:23Z",
-          "age_hours_approx": 15.8,
-          "views": 7,
-          "likes": 0,
-          "replies": 0,
-          "qualified_leads": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "published_at": "2026-10-30T06:39:13Z",
-          "views": 44,
-          "likes": 3,
-          "replies": 2,
-          "qualified_leads": 0
-        }
-      ],
-      "own_account": {
-        "followers": 6,
-        "link_clicks": 0,
-        "new_confirmed_commercial_contacts": 0
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "published_at": "2026-11-02T07:21:00Z",
-          "status": "PUBLISHED",
-          "views": null,
-          "reach": null,
-          "interactions": null
-        },
-        {
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "published_at": "2026-10-28T15:46:21Z",
-          "views": 8,
-          "reach": 5,
-          "likes": 2,
-          "comments": 1,
-          "interactions": 3
-        }
-      ],
-      "external_examples": [
-        {
-          "url": "https://www.threads.com/@digitalwithtrish/post/DfNAe5SFmCC",
-          "author": "digitalwithtrish",
-          "published_at": "2026-11-01T15:02:15Z",
-          "views_approx": 56800,
-          "likes_approx": 5800,
-          "replies": 99,
-          "reposts": 720,
-          "change_since_20h": {
-            "views_approx": 100,
-            "reposts": 2
-          },
-          "mechanism": "Unpopular money-debt opinion plus explicit challenge; broad viral debate, no mobile buyer intent; adapt only principle of concrete money tradeoff"
-        },
-        {
-          "url": "https://www.threads.com/@thejaymalii/post/DfNh29qiPL-",
-          "author": "thejaymalii",
-          "published_at": "2026-11-01T19:53:54Z",
-          "views_approx": 9700,
-          "likes": 77,
-          "replies": 141,
-          "reposts": 2,
-          "change_since_20h": {
-            "views_approx": 400,
-            "replies": 4
-          },
-          "mechanism": "Direct address to agency owners seeking clients, low-friction identity CTA; professional networking, not evidence of purchase"
-        },
-        {
-          "url": "https://www.threads.com/@sisters_designerss/post/DfOxeLiDoc2",
-          "author": "sisters_designerss",
-          "published_at": "2026-11-02T07:29:34Z",
-          "views_approx": 2600,
-          "likes": 46,
-          "replies": 155,
-          "reposts": null,
-          "change_since_20h": {
-            "views_approx": 300,
-            "replies": 7
-          },
-          "mechanism": "Two concrete self-identification questions (business and city), high replies relative to likes; not proven qualified leads"
-        }
-      ],
-      "lead_screening": {
-        "new_qualified_paid_mobile_projects": 0,
-        "confirmed_contacts": 0,
-        "paid_orders": 0,
-        "known_spinex": "two prior unverified budget posts one agency contact; no verified official reply media ID, no outreach",
-        "known_myraridzuan": "AI integration scope/budget/mobile fit unverified; no outreach",
-        "new_web_candidates": "Saloni website-service ad and flciar job listing excluded"
-      },
-      "decision": {
-        "scale": "Keep testing targeted agency/funded-project workflow hook; 24 views in ~4h vs 7 HERO in ~16h, but no lead conversion and nonmatched ages",
-        "remove": "No repeated salary HERO, personal stories or irrelevant internship as paid leads",
-        "test": "Preserve existing 5 viral / 3 commercial / 2 direct-buyer queue for Nov3-7; all 10 posts under 500 characters, scheduled 09:15/19:20 local. Compare age-normalized results and qualified contacts before editing.",
-        "queue_changed": false,
-        "posts_published": 0,
-        "replies_sent": 0,
-        "log_only_change": true
-      },
-      "limitations": [
-        "22h full external artifact not yet available; latest 21h external status skipped, fallback is 20h sample plus 3 fresh verified public pages",
-        "No confirmed official media IDs for public lead replies",
-        "No authenticated Threads browser session; no outbound buyer contacts",
-        "Metricool Nov2 Instagram feed metrics missing; competitor Instagram metrics unavailable"
-      ]
-    },
-    {
       "checked_at": "2026-11-02T22:37:37Z",
       "local_slot": "2026-11-03 00:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis",
@@ -1979,6 +1838,39 @@
       "external_posts": [],
       "qualified_paid_leads": 0,
       "decision": "No queue changes without fresh verified engagement or buyer evidence; partial audit only."
+    },
+    {
+      "checked_at": "2026-11-09T22:40:00Z",
+      "local_slot": "2026-11-10 00:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis_partial",
+      "lead_hunter": {
+        "last_completed": "2026-11-09T21:42:27Z",
+        "sources_checked": 8,
+        "messages_inspected": 0,
+        "alerts_sent": 0,
+        "rejected_archive_entries": 361,
+        "keyword_reviewed": 17,
+        "confirmed_false_negatives": 0,
+        "source_audit": "2026-11-09T17:15:20Z: 8 checked, 0 promoted",
+        "watchdog_commit": "f63be12f2ef4c34ff91def56ec81dec65ef61309"
+      },
+      "instagram": {
+        "metricool_feed_rows_last_7d": 0
+      },
+      "threads": {
+        "runtime_pointer": "2026-11-09T16:02:23Z",
+        "artifact_content": "not retrieved",
+        "verified_external_comparable_posts": 0
+      },
+      "web_fallback": {
+        "paid_scoping_upwork": "2026-11-05, $200, 20-50 proposals, platform-mediated; not a direct lead",
+        "polish_nocode_mvp": "2026-10-15, 10 applicants, outside 7d window",
+        "verified_direct_recent_low_competition_leads": 0
+      },
+      "decisions": {
+        "queue_changed": false,
+        "reason": "No fresh validated comparative engagement data or strong direct buyer brief; no evidence for code change."
+      }
     }
   ]
 }
