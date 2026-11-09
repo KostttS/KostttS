@@ -263,7 +263,7 @@
           <div class="floating-card fc1"><strong>Point → Port</strong>Cabinet, panel and exact port</div>
           <div class="floating-card fc2"><strong>Live field map</strong>Points, cameras, Wi‑Fi, cabinets</div>
           <div class="phone">
-            <video muted playsinline loop controls preload="metadata">
+            <video class="demo-video start-at-four" muted playsinline loop controls preload="auto" style="opacity:0;transition:opacity .15s ease">
               <source src="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4" type="video/mp4">
             </video>
           </div>
@@ -361,7 +361,7 @@
         </div>
         <div class="video-block">
           <div class="video-shell">
-            <video controls playsinline preload="metadata">
+            <video class="demo-video start-at-four" controls playsinline preload="auto" style="opacity:0;transition:opacity .15s ease">
               <source src="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4" type="video/mp4">
             </video>
           </div>
@@ -428,6 +428,17 @@
   </footer>
 
   <script>
+    document.querySelectorAll('video.start-at-four').forEach(video => {
+      const showDesiredStart = () => {
+        if (video.duration && video.duration > 4) {
+          try { video.currentTime = 4.0; } catch (_) {}
+        }
+      };
+      video.addEventListener('loadedmetadata', showDesiredStart, { once: true });
+      video.addEventListener('seeked', () => { video.style.opacity = '1'; }, { once: true });
+      video.addEventListener('error', () => { video.style.opacity = '1'; }, { once: true });
+    });
+
     document.querySelectorAll('.copy').forEach(btn=>{
       btn.addEventListener('click', async ()=>{
         try{
