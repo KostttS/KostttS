@@ -59,3 +59,5 @@ jobs:
           git add cablemap-public/CableMap-demo-video.mp4 cablemap-site/index.html
           git commit -m 'Replace CableMap demo beep with quiet ambient instrumental; retain video visuals'
           git push origin HEAD:main
+
+# Retry workflow after transient GitHub Actions internal server error.
