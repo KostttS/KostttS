@@ -695,7 +695,7 @@ section{padding:49px 0}
     <section id="video">
       <div class="wrap video-block">
         <div class="video-shell">
-          <video class="demo-video start-at-four" controls playsinline preload="auto" style="opacity:0;transition:opacity .15s ease">
+          <video class="demo-video start-at-four" muted controls playsinline preload="auto" style="opacity:0;transition:opacity .15s ease">
             <source src="https://raw.githubusercontent.com/KostttS/KostttS/main/cablemap-public/CableMap-demo-video.mp4?audio=upbeat-20261109" type="video/mp4">
           </video>
         </div>
@@ -777,6 +777,8 @@ section{padding:49px 0}
   </footer>
 
   <script>
+    document.querySelectorAll('video.demo-video').forEach(video => { video.defaultMuted = true; video.muted = true; });
+
     document.querySelectorAll('video.start-at-four').forEach(video => {
       const showDesiredStart = () => {
         if (video.duration && video.duration > 4) {
