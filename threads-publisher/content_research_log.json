@@ -3,199 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-03T00:45:30Z",
-      "local_slot": "2026-11-03 02:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-03T00:45:13Z; run 41554718215; artifact 13193786806",
-        "lead_discovery": "2026-11-03T00:42:16Z",
-        "external_trends": "2026-11-03T00:44:05Z; new verified sample",
-        "metricool_instagram": "2026-11-03 02:43 Asia/Jerusalem",
-        "public_pages": "2026-11-03 approx 02:43 Asia/Jerusalem via TinyFish fresh fetch"
-      },
-      "source_status": {
-        "external_trends": "verified_public_sample: 85 unique posts, 21 high-engagement candidates, 24 search pages; 1 HTTP 403/429; bounded sample not all Threads",
-        "official_keyword_search": "0 results incl ChatGPT control; App Review public search not verified",
-        "alternative_search": "2 targeted domain-scoped TinyFish queries returned zero; 3 broader recent web queries returned no qualified mobile-development buyer; not evidence of no market",
-        "instagram_competitors": "no independently verified external Instagram post metrics"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
-          "published_at": "2026-11-02T17:47:33Z",
-          "age_hours_approx": 7,
-          "views": 28,
-          "likes": 0,
-          "replies": 0,
-          "qualified_leads": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-          "published_at": "2026-11-02T06:45:23Z",
-          "age_hours_approx": 18,
-          "views": 7,
-          "likes": 0,
-          "replies": 0,
-          "qualified_leads": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-          "published_at": "2026-10-30T06:39:13Z",
-          "age_hours_approx": 90,
-          "views": 44,
-          "likes": 3,
-          "replies": 2,
-          "qualified_leads": 0
-        }
-      ],
-      "own_account": {
-        "followers": 6,
-        "link_clicks": 0,
-        "confirmed_commercial_contacts": 0,
-        "inbox_checked_at": "2026-11-03T00:45:13Z",
-        "new_relevant_replies": 0,
-        "mentions_scope_available": false,
-        "replies_to_own_replies_checked": 6
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "published_at": "2026-11-02T07:21:04Z",
-          "age_hours_approx": 17.4,
-          "status": "PUBLISHED",
-          "views": 8,
-          "reach": 5,
-          "likes": 0,
-          "comments": 0,
-          "interactions": 0
-        },
-        {
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "published_at": "2026-10-28T15:46:21Z",
-          "status": "PUBLISHED",
-          "views": 11,
-          "reach": 6,
-          "likes": 2,
-          "comments": 1,
-          "interactions": 3
-        },
-        {
-          "scheduled_at": "2026-11-03T09:25:00+02:00",
-          "status": "PENDING",
-          "note": "CableMap screenshot, not yet published"
-        }
-      ],
-      "external_examples": [
-        {
-          "url": "https://www.threads.com/@digitalwithtrish/post/DfNAe5SFmCC",
-          "author": "digitalwithtrish",
-          "published_at": "2026-11-01T15:02:15Z",
-          "age_hours_approx": 33.7,
-          "views_approx": 57100,
-          "likes_approx": 5800,
-          "replies": 99,
-          "reposts": 721,
-          "delta_vs_previous_public_recheck": {
-            "views_approx": 300,
-            "replies": 0,
-            "reposts": 3
-          },
-          "mechanism": "Mass-market money/repayment norm plus provocative direct challenge. Drives discussion, not verified mobile B2B orders. Test ethical price/fee contrast without invented personal history."
-        },
-        {
-          "url": "https://www.threads.com/@thejaymalii/post/DfNh29qiPL-",
-          "author": "thejaymalii",
-          "published_at": "2026-11-01T19:53:54Z",
-          "age_hours_approx": 28.9,
-          "views_approx": 9900,
-          "likes": 78,
-          "replies": 142,
-          "reposts": 2,
-          "delta_vs_previous_public_recheck": {
-            "views_approx": 100,
-            "replies": 1
-          },
-          "mechanism": "Addresses agency owners explicitly with a timely client-acquisition question. Adapt to agency handoff or paid app problem, not empty networking engagement."
-        },
-        {
-          "url": "https://www.threads.com/@sisters_designerss/post/DfOxeLiDoc2",
-          "author": "sisters_designerss",
-          "published_at": "2026-11-02T07:29:34Z",
-          "age_hours_approx": 17.3,
-          "views_approx": 2900,
-          "likes": 47,
-          "replies": 158,
-          "reposts": null,
-          "delta_vs_previous_public_recheck": {
-            "views_approx": 300,
-            "replies": 3
-          },
-          "mechanism": "Invites entrepreneurs to identify business and city; high replies relative to views, no proof of purchase. Adapt one specific question about workflow pain rather than general roll call."
-        },
-        {
-          "url": "https://www.threads.com/@sasha_kotkinaa/post/DfPl8MhiU_v",
-          "author": "sasha_kotkinaa",
-          "published_at": "2026-11-02T15:08:03Z",
-          "age_hours_approx": 9.6,
-          "views_approx": 15200,
-          "likes": 125,
-          "replies": 34,
-          "reposts": 3,
-          "delta_vs_previous_public_recheck": {
-            "views_approx": 1600,
-            "likes": 10,
-            "replies": 0
-          },
-          "mechanism": "Numerical leads/sales self-report and ongoing experiment; commercial outcomes not independently verified. Use only verified own before/after figures, otherwise technical proof/screenshots."
-        },
-        {
-          "url": "https://www.threads.com/@axia.mark/post/DfPxVMcjUqA",
-          "author": "axia.mark",
-          "published_at": "2026-11-02T16:47:35Z",
-          "age_hours_approx": 8,
-          "views_approx": 2000,
-          "likes": 49,
-          "replies": 39,
-          "reposts": 1,
-          "delta_vs_previous_public_recheck": {
-            "views_approx": 100,
-            "likes": 5,
-            "replies": 0
-          },
-          "mechanism": "UI/UX designer offers collaboration after earlier mobile design client needed a developer. Relevant referral partner, but past client may no longer need work and no budget or confirmed official reply ID."
-        }
-      ],
-      "lead_screening": {
-        "fresh_scan_pages": 28,
-        "unique_candidates": 2,
-        "newly_discovered": 0,
-        "qualified_paid_mobile_projects": 0,
-        "confirmed_contacts": 0,
-        "paid_orders": 0,
-        "known_candidate": "axia.mark partnership not funded current order",
-        "excluded": "BilvaLeaf internship",
-        "cross_channel_duplicate_guard": "public_lead_candidates.json and replies.json checked; no new outreach",
-        "official_reply_ids": 0,
-        "automatic_replies_sent": 0
-      },
-      "decision": {
-        "scale": "Continue limited tests of direct agency/founder pain hooks; 28 views at ~7h vs 7 at ~18h HERO is suggestive only and no conversion.",
-        "remove": "Do not use unrelated personal stories, generic job ads, or unverified revenue claims; no evidence to scale mass controversy solely for views.",
-        "test": "Keep Nov3-7 5 viral / 3 commercial / 2 direct-buyer queue unchanged; evaluate age-normalized results and qualified enquiries; compare Instagram screenshot post after publication.",
-        "queue_changed": false,
-        "posts_published": 0,
-        "replies_sent": 0,
-        "triggered_recovery_run": "41554718215; success"
-      },
-      "limitations": [
-        "One of 24 public search pages encountered HTTP 403/429; 85-post sample is incomplete.",
-        "Official keyword search returned zero including control; cannot claim absence of buyers.",
-        "No validated official threads_media ID for external candidate, no outbound reply.",
-        "Instagram competitor metrics not verified.",
-        "Public external view counts rounded and separate from official account analytics."
-      ]
-    },
-    {
       "checked_at": "2026-11-03T08:40:00Z",
       "local_slot": "2026-11-03 10:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis",
@@ -1711,6 +1518,36 @@
       "own_instagram": [],
       "external_examples": [],
       "decision": "No content changes: current post metrics, inbox and external engagement comparisons were not verified in this run. This is an incomplete deep analysis, not proof of zero leads."
+    },
+    {
+      "checked_at": "2026-11-10T18:38:56Z",
+      "local_slot": "2026-11-10 20:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis_partial",
+      "lead_hunter": {
+        "last_completed": "2026-11-10T18:36:11Z",
+        "active_sources": 21,
+        "sources_checked": 8,
+        "messages_inspected": 1,
+        "alerts_sent": 0,
+        "rejected_archive_entries": 392,
+        "latest_rejection": "https://t.me/needdev/12770 UI/UX designer vacancy, not mobile build",
+        "source_audit": "2026-11-10T15:32:08Z 8 checked 0 promoted",
+        "source_audit_history_runs": 3
+      },
+      "instagram": {
+        "metricool_feed_rows_last_7d": 0,
+        "scheduled_posts_next_7d": 0
+      },
+      "threads": {
+        "runtime_pointer": "2026-11-10T07:09:48Z",
+        "artifact_content": "not retrieved",
+        "external_comparable_posts": "unavailable"
+      },
+      "web_fallback": {
+        "recent_direct_buyer_leads_confirmed": 0,
+        "notable_marketplace_result": "Freelancer FlutterFlow MVP £250-750, 135 proposals, conflicting indexed date/status; excluded"
+      },
+      "decision": "No queue or classifier edits without verified new buyer or engagement evidence; partial analysis, not zero market demand."
     }
   ]
 }
