@@ -12,7 +12,8 @@
     "geolocation-services",
     "useful-push-notifications",
     "store-release",
-    "elinknest-platform-case"
+    "elinknest-platform-case",
+    "flutterflow-handover-checklist"
   ],
   "history": [
     {
@@ -158,7 +159,19 @@
       "pin_error": null,
       "unpinned_message_id": null,
       "unpin_error": null
+    },
+    {
+      "post_id": "flutterflow-handover-checklist",
+      "message_id": 370,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-11-10T21:24:24.992906+02:00",
+      "caption_sha256": "cd815900f42e10f45fecc95c75d188d5794df0a564ddfb0d82f38d841fe0ebac",
+      "pinned": false,
+      "pin_error": null,
+      "unpinned_message_id": null,
+      "unpin_error": null
     }
   ],
-  "last_publish_date": "2026-11-09"
+  "last_publish_date": "2026-11-10"
 }
