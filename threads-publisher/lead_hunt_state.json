@@ -1,27 +1,37 @@
 {
   "version": 2,
-  "last_hour": "2026-11-10 02",
-  "last_scan_at": "2026-11-10T00:06:47.191927+00:00",
+  "last_hour": "2026-11-10 09",
+  "last_scan_at": "2026-11-10T07:07:45.391958+00:00",
   "seen": {
     "DfRddWKCKjU": {
       "first_seen_at": "2026-11-03T08:37:14.803298+00:00",
-      "last_seen_at": "2026-11-10T00:06:47.191927+00:00",
+      "last_seen_at": "2026-11-10T07:07:45.391958+00:00",
       "url": "https://www.threads.com/@crestspot/post/DfRddWKCKjU"
     },
     "DfWr3WpjLVN": {
       "first_seen_at": "2026-11-05T09:52:41.454057+00:00",
-      "last_seen_at": "2026-11-10T00:06:47.191927+00:00",
+      "last_seen_at": "2026-11-10T07:07:45.391958+00:00",
       "url": "https://www.threads.com/@backershan_t/post/DfWr3WpjLVN"
     },
     "DfXGnXkE_9m": {
       "first_seen_at": "2026-11-05T17:56:59.281232+00:00",
-      "last_seen_at": "2026-11-10T00:06:47.191927+00:00",
+      "last_seen_at": "2026-11-10T07:07:45.391958+00:00",
       "url": "https://www.threads.com/@fazzu.tg/post/DfXGnXkE_9m"
     },
     "Dfadc_Xirdc": {
       "first_seen_at": "2026-11-06T23:17:02.641150+00:00",
-      "last_seen_at": "2026-11-10T00:06:47.191927+00:00",
+      "last_seen_at": "2026-11-10T07:07:45.391958+00:00",
       "url": "https://www.threads.com/@mohamedgamalokasha95/post/Dfadc_Xirdc"
+    },
+    "DfXAsvmCPep": {
+      "first_seen_at": "2026-11-06T18:20:01.911914+00:00",
+      "last_seen_at": "2026-11-10T07:07:45.391958+00:00",
+      "url": "https://www.threads.com/@dusk.digital.diaries/post/DfXAsvmCPep"
+    },
+    "DfcZivAEgEW": {
+      "first_seen_at": "2026-11-10T07:07:45.391958+00:00",
+      "last_seen_at": "2026-11-10T07:07:45.391958+00:00",
+      "url": "https://www.threads.com/@johneytech/post/DfcZivAEgEW"
     },
     "DfZjTymCObe": {
       "first_seen_at": "2026-11-06T18:20:01.911914+00:00",
@@ -37,11 +47,6 @@
       "first_seen_at": "2026-11-09T05:58:40.599066+00:00",
       "last_seen_at": "2026-11-09T05:58:40.599066+00:00",
       "url": "https://www.threads.com/@mask.vms/post/Dfex0bpEYOD"
-    },
-    "DfXAsvmCPep": {
-      "first_seen_at": "2026-11-06T18:20:01.911914+00:00",
-      "last_seen_at": "2026-11-08T23:57:00.013623+00:00",
-      "url": "https://www.threads.com/@dusk.digital.diaries/post/DfXAsvmCPep"
     },
     "DfcO4t4kuu8": {
       "first_seen_at": "2026-11-08T16:01:34.349680+00:00",
