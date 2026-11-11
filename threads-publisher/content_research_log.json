@@ -3,84 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-03T08:40:00Z",
-      "local_slot": "2026-11-03 10:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-03T01:46:52Z, run 41561767978",
-        "lead_hunt_state": "2026-11-03T01:45:17Z, local hour 03",
-        "instagram_metricool": "2026-11-03 10:40 Asia/Jerusalem",
-        "public_threads_page": "2026-11-03 10:40 Asia/Jerusalem"
-      },
-      "source_status": {
-        "threads_runtime": "Pointer remains stale; public GitHub Actions page shows scheduled Threads Publisher runs #697 and #698 completed successfully Nov 3, but fresh artifact pointer has not advanced; current runtime inbox/analytics unavailable.",
-        "external_trends": "No fresh external_trends.json accessible; no claim of complete competitor scan.",
-        "official_keyword_search": "No fresh authorized result; historical 0 results not evidence of no market.",
-        "instagram_competitors": "No verified competitor analytics this run."
-      },
-      "own_threads": {
-        "fresh_metrics": "unavailable",
-        "last_confirmed_pointer": "2026-11-03T01:46:52Z",
-        "inbox": "unavailable after 03:46 local",
-        "qualified_leads": "unverified"
-      },
-      "own_instagram": {
-        "post_2026_11_02": {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "reach": 5,
-          "comments": 0,
-          "interactions": 0,
-          "measured_by": "Metricool query Nov1-3"
-        },
-        "post_2026_11_03": {
-          "scheduled_at": "2026-11-03T09:25:00+02:00",
-          "status": "ERROR",
-          "error": "Media container not created by unknown cause",
-          "published": false
-        }
-      },
-      "external_examples": [
-        {
-          "url": "https://www.threads.com/@irakli_talavadze/post/DfPcUVJiGzT/",
-          "author": "irakli_talavadze",
-          "published_at": "2026-11-02T13:43:58Z",
-          "views_approx": 2400,
-          "likes": 14,
-          "replies": 17,
-          "reposts": 1,
-          "mechanism": "Direct call for iOS app-development partner, concrete partnership intent but no budget, contract or paid mobile scope; potential partner, not qualified paid buyer."
-        },
-        {
-          "url": "https://www.threads.com/@saloniey_15/post/DfOc_1Cgilj/",
-          "author": "saloniey_15",
-          "published_at": "2026-11-02T04:30:40Z",
-          "views_approx": 45,
-          "mechanism": "Vendor advertising website services, not a buyer; exclude."
-        }
-      ],
-      "lead_screening": {
-        "new_confirmed_paid_mobile_projects": 0,
-        "new_confirmed_contacts": 0,
-        "confirmed_api_reply_media_ids": 0,
-        "known_partner": "axia.mark remains uncontacted, no verified media ID",
-        "fresh_inbox": "unavailable"
-      },
-      "decision": {
-        "scale": "No scaling without age-matched conversion data",
-        "remove": "Exclude vendor ads and hiring-only posts from buyer leads",
-        "test": "Investigate irakli_talavadze as potential partner after dedupe; no contact without valid API media ID",
-        "queue_changed": false,
-        "replies_sent": 0,
-        "posts_published": 0,
-        "log_only_change": true
-      },
-      "limitations": [
-        "Only two exact public posts verified, not 3-5 with complete metrics",
-        "Latest runtime inaccessible via pointer despite public scheduled runs visible",
-        "Instagram error prevents CableMap publication; no blind duplicate retry"
-      ]
-    },
-    {
       "checked_at": "2026-11-03T10:43:00Z",
       "local_slot": "2026-11-03 12:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis",
@@ -1548,6 +1470,41 @@
         "notable_marketplace_result": "Freelancer FlutterFlow MVP £250-750, 135 proposals, conflicting indexed date/status; excluded"
       },
       "decision": "No queue or classifier edits without verified new buyer or engagement evidence; partial analysis, not zero market demand."
+    },
+    {
+      "checked_at": "2026-11-11T06:37:27Z",
+      "local_slot": "2026-11-11 08:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis_partial",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-11T01:27:39Z run 42938887129",
+        "threads_lead_hunt": "2026-11-11T01:25:55Z",
+        "instagram_metricool": "2026-11-11T06:37Z"
+      },
+      "own_threads": {
+        "metrics": "unavailable: artifact not downloaded",
+        "inbox": "unavailable",
+        "new_qualified_leads": "not verified"
+      },
+      "own_instagram": {
+        "feed_posts_2026_11_04_to_11_11": 0,
+        "scheduled_posts_next_7d": 0,
+        "engagement_comparison": "unavailable"
+      },
+      "external_examples": [],
+      "web_fallback": {
+        "results": "Old Upwork project pages with inconsistent indexed posting dates; no verified new <=7-day paid direct buyer post",
+        "verified_external_threads_posts_with_metrics": 0
+      },
+      "lead_hunter": {
+        "scan_completed_at": "2026-11-11T05:44:11Z",
+        "messages_inspected": 0,
+        "alerts_sent": 0,
+        "rejected_archive_total": 396,
+        "rejected_keyword_flagged": 72,
+        "new_rejections_2026_11_11": 1,
+        "latest_source_audit": "2026-11-11T00:00:37Z 8 checked 0 promoted"
+      },
+      "decision": "No content queue edit: no current comparable performance data or verified external examples. Watchdog triggered because last completed scanner run >50 min old. Partial analysis, not proof of absent demand."
     }
   ]
 }
