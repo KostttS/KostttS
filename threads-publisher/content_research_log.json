@@ -3,120 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-03T10:43:00Z",
-      "local_slot": "2026-11-03 12:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-03T08:40:11Z, run 41604598448; pointer still this run at 12:42",
-        "lead_discovery": "2026-11-03T08:37:14Z",
-        "external_trends": "2026-11-03T08:38:59Z",
-        "public_threads_direct": "2026-11-03 12:43 Asia/Jerusalem",
-        "instagram_metricool": "2026-11-03 12:43 Asia/Jerusalem"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfRd_r8latE",
-          "published_at": "2026-11-03T08:37:11Z",
-          "views_public": 1,
-          "age_hours": 2.1,
-          "engagement_public": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
-          "published_at": "2026-11-02T17:47:33Z",
-          "views_official_last": 28,
-          "replies_official_last": 0,
-          "age_at_last_sample_hours": 14.9
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-          "published_at": "2026-11-02T06:45:23Z",
-          "views_official_last": 7,
-          "replies_official_last": 0,
-          "age_at_last_sample_hours": 26
-        }
-      ],
-      "own_instagram": {
-        "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "reach": 5,
-        "interactions": 0,
-        "comments": 0,
-        "metricool_checked_at": "2026-11-03 12:43 Asia/Jerusalem",
-        "scheduled_2026_11_03_status": "ERROR",
-        "error": "Media container not created by unknown cause"
-      },
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@sasha_kotkinaa/post/DfPl8MhiU_v",
-          "published_at": "2026-11-02T15:08:03Z",
-          "views_public_rounded": "19.7K",
-          "likes": 156,
-          "replies": 41,
-          "reposts": 5,
-          "prior_10h_sample": {
-            "likes": 147,
-            "replies": 38,
-            "reposts": 5
-          },
-          "mechanism": "Specific measured business result: four leads, one sale; persuasive proof, not proof of mobile app buyer."
-        },
-        {
-          "url": "https://www.threads.com/@axia.mark/post/DfPxVMcjUqA",
-          "published_at": "2026-11-02T16:47:35Z",
-          "views_public_rounded": "4K",
-          "likes": 95,
-          "replies": 77,
-          "reposts": 2,
-          "prior_10h_sample": {
-            "likes": 87,
-            "replies": 55,
-            "reposts": 1
-          },
-          "mechanism": "UI/UX designer describes missed mobile dev referral, specific collaboration pain. Potential referral partner; no direct paid brief or verified reply ID."
-        },
-        {
-          "url": "https://www.threads.com/@ryanvictormark/post/DfREHv-gYpI",
-          "published_at": "2026-11-03T04:51:01Z",
-          "views_public_rounded": "2.7K",
-          "likes": 76,
-          "replies": 20,
-          "reposts": 2,
-          "prior_10h_sample": {
-            "likes": 68,
-            "replies": 17,
-            "reposts": 2
-          },
-          "mechanism": "Concrete business problem vs generic freelancer claims; adapt with client problem and proof, not generic service pitch."
-        }
-      ],
-      "buyer_screening": {
-        "url": "https://www.threads.com/@crestspot/post/DfRddWKCKjU",
-        "published_at": "2026-11-03T08:32:25Z",
-        "request": "Hiring Flutter developer iOS/Android, quick commerce/ecommerce; deadline Nov 9",
-        "classification": "hiring, not confirmed paid freelance app project",
-        "public_email_visible": true,
-        "contact_status": "not contacted; Gmail/outreach outside scope; no verified Threads media ID"
-      },
-      "inbox": {
-        "last_verified": "2026-11-03T08:40:11Z",
-        "new_qualified_buyer_replies": 0,
-        "mentions_scope_available": false,
-        "known_replies": "Nonbuyer discussion only",
-        "current_inbox": "not refreshed after 10:40"
-      },
-      "decision": {
-        "scale": "Proof-led business outcome and specific collaboration pain",
-        "remove": "Broad generic question without engagement; no evidence of commercial conversion",
-        "test": "One concrete buyer-problem post in next allowed window, and partner referral content; no unsupported promises",
-        "posts_changed": false,
-        "replies_sent": 0,
-        "confirmed_new_contacts": 0,
-        "active_buyer_dialogues": 0,
-        "paid_orders": 0,
-        "limitation": "12h fresh runtime pointer not available; used last verified artifact and direct live public posts. Cannot legally reply to public HTML PK without validated official ID; Instagram scheduled post ERROR."
-      }
-    },
-    {
       "checked_at": "2026-11-03T16:36:29Z",
       "local_slot": "2026-11-03 18:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis",
@@ -1505,6 +1391,89 @@
         "latest_source_audit": "2026-11-11T00:00:37Z 8 checked 0 promoted"
       },
       "decision": "No content queue edit: no current comparable performance data or verified external examples. Watchdog triggered because last completed scanner run >50 min old. Partial analysis, not proof of absent demand."
+    },
+    {
+      "checked_at": "2026-11-11T08:35:00Z",
+      "local_slot": "2026-11-11 10:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis",
+      "source_cutoffs": {
+        "threads_runtime": "2026-11-11T08:19:28Z, run 42985749218",
+        "external_trends": "2026-11-11T08:18:13Z",
+        "instagram_metricool": "2026-11-11T08:35Z, requested IG feed metrics; empty rows"
+      },
+      "own_threads": {
+        "followers": 6,
+        "account_views_daily": [
+          {
+            "date": "2026-11-10",
+            "value": 2
+          },
+          {
+            "date": "2026-11-11",
+            "value": 0
+          }
+        ],
+        "likes": 0,
+        "replies": 0,
+        "link_clicks": 0,
+        "recent_posts_per_post_metrics": "null/unavailable; do not infer zero",
+        "new_commercial_inbox_replies": 0
+      },
+      "own_instagram": {
+        "feed_metrics": "rows=[]; no comparable post metrics returned"
+      },
+      "external_posts": [
+        {
+          "url": "https://www.threads.com/@turar_abdi/post/DfkF30YCEJV",
+          "published_at": "2026-11-10T14:11:53Z",
+          "likes": 262,
+          "replies": 77,
+          "reposts": 2,
+          "views": null,
+          "mechanism": "specific money figures and provocative retail-business question; adapt to app ROI without invented numbers"
+        },
+        {
+          "url": "https://www.threads.com/@zdhnik/post/DfkUajiDbFt",
+          "published_at": "2026-11-10T16:18:58Z",
+          "likes": 605,
+          "replies": 95,
+          "reposts": 6,
+          "views": null,
+          "mechanism": "specific practical news and useful timetable; not direct B2B lead"
+        },
+        {
+          "url": "https://www.threads.com/@nasa/post/DfXYNAJkZy2",
+          "published_at": "2026-11-05T15:41:56Z",
+          "likes": 3511,
+          "replies": 5,
+          "reposts": 4,
+          "views": null,
+          "mechanism": "real product-notification feedback and user benefit; brand scale incomparable"
+        }
+      ],
+      "external_sample": {
+        "status": "verified_public_sample",
+        "unique_posts": 78,
+        "pages": 24,
+        "high_engagement_candidates": 18
+      },
+      "leads": {
+        "threads_candidates": 5,
+        "new_candidates": 0,
+        "confirmed_api_reply_ids": 0,
+        "confirmed_paid_direct_clients": 0,
+        "notable": "Nov 5 $3000 mobile app brief has 164 replies and no verified reply ID; high competition, no message sent"
+      },
+      "lead_hunter": {
+        "last_completed_scan": "2026-11-11T07:45:57Z",
+        "inspected": 2,
+        "alerts": 0,
+        "new_rejected_messages": 2,
+        "confirmed_false_negatives": 0,
+        "source_audit_checked": 8,
+        "promoted": 0
+      },
+      "decision": "No content queue edit without comparable post-level performance. Test future business-specific posts using concrete workflow failure and direct paid-project CTA. No new messages sent."
     }
   ]
 }
