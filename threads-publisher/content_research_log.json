@@ -3,74 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-04T00:42:46Z",
-      "local_slot": "2026-11-04 02:00 Asia/Jerusalem",
-      "type": "two_hour_deep_review",
-      "source_cutoffs": {
-        "runtime": "2026-11-03T21:57:01Z",
-        "runtime_run_id": "41726075927",
-        "external_trends": "skipped; last scan 2026-11-03T16:31:32Z; previous complete artifact not downloaded this run",
-        "lead_discovery": "2026-11-03T21:55:03Z",
-        "instagram_metricool": "2026-11-04 02:42 local"
-      },
-      "source_status": {
-        "external": "Current artifact skipped; no verified fresh external top posts available for this slot; no fabricated competitor metrics.",
-        "lead_hunt": "28 public pages, 3 known candidates, 0 new; Flutter job hiring contact only, not a verified paid project procurement.",
-        "official_api": "No verified external threads_media ID; no public PK replies attempted.",
-        "inbox": "2 historical replies to own posts (Oct 29/30), 6 historical replies to own replies; no verified new buyer conversation."
-      },
-      "own_threads": {
-        "nov_3_viral": {
-          "url": "https://www.threads.com/@konstantin47209/post/DfRd_r8latE",
-          "views": 1,
-          "replies": 0
-        },
-        "nov_2_agency": {
-          "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
-          "views": 30,
-          "replies": 0
-        },
-        "nov_2_viral": {
-          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-          "views": 7,
-          "replies": 0
-        },
-        "profile_clicks": 0
-      },
-      "instagram": [
-        {
-          "date": "2026-11-02",
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "views": 14,
-          "reach": 6,
-          "interactions": 0,
-          "comments": 0,
-          "follows": 0
-        },
-        {
-          "date": "2026-10-28",
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "views": 11,
-          "reach": 6,
-          "interactions": 3,
-          "comments": 1,
-          "follows": 0
-        }
-      ],
-      "external_threads": [],
-      "decision": {
-        "scale": "Keep measurable agency buyer task as conversion experiment, but no qualified leads yet.",
-        "remove": "Do not scale generic viral questions: Nov 3 1 view, Nov 2 7 views; small samples.",
-        "test": "Different broad hook and specific agency conversion CTA in future slots only after fresh comparison.",
-        "queue_changed": false,
-        "reason": "External comparative evidence missing; publishing window closed at 02h; no verified new commercial contact.",
-        "messages_sent_confirmed": 0,
-        "new_buyer_replies_confirmed": 0,
-        "active_negotiations_confirmed": 0,
-        "paid_orders_confirmed": 0
-      }
-    },
-    {
       "checked_at": "2026-11-04T04:40:44Z",
       "local_slot": "2026-11-04 06:00 Asia/Jerusalem",
       "sources": {
@@ -1404,6 +1336,31 @@
         "watchdog_commit": "7cd66195ad4e28f3ee9923e72729fcaba5f8c106"
       },
       "decision": "No content edits without current own performance and verified external comparable metrics; no verified new paid mobile client."
+    },
+    {
+      "checked_at": "2026-11-12T06:36:14Z",
+      "local_slot": "2026-11-12 08:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-12T03:26:38Z",
+        "instagram_metricool": "2026-11-12 08:36 local, posts metric query returned rows=[]",
+        "external_public_search": "2026-11-12 08:36 local; no verified fresh Threads competitor post metrics"
+      },
+      "own_threads": "Current runtime artifact not retrieved; fresh views/replies not independently verified",
+      "instagram": [],
+      "external_threads": [],
+      "lead_hunt": "No verified new direct paid client from public Threads search",
+      "decision": {
+        "scale": "No evidence for scaling",
+        "remove": "No changes without data",
+        "test": "Prioritize direct buyer replies and actual commissioned briefs over generic reach",
+        "queue_changed": false,
+        "reason": "Current artifact content unavailable and Instagram metric query empty; competitor metrics unverified",
+        "messages_sent_confirmed": 0,
+        "new_buyer_replies_confirmed": 0,
+        "active_negotiations_confirmed": 0,
+        "paid_orders_confirmed": 0
+      }
     }
   ]
 }
