@@ -3,104 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-04T04:40:44Z",
-      "local_slot": "2026-11-04 06:00 Asia/Jerusalem",
-      "sources": {
-        "threads_artifact_generated_at": "2026-11-04T02:10:05Z",
-        "external_trends_checked_at": "2026-11-04T02:08:50Z",
-        "lead_discovery_checked_at": "2026-11-04T02:06:53Z",
-        "instagram_metricool_checked_at": "2026-11-04T04:40Z",
-        "freshness_warning": "Latest pointer is 04:10 local; no 06:00 runtime artifact verified."
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfRd_r8latE",
-          "views": 1,
-          "replies": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
-          "views": 30,
-          "replies": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/DfOsaAtlRlS",
-          "views": 7,
-          "replies": 0
-        }
-      ],
-      "instagram": [
-        {
-          "date": "2026-11-02",
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "views": 14,
-          "reach": 6,
-          "interactions": 0,
-          "comments": 0,
-          "follows": 0
-        },
-        {
-          "date": "2026-10-28",
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "views": 11,
-          "reach": 6,
-          "interactions": 3,
-          "comments": 1,
-          "follows": 0
-        }
-      ],
-      "external_threads": [
-        {
-          "url": "https://www.threads.com/@bake3970/post/DfSWlUAjqBH",
-          "timestamp": "2026-11-03T16:51:35Z",
-          "likes": 287,
-          "replies": 172,
-          "reposts": 4,
-          "views": null,
-          "mechanism": "Specific financial loss and unresolved dispute drive discussion; do not copy personal accusations."
-        },
-        {
-          "url": "https://www.threads.com/@zyrradee/post/DfROZ0ogXO3",
-          "timestamp": "2026-11-03T06:20:52Z",
-          "likes": 574,
-          "replies": 8,
-          "reposts": 210,
-          "views": null,
-          "mechanism": "Customer-service empathy and challenge to familiar maxim; business-process adaptation possible."
-        },
-        {
-          "url": "https://www.threads.com/@vishnyaspelayaaaaaaaaa/post/DfSo6NpjrYN",
-          "timestamp": "2026-11-03T19:31:43Z",
-          "likes": 229,
-          "replies": 58,
-          "reposts": 0,
-          "views": null,
-          "mechanism": "Personal financial distress draws responses; not suitable for imitation or sales."
-        }
-      ],
-      "lead_hunt": {
-        "pages_checked": 28,
-        "candidates": 2,
-        "new_candidates": 0,
-        "qualified_paid_projects": 0,
-        "verified_api_reply_ids": 0,
-        "notable": "crestspot Flutter employment ad with public email, not paid project contract; internship disqualified."
-      },
-      "inbox": "Two historical replies to own posts, no new buyer response verified in available snapshot.",
-      "instagram_issue": "Nov 3 CableMap post ERROR Media container not created by unknown cause; not published.",
-      "decision": {
-        "scale": "Test concrete business handoff / agency tasks, no evidence of conversions yet.",
-        "remove": "Do not scale generic viral questions or imitate distress.",
-        "test": "Original customer-service friction question with practical mobile workflow bridge, only within publishing windows.",
-        "queue_changed": false,
-        "reason": "No fresh 06:00 artifact; no verified paid lead or confirmed valid reply ID; no publication outside 08-12/19-23.",
-        "messages_sent_confirmed": 0,
-        "new_buyer_replies_confirmed": 0,
-        "active_negotiations_confirmed": 0,
-        "paid_orders_confirmed": 0
-      }
-    },
-    {
       "checked_at": "2026-11-04T08:42:56+02:00",
       "source_artifact": "threads-runtime-41758575243-1",
       "source_generated_at": "2026-11-04T04:10:05+02:00",
@@ -1361,6 +1263,32 @@
         "active_negotiations_confirmed": 0,
         "paid_orders_confirmed": 0
       }
+    },
+    {
+      "checked_at": "2026-11-12T08:42:41Z",
+      "local_slot": "2026-11-12 10:00 Asia/Jerusalem",
+      "sources": {
+        "threads_runtime_pointer_updated_at": "2026-11-12T03:26:38Z",
+        "threads_runtime_artifact": "threads-runtime-43148011014-1",
+        "artifact_contents": "not extracted this pass",
+        "instagram_metricool_checked_at": "2026-11-12T08:42:41Z",
+        "instagram_metricool_result": "rows:[]",
+        "public_web_search": "search results found, no 3 verified current competitor posts with engagement metrics"
+      },
+      "own_threads": [],
+      "instagram": [],
+      "external_threads": [],
+      "lead_hunt": {
+        "telegram_scan_at": "2026-11-12T08:11:27Z",
+        "telegram_new_rejections_reviewed": 11,
+        "confirmed_paid_clients": 0,
+        "web_scout_at": "2026-11-12T05:35:40Z",
+        "web_scout_new_candidates": 0,
+        "manually_reviewed_connect_cards": 3,
+        "qualifying_original_project": "https://connect.tg/orders/6f6e503a-aa30-479a-a542-defc6b5c8510",
+        "caveat": "Kwork-origin original not opened; Connect says open, 2 replies via Connect only; no confirmed buyer contact"
+      },
+      "decision": "No content queue change without measured social performance; Android Developer Flutter Kotlin is salaried-role-style, messenger 500-1500 RUB too low, Mind Map 10000-30000 RUB native Swift with low implied hourly pay. Telegram publisher has 3 unpublished posts, needs separate 6 image assets and PR; not created."
     }
   ]
 }
