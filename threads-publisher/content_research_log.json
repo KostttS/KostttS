@@ -3,63 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "at": "2026-11-04T10:41:56+02:00",
-      "type": "deep_comparative_analysis",
-      "runtime": {
-        "pointer_run_id": "41758575243",
-        "artifact_created_at": "2026-11-04T04:10:11+02:00",
-        "artifact_zip_downloaded": true,
-        "artifact_contents": "unavailable: runtime ZIP extraction failed in execution environment",
-        "own_threads_metrics": "unavailable",
-        "inbox": "unavailable"
-      },
-      "instagram": {
-        "checked_at": "2026-11-04T10:41:56+02:00",
-        "posts": [
-          {
-            "date": "2026-11-02",
-            "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-            "comments": 0,
-            "interactions": 0,
-            "likes": 0,
-            "reach": 6,
-            "views": 14,
-            "follows": 0
-          },
-          {
-            "date": "2026-10-28",
-            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-            "comments": 1,
-            "interactions": 3,
-            "likes": 2,
-            "reach": 6,
-            "views": 11,
-            "follows": 0
-          }
-        ],
-        "failed_publication": "2026-11-03 CableMap: ERROR Media container not created by unknown cause"
-      },
-      "external": {
-        "fresh_verified_posts": "unavailable",
-        "previous_verified_sample": "2026-11-04T04:08:50+02:00 94 sampled posts, see preceding entry",
-        "growth": "unavailable"
-      },
-      "leads": {
-        "new_verified_paid_requests": "unavailable (artifact unreadable)",
-        "messages_sent_confirmed": 0,
-        "new_replies_confirmed": 0,
-        "active_negotiations_confirmed": 0,
-        "paid_orders_confirmed": 0
-      },
-      "decision": {
-        "scale": "No measured evidence for scaling yet",
-        "remove": "Avoid repeated unverified personal stories and broad reach without qualified buyer signals",
-        "test": "Future service-friction B2B hook only after current artifact and delivery metrics available",
-        "queue_changed": false,
-        "reason": "Cannot extract runtime artifact or verify fresh public posts; Instagram sample extremely small."
-      }
-    },
-    {
       "at": "2026-11-04T12:34:30+02:00",
       "type": "deep_comparative_analysis",
       "runtime": {
@@ -1217,6 +1160,42 @@
         "test": "Validate project-based Telegram bot/Mini App briefs and seek reachable direct customers",
         "queue_changed": false,
         "reason": "No reliable comparable own Instagram/Threads or external Threads metrics; GitHub artifact not extracted",
+        "messages_sent_confirmed": 0,
+        "new_buyer_replies_confirmed": 0,
+        "active_negotiations_confirmed": 0,
+        "paid_orders_confirmed": 0
+      }
+    },
+    {
+      "checked_at": "2026-11-12T14:36:51Z",
+      "local_slot": "2026-11-12 16:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-12T11:46:25Z",
+        "threads_artifact": "threads-runtime-43211665066-1",
+        "threads_analytics": "artifact not extracted; current metrics and inbox unverified",
+        "instagram_metricool": "IGPO02/03/06/08/12/14/28 rows=[]",
+        "external_threads": "No fresh independently verified Threads post engagement metrics",
+        "public_source": "https://t.me/s/freelansim_ru; project summaries visible, original project date/open status unverified"
+      },
+      "lead_hunt": {
+        "telegram_scan_at": "2026-11-12T13:39:13Z",
+        "telegram_messages_inspected": 1,
+        "telegram_rejected": 1,
+        "telegram_possible_orders": 0,
+        "web_scout_at": "2026-11-12T14:00:49Z",
+        "web_cards_checked": 12,
+        "web_matching_open_recent_projects": 0,
+        "confirmed_paid_clients": 0,
+        "watchdog_commit": "28136f467a574f5fdc2791d669aa58ce155f8922",
+        "watchdog_run": "not confirmed (commit workflow runs returned [])"
+      },
+      "decision": {
+        "scale": "No measurable evidence",
+        "remove": "No changes",
+        "test": "Check original Habr Freelance project links and eligibility before promoting source; do not infer verified buyers from digest",
+        "queue_changed": false,
+        "reason": "Fresh own Threads metrics and verified external engagement unavailable; Instagram returned no rows",
         "messages_sent_confirmed": 0,
         "new_buyer_replies_confirmed": 0,
         "active_negotiations_confirmed": 0,
