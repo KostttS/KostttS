@@ -3,66 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "at": "2026-11-04T16:34:00+02:00",
-      "type": "deep_comparative_analysis",
-      "runtime": {
-        "pointer_run_id": "41804098107",
-        "artifact_generated_at": "2026-11-04T09:03:49Z",
-        "artifact_extracted": true,
-        "latest_artifact_stale_hours": 5.5,
-        "external_trends": "skipped; prior last_scan_at 2026-11-04T02:08:50Z; no current verified competitor post metrics",
-        "official_discovery": "39 queries; no verified results",
-        "inbox": "No newly confirmed commercial reply in 11:03 artifact; 2 replies to recent posts and 6 replies to own replies, older/noncommercial"
-      },
-      "instagram": {
-        "source": "Metricool",
-        "measured_at": "2026-11-04T16:34:00+02:00",
-        "posts": [
-          {
-            "date": "2026-11-02",
-            "views": 14,
-            "reach": 6,
-            "interactions": 0,
-            "comments": 0,
-            "follows": 0
-          },
-          {
-            "date": "2026-10-28",
-            "views": 11,
-            "reach": 6,
-            "interactions": 3,
-            "comments": 1,
-            "follows": 0
-          }
-        ],
-        "failed_post": "CableMap 2026-11-03: Media container not created by unknown cause"
-      },
-      "leads": {
-        "scan_at": "2026-11-04T09:02:08Z",
-        "candidates": 2,
-        "new_candidates": 0,
-        "qualified_paid_projects": 0,
-        "crestspot": "Flutter employment vacancy, contact email exists but not commissioned mobile project",
-        "bilvaleaf": "internship, disqualified",
-        "confirmed_api_media_ids": 0,
-        "messages_sent_confirmed": 0,
-        "new_replies_confirmed": 0,
-        "active_negotiations_confirmed": 0,
-        "paid_orders_confirmed": 0
-      },
-      "external": {
-        "verified_examples": "unavailable in latest artifact",
-        "alternative_web_search": "attempted two targeted queries; search tool did not return results"
-      },
-      "decision": {
-        "scale": "No topic has demonstrated paid lead conversion",
-        "remove": "Exclude job advertisements and internships from paid-project lead metric",
-        "test": "Investigate Instagram media upload failure; prioritize qualified buyer requests with confirmed contact channels",
-        "queue_changed": false,
-        "reason": "No fresh external comparison, no confirmed buyer outreach channel; avoid unjustified changes"
-      }
-    },
-    {
       "at": "2026-11-04T20:37:19+02:00",
       "type": "deep_comparative_analysis_limited_sources",
       "runtime": {
@@ -1141,6 +1081,41 @@
         "new_verified_paid_orders": 0
       },
       "decision": "No evidence-based content queue change. Watchdog triggered for stale mobile lead scan; workflow run not yet confirmed."
+    },
+    {
+      "at": "2026-11-13T12:36:27+02:00",
+      "type": "deep_comparative_analysis",
+      "runtime": {
+        "pointer_run_id": "43383497228",
+        "pointer_updated_at": "2026-11-13T07:09:18Z",
+        "artifact_contents": "not extracted",
+        "own_threads_metrics": "unavailable",
+        "inbox": "not independently verified"
+      },
+      "instagram": {
+        "period": "2026-11-06 to 2026-11-13",
+        "metricool_feed_post_rows": 0,
+        "scheduled_posts_next_7d": 0
+      },
+      "external": {
+        "verified_competitor_threads_metrics": "unavailable",
+        "alternative_web_search": "Found Telegram freelance listings, but not verified Threads engagement or fresh confirmed buyer orders",
+        "example_urls": [
+          "https://t.me/s/freelansim_ru/5614",
+          "https://t.me/s/job_for_bots/55"
+        ]
+      },
+      "lead_hunter": {
+        "last_completed_scan": "2026-11-13T10:06:23Z",
+        "sources_checked": 8,
+        "messages_inspected": 3,
+        "alerts_sent": 0,
+        "rejected_review_latest_three": "two staffing/seller posts and one bot-services seller post",
+        "web_scout_last_report": "2026-11-13T09:42:19Z",
+        "cards_checked": 12,
+        "new_candidates": 0
+      },
+      "decision": "No queue changes without verified audience analytics or lead evidence. No watchdog trigger because scan completed less than 50 minutes ago."
     }
   ]
 }
