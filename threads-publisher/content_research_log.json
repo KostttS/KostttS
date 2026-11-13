@@ -3,38 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-05T08:34:20Z",
-      "local_analysis_slot": "2026-11-05 10:00 Asia/Jerusalem",
-      "type": "deep_review_limited_sources",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-05T02:46:51Z",
-        "threads_lead_scan": "2026-11-05T02:42:37Z",
-        "instagram_metricool": "2026-11-05T08:34Z"
-      },
-      "own_threads": {
-        "fresh_analytics": "unavailable; runtime pointer stale ~5h48m",
-        "inbox": "unavailable"
-      },
-      "instagram": {
-        "last_post": "2026-11-02 07:21:04",
-        "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "reach": 6,
-        "views": 14,
-        "interactions": 0,
-        "comments": 0,
-        "new_follows": 0
-      },
-      "external_posts": "explicitly unavailable; alternate public web search returned no verifiable posts",
-      "lead_contacts": "unverified due stale Threads artifact",
-      "decision": {
-        "scale": "none without fresh comparable evidence",
-        "remove": "none",
-        "test": "restore Threads runtime collection; prioritize verified buyer replies",
-        "action": "No content changes; Instagram schedule empty; no confirmed reply IDs",
-        "limitation": "Cannot substantiate external 3-post comparison or current Threads inbox"
-      }
-    },
-    {
       "slot": "2026-11-05 12 Asia/Jerusalem",
       "checked_at_utc": "2026-11-05T10:34:09Z",
       "own_threads": {
@@ -1059,6 +1027,43 @@
       "decision": {
         "queue_changed": false,
         "reason": "No substantiated conversion or comparable performance evidence; preserve queue and avoid duplicates"
+      }
+    },
+    {
+      "checked_at_utc": "2026-11-13T18:36:04Z",
+      "local_analysis_slot": "2026-11-13 20:00 Asia/Jerusalem",
+      "type": "deep_review_partial",
+      "own_threads": {
+        "runtime_pointer_updated_at": "2026-11-13T15:28:31Z",
+        "artifact": "artifact exists but contents not accessible in this run; no verified inbox/post metrics"
+      },
+      "instagram": {
+        "source": "Metricool",
+        "period": "2026-11-01 through 2026-11-13",
+        "post": "https://www.instagram.com/p/DfOwbGlCBHD/",
+        "published_at": "2026-11-02 07:21:04",
+        "reach": 8,
+        "comments": 0,
+        "interactions": 0
+      },
+      "external_posts": [],
+      "external_status": "Targeted RU/EN public search returned old Reddit and Telegram vacancy/seller posts, no three recent Threads/Instagram competitor posts with independently verifiable metrics",
+      "lead_hunter": {
+        "last_completed_scan_utc": "2026-11-13T17:40:01Z",
+        "sources_checked": 8,
+        "messages_inspected": 0,
+        "alerts_sent": 0,
+        "source_audit_at_utc": "2026-11-13T16:24:51Z",
+        "candidate_sources_checked": 8,
+        "candidate_sources_promoted": 0,
+        "web_scout_matching_open_recent": 0,
+        "watchdog_commit": "dab6950a14753de6622f1762725b4ff2ff474380",
+        "watchdog_run_confirmation": "not verified"
+      },
+      "decision": {
+        "queue_changed": false,
+        "reason": "No measured conversion advantage; no verified direct buyer to contact",
+        "test": "Improve original-buyer discovery and recover Threads runtime contents"
       }
     }
   ]
