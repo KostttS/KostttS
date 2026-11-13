@@ -3,56 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "slot": "2026-11-05 12 Asia/Jerusalem",
-      "checked_at_utc": "2026-11-05T10:34:09Z",
-      "own_threads": {
-        "data_at_utc": "2026-11-05T09:54:41Z",
-        "examples": [
-          {
-            "url": "https://www.threads.com/@konstantin47209/post/DfWwOLUFfVV",
-            "age_minutes_at_snapshot": 2,
-            "views": 0,
-            "replies": 0
-          },
-          {
-            "url": "https://www.threads.com/@konstantin47209/post/DfUFo6hllSw",
-            "age_hours_at_snapshot": 25,
-            "views": 2,
-            "replies": 0
-          },
-          {
-            "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
-            "age_hours_at_snapshot": 64,
-            "views": 30,
-            "replies": 0
-          }
-        ],
-        "commercial_leads_confirmed": 0
-      },
-      "instagram": {
-        "period": "2026-10-29 to 2026-11-05",
-        "post": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "reach": 6,
-        "comments": 0,
-        "interactions": 0,
-        "clicks": "unavailable"
-      },
-      "external_posts": "explicitly unavailable in latest artifact (status skipped; last verified sample 2026-11-05 02:45 UTC); alternative web search yielded no verified examples",
-      "lead_hunt": {
-        "scanned_at_utc": "2026-11-05T09:52:41Z",
-        "new_candidates": 1,
-        "qualified_paid_buyer_candidates": 0,
-        "reason": "new post is developer seeking employment; other results employee hiring"
-      },
-      "decision": {
-        "scale": "none; insufficient comparative data",
-        "remove": "none",
-        "test": "buyer-oriented content and restore current two-hour trend collection",
-        "action": "No content queue change; no API-confirmed replies",
-        "limitations": "No current verified external comparison; API reply IDs absent"
-      }
-    },
-    {
       "checked_at": "2026-11-05T18:39:04Z",
       "local_analysis_slot": "2026-11-05 20:00 Asia/Jerusalem",
       "type": "partial_deep_review_source_limitation",
@@ -1064,6 +1014,46 @@
         "queue_changed": false,
         "reason": "No measured conversion advantage; no verified direct buyer to contact",
         "test": "Improve original-buyer discovery and recover Threads runtime contents"
+      }
+    },
+    {
+      "checked_at_utc": "2026-11-13T20:42:00Z",
+      "local_analysis_slot": "2026-11-13 22:00 Asia/Jerusalem",
+      "type": "deep_review_partial",
+      "own_threads": {
+        "runtime_pointer_updated_at": "2026-11-13T15:28:31Z",
+        "artifact": "pointer located, contents not fetched; no verified fresh post/inbox metrics"
+      },
+      "instagram": {
+        "source": "Metricool",
+        "period": "2026-11-01 to 2026-11-13",
+        "post": "https://www.instagram.com/p/DfOwbGlCBHD/",
+        "published_at": "2026-11-02T07:21:04",
+        "reach": 8,
+        "views": 18,
+        "comments": 0,
+        "interactions": 0,
+        "follows": 0
+      },
+      "external_posts": [],
+      "external_status": "RU/EN web search surfaced Telegram aggregator and salaried roles, no verified recent Threads/Instagram competitor post metrics",
+      "lead_hunter": {
+        "telegram_scan_at_utc": "2026-11-13T19:35:02Z",
+        "sources_checked": 8,
+        "messages_inspected": 0,
+        "alerts_sent": 0,
+        "web_scan_at_utc": "2026-11-13T17:24:17Z",
+        "web_cards_checked": 12,
+        "web_matching_open_recent": 0,
+        "source_audit_at_utc": "2026-11-13T16:24:51Z",
+        "source_candidates_checked": 8,
+        "promoted": 0,
+        "watchdog_commit": "d99fa8425db80edb28cfde5209a561de8b62cd41",
+        "watchdog_run_confirmation": "not verified"
+      },
+      "decision": {
+        "queue_changed": false,
+        "reason": "No verified direct buyer or comparable evidence to justify queue edit"
       }
     }
   ]
