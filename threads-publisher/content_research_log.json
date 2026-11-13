@@ -3,63 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "at": "2026-11-04T20:37:19+02:00",
-      "type": "deep_comparative_analysis_limited_sources",
-      "runtime": {
-        "pointer_run_id": "41873484295",
-        "artifact_generated_at": "2026-11-04T17:03:54Z",
-        "artifact_list_verified": true,
-        "artifact_contents": "not accessible as parsed JSON in this run; no claim of fresh inbox or post metrics",
-        "lead_hunt_state_last_scan": "2026-11-04T17:02:07Z",
-        "external_trends": "unavailable for direct inspection",
-        "alternative_web_search": "two RU/EN targeted public search queries; zero results, not evidence of absent demand"
-      },
-      "instagram": {
-        "source": "Metricool",
-        "measured_at": "2026-11-04T20:37:19+02:00",
-        "posts": [
-          {
-            "date": "2026-11-02",
-            "views": 14,
-            "reach": 6,
-            "interactions": 0,
-            "comments": 0,
-            "follows": 0
-          },
-          {
-            "date": "2026-10-28",
-            "views": 11,
-            "reach": 6,
-            "interactions": 3,
-            "comments": 1,
-            "follows": 0
-          }
-        ],
-        "scheduled_posts": 0
-      },
-      "watchdog": {
-        "blocked_until_utc": "2026-11-04T22:35:00Z",
-        "report_status": "paused_telegram_floodwait",
-        "sources_checked": 0,
-        "action": "no Telegram request or scanner trigger"
-      },
-      "leads": {
-        "new_verified": "unavailable without artifact extraction",
-        "confirmed_messages_this_run": 0,
-        "confirmed_responses_this_run": 0,
-        "confirmed_active_negotiations_this_run": 0,
-        "confirmed_paid_orders_this_run": 0
-      },
-      "external_posts": [],
-      "decision": {
-        "scale": "No verified commercial conversion basis",
-        "remove": "No measured evidence for content removal",
-        "test": "After FloodWait expiry check lead hunter; inspect latest runtime artifact via accessible parser",
-        "queue_changed": false,
-        "reason": "Fresh external post-level metrics and runtime inbox unavailable; do not fabricate comparisons"
-      }
-    },
-    {
       "checked_at": "2026-11-04T20:40:52Z",
       "local_slot": "2026-11-04 22:00 Asia/Jerusalem",
       "threads": {
@@ -1116,6 +1059,46 @@
         "new_candidates": 0
       },
       "decision": "No queue changes without verified audience analytics or lead evidence. No watchdog trigger because scan completed less than 50 minutes ago."
+    },
+    {
+      "at": "2026-11-13T14:34:17+02:00",
+      "type": "deep_comparative_analysis_limited_sources",
+      "threads": {
+        "runtime_pointer_run_id": "43383497228",
+        "pointer_updated_at": "2026-11-13T07:09:18Z",
+        "artifact_contents": "not retrieved; no fresh inbox or post-level metrics verified"
+      },
+      "instagram": {
+        "metrics": "not retrieved this run"
+      },
+      "external_posts": [],
+      "external_status": "Targeted public RU search found no recent independently verified Threads/Instagram competitor posts with comparable metrics; no inference about demand",
+      "lead_hunter": {
+        "last_completed_scan_utc": "2026-11-13T11:40:25Z",
+        "sources_checked": 8,
+        "messages_inspected": 8,
+        "possible_orders": 0,
+        "alerts_sent": 0,
+        "rejected_fresh_reviewed": 30,
+        "verified_false_negatives": 0,
+        "web_scout_last_utc": "2026-11-13T09:42:19Z",
+        "web_new_candidates": 0,
+        "watchdog_commit": "28e3a0fb9f3e9f67a1ff2699122704a4d545b7c5",
+        "watchdog_run_confirmation": "unavailable: commit workflow run listing only includes PR runs"
+      },
+      "decision": {
+        "scale": "No verified commercial conversion evidence",
+        "remove": "No evidence to justify removing content",
+        "test": "Restore current runtime artifact extraction and fresh Instagram metrics; monitor subsequent lead scans",
+        "queue_changed": false
+      },
+      "leads": {
+        "verified_new": 0,
+        "confirmed_sent": 0,
+        "confirmed_replies": 0,
+        "confirmed_negotiations": 0,
+        "confirmed_paid_orders": 0
+      }
     }
   ]
 }
