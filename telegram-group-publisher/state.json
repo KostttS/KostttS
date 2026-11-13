@@ -15,7 +15,8 @@
     "elinknest-platform-case",
     "flutterflow-handover-checklist",
     "round-robin-order-routing",
-    "backend-access-rules"
+    "backend-access-rules",
+    "api-or-webhook"
   ],
   "history": [
     {
@@ -197,7 +198,19 @@
       "pin_error": null,
       "unpinned_message_id": null,
       "unpin_error": null
+    },
+    {
+      "post_id": "api-or-webhook",
+      "message_id": 373,
+      "chat_id": -1002741425073,
+      "chat_username": "mobileapplication2026",
+      "published_at": "2026-11-13T21:17:07.570173+02:00",
+      "caption_sha256": "9e1190fbff14e9f498554334a6635bd33224a384da71e13d19a63bfbcd1b69c5",
+      "pinned": false,
+      "pin_error": null,
+      "unpinned_message_id": null,
+      "unpin_error": null
     }
   ],
-  "last_publish_date": "2026-11-12"
+  "last_publish_date": "2026-11-13"
 }
