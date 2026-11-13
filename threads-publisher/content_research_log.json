@@ -3,74 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-04T20:40:52Z",
-      "local_slot": "2026-11-04 22:00 Asia/Jerusalem",
-      "threads": {
-        "artifact_run_id": "41873484295",
-        "artifact_generated_at": "2026-11-04T17:03:46Z",
-        "account_views_daily": [
-          {
-            "end": "2026-11-03T08:00:00Z",
-            "views": 46
-          },
-          {
-            "end": "2026-11-04T08:00:00Z",
-            "views": 6
-          }
-        ],
-        "followers": 6,
-        "link_clicks": 0,
-        "latest_post": "https://www.threads.com/@konstantin47209/post/DfUFo6hllSw",
-        "post_level_views": "unavailable",
-        "inbox": "No new commercial reply found in artifact; snapshot 3h37m old"
-      },
-      "instagram": {
-        "source": "Metricool",
-        "range": "2026-10-25 to 2026-11-04",
-        "posts": [
-          {
-            "date": "2026-11-02",
-            "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-            "reach": 6,
-            "interactions": 0,
-            "comments": 0
-          },
-          {
-            "date": "2026-10-28",
-            "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-            "reach": 6,
-            "interactions": 3,
-            "comments": 1
-          }
-        ],
-        "note": "Feed metrics not normalized by post age"
-      },
-      "external_posts": [],
-      "external_status": "Current external_trends.json skipped; previous full sample not extracted, no verified comparison of top posts",
-      "leads": {
-        "public_candidates": 4,
-        "newly_discovered": 0,
-        "qualified_potential": 1,
-        "confirmed_sent": 0,
-        "confirmed_replies": 0,
-        "confirmed_negotiations": 0,
-        "confirmed_paid_orders": 0,
-        "notable": "crestspot Flutter developer vacancy with direct email; no verified API reply ID; no contact sent"
-      },
-      "watchdog": {
-        "blocked_until_utc": "2026-11-04T22:35:00Z",
-        "report_status": "paused_telegram_floodwait",
-        "action": "no scanner trigger or Telegram queries"
-      },
-      "decision": {
-        "scale": "No conversion proof",
-        "remove": "No basis",
-        "test": "Check commercial reply delivery after verified API IDs; prioritize direct qualified buyer opportunities",
-        "queue_changed": false,
-        "reason": "No fresh external comparable metrics or newly qualified contact"
-      }
-    },
-    {
       "checked_at": "2026-11-05T08:34:20Z",
       "local_analysis_slot": "2026-11-05 10:00 Asia/Jerusalem",
       "type": "deep_review_limited_sources",
@@ -1098,6 +1030,35 @@
         "confirmed_replies": 0,
         "confirmed_negotiations": 0,
         "confirmed_paid_orders": 0
+      }
+    },
+    {
+      "checked_at_utc": "2026-11-13T16:40:54Z",
+      "local_analysis_slot": "2026-11-13 18:00 Asia/Jerusalem",
+      "type": "deep_review_partial",
+      "own_threads": {
+        "runtime_pointer_updated_at": "2026-11-13T15:28:31Z",
+        "metrics": "artifact contents not retrieved; no fresh verified post metrics",
+        "inbox": "not verified"
+      },
+      "instagram": {
+        "metrics": "not retrieved in this run"
+      },
+      "external_posts": [],
+      "external_status": "Public RU/EN searches returned irrelevant pages, no verified post metrics",
+      "lead_hunter": {
+        "telegram_scan_at_utc": "2026-11-13T16:25:05Z",
+        "status": "completed",
+        "sources_checked": 8,
+        "messages_inspected": 0,
+        "alerts_sent": 0,
+        "web_scan_at_utc": "2026-11-13T16:19:42Z",
+        "web_cards_checked": 12,
+        "web_matching_open_recent": 0
+      },
+      "decision": {
+        "queue_changed": false,
+        "reason": "No substantiated conversion or comparable performance evidence; preserve queue and avoid duplicates"
       }
     }
   ]
