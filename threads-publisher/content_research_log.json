@@ -3,57 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "at": "2026-11-04T12:34:30+02:00",
-      "type": "deep_comparative_analysis",
-      "runtime": {
-        "pointer_run_id": "41804098107",
-        "artifact_created_at": "2026-11-04T11:03:56+02:00",
-        "artifact_zip_downloaded": true,
-        "analytics_generated_at": "2026-11-04T09:03:49Z",
-        "external_trends_status": "skipped",
-        "external_last_scan_at": "2026-11-04T02:08:50Z",
-        "own_threads_recent_posts": "available; most recent 2026-11-04T09:02:04Z; post-level metrics not fully compared",
-        "inbox": "2 replies to recent posts, 6 replies to own replies; no new confirmed commercial response"
-      },
-      "instagram": {
-        "checked_at": "2026-11-04T12:34:30+02:00",
-        "posts": [
-          {
-            "date": "2026-11-02",
-            "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-            "comments": 0,
-            "interactions": 0,
-            "likes": 0,
-            "reach": 6
-          }
-        ],
-        "failed_publication": "2026-11-03 CableMap ERROR media container not created"
-      },
-      "external": {
-        "fresh_verified_posts": "unavailable: current artifact status skipped; alternative public web search returned no results",
-        "growth": "unavailable; do not infer zero views"
-      },
-      "leads": {
-        "public_sample_pages": 28,
-        "unique_candidates": 2,
-        "new_candidates": 0,
-        "commercially_qualified_orders": 0,
-        "confirmed_api_media_ids": 0,
-        "messages_sent_confirmed": 0,
-        "new_replies_confirmed": 0,
-        "active_negotiations_confirmed": 0,
-        "paid_orders_confirmed": 0,
-        "notable": "crestspot Flutter hiring with external email and November 9 deadline; vacancy not confirmed client project"
-      },
-      "decision": {
-        "scale": "No evidence for scaling a content type",
-        "remove": "Do not count unqualified hiring as paid buyer lead",
-        "test": "Find verified buyer contacts; repair Instagram media publication separately",
-        "queue_changed": false,
-        "reason": "External sample unavailable this hour and no measured conversion evidence"
-      }
-    },
-    {
       "at": "2026-11-04T14:36:40+02:00",
       "type": "deep_comparative_analysis",
       "runtime": {
@@ -1196,6 +1145,44 @@
         "test": "Check original Habr Freelance project links and eligibility before promoting source; do not infer verified buyers from digest",
         "queue_changed": false,
         "reason": "Fresh own Threads metrics and verified external engagement unavailable; Instagram returned no rows",
+        "messages_sent_confirmed": 0,
+        "new_buyer_replies_confirmed": 0,
+        "active_negotiations_confirmed": 0,
+        "paid_orders_confirmed": 0
+      }
+    },
+    {
+      "checked_at": "2026-11-13T06:40:26Z",
+      "local_slot": "2026-11-13 08:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-13T00:34:42Z",
+        "threads_analytics": "runtime artifact not extracted; fresh own metrics and inbox unavailable",
+        "instagram_metricool": "not retrieved in this run",
+        "external_threads": "web search did not provide independently verified recent Threads engagement metrics",
+        "public_search": "fresh public search produced irrelevant or historical posts, no verified paid mobile app order"
+      },
+      "lead_hunt": {
+        "telegram_scan_at": "2026-11-13T05:40:28Z",
+        "telegram_sources_checked": 8,
+        "telegram_messages_inspected": 0,
+        "telegram_alerts_sent": 0,
+        "rejected_archive_total": 495,
+        "rejected_since_nov12": 53,
+        "recent_rejected_sample": "reviewed excerpt keyword candidates; seller ads, unrelated vacancies, and general no-code news; no proven false negative",
+        "web_scout_at": "2026-11-13T02:10:31Z",
+        "web_cards_checked": 12,
+        "web_matches": 0,
+        "verified_paid_clients": 0,
+        "watchdog_commit": "7475fe15565ca20cb1a01c2936bc582b93541439",
+        "watchdog_run": "workflow appearance not yet confirmed"
+      },
+      "decision": {
+        "scale": "insufficient evidence",
+        "remove": "no unverified source promoted",
+        "test": "investigate stale Connect web scout and obtain valid Threads artifact metrics",
+        "queue_changed": false,
+        "reason": "no measured conversion evidence",
         "messages_sent_confirmed": 0,
         "new_buyer_replies_confirmed": 0,
         "active_negotiations_confirmed": 0,
