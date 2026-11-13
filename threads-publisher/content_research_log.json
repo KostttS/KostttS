@@ -3,38 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-05T18:39:04Z",
-      "local_analysis_slot": "2026-11-05 20:00 Asia/Jerusalem",
-      "type": "partial_deep_review_source_limitation",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-05T17:58:50Z, run 42079511644; artifact exists but content not decoded via available connector",
-        "lead_hunt_state": "2026-11-05T17:56:59Z",
-        "public_trends_last_full": "2026-11-05T02:45:03Z",
-        "instagram_metricool": "2026-11-05 20:39 Asia/Jerusalem"
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "published_at": "2026-11-02T07:21:04 (Metricool timestamp without explicit timezone)",
-          "reach": 6,
-          "views": 14,
-          "comments": 0,
-          "interactions": 0,
-          "follows": 0
-        }
-      ],
-      "own_threads": "unavailable: artifact ZIP contents not decoded; no fabricated numbers",
-      "external_posts": "unavailable fresh verified comparison; alternative public web search returned no matching results",
-      "buyer_contacts": "unverified: no artifact inbox available",
-      "decisions": {
-        "scale": "none without comparable evidence",
-        "remove": "none without comparable evidence",
-        "test": "no new post or reply queued",
-        "action": "Preserved existing queue; no duplicate contacts. Telegram queue 9 unpublished of 18; defer addition to daytime daily review.",
-        "limitation": "Deep comparison incomplete because runtime artifact content inaccessible through GitHub connector result; public search found no verified posts. No claims of delivered replies."
-      }
-    },
-    {
       "checked_at": "2026-11-05T20:36:08Z",
       "local_analysis_slot": "2026-11-05 22:00 Asia/Jerusalem",
       "type": "deep_review_partial_sources",
@@ -1054,6 +1022,32 @@
       "decision": {
         "queue_changed": false,
         "reason": "No verified direct buyer or comparable evidence to justify queue edit"
+      }
+    },
+    {
+      "checked_at": "2026-11-13T22:42:17Z",
+      "local_analysis_slot": "2026-11-14 00:00 Asia/Jerusalem",
+      "type": "partial_deep_review_source_limitation",
+      "own_threads": "Runtime pointer 2026-11-13T21:34:23Z, artifact content not accessible in this run; no verified metrics/inbox",
+      "own_instagram": "Metricool IG feed posts 2026-11-07 through 2026-11-14 returned rows=[]; no comparable post-level metrics",
+      "external_posts": "Public web search surfaced mostly Telegram job boards and stale listings, no 3 verifiable fresh Threads/Instagram competitor posts with engagement metrics",
+      "lead_hunter": {
+        "last_completed": "2026-11-13T22:35:25Z",
+        "inspected": 1,
+        "alerts": 0,
+        "web_cards_checked": 12,
+        "web_matches": 0,
+        "rejected_archive_total": 537,
+        "recent_rejection": "@slavelancers/550709 self-advertisement, correctly rejected",
+        "source_audit_last": "2026-11-13T16:24:51Z",
+        "source_promotions": 0
+      },
+      "decisions": {
+        "scale": "none supported",
+        "remove": "none supported",
+        "test": "seek original buyer briefs in founder communities; exclude salaried vacancies and paid-response boards",
+        "action": "No post/reply/source modifications; no validated buyer contacts",
+        "limitation": "No artifact decoding; no verified external engagement metrics. No claims of confirmed clients."
       }
     }
   ]
