@@ -3,82 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "at": "2026-11-04T14:36:40+02:00",
-      "type": "deep_comparative_analysis",
-      "runtime": {
-        "pointer_run_id": "41804098107",
-        "generated_at": "2026-11-04T09:03:49Z",
-        "staleness_hours": 3.55,
-        "artifact_zip_extracted": true,
-        "own_threads": [
-          {
-            "date": "2026-11-04",
-            "url": "https://www.threads.com/@konstantin47209/post/DfUFo6hllSw",
-            "views": 0,
-            "replies": 0,
-            "age_at_measurement_minutes": 2
-          },
-          {
-            "date": "2026-11-03",
-            "url": "https://www.threads.com/@konstantin47209/post/DfRd_r8latE",
-            "views": 1,
-            "replies": 0
-          },
-          {
-            "date": "2026-11-02",
-            "url": "https://www.threads.com/@konstantin47209/post/DfP4L1HmMLW",
-            "views": 30,
-            "replies": 0
-          },
-          {
-            "date": "2026-10-30",
-            "url": "https://www.threads.com/@konstantin47209/post/DfG9UMREatp",
-            "views": 47,
-            "likes": 3,
-            "replies": 2
-          }
-        ],
-        "inbox": "2 existing replies to posts and 6 replies to own replies; no confirmed new paid buyer response",
-        "external_trends": "skipped; previous verified sample at 2026-11-04T02:08:50Z; no current full post URLs in artifact",
-        "official_keyword_search": "0 results, public_search_unverified"
-      },
-      "instagram": {
-        "measured_at": "2026-11-04T14:36:40+02:00",
-        "post_date": "2026-11-02",
-        "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "views": 14,
-        "reach": 6,
-        "interactions": 0,
-        "comments": 0,
-        "follows": 0
-      },
-      "external": {
-        "fresh_verified_examples": "unavailable",
-        "alternative_web_search": "two alternative site:threads.com queries returned no results",
-        "historic_public_sample": "verified 04:08 local, stored metrics in trends_state.json but without URLs/author/text, not enough to infer mechanisms"
-      },
-      "leads": {
-        "last_scan_at": "2026-11-04T09:02:08Z",
-        "unique_candidates": 2,
-        "new_candidates": 0,
-        "qualified_paid_projects": 0,
-        "crestspot": "Flutter employment vacancy, deadline Nov 9; email given but not qualified paid development project",
-        "bilvaleaf": "internship, disqualified",
-        "confirmed_api_media_ids": 0,
-        "messages_sent_confirmed": 0,
-        "new_replies_confirmed": 0,
-        "active_negotiations_confirmed": 0,
-        "paid_orders_confirmed": 0
-      },
-      "decision": {
-        "scale": "No conversion-supported topic to scale; booking backend post has 47 views/2 replies but not a paid lead",
-        "remove": "Exclude internship and employment ads from buyer count",
-        "test": "Seek explicit project budget and deliverables before outreach; repair Instagram media container",
-        "queue_changed": false,
-        "reason": "Fresh 14:00 artifact unavailable, competitor examples lack verified context, tiny organic sample; avoid changing queue based on incomplete evidence"
-      }
-    },
-    {
       "at": "2026-11-04T16:34:00+02:00",
       "type": "deep_comparative_analysis",
       "runtime": {
@@ -1188,6 +1112,35 @@
         "active_negotiations_confirmed": 0,
         "paid_orders_confirmed": 0
       }
+    },
+    {
+      "at": "2026-11-13T10:39:21+02:00",
+      "type": "deep_comparative_analysis",
+      "runtime": {
+        "pointer_run_id": "43383497228",
+        "pointer_updated_at": "2026-11-13T07:09:18Z",
+        "artifact_contents": "not extracted in this review",
+        "own_threads_metrics": "unavailable",
+        "inbox": "not independently verified"
+      },
+      "instagram": {
+        "period": "2026-11-06 to 2026-11-13",
+        "metricool_feed_post_rows": 0,
+        "scheduled_posts_next_3d": 0
+      },
+      "external": {
+        "fresh_verified_threads_examples": "unavailable",
+        "alternative_web_search": "Public Telegram search yielded old or unrelated posts, no fresh verified buyer post; no competitor Threads metrics verified"
+      },
+      "lead_hunter": {
+        "last_completed_scan": "2026-11-13T07:41:27Z",
+        "checked_sources": 8,
+        "inspected_messages": 1,
+        "alerts_sent": 0,
+        "web_scout_last_report": "2026-11-13T02:10:31Z",
+        "new_verified_paid_orders": 0
+      },
+      "decision": "No evidence-based content queue change. Watchdog triggered for stale mobile lead scan; workflow run not yet confirmed."
     }
   ]
 }
