@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#031119">
-  <meta name="description" content="CableMap — mobile-first field workflow for structured cabling, fiber, Wi‑Fi and CCTV teams.">
+  <meta name="description" content="CableMap — map cabling, cabinets, patch panels and ports on site plans. Generate PDF as-built reports with cabinet-grouped connection schedules.">
   <title>CableMap — Map every cable. Know every port.</title>
   <style>
     :root{
@@ -559,6 +559,30 @@ section{padding:49px 0}
  .storm-mobile-overlay{opacity:.83;inset:-12px -12%}
 }
 
+/* As-built PDF feature: preserve the feature grid and existing hero design. */
+.pdf-feature{
+  display:grid;grid-template-columns:56px minmax(0,1fr) auto;align-items:center;gap:20px;
+  margin-top:16px;padding:19px 23px;border:1px solid rgba(74,223,244,.37);
+  border-radius:19px;background:linear-gradient(105deg,rgba(8,51,66,.92),rgba(3,27,42,.93));
+  box-shadow:inset 0 1px 0 rgba(189,254,255,.07),0 9px 29px rgba(0,0,0,.13)
+}
+.pdf-feature-icon{
+  width:54px;height:54px;border:1px solid rgba(91,244,249,.36);border-radius:14px;
+  display:grid;place-items:center;background:rgba(17,102,120,.25);color:#67f3f6
+}
+.pdf-feature-icon svg{width:28px;height:28px}
+.pdf-feature-text h3{margin:0 0 6px;font-size:19px;letter-spacing:-.02em;color:#f7fcff}
+.pdf-feature-tag{
+  display:inline-block;vertical-align:middle;margin-left:9px;padding:4px 7px;border-radius:5px;
+  background:rgba(24,179,179,.13);border:1px solid rgba(92,235,239,.3);
+  color:#80f4e9;font-size:10px;letter-spacing:.11em;white-space:nowrap
+}
+.pdf-feature-text p{margin:0;max-width:900px;font-size:14px;line-height:1.55;color:#b9d0d7}
+.pdf-feature-details{display:flex;flex-direction:column;gap:8px;min-width:200px;font-size:12px;color:#c9e9ef}
+.pdf-feature-details span::before{content:"✓";color:#6af3d8;margin-right:9px;font-weight:900}
+@media(max-width:1100px){.pdf-feature{grid-template-columns:54px minmax(0,1fr)}.pdf-feature-details{grid-column:2;flex-direction:row;flex-wrap:wrap;gap:10px 20px}}
+@media(max-width:620px){.pdf-feature{grid-template-columns:1fr;gap:11px;padding:18px}.pdf-feature-icon{width:44px;height:44px}.pdf-feature-details{grid-column:1}.pdf-feature-text h3{font-size:18px}}
+
 </style>
 </head>
 <body>
@@ -601,6 +625,7 @@ section{padding:49px 0}
             <span>No setup required</span>
             <span>Demo project included</span>
             <span>Use your own plan too</span>
+            <span>As-built PDF export</span>
           </div>
 
           <div class="mobile-note">ⓘ Prototype is mobile-first and optimized for phone screens.</div>
@@ -663,6 +688,23 @@ section{padding:49px 0}
             <h3>Structured data</h3>
             <p>Keep network documentation complete, understandable and up to date instead of scattered across notes and photos.</p>
           </article>
+        </div>
+        <div class="pdf-feature" aria-label="As-built PDF export feature">
+          <div class="pdf-feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 2h7l5 5v15H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"/>
+              <path d="M14 2v5h5M9 12h6M9 15h6M9 18h3"/>
+              <path d="M16 17v3m-2-2 2 2 2-2"/>
+            </svg>
+          </div>
+          <div class="pdf-feature-text">
+            <h3>As-built PDF reports <span class="pdf-feature-tag">PDF EXPORT</span></h3>
+            <p>Export a floor plan with its numbered network points and cabinets, followed by clear connection tables grouped by cabinet. Each row shows the point, patch panel and exact physical port — ready to share with your customer.</p>
+          </div>
+          <div class="pdf-feature-details" aria-label="PDF contents">
+            <span>Floor plan + points</span>
+            <span>Cabinet → panel → port</span>
+          </div>
         </div>
       </div>
     </section>
