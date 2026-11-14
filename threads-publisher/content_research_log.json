@@ -3,74 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-06T20:42:00Z",
-      "local_analysis_slot": "2026-11-06 22:00 Asia/Jerusalem",
-      "type": "partial_deep_analysis_latest_available_runtime",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-06T18:23:09Z",
-        "external_trends": "2026-11-06T18:21:56Z",
-        "instagram_metricool": "2026-11-06T20:42Z"
-      },
-      "own_threads": {
-        "recent_post": "https://www.threads.com/@konstantin47209/post/DfaPE80FK4R",
-        "views_at_runtime": 0,
-        "post_age_at_runtime_minutes": 3,
-        "previous_post": "https://www.threads.com/@konstantin47209/post/DfXnpPhCc7T",
-        "previous_views": 34,
-        "previous_age_hours": 24.4,
-        "followers": 6,
-        "link_clicks": 0
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "date": "2026-11-02",
-          "views": 14,
-          "reach": 6,
-          "interactions": 0,
-          "comments": 0
-        }
-      ],
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@sashanotonline/post/DfXZcPDiKz6",
-          "likes": 2595,
-          "replies": 1407,
-          "reposts": 9,
-          "mechanism": "direct open question about business performance creates many personal responses"
-        },
-        {
-          "url": "https://www.threads.com/@dresdain/post/DfXT5sJn3MN",
-          "likes": 3516,
-          "replies": 64,
-          "reposts": 128,
-          "mechanism": "specific useful accessibility tip, shareable"
-        },
-        {
-          "url": "https://www.threads.com/@meytianareyna/post/DfYBsTvjb2z",
-          "likes": 3307,
-          "replies": 13,
-          "reposts": 0,
-          "mechanism": "AI failure humor creates easy likes but weak buyer intent"
-        },
-        {
-          "url": "https://www.threads.com/@amberjadams/post/DfZlrTAIEd5",
-          "likes": 592,
-          "replies": 107,
-          "reposts": 43,
-          "mechanism": "controversial AI/business claim generates debate; claim itself unverified"
-        }
-      ],
-      "external_views": "unavailable",
-      "lead_status": "7 public buyer candidates, 3 newly discovered by last runtime; no validated official reply IDs; no API-confirmed outreach; new candidates include $3000 app brief, crowdfunding concept, and job ads requiring qualification",
-      "decision": {
-        "scale": "test question-led business posts while maintaining direct Flutter/Supabase offer",
-        "remove": "do not scale generic AI jokes without buyer conversion",
-        "test": "qualify budgeted mobile app buyer through legitimate contact route; no speculative replies"
-      },
-      "limitations": "Runtime 2h19m old at review, not a fresh 22:00 artifact; external engagement only as observed 20:21 local, not current; no verified new conversations or orders."
-    },
-    {
       "checked_at": "2026-11-07T00:38:19Z",
       "local_analysis_slot": "2026-11-07 02:00 Asia/Jerusalem",
       "type": "partial_deep_analysis_artifact_not_readable",
@@ -1016,6 +948,26 @@
       },
       "decision": "No new sources or classifier changes without confirmed original post and direct contact; keep buyer-only filters and existing content queue.",
       "lead_metrics": "0 verified delivered replies, 0 verified conversations, 0 paid orders in checked reports; Threads inbox not independently accessed."
+    },
+    {
+      "checked_at": "2026-11-14T20:38:25Z",
+      "local_analysis_slot": "2026-11-14 22:00 Asia/Jerusalem",
+      "type": "partial_deep_analysis_unverified_external_metrics",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-14T19:53:43Z; artifact contents not retrieved",
+        "instagram_metricool": "2026-11-14T20:38Z; queried posts 2026-11-07..14, rows=[]",
+        "external_posts": "public web search returned no recent dated verified engagement sample"
+      },
+      "own_threads": "current post metrics and inbox unavailable without artifact",
+      "own_instagram": "Metricool posts query returned empty rows; not evidence of no posts",
+      "external_posts": [],
+      "lead_status": "Direct scout report 18:21Z: 69 recent posts, 0 candidates, 0 sent. Telegram scan 19:39Z: 1 inspected, 0 alerts. One rejected bot request https://t.me/slavelancers/550742 could be a paid buyer, but original post inaccessible; not verified.",
+      "decision": {
+        "scale": "none without conversion evidence",
+        "remove": "do not promote job-heavy sources based on post volume",
+        "test": "review original bot request if accessible; continue direct buyer search"
+      },
+      "limitations": "No readable Threads runtime ZIP, no verified external engagement metrics, no verified direct buyer contact or conversation."
     }
   ]
 }
