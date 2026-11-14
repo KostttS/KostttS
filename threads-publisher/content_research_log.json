@@ -3,46 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-06T10:37:49Z",
-      "local_analysis_slot": "2026-11-06 12:00 Asia/Jerusalem",
-      "type": "partial_deep_analysis_sources_stale",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-06T03:38:06Z",
-        "lead_hunt_state": "2026-11-06T03:35:55Z",
-        "external_trends_state": "2026-11-05T02:45:03Z",
-        "instagram_metricool": "2026-11-06T10:37Z"
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "date": "2026-11-02",
-          "views": 14,
-          "reach": 6,
-          "interactions": 0,
-          "comments": 0,
-          "follows": 0
-        },
-        {
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "date": "2026-10-28",
-          "views": 11,
-          "reach": 6,
-          "interactions": 3,
-          "comments": 1,
-          "follows": 0
-        }
-      ],
-      "own_threads": "fresh artifact not retrieved; current metrics unavailable",
-      "external_posts": "fresh verified competitor post metrics unavailable; old trends_state not treated as fresh",
-      "lead_status": "No newly verified contact; last Threads hunt 2026-11-06T03:35:55Z; official reply ID unavailable for old public candidates",
-      "decision": {
-        "scale": "none; insufficient current buyer-conversion evidence",
-        "remove": "no changes",
-        "test": "retain existing 50/30/20 experiment; obtain fresh artifact before queue changes"
-      },
-      "limitations": "Deep comparison incomplete because latest runtime pointer is stale and external trends_state is older than one day; do not invent external examples."
-    },
-    {
       "checked_at": "2026-11-06T20:42:00Z",
       "local_analysis_slot": "2026-11-06 22:00 Asia/Jerusalem",
       "type": "partial_deep_analysis_latest_available_runtime",
@@ -1036,6 +996,26 @@
       },
       "decision": "No queue changes: missing current verified comparative post metrics and no validated buyer requests; no classifier changes without regression evidence.",
       "lead_metrics": "0 verified newly contacted buyers, 0 confirmed conversations or paid orders in reviewed reports; inbox not independently verified."
+    },
+    {
+      "checked_at": "2026-11-14T18:38:00Z",
+      "local_analysis_slot": "2026-11-14 20:00 Asia/Jerusalem",
+      "type": "partial_deep_analysis",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-14T15:00:25Z; artifact contents not retrieved",
+        "instagram_metricool": "2026-11-07 to 2026-11-14 posts query rows=[]",
+        "external_competitor_posts": "Public RU/EN search returned only CVs, salaried jobs, and old posts; no comparable verified engagement metrics"
+      },
+      "lead_hunter": {
+        "telegram_scan": "2026-11-14T17:41:34Z completed; 3 messages, 0 alerts",
+        "direct_web": "2026-11-14T18:21:14Z; 5 pages, 69 recent posts, 0 candidate leads, 0 alerts",
+        "connect": "2026-11-14T18:14:21Z; 12 cards checked, 0 matches",
+        "rejected_review": "553 rolling records; 61 dated Nov 13-14 reviewed",
+        "suspected_false_negative": "https://t.me/slavelancers/550742 asks for paid-channel signup bot; original and direct contact inaccessible, not verified as a payable client",
+        "source_audit": "8 checked, 0 promoted"
+      },
+      "decision": "No new sources or classifier changes without confirmed original post and direct contact; keep buyer-only filters and existing content queue.",
+      "lead_metrics": "0 verified delivered replies, 0 verified conversations, 0 paid orders in checked reports; Threads inbox not independently accessed."
     }
   ]
 }
