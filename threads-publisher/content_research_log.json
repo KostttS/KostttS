@@ -3,31 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-06T06:36:00Z",
-      "local_analysis_slot": "2026-11-06 08:00 Asia/Jerusalem",
-      "type": "partial_comparative_review_source_limitations",
-      "sources": {
-        "threads_runtime_pointer": "threads-runtime-42157514491-1, created 2026-11-06T03:38:06Z; artifact metadata verified, ZIP contents not read",
-        "buyer_hunt_state": "last scan 2026-11-06T03:35:55Z; no fresh 08h artifact",
-        "instagram_metricool": "2026-11-06 08:36 local",
-        "external_threads": "unavailable: current external_trends.json ZIP contents not retrieved",
-        "competitor_instagram": "unavailable: no verified competitor post metrics"
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "published_at": "2026-11-02 07:21:04 (Metricool date field)",
-          "reach": 6,
-          "comments": 0,
-          "interactions": 0,
-          "likes": 0
-        }
-      ],
-      "own_threads": "unavailable: current runtime ZIP content not retrieved",
-      "decision": "No changes to Threads/Instagram queue: insufficient verified current cross-platform and competitor evidence. Continue lead search and monitor replies.",
-      "lead_metrics": "No newly confirmed deliveries, replies, negotiations, or paid orders in inspected sources; inbox not verified live."
-    },
-    {
       "checked_at": "2026-11-06T08:34:36Z",
       "local_analysis_slot": "2026-11-06 10:00 Asia/Jerusalem",
       "type": "partial_comparative_review_source_limitations",
@@ -1032,6 +1007,31 @@
         "test": "seek direct buyer posts from founder communities; avoid salaried vacancies, reposts and paid-response boards",
         "action": "No content or scanner code change without confirmed evidence",
         "limitation": "Artifact not decoded, no confirmed original paid buyer brief or competitor metrics"
+      }
+    },
+    {
+      "at_utc": "2026-11-14T10:34:45Z",
+      "slot_local": "2026-11-14 12:00 Asia/Jerusalem",
+      "own_threads": "Runtime pointer 43574098450 (08:08 UTC), artifact not decoded; no verified post-level metrics or inbox.",
+      "own_instagram": "Metricool 2026-11-07..14 posts rows=[]; scheduled 2026-11-14..20=[]",
+      "external_posts": "Public web search returned Telegram bot project posts with unverified publication dates; no validated Threads/Instagram competitor engagement data.",
+      "lead_hunter": {
+        "telegram_last_completed": "2026-11-14T10:05:37Z",
+        "messages_inspected": 3,
+        "alerts_sent": 0,
+        "rejections_reviewed": 8,
+        "confirmed_false_negatives": 0,
+        "web_checked": "2026-11-14T10:29:34Z",
+        "web_cards_checked": 12,
+        "web_matches": 0,
+        "source_audit": "2026-11-14T00:19:07Z: 8 checked, 0 promoted"
+      },
+      "decisions": {
+        "scale": "no evidence",
+        "remove": "no evidence",
+        "test": "direct buyer Telegram mini-app briefs with free handles, validate date and openness",
+        "action": "No content edits; no scanner trigger (completed less than 50 minutes ago)",
+        "limitation": "No verified fresh paid brief or social analytics; no API-confirmed replies"
       }
     }
   ]
