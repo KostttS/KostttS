@@ -3,48 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-05T20:36:08Z",
-      "local_analysis_slot": "2026-11-05 22:00 Asia/Jerusalem",
-      "type": "deep_review_partial_sources",
-      "own_threads": {
-        "runtime_at": "2026-11-05T17:58:50Z",
-        "run_id": "42079511644",
-        "metrics": "unavailable: artifact ZIP listed but content not decoded",
-        "inbox": "unavailable"
-      },
-      "instagram": {
-        "period": "2026-10-29 to 2026-11-05",
-        "post": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "reach": 6,
-        "views": 14,
-        "interactions": 0,
-        "comments": 0,
-        "follows": 0,
-        "clicks": "unavailable",
-        "scheduled_posts_next_4_days": 0
-      },
-      "external_posts": "explicitly unavailable: latest verified trends_state sample 2026-11-05T02:45Z; public web searches returned no verifiable examples",
-      "leads": {
-        "last_hunt_at": "2026-11-05T17:56:59Z",
-        "confirmed_sent_this_run": 0,
-        "confirmed_replies_this_run": 0,
-        "confirmed_negotiations_this_run": 0,
-        "confirmed_paid_orders_this_run": 0
-      },
-      "watchdog": {
-        "last_completed_scan_at": "2026-11-05T19:42:53Z",
-        "trigger_commit": "c2dc291959649dd82edcab73ac2ed79022401142",
-        "new_run_verified": false
-      },
-      "decision": {
-        "scale": "no evidence",
-        "remove": "no evidence",
-        "test": "restore fresh runtime access and valid lead reply IDs",
-        "queue_changed": false,
-        "reason": "No fresh comparable Threads or external metrics; avoid unsupported changes"
-      }
-    },
-    {
       "checked_at": "2026-11-06T06:36:00Z",
       "local_analysis_slot": "2026-11-06 08:00 Asia/Jerusalem",
       "type": "partial_comparative_review_source_limitations",
@@ -1048,6 +1006,32 @@
         "test": "seek original buyer briefs in founder communities; exclude salaried vacancies and paid-response boards",
         "action": "No post/reply/source modifications; no validated buyer contacts",
         "limitation": "No artifact decoding; no verified external engagement metrics. No claims of confirmed clients."
+      }
+    },
+    {
+      "checked_at": "2026-11-14T06:36:45Z",
+      "local_analysis_slot": "2026-11-14 08:00 Asia/Jerusalem",
+      "type": "partial_deep_review_source_limitation",
+      "own_threads": "Runtime pointer 2026-11-14T01:42:32Z; artifact contents not decoded; no verified fresh metrics or inbox",
+      "own_instagram": "Metricool 2026-11-07 to 2026-11-14 feed rows=[]; scheduled posts 2026-11-14 to 18=[]",
+      "external_posts": "Public search returned Telegram vacancy boards and dated/unverified reposts; no verified fresh Threads/Instagram competitor engagement data",
+      "lead_hunter": {
+        "last_completed": "2026-11-14T05:36:59Z",
+        "messages_inspected": 2,
+        "alerts": 0,
+        "web_last_checked": "2026-11-14T03:23:32Z",
+        "web_cards_checked": 12,
+        "web_matches": 0,
+        "rejected_archive_total": 541,
+        "recent_rejections": "digital_partners_chat/69263 generic part-time; slavelancers/550710 developer self-promotion; both correctly rejected",
+        "source_audit": "2026-11-14T00:19:07Z; 8 candidates, 0 promotions"
+      },
+      "decisions": {
+        "scale": "not supported",
+        "remove": "not supported",
+        "test": "seek direct buyer posts from founder communities; avoid salaried vacancies, reposts and paid-response boards",
+        "action": "No content or scanner code change without confirmed evidence",
+        "limitation": "Artifact not decoded, no confirmed original paid buyer brief or competitor metrics"
       }
     }
   ]
