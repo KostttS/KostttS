@@ -3,36 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-07T00:38:19Z",
-      "local_analysis_slot": "2026-11-07 02:00 Asia/Jerusalem",
-      "type": "partial_deep_analysis_artifact_not_readable",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-06T23:19:18Z",
-        "lead_hunt_state": "2026-11-06T23:17:02Z",
-        "instagram_metricool": "2026-11-07T00:38Z"
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "date": "2026-11-02",
-          "views": 14,
-          "reach": 6,
-          "interactions": 0,
-          "comments": 0,
-          "follows": 0
-        }
-      ],
-      "own_threads": "fresh runtime artifact content not retrieved; no verified current post metrics",
-      "external_posts": "current verified external engagement metrics unavailable; prior examples not recycled",
-      "lead_status": "Latest lead hunt state scanned 01:17 Israel; no confirmed outbound contact in this check; inbox not freshly read",
-      "decision": {
-        "scale": "none without verified conversion evidence",
-        "remove": "none",
-        "test": "continue 50/30/20 hypothesis without modifying future queue"
-      },
-      "limitations": "GitHub connector exposes artifact download reference but no parsed ZIP content in this run; deep comparison incomplete. Instagram sample is a single post; no competitor metrics verified."
-    },
-    {
       "checked_at": "2026-11-07T06:40:36Z",
       "local_analysis_slot": "2026-11-07 08:00 Asia/Jerusalem",
       "type": "partial_deep_analysis_artifact_unavailable",
@@ -968,6 +938,81 @@
         "test": "review original bot request if accessible; continue direct buyer search"
       },
       "limitations": "No readable Threads runtime ZIP, no verified external engagement metrics, no verified direct buyer contact or conversation."
+    },
+    {
+      "checked_at": "2026-11-15T18:34:08Z",
+      "local_analysis_slot": "2026-11-15 20:00 Asia/Jerusalem",
+      "type": "partial_deep_analysis_artifact_not_read",
+      "source_cutoffs": {
+        "threads_runtime_pointer": "2026-11-15T17:27:54Z; runtime ZIP contents unavailable in this check",
+        "instagram_metricool": "2026-11-15 20:34 Israel; posts query Nov 1-15",
+        "direct_scout": "2026-11-15T17:41:58Z",
+        "telegram_scan": "2026-11-15T16:38:49Z"
+      },
+      "own_instagram": [
+        {
+          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
+          "date": "2026-11-02",
+          "comments": 0,
+          "interactions": 0,
+          "reach": 8,
+          "views": 18,
+          "follows": 0
+        }
+      ],
+      "own_threads": "runtime artifact not parsed; no fresh inbox or post metrics verified",
+      "external_posts": [],
+      "external_search": "Public web search for fresh RU/EN Threads and Telegram direct buyers yielded no original verified dated buyer post with measurable engagement; irrelevant jobs and contests excluded",
+      "direct_scout": {
+        "pages_fetched": 5,
+        "recent_posts_checked": 71,
+        "candidates": 0,
+        "notifications_sent": 0,
+        "source_stats": [
+          {
+            "source": "@job_for_bots",
+            "public_posts_visible": 20,
+            "web_preview_readable": true,
+            "recent_posts": 0,
+            "candidate_leads": 0
+          },
+          {
+            "source": "@aivacancychannel",
+            "public_posts_visible": 20,
+            "web_preview_readable": true,
+            "recent_posts": 15,
+            "candidate_leads": 0
+          },
+          {
+            "source": "@designwork_vacansii",
+            "public_posts_visible": 20,
+            "web_preview_readable": true,
+            "recent_posts": 20,
+            "candidate_leads": 0
+          },
+          {
+            "source": "@rueventjob",
+            "public_posts_visible": 20,
+            "web_preview_readable": true,
+            "recent_posts": 20,
+            "candidate_leads": 0
+          },
+          {
+            "source": "@talentedpeoples",
+            "public_posts_visible": 16,
+            "web_preview_readable": true,
+            "recent_posts": 16,
+            "candidate_leads": 0
+          }
+        ]
+      },
+      "review": "3 newest rejected messages in scan: one developer offering services, one deleted moderation notice, one subscription confirmation; no buyer request",
+      "decision": {
+        "scale": "none without qualified buyer conversions",
+        "remove": "none without source-level confirmed signal",
+        "test": "continue direct-buyer discovery, do not loosen classifier on seller ads"
+      },
+      "limitations": "No verified Threads runtime ZIP/inbox or external engagement comparisons; no confirmed direct order. Public preview zero is not proof of zero Telegram requests."
     }
   ]
 }
