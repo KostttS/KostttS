@@ -313,11 +313,11 @@
     "reply-2026-10-24-shalom-hummus",
     "reply-2026-10-30-kurosolutions-booking-sync"
   ],
-  "last_discovery_at": "2026-11-15T10:40:45.290198+00:00",
+  "last_discovery_at": "2026-11-15T17:27:10.104291+00:00",
   "last_discovery_had_errors": false,
-  "last_discovery_run_id": "43705137651",
+  "last_discovery_run_id": "43741060285",
   "last_discovery_run_attempt": "1",
-  "last_discovery_artifact_name": "threads-runtime-43705137651-1",
+  "last_discovery_artifact_name": "threads-runtime-43741060285-1",
   "failed_reply_ids": {
     "reply-2026-10-29-bike-taxi-mvp": {
       "reply_to_id": "4016165537571250202",
