@@ -3,37 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-09T02:38:00Z",
-      "local_slot": "2026-11-09 04:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis_limited_evidence",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-08T23:58:52Z",
-        "instagram_metricool": "2026-11-09T02:38Z",
-        "public_web": "2026-11-09T02:38Z"
-      },
-      "source_status": {
-        "threads": "runtime pointer and lead_hunt_state read; artifact content not retrieved; current own engagement and inbox unavailable",
-        "instagram": "Metricool Instagram feed post analytics Nov 5-9 returned empty rows; not proof of no posts",
-        "external": "public web search found mostly undated/old Telegram aggregator examples, not verified recent Threads posts with engagement"
-      },
-      "own_threads": [],
-      "own_instagram": [],
-      "external_examples": [],
-      "decision": "No queue change: insufficient fresh measured comparative evidence. No unverified buyer or dated old Telegram aggregator post promoted.",
-      "lead_hunter": {
-        "scan_at": "2026-11-09T02:35:07Z",
-        "status": "completed",
-        "sources_checked": 8,
-        "messages_inspected": 3,
-        "alerts_sent": 0,
-        "reviewed_new_rejections": 3,
-        "confirmed_paid_orders": 0,
-        "source_audit_at": "2026-11-08T20:37:30Z",
-        "sources_promoted": 0,
-        "bot_archive_last_message": "2026-11-08T17:44:33Z"
-      }
-    },
-    {
       "checked_at": "2026-11-09T10:38:00Z",
       "local_slot": "2026-11-09 12:00 Asia/Jerusalem",
       "type": "two_hour_deep_comparative_analysis",
@@ -967,6 +936,29 @@
         "No current external Threads metrics",
         "Only latest rejection excerpts sampled"
       ]
+    },
+    {
+      "checked_at": "2026-11-16T22:36:39Z",
+      "local_slot": "2026-11-17 00:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis_partial",
+      "source_status": {
+        "threads_runtime": "pointer updated 2026-11-16T18:59:45Z; runtime artifact not retrieved; engagement and inbox unverified",
+        "instagram": "Metricool Instagram feed analytics Nov 10-17 returned empty rows; scheduled posts Nov 15-19 returned empty; not proof of no posts",
+        "external": "web search yielded mostly stale or undated Telegram aggregations, no verified recent Threads engagement comparable examples"
+      },
+      "lead_hunter": {
+        "completed_at": "2026-11-16T21:40:37Z",
+        "messages_inspected": 2,
+        "alerts_sent": 0,
+        "direct_scout_at": "2026-11-16T21:00:31Z",
+        "direct_recent_posts": 77,
+        "direct_candidates": 0
+      },
+      "decisions": {
+        "queue_changed": false,
+        "reason": "No fresh measured comparison or verified paid buyer request; preserve content queue"
+      },
+      "limitations": "No artifact analytics, no verified competitor metrics, no confirmed outbound contacts in this review"
     }
   ]
 }
