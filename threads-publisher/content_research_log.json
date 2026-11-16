@@ -3,35 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-08T12:42:50Z",
-      "local_slot": "2026-11-08 14:00 Asia/Jerusalem",
-      "type": "deep_analysis_partial_evidence",
-      "own_threads": {
-        "status": "runtime_artifact_not_accessed",
-        "runtime_pointer_updated_at": "2026-11-08T09:14:56Z",
-        "engagement": "unavailable"
-      },
-      "own_instagram": {
-        "period": "2026-11-01 to 2026-11-08 14:42 Asia/Jerusalem",
-        "post_url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "published_at": "2026-11-02T07:21:04",
-        "comments": 0,
-        "interactions": 0,
-        "likes": 0,
-        "reach": 7,
-        "source": "Metricool blogId 6890763"
-      },
-      "external_threads": {
-        "status": "no_verified_current_external_post_metrics",
-        "examples": []
-      },
-      "decision": "No queue changes without comparable verified external Threads engagement and fresh own runtime. Public Telegram source search found no qualifying new direct mobile-app buyers.",
-      "limitations": [
-        "GitHub workflow artifact not read",
-        "No verified current external Threads engagement sample"
-      ]
-    },
-    {
       "checked_at": "2026-11-09T02:38:00Z",
       "local_slot": "2026-11-09 04:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis_limited_evidence",
@@ -959,6 +930,43 @@
         "test": "seek original paid mobile/MVP buyer requests; no speculative content edits"
       },
       "limitations": "No verified Threads runtime metrics, inbox, external competitor metrics; no confirmed order. Public Telegram visibility is incomplete."
+    },
+    {
+      "checked_at": "2026-11-16T20:37:42Z",
+      "local_slot": "2026-11-16 22:00 Asia/Jerusalem",
+      "type": "two_hour_deep_analysis_partial",
+      "lead_hunter": {
+        "telegram_scan": "2026-11-16T20:26:24Z completed",
+        "messages_inspected": 1,
+        "alerts_sent": 0,
+        "direct_scout": "2026-11-16T20:26:18Z",
+        "direct_recent_posts": 77,
+        "direct_candidates": 0,
+        "source_audit": "2026-11-16T16:57:31Z",
+        "promoted": 0
+      },
+      "own_threads": {
+        "runtime_pointer": "2026-11-16T18:59:45Z",
+        "metrics": "unavailable; artifact not retrieved"
+      },
+      "own_instagram": {
+        "metrics": "unavailable; Metricool not retrieved"
+      },
+      "external_threads": {
+        "verified_current_engagement_examples": [],
+        "status": "unavailable; public web search yielded Telegram aggregator posts, not verified recent Threads metrics"
+      },
+      "review": {
+        "latest_rejection": "https://t.me/web_development_ru/270",
+        "excerpt": "empty",
+        "confirmed_false_negative": 0
+      },
+      "decision": "No queue changes or speculative source promotions; no qualified direct buyers in latest report. Kwork listing excluded because gated.",
+      "limitations": [
+        "Current Threads artifact and Metricool analytics not read",
+        "No current external Threads metrics",
+        "Only latest rejection excerpts sampled"
+      ]
     }
   ]
 }
