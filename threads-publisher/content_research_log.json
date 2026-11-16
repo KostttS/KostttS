@@ -3,45 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-07T06:40:36Z",
-      "local_analysis_slot": "2026-11-07 08:00 Asia/Jerusalem",
-      "type": "partial_deep_analysis_artifact_unavailable",
-      "sources": {
-        "threads_runtime_pointer": "2026-11-07T02:55:13Z (stale 3h45m); ZIP not parsed",
-        "threads_lead_hunt": "2026-11-07T02:51:45Z (stale)",
-        "instagram_metricool": "2026-11-07T06:40Z",
-        "external_posts": "unavailable: fresh artifact ZIP not parsed; no verified fresh external metrics"
-      },
-      "own_instagram": [
-        {
-          "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-          "date": "2026-11-02",
-          "views": 14,
-          "reach": 6,
-          "interactions": 0,
-          "comments": 0,
-          "follows": 0
-        },
-        {
-          "url": "https://www.instagram.com/p/DfDAAhFCERl/",
-          "date": "2026-10-28",
-          "views": 11,
-          "reach": 6,
-          "interactions": 3,
-          "comments": 1,
-          "follows": 0
-        }
-      ],
-      "own_threads": "unavailable: latest runtime ZIP content not retrieved",
-      "lead_status": "No newly confirmed outbound, replies or orders; live Threads inbox not verified.",
-      "decision": {
-        "scale": "none without verified buyer signals",
-        "remove": "none",
-        "test": "continue 50/30/20 pending current data"
-      },
-      "limitations": "GitHub connector artifact ZIP not parsed; no verified fresh external competitor posts; Threads deep comparison incomplete. Watchdog triggered commit 0248da7; run not verified."
-    },
-    {
       "checked_at": "2026-11-08T08:40:28Z",
       "local_slot": "2026-11-08 10:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis",
@@ -1013,6 +974,29 @@
         "test": "continue direct-buyer discovery, do not loosen classifier on seller ads"
       },
       "limitations": "No verified Threads runtime ZIP/inbox or external engagement comparisons; no confirmed direct order. Public preview zero is not proof of zero Telegram requests."
+    },
+    {
+      "checked_at": "2026-11-16T16:36:59Z",
+      "local_analysis_slot": "2026-11-16 18:00 Asia/Jerusalem",
+      "type": "partial_deep_analysis",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-16T08:40:46Z; runtime ZIP not inspected",
+        "instagram_metricool": "2026-11-16 18:37 Asia/Jerusalem; posts analytics rows empty for Nov 9-16",
+        "external_posts": "public web search returned older Telegram aggregators; no 3 verified fresh Threads competitor posts with metrics"
+      },
+      "own_threads": "unavailable: artifact not parsed",
+      "own_instagram": "no rows returned for Nov 9-16; not evidence of zero reach",
+      "external_posts": [],
+      "lead_review": {
+        "telegram_candidate": "https://t.me/aivacancychannel/7426",
+        "description": "Telegram bot developer requested; budget unspecified, paid project unverified, no outreach"
+      },
+      "decision": {
+        "scale": "none",
+        "remove": "none",
+        "test": "continue buyer-specific content only after current analytics; no speculative edits"
+      },
+      "limitations": "No fresh Threads inbox or artifact comparison; no verified external Threads engagement metrics; scheduled Instagram posts Nov 15-20 empty. No content changes."
     }
   ]
 }
