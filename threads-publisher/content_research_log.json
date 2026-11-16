@@ -3,69 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-08T08:40:28Z",
-      "local_slot": "2026-11-08 10:00 Asia/Jerusalem",
-      "type": "deep_comparative_analysis",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-08T02:24:24Z",
-        "external_trends": "2026-11-08T02:23:25Z",
-        "lead_discovery": "2026-11-08T02:22:04Z",
-        "instagram_metricool": "2026-11-08T08:40Z"
-      },
-      "own_threads": [
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/Dfc8-S4FWI6",
-          "views": 64,
-          "likes": 0,
-          "replies": 0
-        },
-        {
-          "url": "https://www.threads.com/@konstantin47209/post/Dfb17KCFYwk",
-          "views": 5,
-          "likes": 0,
-          "replies": 0
-        }
-      ],
-      "own_instagram": {
-        "url": "https://www.instagram.com/p/DfOwbGlCBHD/",
-        "reach": 7,
-        "likes": 0,
-        "comments": 0,
-        "interactions": 0
-      },
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@am_belousova/post/DfcPHffiJGF",
-          "likes": 507,
-          "replies": 195,
-          "published_at": "2026-11-07T12:58:45Z",
-          "mechanism": "direct mutual support request to entrepreneurs"
-        },
-        {
-          "url": "https://www.threads.com/@michelletheluxnomad/post/DfcDfEKG2C-",
-          "likes": 288,
-          "replies": 52,
-          "published_at": "2026-11-07T11:17:06Z",
-          "mechanism": "investor perspective with strong speed-of-execution principle"
-        },
-        {
-          "url": "https://www.threads.com/@yaaaschef/post/DfcxnGwGaOz",
-          "likes": 279,
-          "replies": 42,
-          "published_at": "2026-11-07T18:00:09Z",
-          "mechanism": "personal conflict, not commercially relevant; do not copy"
-        }
-      ],
-      "lead_review": {
-        "url": "https://www.threads.com/@fazzu.tg/post/DfXGnXkE_9m",
-        "budget_usd": 3000,
-        "request": "mobile app",
-        "status": "candidate_not_contacted_no_verified_api_media_id"
-      },
-      "decision": "Keep future queue unchanged pending newer analytics; prioritize concrete customer problems and direct-contact leads; no speculative replies or personal stories.",
-      "limitations": "Runtime ~6h old, external views unavailable, no verified reply ID for buyer; competitor metrics are bounded public sample."
-    },
-    {
       "checked_at": "2026-11-08T12:42:50Z",
       "local_slot": "2026-11-08 14:00 Asia/Jerusalem",
       "type": "deep_analysis_partial_evidence",
@@ -997,6 +934,31 @@
         "test": "continue buyer-specific content only after current analytics; no speculative edits"
       },
       "limitations": "No fresh Threads inbox or artifact comparison; no verified external Threads engagement metrics; scheduled Instagram posts Nov 15-20 empty. No content changes."
+    },
+    {
+      "checked_at": "2026-11-16T18:43:31Z",
+      "local_analysis_slot": "2026-11-16 20:00 Asia/Jerusalem",
+      "type": "partial_deep_analysis",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-16T08:40:46Z; runtime artifact not retrieved",
+        "instagram_metricool": "2026-11-16 20:43 Asia/Jerusalem; Nov 9-16 posts analytics empty",
+        "direct_scout": "2026-11-16T15:47:18Z; 5 pages, 78 recent posts",
+        "telegram_scan": "2026-11-16T16:57:46Z; 1 message, 0 orders"
+      },
+      "own_threads": "unavailable: artifact and inbox not inspected",
+      "own_instagram": "no posts analytics rows returned for Nov 9-16; no inference of reach",
+      "external_posts": [],
+      "external_search": "Fresh public web search did not yield verified dated direct app-build buyer requests or comparable Threads competitor engagement; original Telegram URLs could not be opened by web tool",
+      "lead_review": {
+        "url": "https://t.me/aivacancychannel/7426",
+        "description": "Telegram bot request, not necessarily mobile app or Mini App; budget absent; no confirmed paid contract or contact"
+      },
+      "decision": {
+        "scale": "none without buyer conversions",
+        "remove": "none on incomplete evidence",
+        "test": "seek original paid mobile/MVP buyer requests; no speculative content edits"
+      },
+      "limitations": "No verified Threads runtime metrics, inbox, external competitor metrics; no confirmed order. Public Telegram visibility is incomplete."
     }
   ]
 }
