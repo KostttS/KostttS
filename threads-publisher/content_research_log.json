@@ -3,21 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-09T20:43:00Z",
-      "local_slot": "2026-11-09 22:00 Asia/Jerusalem",
-      "type": "two_hour_deep_comparative_analysis_partial",
-      "source_status": {
-        "threads_runtime": "runtime_pointer last updated 2026-11-09T16:02:23Z; artifact not fetched, own post analytics unavailable",
-        "instagram_metricool": "not fetched; metrics unavailable",
-        "external_trends": "not fetched; verified comparable posts unavailable",
-        "web_fallback": "public web search returned old mobile-app listings and unrelated Telegram posts; no verified paid request from last 7 days"
-      },
-      "own_threads": [],
-      "external_posts": [],
-      "qualified_paid_leads": 0,
-      "decision": "No queue changes without fresh verified engagement or buyer evidence; partial audit only."
-    },
-    {
       "checked_at": "2026-11-09T22:40:00Z",
       "local_slot": "2026-11-10 00:00 Asia/Jerusalem",
       "type": "two_hour_deep_comparative_analysis_partial",
@@ -953,6 +938,33 @@
       "confirmed_paid_leads": 0,
       "queue_changed": false,
       "limitations": "Incomplete comparative evidence; no basis for changing Threads/Instagram queue. Watchdog commit b702d83f34c3412d2e92738eb077152155af5774; workflow execution not verified."
+    },
+    {
+      "checked_at": "2026-11-18T00:40:57Z",
+      "local_slot": "2026-11-18 02:00 Asia/Jerusalem",
+      "type": "two_hour_deep_analysis_partial",
+      "lead_hunter": {
+        "telegram_scan": "2026-11-17T23:55:54Z completed; 1 message inspected, 0 possible orders, 0 alerts",
+        "direct_scout": "2026-11-17T22:20:08Z; 77 recent posts, 0 direct candidates, 0 notifications",
+        "web_scout": "2026-11-17T22:19:03Z; 12 cards checked, 0 matching open projects",
+        "rejected_review": "667 rolling entries; 80 dated 2026-11-16 onward; latest is staffing for video/AI creators, not app development",
+        "source_audit": "2026-11-17T16:51:08Z; 8 candidates, 0 promoted"
+      },
+      "own_threads": {
+        "runtime_pointer": "2026-11-17T11:04:00Z",
+        "metrics": "unavailable: artifact not retrieved; inbox and reply metrics unverified"
+      },
+      "own_instagram": {
+        "metricool": "2026-11-10 to 2026-11-18 feed analytics rows=[]; Nov 17-21 scheduled posts=[]",
+        "metrics": "unavailable, empty results not zero reach"
+      },
+      "external_posts": [],
+      "external_search": "Fresh public search yielded staffing and creative postings, no verified dated current Threads engagement examples or free-contact mobile software briefs",
+      "decision": {
+        "queue_changed": false,
+        "reason": "No comparable verified performance or qualified buyer leads; avoid speculative posts and source promotions"
+      },
+      "limitations": "Threads runtime artifact unavailable in this pass; no verified external Threads metrics or inbox; no paid contracts confirmed"
     }
   ]
 }
