@@ -3,39 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-09T22:40:00Z",
-      "local_slot": "2026-11-10 00:00 Asia/Jerusalem",
-      "type": "two_hour_deep_comparative_analysis_partial",
-      "lead_hunter": {
-        "last_completed": "2026-11-09T21:42:27Z",
-        "sources_checked": 8,
-        "messages_inspected": 0,
-        "alerts_sent": 0,
-        "rejected_archive_entries": 361,
-        "keyword_reviewed": 17,
-        "confirmed_false_negatives": 0,
-        "source_audit": "2026-11-09T17:15:20Z: 8 checked, 0 promoted",
-        "watchdog_commit": "f63be12f2ef4c34ff91def56ec81dec65ef61309"
-      },
-      "instagram": {
-        "metricool_feed_rows_last_7d": 0
-      },
-      "threads": {
-        "runtime_pointer": "2026-11-09T16:02:23Z",
-        "artifact_content": "not retrieved",
-        "verified_external_comparable_posts": 0
-      },
-      "web_fallback": {
-        "paid_scoping_upwork": "2026-11-05, $200, 20-50 proposals, platform-mediated; not a direct lead",
-        "polish_nocode_mvp": "2026-10-15, 10 applicants, outside 7d window",
-        "verified_direct_recent_low_competition_leads": 0
-      },
-      "decisions": {
-        "queue_changed": false,
-        "reason": "No fresh validated comparative engagement data or strong direct buyer brief; no evidence for code change."
-      }
-    },
-    {
       "checked_at": "2026-11-10T02:42:12Z",
       "local_slot": "2026-11-10 04:00 Asia/Jerusalem",
       "type": "deep_comparative_analysis_partial",
@@ -965,6 +932,29 @@
         "reason": "No comparable verified performance or qualified buyer leads; avoid speculative posts and source promotions"
       },
       "limitations": "Threads runtime artifact unavailable in this pass; no verified external Threads metrics or inbox; no paid contracts confirmed"
+    },
+    {
+      "checked_at": "2026-11-18T18:42:49Z",
+      "local_slot": "2026-11-18 20:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis_partial",
+      "lead_hunter": {
+        "scan": "2026-11-18T16:30:08Z completed; 8 sources; 0 messages; 0 alerts",
+        "direct_scout": "2026-11-18T13:55:38Z; 75 recent posts; 0 candidates",
+        "web_scout": "2026-11-18T17:38:15Z; 12 cards checked; 0 matches",
+        "source_audit": "2026-11-18T16:24:28Z; 8 candidates; 0 promoted",
+        "watchdog_commit": "366f865f550b49bc68c2a7e9292f4df6925d6e23"
+      },
+      "instagram": {
+        "metricool_feed_rows_last_7d": 0
+      },
+      "threads": {
+        "runtime_pointer": "2026-11-17T11:04:00Z",
+        "artifact_content": "not retrieved",
+        "inbox": "unavailable",
+        "verified_external_comparable_posts": 0
+      },
+      "web_fallback": "Search returned unrelated promotions, vacancies and undated/old development requests; no fresh verified direct buyer lead",
+      "decision": "No changes to content queue or classifier without fresh evidence; deep analysis incomplete because runtime artifact and comparable competitor metrics unavailable."
     }
   ]
 }
