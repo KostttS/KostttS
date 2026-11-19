@@ -271,3 +271,5 @@ Reason: as of 02:41 Asia/Jerusalem the most recent Threads Publisher workflow ru
 
 Recovery request 2026-11-03T11:38:00Z
 Reason: latest successful Threads Publisher run ended 2026-11-03T08:40Z, no runs for ~3 hours despite 7,22,37,52 cron. Trigger queue-safe analytics/inbox/lead_discovery refresh at 13:38 Asia/Jerusalem; do not publish original post outside 08-12 or 19-23 local; avoid duplicates.
+
+Trigger request 2026-11-19: publish queued threads-2026-11-19-netanya-shorts-winter via existing Threads Publisher workflow; do not duplicate if already published. Verify API success and state.
