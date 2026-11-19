@@ -1,11 +1,11 @@
 {
   "before": {
-    "audited_at": "2026-11-12T19:41:45.991785+02:00",
+    "audited_at": "2026-11-19T20:30:21.755020+02:00",
     "chat": {
       "username": "mobileapplication2026",
       "title": "Мобильные приложения для бизнеса | FlutterFlow",
       "description": "Мобильные приложения для бизнеса: FlutterFlow, Firebase/Supabase, API, платежи, карты, push, App Store/Google Play. Кейсы и практические разборы. Проект: oxta.ha@gmail.com | Портфолио: behance.net/24512dab | github.com/KostttS",
-      "member_count": 73,
+      "member_count": 72,
       "permissions": {
         "can_send_messages": false,
         "can_send_media_messages": false,
@@ -40,18 +40,18 @@
       }
     },
     "publishing": {
-      "published_count": 15,
-      "latest_message_id": 371
+      "published_count": 18,
+      "latest_message_id": 374
     }
   },
   "actions": [],
   "after": {
-    "audited_at": "2026-11-12T19:41:47.162538+02:00",
+    "audited_at": "2026-11-19T20:30:23.698238+02:00",
     "chat": {
       "username": "mobileapplication2026",
       "title": "Мобильные приложения для бизнеса | FlutterFlow",
       "description": "Мобильные приложения для бизнеса: FlutterFlow, Firebase/Supabase, API, платежи, карты, push, App Store/Google Play. Кейсы и практические разборы. Проект: oxta.ha@gmail.com | Портфолио: behance.net/24512dab | github.com/KostttS",
-      "member_count": 73,
+      "member_count": 72,
       "permissions": {
         "can_send_messages": false,
         "can_send_media_messages": false,
@@ -86,8 +86,8 @@
       }
     },
     "publishing": {
-      "published_count": 15,
-      "latest_message_id": 371
+      "published_count": 18,
+      "latest_message_id": 374
     }
   }
 }
