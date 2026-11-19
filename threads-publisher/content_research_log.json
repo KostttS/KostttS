@@ -3,36 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-10T18:38:56Z",
-      "local_slot": "2026-11-10 20:00 Asia/Jerusalem",
-      "type": "two_hour_deep_comparative_analysis_partial",
-      "lead_hunter": {
-        "last_completed": "2026-11-10T18:36:11Z",
-        "active_sources": 21,
-        "sources_checked": 8,
-        "messages_inspected": 1,
-        "alerts_sent": 0,
-        "rejected_archive_entries": 392,
-        "latest_rejection": "https://t.me/needdev/12770 UI/UX designer vacancy, not mobile build",
-        "source_audit": "2026-11-10T15:32:08Z 8 checked 0 promoted",
-        "source_audit_history_runs": 3
-      },
-      "instagram": {
-        "metricool_feed_rows_last_7d": 0,
-        "scheduled_posts_next_7d": 0
-      },
-      "threads": {
-        "runtime_pointer": "2026-11-10T07:09:48Z",
-        "artifact_content": "not retrieved",
-        "external_comparable_posts": "unavailable"
-      },
-      "web_fallback": {
-        "recent_direct_buyer_leads_confirmed": 0,
-        "notable_marketplace_result": "Freelancer FlutterFlow MVP £250-750, 135 proposals, conflicting indexed date/status; excluded"
-      },
-      "decision": "No queue or classifier edits without verified new buyer or engagement evidence; partial analysis, not zero market demand."
-    },
-    {
       "checked_at": "2026-11-11T06:37:27Z",
       "local_slot": "2026-11-11 08:00 Asia/Jerusalem",
       "type": "two_hour_deep_comparative_analysis_partial",
@@ -959,6 +929,30 @@
       "web_fallback": "Public search surfaced equity-only founder, full-time vacancies, and unverified-date FlutterFlow offline-sync collaboration; no verified recent direct paid order.",
       "telegram_queue": "18 posts all published; no new queue content added",
       "decision": "No changes to content or filters without verified buyer post and analytics. Analysis partial; cannot infer zero market demand."
+    },
+    {
+      "checked_at": "2026-11-19T18:36:37Z",
+      "local_slot": "2026-11-19 20:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis_partial",
+      "lead_hunter": {
+        "scan": "2026-11-19T16:30:51Z completed; 23 messages, 8 sources, 0 potential orders, 0 alerts; stale >2h",
+        "direct_scout": "2026-11-19T12:59:58Z; 71 recent posts; 1 unverified AI-agent/bot lead @aivacancychannel/7533; 0 notifications",
+        "web_scout": "2026-11-19T13:58:07Z; 12 checked; 1 gated Kwork listing excluded; 0 notifications",
+        "rejected_archive": "751 entries; 46 dated Nov 19; sampled latest 15 discussion/short replies; no confirmed buyer",
+        "source_audit": "2026-11-19T16:30:33Z 8 candidates; @produckty promoted on 1 weak AI-discussion snippet; buyer intent not independently verified"
+      },
+      "threads": {
+        "runtime_pointer": "2026-11-17T11:04:00Z stale",
+        "artifact_content": "not retrieved",
+        "inbox": "unavailable",
+        "own_metrics": "unavailable"
+      },
+      "instagram": {
+        "metricool_feed_rows_last_7d": 0
+      },
+      "external_examples": [],
+      "web_fallback": "Public search surfaced mainly marketplace retransmissions and undated posts; original @produckty/73064 and @aivacancychannel/7533 inaccessible via public opener. No comparable recent verified Threads/Instagram metrics.",
+      "decision": "Do not alter content queue or classifier without verified original and analytics; investigate @produckty promotion as potential false positive. Deep analysis incomplete."
     }
   ]
 }
