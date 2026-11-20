@@ -3,89 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-11T08:35:00Z",
-      "local_slot": "2026-11-11 10:00 Asia/Jerusalem",
-      "type": "two_hour_deep_comparative_analysis",
-      "source_cutoffs": {
-        "threads_runtime": "2026-11-11T08:19:28Z, run 42985749218",
-        "external_trends": "2026-11-11T08:18:13Z",
-        "instagram_metricool": "2026-11-11T08:35Z, requested IG feed metrics; empty rows"
-      },
-      "own_threads": {
-        "followers": 6,
-        "account_views_daily": [
-          {
-            "date": "2026-11-10",
-            "value": 2
-          },
-          {
-            "date": "2026-11-11",
-            "value": 0
-          }
-        ],
-        "likes": 0,
-        "replies": 0,
-        "link_clicks": 0,
-        "recent_posts_per_post_metrics": "null/unavailable; do not infer zero",
-        "new_commercial_inbox_replies": 0
-      },
-      "own_instagram": {
-        "feed_metrics": "rows=[]; no comparable post metrics returned"
-      },
-      "external_posts": [
-        {
-          "url": "https://www.threads.com/@turar_abdi/post/DfkF30YCEJV",
-          "published_at": "2026-11-10T14:11:53Z",
-          "likes": 262,
-          "replies": 77,
-          "reposts": 2,
-          "views": null,
-          "mechanism": "specific money figures and provocative retail-business question; adapt to app ROI without invented numbers"
-        },
-        {
-          "url": "https://www.threads.com/@zdhnik/post/DfkUajiDbFt",
-          "published_at": "2026-11-10T16:18:58Z",
-          "likes": 605,
-          "replies": 95,
-          "reposts": 6,
-          "views": null,
-          "mechanism": "specific practical news and useful timetable; not direct B2B lead"
-        },
-        {
-          "url": "https://www.threads.com/@nasa/post/DfXYNAJkZy2",
-          "published_at": "2026-11-05T15:41:56Z",
-          "likes": 3511,
-          "replies": 5,
-          "reposts": 4,
-          "views": null,
-          "mechanism": "real product-notification feedback and user benefit; brand scale incomparable"
-        }
-      ],
-      "external_sample": {
-        "status": "verified_public_sample",
-        "unique_posts": 78,
-        "pages": 24,
-        "high_engagement_candidates": 18
-      },
-      "leads": {
-        "threads_candidates": 5,
-        "new_candidates": 0,
-        "confirmed_api_reply_ids": 0,
-        "confirmed_paid_direct_clients": 0,
-        "notable": "Nov 5 $3000 mobile app brief has 164 replies and no verified reply ID; high competition, no message sent"
-      },
-      "lead_hunter": {
-        "last_completed_scan": "2026-11-11T07:45:57Z",
-        "inspected": 2,
-        "alerts": 0,
-        "new_rejected_messages": 2,
-        "confirmed_false_negatives": 0,
-        "source_audit_checked": 8,
-        "promoted": 0
-      },
-      "decision": "No content queue edit without comparable post-level performance. Test future business-specific posts using concrete workflow failure and direct paid-project CTA. No new messages sent."
-    },
-    {
       "checked_at_utc": "2026-11-11T12:34:27Z",
       "local_slot": "2026-11-11 14:00 Asia/Jerusalem",
       "own_threads_analytics": "unavailable_this_run: runtime artifact not downloaded",
@@ -941,6 +858,45 @@
       "external_examples": [],
       "web_fallback": "Public search returned irrelevant product news, advertisements and old posts; no verifiable recent buyer post or comparable competitor Threads metrics.",
       "decision": "No new posts or unverified lead notifications. Analysis partial due stale Threads runtime and unavailable comparable external metrics; avoid claiming market has zero demand."
+    },
+    {
+      "checked_at_utc": "2026-11-20T18:36:54Z",
+      "local_slot": "2026-11-20 20:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-17T11:04:00Z; stale; artifact not retrieved",
+        "instagram_metricool": "2026-11-20; IGPO02/06/08/12/14 rows=[]; scheduled posts=[]",
+        "external_public_search": "two targeted web searches; zero verifiable current external post metrics"
+      },
+      "own_threads": "unavailable: runtime artifact not retrieved; no new verified inbox metrics",
+      "own_instagram": "no feed rows returned; not proof of zero engagement",
+      "external_posts": [],
+      "lead_hunter": {
+        "last_completed_scan": "2026-11-20T17:42:31Z",
+        "inspected": 3,
+        "alerts": 0,
+        "today_rejections_reviewed": 15,
+        "confirmed_false_negatives": 0,
+        "source_audit_checked": 8,
+        "promoted": 0,
+        "direct_scout_report": "2026-11-20T11:32:56Z; 2 candidates, 1 notification, 0 confirmed clients; report stale",
+        "web_scout": "2026-11-20T12:14:46Z; 0 matches"
+      },
+      "telegram_publisher": {
+        "published": 18,
+        "unpublished": 0,
+        "last_publish": "2026-11-15"
+      },
+      "decision": {
+        "scale": "none without measured post performance",
+        "remove": "no changes",
+        "test": "prioritize buyer briefs with direct free contact; review scout recency",
+        "queue_changed": false,
+        "reason": "missing fresh comparable own and external post metrics",
+        "confirmed_sent_replies": 0,
+        "confirmed_new_buyer_responses": 0,
+        "confirmed_paid_orders": 0
+      }
     }
   ]
 }
