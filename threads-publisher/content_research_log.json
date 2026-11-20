@@ -3,29 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at_utc": "2026-11-11T12:34:27Z",
-      "local_slot": "2026-11-11 14:00 Asia/Jerusalem",
-      "own_threads_analytics": "unavailable_this_run: runtime artifact not downloaded",
-      "own_instagram_analytics": "unavailable_this_run: Metricool metrics not retrieved",
-      "external_sample": {
-        "status": "web_partial",
-        "note": "Public Dart Jobs posts found, but no verified dated comparable Threads/Instagram engagement metrics; no claims of viral examples"
-      },
-      "lead_hunter": {
-        "scan_time_utc": "2026-11-11T11:08:17Z",
-        "status": "completed",
-        "inspected": 2,
-        "alerts": 0,
-        "rejected_review_total": 414,
-        "latest_rejections_checked": 2,
-        "confirmed_false_negatives": 0,
-        "source_audit_checked": 8,
-        "promoted": 0,
-        "watchdog_commit": "7cd66195ad4e28f3ee9923e72729fcaba5f8c106"
-      },
-      "decision": "No content edits without current own performance and verified external comparable metrics; no verified new paid mobile client."
-    },
-    {
       "checked_at": "2026-11-12T06:36:14Z",
       "local_slot": "2026-11-12 08:00 Asia/Jerusalem",
       "type": "two_hour_deep_review",
@@ -893,6 +870,45 @@
         "test": "prioritize buyer briefs with direct free contact; review scout recency",
         "queue_changed": false,
         "reason": "missing fresh comparable own and external post metrics",
+        "confirmed_sent_replies": 0,
+        "confirmed_new_buyer_responses": 0,
+        "confirmed_paid_orders": 0
+      }
+    },
+    {
+      "checked_at_utc": "2026-11-20T20:34:20Z",
+      "local_slot": "2026-11-20 22:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-17T11:04:00Z stale; artifact not retrieved",
+        "instagram_metricool": "2026-11-20 IGPO01/03/06/08/12/14 rows=[]; scheduled=[]",
+        "external_public_search": "four Telegram originals attempted via web; inaccessible; no verifiable competitor Threads metrics"
+      },
+      "own_threads": "unavailable: stale pointer, no current verified inbox or engagement",
+      "own_instagram": "Metricool returned no feed rows, not evidence of zero reach",
+      "external_posts": [],
+      "lead_hunter": {
+        "last_completed_scan": "2026-11-20T19:38:32Z",
+        "inspected": 2,
+        "alerts": 0,
+        "rejections_reviewed": 2,
+        "confirmed_false_negatives": 0,
+        "source_audit_checked": 8,
+        "promoted": 0,
+        "direct_scout_report": "2026-11-20T20:12:14Z; 80 recent posts checked, 2 candidate bot/AI agent briefs, 0 notifications, 0 confirmed clients",
+        "web_scout": "2026-11-20T20:31:41Z; 1 gated unrelated TypeScript/Next.js audit; 0 notifications"
+      },
+      "telegram_publisher": {
+        "published": 18,
+        "unpublished": 0,
+        "last_publish": "2026-11-15"
+      },
+      "decision": {
+        "scale": "none without verified performance",
+        "remove": "none",
+        "test": "verify original Telegram buyer requests before alert; avoid gated cards",
+        "queue_changed": false,
+        "reason": "missing fresh comparable Threads/Instagram and external metrics; no proven regression",
         "confirmed_sent_replies": 0,
         "confirmed_new_buyer_responses": 0,
         "confirmed_paid_orders": 0
