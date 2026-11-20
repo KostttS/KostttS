@@ -3,41 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-11T06:37:27Z",
-      "local_slot": "2026-11-11 08:00 Asia/Jerusalem",
-      "type": "two_hour_deep_comparative_analysis_partial",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-11T01:27:39Z run 42938887129",
-        "threads_lead_hunt": "2026-11-11T01:25:55Z",
-        "instagram_metricool": "2026-11-11T06:37Z"
-      },
-      "own_threads": {
-        "metrics": "unavailable: artifact not downloaded",
-        "inbox": "unavailable",
-        "new_qualified_leads": "not verified"
-      },
-      "own_instagram": {
-        "feed_posts_2026_11_04_to_11_11": 0,
-        "scheduled_posts_next_7d": 0,
-        "engagement_comparison": "unavailable"
-      },
-      "external_examples": [],
-      "web_fallback": {
-        "results": "Old Upwork project pages with inconsistent indexed posting dates; no verified new <=7-day paid direct buyer post",
-        "verified_external_threads_posts_with_metrics": 0
-      },
-      "lead_hunter": {
-        "scan_completed_at": "2026-11-11T05:44:11Z",
-        "messages_inspected": 0,
-        "alerts_sent": 0,
-        "rejected_archive_total": 396,
-        "rejected_keyword_flagged": 72,
-        "new_rejections_2026_11_11": 1,
-        "latest_source_audit": "2026-11-11T00:00:37Z 8 checked 0 promoted"
-      },
-      "decision": "No content queue edit: no current comparable performance data or verified external examples. Watchdog triggered because last completed scanner run >50 min old. Partial analysis, not proof of absent demand."
-    },
-    {
       "checked_at": "2026-11-11T08:35:00Z",
       "local_slot": "2026-11-11 10:00 Asia/Jerusalem",
       "type": "two_hour_deep_comparative_analysis",
@@ -953,6 +918,29 @@
       "external_examples": [],
       "web_fallback": "Public search surfaced mainly marketplace retransmissions and undated posts; original @produckty/73064 and @aivacancychannel/7533 inaccessible via public opener. No comparable recent verified Threads/Instagram metrics.",
       "decision": "Do not alter content queue or classifier without verified original and analytics; investigate @produckty promotion as potential false positive. Deep analysis incomplete."
+    },
+    {
+      "checked_at": "2026-11-20T00:42:46Z",
+      "local_slot": "2026-11-20 02:00 Asia/Jerusalem",
+      "type": "two_hour_deep_comparative_analysis_partial",
+      "lead_hunter": {
+        "scan": "2026-11-19T22:40:06Z completed, 8 sources, 0 messages, 0 alerts; overdue at check",
+        "watchdog": "Triggered sources.txt at 00:42 UTC, commit 58d079dd5421079d0eeb0141dbc3f6e07e3b436a; workflow completion not yet verified",
+        "direct_scout": "2026-11-19T21:29:46Z, 74 recent posts, 1 bot/AI-agent candidate not verified as mobile paid buyer, 0 notifications",
+        "web_scout": "2026-11-19T22:16:51Z, 12 cards checked, 0 qualifying",
+        "source_audit": "@produckty previously promoted on AI-discussion snippet; sources.txt now has explicit pause; no validated paid buyer"
+      },
+      "threads": {
+        "runtime_pointer": "2026-11-17T11:04:00Z stale",
+        "own_metrics": "unavailable; artifact not inspected",
+        "inbox": "unavailable"
+      },
+      "instagram": {
+        "metricool_feed_rows_last_7d": 0
+      },
+      "external_examples": [],
+      "web_fallback": "Public search returned irrelevant product news, advertisements and old posts; no verifiable recent buyer post or comparable competitor Threads metrics.",
+      "decision": "No new posts or unverified lead notifications. Analysis partial due stale Threads runtime and unavailable comparable external metrics; avoid claiming market has zero demand."
     }
   ]
 }
