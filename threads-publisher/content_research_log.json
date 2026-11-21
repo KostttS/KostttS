@@ -3,31 +3,6 @@
   "description": "Evidence log for every two-hour Threads/Instagram content review; never claim competitor post analysis without direct post URLs and verified engagement metrics.",
   "entries": [
     {
-      "checked_at": "2026-11-12T06:36:14Z",
-      "local_slot": "2026-11-12 08:00 Asia/Jerusalem",
-      "type": "two_hour_deep_review",
-      "source_cutoffs": {
-        "threads_runtime_pointer": "2026-11-12T03:26:38Z",
-        "instagram_metricool": "2026-11-12 08:36 local, posts metric query returned rows=[]",
-        "external_public_search": "2026-11-12 08:36 local; no verified fresh Threads competitor post metrics"
-      },
-      "own_threads": "Current runtime artifact not retrieved; fresh views/replies not independently verified",
-      "instagram": [],
-      "external_threads": [],
-      "lead_hunt": "No verified new direct paid client from public Threads search",
-      "decision": {
-        "scale": "No evidence for scaling",
-        "remove": "No changes without data",
-        "test": "Prioritize direct buyer replies and actual commissioned briefs over generic reach",
-        "queue_changed": false,
-        "reason": "Current artifact content unavailable and Instagram metric query empty; competitor metrics unverified",
-        "messages_sent_confirmed": 0,
-        "new_buyer_replies_confirmed": 0,
-        "active_negotiations_confirmed": 0,
-        "paid_orders_confirmed": 0
-      }
-    },
-    {
       "checked_at": "2026-11-12T08:42:41Z",
       "local_slot": "2026-11-12 10:00 Asia/Jerusalem",
       "sources": {
@@ -912,6 +887,41 @@
         "confirmed_sent_replies": 0,
         "confirmed_new_buyer_responses": 0,
         "confirmed_paid_orders": 0
+      }
+    },
+    {
+      "checked_at": "2026-11-21T00:35:00Z",
+      "local_slot": "2026-11-21 02:00 Asia/Jerusalem",
+      "type": "two_hour_deep_review",
+      "sources": {
+        "threads_runtime_pointer": "2026-11-17T11:04:00Z; stale; artifact not extracted",
+        "instagram_metricool": "2026-11-14 to 2026-11-21, IGPO02/06/08/12/14 returned rows=[]",
+        "external_search": "2026-11-21 web searches for RU mobile buyer briefs and EN FlutterFlow Threads; results irrelevant, old or marketplace-gated; zero independently verified Threads competitor engagement examples"
+      },
+      "own_threads": {
+        "shorts_post": "User-reported ~1100 views in one day and many comments; not verified via API",
+        "current_metrics": "unavailable"
+      },
+      "external_threads": [],
+      "lead_hunt": {
+        "direct_report_at": "2026-11-20T22:17:15Z",
+        "known_notified": 7,
+        "outreach_unknown": 7,
+        "new_notifications": 0,
+        "confirmed_outreach": 0,
+        "confirmed_replies": 0,
+        "confirmed_wins": 0,
+        "telegram_scan_at": "2026-11-21T00:19:38Z",
+        "telegram_scan_status": "completed",
+        "new_rejections": 1,
+        "verified_false_negatives": 0
+      },
+      "decision": {
+        "scale": "Test concrete local contradictions and natural language, based on user's qualitative feedback, not proven conversion",
+        "remove": "Avoid abstract sterile polls and fabricated personal anecdotes",
+        "test": "Commercial buyer calls to action separately from broad HERO",
+        "queue_changed": false,
+        "reason": "Current own Threads artifact and competitor metrics unavailable; insufficient evidence for safe queue rewrite"
       }
     }
   ]
